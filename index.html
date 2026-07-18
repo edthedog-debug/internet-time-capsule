@@ -7,210 +7,412 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <style>
         :root {
-            --bg: #000000; --surface: #0a0a0a; --card: #0f0f0f;
-            --border: #1a1a1a; --text: #ffffff; --text2: #8e8e93;
-            --accent: #0a84ff; --green: #30d158; --red: #ff453a;
-            --orange: #ff9f0a; --purple: #bf5af2; --teal: #64d2ff;
-            --pink: #ff375f; --radius: 22px; --radius-sm: 14px;
+            --bg: #000000;
+            --card: #0a0a0a;
+            --border: #1c1c1c;
+            --text: #ffffff;
+            --text2: #98989d;
+            --accent: #0a84ff;
+            --green: #30d158;
+            --red: #ff453a;
+            --orange: #ff9f0a;
+            --purple: #bf5af2;
+            --pink: #ff375f;
+            --radius: 28px;
+            --radius-sm: 16px;
+            --font: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', system-ui, sans-serif;
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui; background: var(--bg); color: var(--text); -webkit-font-smoothing: antialiased; }
-        .container { max-width: 1600px; margin: 0 auto; padding: 20px; }
+        body { 
+            font-family: var(--font); 
+            background: var(--bg); 
+            color: var(--text); 
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            letter-spacing: -0.01em;
+        }
+        
+        /* Background ambient */
+        body::before {
+            content: ''; position: fixed; top: -50%; left: -50%; width: 200%; height: 200%;
+            background: radial-gradient(ellipse at 30% 20%, rgba(10,132,255,0.025) 0%, transparent 50%),
+                        radial-gradient(ellipse at 70% 60%, rgba(191,90,242,0.02) 0%, transparent 50%),
+                        radial-gradient(ellipse at 50% 80%, rgba(255,55,95,0.015) 0%, transparent 50%);
+            pointer-events: none; z-index: 0;
+        }
+        
+        .container { max-width: 1400px; margin: 0 auto; padding: 32px 24px; position: relative; z-index: 1; }
         
         /* Hero */
-        .hero { text-align: center; padding: 50px 20px 30px; position: relative; overflow: hidden; }
-        .hero::before { content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(ellipse at 50% 0%, rgba(10,132,255,0.04) 0%, transparent 60%); animation: drift 15s ease-in-out infinite; }
-        @keyframes drift { 0%,100% { transform: translate(0,0); } 50% { transform: translate(2%,1%); } }
-        .hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 200; letter-spacing: -1.5px; position: relative; }
-        .hero h1 span { font-weight: 700; background: linear-gradient(135deg, var(--accent), var(--purple), var(--pink)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .hero p { color: var(--text2); font-size: 1rem; margin-top: 6px; position: relative; font-weight: 300; }
-        .pill { display: inline-flex; align-items: center; gap: 6px; background: #30d15812; color: var(--green); padding: 5px 14px; border-radius: 100px; font-size: 0.78rem; font-weight: 500; margin-top: 12px; position: relative; }
-        .pill::before { content: ''; width: 5px; height: 5px; background: var(--green); border-radius: 50%; animation: pulse-dot 2s infinite; }
-        @keyframes pulse-dot { 0%,100% { opacity: 1; } 50% { opacity: 0.2; } }
-
-        /* Top bar */
-        .top-bar { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 30px; flex-wrap: wrap; }
-        .top-bar input[type="date"] { background: var(--card); border: 1px solid var(--border); color: var(--text); padding: 10px 18px; border-radius: var(--radius-sm); font-size: 0.9rem; font-family: inherit; outline: none; }
-        .top-bar input[type="date"]:focus { border-color: var(--accent); }
-        .top-bar button, .top-bar a { background: var(--card); border: 1px solid var(--border); color: var(--text); padding: 10px 20px; border-radius: var(--radius-sm); font-size: 0.85rem; cursor: pointer; font-family: inherit; font-weight: 500; text-decoration: none; display: inline-block; transition: 0.2s; }
-        .top-bar button:hover, .top-bar a:hover { border-color: var(--accent); color: var(--accent); }
-        .top-bar button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
-        .top-bar a.donate { background: #ff9f0a15; border-color: #ff9f0a30; color: var(--orange); display: flex; align-items: center; gap: 6px; }
-        .top-bar a.donate:hover { background: #ff9f0a25; border-color: var(--orange); }
-        .status { text-align: center; font-size: 0.82rem; margin-bottom: 20px; font-weight: 500; min-height: 22px; }
-
-        /* Intertemporal section */
-        .intertemporal { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; margin-bottom: 20px; }
-        .intertemporal h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
-        .intertemporal .controls { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 16px; }
-        .intertemporal select, .intertemporal input { background: #1a1a1a; border: 1px solid var(--border); color: var(--text); padding: 10px 16px; border-radius: var(--radius-sm); font-size: 0.85rem; font-family: inherit; outline: none; }
-        .intertemporal select:focus, .intertemporal input:focus { border-color: var(--accent); }
-        .intertemporal button { background: var(--accent); border: none; color: #fff; padding: 10px 20px; border-radius: var(--radius-sm); font-size: 0.85rem; cursor: pointer; font-family: inherit; font-weight: 500; }
-        .intertemporal .chart-area { height: 350px; position: relative; }
-        .intertemporal .chart-area canvas { width: 100% !important; height: 100% !important; }
-
-        /* Grid */
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(480px, 1fr)); gap: 14px; }
-        @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } .container { padding: 10px; } }
-
+        .hero { 
+            text-align: center; padding: 60px 20px 20px; 
+            display: flex; flex-direction: column; align-items: center; gap: 8px;
+        }
+        .hero h1 { 
+            font-size: clamp(2.4rem, 6vw, 4.2rem); font-weight: 200; 
+            letter-spacing: -2px; line-height: 1;
+        }
+        .hero h1 span { 
+            font-weight: 700; 
+            background: linear-gradient(135deg, #0a84ff 0%, #bf5af2 50%, #ff375f 100%); 
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .hero p { color: var(--text2); font-size: 1.05rem; font-weight: 350; max-width: 500px; }
+        .hero .live-dot { 
+            display: inline-flex; align-items: center; gap: 7px; 
+            font-size: 0.75rem; font-weight: 500; color: var(--green);
+            background: rgba(48,209,88,0.08); padding: 5px 14px; border-radius: 100px;
+            letter-spacing: 0.02em;
+        }
+        .hero .live-dot::before { 
+            content: ''; width: 6px; height: 6px; background: var(--green); border-radius: 50%;
+            animation: pulse 2s ease-in-out infinite;
+        }
+        @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.3; transform: scale(0.8); } }
+        
+        /* Controls bar */
+        .controls-bar {
+            display: flex; justify-content: center; align-items: center; gap: 10px;
+            padding: 20px 0 32px; flex-wrap: wrap;
+        }
+        .controls-bar input[type="date"], .controls-bar button, .controls-bar a {
+            background: var(--card); border: 1px solid var(--border); color: var(--text);
+            padding: 11px 20px; border-radius: 100px; font-size: 0.85rem;
+            font-family: var(--font); cursor: pointer; text-decoration: none;
+            transition: all 0.2s ease; font-weight: 450; letter-spacing: 0.01em;
+            display: inline-flex; align-items: center; gap: 6px;
+        }
+        .controls-bar input[type="date"] { min-width: 150px; outline: none; }
+        .controls-bar input[type="date"]:focus { border-color: var(--accent); }
+        .controls-bar button:hover, .controls-bar a:hover { border-color: #ffffff30; background: #111; }
+        .controls-bar button.accent { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 500; }
+        .controls-bar button.accent:hover { background: #0077ed; }
+        .controls-bar a.donate { 
+            background: rgba(255,159,10,0.08); border-color: rgba(255,159,10,0.2); color: var(--orange); 
+            font-weight: 500; margin-left: 4px;
+        }
+        .controls-bar a.donate:hover { background: rgba(255,159,10,0.15); border-color: var(--orange); }
+        
+        #statusMessage { text-align: center; font-size: 0.8rem; min-height: 20px; margin-bottom: 8px; font-weight: 450; }
+        
+        /* ============ SYMMETRIC GRID ============ */
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        @media (max-width: 900px) { .main-grid { grid-template-columns: 1fr; } }
+        
         /* Card */
-        .card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; position: relative; overflow: hidden; }
-        .card::after { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.03), transparent); }
-        .card-header { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 16px; }
-        .card-icon { font-size: 1.6rem; }
-        .card-title-group { flex: 1; }
-        .card-title { font-size: 1rem; font-weight: 600; letter-spacing: -0.2px; }
-        .card-subtitle { font-size: 0.75rem; color: var(--text2); margin-top: 1px; }
-        .card-badge { font-size: 0.65rem; padding: 3px 10px; border-radius: 100px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; white-space: nowrap; }
-        .badge-tech { background: #0a84ff18; color: var(--accent); }
-        .badge-finance { background: #30d15818; color: var(--green); }
-        .badge-nature { background: #ff9f0a18; color: var(--orange); }
-        .badge-space { background: #bf5af218; color: var(--purple); }
-        .badge-world { background: #ff375f18; color: var(--pink); }
-        .badge-science { background: #64d2ff18; color: var(--teal); }
-
-        /* Chart inside card */
-        .chart-wrap { height: 200px; margin-bottom: 12px; }
-        .chart-wrap canvas { width: 100% !important; height: 100% !important; }
-
+        .card {
+            background: var(--card); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 26px 28px;
+            transition: border-color 0.3s ease;
+            position: relative; overflow: hidden;
+        }
+        .card:hover { border-color: #ffffff10; }
+        .card-header { 
+            display: flex; align-items: center; gap: 14px; margin-bottom: 18px;
+        }
+        .card-icon { font-size: 1.7rem; line-height: 1; }
+        .card-info { flex: 1; }
+        .card-title { font-size: 0.95rem; font-weight: 600; letter-spacing: -0.2px; }
+        .card-subtitle { font-size: 0.72rem; color: var(--text2); margin-top: 2px; font-weight: 400; }
+        .card-badge { 
+            font-size: 0.6rem; padding: 4px 10px; border-radius: 100px; 
+            font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em;
+            white-space: nowrap;
+        }
+        .badge-tech { background: rgba(10,132,255,0.1); color: var(--accent); }
+        .badge-finance { background: rgba(48,209,88,0.1); color: var(--green); }
+        .badge-nature { background: rgba(255,159,10,0.1); color: var(--orange); }
+        .badge-space { background: rgba(191,90,242,0.1); color: var(--purple); }
+        .badge-world { background: rgba(255,55,95,0.1); color: var(--pink); }
+        
+        .chart-area { height: 200px; margin-bottom: 14px; position: relative; }
+        .chart-area canvas { width: 100% !important; height: 100% !important; }
+        
         /* Table */
-        .mini-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
-        .mini-table th { text-align: left; padding: 7px 5px; border-bottom: 1px solid var(--border); color: var(--text2); font-weight: 500; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.4px; }
-        .mini-table td { padding: 7px 5px; border-bottom: 1px solid #ffffff05; }
-        .mini-table tr:last-child td { border-bottom: none; }
-        .mini-table .val { text-align: right; font-variant-numeric: tabular-nums; font-family: 'SF Mono', monospace; }
-        .mini-table a { color: var(--text); text-decoration: none; }
-        .mini-table a:hover { color: var(--accent); }
-
+        .tbl { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+        .tbl th { text-align: left; padding: 7px 6px; border-bottom: 1px solid var(--border); color: var(--text2); font-weight: 500; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.05em; }
+        .tbl td { padding: 7px 6px; border-bottom: 1px solid #ffffff04; }
+        .tbl tr:last-child td { border-bottom: none; }
+        .tbl .num { text-align: right; font-variant-numeric: tabular-nums; font-family: 'SF Mono','Fira Code',monospace; font-size: 0.75rem; }
+        .tbl a { color: var(--text); text-decoration: none; transition: color 0.2s; }
+        .tbl a:hover { color: var(--accent); }
+        
+        /* Intertemporal */
+        .intertemporal {
+            background: var(--card); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 28px 32px; margin-bottom: 24px;
+        }
+        .intertemporal h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 6px; letter-spacing: -0.3px; }
+        .intertemporal .subtitle { color: var(--text2); font-size: 0.78rem; margin-bottom: 18px; }
+        .it-controls { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 16px; }
+        .it-controls select, .it-controls input {
+            background: #111; border: 1px solid var(--border); color: var(--text);
+            padding: 10px 16px; border-radius: 100px; font-size: 0.82rem;
+            font-family: var(--font); outline: none; cursor: pointer;
+        }
+        .it-controls select:focus, .it-controls input:focus { border-color: var(--accent); }
+        .it-controls button {
+            background: var(--accent); border: none; color: #fff;
+            padding: 10px 22px; border-radius: 100px; font-size: 0.82rem;
+            font-family: var(--font); font-weight: 500; cursor: pointer;
+        }
+        .it-chart-wrap { height: 340px; position: relative; }
+        .it-chart-wrap canvas { width: 100% !important; height: 100% !important; }
+        #itStatus { text-align: center; margin-top: 8px; font-size: 0.78rem; }
+        
+        /* Full-width sections */
+        .full-width { grid-column: 1 / -1; }
+        
         /* Tags */
-        .tag-row { display: flex; flex-wrap: wrap; gap: 6px; }
-        .tag { background: #ffffff06; padding: 5px 12px; border-radius: 100px; font-size: 0.76rem; }
-
+        .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+        .tag { background: #ffffff05; padding: 5px 13px; border-radius: 100px; font-size: 0.76rem; font-weight: 450; }
+        
         /* APOD */
         .apod-img { width: 100%; border-radius: var(--radius-sm); margin-bottom: 10px; }
-        .apod-text { font-size: 0.8rem; color: var(--text2); line-height: 1.5; }
-
+        .apod-txt { font-size: 0.8rem; color: var(--text2); line-height: 1.5; }
+        
         /* Loading */
-        .loading-wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 60px; grid-column: 1/-1; }
-        .loader { width: 28px; height: 28px; border: 2px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.7s linear infinite; }
+        .loading-wrap { display: flex; flex-direction: column; align-items: center; padding: 60px; grid-column: 1/-1; }
+        .loader { width: 26px; height: 26px; border: 2px solid #ffffff10; border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; }
         @keyframes spin { to { transform: rotate(360deg); } }
-        .error { grid-column: 1/-1; text-align: center; padding: 30px; background: #ff453a0a; border: 1px solid #ff453a20; border-radius: var(--radius); }
-        .error a { color: var(--accent); }
-        .full-width { grid-column: 1/-1; }
+        
+        .error-state { grid-column: 1/-1; text-align: center; padding: 40px; background: rgba(255,69,58,0.04); border: 1px solid rgba(255,69,58,0.15); border-radius: var(--radius); }
+        .error-state a { color: var(--accent); }
+        
+        /* Scroll */
+        ::-webkit-scrollbar { width: 3px; } ::-webkit-scrollbar-track { background: transparent; } ::-webkit-scrollbar-thumb { background: #ffffff10; border-radius: 4px; }
     </style>
 </head>
 <body>
     <div class="container">
+        <!-- Hero -->
         <div class="hero">
             <h1>Internet <span>Time Capsule</span></h1>
-            <p>A complete snapshot of human digital civilization — every 24 hours.</p>
-            <div class="pill">● Live • 00:00 UTC daily</div>
+            <p>A daily snapshot of human digital civilization.</p>
+            <span class="live-dot">Live · Updated every 24h at 00:00 UTC</span>
         </div>
-
-        <div class="top-bar">
+        
+        <!-- Controls -->
+        <div class="controls-bar">
             <input type="date" id="datePicker">
-            <button class="primary" onclick="loadSelectedDate()">Load Date</button>
+            <button class="accent" onclick="loadSelectedDate()">Load Date</button>
             <button onclick="loadToday()">Today</button>
-            <a href="https://github.com/sponsors/edthedog-debug" target="_blank" class="donate">♥ Sponsor on GitHub</a>
+            <a href="https://github.com/sponsors/edthedog-debug" target="_blank" class="donate">♥ Sponsor</a>
         </div>
-        <div class="status" id="statusMessage"></div>
-
-        <!-- Intertemporal Chart Section -->
-        <div class="intertemporal" id="intertemporalSection">
+        <div id="statusMessage"></div>
+        
+        <!-- Intertemporal -->
+        <div class="intertemporal">
             <h2>📈 Temporal Analysis</h2>
-            <p style="color:var(--text2);font-size:0.82rem;margin-bottom:14px;">Track a single metric across multiple days. Select a category, a specific item, and a date range.</p>
-            <div class="controls">
-                <select id="itCategory" onchange="updateITItemSelect()">
-                    <option value="">— Choose category —</option>
-                    <option value="weather">🌤️ Weather (by city)</option>
-                    <option value="air_quality">🌬️ Air Quality (by city)</option>
-                    <option value="earthquakes">🌋 Largest Earthquake Magnitude</option>
-                    <option value="crypto">₿ Crypto (by coin)</option>
-                    <option value="exchange_rates">💱 Exchange Rate (by currency)</option>
-                    <option value="github">💻 GitHub Top Repo Stars</option>
-                    <option value="hackernews">📰 HackerNews Top Score</option>
+            <p class="subtitle">Track a single metric over time. Select category, item, and date range.</p>
+            <div class="it-controls">
+                <select id="itCategory" onchange="updateITItems()">
+                    <option value="">— Category —</option>
+                    <option value="weather">🌤️ Temperature</option>
+                    <option value="air_quality">🌬️ Air Quality</option>
+                    <option value="earthquakes">🌋 Max Earthquake Mag</option>
+                    <option value="crypto">₿ Crypto Price</option>
+                    <option value="exchange_rates">💱 Exchange Rate</option>
+                    <option value="github">💻 GitHub Top Stars</option>
+                    <option value="hackernews">📰 HN Top Score</option>
                     <option value="reddit">🔴 Reddit Top Score</option>
-                    <option value="stackoverflow">📚 StackOverflow Top Score</option>
+                    <option value="stackoverflow">📚 SO Top Score</option>
                 </select>
-                <select id="itItem" style="min-width:160px;">
-                    <option value="">— Choose item —</option>
-                </select>
+                <select id="itItem"><option value="">— Item —</option></select>
                 <input type="date" id="itStart">
-                <span style="color:var(--text2);">to</span>
+                <span style="color:var(--text2);">–</span>
                 <input type="date" id="itEnd">
                 <button onclick="loadIntertemporal()">Plot</button>
             </div>
-            <div class="chart-area"><canvas id="itChart"></canvas></div>
-            <div id="itStatus" style="text-align:center;margin-top:8px;font-size:0.8rem;color:var(--text2);"></div>
+            <div class="it-chart-wrap"><canvas id="itChart"></canvas></div>
+            <div id="itStatus"></div>
         </div>
-
-        <div class="grid" id="dashboardGrid">
-            <div class="loading-wrap"><div class="loader"></div><p style="margin-top:14px;color:var(--text2);">Loading global snapshot...</p></div>
+        
+        <!-- Dashboard Grid -->
+        <div class="main-grid" id="dashboardGrid">
+            <div class="loading-wrap"><div class="loader"></div><p style="margin-top:14px;color:var(--text2);">Loading snapshot...</p></div>
         </div>
     </div>
 
     <script>
+        // ============ CONFIG ============
         const RAW = 'https://raw.githubusercontent.com/edthedog-debug/internet-time-capsule/main/capsules';
         const BAR_COLORS = ['#0a84ff','#bf5af2','#ff375f','#30d158','#ff9f0a','#64d2ff','#ff6482','#5e5ce6','#ffd60a','#ac8e68','#ff453a','#32d74b'];
         
         // ============ HELPERS ============
-        function todayPath() { const d=new Date(); return `${d.getFullYear()}/${String(d.getMonth()+1).padStart(2,'0')}/${String(d.getDate()).padStart(2,'0')}`; }
-        function fmt(n) { if(n==null||n===0) return '—'; if(n>=1e9) return (n/1e9).toFixed(1)+'B'; if(n>=1e6) return (n/1e6).toFixed(1)+'M'; if(n>=1e3) return (n/1e3).toFixed(1)+'K'; return n.toLocaleString(); }
-        async function fJSON(u) { try { const r=await fetch(u); if(!r.ok) throw new Error(); return await r.json(); } catch(e) { return null; } }
-        async function fText(u) { try { const r=await fetch(u); if(!r.ok) throw new Error(); return await r.text(); } catch(e) { return null; } }
-
+        const todayPath = () => { const d=new Date(); return `${d.getFullYear()}/${String(d.getMonth()+1).padStart(2,'0')}/${String(d.getDate()).padStart(2,'0')}`; };
+        const fmt = n => { if(n==null||n===0) return '—'; if(n>=1e9) return (n/1e9).toFixed(1)+'B'; if(n>=1e6) return (n/1e6).toFixed(1)+'M'; if(n>=1e3) return (n/1e3).toFixed(1)+'K'; return n.toLocaleString(); };
+        const fJSON = async u => { try { const r=await fetch(u); if(!r.ok) throw new Error(); return await r.json(); } catch(e) { return null; } };
+        
         async function loadDate(datePath) {
-            const b = `${RAW}/${datePath}/global`;
-            const d = {};
-            for (const f of ['github_trending','hackernews','stackoverflow','reddit','exchange_rates','crypto','earthquakes','nasa_apod','iss_position','people_in_space','all_countries','holidays_today','weather_25_cities','covid_global']) d[f] = await fJSON(`${b}/${f}.json`);
+            const b = `${RAW}/${datePath}/global`; const d = {};
+            const files = ['github_trending','hackernews','stackoverflow','reddit','exchange_rates','crypto','earthquakes','nasa_apod','iss_position','people_in_space','all_countries','holidays_today','weather_25_cities','covid_global'];
+            for (const f of files) d[f] = await fJSON(`${b}/${f}.json`);
             for (const l of ['en','es','fr','de','ja']) d[`wiki_${l}`] = await fJSON(`${b}/wikipedia_${l}.json`);
             for (const c of ['nyc','london','tokyo','delhi','sao_paulo']) d[`aq_${c}`] = await fJSON(`${b}/air_quality_${c}.json`);
             return d;
         }
-
-        function barChart(canvasId, labels, values, colorFn) {
-            const ctx = document.getElementById(canvasId); if(!ctx) return;
+        
+        function hasData(d) { return d && Object.values(d).some(v => (Array.isArray(v)&&v.length>0) || (v&&typeof v==='object'&&Object.keys(v).length>0)); }
+        
+        // ============ BAR CHARTS ============
+        function barChart(id, labels, values, colorFn) {
+            const ctx = document.getElementById(id); if(!ctx) return;
             new Chart(ctx, {
-                type: 'bar',
-                data: { labels, datasets: [{ data: values, backgroundColor: values.map((v,i) => colorFn ? colorFn(v,i) : BAR_COLORS[i % BAR_COLORS.length]), borderRadius: 6, borderSkipped: false }] },
-                options: {
-                    responsive: true, maintainAspectRatio: false,
-                    plugins: { legend: { display: false } },
-                    scales: {
-                        x: { ticks: { color: '#8e8e93', font: { size: 10 }, maxRotation: 45 }, grid: { display: false } },
-                        y: { ticks: { color: '#8e8e93', font: { size: 10 } }, grid: { color: '#ffffff05' } }
-                    }
-                }
+                type: 'bar', data: { labels, datasets: [{ data: values, backgroundColor: values.map((v,i)=>colorFn?colorFn(v,i):BAR_COLORS[i%BAR_COLORS.length]), borderRadius: 8, borderSkipped: false }] },
+                options: { responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, scales:{x:{ticks:{color:'#98989d',font:{size:10},maxRotation:45},grid:{display:false}},y:{ticks:{color:'#98989d',font:{size:10}},grid:{color:'#ffffff04'}}} }
             });
         }
-
-        function lineChart(canvasId, labels, values, color='#0a84ff') {
-            const ctx = document.getElementById(canvasId); if(!ctx) return null;
+        
+        function lineChart(id, labels, values, color='#0a84ff') {
+            const ctx = document.getElementById(id); if(!ctx) return null;
+            const existing = Chart.getChart(id); if(existing) existing.destroy();
             return new Chart(ctx, {
-                type: 'line',
-                data: { labels, datasets: [{ data: values, borderColor: color, backgroundColor: color+'20', borderWidth: 2, tension: 0.35, pointRadius: 2, pointHoverRadius: 5, fill: true }] },
-                options: {
-                    responsive: true, maintainAspectRatio: false,
-                    plugins: { legend: { display: false } },
-                    scales: {
-                        x: { ticks: { color: '#8e8e93', font: { size: 10 }, maxTicksLimit: 12 }, grid: { color: '#ffffff05' } },
-                        y: { ticks: { color: '#8e8e93', font: { size: 10 } }, grid: { color: '#ffffff05' } }
-                    }
-                }
+                type: 'line', data: { labels, datasets: [{ data: values, borderColor: color, backgroundColor: color+'18', borderWidth: 2.5, tension: 0.35, pointRadius: 1.5, pointHoverRadius: 5, fill: true }] },
+                options: { responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, scales:{x:{ticks:{color:'#98989d',font:{size:10},maxTicksLimit:14},grid:{color:'#ffffff04'}},y:{ticks:{color:'#98989d',font:{size:10}},grid:{color:'#ffffff04'}}} }
             });
         }
-
-        function cardHTML(icon, title, subtitle, badge, badgeClass, chartId, tableHTML, fullWidth=false) {
-            const chartDiv = chartId ? `<div class="chart-wrap"><canvas id="${chartId}"></canvas></div>` : '';
-            return `<div class="card${fullWidth?' full-width':''}">
-                <div class="card-header"><span class="card-icon">${icon}</span><div class="card-title-group"><div class="card-title">${title}</div><div class="card-subtitle">${subtitle}</div></div><span class="card-badge ${badgeClass}">${badge}</span></div>
-                ${chartDiv}${tableHTML}</div>`;
+        
+        // ============ CARD BUILDER ============
+        function card(icon, title, subtitle, badge, badgeClass, chartId, tableRows, headers, full=false) {
+            const chartDiv = chartId ? `<div class="chart-area"><canvas id="${chartId}"></canvas></div>` : '';
+            const tbl = tableRows && tableRows.length > 0 ? 
+                `<table class="tbl"><thead><tr>${headers.map(h=>`<th>${h}</th>`).join('')}</tr></thead><tbody>${tableRows.map(r=>`<tr>${r.map((c,i)=>`<td class="${i===headers.length-1||i===headers.length-2?'num':''}">${c}</td>`).join('')}</tr>`).join('')}</tbody></table>` : '';
+            return `<div class="card${full?' full-width':''}">
+                <div class="card-header"><span class="card-icon">${icon}</span><div class="card-info"><div class="card-title">${title}</div><div class="card-subtitle">${subtitle}</div></div><span class="card-badge ${badgeClass}">${badge}</span></div>
+                ${chartDiv}${tbl}</div>`;
         }
-
-        function tableHTML(headers, rows) {
-            return `<table class="mini-table"><thead><tr>${headers.map(h=>`<th>${h}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map((c,i)=>`<td class="${i===headers.length-1||i===headers.length-2?'val':''}">${c}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+        
+        // ============ RENDER ============
+        function render(data) {
+            const grid = document.getElementById('dashboardGrid');
+            let html = ''; const charts = [];
+            
+            // WEATHER (bar)
+            const we = data.weather_25_cities;
+            if (we && typeof we === 'object') {
+                const cities = Object.entries(we).filter(([,v])=>v&&v.temp!=null).sort((a,b)=>b[1].temp-a[1].temp);
+                if (cities.length > 0) {
+                    const id = 'b_weather';
+                    html += card('🌤️','Global Temperatures','Comparison across major cities','comparable','badge-nature',id,
+                        cities.slice(0,10).map(([n,v])=>[n.replace(/_/g,' '),`<span style="color:${v.temp>30?'#ff453a':v.temp>20?'#ff9f0a':v.temp>10?'#30d158':'#64d2ff'}">${v.temp}°C</span>`,v.humidity?v.humidity+'%':'—',v.wind?v.wind+' km/h':'—']),
+                        ['City','Temp','Humidity','Wind']);
+                    const top15 = cities.slice(0,15);
+                    charts.push({id,labels:top15.map(([n])=>n.replace(/_/g,' ')),values:top15.map(([,v])=>v.temp),color:v=>v>30?'#ff453a':v>20?'#ff9f0a':v>10?'#30d158':'#64d2ff'});
+                }
+            }
+            
+            // AIR QUALITY (bar)
+            const aqKeys = ['nyc','london','tokyo','delhi','sao_paulo'];
+            const aqAll = aqKeys.map(k=>data[`aq_${k}`]).filter(Boolean);
+            if (aqAll.length > 0) {
+                const id = 'b_aq';
+                html += card('🌬️','Air Quality Index','Comparison across cities','comparable','badge-nature',id,
+                    aqAll.map(a=>[(a.city||'?').toUpperCase(),`<span style="color:${(a.aqi||0)>100?'#ff453a':(a.aqi||0)>50?'#ff9f0a':'#30d158'}">${a.aqi||'—'}</span>`,(a.pm25||'—')+' µg',(a.pm10||'—')+' µg']),
+                    ['City','AQI','PM2.5','PM10']);
+                charts.push({id,labels:aqAll.map(a=>(a.city||'?').toUpperCase()),values:aqAll.map(a=>a.aqi||0),color:v=>v>100?'#ff453a':v>50?'#ff9f0a':'#30d158'});
+            }
+            
+            // EARTHQUAKES (bar)
+            const eq = data.earthquakes;
+            if (eq && Array.isArray(eq) && eq.length > 0) {
+                const id = 'b_eq'; const s = [...eq].sort((a,b)=>(b.magnitude||0)-(a.magnitude||0));
+                html += card('🌋','Seismic Activity','Largest earthquakes today','comparable','badge-nature',id,
+                    s.slice(0,10).map(q=>[(q.place||'?').substring(0,40),`<span style="color:${(q.magnitude||0)>=5?'#ff453a':(q.magnitude||0)>=3?'#ff9f0a':'#30d158'}">${(q.magnitude||0).toFixed(1)}</span>`,q.depth?q.depth.toFixed(0)+' km':'—']),
+                    ['Location','Mag','Depth']);
+                const top10 = s.slice(0,10);
+                charts.push({id,labels:top10.map(q=>(q.place||'?').split(',')[0].substring(0,18)),values:top10.map(q=>q.magnitude||0),color:v=>v>=5?'#ff453a':v>=3?'#ff9f0a':'#30d158'});
+            }
+            
+            // EXCHANGE RATES (bar)
+            const fx = data.exchange_rates;
+            if (fx && fx.rates && Object.keys(fx.rates).length > 0) {
+                const id = 'b_fx'; const m = ['EUR','GBP','JPY','CNY','INR','BRL','CAD','AUD','CHF','KRW','MXN','RUB'];
+                const rates = m.filter(c=>fx.rates[c]).map(c=>[c,fx.rates[c]]);
+                html += card('💱','Exchange Rates','vs USD • '+Object.keys(fx.rates).length+' currencies','comparable','badge-finance',id,
+                    rates.slice(0,10).map(([c,r])=>[`<strong>${c}</strong>`,r.toFixed(4)]),['Currency','Rate']);
+                charts.push({id,labels:rates.map(([c])=>c),values:rates.map(([,r])=>r),color:null});
+            }
+            
+            // COUNTRIES (bar)
+            const cnt = data.all_countries;
+            if (cnt && Array.isArray(cnt) && cnt.length > 0) {
+                const id = 'b_cnt'; const s = [...cnt].sort((a,b)=>(b.population||0)-(a.population||0));
+                html += card('🌍','World Population',`${cnt.length} countries`,'comparable','badge-world',id,
+                    s.slice(0,10).map(c=>[c.country||'?',fmt(c.population),c.region||'—']),['Country','Population','Region']);
+                const top12 = s.slice(0,12);
+                charts.push({id,labels:top12.map(c=>c.country||'?'),values:top12.map(c=>c.population||0),color:null});
+            }
+            
+            // SPACE (full-width)
+            const astro = data.people_in_space, iss = data.iss_position, nasa = data.nasa_apod;
+            if (astro || iss || nasa) {
+                let sh = '<div class="card full-width"><div class="card-header"><span class="card-icon">🛰️</span><div class="card-info"><div class="card-title">Space Explorer</div><div class="card-subtitle">ISS · NASA · Astronauts</div></div><span class="card-badge badge-space">LIVE</span></div><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">';
+                if (astro && astro.people && astro.people.length > 0) sh += `<div><h4 style="font-size:0.75rem;color:var(--text2);margin-bottom:8px;">🚀 ${astro.total||0} People in Orbit</h4><div class="tags">${astro.people.map(p=>`<span class="tag">${p.name} <span style="color:var(--text2);">${p.craft}</span></span>`).join('')}</div></div>`;
+                if (iss && iss.lat) sh += `<div><h4 style="font-size:0.75rem;color:var(--text2);margin-bottom:8px;">📍 ISS Position</h4><div style="font-size:1.6rem;font-weight:200;">${parseFloat(iss.lat).toFixed(4)}° / ${parseFloat(iss.lon).toFixed(4)}°</div></div>`;
+                if (nasa && nasa.url) sh += `<div><h4 style="font-size:0.75rem;color:var(--text2);margin-bottom:8px;">🔭 ${nasa.title||'APOD'}</h4>${nasa.media_type==='image'?`<img src="${nasa.url}" class="apod-img" onerror="this.style.display='none'" alt="APOD">`:''}<p class="apod-txt">${(nasa.explanation||'').substring(0,180)}...</p></div>`;
+                sh += '</div></div>'; html += sh;
+            }
+            
+            // GITHUB (list only)
+            const gh = data.github_trending;
+            if (gh && Array.isArray(gh) && gh.length > 0) {
+                html += card('💻','GitHub Trending','Most starred repos today','list','badge-tech',null,
+                    gh.slice(0,8).map(r=>[`<a href="${r.url||'#'}" target="_blank">${(r.name||'?').split('/')[1]||r.name||'?'}</a>`,fmt(r.stars),r.language||'—']),
+                    ['Repository','Stars','Language']);
+            }
+            
+            // CRYPTO (list only)
+            const cr = data.crypto;
+            if (cr && Array.isArray(cr) && cr.length > 0) {
+                html += card('₿','Crypto Market','Top by market cap','list','badge-finance',null,
+                    cr.slice(0,8).map(c=>[`${c.name||'?'} <span style="color:var(--text2);font-size:0.7rem;">${(c.symbol||'').toUpperCase()}</span>`,c.price?'$'+c.price.toLocaleString():'—',`<span style="color:${(c.change_24h||0)>=0?'#30d158':'#ff453a'}">${(c.change_24h||0)>=0?'↑':'↓'}${Math.abs(c.change_24h||0).toFixed(1)}%</span>`]),
+                    ['Name','Price','24h']);
+            }
+            
+            // HACKER NEWS (list only)
+            const hn = data.hackernews;
+            if (hn && Array.isArray(hn) && hn.length > 0) {
+                html += card('📰','Hacker News','Top stories','list','badge-tech',null,
+                    hn.slice(0,8).map(s=>[`<a href="${s.url||'#'}" target="_blank">${(s.title||'?').substring(0,48)}</a>`,fmt(s.score),fmt(s.comments||0)]),
+                    ['Title','Score','Comments']);
+            }
+            
+            // REDDIT (list only)
+            const rd = data.reddit;
+            if (rd && Array.isArray(rd) && rd.length > 0) {
+                html += card('🔴','Reddit Front Page','r/all hot','list','badge-tech',null,
+                    rd.slice(0,8).map(p=>[(p.title||'?').substring(0,42),`<span style="color:#ff9f0a;">${p.subreddit||'?'}</span>`,fmt(p.score)]),
+                    ['Title','Subreddit','Score']);
+            }
+            
+            // STACKOVERFLOW (list only)
+            const so = data.stackoverflow;
+            if (so && Array.isArray(so) && so.length > 0) {
+                html += card('📚','Stack Overflow','Hot questions','list','badge-tech',null,
+                    so.slice(0,8).map(q=>[(q.title||'?').substring(0,42),fmt(q.score),fmt(q.views)]),
+                    ['Question','Score','Views']);
+            }
+            
+            // HOLIDAYS
+            const hol = data.holidays_today;
+            if (hol && Array.isArray(hol) && hol.length > 0) {
+                html += card('🎉','Global Holidays',`${hol.length} today`,'today','badge-world',null,
+                    hol.slice(0,8).map(h=>[h.country||'??',h.name||'Unknown',h.date||'—']),
+                    ['Country','Holiday','Date']);
+            }
+            
+            if (!html) { grid.innerHTML = '<div class="error-state"><h3>No data available</h3><p>Try another date or check <a href="https://github.com/edthedog-debug/internet-time-capsule/actions">workflow</a>.</p></div>'; return; }
+            grid.innerHTML = html;
+            requestAnimationFrame(() => { charts.forEach(c => barChart(c.id, c.labels, c.values, c.color)); });
         }
-
+        
         // ============ INTER-TEMPORAL ============
         const IT_ITEMS = {
             weather: ['New_York','London','Tokyo','Shanghai','Mumbai','Sao_Paulo','Paris','Moscow','Sydney','Dubai','Singapore','Berlin','Rome','Istanbul','Seoul','Bangkok','Nairobi','Lima','Cape_Town','Mexico_City','Cairo','Lagos','Jakarta','Toronto','Buenos_Aires'],
@@ -218,208 +420,19 @@
             crypto: ['bitcoin','ethereum','tether','binancecoin','solana','ripple','usdc','cardano','dogecoin','avalanche'],
             exchange_rates: ['EUR','GBP','JPY','CNY','INR','BRL','CAD','AUD','CHF','KRW','MXN','RUB','SEK','NOK','NZD','SGD','HKD','TRY','ZAR']
         };
-        function updateITItemSelect() {
+        function updateITItems() {
             const cat = document.getElementById('itCategory').value;
             const sel = document.getElementById('itItem');
-            sel.innerHTML = '<option value="">— Choose item —</option>';
-            if (IT_ITEMS[cat]) IT_ITEMS[cat].forEach(i => { sel.innerHTML += `<option value="${i}">${i.replace(/_/g,' ')}</option>`; });
-            else if (['earthquakes','github','hackernews','reddit','stackoverflow'].includes(cat)) { sel.innerHTML = '<option value="auto">Auto (max value)</option>'; }
+            sel.innerHTML = '<option value="">— Item —</option>';
+            if (IT_ITEMS[cat]) IT_ITEMS[cat].forEach(i=>{sel.innerHTML+=`<option value="${i}">${i.replace(/_/g,' ')}</option>`;});
+            else if (['earthquakes','github','hackernews','reddit','stackoverflow'].includes(cat)) sel.innerHTML='<option value="auto">Auto (max)</option>';
         }
-
+        
         async function loadIntertemporal() {
             const cat = document.getElementById('itCategory').value;
             const item = document.getElementById('itItem').value;
             const start = document.getElementById('itStart').value;
             const end = document.getElementById('itEnd').value;
-            const statusEl = document.getElementById('itStatus');
-            if (!cat || !item || !start || !end) { statusEl.innerHTML = '<span style="color:#ff453a;">Select category, item, and date range.</span>'; return; }
-            statusEl.innerHTML = '<span style="color:#ff9f0a;">Loading temporal data...</span>';
-            
-            const startD = new Date(start), endD = new Date(end);
-            if (startD > endD) { statusEl.innerHTML = '<span style="color:#ff453a;">Start date must be before end date.</span>'; return; }
-            
-            const dates = []; let d = new Date(startD);
-            while (d <= endD) { dates.push(new Date(d)); d.setDate(d.getDate()+1); }
-            
-            const values = [], labels = [];
-            const existingChart = Chart.getChart('itChart'); if (existingChart) existingChart.destroy();
-            
-            for (const date of dates) {
-                const dp = `${date.getFullYear()}/${String(date.getMonth()+1).padStart(2,'0')}/${String(date.getDate()).padStart(2,'0')}`;
-                const data = await loadDate(dp);
-                let val = null;
-                const dateStr = date.toISOString().split('T')[0];
-                
-                try {
-                    if (cat === 'weather' && data.weather_25_cities && data.weather_25_cities[item]) {
-                        val = data.weather_25_cities[item].temp;
-                    } else if (cat === 'air_quality') {
-                        const aq = data[`aq_${item}`]; if (aq) val = aq.aqi;
-                    } else if (cat === 'earthquakes' && data.earthquakes && data.earthquakes.length > 0) {
-                        val = Math.max(...data.earthquakes.map(e=>e.magnitude||0));
-                    } else if (cat === 'crypto' && data.crypto) {
-                        const coin = data.crypto.find(c => (c.symbol||'').toLowerCase() === item || (c.id||'').toLowerCase() === item || (c.name||'').toLowerCase() === item);
-                        if (coin) val = coin.price;
-                    } else if (cat === 'exchange_rates' && data.exchange_rates && data.exchange_rates.rates) {
-                        val = data.exchange_rates.rates[item];
-                    } else if (cat === 'github' && data.github_trending && data.github_trending.length > 0) {
-                        val = Math.max(...data.github_trending.map(r=>r.stars||0));
-                    } else if (cat === 'hackernews' && data.hackernews && data.hackernews.length > 0) {
-                        val = Math.max(...data.hackernews.map(s=>s.score||0));
-                    } else if (cat === 'reddit' && data.reddit && data.reddit.length > 0) {
-                        val = Math.max(...data.reddit.map(p=>p.score||0));
-                    } else if (cat === 'stackoverflow' && data.stackoverflow && data.stackoverflow.length > 0) {
-                        val = Math.max(...data.stackoverflow.map(q=>q.score||0));
-                    }
-                } catch(e) { val = null; }
-                
-                if (val != null && !isNaN(val)) { labels.push(dateStr); values.push(val); }
-            }
-            
-            if (values.length === 0) { statusEl.innerHTML = '<span style="color:#ff453a;">No data found for this range.</span>'; return; }
-            statusEl.innerHTML = `<span style="color:#30d158;">${values.length} data points loaded.</span>`;
-            lineChart('itChart', labels, values);
-        }
-
-        // ============ RENDER ============
-        function render(data) {
-            const grid = document.getElementById('dashboardGrid');
-            let html = '';
-            const charts = [];
-
-            // WEATHER (bar chart: meaningful to compare cities)
-            const we = data.weather_25_cities;
-            if (we && typeof we === 'object') {
-                const cities = Object.entries(we).filter(([,v])=>v&&v.temp!=null).sort((a,b)=>b[1].temp-a[1].temp);
-                if (cities.length > 0) {
-                    const id = 'bar_weather';
-                    html += cardHTML('🌤️', 'Global Temperatures', 'Comparison across major cities', 'comparable', 'badge-nature', id,
-                        tableHTML(['City','Temp','Humidity','Wind'], cities.slice(0,10).map(([n,v])=>[
-                            n.replace(/_/g,' '),
-                            `<span style="color:${v.temp>30?'#ff453a':v.temp>20?'#ff9f0a':v.temp>10?'#30d158':'#64d2ff'}">${v.temp}°C</span>`,
-                            v.humidity?v.humidity+'%':'—', v.wind?v.wind+' km/h':'—'
-                        ]))
-                    );
-                    const top15 = cities.slice(0,15);
-                    charts.push({ id, labels: top15.map(([n])=>n.replace(/_/g,' ')), values: top15.map(([,v])=>v.temp), color: v => v>30?'#ff453a':v>20?'#ff9f0a':v>10?'#30d158':'#64d2ff' });
-                }
-            }
-
-            // AIR QUALITY (bar chart: comparable)
-            const aqCities = ['nyc','london','tokyo','delhi','sao_paulo'];
-            const aqData = aqCities.map(c=>data[`aq_${c}`]).filter(Boolean);
-            if (aqData.length > 0) {
-                const id = 'bar_aq';
-                html += cardHTML('🌬️', 'Air Quality Index', 'Comparison across cities', 'comparable', 'badge-science', id,
-                    tableHTML(['City','AQI','PM2.5','PM10'], aqData.map(aq => [
-                        (aq.city||'?').toUpperCase(),
-                        `<span style="color:${(aq.aqi||0)>100?'#ff453a':(aq.aqi||0)>50?'#ff9f0a':'#30d158'}">${aq.aqi||'—'}</span>`,
-                        (aq.pm25||'—')+' µg', (aq.pm10||'—')+' µg'
-                    ]))
-                );
-                charts.push({ id, labels: aqData.map(a=>(a.city||'?').toUpperCase()), values: aqData.map(a=>a.aqi||0), color: v => v>100?'#ff453a':v>50?'#ff9f0a':'#30d158' });
-            }
-
-            // EARTHQUAKES (bar chart: magnitudes comparable)
-            const eq = data.earthquakes;
-            if (eq && Array.isArray(eq) && eq.length > 0) {
-                const id = 'bar_quakes';
-                const sorted = [...eq].sort((a,b)=>(b.magnitude||0)-(a.magnitude||0));
-                html += cardHTML('🌋', 'Seismic Activity', 'Earthquakes by magnitude', 'comparable', 'badge-nature', id,
-                    tableHTML(['Location','Mag','Depth'], sorted.slice(0,10).map(q => [
-                        (q.place||'?').substring(0,40),
-                        `<span style="color:${(q.magnitude||0)>=5?'#ff453a':(q.magnitude||0)>=3?'#ff9f0a':'#30d158'}">${(q.magnitude||0).toFixed(1)}</span>`,
-                        q.depth?q.depth.toFixed(0)+' km':'—'
-                    ]))
-                );
-                const top10 = sorted.slice(0,10);
-                charts.push({ id, labels: top10.map(q=>(q.place||'?').split(',')[0].substring(0,18)), values: top10.map(q=>q.magnitude||0), color: v => v>=5?'#ff453a':v>=3?'#ff9f0a':'#30d158' });
-            }
-
-            // EXCHANGE RATES (bar chart: comparable vs USD)
-            const fx = data.exchange_rates;
-            if (fx && fx.rates && Object.keys(fx.rates).length > 0) {
-                const id = 'bar_forex';
-                const majors = ['EUR','GBP','JPY','CNY','INR','BRL','CAD','AUD','CHF','KRW','MXN','RUB'];
-                const rates = majors.filter(c=>fx.rates[c]).map(c=>[c,fx.rates[c]]);
-                html += cardHTML('💱', 'Exchange Rates vs USD', `${Object.keys(fx.rates).length} currencies`, 'comparable', 'badge-finance', id,
-                    tableHTML(['Currency','Rate'], rates.slice(0,10).map(([c,r]) => [`<strong>${c}</strong>`, r.toFixed(4)]))
-                );
-                charts.push({ id, labels: rates.map(([c])=>c), values: rates.map(([,r])=>r), color: null });
-            }
-
-            // COUNTRIES POPULATION (bar chart: comparable)
-            const cnt = data.all_countries;
-            if (cnt && Array.isArray(cnt) && cnt.length > 0) {
-                const id = 'bar_countries';
-                const sorted = [...cnt].sort((a,b)=>(b.population||0)-(a.population||0));
-                html += cardHTML('🌍', 'World Population', `${cnt.length} countries`, 'comparable', 'badge-world', id,
-                    tableHTML(['Country','Population','Region'], sorted.slice(0,10).map(c => [
-                        c.country||'?', fmt(c.population), c.region||'—'
-                    ]))
-                );
-                const top12 = sorted.slice(0,12);
-                charts.push({ id, labels: top12.map(c=>c.country||'?'), values: top12.map(c=>c.population||0), color: null });
-            }
-
-            // GITHUB (no bar chart — not meaningfully comparable, just a list)
-            const gh = data.github_trending;
-            if (gh && Array.isArray(gh) && gh.length > 0) {
-                html += cardHTML('💻', 'GitHub Trending', 'Most starred repositories today', 'list', 'badge-tech', null,
-                    tableHTML(['Repository','Stars','Language'], gh.slice(0,10).map(r => [
-                        `<a href="${r.url||'#'}" target="_blank">${(r.name||'?').split('/')[1]||r.name||'?'}</a>`,
-                        fmt(r.stars), r.language||'—'
-                    ]))
-                );
-            }
-
-            // CRYPTO (no bar chart — prices are not comparable across coins, just a list)
-            const cr = data.crypto;
-            if (cr && Array.isArray(cr) && cr.length > 0) {
-                html += cardHTML('₿', 'Crypto Market', 'Top cryptocurrencies', 'list', 'badge-finance', null,
-                    tableHTML(['Name','Price','24h Δ'], cr.slice(0,10).map(c => [
-                        `${c.name||'?'} <span style="color:var(--text2);font-size:0.7rem;">${(c.symbol||'').toUpperCase()}</span>`,
-                        c.price?'$'+c.price.toLocaleString():'—',
-                        `<span style="color:${(c.change_24h||0)>=0?'#30d158':'#ff453a'}">${(c.change_24h||0)>=0?'↑':'↓'} ${Math.abs(c.change_24h||0).toFixed(1)}%</span>`
-                    ]))
-                );
-            }
-
-            // HACKER NEWS (no bar chart — scores are just a ranking list)
-            const hn = data.hackernews;
-            if (hn && Array.isArray(hn) && hn.length > 0) {
-                html += cardHTML('📰', 'Hacker News', 'Top stories today', 'list', 'badge-tech', null,
-                    tableHTML(['Title','Score','Comments'], hn.slice(0,8).map(s => [
-                        `<a href="${s.url||'#'}" target="_blank">${(s.title||'?').substring(0,50)}</a>`,
-                        fmt(s.score), fmt(s.comments||0)
-                    ]))
-                );
-            }
-
-            // REDDIT (no bar chart — list)
-            const rd = data.reddit;
-            if (rd && Array.isArray(rd) && rd.length > 0) {
-                html += cardHTML('🔴', 'Reddit Front Page', 'r/all hot posts', 'list', 'badge-tech', null,
-                    tableHTML(['Title','r/','Score'], rd.slice(0,8).map(p => [
-                        (p.title||'?').substring(0,40),
-                        `<span style="color:#ff9f0a;">${p.subreddit||'?'}</span>`,
-                        fmt(p.score)
-                    ]))
-                );
-            }
-
-            // STACKOVERFLOW (no bar chart — list)
-            const so = data.stackoverflow;
-            if (so && Array.isArray(so) && so.length > 0) {
-                html += cardHTML('📚', 'Stack Overflow', 'Hottest questions', 'list', 'badge-tech', null,
-                    tableHTML(['Question','Score','Views'], so.slice(0,8).map(q => [
-                        (q.title||'?').substring(0,40), fmt(q.score), fmt(q.views)
-                    ]))
-                );
-            }
-
-            // HOLIDAYS (no chart needed)
-            const hol = data.holidays_today;
-            if (hol && Array.isArray(hol) && hol.length > 0) {
-                html += cardHTML('🎉', 'Global Holidays', `${hol.length} observances today`, 'today', 'badge-world', null,
-                    tableHTML(['Country','Holiday'], hol.slice(0,10).map
+            const st = document.getElementById('itStatus');
+            if (!cat||!item||!start||!end) { st.innerHTML='<span style="color:#ff453a;">Fill all fields.</span>'; return; }
+            const sD=new Date(start),eD=new Date(end); if(sD>eD){st.innerHTML='<span style="color:#ff453a;">Invalid range.</span>';
