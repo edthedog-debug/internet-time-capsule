@@ -3,357 +3,660 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ultra Global Internet Time Capsule — Open Digital Archive</title>
+    <title>Ultra Global Internet Time Capsule — Analytical Archive</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg: #070a12; --card: #0f1624; --card-hover: #151f33;
-            --border: rgba(255,255,255,0.07); --text: #f8fafc; --text2: #94a3b8;
-            --accent: #3b82f6; --accent-gradient: linear-gradient(135deg, #3b82f6, #6366f1);
-            --green: #10b981; --red: #ef4444; --yellow: #f59e0b; --purple: #a855f7;
+            --bg: #060913; 
+            --card: #0b111e; 
+            --card-hover: #121b2d;
+            --border: rgba(255, 255, 255, 0.06);
+            --text: #f1f5f9; 
+            --text2: #94a3b8; 
+            --accent: #3b82f6;
+            --accent-gradient: linear-gradient(135deg, #3b82f6, #4f46e5);
+            --green: #10b981; 
+            --red: #ef4444; 
+            --yellow: #f59e0b;
+            --purple: #a855f7;
         }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; -webkit-font-smoothing: antialiased; }
-        .container { max-width: 1440px; margin: 0 auto; padding: 40px 24px; }
         
-        .header { text-align: center; padding: 50px 20px 30px; margin-bottom: 30px; position: relative; }
-        .header h1 { font-size: 3.25rem; font-weight: 700; letter-spacing: -0.03em; background: linear-gradient(135deg, #ffffff 40%, #a5b4fc 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 14px; }
-        .header p { color: var(--text2); font-size: 1.2rem; max-width: 650px; margin: 0 auto 28px; }
-        .live-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(16,185,129,0.08); border: 1px solid rgba(16,185,129,0.2); color: var(--green); padding: 6px 18px; border-radius: 100px; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; }
-        .live-badge::before { content: ''; display: inline-block; width: 8px; height: 8px; background: var(--green); border-radius: 50%; animation: pulse 2s infinite; }
-        @keyframes pulse { 0%,100% { opacity: 0.3; } 50% { opacity: 1; } }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Plus Jakarta Sans', system-ui, sans-serif; 
+            background: var(--bg); 
+            color: var(--text); 
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
 
-        .date-selector { display: inline-flex; gap: 12px; align-items: center; background: var(--card); padding: 8px 12px; border-radius: 16px; border: 1px solid var(--border); margin-top: 20px; }
-        .date-selector label { font-size: 0.9rem; color: var(--text2); font-weight: 500; }
-        .date-selector input { background: #070a12; border: 1px solid var(--border); color: var(--text); padding: 10px 14px; border-radius: 12px; font-family: inherit; outline: none; }
-        .date-selector input:focus { border-color: var(--accent); }
+        .container { max-width: 1600px; margin: 0 auto; padding: 40px 24px; }
+        
+        /* Header UX */
+        .header { text-align: center; padding: 40px 20px; margin-bottom: 20px; }
+        .header h1 { 
+            font-size: 3rem; 
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            background: linear-gradient(135deg, #ffffff 30%, #93c5fd 100%); 
+            -webkit-background-clip: text; 
+            -webkit-text-fill-color: transparent; 
+            margin-bottom: 12px;
+        }
+        .header p { color: var(--text2); font-size: 1.1rem; max-width: 700px; margin: 0 auto 24px; }
+        
+        .live-badge { 
+            display: inline-flex; 
+            align-items: center; 
+            gap: 8px;
+            background: rgba(16, 185, 129, 0.06); 
+            border: 1px solid rgba(16, 185, 129, 0.15);
+            color: var(--green); 
+            padding: 6px 16px; 
+            border-radius: 100px; 
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .live-badge::before {
+            content: ''; display: inline-block; width: 6px; height: 6px; 
+            background: var(--green); border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse { 0% { opacity: 0.4; } 50% { opacity: 1; } 100% { opacity: 0.4; } }
 
-        .stats-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-bottom: 40px; }
-        .stat-card { background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 24px; }
-        .stat-number { font-size: 2.25rem; font-weight: 700; color: #fff; letter-spacing: -0.02em; margin-bottom: 4px; }
-        .stat-label { color: var(--text2); font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+        /* Filter Controls */
+        .date-selector { 
+            display: inline-flex; 
+            gap: 12px; 
+            align-items: center; 
+            background: var(--card); 
+            padding: 10px 16px; 
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            margin-top: 16px;
+        }
+        .date-selector label { font-size: 0.85rem; color: var(--text2); font-weight: 500; }
+        .date-selector input { 
+            background: #060913; 
+            border: 1px solid var(--border); 
+            color: var(--text); 
+            padding: 8px 12px; 
+            border-radius: 10px;
+            font-family: inherit;
+            outline: none;
+        }
 
-        .dashboard-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(580px, 1fr)); gap: 28px; margin-bottom: 40px; }
-        .card { background: var(--card); border: 1px solid var(--border); border-radius: 24px; padding: 30px; transition: transform 0.2s, box-shadow 0.2s; }
-        .card:hover { transform: translateY(-3px); box-shadow: 0 16px 36px rgba(0,0,0,0.5); }
-        .card-title { font-size: 1.3rem; font-weight: 600; margin-bottom: 18px; display: flex; align-items: center; gap: 10px; color: #fff; }
-        .chart-container { position: relative; width: 100%; height: 260px; margin-top: auto; }
+        /* Stats Bar */
+        .stats-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-bottom: 32px; }
+        .stat-card { 
+            background: var(--card); 
+            border: 1px solid var(--border); 
+            border-radius: 16px; 
+            padding: 20px; 
+        }
+        .stat-number { font-size: 1.85rem; font-weight: 700; color: #fff; letter-spacing: -0.02em; margin-bottom: 2px; }
+        .stat-label { color: var(--text2); font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
 
-        .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 14px 28px; border-radius: 14px; cursor: pointer; text-decoration: none; border: none; transition: all 0.2s; font-weight: 600; font-size: 0.95rem; }
-        .btn-primary { background: var(--accent-gradient); color: white; box-shadow: 0 4px 14px rgba(99,102,241,0.3); }
-        .btn-primary:hover { filter: brightness(1.1); transform: translateY(-1px); }
-        .btn-outline { background: rgba(255,255,255,0.02); border: 1px solid var(--border); color: var(--text); }
-        .btn-outline:hover { background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.2); }
+        /* Dashboard Grid Layout */
+        .dashboard-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin-bottom: 40px; }
+        .full-width { grid-column: 1 / -1; }
+        
+        @media (max-width: 1150px) {
+            .dashboard-grid { grid-template-columns: 1fr; }
+        }
 
-        .table-container { max-height: 380px; overflow-y: auto; margin-top: 8px; }
-        .table-container::-webkit-scrollbar { width: 6px; }
-        .table-container::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 10px; }
-        .data-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; text-align: left; }
-        .data-table th { padding: 12px 8px; border-bottom: 2px solid var(--border); color: var(--text2); font-weight: 600; position: sticky; top: 0; background: var(--card); z-index: 10; }
-        .data-table td { padding: 12px 8px; border-bottom: 1px solid rgba(255,255,255,0.03); color: #e2e8f0; }
-        .data-table tr:hover td { background: rgba(255,255,255,0.01); }
+        .card { 
+            background: var(--card); 
+            border: 1px solid var(--border); 
+            border-radius: 20px; 
+            padding: 24px; 
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(0,0,0,0.4); }
+        .card-title { font-size: 1.15rem; font-weight: 600; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; color: #fff; border-bottom: 1px solid rgba(255,255,255,0.03); padding-bottom: 12px; }
+        
+        .chart-container { position: relative; width: 100%; height: 280px; margin-top: auto; }
 
-        /* Intertemporal */
-        .intertemporal { background: var(--card); border: 1px solid var(--border); border-radius: 24px; padding: 30px; margin-bottom: 28px; }
-        .intertemporal h2 { font-size: 1.3rem; font-weight: 600; margin-bottom: 6px; }
-        .intertemporal .subtitle { color: var(--text2); font-size: 0.85rem; margin-bottom: 18px; }
-        .it-controls { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 16px; }
-        .it-controls select, .it-controls input { background: #070a12; border: 1px solid var(--border); color: var(--text); padding: 10px 14px; border-radius: 12px; font-family: inherit; outline: none; }
-        .it-controls select:focus, .it-controls input:focus { border-color: var(--accent); }
-        .it-controls button { background: var(--accent-gradient); color: #fff; border: none; padding: 10px 20px; border-radius: 12px; font-family: inherit; font-weight: 600; cursor: pointer; }
-        .it-chart-wrap { height: 340px; position: relative; }
-        .it-chart-wrap canvas { width: 100% !important; height: 100% !important; }
+        /* General Buttons */
+        .btn { 
+            display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+            padding: 10px 20px; border-radius: 10px; cursor: pointer; 
+            text-decoration: none; border: none; font-weight: 600; font-size: 0.88rem; transition: all 0.2s;
+        }
+        .btn-primary { background: var(--accent-gradient); color: white; }
+        .btn-primary:hover { filter: brightness(1.1); }
+        .btn-outline { background: rgba(255,255,255,0.01); border: 1px solid var(--border); color: var(--text); }
+        .btn-outline:hover { background: rgba(255,255,255,0.04); }
 
-        .utility-section { display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 28px; margin: 50px 0; }
-        .download-box { background: linear-gradient(135deg, #0f1624 0%, #172237 100%); border: 1px solid var(--border); border-radius: 24px; padding: 40px; }
-        .donate-section { background: radial-gradient(circle at top right, rgba(99,102,241,0.12), transparent), var(--card); border: 1px solid rgba(99,102,241,0.2); border-radius: 24px; padding: 40px; }
-        .space-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 10px; }
-        @media(max-width:768px){ .space-grid { grid-template-columns: 1fr; } .dashboard-grid { grid-template-columns: 1fr; } .header h1 { font-size: 2.4rem; } }
-        .loading { text-align: center; padding: 80px; color: var(--text2); grid-column: 1/-1; }
-        .spinner { display: inline-block; width: 45px; height: 45px; border: 3px solid rgba(59,130,246,0.1); border-top: 3px solid var(--accent); border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 16px; }
+        /* Data Tables */
+        .table-container { max-height: 340px; overflow-y: auto; margin-top: 4px; }
+        .table-container::-webkit-scrollbar { width: 4px; }
+        .table-container::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 4px; }
+        .data-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; text-align: left; }
+        .data-table th { padding: 10px 6px; border-bottom: 1px solid var(--border); color: var(--text2); font-weight: 600; position: sticky; top: 0; background: var(--card); z-index: 5; }
+        .data-table td { padding: 10px 6px; border-bottom: 1px solid rgba(255,255,255,0.02); color: #e2e8f0; vertical-align: top; }
+        .data-table tr:last-child td { border-bottom: none; }
+        
+        /* Inner Sub-Grids */
+        .inner-flex-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+        .sub-block { background: rgba(255,255,255,0.01); border: 1px solid var(--border); border-radius: 12px; padding: 14px; }
+        .sub-block h4 { font-size: 0.9rem; margin-bottom: 10px; color: #fff; display: flex; justify-content: space-between; align-items: center; }
+
+        /* Marketing & Support Block */
+        .utility-section { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 24px; margin: 40px 0; }
+        .download-box, .donate-section { border: 1px solid var(--border); border-radius: 20px; padding: 32px; background: var(--card); }
+        .donate-options { display: flex; gap: 14px; margin-top: 20px; flex-wrap: wrap; }
+        .donate-btn { flex: 1; min-width: 180px; text-align: center; padding: 12px; border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 0.9rem; transition: all 0.2s; }
+        .btn-github { background: #1f2328; color: #fff; border: 1px solid rgba(255,255,255,0.08); }
+        .btn-monthly { background: #e6533c; color: #fff; }
+
+        /* Loaders & State Managers */
+        .loading { text-align: center; padding: 60px; color: var(--text2); grid-column: 1 / -1; }
+        .spinner { display: inline-block; width: 36px; height: 36px; border: 3px solid rgba(59, 130, 246, 0.1); border-top: 3px solid var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; margin-bottom: 12px; }
         @keyframes spin { to { transform: rotate(360deg); } }
-        .error-box { background: rgba(239,68,68,0.08); border: 1px solid var(--red); border-radius: 18px; padding: 30px; text-align: center; grid-column: 1/-1; }
-        .full-width { grid-column: 1/-1; }
-        .tags { display: flex; flex-wrap: wrap; gap: 6px; }
-        .tag { background: rgba(255,255,255,0.03); border: 1px solid var(--border); padding: 5px 12px; border-radius: 10px; font-size: 0.8rem; }
+        
+        .footer { text-align: center; color: var(--text2); font-size: 0.85rem; margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border); }
     </style>
 </head>
 <body>
     <div class="container">
         <header class="header">
             <h1>Ultra Global Internet Time Capsule</h1>
-            <p>Decentralized engine recording human history. Automated immutable archives tracking tech, economy, sports, climate, and science daily.</p>
-            <span class="live-badge">Synchronized every 24h • 00:00 UTC</span>
+            <p>Archiving the continuous flow of human knowledge, technological architecture, financial assets, and climate patterns using open-access pipelines.</p>
+            <span class="live-badge">Automated Daily Synchronization Engine</span>
+            <br>
             <div class="date-selector">
-                <label for="datePicker">📅 Browse Snapshot:</label>
+                <label for="datePicker">📅 Browse Historical Snapshot:</label>
                 <input type="date" id="datePicker">
                 <button class="btn btn-primary" onclick="loadSelectedDate()">Load Archive</button>
                 <button class="btn btn-outline" onclick="loadToday()">Today</button>
             </div>
-            <div id="statusMessage" style="margin-top:20px;font-weight:500;"></div>
+            <div id="statusMessage" style="margin-top:16px; font-weight: 500; font-size: 0.9rem;"></div>
         </header>
 
-        <!-- Intertemporal Analysis -->
-        <div class="intertemporal">
-            <h2>📈 Temporal Analysis</h2>
-            <p class="subtitle">Track a single metric over time. Select category, item, and date range.</p>
-            <div class="it-controls">
-                <select id="itCategory" onchange="updateITItems()">
-                    <option value="">— Category —</option>
-                    <option value="weather">🌤️ Temperature</option>
-                    <option value="air_quality">🌬️ Air Quality</option>
-                    <option value="earthquakes">🌋 Max Earthquake Mag</option>
-                    <option value="crypto">₿ Crypto Price</option>
-                    <option value="exchange_rates">💱 Exchange Rate</option>
-                    <option value="stock_markets">📊 Stock Index</option>
-                    <option value="github">💻 GitHub Top Stars</option>
-                    <option value="hackernews">📰 HN Top Score</option>
-                    <option value="reddit">🔴 Reddit Top Score</option>
-                </select>
-                <select id="itItem"><option value="">— Item —</option></select>
-                <input type="date" id="itStart">
-                <span style="color:var(--text2);">–</span>
-                <input type="date" id="itEnd">
-                <button onclick="loadIntertemporal()">Plot</button>
-            </div>
-            <div class="it-chart-wrap"><canvas id="itChart"></canvas></div>
-            <div id="itStatus" style="text-align:center;margin-top:8px;font-size:0.85rem;"></div>
-        </div>
-
+        <!-- Main Real-Time Overview Metrics -->
         <div class="stats-bar" id="statsBar"></div>
+        
+        <!-- Multi-Dimensional Analytical Dashboard -->
         <div class="dashboard-grid" id="dashboardGrid">
             <div class="loading"><div class="spinner"></div><p>Retrieving data matrices from decentralized repository...</p></div>
         </div>
 
+        <!-- Infrastructure & Support Blocks -->
         <div class="utility-section">
             <div class="download-box">
-                <h2>📥 Open Access Raw Dataset</h2>
-                <p style="color:var(--text2);margin:12px 0 24px;">Download raw daily snapshots. Full programmatic access to compiled public world knowledge.</p>
-                <div style="display:flex;gap:12px;flex-wrap:wrap;">
-                    <a href="https://github.com/edthedog-debug/internet-time-capsule/archive/refs/heads/main.zip" class="btn btn-primary">📦 Download ZIP</a>
-                    <a href="https://github.com/edthedog-debug/internet-time-capsule" class="btn btn-outline">🔗 GitHub Core</a>
+                <h3>📥 Programmatic Raw Dataset Access</h3>
+                <p style="color:var(--text2); margin: 8px 0 18px; font-size: 0.9rem;">Retain direct decentralized access to compiled human history data in raw format directly from the main branch storage nodes.</p>
+                <div style="display:flex; gap:12px; flex-wrap: wrap;">
+                    <a href="https://github.com/edthedog-debug/internet-time-capsule/archive/refs/heads/main.zip" class="btn btn-primary">📦 Download Snapshot ZIP</a>
+                    <a href="https://github.com/edthedog-debug/internet-time-capsule" target="_blank" class="btn btn-outline">🔗 Project Repository</a>
                 </div>
             </div>
+
             <div class="donate-section">
-                <h2>💎 Support This Digital Legacy</h2>
-                <p style="color:var(--text2);">This engine remains free of tracking and paywalls. Your support maintains server and processing relays.</p>
-                <div style="margin-top:24px;">
-                    <a href="https://github.com/sponsors/edthedog-debug" target="_blank" class="btn btn-primary" style="width:100%;">❤️ GitHub Sponsors</a>
+                <h3>💎 Maintain the Core Digital Legacy</h3>
+                <p style="color:var(--text2); font-size: 0.9rem;">This processing infrastructure stays operational without third-party tracking or commercial scripts via community micro-sponsorship models.</p>
+                <div class="donate-options">
+                    <a href="https://github.com/sponsors/edthedog-debug" target="_blank" class="donate-btn btn-github">❤️ GitHub Sponsors</a>
+                    <a href="https://www.patreon.com/edthedog" target="_blank" class="donate-btn btn-monthly">⭐ Monthly Patreon</a>
                 </div>
             </div>
         </div>
 
-        <footer class="footer" style="text-align:center;padding:20px;color:var(--text2);">
-            <p>🌐 <strong>Internet Time Capsule</strong> — Securing permanent digital archaeology since 2026</p>
-            <p style="margin-top:8px;font-size:0.8rem;opacity:0.65;">Powered by GitHub Actions • MIT License • Zero Cost</p>
+        <footer class="footer">
+            <p>🌐 <strong>Internet Time Capsule Engine</strong> — Securing Permanent Open Digital Archaeology since 2026</p>
+            <p style="margin-top: 6px; font-size: 0.75rem; opacity: 0.65;">Powered completely via GitHub Actions workflows and decoupled open endpoints.</p>
         </footer>
     </div>
 
     <script>
-        const RAW = 'https://raw.githubusercontent.com/edthedog-debug/internet-time-capsule/main/capsules';
-        let activeCharts = [];
+        const REPO_RAW = 'https://raw.githubusercontent.com/edthedog-debug/internet-time-capsule/main/capsules';
+        window.activeCharts = []; 
         
-        function todayPath() { const d=new Date(); return `${d.getFullYear()}/${String(d.getMonth()+1).padStart(2,'0')}/${String(d.getDate()).padStart(2,'0')}`; }
-        function fmt(n) { if(n==null||n===0) return '—'; if(n>=1e9) return (n/1e9).toFixed(1)+'B'; if(n>=1e6) return (n/1e6).toFixed(1)+'M'; if(n>=1e3) return (n/1e3).toFixed(1)+'K'; return n.toLocaleString(); }
-        async function fJSON(u) { try { const r=await fetch(u); if(!r.ok) throw new Error(); return await r.json(); } catch(e) { return null; } }
-
-        async function loadDate(datePath) {
-            const b = `${RAW}/${datePath}/global`; const d = {};
-            const files = ['github_trending','hackernews','stackoverflow','reddit','exchange_rates','crypto','earthquakes','nasa_apod','iss_position','people_in_space','all_countries','holidays_today','weather_25_cities','covid_global','stock_markets'];
-            for (const f of files) d[f] = await fJSON(`${b}/${f}.json`);
-            // Sports
-            for (const s of ['nba','premier_league','la_liga','csl','mlb','ipl','f1']) d[`sports_${s}`] = await fJSON(`${b}/sports_${s}.json`);
-            // News
-            for (const n of ['us','china','uk','india','japan','brazil','russia']) d[`news_${n}`] = await fJSON(`${b}/news_${n}.json`);
-            // Wiki & AQ
-            for (const l of ['en','es','fr','de','ja']) d[`wiki_${l}`] = await fJSON(`${b}/wikipedia_${l}.json`);
-            for (const c of ['nyc','london','tokyo','delhi','sao_paulo']) d[`aq_${c}`] = await fJSON(`${b}/air_quality_${c}.json`);
-            return d;
+        function getTodayPath() {
+            const d = new Date();
+            return `${d.getFullYear()}/${String(d.getMonth()+1).padStart(2,'0')}/${String(d.getDate()).padStart(2,'0')}`;
+        }
+        
+        function formatNum(n) {
+            if (n == null || isNaN(n) || n === 0) return '—';
+            if (n >= 1e9) return (n/1e9).toFixed(1)+'B';
+            if (n >= 1e6) return (n/1e6).toFixed(1)+'M';
+            if (n >= 1e3) return (n/1e3).toFixed(1)+'K';
+            return Number(n).toLocaleString();
         }
 
-        function barChart(id, labels, values, color) {
-            const ctx = document.getElementById(id); if(!ctx) return;
-            const existing = Chart.getChart(id); if(existing) existing.destroy();
-            const c = new Chart(ctx, { type:'bar', data:{labels,datasets:[{data:values,backgroundColor:color,borderRadius:8,borderSkipped:false}]}, options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#94a3b8',font:{size:10}},grid:{display:false}},y:{ticks:{color:'#94a3b8',font:{size:10}},grid:{color:'rgba(255,255,255,0.04)'}}}} });
-            activeCharts.push(c);
+        async function fetchJSON(url) {
+            try {
+                const r = await fetch(url);
+                if (!r.ok) return null;
+                return await r.json();
+            } catch(e) {
+                return null;
+            }
         }
 
-        function lineChart(id, labels, values, color) {
-            const ctx = document.getElementById(id); if(!ctx) return;
-            const existing = Chart.getChart(id); if(existing) existing.destroy();
-            const c = new Chart(ctx, { type:'line', data:{labels,datasets:[{data:values,borderColor:color,backgroundColor:color+'20',borderWidth:2.5,tension:0.35,pointRadius:1.5,pointHoverRadius:5,fill:true}]}, options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#94a3b8',font:{size:10},maxTicksLimit:14},grid:{color:'rgba(255,255,255,0.04)'}},y:{ticks:{color:'#94a3b8',font:{size:10}},grid:{color:'rgba(255,255,255,0.04)'}}}} });
-            activeCharts.push(c); return c;
+        async function loadAllCapsuleData(datePath) {
+            const base = `${REPO_RAW}/${datePath}/global`;
+            const data = {};
+            
+            // Core Operational Files
+            const standardFiles = ['github_trending', 'hackernews', 'stackoverflow', 'reddit', 'exchange_rates', 'crypto', 'stock_markets', 'weather_25_cities'];
+            // Multi-league Sports Array
+            const sportsLeagues = ['sports_nba', 'sports_premier_league', 'sports_la_liga', 'sports_csl', 'sports_mlb', 'sports_ipl', 'sports_f1'];
+            // Inter-continental News Feeds
+            const newsCountries = ['news_us', 'news_china', 'news_uk', 'news_india', 'news_japan', 'news_brazil', 'news_russia'];
+            // Expanded Multi-lingual Wikipedia Indices
+            const wikiLanguages = ['en', 'es', 'fr', 'de', 'ja', 'zh', 'ar', 'ru', 'pt', 'hi', 'it', 'nl', 'pl', 'sv', 'ko'];
+
+            const promises = [];
+
+            standardFiles.forEach(f => promises.push(fetchJSON(`${base}/${f}.json`).then(res => data[f] = res)));
+            sportsLeagues.forEach(f => promises.push(fetchJSON(`${base}/${f}.json`).then(res => data[f] = res)));
+            newsCountries.forEach(f => promises.push(fetchJSON(`${base}/${f}.json`).then(res => data[f] = res)));
+            wikiLanguages.forEach(l => promises.push(fetchJSON(`${base}/wikipedia_${l}.json`).then(res => data[`wiki_${l}`] = res)));
+
+            await Promise.all(promises);
+            return data;
         }
 
-        function cardHTML(title, rows, headers) {
-            return `<div class="card"><div class="card-title">${title}</div><div class="table-container"><table class="data-table"><thead><tr>${headers.map(h=>`<th>${h}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('')}</tbody></table></div></div>`;
-        }
+        function renderDashboard(data) {
+            window.activeCharts.forEach(c => c.destroy());
+            window.activeCharts = [];
 
-        function render(data) {
-            activeCharts.forEach(c=>c.destroy()); activeCharts=[];
             const grid = document.getElementById('dashboardGrid');
             const stats = document.getElementById('statsBar');
-            let html='', statsHtml='';
+            
+            let html = '';
+            let statsHtml = '';
+            let validModulesCount = 0;
 
-            // Weather
-            const we = data.weather_25_cities;
-            if (we && typeof we === 'object') {
-                const cities = Object.entries(we).filter(([,v])=>v&&v.temp!=null).sort((a,b)=>b[1].temp-a[1].temp);
-                if (cities.length > 0) {
-                    const id='wch'; html+=`<div class="card"><div class="card-title">🌤️ Global Temperatures (°C)</div><div class="chart-container"><canvas id="${id}"></canvas></div></div>`;
-                    const top15=cities.slice(0,15);
-                    setTimeout(()=>barChart(id, top15.map(([n])=>n.replace(/_/g,' ')), top15.map(([,v])=>v.temp), '#3b82f6'), 100);
-                    statsHtml+=`<div class="stat-card"><div class="stat-number">${Math.max(...cities.map(([,v])=>v.temp))}°</div><div class="stat-label">Hottest</div></div>`;
+            // ============================================
+            // 1. GITHUB TRENDING BUILDER
+            // ============================================
+            if (data.github_trending && data.github_trending.length > 0) {
+                validModulesCount++;
+                html += makeTable('💻 Trending Open Source Architecture (GitHub)',
+                    ['Repository Name', 'Stars Indicator', 'Core Language Stack'],
+                    data.github_trending.slice(0, 6).map(r => [
+                        `<a href="${r.url || '#'}" target="_blank" style="color:#fff; text-decoration:none; font-weight:600;">${r.name}</a><br><span style="color:var(--text2); font-size:0.75rem;">${(r.description || '').substring(0,60)}...</span>`,
+                        `⭐ ${formatNum(r.stars)}`,
+                        `<span style="color:var(--accent); font-weight:600;">${r.language}</span>`
+                    ])
+                );
+                statsHtml += `<div class="stat-card"><div class="stat-number">${formatNum(data.github_trending[0].stars)}</div><div class="stat-label">Peak Open Stars</div></div>`;
+            }
+
+            // ============================================
+            // 2. TECH AND PUBLIC DISCOURSE METRIC (HN & REDDIT)
+            // ============================================
+            let discussionRows = [];
+            if (data.hackernews && data.hackernews.length > 0) {
+                data.hackernews.slice(0, 4).forEach(item => {
+                    discussionRows.push(['HackerNews', `<a href="${item.url || '#'}" target="_blank" style="color:#fff; text-decoration:none;">${item.title}</a>`, `▲ ${item.score}`]);
+                });
+            }
+            if (data.reddit && data.reddit.length > 0) {
+                data.reddit.slice(0, 4).forEach(item => {
+                    discussionRows.push([`r/${item.subreddit}`, `<a href="${item.url || '#'}" target="_blank" style="color:#fff; text-decoration:none;">${item.title}</a>`, `🔥 ${item.score}`]);
+                });
+            }
+            if (discussionRows.length > 0) {
+                validModulesCount++;
+                html += makeTable('📰 Mainstream Tech & Public Discourse Vectors',
+                    ['Source Feed', 'Thread Narrative Context', 'Impact Index Score'],
+                    discussionRows
+                );
+            }
+
+            // ============================================
+            // 3. GLOBAL FINANCES: CRYPTOCURRENCY CAPITALIZATION
+            // ============================================
+            if (data.crypto && data.crypto.length > 0) {
+                validModulesCount++;
+                html += makeTable('🪙 Crypto Capitalization Matrix',
+                    ['Asset Symbol', 'Market Valuation Price', '24h Delta Rate'],
+                    data.crypto.slice(0, 6).map(c => [
+                        `<strong>${c.name}</strong> <span style="color:var(--text2); font-size:0.75rem;">${c.symbol.toUpperCase()}</span>`,
+                        `$${c.price.toLocaleString(undefined, {minimumFractionDigits: 2})}`,
+                        `<span style="color:${c.change_24h >= 0 ? 'var(--green)' : 'var(--red)'}; font-weight:600;">${c.change_24h >= 0 ? '▲' : '▼'} ${Math.abs(c.change_24h).toFixed(2)}%</span>`
+                    ])
+                );
+                statsHtml += `<div class="stat-card"><div class="stat-number">$${data.crypto[0].price.toLocaleString()}</div><div class="stat-label">Bitcoin Exchange Value</div></div>`;
+            }
+
+            // ============================================
+            // 4. GLOBAL STOCK MARKET OVERVIEW (By Market Regions)
+            // ============================================
+            if (data.stock_markets && data.stock_markets.indices && data.stock_markets.indices.length > 0) {
+                validModulesCount++;
+                const markets = ['US', 'Europe', 'Asia', 'Latin America'];
+                let stockHtml = `<div class="card"><div class="card-title">📈 Central Bank & Equity Market Indexes</div><div class="inner-flex-grid">`;
+                
+                markets.forEach(m => {
+                    const regionalIndices = data.stock_markets.indices.filter(i => i.market === m);
+                    if (regionalIndices.length > 0) {
+                        stockHtml += `<div class="sub-block"><h4>${m} Assets</h4><table class="data-table">`;
+                        regionalIndices.slice(0, 3).forEach(ind => {
+                            const directionColor = ind.change_pct >= 0 ? 'var(--green)' : 'var(--red)';
+                            stockHtml += `<tr>
+                                <td><strong>${ind.symbol}</strong></td>
+                                <td>${Number(ind.price).toFixed(2)}</td>
+                                <td style="color:${directionColor}; font-weight:600;">${ind.change_pct >= 0 ? '+' : ''}${Number(ind.change_pct).toFixed(2)}%</td>
+                            </tr>`;
+                        });
+                        stockHtml += `</table></div>`;
+                    }
+                });
+                stockHtml += `</div></div>`;
+                html += stockHtml;
+            }
+
+            // ============================================
+            // 5. STACKOVERFLOW KNOWLEDGE FAULTS
+            // ============================================
+            if (data.stackoverflow && data.stackoverflow.length > 0) {
+                validModulesCount++;
+                html += makeTable('📚 Technical Impediments (StackOverflow Hot Threads)',
+                    ['Urgent Engineering Problem Topic', 'Answers Counter', 'Total Footprint Views'],
+                    data.stackoverflow.slice(0, 6).map(q => [
+                        `<a href="${q.link || '#'}" target="_blank" style="color:#fff; text-decoration:none;">${q.title}</a>`,
+                        `📝 ${q.answers}`,
+                        `👁️ ${formatNum(q.views)}`
+                    ])
+                );
+            }
+
+            // ============================================
+            // 6. FIAT VALUE EXCHANGES (Base USD)
+            // ============================================
+            if (data.exchange_rates && data.exchange_rates.rates) {
+                validModulesCount++;
+                const sampleCurrencies = ['EUR', 'GBP', 'JPY', 'CNY', 'INR', 'CAD', 'AUD', 'CHF'];
+                html += makeTable('💱 Fiat Currencies Comparative Baseline (1.00 USD)',
+                    ['ISO Alpha Target Code', 'Absolute Evaluation Value', 'Direct Currency Conversion Formula'],
+                    sampleCurrencies.filter(cur => data.exchange_rates.rates[cur]).map(cur => [
+                        `<strong>${cur}</strong>`,
+                        data.exchange_rates.rates[cur].toFixed(4),
+                        `1.00 USD = ${data.exchange_rates.rates[cur].toFixed(2)} ${cur}`
+                    ])
+                );
+            }
+
+            // ============================================
+            // 7. MULTI-LINGUAL WIKIPEDIA TOP TOPICS MATRIX
+            // ============================================
+            const wikiLanguages = ['en', 'es', 'fr', 'de', 'ja', 'zh', 'ar', 'ru', 'pt', 'hi', 'it', 'nl', 'pl', 'sv', 'ko'];
+            let wikiRows = [];
+            wikiLanguages.forEach(lang => {
+                const wObj = data[`wiki_${lang}`];
+                if (wObj && wObj.articles && wObj.articles.length > 0) {
+                    wikiRows.push([
+                        `<span style="text-transform:uppercase; font-weight:700; color:var(--purple);">${lang}</span>`,
+                        wObj.articles[0].title,
+                        formatNum(wObj.articles[0].views)
+                    ]);
+                }
+            });
+            if (wikiRows.length > 0) {
+                validModulesCount++;
+                html += makeTable('🌐 Cross-Cultural Intellectual Focus (Top Wikipedia Entries)',
+                    ['ISO Lang Code', 'Highest Density Encyclopedia Narrative Topic', 'Recorded Single-Day Read Hits'],
+                    wikiRows
+                );
+            }
+
+            // ============================================
+            // 8. INTERNATIONAL NEWS WIRE (7 Sovereign Regions Combined)
+            // ============================================
+            const countriesNewsList = [
+                { key: 'news_us', label: 'United States (EN)' },
+                { key: 'news_china', label: 'China Region (ZH)' },
+                { key: 'news_uk', label: 'United Kingdom (EN)' },
+                { key: 'news_india', label: 'India National (EN)' },
+                { key: 'news_japan', label: 'Japan Archipelago (JA)' },
+                { key: 'news_brazil', label: 'Brazil Network (PT)' },
+                { key: 'news_russia', label: 'Russia Federation (RU)' }
+            ];
+            let combinedNewsRows = [];
+            countriesNewsList.forEach(cItem => {
+                const arr = data[cItem.key];
+                if (arr && arr.length > 0) {
+                    arr.slice(0, 2).forEach(story => {
+                        combinedNewsRows.push([
+                            `<strong>${cItem.label}</strong>`,
+                            `<a href="${story.link || '#'}" target="_blank" style="color:#fff; text-decoration:none;">${story.title}</a>`,
+                            `<span style="white-space:nowrap; opacity:0.7;">${(story.date || '').split(' ').slice(0,4).join(' ')}</span>`
+                        ]);
+                    });
+                }
+            });
+            if (combinedNewsRows.length > 0) {
+                validModulesCount++;
+                html += makeTable('🌍 Worldwide Press Feed & Geo-Political Headlines',
+                    ['Sovereign Vector', 'Headline Asset Context Narrative', 'Registered Time-Stamp'],
+                    combinedNewsRows
+                );
+            }
+
+            // ============================================
+            // 9. METEOROLOGICAL SYSTEM VISUAL CHART (25 Global Capitals)
+            // ============================================
+            if (data.weather_25_cities && typeof data.weather_25_cities === 'object') {
+                validModulesCount++;
+                let weatherLabels = [];
+                let weatherTemps = [];
+                let weatherHumidities = [];
+                
+                // Extract clean list of cities
+                Object.entries(data.weather_25_cities).forEach(([cityName, metrics]) => {
+                    if (metrics && metrics.temp != null) {
+                        weatherLabels.push(cityName.replace(/_/g, ' '));
+                        weatherTemps.push(metrics.temp);
+                        weatherHumidities.push(metrics.humidity || 0);
+                    }
+                });
+
+                if (weatherTemps.length > 0) {
+                    html += `<div class="card full-width">
+                        <div class="card-title">🌤️ Planetary Climate Matrix Framework (25 Strategic Metropolises)</div>
+                        <div class="chart-container" style="height:320px;">
+                            <canvas id="weatherMultiChartCtx"></canvas>
+                        </div>
+                    </div>`;
+                    statsHtml += `<div class="stat-card"><div class="stat-number">${Math.max(...weatherTemps)}°C</div><div class="stat-label">Peak Network Heat</div></div>`;
                 }
             }
 
-            // Air Quality
-            const aqKeys=['nyc','london','tokyo','delhi','sao_paulo'];
-            const aqAll=aqKeys.map(k=>data[`aq_${k}`]).filter(Boolean);
-            if (aqAll.length>0) {
-                const id='aqch'; html+=`<div class="card"><div class="card-title">🌬️ Air Quality Index</div><div class="chart-container"><canvas id="${id}"></canvas></div></div>`;
-                setTimeout(()=>barChart(id, aqAll.map(a=>(a.city||'?').toUpperCase()), aqAll.map(a=>a.aqi||0), '#6366f1'), 100);
-            }
+            // ============================================
+            // 10. REAL-TIME INTERNATIONAL SPORTS SCOREBOARD (Leagues & Formula 1)
+            // ============================================
+            let sportsHtmlElements = '';
+            const simpleLeagues = [
+                { key: 'sports_premier_league', title: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 English Premier League' },
+                { key: 'sports_la_liga', title: '🇪🇸 La Liga Santander' },
+                { key: 'sports_nba', title: '🇺🇸 National Basketball Association' },
+                { key: 'sports_ipl', title: '🇮🇳 Indian Premier League Cricket' },
+                { key: 'sports_mlb', title: '🇺🇸 Major League Baseball' },
+                { key: 'sports_csl', title: '🇨🇳 Chinese Super League' }
+            ];
 
-            // Stock Markets
-            const stk = data.stock_markets;
-            if (stk && stk.indices && stk.indices.length > 0) {
-                html += cardHTML('📊 Global Stock Indices', stk.indices.map(i => [
-                    `<strong>${i.name||i.symbol||'?'}</strong> <span style="color:var(--text2);">${i.market||''}</span>`,
-                    i.price ? '$'+Number(i.price).toLocaleString() : '—',
-                    `<span style="color:${(i.change||0)>=0?'var(--green)':'var(--red)'}">${(i.change||0)>=0?'▲':'▼'} ${Math.abs(i.change_pct||0).toFixed(2)}%</span>`
-                ]), ['Index','Price','Change']);
-            }
+            let totalMatchesLogged = 0;
+            let activeSportsBlocks = 0;
 
-            // Crypto
-            const cr = data.crypto;
-            if (cr && Array.isArray(cr) && cr.length > 0) {
-                html += cardHTML('₿ Crypto Market', cr.slice(0,8).map(c => [
-                    `${c.name||'?'} <span style="color:var(--text2);">${(c.symbol||'').toUpperCase()}</span>`,
-                    c.price?'$'+c.price.toLocaleString():'—',
-                    `<span style="color:${(c.change_24h||0)>=0?'var(--green)':'var(--red)'}">${(c.change_24h||0)>=0?'▲':'▼'}${Math.abs(c.change_24h||0).toFixed(1)}%</span>`
-                ]), ['Name','Price','24h']);
-            }
-
-            // GitHub
-            const gh = data.github_trending;
-            if (gh && Array.isArray(gh) && gh.length > 0) {
-                html += cardHTML('💻 GitHub Trending', gh.slice(0,8).map(r => [
-                    `<a href="${r.url||'#'}" target="_blank" style="color:#fff;text-decoration:none;">${(r.name||'?').split('/')[1]||r.name||'?'}</a>`,
-                    fmt(r.stars), r.language||'—'
-                ]), ['Repo','Stars','Lang']);
-            }
-
-            // Sports
-            const sportsKeys = ['nba','premier_league','la_liga','csl','mlb','ipl','f1'];
-            const sportsNames = { nba:'🏀 NBA', premier_league:'⚽ Premier League', la_liga:'⚽ La Liga', csl:'⚽ Chinese SL', mlb:'⚾ MLB', ipl:'🏏 IPL', f1:'🏎️ F1' };
-            sportsKeys.forEach(k => {
-                const s = data[`sports_${k}`];
-                if (s && Array.isArray(s) && s.length > 0) {
-                    html += cardHTML(sportsNames[k]||k, s.slice(0,6).map(m => [
-                        m.home||'?', m.away||'?',
-                        m.home_score != null ? `${m.home_score} - ${m.away_score}` : m.status||'—',
-                        m.date ? new Date(m.date).toLocaleDateString() : '—'
-                    ]), ['Home','Away','Score','Date']);
+            simpleLeagues.forEach(league => {
+                const matches = data[league.key];
+                if (matches && matches.length > 0) {
+                    activeSportsBlocks++;
+                    totalMatchesLogged += matches.length;
+                    sportsHtmlElements += `<div class="sub-block">
+                        <h4>${league.title}</h4>
+                        <table class="data-table" style="font-size:0.8rem;">`;
+                    matches.slice(0, 4).forEach(m => {
+                        sportsHtmlElements += `<tr>
+                            <td>${m.away} @ ${m.home}</td>
+                            <td style="text-align:right; font-weight:700;">${m.away_score} - ${m.home_score}</td>
+                            <td style="opacity:0.6; font-size:0.7rem; text-align:right;">${m.status}</td>
+                        </tr>`;
+                    });
+                    sportsHtmlElements += `</table></div>`;
                 }
             });
 
-            // News
-            const newsKeys = ['us','china','uk','india','japan','brazil','russia'];
-            const newsFlags = { us:'🇺🇸 US', china:'🇨🇳 China', uk:'🇬🇧 UK', india:'🇮🇳 India', japan:'🇯🇵 Japan', brazil:'🇧🇷 Brazil', russia:'🇷🇺 Russia' };
-            newsKeys.forEach(k => {
-                const n = data[`news_${k}`];
-                if (n && Array.isArray(n) && n.length > 0) {
-                    html += cardHTML(`📰 ${newsFlags[k]||k} Headlines`, n.slice(0,6).map(h => [
-                        `<a href="${h.link||'#'}" target="_blank" style="color:#fff;text-decoration:none;">${(h.title||'?').substring(0,60)}</a>`,
-                        h.date ? new Date(h.date).toLocaleDateString() : '—'
-                    ]), ['Title','Date']);
+            // Parse separate F1 telemetry schema
+            if (data.sports_f1 && data.sports_f1.length > 0) {
+                activeSportsBlocks++;
+                const f1Race = data.sports_f1[0];
+                sportsHtmlElements += `<div class="sub-block" style="grid-column: span 2;">
+                    <h4>🏎️ FIA Formula 1 Grand Prix Podium Tracker</h4>
+                    <p style="font-size:0.8rem; color:var(--text2); margin-bottom:8px;">Race: <strong>${f1Race.race}</strong> (${f1Race.circuit})</p>
+                    <table class="data-table" style="font-size:0.8rem;">
+                        <thead><tr><th>Pos</th><th>Driver Competitor</th><th>Constructor Frame</th><th>Points Awarded</th></tr></thead>
+                        <tbody>`;
+                if(f1Race.results && Array.isArray(f1Race.results)) {
+                    f1Race.results.slice(0, 3).forEach(res => {
+                        sportsHtmlElements += `<tr>
+                            <td><strong>#${res.position}</strong></td>
+                            <td>${res.driver}</td>
+                            <td>${res.constructor}</td>
+                            <td><span style="color:var(--yellow); font-weight:700;">+${res.points}</span></td>
+                        </tr>`;
+                    });
                 }
-            });
-
-            // Earthquakes
-            const eq = data.earthquakes;
-            if (eq && Array.isArray(eq) && eq.length > 0) {
-                const s = [...eq].sort((a,b)=>(b.magnitude||0)-(a.magnitude||0));
-                html += cardHTML('🌋 Seismic Activity', s.slice(0,8).map(q => [
-                    (q.place||'?').substring(0,40),
-                    `<span style="color:${(q.magnitude||0)>=5?'var(--red)':(q.magnitude||0)>=3?'var(--yellow)':'var(--green)'}">${(q.magnitude||0).toFixed(1)}</span>`,
-                    q.depth?q.depth.toFixed(0)+' km':'—'
-                ]), ['Location','Mag','Depth']);
+                sportsHtmlElements += `</tbody></table></div>`;
             }
 
-            // Forex
-            const fx = data.exchange_rates;
-            if (fx && fx.rates) {
-                const m = ['EUR','GBP','JPY','CNY','INR','BRL','CAD','AUD'];
-                html += cardHTML('💱 Exchange Rates', m.filter(c=>fx.rates[c]).map(c=>[`<strong>${c}</strong>`, fx.rates[c].toFixed(4)]), ['Currency','Rate (USD)']);
+            if (activeSportsBlocks > 0) {
+                validModulesCount++;
+                html += `<div class="card full-width">
+                    <div class="card-title">🏆 Real-Time International Sports Scoreboard Logistics</div>
+                    <div class="inner-flex-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+                        ${sportsHtmlElements}
+                    </div>
+                </div>`;
+                statsHtml += `<div class="stat-card"><div class="stat-number">${totalMatchesLogged}</div><div class="stat-label">Active Competitions Tracked</div></div>`;
             }
 
-            // Space
-            const astro=data.people_in_space, iss=data.iss_position, nasa=data.nasa_apod;
-            if (astro||iss||nasa) {
-                let sh='<div class="card full-width"><div class="card-title">🛰️ Space Explorer</div><div class="space-grid">';
-                if (astro&&astro.people) sh+=`<div><h4 style="color:var(--text2);">🚀 ${astro.total||0} in Orbit</h4><div class="tags">${astro.people.map(p=>`<span class="tag">${p.name} (${p.craft})</span>`).join('')}</div></div>`;
-                if (iss&&iss.lat) sh+=`<div><h4 style="color:var(--text2);">📍 ISS</h4><p style="font-family:monospace;">${parseFloat(iss.lat).toFixed(4)}° / ${parseFloat(iss.lon).toFixed(4)}°</p></div>`;
-                if (nasa&&nasa.url) sh+=`<div><h4 style="color:var(--text2);">🔭 ${nasa.title||'APOD'}</h4>${nasa.media_type==='image'?`<img src="${nasa.url}" style="width:100%;border-radius:12px;" onerror="this.style.display='none'" alt="APOD">`:''}<p style="color:var(--text2);font-size:0.8rem;">${(nasa.explanation||'').substring(0,200)}...</p></div>`;
-                sh+='</div></div>'; html+=sh;
-            }
+            // ============================================
+            // INJECTION AND CHART INITIALIZATION RUNNERS
+            // ============================================
+            if (validModulesCount === 0) {
+                grid.innerHTML = `<div class="error-box" style="grid-column:1/-1; background:rgba(239,68,68,0.05); border:1px solid var(--red); border-radius:16px; padding:40px; text-align:center;">
+                    <h3>⚠️ Zero Data Modalities Active</h3>
+                    <p style="color:var(--text2); margin-top:8px;">The system could not retrieve active operational payload directories for this snapshot vector timeline. Select another date configuration.</p>
+                </div>`;
+                stats.innerHTML = '';
+            } else {
+                grid.innerHTML = html;
+                stats.innerHTML = statsHtml;
 
-            // Countries & Holidays
-            const cnt=data.all_countries, hol=data.holidays_today;
-            if (cnt||hol) {
-                let wh='<div class="card full-width"><div class="card-title">🌍 World Data</div><div class="space-grid">';
-                if (cnt&&cnt.length>0) wh+=`<div><h4 style="color:var(--text2);">Top Populations</h4>${[...cnt].sort((a,b)=>b.population-a.population).slice(0,5).map(c=>`<p>${c.country}: ${fmt(c.population)}</p>`).join('')}</div>`;
-                if (hol&&hol.length>0) wh+=`<div><h4 style="color:var(--text2);">🎉 Holidays</h4>${hol.slice(0,5).map(h=>`<p>[${h.country}] ${h.name}</p>`).join('')}</div>`;
-                wh+='</div></div>'; html+=wh;
+                // Render Unified Climate Framework Chart if element injected
+                const weatherCtx = document.getElementById('weatherMultiChartCtx');
+                if (weatherCtx && typeof weatherLabels !== 'undefined' && weatherLabels.length > 0) {
+                    const cInstance = new Chart(weatherCtx, {
+                        type: 'bar',
+                        data: {
+                            labels: weatherLabels,
+                            datasets: [
+                                {
+                                    label: 'Core Temperature Metric (°C)',
+                                    data: weatherTemps,
+                                    backgroundColor: '#3b82f6',
+                                    borderRadius: 4,
+                                    yAxisID: 'y'
+                                },
+                                {
+                                    label: 'Relative Humidity Matrix (%)',
+                                    data: weatherHumidities,
+                                    borderColor: '#a855f7',
+                                    borderWidth: 2,
+                                    type: 'line',
+                                    pointRadius: 2,
+                                    fill: false,
+                                    yAxisID: 'y1'
+                                }
+                            ]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: {
+                                legend: { labels: { color: '#94a3b8', font: { family: 'Plus Jakarta Sans', size: 10 } } },
+                                tooltip: { backgroundColor: '#0b111e' }
+                            },
+                            scales: {
+                                x: { grid: { display: false }, ticks: { color: '#94a3b8', font: { family: 'Plus Jakarta Sans', size: 9 } } },
+                                y: { position: 'left', grid: { color: 'rgba(255,255,255,0.03)' }, ticks: { color: '#3b82f6' } },
+                                y1: { position: 'right', grid: { display: false }, ticks: { color: '#a855f7' } }
+                            }
+                        }
+                    });
+                    window.activeCharts.push(cInstance);
+                }
             }
-
-            if (!html) { grid.innerHTML='<div class="error-box"><h3>No data</h3><p>Try another date.</p></div>'; stats.innerHTML=''; return; }
-            grid.innerHTML=html; stats.innerHTML=statsHtml;
         }
 
-        // Intertemporal
-        const IT_ITEMS = {
-            weather: ['New_York','London','Tokyo','Shanghai','Mumbai','Sao_Paulo','Paris','Moscow','Sydney','Dubai'],
-            air_quality: ['nyc','london','tokyo','delhi','sao_paulo'],
-            crypto: ['bitcoin','ethereum','solana','ripple','cardano','dogecoin'],
-            exchange_rates: ['EUR','GBP','JPY','CNY','INR','BRL','CAD','AUD'],
-            stock_markets: ['^GSPC','^DJI','^IXIC','^FTSE','^GDAXI','^FCHI','^N225','^HSI','^BSESN']
-        };
-        function updateITItems() {
-            const cat=document.getElementById('itCategory').value;
-            const sel=document.getElementById('itItem');
-            sel.innerHTML='<option value="">— Item —</option>';
-            if(IT_ITEMS[cat]) IT_ITEMS[cat].forEach(i=>{sel.innerHTML+=`<option value="${i}">${i.replace(/_/g,' ')}</option>`;});
-            else if(['earthquakes','github','hackernews','reddit'].includes(cat)) sel.innerHTML='<option value="auto">Auto (max)</option>';
+        function makeTable(title, headers, rows) {
+            return `<div class="card">
+                <div class="card-title">${title}</div>
+                <div class="table-container">
+                    <table class="data-table">
+                        <thead><tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr></thead>
+                        <tbody>${rows.map(row => `<tr>${row.map(c => `<td>${c}</td>`).join('')}</tr>`).join('')}</tbody>
+                    </table>
+                </div>
+            </div>`;
         }
 
-        async function loadIntertemporal() {
-            const cat=document.getElementById('itCategory').value;
-            const item=document.getElementById('itItem').value;
-            const start=document.getElementById('itStart').value;
-            const end=document.getElementById('itEnd').value;
-            const st=document.getElementById('itStatus');
-            if(!cat||!item||!start||!end){st.innerHTML='<span style="color:var(--red);">Fill all fields.</span>';return;}
-            const sD=new Date(start),eD=new Date(end); if(sD>eD){st.innerHTML='<span style="color:var(--red);">Invalid range.</span>';return;}
-            st.innerHTML='<span style="color:var(--yellow);">Loading...</span>';
-            const dates=[]; let d=new Date(sD); while(d<=eD){dates.push(new Date(d));d.setDate(d.getDate()+1);}
-            const labels=[],values=[];
-            for(const dt of dates){
-                const dp=`${dt.getFullYear()}/${String(dt.getMonth()+1).padStart(2,'0')}/${String(dt.getDate()).padStart(2,'0')}`;
-                const data=await loadDate(dp); let val=null;
-                try {
-                    if(cat==='weather'&&data.weather_25_cities&&data.weather_25_cities[item]) val=data.weather_25_cities[item].temp;
-                    else if(cat==='air_quality'){const aq=data[`aq_${item}`]; if(aq) val=aq.aqi;}
-                    else if(cat==='earthquakes'&&data.earthquakes&&data.earthquakes.length>0) val=Math.max(...data.earthquakes.map(e=>e.magnitude||0));
-                    else if(cat==='crypto'&&data.crypto){const coin=data.crypto.find(c=>(c.symbol||'').toLowerCase()===item||(c.id||'').toLowerCase()===item||(c.name||'').toLowerCase()===item); if(coin) val=coin.price;}
-                    else if(cat==='exchange_rates'&&data.exchange_rates&&data.exchange_rates.rates) val=data.exchange_rates.rates[item];
-                    else if(cat==='stock_markets'&&data.stock_markets&&data.stock_markets.indices){const idx=data.stock_markets.indices.find(i=>i.symbol===item||i.name===item); if(idx) val=idx.price;}
-                    else if(cat==='github'&&data.github_trending&&data.github_trending.length>0) val=Math.max(...data.github_trending.map(r=>r.stars||0));
-                    else if(cat==='hackernews'&&data.hackernews&&data.hackernews.length>0) val=Math.max(...data.hackernews.map(s=>s.score||0));
-                    else if(cat==='reddit'&&data.reddit&&data.reddit.length>0) val=Math.max(...data.reddit.map(p=>p.score||0));
-                } catch(e) { val=null; }
-                if(val!=null&&!isNaN(val))
+        async function loadToday() {
+            const path = getTodayPath();
+            document.getElementById('statusMessage').innerHTML = '<span style="color:var(--yellow);">⏳ Fetching system register nodes for active timeline...</span>';
+            document.getElementById('datePicker').value = new Date().toISOString().split('T')[0];
+            
+            let data = await loadAllCapsuleData(path);
+            let found = data && Object.values(data).some(v => v && (Array.isArray(v) ? v.length > 0 : Object.keys(v).length > 0));
+            
+            if (!found) {
+                const yesterday = new Date();
+                yesterday.setDate(yesterday.getDate() - 1);
+                const yPath = `${yesterday.getFullYear()}/${String(yesterday.getMonth()+1).padStart(2,'0')}/${String(yesterday.getDate()).padStart(2,'0')}`;
+                document.getElementById('statusMessage').innerHTML = '<span style="color:var(--yellow);">⚠️ Current day metrics pipeline compiling. Synchronizing secondary storage block...</span>';
+                data = await loadAllCapsuleData(yPath);
+                found = data && Object.values(data).some(v => v && (Array.isArray(v) ? v.length > 0 : Object.keys(v).length > 0));
+                if (found) {
+                    document.getElementById('statusMessage').innerHTML = '<span style="color:var(--green);">✅ Restored active backup memory block successfully</span>';
+                }
+            } else {
+                document.getElementById('statusMessage').innerHTML = '<span style="color:var(--green);">✅ Primary storage nodes responsive. Decrypting indices...</span>';
+            }
+            renderDashboard(data || {});
+        }
+
+        async function loadSelectedDate() {
+            const val = document.getElementById('datePicker').value;
+            if (!val) return;
+            const [y,m,d] = val.split('-');
+            const path = `${y}/${m}/${d}`;
+            document.getElementById('statusMessage').innerHTML = `<span style="color:var(--yellow);">⏳ Querying directory maps for sector path ${val}...</span>`;
+            const data = await loadAllCapsuleData(path);
+            const found = data && Object.values(data).some(v => v && (Array.isArray(v) ? v.length > 0 : Object.keys(v).length > 0));
+            
+            document.getElementById('statusMessage').innerHTML = found 
+                ? `<span style="color:var(--green);">✅ Snapshot sector retrieved successfully for sequence date [${val}]</span>`
+                : `<span style="color:var(--red);">❌ Vector path [${val}] empty or unindexed in repository</span>`;
+            renderDashboard(data || {});
+        }
+
+        // Initialize engine execution sequences
+        document.getElementById('datePicker').value = new Date().toISOString().split('T')[0];
+        loadToday();
+    </script>
+</body>
+</html>
