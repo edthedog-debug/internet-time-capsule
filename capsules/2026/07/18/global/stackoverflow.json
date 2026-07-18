@@ -1,0 +1,171 @@
+[
+  {
+    "title": "Getting the compiler to tell which part of concept conjunction failed",
+    "score": 1,
+    "tags": [
+      "c++",
+      "c++-concepts"
+    ]
+  },
+  {
+    "title": "ID Token vs. API Response Body for user metadata",
+    "score": -2,
+    "tags": [
+      "best-practices",
+      "jwt"
+    ]
+  },
+  {
+    "title": "ASP.NET Core 10 OpenAPI source generator fails with &quot;IOpenApiMediaType.Example cannot be assigned&quot;",
+    "score": 0,
+    "tags": [
+      "asp.net-core",
+      "openapi",
+      "minimal-apis",
+      ".net-10.0"
+    ]
+  },
+  {
+    "title": "How use PHP array_search for tags even it is an array tag",
+    "score": 1,
+    "tags": [
+      "php",
+      "multidimensional-array"
+    ]
+  },
+  {
+    "title": "SSIS DATA migration from one db to other db",
+    "score": -1,
+    "tags": [
+      "sql",
+      "sql-server",
+      "ssis",
+      "data-migration"
+    ]
+  },
+  {
+    "title": "Real life example getter",
+    "score": -5,
+    "tags": [
+      "advice"
+    ]
+  },
+  {
+    "title": "legendry nested axis compatibility while using geom_chicklet",
+    "score": 0,
+    "tags": [
+      "r",
+      "nested",
+      "ggh4x"
+    ]
+  },
+  {
+    "title": "How do I connect an existing Azure Function app to Visual Studio Code?",
+    "score": -4,
+    "tags": [
+      "azure",
+      "visual-studio-code",
+      "azure-functions"
+    ]
+  },
+  {
+    "title": "std::fs::canonicalize result doesn&#39;t live long enough",
+    "score": 0,
+    "tags": [
+      "rust"
+    ]
+  },
+  {
+    "title": "Makefile generation error with canonical name",
+    "score": -1,
+    "tags": [
+      "autotools"
+    ]
+  },
+  {
+    "title": "Flutter Linux desktop build fails with &quot;No provider of glBlitFramebuffer found&quot; after updating to Flutter 3.44.6",
+    "score": 0,
+    "tags": [
+      "flutter"
+    ]
+  },
+  {
+    "title": "How to let code know if it&#39;s run using cargo test vs cargo run vs run as an executable?",
+    "score": 0,
+    "tags": [
+      "rust",
+      "rust-cargo",
+      "test-environments"
+    ]
+  },
+  {
+    "title": "GitHub change local repo",
+    "score": -4,
+    "tags": [
+      "git"
+    ]
+  },
+  {
+    "title": "Why does numpy do a copy in this array slice?",
+    "score": -3,
+    "tags": [
+      "python",
+      "numpy",
+      "python-internals",
+      "numpy-slicing"
+    ]
+  },
+  {
+    "title": "How does a parallel stream continue after a stateful operation like sorted()?",
+    "score": 0,
+    "tags": [
+      "java",
+      "stream"
+    ]
+  },
+  {
+    "title": "Where is the C Standard function sqrt actually defined? (Windows user)",
+    "score": 1,
+    "tags": [
+      "c",
+      "sqrt",
+      "c-standard-library"
+    ]
+  },
+  {
+    "title": "Alternative to Sumif",
+    "score": -3,
+    "tags": [
+      "excel",
+      "sumifs"
+    ]
+  },
+  {
+    "title": "Is there a method/constructor in the JDK that creates a JTable with dummy data?",
+    "score": -5,
+    "tags": [
+      "java",
+      "swing",
+      "jtable",
+      "tablemodel",
+      "dummy-data"
+    ]
+  },
+  {
+    "title": "Which is the better framework between Express and Nest.js for developing middleware application based on text and images data and connection with DB",
+    "score": -4,
+    "tags": [
+      "tooling-recommendation",
+      "node.js",
+      "express",
+      "nestjs"
+    ]
+  },
+  {
+    "title": "using a proof to unwind a decidable `if`",
+    "score": 0,
+    "tags": [
+      "lean"
+    ]
+  }
+]

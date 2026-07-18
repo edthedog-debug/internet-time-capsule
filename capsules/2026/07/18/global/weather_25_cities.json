@@ -1,0 +1,226 @@
+{
+"Buenos_Aires": {
+  "time": "2026-07-18T08:00",
+  "interval": 900,
+  "temperature_2m": 14.9,
+  "relative_humidity_2m": 99,
+  "wind_speed_10m": 9.6,
+  "weather_code": 3
+}
+,
+"Toronto": {
+  "time": "2026-07-18T07:00",
+  "interval": 900,
+  "temperature_2m": 20.2,
+  "relative_humidity_2m": 81,
+  "wind_speed_10m": 16.8,
+  "weather_code": 3
+}
+,
+"Singapore": {
+  "time": "2026-07-18T19:00",
+  "interval": 900,
+  "temperature_2m": 26.9,
+  "relative_humidity_2m": 85,
+  "wind_speed_10m": 5.1,
+  "weather_code": 2
+}
+,
+"New_York": {
+  "time": "2026-07-18T07:00",
+  "interval": 900,
+  "temperature_2m": 21.8,
+  "relative_humidity_2m": 89,
+  "wind_speed_10m": 6.8,
+  "weather_code": 0
+}
+,
+"Cairo": {
+  "time": "2026-07-18T14:00",
+  "interval": 900,
+  "temperature_2m": 36.8,
+  "relative_humidity_2m": 21,
+  "wind_speed_10m": 9.0,
+  "weather_code": 0
+}
+,
+"Paris": {
+  "time": "2026-07-18T13:00",
+  "interval": 900,
+  "temperature_2m": 27.2,
+  "relative_humidity_2m": 36,
+  "wind_speed_10m": 6.6,
+  "weather_code": 1
+}
+,
+"Seoul": {
+  "time": "2026-07-18T20:00",
+  "interval": 900,
+  "temperature_2m": 25.7,
+  "relative_humidity_2m": 83,
+  "wind_speed_10m": 1.8,
+  "weather_code": 1
+}
+,
+"Nairobi": {
+  "time": "2026-07-18T14:00",
+  "interval": 900,
+  "temperature_2m": 25.2,
+  "relative_humidity_2m": 43,
+  "wind_speed_10m": 7.6,
+  "weather_code": 51
+}
+,
+"Berlin": {
+  "time": "2026-07-18T13:00",
+  "interval": 900,
+  "temperature_2m": 22.3,
+  "relative_humidity_2m": 49,
+  "wind_speed_10m": 17.7,
+  "weather_code": 3
+}
+,
+"Lima": {
+  "time": "2026-07-18T06:00",
+  "interval": 900,
+  "temperature_2m": 20.2,
+  "relative_humidity_2m": 75,
+  "wind_speed_10m": 3.1,
+  "weather_code": 3
+}
+,
+"Moscow": {
+  "time": "2026-07-18T14:00",
+  "interval": 900,
+  "temperature_2m": 25.0,
+  "relative_humidity_2m": 42,
+  "wind_speed_10m": 3.1,
+  "weather_code": 1
+}
+,
+"Tokyo": {
+  "time": "2026-07-18T20:00",
+  "interval": 900,
+  "temperature_2m": 26.0,
+  "relative_humidity_2m": 83,
+  "wind_speed_10m": 4.7,
+  "weather_code": 1
+}
+,
+"Istanbul": {
+  "time": "2026-07-18T14:00",
+  "interval": 900,
+  "temperature_2m": 30.0,
+  "relative_humidity_2m": 50,
+  "wind_speed_10m": 19.0,
+  "weather_code": 1
+}
+,
+"Dubai": {
+  "time": "2026-07-18T15:00",
+  "interval": 900,
+  "temperature_2m": 38.7,
+  "relative_humidity_2m": 44,
+  "wind_speed_10m": 17.0,
+  "weather_code": 0
+}
+,
+"Sao_Paulo": {
+  "time": "2026-07-18T08:00",
+  "interval": 900,
+  "temperature_2m": 14.5,
+  "relative_humidity_2m": 64,
+  "wind_speed_10m": 10.2,
+  "weather_code": 0
+}
+,
+"London": {
+  "time": "2026-07-18T12:00",
+  "interval": 900,
+  "temperature_2m": 20.8,
+  "relative_humidity_2m": 44,
+  "wind_speed_10m": 9.4,
+  "weather_code": 0
+}
+,
+"Lagos": {
+  "time": "2026-07-18T12:00",
+  "interval": 900,
+  "temperature_2m": 27.0,
+  "relative_humidity_2m": 79,
+  "wind_speed_10m": 11.0,
+  "weather_code": 3
+}
+,
+"Rome": {
+  "time": "2026-07-18T13:00",
+  "interval": 900,
+  "temperature_2m": 35.9,
+  "relative_humidity_2m": 42,
+  "wind_speed_10m": 11.9,
+  "weather_code": 0
+}
+,
+"Mumbai": {
+  "time": "2026-07-18T16:30",
+  "interval": 900,
+  "temperature_2m": 28.3,
+  "relative_humidity_2m": 79,
+  "wind_speed_10m": 11.1,
+  "weather_code": 51
+}
+,
+"Cape_Town": {
+  "time": "2026-07-18T13:00",
+  "interval": 900,
+  "temperature_2m": 14.9,
+  "relative_humidity_2m": 91,
+  "wind_speed_10m": 9.9,
+  "weather_code": 3
+}
+,
+"Mexico_City": {
+  "time": "2026-07-18T05:00",
+  "interval": 900,
+  "temperature_2m": 13.0,
+  "relative_humidity_2m": 94,
+  "wind_speed_10m": 6.1,
+  "weather_code": 2
+}
+,
+"Shanghai": {
+  "time": "2026-07-18T19:00",
+  "interval": 900,
+  "temperature_2m": 27.8,
+  "relative_humidity_2m": 89,
+  "wind_speed_10m": 3.8,
+  "weather_code": 80
+}
+,
+"Jakarta": {
+  "time": "2026-07-18T18:00",
+  "interval": 900,
+  "temperature_2m": 30.5,
+  "relative_humidity_2m": 55,
+  "wind_speed_10m": 1.8,
+  "weather_code": 2
+}
+,
+"Sydney": {
+  "time": "2026-07-18T21:00",
+  "interval": 900,
+  "temperature_2m": 14.9,
+  "relative_humidity_2m": 75,
+  "wind_speed_10m": 9.8,
+  "weather_code": 2
+}
+,
+"Bangkok": {
+  "time": "2026-07-18T18:00",
+  "interval": 900,
+  "temperature_2m": 30.3,
+  "relative_humidity_2m": 72,
+  "wind_speed_10m": 9.6,
+  "weather_code": 1
+}
+}

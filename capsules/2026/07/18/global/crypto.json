@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Bitcoin",
+    "symbol": "btc",
+    "price": 63972,
+    "market_cap": 1283111329491,
+    "change_24h": 1.44002
+  },
+  {
+    "name": "Ethereum",
+    "symbol": "eth",
+    "price": 1844.1,
+    "market_cap": 222536060098,
+    "change_24h": 0.57275
+  },
+  {
+    "name": "Tether",
+    "symbol": "usdt",
+    "price": 0.999264,
+    "market_cap": 184087582739,
+    "change_24h": 0.01381
+  },
+  {
+    "name": "BNB",
+    "symbol": "bnb",
+    "price": 569.38,
+    "market_cap": 75817494595,
+    "change_24h": 1.07228
+  },
+  {
+    "name": "USDC",
+    "symbol": "usdc",
+    "price": 0.999891,
+    "market_cap": 73293101889,
+    "change_24h": -0.00788
+  },
+  {
+    "name": "XRP",
+    "symbol": "xrp",
+    "price": 1.086,
+    "market_cap": 67848606325,
+    "change_24h": 0.07683
+  },
+  {
+    "name": "Solana",
+    "symbol": "sol",
+    "price": 74.87,
+    "market_cap": 43611771131,
+    "change_24h": 0.26134
+  },
+  {
+    "name": "TRON",
+    "symbol": "trx",
+    "price": 0.32313,
+    "market_cap": 30651422664,
+    "change_24h": 0.29634
+  },
+  {
+    "name": "Figure Heloc",
+    "symbol": "figr_heloc",
+    "price": 1.026,
+    "market_cap": 20607529790,
+    "change_24h": 0.64516
+  },
+  {
+    "name": "Hyperliquid",
+    "symbol": "hype",
+    "price": 59.05,
+    "market_cap": 13134449595,
+    "change_24h": -1.99974
+  },
+  {
+    "name": "Dogecoin",
+    "symbol": "doge",
+    "price": 0.072145,
+    "market_cap": 11191152818,
+    "change_24h": 0.39355
+  },
+  {
+    "name": "USDS",
+    "symbol": "usds",
+    "price": 0.999848,
+    "market_cap": 10026525337,
+    "change_24h": 0.00651
+  },
+  {
+    "name": "Rain",
+    "symbol": "rain",
+    "price": 0.01403811,
+    "market_cap": 9290239736,
+    "change_24h": -1.71986
+  },
+  {
+    "name": "Zcash",
+    "symbol": "zec",
+    "price": 539.06,
+    "market_cap": 9052135028,
+    "change_24h": 1.03474
+  },
+  {
+    "name": "LEO Token",
+    "symbol": "leo",
+    "price": 9.77,
+    "market_cap": 8991401986,
+    "change_24h": -0.25875
+  },
+  {
+    "name": "WhiteBIT Coin",
+    "symbol": "wbt",
+    "price": 55.78,
+    "market_cap": 6579782082,
+    "change_24h": 1.20455
+  },
+  {
+    "name": "Stellar",
+    "symbol": "xlm",
+    "price": 0.183238,
+    "market_cap": 6259123507,
+    "change_24h": -0.30384
+  },
+  {
+    "name": "Monero",
+    "symbol": "xmr",
+    "price": 330.32,
+    "market_cap": 6202569729,
+    "change_24h": 2.07072
+  },
+  {
+    "name": "Chainlink",
+    "symbol": "link",
+    "price": 8.26,
+    "market_cap": 6182662096,
+    "change_24h": 0.9902
+  },
+  {
+    "name": "Cardano",
+    "symbol": "ada",
+    "price": 0.165774,
+    "market_cap": 6179900200,
+    "change_24h": 3.18155
+  },
+  {
+    "name": "Canton",
+    "symbol": "cc",
+    "price": 0.124945,
+    "market_cap": 4886606992,
+    "change_24h": -3.97365
+  },
+  {
+    "name": "Dai",
+    "symbol": "dai",
+    "price": 0.999651,
+    "market_cap": 4639815879,
+    "change_24h": -0.00232
+  },
+  {
+    "name": "Bitcoin Cash",
+    "symbol": "bch",
+    "price": 218.26,
+    "market_cap": 4379101188,
+    "change_24h": -1.89152
+  },
+  {
+    "name": "USD1",
+    "symbol": "usd1",
+    "price": 0.999187,
+    "market_cap": 4252059140,
+    "change_24h": 0.00603
+  },
+  {
+    "name": "Gram (prev. Toncoin)",
+    "symbol": "gram",
+    "price": 1.47,
+    "market_cap": 4023967002,
+    "change_24h": -4.17269
+  },
+  {
+    "name": "Ethena USDe",
+    "symbol": "usde",
+    "price": 0.999827,
+    "market_cap": 4010132606,
+    "change_24h": 0.00611
+  },
+  {
+    "name": "Litecoin",
+    "symbol": "ltc",
+    "price": 45.36,
+    "market_cap": 3510676457,
+    "change_24h": 2.02846
+  },
+  {
+    "name": "Global Dollar",
+    "symbol": "usdg",
+    "price": 1.005,
+    "market_cap": 3213940581,
+    "change_24h": 0.52212
+  },
+  {
+    "name": "Circle USYC",
+    "symbol": "usyc",
+    "price": 1.13,
+    "market_cap": 3005628567,
+    "change_24h": 0.0007
+  },
+  {
+    "name": "Sui",
+    "symbol": "sui",
+    "price": 0.734858,
+    "market_cap": 2978055586,
+    "change_24h": 0.04038
+  }
+]

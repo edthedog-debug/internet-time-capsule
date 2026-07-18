@@ -1,27 +1,35 @@
-# 🌐 The Internet Time Capsule
+# 🌐 The Ultra Global Internet Time Capsule
 
-## 📦 Preserving Internet History Since 2026
+## 📦 The Most Complete Open Digital Archive
 
-Every day, this repository automatically captures a snapshot of what's happening across the internet. From trending code to breaking news, from market data to space weather - we're building a free, open-source time machine.
+### 🌍 Global Coverage
 
-## 🗂 Browse by Year
+| Category | Sources | Coverage |
+|----------|---------|----------|
+| 💻 Tech | GitHub, HN, Reddit, StackOverflow | Global |
+| 📚 Knowledge | Wikipedia (10 lang), ArXiv | Worldwide |
+| 💰 Finance | Forex (160), Crypto (30) | Worldwide |
+| 🌤️ Climate | 25 cities, Air Quality (5) | 6 continents |
+| 🌋 Nature | USGS Earthquakes | Global |
+| 🛰️ Space | NASA, ISS | Orbital |
+| 🌍 World | 195 countries, Holidays | Complete |
 
-- [📁 2026](./capsules/2026/)
+### 🗂 Browse by Date
 
-## 🎯 Why This Matters
+$(for year_dir in capsules/*/; do
+  year=$(basename "$year_dir")
+  if [[ "$year" =~ ^[0-9]{4}$ ]]; then
+    echo "- [📁 ${year}](./capsules/${year}/)"
+  fi
+done)
 
-Internet content disappears. News changes. Trends fade. This project creates immutable, timestamped records of our digital civilization.
+### 🎯 Why This Archive Is Unique
 
-## 📈 Growing Dataset
-
-- **Updates**: Every 24 hours, fully automated
-- **Data Types**: 8+ different internet signals
-- **Format**: Structured JSON, human-readable Markdown
-- **Cost**: /home/runner/work/_temp/37e234d9-86b9-4ec0-9e0a-9d46f6dd5bde.sh - powered entirely by GitHub Actions free tier
-
-## 🔍 Last 7 Days
-
-- [📅 2026-07-18](./capsules/2026/07/18/)
+- **100% Open Source** — All data freely accessible
+- **100% Automated** — Runs every 24 hours
+- **100% Free** — No API keys needed
+- **Multi-dimensional** — Tech, finance, science, culture
+- **Immutable History** — Preserved in Git forever
 
 ---
-*This project runs on GitHub Actions - completely free, completely automatic. The internet's story, preserved forever.*
+*Updated daily at 00:00 UTC — Zero cost — Open forever*
