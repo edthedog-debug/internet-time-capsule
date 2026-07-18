@@ -1,9 +1,99 @@
 [
   {
-    "title": "Getting the compiler to tell which part of concept conjunction failed",
-    "score": 1,
+    "title": "where did everyone go for programming q&amp;a before chatgpt",
+    "score": -1,
+    "views": 12,
+    "answers": 0,
+    "tags": [
+      "advice"
+    ],
+    "link": "https://stackoverflow.com/questions/79981900/where-did-everyone-go-for-programming-qa-before-chatgpt"
+  },
+  {
+    "title": "Xcode iOS UIToolbar not sending IBActions after update to use SceneDelegate",
+    "score": 0,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "ios",
+      "swift",
+      "xcode"
+    ],
+    "link": "https://stackoverflow.com/questions/79981893/xcode-ios-uitoolbar-not-sending-ibactions-after-update-to-use-scenedelegate"
+  },
+  {
+    "title": "Increase time to issue initial Alexa Skill Command before the Echo microphone stops",
+    "score": 0,
     "views": 26,
-    "answers": 1,
+    "answers": 0,
+    "tags": [
+      "node.js",
+      "alexa-skills-kit"
+    ],
+    "link": "https://stackoverflow.com/questions/79981890/increase-time-to-issue-initial-alexa-skill-command-before-the-echo-microphone-st"
+  },
+  {
+    "title": "Upgrading LibGDX from 1.7.1 to 1.14.2",
+    "score": 0,
+    "views": 18,
+    "answers": 0,
+    "tags": [
+      "java",
+      "android",
+      "gradle",
+      "libgdx"
+    ],
+    "link": "https://stackoverflow.com/questions/79981892/upgrading-libgdx-from-1-7-1-to-1-14-2"
+  },
+  {
+    "title": "kotlin.String resource not found in android studio (kmp)",
+    "score": 0,
+    "views": 16,
+    "answers": 0,
+    "tags": [
+      "android",
+      "kotlin",
+      "kotlin-multiplatform"
+    ],
+    "link": "https://stackoverflow.com/questions/79981889/kotlin-string-resource-not-found-in-android-studio-kmp"
+  },
+  {
+    "title": "How to set up the environment for an older project",
+    "score": -6,
+    "views": 70,
+    "answers": 0,
+    "tags": [
+      "python-3.x"
+    ],
+    "link": "https://stackoverflow.com/questions/79981878/how-to-set-up-the-environment-for-an-older-project"
+  },
+  {
+    "title": "ATS(Application Tracking System) friendly resume?",
+    "score": -4,
+    "views": 33,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "tr"
+    ],
+    "link": "https://stackoverflow.com/questions/79981883/atsapplication-tracking-system-friendly-resume"
+  },
+  {
+    "title": "How do I pass a remembered variable to the function call in remember&#39;s brackets?",
+    "score": 2,
+    "views": 80,
+    "answers": 2,
+    "tags": [
+      "android",
+      "kotlin"
+    ],
+    "link": "https://stackoverflow.com/questions/79981836/how-do-i-pass-a-remembered-variable-to-the-function-call-in-remembers-brackets"
+  },
+  {
+    "title": "Getting the compiler to tell which part of concept conjunction failed",
+    "score": 2,
+    "views": 93,
+    "answers": 2,
     "tags": [
       "c++",
       "c++-concepts"
@@ -11,10 +101,81 @@
     "link": "https://stackoverflow.com/questions/79981820/getting-the-compiler-to-tell-which-part-of-concept-conjunction-failed"
   },
   {
-    "title": "How use PHP array_search for tags even it is an array tag",
-    "score": 1,
-    "views": 21,
+    "title": "Check out a branch without populating worktree?",
+    "score": -1,
+    "views": 88,
+    "answers": 3,
+    "tags": [
+      "best-practices",
+      "git",
+      "git-checkout",
+      "git-switch"
+    ],
+    "link": "https://stackoverflow.com/questions/79981834/check-out-a-branch-without-populating-worktree"
+  },
+  {
+    "title": "Is my Variable Elimination implementation correct?",
+    "score": -1,
+    "views": 66,
+    "answers": 0,
+    "tags": [
+      "python",
+      "bayesian",
+      "bayesian-networks"
+    ],
+    "link": "https://stackoverflow.com/questions/79981855/is-my-variable-elimination-implementation-correct"
+  },
+  {
+    "title": "How to run models locally on an Intel Macbook Air 2017",
+    "score": -5,
+    "views": 63,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "intel",
+      "large-language-model",
+      "macos-monterey",
+      "ollama"
+    ],
+    "link": "https://stackoverflow.com/questions/79981854/how-to-run-models-locally-on-an-intel-macbook-air-2017"
+  },
+  {
+    "title": "At least three digits before OR after the decimal separator with sprintf()",
+    "score": 3,
+    "views": 81,
     "answers": 1,
+    "tags": [
+      "r"
+    ],
+    "link": "https://stackoverflow.com/questions/79981828/at-least-three-digits-before-or-after-the-decimal-separator-with-sprintf"
+  },
+  {
+    "title": "Delete Codex from XCode Intelligence option",
+    "score": -2,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "xcode"
+    ],
+    "link": "https://stackoverflow.com/questions/79981864/delete-codex-from-xcode-intelligence-option"
+  },
+  {
+    "title": "Title: GROOVE.EXE crashes instantly (0xc0000374) on Windows 10 22H2 — can&#39;t sync SharePoint 2019 on-prem library",
+    "score": -4,
+    "views": 43,
+    "answers": 0,
+    "tags": [
+      "sharepoint",
+      "onedrive",
+      "sharepoint-2019"
+    ],
+    "link": "https://stackoverflow.com/questions/79981842/title-groove-exe-crashes-instantly-0xc0000374-on-windows-10-22h2-cant-sync"
+  },
+  {
+    "title": "How use PHP array_search for tags even it is an array tag",
+    "score": 3,
+    "views": 67,
+    "answers": 2,
     "tags": [
       "php",
       "multidimensional-array"
@@ -22,47 +183,33 @@
     "link": "https://stackoverflow.com/questions/79981817/how-use-php-array-search-for-tags-even-it-is-an-array-tag"
   },
   {
-    "title": "ID Token vs. API Response Body for user metadata",
-    "score": -2,
-    "views": 19,
-    "answers": 0,
-    "tags": [
-      "best-practices",
-      "jwt"
-    ],
-    "link": "https://stackoverflow.com/questions/79981819/id-token-vs-api-response-body-for-user-metadata"
-  },
-  {
-    "title": "ASP.NET Core 10 OpenAPI source generator fails with &quot;IOpenApiMediaType.Example cannot be assigned&quot;",
+    "title": "How do I detect if my Rust code is running under cargo test vs cargo run?",
     "score": 0,
-    "views": 17,
-    "answers": 0,
-    "tags": [
-      "asp.net-core",
-      "openapi",
-      "minimal-apis",
-      ".net-10.0"
-    ],
-    "link": "https://stackoverflow.com/questions/79981822/asp-net-core-10-openapi-source-generator-fails-with-iopenapimediatype-example-c"
-  },
-  {
-    "title": "SSIS DATA migration from one db to other db",
-    "score": -1,
-    "views": 40,
+    "views": 67,
     "answers": 1,
     "tags": [
-      "sql",
-      "sql-server",
-      "ssis",
-      "data-migration"
+      "rust",
+      "rust-cargo",
+      "test-environments"
     ],
-    "link": "https://stackoverflow.com/questions/79981805/ssis-data-migration-from-one-db-to-other-db"
+    "link": "https://stackoverflow.com/questions/79981763/how-do-i-detect-if-my-rust-code-is-running-under-cargo-test-vs-cargo-run"
+  },
+  {
+    "title": "Right way to update branch after git commit-tree",
+    "score": 2,
+    "views": 61,
+    "answers": 1,
+    "tags": [
+      "git",
+      "commit"
+    ],
+    "link": "https://stackoverflow.com/questions/79981830/right-way-to-update-branch-after-git-commit-tree"
   },
   {
     "title": "legendry nested axis compatibility while using geom_chicklet",
-    "score": 0,
-    "views": 21,
-    "answers": 0,
+    "score": 1,
+    "views": 42,
+    "answers": 1,
     "tags": [
       "r",
       "nested",
@@ -71,165 +218,14 @@
     "link": "https://stackoverflow.com/questions/79981804/legendry-nested-axis-compatibility-while-using-geom-chicklet"
   },
   {
-    "title": "How do I connect an existing Azure Function app to Visual Studio Code?",
-    "score": -4,
-    "views": 37,
-    "answers": 1,
-    "tags": [
-      "azure",
-      "visual-studio-code",
-      "azure-functions"
-    ],
-    "link": "https://stackoverflow.com/questions/79981784/how-do-i-connect-an-existing-azure-function-app-to-visual-studio-code"
-  },
-  {
-    "title": "std::fs::canonicalize result doesn&#39;t live long enough",
-    "score": 0,
-    "views": 57,
-    "answers": 2,
-    "tags": [
-      "rust"
-    ],
-    "link": "https://stackoverflow.com/questions/79981789/stdfscanonicalize-result-doesnt-live-long-enough"
-  },
-  {
-    "title": "Makefile generation error with canonical name",
-    "score": -1,
-    "views": 38,
-    "answers": 0,
-    "tags": [
-      "autotools"
-    ],
-    "link": "https://stackoverflow.com/questions/79981787/makefile-generation-error-with-canonical-name"
-  },
-  {
-    "title": "Flutter Linux desktop build fails with &quot;No provider of glBlitFramebuffer found&quot; after updating to Flutter 3.44.6",
-    "score": 0,
-    "views": 34,
-    "answers": 1,
-    "tags": [
-      "flutter"
-    ],
-    "link": "https://stackoverflow.com/questions/79981765/flutter-linux-desktop-build-fails-with-no-provider-of-glblitframebuffer-found"
-  },
-  {
-    "title": "How to let code know if it&#39;s run using cargo test vs cargo run vs run as an executable?",
-    "score": 0,
-    "views": 47,
-    "answers": 1,
-    "tags": [
-      "rust",
-      "rust-cargo",
-      "test-environments"
-    ],
-    "link": "https://stackoverflow.com/questions/79981763/how-to-let-code-know-if-its-run-using-cargo-test-vs-cargo-run-vs-run-as-an-exec"
-  },
-  {
-    "title": "GitHub change local repo",
-    "score": -4,
-    "views": 47,
-    "answers": 1,
-    "tags": [
-      "git"
-    ],
-    "link": "https://stackoverflow.com/questions/79981780/github-change-local-repo"
-  },
-  {
-    "title": "Why does numpy do a copy in this array slice?",
-    "score": -4,
-    "views": 65,
-    "answers": 0,
-    "tags": [
-      "python",
-      "numpy",
-      "python-internals",
-      "numpy-slicing"
-    ],
-    "link": "https://stackoverflow.com/questions/79981758/why-does-numpy-do-a-copy-in-this-array-slice"
-  },
-  {
-    "title": "How does a parallel stream continue after a stateful operation like sorted()?",
-    "score": 0,
-    "views": 62,
-    "answers": 2,
-    "tags": [
-      "java",
-      "stream"
-    ],
-    "link": "https://stackoverflow.com/questions/79981753/how-does-a-parallel-stream-continue-after-a-stateful-operation-like-sorted"
-  },
-  {
-    "title": "Where is the C Standard function sqrt actually defined? (Windows user)",
-    "score": 1,
-    "views": 106,
-    "answers": 2,
-    "tags": [
-      "c",
-      "sqrt",
-      "c-standard-library"
-    ],
-    "link": "https://stackoverflow.com/questions/79981742/where-is-the-c-standard-function-sqrt-actually-defined-windows-user"
-  },
-  {
-    "title": "Alternative to Sumif",
+    "title": "ID Token vs. API Response Body for user metadata",
     "score": -3,
-    "views": 80,
-    "answers": 2,
-    "tags": [
-      "excel",
-      "sumifs"
-    ],
-    "link": "https://stackoverflow.com/questions/79981710/alternative-to-sumif"
-  },
-  {
-    "title": "Is there a method/constructor in the JDK that creates a JTable with dummy data?",
-    "score": -5,
-    "views": 52,
-    "answers": 1,
-    "tags": [
-      "java",
-      "swing",
-      "jtable",
-      "tablemodel",
-      "dummy-data"
-    ],
-    "link": "https://stackoverflow.com/questions/79981734/is-there-a-method-constructor-in-the-jdk-that-creates-a-jtable-with-dummy-data"
-  },
-  {
-    "title": "Which is the better framework between Express and Nest.js for developing middleware application based on text and images data and connection with DB",
-    "score": -5,
-    "views": 39,
-    "answers": 2,
-    "tags": [
-      "tooling-recommendation",
-      "node.js",
-      "express",
-      "nestjs"
-    ],
-    "link": "https://stackoverflow.com/questions/79981762/which-is-the-better-framework-between-express-and-nest-js-for-developing-middlew"
-  },
-  {
-    "title": "using a proof to unwind a decidable `if`",
-    "score": 0,
     "views": 40,
-    "answers": 1,
-    "tags": [
-      "lean"
-    ],
-    "link": "https://stackoverflow.com/questions/79981752/using-a-proof-to-unwind-a-decidable-if"
-  },
-  {
-    "title": "RPi3B+ AArch64 kernel in `ttbr1` region: instruction fetch succeeds after `br` to `ttbr1` region, but first data access causes Data Abort (EC=0x25)",
-    "score": 2,
-    "views": 23,
     "answers": 0,
     "tags": [
-      "rust",
-      "raspberry-pi3",
-      "arm64",
-      "bare-metal",
-      "mmu"
+      "best-practices",
+      "jwt"
     ],
-    "link": "https://stackoverflow.com/questions/79981760/rpi3b-aarch64-kernel-in-ttbr1-region-instruction-fetch-succeeds-after-br-t"
+    "link": "https://stackoverflow.com/questions/79981819/id-token-vs-api-response-body-for-user-metadata"
   }
 ]

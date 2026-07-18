@@ -9,11 +9,18 @@
 - ✅ **Reddit**: r/all front page
 
 ### 📚 KNOWLEDGE
-- ✅ **Wikipedia**: Trending in 10 languages
+- ✅ **Wikipedia**: Trending in 15 languages
 
 ### 💰 FINANCE
 - ✅ **Exchange Rates**: 160+ currencies
 - ✅ **Cryptocurrencies**: Top 30 by market cap
+- ✅ **Stock Markets**: 12 global indices
+
+### ⚽ SPORTS
+- ✅ **NBA**, **Premier League**, **La Liga**, **MLB**, **F1**
+
+### 🗞️ NEWS
+- ✅ **Headlines**: US, China, UK, India, Brazil
 
 ### 🌤️ ENVIRONMENT
 - ✅ **Weather**: 25 major cities worldwide
@@ -33,4 +40,4 @@
 - ✅ **Health**: Global statistics
 
 ---
-*Auto-generated at  — 100% automated — 100% open data*
+*Auto-generated — 100% automated — 100% open data*
