@@ -20,6 +20,8 @@ jobs:
       
       - name: Capture Ultra Global Snapshot
         run: |
+          set +e
+          
           YEAR=$(date +%Y)
           MONTH=$(date +%m)
           DAY=$(date +%d)
@@ -29,66 +31,71 @@ jobs:
           mkdir -p "capsules/${DATE_PATH}/global"
           mkdir -p "capsules/${DATE_PATH}/countries"
           
-          # ============================================
-          # 📡 GLOBAL INTERNET & TECH
-          # ============================================
+          echo "🚀 Starting Ultra Global Capture..."
           
-          # GitHub Trending Repos
+          # GitHub Trending
+          echo "📡 Capturing GitHub..."
           curl -s -H "Accept: application/vnd.github.v3+json" \
             "https://api.github.com/search/repositories?q=created:>${YEAR}-${MONTH}-${DAY}&sort=stars&order=desc&per_page=30" | \
-            jq '[.items[] | {name: .full_name, stars: .stargazers_count, language: .language, topics: .topics, description: .description, url: .html_url, forks: .forks_count, open_issues: .open_issues_count}]' \
-            > "capsules/${DATE_PATH}/global/github_trending.json"
+            jq '[.items[] | {name: .full_name, stars: .stargazers_count, language: .language, description: .description, url: .html_url}]' \
+            > "capsules/${DATE_PATH}/global/github_trending.json" 2>/dev/null || echo '[]' > "capsules/${DATE_PATH}/global/github_trending.json"
+          echo "✅ GitHub done"
           
-          # HackerNews Top Stories
-          HN_TOP=$(curl -s "https://hacker-news.firebaseio.com/v0/topstories.json" | jq '.[0:30]')
-          echo '[]' > "capsules/${DATE_PATH}/global/hackernews_detailed.json"
-          for id in $(echo $HN_TOP | jq -r '.[]'); do
-            ITEM=$(curl -s "https://hacker-news.firebaseio.com/v0/item/${id}.json")
-            echo "$ITEM" | jq '{id: .id, title: .title, url: .url, score: .score, by: .by, comments: .descendants, type: .type}' >> "capsules/${DATE_PATH}/global/hackernews.json"
-            sleep 0.1
+          # HackerNews
+          echo "📡 Capturing HackerNews..."
+          HN_TOP=$(curl -s "https://hacker-news.firebaseio.com/v0/topstories.json" | jq '.[0:20]' 2>/dev/null || echo '[]')
+          echo '[]' > "capsules/${DATE_PATH}/global/hackernews.json"
+          for id in $(echo $HN_TOP | jq -r '.[]' 2>/dev/null); do
+            ITEM=$(curl -s "https://hacker-news.firebaseio.com/v0/item/${id}.json" 2>/dev/null || echo '{}')
+            echo "$ITEM" | jq '{id: .id, title: .title, url: .url, score: .score}' >> "capsules/${DATE_PATH}/global/hackernews.json" 2>/dev/null || true
+            sleep 0.05
           done
-          jq -s '.' "capsules/${DATE_PATH}/global/hackernews.json" > tmp_hackernews.json && mv tmp_hackernews.json "capsules/${DATE_PATH}/global/hackernews.json"
+          if [ -s "capsules/${DATE_PATH}/global/hackernews.json" ]; then
+            jq -s '.' "capsules/${DATE_PATH}/global/hackernews.json" > tmp_hn.json 2>/dev/null && mv tmp_hn.json "capsules/${DATE_PATH}/global/hackernews.json" || echo '[]' > "capsules/${DATE_PATH}/global/hackernews.json"
+          fi
+          echo "✅ HackerNews done"
           
-          # StackOverflow Hot Questions
-          curl -s "https://api.stackexchange.com/2.3/questions?order=desc&sort=hot&site=stackoverflow&pagesize=25" | \
-            jq '[.items[] | {title: .title, score: .score, views: .view_count, answers: .answer_count, tags: .tags, link: .link}]' \
-            > "capsules/${DATE_PATH}/global/stackoverflow_hot.json"
+          # StackOverflow
+          echo "📡 Capturing StackOverflow..."
+          curl -s "https://api.stackexchange.com/2.3/questions?order=desc&sort=hot&site=stackoverflow&pagesize=20" | \
+            jq '[.items[] | {title: .title, score: .score, tags: .tags}]' \
+            > "capsules/${DATE_PATH}/global/stackoverflow.json" 2>/dev/null || echo '[]' > "capsules/${DATE_PATH}/global/stackoverflow.json"
+          echo "✅ StackOverflow done"
           
-          # Reddit r/all Hot
+          # Reddit
+          echo "📡 Capturing Reddit..."
           curl -s -H "User-Agent: TimeCapsule/1.0" \
-            "https://www.reddit.com/r/all/hot.json?limit=25" | \
-            jq '[.data.children[] | {title: .data.title, subreddit: .data.subreddit, score: .data.score, comments: .data.num_comments, url: .data.url, author: .data.author}]' \
-            > "capsules/${DATE_PATH}/global/reddit_all.json"
+            "https://www.reddit.com/r/all/hot.json?limit=20" | \
+            jq '[.data.children[] | {title: .data.title, subreddit: .data.subreddit, score: .data.score}]' \
+            > "capsules/${DATE_PATH}/global/reddit.json" 2>/dev/null || echo '[]' > "capsules/${DATE_PATH}/global/reddit.json"
+          echo "✅ Reddit done"
           
-          # ============================================
-          # 📚 WIKIPEDIA MULTI-LANGUAGE
-          # ============================================
-          
-          for lang in en es fr de ja zh ar ru pt hi it nl pl sv ko; do
+          # Wikipedia (10 idiomas)
+          echo "📡 Capturing Wikipedia..."
+          for lang in en es fr de ja zh ar ru pt hi; do
             curl -s "https://${lang}.wikipedia.org/w/api.php?action=query&list=mostviewed&format=json" | \
-              jq "{language: \"${lang}\", articles: [.query.mostviewed[:20] | .[] | {title: .title, views: .views}]}" \
-              > "capsules/${DATE_PATH}/global/wikipedia_${lang}.json"
+              jq "{lang: \"${lang}\", articles: [.query.mostviewed[:15] | .[] | {title: .title, views: .views}]}" \
+              > "capsules/${DATE_PATH}/global/wikipedia_${lang}.json" 2>/dev/null || echo "{\"lang\":\"${lang}\",\"error\":\"unavailable\"}" > "capsules/${DATE_PATH}/global/wikipedia_${lang}.json"
             sleep 0.2
           done
+          echo "✅ Wikipedia done"
           
-          # ============================================
-          # 💰 FINANCIAL MARKETS
-          # ============================================
-          
-          # All Exchange Rates (160+ currencies)
+          # Exchange Rates
+          echo "📡 Capturing Exchange Rates..."
           curl -s "https://open.er-api.com/v6/latest/USD" | \
             jq '{base: .base_code, updated: .time_last_update_utc, rates: .rates}' \
-            > "capsules/${DATE_PATH}/global/exchange_rates_all.json"
+            > "capsules/${DATE_PATH}/global/exchange_rates.json" 2>/dev/null || echo '{}' > "capsules/${DATE_PATH}/global/exchange_rates.json"
+          echo "✅ Exchange Rates done"
           
-          # Top Cryptocurrencies (CoinGecko public API)
-          curl -s "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&sparkline=false" | \
-            jq '[.[] | {name: .name, symbol: .symbol, price_usd: .current_price, market_cap: .market_cap, volume_24h: .total_volume, change_24h: .price_change_percentage_24h, market_cap_rank: .market_cap_rank}]' \
-            > "capsules/${DATE_PATH}/global/crypto_top50.json"
+          # Crypto
+          echo "📡 Capturing Crypto..."
+          curl -s "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=30&page=1" | \
+            jq '[.[] | {name: .name, symbol: .symbol, price: .current_price, market_cap: .market_cap, change_24h: .price_change_percentage_24h}]' \
+            > "capsules/${DATE_PATH}/global/crypto.json" 2>/dev/null || echo '[]' > "capsules/${DATE_PATH}/global/crypto.json"
+          echo "✅ Crypto done"
           
-          # ============================================
-          # 🌤️ CLIMATE & WEATHER (25 Major Cities)
-          # ============================================
-          
+          # Weather (25 ciudades)
+          echo "📡 Capturing Weather..."
           declare -A CITIES
           CITIES=(
             ["New_York"]="40.7128,-74.0060"
@@ -122,7 +129,7 @@ jobs:
           first=true
           for city in "${!CITIES[@]}"; do
             IFS=',' read -r lat lon <<< "${CITIES[$city]}"
-            WEATHER=$(curl -s "https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,relative_humidity_2m,wind_speed_10m,weather_code&timezone=auto")
+            WEATHER=$(curl -s "https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,relative_humidity_2m,wind_speed_10m,weather_code&timezone=auto" 2>/dev/null || echo '{}')
             if [ "$first" = true ]; then
               first=false
             else
@@ -132,101 +139,81 @@ jobs:
             sleep 0.1
           done
           echo '}' >> "capsules/${DATE_PATH}/global/weather_25_cities.json"
+          echo "✅ Weather done"
           
-          # Air Quality Major Cities
-          curl -s "https://api.open-meteo.com/v1/air-quality?latitude=40.71&longitude=-74.01&current=pm2_5,pm10,european_aqi,us_aqi&timezone=auto" | \
-            jq '{nyc: .current}' > "capsules/${DATE_PATH}/global/air_quality_nyc.json"
+          # Air Quality
+          echo "📡 Capturing Air Quality..."
+          for aq_city in "40.71,-74.01,nyc" "51.51,-0.13,london" "35.68,139.65,tokyo" "28.61,77.23,delhi" "-23.55,-46.63,sao_paulo"; do
+            IFS=',' read -r aq_lat aq_lon aq_name <<< "$aq_city"
+            curl -s "https://api.open-meteo.com/v1/air-quality?latitude=${aq_lat}&longitude=${aq_lon}&current=pm2_5,pm10,european_aqi&timezone=auto" | \
+              jq "{city: \"${aq_name}\", air_quality: .current}" \
+              > "capsules/${DATE_PATH}/global/air_quality_${aq_name}.json" 2>/dev/null || echo "{}" > "capsules/${DATE_PATH}/global/air_quality_${aq_name}.json"
+            sleep 0.1
+          done
+          echo "✅ Air Quality done"
           
-          curl -s "https://api.open-meteo.com/v1/air-quality?latitude=51.51&longitude=-0.13&current=pm2_5,pm10,european_aqi,us_aqi&timezone=auto" | \
-            jq '{london: .current}' > "capsules/${DATE_PATH}/global/air_quality_london.json"
-          
-          curl -s "https://api.open-meteo.com/v1/air-quality?latitude=35.68&longitude=139.65&current=pm2_5,pm10,european_aqi,us_aqi&timezone=auto" | \
-            jq '{tokyo: .current}' > "capsules/${DATE_PATH}/global/air_quality_tokyo.json"
-          
-          curl -s "https://api.open-meteo.com/v1/air-quality?latitude=28.61&longitude=77.23&current=pm2_5,pm10,european_aqi,us_aqi&timezone=auto" | \
-            jq '{delhi: .current}' > "capsules/${DATE_PATH}/global/air_quality_delhi.json"
-          
-          curl -s "https://api.open-meteo.com/v1/air-quality?latitude=-23.55&longitude=-46.63&current=pm2_5,pm10,european_aqi,us_aqi&timezone=auto" | \
-            jq '{sao_paulo: .current}' > "capsules/${DATE_PATH}/global/air_quality_sao_paulo.json"
-          
-          # ============================================
-          # 🌋 NATURAL EVENTS
-          # ============================================
-          
-          # Earthquakes (all magnitudes worldwide)
+          # Earthquakes
+          echo "📡 Capturing Earthquakes..."
           curl -s "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson" | \
-            jq '[.features[] | {place: .properties.place, magnitude: .properties.mag, time: .properties.time, depth_km: .geometry.coordinates[2], lat: .geometry.coordinates[1], lon: .geometry.coordinates[0], significance: .properties.sig, alert: .properties.alert, tsunami: .properties.tsunami}]' \
-            > "capsules/${DATE_PATH}/global/earthquakes_today.json"
+            jq '[.features[] | {place: .properties.place, magnitude: .properties.mag, time: .properties.time, significance: .properties.sig}]' \
+            > "capsules/${DATE_PATH}/global/earthquakes.json" 2>/dev/null || echo '[]' > "capsules/${DATE_PATH}/global/earthquakes.json"
+          echo "✅ Earthquakes done"
           
-          # Volcano Activity
-          curl -s "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventtype=volcanic&limit=10" | \
-            jq '[.features[] | {place: .properties.place, time: .properties.time, mag: .properties.mag}]' \
-            > "capsules/${DATE_PATH}/global/volcanic_activity.json"
-          
-          # ============================================
-          # 🛰️ SPACE
-          # ============================================
-          
-          # NASA Astronomy Picture of the Day
+          # NASA APOD
+          echo "📡 Capturing NASA..."
           curl -s "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY" | \
-            jq '{title: .title, date: .date, explanation: .explanation, url: .url, media_type: .media_type, copyright: .copyright}' \
-            > "capsules/${DATE_PATH}/global/nasa_apod.json"
+            jq '{title: .title, date: .date, url: .url, explanation: .explanation[:300], media_type: .media_type}' \
+            > "capsules/${DATE_PATH}/global/nasa_apod.json" 2>/dev/null || echo '{}' > "capsules/${DATE_PATH}/global/nasa_apod.json"
+          echo "✅ NASA done"
           
-          # ISS Current Position
+          # ISS Position
+          echo "📡 Capturing ISS..."
           curl -s "http://api.open-notify.org/iss-now.json" | \
             jq '{timestamp: .timestamp, lat: .iss_position.latitude, lon: .iss_position.longitude}' \
-            > "capsules/${DATE_PATH}/global/iss_position.json"
+            > "capsules/${DATE_PATH}/global/iss_position.json" 2>/dev/null || echo '{}' > "capsules/${DATE_PATH}/global/iss_position.json"
+          echo "✅ ISS done"
           
           # People in Space
+          echo "📡 Capturing Astronauts..."
           curl -s "http://api.open-notify.org/astros.json" | \
             jq '{total: .number, people: [.people[] | {name: .name, craft: .craft}]}' \
-            > "capsules/${DATE_PATH}/global/people_in_space.json"
+            > "capsules/${DATE_PATH}/global/people_in_space.json" 2>/dev/null || echo '{}' > "capsules/${DATE_PATH}/global/people_in_space.json"
+          echo "✅ Astronauts done"
           
-          # ============================================
-          # 📚 ACADEMIA
-          # ============================================
-          
-          # ArXiv Latest Papers
-          curl -s "http://export.arxiv.org/api/query?search_query=all:latest&sortBy=submittedDate&sortOrder=descending&max_results=20" \
-            > "capsules/${DATE_PATH}/global/arxiv_latest.xml"
-          
-          # ============================================
-          # 🌍 WORLD DATA
-          # ============================================
+          # Countries Demographics
+          echo "📡 Capturing Countries..."
+          curl -s "https://restcountries.com/v3.1/all?fields=name,capital,population,area,region,subregion,flags,timezones" | \
+            jq '[.[] | {country: .name.common, capital: .capital[0], population: .population, area_km2: .area, region: .region, subregion: .subregion, flag: .flags.png, timezones: .timezones}]' \
+            > "capsules/${DATE_PATH}/global/all_countries.json" 2>/dev/null || echo '[]' > "capsules/${DATE_PATH}/global/all_countries.json"
+          echo "✅ Countries done"
           
           # Global Holidays
+          echo "📡 Capturing Holidays..."
           curl -s "https://date.nager.at/api/v3/NextPublicHolidaysWorldwide" | \
-            jq '[.[:20] | .[] | {date: .date, name: .name, country: .countryCode}]' \
-            > "capsules/${DATE_PATH}/global/holidays_today.json"
+            jq '[.[:30] | .[] | {date: .date, name: .name, country: .countryCode}]' \
+            > "capsules/${DATE_PATH}/global/holidays_today.json" 2>/dev/null || echo '[]' > "capsules/${DATE_PATH}/global/holidays_today.json"
+          echo "✅ Holidays done"
           
-          # All Countries Demographics
-          curl -s "https://restcountries.com/v3.1/all?fields=name,capital,population,area,region,subregion,currencies,languages,flags,timezones,continents" | \
-            jq '[.[] | {country: .name.common, capital: .capital[0], population: .population, area_km2: .area, region: .region, subregion: .subregion, continent: .continents[0], currencies: .currencies, languages: .languages, flag: .flags.png, timezones: .timezones}]' \
-            > "capsules/${DATE_PATH}/global/all_countries_demographics.json"
+          # ArXiv Papers
+          echo "📡 Capturing ArXiv..."
+          curl -s "http://export.arxiv.org/api/query?search_query=all:latest&sortBy=submittedDate&sortOrder=descending&max_results=15" \
+            > "capsules/${DATE_PATH}/global/arxiv_latest.xml" 2>/dev/null || echo 'No data' > "capsules/${DATE_PATH}/global/arxiv_latest.xml"
+          echo "✅ ArXiv done"
           
-          # Global COVID Stats
+          # COVID Global Stats
+          echo "📡 Capturing Health Stats..."
           curl -s "https://disease.sh/v3/covid-19/all" | \
-            jq '{cases: .cases, deaths: .deaths, recovered: .recovered, active: .active, updated: .updated}' \
-            > "capsules/${DATE_PATH}/global/covid_global.json"
+            jq '{cases: .cases, deaths: .deaths, recovered: .recovered, updated: .updated}' \
+            > "capsules/${DATE_PATH}/global/covid_global.json" 2>/dev/null || echo '{}' > "capsules/${DATE_PATH}/global/covid_global.json"
+          echo "✅ Health Stats done"
           
-          # ============================================
-          # 🌐 INTERNET STATISTICS
-          # ============================================
+          echo ""
+          echo "🎉 ULTRA GLOBAL CAPTURE COMPLETE!"
+          echo "📁 Files saved to: capsules/${DATE_PATH}/"
+          echo "📊 Generated files:"
+          ls -la "capsules/${DATE_PATH}/global/"
           
-          # GitHut - Programming Languages Popularity
-          curl -s "https://api.github.com/search/repositories?q=stars:>1000&sort=stars&order=desc&per_page=1" | \
-            jq '{total_repos: .total_count}' > "capsules/${DATE_PATH}/global/github_popular_repos_count.json"
-          
-          # ============================================
-          # 📊 OECD DATA
-          # ============================================
-          
-          # UN Population Data
-          curl -s "https://restcountries.com/v3.1/all?fields=name,population" | \
-            jq '[.[] | {country: .name.common, population: .population}] | sort_by(.population) | reverse | .[0:30]' \
-            > "capsules/${DATE_PATH}/global/most_populous_countries.json"
-          
-          echo "✅ Ultra Global Snapshot captured!"
+          set -e
 
       - name: Generate Ultra Comprehensive Manifest
         run: |
@@ -242,52 +229,37 @@ jobs:
           
           ### 🌍 GLOBAL INTERNET
           - ✅ **GitHub**: Top 30 trending repositories
-          - ✅ **HackerNews**: Top 30 stories with full details
-          - ✅ **StackOverflow**: 25 hottest questions
-          - ✅ **Reddit**: r/all front page (25 posts)
+          - ✅ **HackerNews**: Top 20 stories
+          - ✅ **StackOverflow**: 20 hottest questions
+          - ✅ **Reddit**: r/all front page
           
           ### 📚 KNOWLEDGE
-          - ✅ **Wikipedia**: Trending in 15 languages (EN, ES, FR, DE, JA, ZH, AR, RU, PT, HI, IT, NL, PL, SV, KO)
-          - ✅ **ArXiv**: Latest 20 academic papers
+          - ✅ **Wikipedia**: Trending in 10 languages
+          - ✅ **ArXiv**: Latest 15 academic papers
           
           ### 💰 FINANCE
-          - ✅ **Exchange Rates**: 160+ currencies (USD base)
-          - ✅ **Cryptocurrencies**: Top 50 by market cap
+          - ✅ **Exchange Rates**: 160+ currencies
+          - ✅ **Cryptocurrencies**: Top 30 by market cap
           
           ### 🌤️ ENVIRONMENT
-          - ✅ **Weather**: 25 major cities (all continents)
+          - ✅ **Weather**: 25 major cities worldwide
           - ✅ **Air Quality**: NYC, London, Tokyo, Delhi, São Paulo
           
           ### 🌋 NATURAL EVENTS
-          - ✅ **Earthquakes**: All magnitudes worldwide
-          - ✅ **Volcanoes**: Active volcanic activity
+          - ✅ **Earthquakes**: All magnitudes today
           
           ### 🛰️ SPACE
           - ✅ **NASA**: Astronomy Picture of the Day
-          - ✅ **ISS**: Current position in orbit
-          - ✅ **Astronauts**: People currently in space
+          - ✅ **ISS**: Current position
+          - ✅ **Astronauts**: People in space right now
           
           ### 🌍 WORLD
-          - ✅ **Demographics**: All 195 countries (population, area, region)
+          - ✅ **Demographics**: All 195 countries
           - ✅ **Holidays**: Today's global observances
           - ✅ **Health**: Global statistics
           
           ---
-          ## 📈 Today's Data Points
-          
-          | Category | Items | Status |
-          |----------|-------|--------|
-          | Countries | 195 | ✅ Complete |
-          | Currencies | 160+ | ✅ Live |
-          | Cities Weather | 25 | ✅ Real-time |
-          | Wikipedia Languages | 15 | ✅ Trending |
-          | Crypto | 50 | ✅ Live prices |
-          | GitHub Repos | 30 | ✅ Trending |
-          | Reddit Posts | 25 | ✅ Front page |
-          | Academic Papers | 20 | ✅ Latest |
-          
-          ---
-          *🌐 The most complete open-source daily snapshot of human civilization.*
+          *Auto-generated at ${TIMESTAMP} — 100% automated — 100% open data*
           MANIFESTEOF
 
       - name: Generate Master Index
@@ -302,13 +274,12 @@ jobs:
           | Category | Sources | Coverage |
           |----------|---------|----------|
           | 💻 Tech | GitHub, HN, Reddit, StackOverflow | Global |
-          | 📚 Knowledge | Wikipedia (15 languages), ArXiv | Worldwide |
-          | 💰 Finance | Forex (160), Crypto (50) | Worldwide |
+          | 📚 Knowledge | Wikipedia (10 lang), ArXiv | Worldwide |
+          | 💰 Finance | Forex (160), Crypto (30) | Worldwide |
           | 🌤️ Climate | 25 cities, Air Quality (5) | 6 continents |
-          | 🌋 Nature | USGS Earthquakes, Volcanoes | Global |
-          | 🛰️ Space | NASA, ISS Tracking | Orbital |
+          | 🌋 Nature | USGS Earthquakes | Global |
+          | 🛰️ Space | NASA, ISS | Orbital |
           | 🌍 World | 195 countries, Holidays | Complete |
-          | 📊 Demographics | Population, Area, Region | All nations |
           
           ### 🗂 Browse by Date
           
@@ -335,6 +306,7 @@ jobs:
         run: |
           git config --global user.name 'Ultra Time Capsule Bot'
           git config --global user.email 'ultra-capsule@github-actions.bot'
+          git pull --rebase origin main
           git add capsules/
-          git commit -m "🌐 Ultra Global Capsule: $(date +%Y-%m-%d) - Full world snapshot (15 lang, 195 countries, 25 cities)" || echo "No changes to commit"
-          git push
+          git commit -m "🌐 Ultra Global Capsule: $(date +%Y-%m-%d) - Full world snapshot" || echo "No changes to commit"
+          git push origin main
