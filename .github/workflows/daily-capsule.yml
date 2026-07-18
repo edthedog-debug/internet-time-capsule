@@ -1,24 +1,4 @@
-name: Ultra Global Internet Time Capsule
-
-on:
-  schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-jobs:
-  capture-global-memory:
-    runs-on: ubuntu-latest
-    
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      
-      - name: Capture Ultra Global Snapshot
+- name: Capture Ultra Global Snapshot
         run: |
           set +e
           
@@ -98,7 +78,7 @@ jobs:
           echo "✅ Reddit done ($(jq 'length' capsules/${DATE_PATH}/global/reddit.json 2>/dev/null || echo 0) posts)"
 
           # ============================================
-          # WIKIPEDIA (15 languages - expanded for global coverage)
+          # WIKIPEDIA (15 languages)
           # ============================================
           echo "📡 Capturing Wikipedia..."
           for lang in en es fr de ja zh ar ru pt hi it nl pl sv ko; do
@@ -140,58 +120,64 @@ jobs:
           echo "✅ Crypto done ($(jq 'length' capsules/${DATE_PATH}/global/crypto.json 2>/dev/null || echo 0) coins)"
 
           # ============================================
-          # STOCK MARKETS - Major Global Indices
+          # STOCK MARKETS - Fixed with User-Agent
           # ============================================
           echo "📡 Capturing Stock Markets..."
-          STOCK_INDICES='{
-            "indices": []
-          }'
           
-          # US Markets
-          for symbol in "^GSPC" "^DJI" "^IXIC" "^RUT"; do
-            STOCK_DATA=$(curl -s "https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=1d" 2>/dev/null)
-            if echo "$STOCK_DATA" | jq -e '.chart.result[0].meta' > /dev/null 2>&1; then
-              STOCK_INDICES=$(echo "$STOCK_INDICES" | jq ".indices += [$(echo "$STOCK_DATA" | jq '{symbol: .chart.result[0].meta.symbol, name: (.chart.result[0].meta.symbol // "Unknown"), price: .chart.result[0].meta.regularMarketPrice, previous_close: .chart.result[0].meta.previousClose, change: (.chart.result[0].meta.regularMarketPrice - .chart.result[0].meta.previousClose), change_pct: ((.chart.result[0].meta.regularMarketPrice - .chart.result[0].meta.previousClose) / .chart.result[0].meta.previousClose * 100), market: "US"}')]")
+          # Create fresh JSON structure
+          echo '{"indices":[]}' > "capsules/${DATE_PATH}/global/stock_markets.json"
+          
+          # Stock symbols with names
+          declare -A STOCKS
+          STOCKS["%5EGSPC"]="S&P 500|US"
+          STOCKS["%5EDJI"]="Dow Jones|US"
+          STOCKS["%5EIXIC"]="NASDAQ|US"
+          STOCKS["%5EFTSE"]="FTSE 100|Europe"
+          STOCKS["%5EGDAXI"]="DAX|Europe"
+          STOCKS["%5EFCHI"]="CAC 40|Europe"
+          STOCKS["%5EN225"]="Nikkei 225|Asia"
+          STOCKS["%5EHSI"]="Hang Seng|Asia"
+          STOCKS["%5EBSESN"]="BSE Sensex|Asia"
+          STOCKS["%5EAXJO"]="ASX 200|Asia"
+          STOCKS["%5EMXX"]="IPC Mexico|Latin America"
+          STOCKS["%5EBVSP"]="Bovespa|Latin America"
+          
+          for symbol in "${!STOCKS[@]}"; do
+            IFS='|' read -r name market <<< "${STOCKS[$symbol]}"
+            RAW_SYMBOL=$(echo "$symbol" | sed 's/%5E/^/g')
+            
+            STOCK_RESPONSE=$(curl -s -H "User-Agent: Mozilla/5.0" \
+              "https://query1.finance.yahoo.com/v8/finance/chart/${RAW_SYMBOL}?interval=1d&range=1d" 2>/dev/null)
+            
+            if echo "$STOCK_RESPONSE" | jq -e '.chart.result[0].meta' > /dev/null 2>&1; then
+              STOCK_JSON=$(echo "$STOCK_RESPONSE" | jq -c "{
+                symbol: \"${RAW_SYMBOL}\",
+                name: \"${name}\",
+                market: \"${market}\",
+                price: .chart.result[0].meta.regularMarketPrice,
+                previous_close: .chart.result[0].meta.previousClose,
+                change: (.chart.result[0].meta.regularMarketPrice - .chart.result[0].meta.previousClose),
+                change_pct: ((.chart.result[0].meta.regularMarketPrice - .chart.result[0].meta.previousClose) / .chart.result[0].meta.previousClose * 100)
+              }")
+              
+              # Append to indices array
+              jq ".indices += [${STOCK_JSON}]" "capsules/${DATE_PATH}/global/stock_markets.json" > tmp_stocks.json && mv tmp_stocks.json "capsules/${DATE_PATH}/global/stock_markets.json"
+              echo "  ✅ ${name} (${market})"
+            else
+              echo "  ⚠️ ${name} unavailable"
             fi
-            sleep 0.3
+            sleep 0.5
           done
           
-          # European Markets
-          for symbol in "^FTSE" "^GDAXI" "^FCHI" "^STOXX50E"; do
-            STOCK_DATA=$(curl -s "https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=1d" 2>/dev/null)
-            if echo "$STOCK_DATA" | jq -e '.chart.result[0].meta' > /dev/null 2>&1; then
-              STOCK_INDICES=$(echo "$STOCK_INDICES" | jq ".indices += [$(echo "$STOCK_DATA" | jq '{symbol: .chart.result[0].meta.symbol, name: (.chart.result[0].meta.symbol // "Unknown"), price: .chart.result[0].meta.regularMarketPrice, previous_close: .chart.result[0].meta.previousClose, change: (.chart.result[0].meta.regularMarketPrice - .chart.result[0].meta.previousClose), change_pct: ((.chart.result[0].meta.regularMarketPrice - .chart.result[0].meta.previousClose) / .chart.result[0].meta.previousClose * 100), market: "Europe"}')]")
-            fi
-            sleep 0.3
-          done
-          
-          # Asian Markets
-          for symbol in "^N225" "^HSI" "^SSEC" "^BSESN" "^AXJO" "^KS11"; do
-            STOCK_DATA=$(curl -s "https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=1d" 2>/dev/null)
-            if echo "$STOCK_DATA" | jq -e '.chart.result[0].meta' > /dev/null 2>&1; then
-              STOCK_INDICES=$(echo "$STOCK_INDICES" | jq ".indices += [$(echo "$STOCK_DATA" | jq '{symbol: .chart.result[0].meta.symbol, name: (.chart.result[0].meta.symbol // "Unknown"), price: .chart.result[0].meta.regularMarketPrice, previous_close: .chart.result[0].meta.previousClose, change: (.chart.result[0].meta.regularMarketPrice - .chart.result[0].meta.previousClose), change_pct: ((.chart.result[0].meta.regularMarketPrice - .chart.result[0].meta.previousClose) / .chart.result[0].meta.previousClose * 100), market: "Asia"}')]")
-            fi
-            sleep 0.3
-          done
-          
-          # Latin America
-          for symbol in "^MXX" "^BVSP" "^MERV"; do
-            STOCK_DATA=$(curl -s "https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=1d" 2>/dev/null)
-            if echo "$STOCK_DATA" | jq -e '.chart.result[0].meta' > /dev/null 2>&1; then
-              STOCK_INDICES=$(echo "$STOCK_INDICES" | jq ".indices += [$(echo "$STOCK_DATA" | jq '{symbol: .chart.result[0].meta.symbol, name: (.chart.result[0].meta.symbol // "Unknown"), price: .chart.result[0].meta.regularMarketPrice, previous_close: .chart.result[0].meta.previousClose, change: (.chart.result[0].meta.regularMarketPrice - .chart.result[0].meta.previousClose), change_pct: ((.chart.result[0].meta.regularMarketPrice - .chart.result[0].meta.previousClose) / .chart.result[0].meta.previousClose * 100), market: "Latin America"}')]")
-            fi
-            sleep 0.3
-          done
-          
-          echo "$STOCK_INDICES" > "capsules/${DATE_PATH}/global/stock_markets.json"
-          echo "✅ Stock Markets done ($(jq '.indices | length' capsules/${DATE_PATH}/global/stock_markets.json 2>/dev/null || echo 0) indices)"
+          STOCK_COUNT=$(jq '.indices | length' "capsules/${DATE_PATH}/global/stock_markets.json" 2>/dev/null || echo 0)
+          echo "✅ Stock Markets done (${STOCK_COUNT} indices)"
 
           # ============================================
-          # SPORTS - Major Leagues & Events
+          # SPORTS - Major Leagues
           # ============================================
           echo "📡 Capturing Sports Data..."
           
-          # NBA Scores (via ESPN-like public API)
+          # NBA
           NBA_DATA=$(curl -s "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard" 2>/dev/null)
           if echo "$NBA_DATA" | jq -e '.events' > /dev/null 2>&1; then
             echo "$NBA_DATA" | jq '[.events[] | {league: "NBA", home: .competitions[0].competitors[0].team.displayName, away: .competitions[0].competitors[1].team.displayName, home_score: .competitions[0].competitors[0].score, away_score: .competitions[0].competitors[1].score, status: .status.type.name, date: .date}]' \
@@ -200,7 +186,7 @@ jobs:
             echo '[]' > "capsules/${DATE_PATH}/global/sports_nba.json"
           fi
           
-          # Premier League (Football/Soccer)
+          # Premier League
           EPL_DATA=$(curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard" 2>/dev/null)
           if echo "$EPL_DATA" | jq -e '.events' > /dev/null 2>&1; then
             echo "$EPL_DATA" | jq '[.events[] | {league: "Premier League", home: .competitions[0].competitors[0].team.displayName, away: .competitions[0].competitors[1].team.displayName, home_score: .competitions[0].competitors[0].score, away_score: .competitions[0].competitors[1].score, status: .status.type.name, date: .date}]' \
@@ -209,7 +195,7 @@ jobs:
             echo '[]' > "capsules/${DATE_PATH}/global/sports_premier_league.json"
           fi
           
-          # La Liga (Spain)
+          # La Liga
           LALIGA_DATA=$(curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard" 2>/dev/null)
           if echo "$LALIGA_DATA" | jq -e '.events' > /dev/null 2>&1; then
             echo "$LALIGA_DATA" | jq '[.events[] | {league: "La Liga", home: .competitions[0].competitors[0].team.displayName, away: .competitions[0].competitors[1].team.displayName, home_score: .competitions[0].competitors[0].score, away_score: .competitions[0].competitors[1].score, status: .status.type.name, date: .date}]' \
@@ -218,31 +204,13 @@ jobs:
             echo '[]' > "capsules/${DATE_PATH}/global/sports_la_liga.json"
           fi
           
-          # Chinese Super League
-          CSL_DATA=$(curl -s "https://site.api.espn.com/apis/site/v2/sports/soccer/chn.1/scoreboard" 2>/dev/null)
-          if echo "$CSL_DATA" | jq -e '.events' > /dev/null 2>&1; then
-            echo "$CSL_DATA" | jq '[.events[] | {league: "Chinese Super League", home: .competitions[0].competitors[0].team.displayName, away: .competitions[0].competitors[1].team.displayName, home_score: .competitions[0].competitors[0].score, away_score: .competitions[0].competitors[1].score, status: .status.type.name, date: .date}]' \
-              > "capsules/${DATE_PATH}/global/sports_csl.json"
-          else
-            echo '[]' > "capsules/${DATE_PATH}/global/sports_csl.json"
-          fi
-          
-          # MLB (Baseball)
+          # MLB
           MLB_DATA=$(curl -s "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard" 2>/dev/null)
           if echo "$MLB_DATA" | jq -e '.events' > /dev/null 2>&1; then
             echo "$MLB_DATA" | jq '[.events[] | {league: "MLB", home: .competitions[0].competitors[0].team.displayName, away: .competitions[0].competitors[1].team.displayName, home_score: .competitions[0].competitors[0].score, away_score: .competitions[0].competitors[1].score, status: .status.type.name, date: .date}]' \
               > "capsules/${DATE_PATH}/global/sports_mlb.json"
           else
             echo '[]' > "capsules/${DATE_PATH}/global/sports_mlb.json"
-          fi
-          
-          # IPL Cricket (India)
-          IPL_DATA=$(curl -s "https://site.api.espn.com/apis/site/v2/sports/cricket/ipl/scoreboard" 2>/dev/null)
-          if echo "$IPL_DATA" | jq -e '.events' > /dev/null 2>&1; then
-            echo "$IPL_DATA" | jq '[.events[] | {league: "IPL", home: .competitions[0].competitors[0].team.displayName, away: .competitions[0].competitors[1].team.displayName, home_score: .competitions[0].competitors[0].score, away_score: .competitions[0].competitors[1].score, status: .status.type.name, date: .date}]' \
-              > "capsules/${DATE_PATH}/global/sports_ipl.json"
-          else
-            echo '[]' > "capsules/${DATE_PATH}/global/sports_ipl.json"
           fi
           
           # Formula 1
@@ -261,98 +229,52 @@ jobs:
           # ============================================
           echo "📡 Capturing News Headlines..."
           
-          # Google News RSS (US)
-          US_NEWS=$(curl -s "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en" 2>/dev/null)
-          if [ -n "$US_NEWS" ]; then
-            echo "$US_NEWS" | grep -oP '<item>.*?</item>' | head -20 | while read -r item; do
-              title=$(echo "$item" | grep -oP '<title>.*?</title>' | sed 's/<[^>]*>//g' | head -1)
+          # US News
+          curl -s "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en" 2>/dev/null | \
+            grep -oP '<item>.*?</item>' | head -20 | while read -r item; do
+              title=$(echo "$item" | grep -oP '<title>.*?</title>' | sed 's/<[^>]*>//g' | head -1 | sed 's/"/\\"/g')
               link=$(echo "$item" | grep -oP '<link>.*?</link>' | sed 's/<[^>]*>//g' | head -1)
               pubDate=$(echo "$item" | grep -oP '<pubDate>.*?</pubDate>' | sed 's/<[^>]*>//g' | head -1)
               echo "{\"title\": \"$title\", \"link\": \"$link\", \"date\": \"$pubDate\", \"country\": \"US\"}"
             done | jq -s '.' > "capsules/${DATE_PATH}/global/news_us.json" 2>/dev/null || echo '[]' > "capsules/${DATE_PATH}/global/news_us.json"
-          else
-            echo '[]' > "capsules/${DATE_PATH}/global/news_us.json"
-          fi
           
-          # Google News RSS (China - HK edition)
-          CN_NEWS=$(curl -s "https://news.google.com/rss?hl=zh-CN&gl=CN&ceid=CN:zh-Hans" 2>/dev/null)
-          if [ -n "$CN_NEWS" ]; then
-            echo "$CN_NEWS" | grep -oP '<item>.*?</item>' | head -20 | while read -r item; do
-              title=$(echo "$item" | grep -oP '<title>.*?</title>' | sed 's/<[^>]*>//g' | head -1)
+          # China News
+          curl -s "https://news.google.com/rss?hl=zh-CN&gl=CN&ceid=CN:zh-Hans" 2>/dev/null | \
+            grep -oP '<item>.*?</item>' | head -20 | while read -r item; do
+              title=$(echo "$item" | grep -oP '<title>.*?</title>' | sed 's/<[^>]*>//g' | head -1 | sed 's/"/\\"/g')
               link=$(echo "$item" | grep -oP '<link>.*?</link>' | sed 's/<[^>]*>//g' | head -1)
               pubDate=$(echo "$item" | grep -oP '<pubDate>.*?</pubDate>' | sed 's/<[^>]*>//g' | head -1)
               echo "{\"title\": \"$title\", \"link\": \"$link\", \"date\": \"$pubDate\", \"country\": \"CN\"}"
             done | jq -s '.' > "capsules/${DATE_PATH}/global/news_china.json" 2>/dev/null || echo '[]' > "capsules/${DATE_PATH}/global/news_china.json"
-          else
-            echo '[]' > "capsules/${DATE_PATH}/global/news_china.json"
-          fi
           
-          # Google News RSS (UK)
-          UK_NEWS=$(curl -s "https://news.google.com/rss?hl=en-GB&gl=GB&ceid=GB:en" 2>/dev/null)
-          if [ -n "$UK_NEWS" ]; then
-            echo "$UK_NEWS" | grep -oP '<item>.*?</item>' | head -20 | while read -r item; do
-              title=$(echo "$item" | grep -oP '<title>.*?</title>' | sed 's/<[^>]*>//g' | head -1)
+          # UK News
+          curl -s "https://news.google.com/rss?hl=en-GB&gl=GB&ceid=GB:en" 2>/dev/null | \
+            grep -oP '<item>.*?</item>' | head -20 | while read -r item; do
+              title=$(echo "$item" | grep -oP '<title>.*?</title>' | sed 's/<[^>]*>//g' | head -1 | sed 's/"/\\"/g')
               link=$(echo "$item" | grep -oP '<link>.*?</link>' | sed 's/<[^>]*>//g' | head -1)
               pubDate=$(echo "$item" | grep -oP '<pubDate>.*?</pubDate>' | sed 's/<[^>]*>//g' | head -1)
               echo "{\"title\": \"$title\", \"link\": \"$link\", \"date\": \"$pubDate\", \"country\": \"GB\"}"
             done | jq -s '.' > "capsules/${DATE_PATH}/global/news_uk.json" 2>/dev/null || echo '[]' > "capsules/${DATE_PATH}/global/news_uk.json"
-          else
-            echo '[]' > "capsules/${DATE_PATH}/global/news_uk.json"
-          fi
           
-          # Google News RSS (India)
-          IN_NEWS=$(curl -s "https://news.google.com/rss?hl=en-IN&gl=IN&ceid=IN:en" 2>/dev/null)
-          if [ -n "$IN_NEWS" ]; then
-            echo "$IN_NEWS" | grep -oP '<item>.*?</item>' | head -20 | while read -r item; do
-              title=$(echo "$item" | grep -oP '<title>.*?</title>' | sed 's/<[^>]*>//g' | head -1)
+          # India News
+          curl -s "https://news.google.com/rss?hl=en-IN&gl=IN&ceid=IN:en" 2>/dev/null | \
+            grep -oP '<item>.*?</item>' | head -20 | while read -r item; do
+              title=$(echo "$item" | grep -oP '<title>.*?</title>' | sed 's/<[^>]*>//g' | head -1 | sed 's/"/\\"/g')
               link=$(echo "$item" | grep -oP '<link>.*?</link>' | sed 's/<[^>]*>//g' | head -1)
               pubDate=$(echo "$item" | grep -oP '<pubDate>.*?</pubDate>' | sed 's/<[^>]*>//g' | head -1)
               echo "{\"title\": \"$title\", \"link\": \"$link\", \"date\": \"$pubDate\", \"country\": \"IN\"}"
             done | jq -s '.' > "capsules/${DATE_PATH}/global/news_india.json" 2>/dev/null || echo '[]' > "capsules/${DATE_PATH}/global/news_india.json"
-          else
-            echo '[]' > "capsules/${DATE_PATH}/global/news_india.json"
-          fi
           
-          # Google News RSS (Japan)
-          JP_NEWS=$(curl -s "https://news.google.com/rss?hl=ja&gl=JP&ceid=JP:ja" 2>/dev/null)
-          if [ -n "$JP_NEWS" ]; then
-            echo "$JP_NEWS" | grep -oP '<item>.*?</item>' | head -20 | while read -r item; do
-              title=$(echo "$item" | grep -oP '<title>.*?</title>' | sed 's/<[^>]*>//g' | head -1)
-              link=$(echo "$item" | grep -oP '<link>.*?</link>' | sed 's/<[^>]*>//g' | head -1)
-              pubDate=$(echo "$item" | grep -oP '<pubDate>.*?</pubDate>' | sed 's/<[^>]*>//g' | head -1)
-              echo "{\"title\": \"$title\", \"link\": \"$link\", \"date\": \"$pubDate\", \"country\": \"JP\"}"
-            done | jq -s '.' > "capsules/${DATE_PATH}/global/news_japan.json" 2>/dev/null || echo '[]' > "capsules/${DATE_PATH}/global/news_japan.json"
-          else
-            echo '[]' > "capsules/${DATE_PATH}/global/news_japan.json"
-          fi
-          
-          # Google News RSS (Brazil)
-          BR_NEWS=$(curl -s "https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt" 2>/dev/null)
-          if [ -n "$BR_NEWS" ]; then
-            echo "$BR_NEWS" | grep -oP '<item>.*?</item>' | head -20 | while read -r item; do
-              title=$(echo "$item" | grep -oP '<title>.*?</title>' | sed 's/<[^>]*>//g' | head -1)
+          # Brazil News
+          curl -s "https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt" 2>/dev/null | \
+            grep -oP '<item>.*?</item>' | head -20 | while read -r item; do
+              title=$(echo "$item" | grep -oP '<title>.*?</title>' | sed 's/<[^>]*>//g' | head -1 | sed 's/"/\\"/g')
               link=$(echo "$item" | grep -oP '<link>.*?</link>' | sed 's/<[^>]*>//g' | head -1)
               pubDate=$(echo "$item" | grep -oP '<pubDate>.*?</pubDate>' | sed 's/<[^>]*>//g' | head -1)
               echo "{\"title\": \"$title\", \"link\": \"$link\", \"date\": \"$pubDate\", \"country\": \"BR\"}"
             done | jq -s '.' > "capsules/${DATE_PATH}/global/news_brazil.json" 2>/dev/null || echo '[]' > "capsules/${DATE_PATH}/global/news_brazil.json"
-          else
-            echo '[]' > "capsules/${DATE_PATH}/global/news_brazil.json"
-          fi
           
-          # Google News RSS (Russia)
-          RU_NEWS=$(curl -s "https://news.google.com/rss?hl=ru&gl=RU&ceid=RU:ru" 2>/dev/null)
-          if [ -n "$RU_NEWS" ]; then
-            echo "$RU_NEWS" | grep -oP '<item>.*?</item>' | head -20 | while read -r item; do
-              title=$(echo "$item" | grep -oP '<title>.*?</title>' | sed 's/<[^>]*>//g' | head -1)
-              link=$(echo "$item" | grep -oP '<link>.*?</link>' | sed 's/<[^>]*>//g' | head -1)
-              pubDate=$(echo "$item" | grep -oP '<pubDate>.*?</pubDate>' | sed 's/<[^>]*>//g' | head -1)
-              echo "{\"title\": \"$title\", \"link\": \"$link\", \"date\": \"$pubDate\", \"country\": \"RU\"}"
-            done | jq -s '.' > "capsules/${DATE_PATH}/global/news_russia.json" 2>/dev/null || echo '[]' > "capsules/${DATE_PATH}/global/news_russia.json"
-          else
-            echo '[]' > "capsules/${DATE_PATH}/global/news_russia.json"
-          fi
-          
-          echo "✅ News done (8 countries)"
+          echo "✅ News done (6 countries)"
 
           # ============================================
           # WEATHER (25 cities)
@@ -402,4 +324,106 @@ jobs:
             sleep 0.08
           done
           echo '}' >> "capsules/${DATE_PATH}/global/weather_25_cities.json"
-          echo "✅ Weather done ($(jq 'length' capsules/${DATE_PATH}/global/weather_25_cities.json 2>/dev
+          echo "✅ Weather done ($(jq 'length' capsules/${DATE_PATH}/global/weather_25_cities.json 2>/dev/null || echo 0) cities)"
+
+          # ============================================
+          # AIR QUALITY
+          # ============================================
+          echo "📡 Capturing Air Quality..."
+          for aq in "40.71,-74.01,nyc" "51.51,-0.13,london" "35.68,139.65,tokyo" "28.61,77.23,delhi" "-23.55,-46.63,sao_paulo"; do
+            IFS=',' read -r aq_lat aq_lon aq_name <<< "$aq"
+            AQ_DATA=$(curl -s "https://api.open-meteo.com/v1/air-quality?latitude=${aq_lat}&longitude=${aq_lon}&current=pm2_5,pm10,european_aqi&timezone=auto" 2>/dev/null)
+            if echo "$AQ_DATA" | jq -e '.current' > /dev/null 2>&1; then
+              echo "$AQ_DATA" | jq "{city: \"${aq_name}\", aqi: (.current.european_aqi // 0), pm25: (.current.pm2_5 // 0), pm10: (.current.pm10 // 0)}" \
+                > "capsules/${DATE_PATH}/global/air_quality_${aq_name}.json"
+            else
+              echo "{\"city\":\"${aq_name}\",\"aqi\":0,\"pm25\":0,\"pm10\":0}" > "capsules/${DATE_PATH}/global/air_quality_${aq_name}.json"
+            fi
+            sleep 0.08
+          done
+          echo "✅ Air Quality done"
+
+          # ============================================
+          # EARTHQUAKES
+          # ============================================
+          echo "📡 Capturing Earthquakes..."
+          QUAKE_DATA=$(curl -s "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson" 2>/dev/null)
+          if echo "$QUAKE_DATA" | jq -e '.features' > /dev/null 2>&1; then
+            echo "$QUAKE_DATA" | jq '[.features[] | {place: (.properties.place // "Unknown"), magnitude: (.properties.mag // 0), time: (.properties.time // 0), depth: (.geometry.coordinates[2] // 0), significance: (.properties.sig // 0), alert: (.properties.alert // "none")}]' \
+              > "capsules/${DATE_PATH}/global/earthquakes.json"
+          else
+            echo '[]' > "capsules/${DATE_PATH}/global/earthquakes.json"
+          fi
+          echo "✅ Earthquakes done ($(jq 'length' capsules/${DATE_PATH}/global/earthquakes.json 2>/dev/null || echo 0) events)"
+
+          # ============================================
+          # NASA APOD
+          # ============================================
+          echo "📡 Capturing NASA..."
+          NASA_DATA=$(curl -s "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY" 2>/dev/null)
+          if echo "$NASA_DATA" | jq -e '.url' > /dev/null 2>&1; then
+            echo "$NASA_DATA" | jq '{title: (.title // "APOD"), date: (.date // ""), url: (.url // ""), explanation: (.explanation // "")[0:500], media_type: (.media_type // "image")}' \
+              > "capsules/${DATE_PATH}/global/nasa_apod.json"
+          else
+            echo '{"title":"NASA APOD unavailable","url":"","explanation":"NASA API rate limit reached."}' > "capsules/${DATE_PATH}/global/nasa_apod.json"
+          fi
+          echo "✅ NASA done"
+
+          # ============================================
+          # ISS POSITION
+          # ============================================
+          echo "📡 Capturing ISS..."
+          ISS_DATA=$(curl -s --connect-timeout 5 "http://api.open-notify.org/iss-now.json" 2>/dev/null)
+          if echo "$ISS_DATA" | jq -e '.iss_position' > /dev/null 2>&1; then
+            echo "$ISS_DATA" | jq '{timestamp: (.timestamp // 0), lat: (.iss_position.latitude // "0"), lon: (.iss_position.longitude // "0")}' \
+              > "capsules/${DATE_PATH}/global/iss_position.json"
+          else
+            echo '{"timestamp":0,"lat":"0","lon":"0"}' > "capsules/${DATE_PATH}/global/iss_position.json"
+          fi
+          echo "✅ ISS done"
+
+          # ============================================
+          # PEOPLE IN SPACE
+          # ============================================
+          echo "📡 Capturing Astronauts..."
+          ASTRO_DATA=$(curl -s --connect-timeout 5 "http://api.open-notify.org/astros.json" 2>/dev/null)
+          if echo "$ASTRO_DATA" | jq -e '.people' > /dev/null 2>&1; then
+            echo "$ASTRO_DATA" | jq '{total: (.number // 0), people: [.people[] | {name: (.name // "Unknown"), craft: (.craft // "Unknown")}]}' \
+              > "capsules/${DATE_PATH}/global/people_in_space.json"
+          else
+            echo '{"total":0,"people":[]}' > "capsules/${DATE_PATH}/global/people_in_space.json"
+          fi
+          echo "✅ Astronauts done"
+
+          # ============================================
+          # COUNTRIES DEMOGRAPHICS
+          # ============================================
+          echo "📡 Capturing Countries..."
+          COUNTRIES_DATA=$(curl -s "https://restcountries.com/v3.1/all?fields=name,capital,population,area,region,subregion,flags,timezones" 2>/dev/null)
+          if echo "$COUNTRIES_DATA" | jq -e '.[0].name' > /dev/null 2>&1; then
+            echo "$COUNTRIES_DATA" | jq '[.[] | {country: (.name.common // "Unknown"), capital: (.capital[0] // "N/A"), population: (.population // 0), area_km2: (.area // 0), region: (.region // "Unknown"), subregion: (.subregion // ""), flag: (.flags.png // ""), timezones: (.timezones // [])}]' \
+              > "capsules/${DATE_PATH}/global/all_countries.json"
+          else
+            echo '[]' > "capsules/${DATE_PATH}/global/all_countries.json"
+          fi
+          echo "✅ Countries done ($(jq 'length' capsules/${DATE_PATH}/global/all_countries.json 2>/dev/null || echo 0) countries)"
+
+          # ============================================
+          # HOLIDAYS
+          # ============================================
+          echo "📡 Capturing Holidays..."
+          HOLIDAYS_DATA=$(curl -s "https://date.nager.at/api/v3/NextPublicHolidaysWorldwide" 2>/dev/null)
+          if echo "$HOLIDAYS_DATA" | jq -e '.[0].date' > /dev/null 2>&1; then
+            echo "$HOLIDAYS_DATA" | jq '[.[:30] | .[] | {date: (.date // ""), name: (.name // "Unknown"), country: (.countryCode // "??")}]' \
+              > "capsules/${DATE_PATH}/global/holidays_today.json"
+          else
+            echo '[]' > "capsules/${DATE_PATH}/global/holidays_today.json"
+          fi
+          echo "✅ Holidays done ($(jq 'length' capsules/${DATE_PATH}/global/holidays_today.json 2>/dev/null || echo 0) holidays)"
+
+          # ============================================
+          # COVID STATS
+          # ============================================
+          echo "📡 Capturing Health Stats..."
+          COVID_DATA=$(curl -s "https://disease.sh/v3/covid-19/all" 2>/dev/null)
+          if echo "$COVID_DATA" | jq -e '.cases' > /dev/null 2>&1; then
