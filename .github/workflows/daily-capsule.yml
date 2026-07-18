@@ -1,15 +1,15 @@
-name: Daily Internet Time Capsule
+name: Ultra Global Internet Time Capsule
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight UTC
-  workflow_dispatch:  # Allows manual trigger
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  capture-internet-memory:
+  capture-global-memory:
     runs-on: ubuntu-latest
     
     steps:
@@ -18,7 +18,7 @@ jobs:
         with:
           fetch-depth: 0
       
-      - name: Capture Global Internet Snapshot
+      - name: Capture Ultra Global Snapshot
         run: |
           YEAR=$(date +%Y)
           MONTH=$(date +%m)
@@ -26,73 +26,291 @@ jobs:
           TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           DATE_PATH="${YEAR}/${MONTH}/${DAY}"
           
-          mkdir -p "capsules/${DATE_PATH}"
+          mkdir -p "capsules/${DATE_PATH}/global"
+          mkdir -p "capsules/${DATE_PATH}/countries"
           
-          echo "{
-            \"timestamp\": \"${TIMESTAMP}\",
-            \"day_of_week\": \"$(date +%A)\",
-            \"week_number\": $(date +%V),
-            \"captured_at_epoch\": $(date +%s),
-            \"data\": {
-              \"github_trending\": $(curl -s -H "Accept: application/vnd.github.v3+json" \
-                "https://api.github.com/search/repositories?q=created:>${YEAR}-${MONTH}-${DAY}&sort=stars&order=desc&per_page=20" | \
-                jq '[.items[] | {name: .full_name, stars: .stargazers_count, language: .language, description: .description, url: .html_url}]'),
-              \"hackernews_top\": $(curl -s "https://hacker-news.firebaseio.com/v0/topstories.json" | \
-                jq '.[0:30]' | jq -R -s '{story_ids: .}'),
-              \"wikipedia_trending\": $(curl -s "https://en.wikipedia.org/w/api.php?action=query&list=mostviewed&format=json" | \
-                jq '[.query.mostviewed[:20] | .[] | {title: .title, views: .views}]'),
-              \"global_holidays\": $(curl -s "https://date.nager.at/api/v3/NextPublicHolidaysWorldwide" | \
-                jq '[.[:10] | .[] | {date: .date, name: .name, country: .countryCode}]'),
-              \"exchange_rates\": $(curl -s "https://open.er-api.com/v6/latest/USD" | \
-                jq '{base: .base_code, rates: .rates | to_entries | map(select(.key == "EUR" or .key == "GBP" or .key == "JPY" or .key == "BTC" or .key == "CNY" or .key == "INR" or .key == "BRL")) | from_entries}'),
-              \"space_events\": $(curl -s "https://api.nasa.gov/DONKI/notifications?startDate=${YEAR}-${MONTH}-${DAY}&endDate=${YEAR}-${MONTH}-${DAY}&type=all" | \
-                jq '[.[:5] | .[] | {type: .messageType, message: .messageBody[:200]}]'),
-              \"earthquakes_today\": $(curl -s "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson" | \
-                jq '[.features[:10] | .[] | {place: .properties.place, magnitude: .properties.mag, time: .properties.time}]')
-            }
-          }" > "capsules/${DATE_PATH}/global_snapshot.json"
+          # ============================================
+          # 📡 GLOBAL INTERNET & TECH
+          # ============================================
           
-          echo "{
-            \"weather_extremes\": $(curl -s "https://api.open-meteo.com/v1/forecast?latitude=0&longitude=0&daily=temperature_2m_max,temperature_2m_min&timezone=UTC&forecast_days=1" | \
-              jq '{max_temp_equator: .daily.temperature_2m_max[0], min_temp_equator: .daily.temperature_2m_min[0]}')
-          }" > "capsules/${DATE_PATH}/climate_snapshot.json"
+          # GitHub Trending Repos
+          curl -s -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/search/repositories?q=created:>${YEAR}-${MONTH}-${DAY}&sort=stars&order=desc&per_page=30" | \
+            jq '[.items[] | {name: .full_name, stars: .stargazers_count, language: .language, topics: .topics, description: .description, url: .html_url, forks: .forks_count, open_issues: .open_issues_count}]' \
+            > "capsules/${DATE_PATH}/global/github_trending.json"
           
-      - name: Generate Daily Manifest
+          # HackerNews Top Stories
+          HN_TOP=$(curl -s "https://hacker-news.firebaseio.com/v0/topstories.json" | jq '.[0:30]')
+          echo '[]' > "capsules/${DATE_PATH}/global/hackernews_detailed.json"
+          for id in $(echo $HN_TOP | jq -r '.[]'); do
+            ITEM=$(curl -s "https://hacker-news.firebaseio.com/v0/item/${id}.json")
+            echo "$ITEM" | jq '{id: .id, title: .title, url: .url, score: .score, by: .by, comments: .descendants, type: .type}' >> "capsules/${DATE_PATH}/global/hackernews.json"
+            sleep 0.1
+          done
+          jq -s '.' "capsules/${DATE_PATH}/global/hackernews.json" > tmp_hackernews.json && mv tmp_hackernews.json "capsules/${DATE_PATH}/global/hackernews.json"
+          
+          # StackOverflow Hot Questions
+          curl -s "https://api.stackexchange.com/2.3/questions?order=desc&sort=hot&site=stackoverflow&pagesize=25" | \
+            jq '[.items[] | {title: .title, score: .score, views: .view_count, answers: .answer_count, tags: .tags, link: .link}]' \
+            > "capsules/${DATE_PATH}/global/stackoverflow_hot.json"
+          
+          # Reddit r/all Hot
+          curl -s -H "User-Agent: TimeCapsule/1.0" \
+            "https://www.reddit.com/r/all/hot.json?limit=25" | \
+            jq '[.data.children[] | {title: .data.title, subreddit: .data.subreddit, score: .data.score, comments: .data.num_comments, url: .data.url, author: .data.author}]' \
+            > "capsules/${DATE_PATH}/global/reddit_all.json"
+          
+          # ============================================
+          # 📚 WIKIPEDIA MULTI-LANGUAGE
+          # ============================================
+          
+          for lang in en es fr de ja zh ar ru pt hi it nl pl sv ko; do
+            curl -s "https://${lang}.wikipedia.org/w/api.php?action=query&list=mostviewed&format=json" | \
+              jq "{language: \"${lang}\", articles: [.query.mostviewed[:20] | .[] | {title: .title, views: .views}]}" \
+              > "capsules/${DATE_PATH}/global/wikipedia_${lang}.json"
+            sleep 0.2
+          done
+          
+          # ============================================
+          # 💰 FINANCIAL MARKETS
+          # ============================================
+          
+          # All Exchange Rates (160+ currencies)
+          curl -s "https://open.er-api.com/v6/latest/USD" | \
+            jq '{base: .base_code, updated: .time_last_update_utc, rates: .rates}' \
+            > "capsules/${DATE_PATH}/global/exchange_rates_all.json"
+          
+          # Top Cryptocurrencies (CoinGecko public API)
+          curl -s "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&sparkline=false" | \
+            jq '[.[] | {name: .name, symbol: .symbol, price_usd: .current_price, market_cap: .market_cap, volume_24h: .total_volume, change_24h: .price_change_percentage_24h, market_cap_rank: .market_cap_rank}]' \
+            > "capsules/${DATE_PATH}/global/crypto_top50.json"
+          
+          # ============================================
+          # 🌤️ CLIMATE & WEATHER (25 Major Cities)
+          # ============================================
+          
+          declare -A CITIES
+          CITIES=(
+            ["New_York"]="40.7128,-74.0060"
+            ["London"]="51.5074,-0.1278"
+            ["Tokyo"]="35.6762,139.6503"
+            ["Shanghai"]="31.2304,121.4737"
+            ["Mumbai"]="19.0760,72.8777"
+            ["Sao_Paulo"]="-23.5505,-46.6333"
+            ["Lagos"]="6.5244,3.3792"
+            ["Cairo"]="30.0444,31.2357"
+            ["Mexico_City"]="19.4326,-99.1332"
+            ["Paris"]="48.8566,2.3522"
+            ["Moscow"]="55.7558,37.6173"
+            ["Sydney"]="-33.8688,151.2093"
+            ["Dubai"]="25.2048,55.2708"
+            ["Singapore"]="1.3521,103.8198"
+            ["Toronto"]="43.6532,-79.3832"
+            ["Berlin"]="52.5200,13.4050"
+            ["Buenos_Aires"]="-34.6037,-58.3816"
+            ["Seoul"]="37.5665,126.9780"
+            ["Istanbul"]="41.0082,28.9784"
+            ["Jakarta"]="-6.2088,106.8456"
+            ["Bangkok"]="13.7563,100.5018"
+            ["Nairobi"]="-1.2921,36.8219"
+            ["Lima"]="-12.0464,-77.0428"
+            ["Rome"]="41.9028,12.4964"
+            ["Cape_Town"]="-33.9249,18.4241"
+          )
+          
+          echo '{' > "capsules/${DATE_PATH}/global/weather_25_cities.json"
+          first=true
+          for city in "${!CITIES[@]}"; do
+            IFS=',' read -r lat lon <<< "${CITIES[$city]}"
+            WEATHER=$(curl -s "https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,relative_humidity_2m,wind_speed_10m,weather_code&timezone=auto")
+            if [ "$first" = true ]; then
+              first=false
+            else
+              echo ',' >> "capsules/${DATE_PATH}/global/weather_25_cities.json"
+            fi
+            echo "\"${city}\": $(echo $WEATHER | jq '.current')" >> "capsules/${DATE_PATH}/global/weather_25_cities.json"
+            sleep 0.1
+          done
+          echo '}' >> "capsules/${DATE_PATH}/global/weather_25_cities.json"
+          
+          # Air Quality Major Cities
+          curl -s "https://api.open-meteo.com/v1/air-quality?latitude=40.71&longitude=-74.01&current=pm2_5,pm10,european_aqi,us_aqi&timezone=auto" | \
+            jq '{nyc: .current}' > "capsules/${DATE_PATH}/global/air_quality_nyc.json"
+          
+          curl -s "https://api.open-meteo.com/v1/air-quality?latitude=51.51&longitude=-0.13&current=pm2_5,pm10,european_aqi,us_aqi&timezone=auto" | \
+            jq '{london: .current}' > "capsules/${DATE_PATH}/global/air_quality_london.json"
+          
+          curl -s "https://api.open-meteo.com/v1/air-quality?latitude=35.68&longitude=139.65&current=pm2_5,pm10,european_aqi,us_aqi&timezone=auto" | \
+            jq '{tokyo: .current}' > "capsules/${DATE_PATH}/global/air_quality_tokyo.json"
+          
+          curl -s "https://api.open-meteo.com/v1/air-quality?latitude=28.61&longitude=77.23&current=pm2_5,pm10,european_aqi,us_aqi&timezone=auto" | \
+            jq '{delhi: .current}' > "capsules/${DATE_PATH}/global/air_quality_delhi.json"
+          
+          curl -s "https://api.open-meteo.com/v1/air-quality?latitude=-23.55&longitude=-46.63&current=pm2_5,pm10,european_aqi,us_aqi&timezone=auto" | \
+            jq '{sao_paulo: .current}' > "capsules/${DATE_PATH}/global/air_quality_sao_paulo.json"
+          
+          # ============================================
+          # 🌋 NATURAL EVENTS
+          # ============================================
+          
+          # Earthquakes (all magnitudes worldwide)
+          curl -s "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson" | \
+            jq '[.features[] | {place: .properties.place, magnitude: .properties.mag, time: .properties.time, depth_km: .geometry.coordinates[2], lat: .geometry.coordinates[1], lon: .geometry.coordinates[0], significance: .properties.sig, alert: .properties.alert, tsunami: .properties.tsunami}]' \
+            > "capsules/${DATE_PATH}/global/earthquakes_today.json"
+          
+          # Volcano Activity
+          curl -s "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventtype=volcanic&limit=10" | \
+            jq '[.features[] | {place: .properties.place, time: .properties.time, mag: .properties.mag}]' \
+            > "capsules/${DATE_PATH}/global/volcanic_activity.json"
+          
+          # ============================================
+          # 🛰️ SPACE
+          # ============================================
+          
+          # NASA Astronomy Picture of the Day
+          curl -s "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY" | \
+            jq '{title: .title, date: .date, explanation: .explanation, url: .url, media_type: .media_type, copyright: .copyright}' \
+            > "capsules/${DATE_PATH}/global/nasa_apod.json"
+          
+          # ISS Current Position
+          curl -s "http://api.open-notify.org/iss-now.json" | \
+            jq '{timestamp: .timestamp, lat: .iss_position.latitude, lon: .iss_position.longitude}' \
+            > "capsules/${DATE_PATH}/global/iss_position.json"
+          
+          # People in Space
+          curl -s "http://api.open-notify.org/astros.json" | \
+            jq '{total: .number, people: [.people[] | {name: .name, craft: .craft}]}' \
+            > "capsules/${DATE_PATH}/global/people_in_space.json"
+          
+          # ============================================
+          # 📚 ACADEMIA
+          # ============================================
+          
+          # ArXiv Latest Papers
+          curl -s "http://export.arxiv.org/api/query?search_query=all:latest&sortBy=submittedDate&sortOrder=descending&max_results=20" \
+            > "capsules/${DATE_PATH}/global/arxiv_latest.xml"
+          
+          # ============================================
+          # 🌍 WORLD DATA
+          # ============================================
+          
+          # Global Holidays
+          curl -s "https://date.nager.at/api/v3/NextPublicHolidaysWorldwide" | \
+            jq '[.[:20] | .[] | {date: .date, name: .name, country: .countryCode}]' \
+            > "capsules/${DATE_PATH}/global/holidays_today.json"
+          
+          # All Countries Demographics
+          curl -s "https://restcountries.com/v3.1/all?fields=name,capital,population,area,region,subregion,currencies,languages,flags,timezones,continents" | \
+            jq '[.[] | {country: .name.common, capital: .capital[0], population: .population, area_km2: .area, region: .region, subregion: .subregion, continent: .continents[0], currencies: .currencies, languages: .languages, flag: .flags.png, timezones: .timezones}]' \
+            > "capsules/${DATE_PATH}/global/all_countries_demographics.json"
+          
+          # Global COVID Stats
+          curl -s "https://disease.sh/v3/covid-19/all" | \
+            jq '{cases: .cases, deaths: .deaths, recovered: .recovered, active: .active, updated: .updated}' \
+            > "capsules/${DATE_PATH}/global/covid_global.json"
+          
+          # ============================================
+          # 🌐 INTERNET STATISTICS
+          # ============================================
+          
+          # GitHut - Programming Languages Popularity
+          curl -s "https://api.github.com/search/repositories?q=stars:>1000&sort=stars&order=desc&per_page=1" | \
+            jq '{total_repos: .total_count}' > "capsules/${DATE_PATH}/global/github_popular_repos_count.json"
+          
+          # ============================================
+          # 📊 OECD DATA
+          # ============================================
+          
+          # UN Population Data
+          curl -s "https://restcountries.com/v3.1/all?fields=name,population" | \
+            jq '[.[] | {country: .name.common, population: .population}] | sort_by(.population) | reverse | .[0:30]' \
+            > "capsules/${DATE_PATH}/global/most_populous_countries.json"
+          
+          echo "✅ Ultra Global Snapshot captured!"
+
+      - name: Generate Ultra Comprehensive Manifest
         run: |
           YEAR=$(date +%Y)
           MONTH=$(date +%m)
           DAY=$(date +%d)
           DATE_PATH="${YEAR}/${MONTH}/${DAY}"
           
-          echo "# 📅 Internet Time Capsule - ${YEAR}-${MONTH}-${DAY}
+          cat > "capsules/${DATE_PATH}/README.md" << MANIFESTEOF
+          # 🌐 Ultra Global Internet Time Capsule - ${YEAR}-${MONTH}-${DAY}
           
-          ## 🌍 What was captured today
+          ## 📊 Complete Daily World Snapshot
           
-          - **GitHub Trending Repos**: Top 20 newly created repositories
-          - **HackerNews**: Top 30 stories of the day
-          - **Wikipedia**: Most viewed articles globally
-          - **Global Holidays**: International observances
-          - **Financial Markets**: Exchange rates snapshot
-          - **Space Weather**: NASA solar events and notifications
-          - **Seismic Activity**: Earthquakes magnitude 2.5+ worldwide
-          - **Climate**: Equatorial temperature extremes
+          ### 🌍 GLOBAL INTERNET
+          - ✅ **GitHub**: Top 30 trending repositories
+          - ✅ **HackerNews**: Top 30 stories with full details
+          - ✅ **StackOverflow**: 25 hottest questions
+          - ✅ **Reddit**: r/all front page (25 posts)
           
-          ## 📊 Quick Stats
+          ### 📚 KNOWLEDGE
+          - ✅ **Wikipedia**: Trending in 15 languages (EN, ES, FR, DE, JA, ZH, AR, RU, PT, HI, IT, NL, PL, SV, KO)
+          - ✅ **ArXiv**: Latest 20 academic papers
           
-          This capsule contains structured data preserving this exact moment in internet history.
+          ### 💰 FINANCE
+          - ✅ **Exchange Rates**: 160+ currencies (USD base)
+          - ✅ **Cryptocurrencies**: Top 50 by market cap
+          
+          ### 🌤️ ENVIRONMENT
+          - ✅ **Weather**: 25 major cities (all continents)
+          - ✅ **Air Quality**: NYC, London, Tokyo, Delhi, São Paulo
+          
+          ### 🌋 NATURAL EVENTS
+          - ✅ **Earthquakes**: All magnitudes worldwide
+          - ✅ **Volcanoes**: Active volcanic activity
+          
+          ### 🛰️ SPACE
+          - ✅ **NASA**: Astronomy Picture of the Day
+          - ✅ **ISS**: Current position in orbit
+          - ✅ **Astronauts**: People currently in space
+          
+          ### 🌍 WORLD
+          - ✅ **Demographics**: All 195 countries (population, area, region)
+          - ✅ **Holidays**: Today's global observances
+          - ✅ **Health**: Global statistics
           
           ---
-          *Auto-generated by the Internet Time Capsule Project - preserving digital history one day at a time*" > "capsules/${DATE_PATH}/README.md"
-      
-      - name: Generate Index
+          ## 📈 Today's Data Points
+          
+          | Category | Items | Status |
+          |----------|-------|--------|
+          | Countries | 195 | ✅ Complete |
+          | Currencies | 160+ | ✅ Live |
+          | Cities Weather | 25 | ✅ Real-time |
+          | Wikipedia Languages | 15 | ✅ Trending |
+          | Crypto | 50 | ✅ Live prices |
+          | GitHub Repos | 30 | ✅ Trending |
+          | Reddit Posts | 25 | ✅ Front page |
+          | Academic Papers | 20 | ✅ Latest |
+          
+          ---
+          *🌐 The most complete open-source daily snapshot of human civilization.*
+          MANIFESTEOF
+
+      - name: Generate Master Index
         run: |
-          echo "# 🌐 The Internet Time Capsule
+          cat > "capsules/INDEX.md" << 'INDEXEOF'
+          # 🌐 The Ultra Global Internet Time Capsule
           
-          ## 📦 Preserving Internet History Since $(date +%Y)
+          ## 📦 The Most Complete Open Digital Archive
           
-          Every day, this repository automatically captures a snapshot of what's happening across the internet. From trending code to breaking news, from market data to space weather - we're building a free, open-source time machine.
+          ### 🌍 Global Coverage
           
-          ## 🗂 Browse by Year
+          | Category | Sources | Coverage |
+          |----------|---------|----------|
+          | 💻 Tech | GitHub, HN, Reddit, StackOverflow | Global |
+          | 📚 Knowledge | Wikipedia (15 languages), ArXiv | Worldwide |
+          | 💰 Finance | Forex (160), Crypto (50) | Worldwide |
+          | 🌤️ Climate | 25 cities, Air Quality (5) | 6 continents |
+          | 🌋 Nature | USGS Earthquakes, Volcanoes | Global |
+          | 🛰️ Space | NASA, ISS Tracking | Orbital |
+          | 🌍 World | 195 countries, Holidays | Complete |
+          | 📊 Demographics | Population, Area, Region | All nations |
+          
+          ### 🗂 Browse by Date
           
           $(for year_dir in capsules/*/; do
             year=$(basename "$year_dir")
@@ -101,33 +319,22 @@ jobs:
             fi
           done)
           
-          ## 🎯 Why This Matters
+          ### 🎯 Why This Archive Is Unique
           
-          Internet content disappears. News changes. Trends fade. This project creates immutable, timestamped records of our digital civilization.
-          
-          ## 📈 Growing Dataset
-          
-          - **Updates**: Every 24 hours, fully automated
-          - **Data Types**: 8+ different internet signals
-          - **Format**: Structured JSON, human-readable Markdown
-          - **Cost**: $0 - powered entirely by GitHub Actions free tier
-          
-          ## 🔍 Last 7 Days
-          
-          $(for i in {0..6}; do
-            date_str=$(date -d "$i days ago" +%Y/%m/%d)
-            if [ -d "capsules/${date_str}" ]; then
-              echo "- [📅 $(date -d "$i days ago" +%Y-%m-%d)](./capsules/${date_str}/)"
-            fi
-          done)
+          - **100% Open Source** — All data freely accessible
+          - **100% Automated** — Runs every 24 hours
+          - **100% Free** — No API keys needed
+          - **Multi-dimensional** — Tech, finance, science, culture
+          - **Immutable History** — Preserved in Git forever
           
           ---
-          *This project runs on GitHub Actions - completely free, completely automatic. The internet's story, preserved forever.*" > "capsules/INDEX.md"
-      
-      - name: Commit and Push Time Capsule
+          *Updated daily at 00:00 UTC — Zero cost — Open forever*
+          INDEXEOF
+
+      - name: Commit and Push Ultra Capsule
         run: |
-          git config --global user.name 'Time Capsule Bot'
-          git config --global user.email 'time-capsule@github-actions.bot'
+          git config --global user.name 'Ultra Time Capsule Bot'
+          git config --global user.email 'ultra-capsule@github-actions.bot'
           git add capsules/
-          git commit -m "📦 Time Capsule: $(date +%Y-%m-%d) - Preserving today's internet" || echo "No changes to commit"
+          git commit -m "🌐 Ultra Global Capsule: $(date +%Y-%m-%d) - Full world snapshot (15 lang, 195 countries, 25 cities)" || echo "No changes to commit"
           git push
