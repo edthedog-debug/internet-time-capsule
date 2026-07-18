@@ -2,170 +2,234 @@
   {
     "title": "Getting the compiler to tell which part of concept conjunction failed",
     "score": 1,
+    "views": 26,
+    "answers": 1,
     "tags": [
       "c++",
       "c++-concepts"
-    ]
+    ],
+    "link": "https://stackoverflow.com/questions/79981820/getting-the-compiler-to-tell-which-part-of-concept-conjunction-failed"
+  },
+  {
+    "title": "How use PHP array_search for tags even it is an array tag",
+    "score": 1,
+    "views": 21,
+    "answers": 1,
+    "tags": [
+      "php",
+      "multidimensional-array"
+    ],
+    "link": "https://stackoverflow.com/questions/79981817/how-use-php-array-search-for-tags-even-it-is-an-array-tag"
   },
   {
     "title": "ID Token vs. API Response Body for user metadata",
     "score": -2,
+    "views": 19,
+    "answers": 0,
     "tags": [
       "best-practices",
       "jwt"
-    ]
+    ],
+    "link": "https://stackoverflow.com/questions/79981819/id-token-vs-api-response-body-for-user-metadata"
   },
   {
     "title": "ASP.NET Core 10 OpenAPI source generator fails with &quot;IOpenApiMediaType.Example cannot be assigned&quot;",
     "score": 0,
+    "views": 17,
+    "answers": 0,
     "tags": [
       "asp.net-core",
       "openapi",
       "minimal-apis",
       ".net-10.0"
-    ]
-  },
-  {
-    "title": "How use PHP array_search for tags even it is an array tag",
-    "score": 1,
-    "tags": [
-      "php",
-      "multidimensional-array"
-    ]
+    ],
+    "link": "https://stackoverflow.com/questions/79981822/asp-net-core-10-openapi-source-generator-fails-with-iopenapimediatype-example-c"
   },
   {
     "title": "SSIS DATA migration from one db to other db",
     "score": -1,
+    "views": 40,
+    "answers": 1,
     "tags": [
       "sql",
       "sql-server",
       "ssis",
       "data-migration"
-    ]
-  },
-  {
-    "title": "Real life example getter",
-    "score": -5,
-    "tags": [
-      "advice"
-    ]
+    ],
+    "link": "https://stackoverflow.com/questions/79981805/ssis-data-migration-from-one-db-to-other-db"
   },
   {
     "title": "legendry nested axis compatibility while using geom_chicklet",
     "score": 0,
+    "views": 21,
+    "answers": 0,
     "tags": [
       "r",
       "nested",
       "ggh4x"
-    ]
+    ],
+    "link": "https://stackoverflow.com/questions/79981804/legendry-nested-axis-compatibility-while-using-geom-chicklet"
   },
   {
     "title": "How do I connect an existing Azure Function app to Visual Studio Code?",
     "score": -4,
+    "views": 37,
+    "answers": 1,
     "tags": [
       "azure",
       "visual-studio-code",
       "azure-functions"
-    ]
+    ],
+    "link": "https://stackoverflow.com/questions/79981784/how-do-i-connect-an-existing-azure-function-app-to-visual-studio-code"
   },
   {
     "title": "std::fs::canonicalize result doesn&#39;t live long enough",
     "score": 0,
+    "views": 57,
+    "answers": 2,
     "tags": [
       "rust"
-    ]
+    ],
+    "link": "https://stackoverflow.com/questions/79981789/stdfscanonicalize-result-doesnt-live-long-enough"
   },
   {
     "title": "Makefile generation error with canonical name",
     "score": -1,
+    "views": 38,
+    "answers": 0,
     "tags": [
       "autotools"
-    ]
+    ],
+    "link": "https://stackoverflow.com/questions/79981787/makefile-generation-error-with-canonical-name"
   },
   {
     "title": "Flutter Linux desktop build fails with &quot;No provider of glBlitFramebuffer found&quot; after updating to Flutter 3.44.6",
     "score": 0,
+    "views": 34,
+    "answers": 1,
     "tags": [
       "flutter"
-    ]
+    ],
+    "link": "https://stackoverflow.com/questions/79981765/flutter-linux-desktop-build-fails-with-no-provider-of-glblitframebuffer-found"
   },
   {
     "title": "How to let code know if it&#39;s run using cargo test vs cargo run vs run as an executable?",
     "score": 0,
+    "views": 47,
+    "answers": 1,
     "tags": [
       "rust",
       "rust-cargo",
       "test-environments"
-    ]
+    ],
+    "link": "https://stackoverflow.com/questions/79981763/how-to-let-code-know-if-its-run-using-cargo-test-vs-cargo-run-vs-run-as-an-exec"
   },
   {
     "title": "GitHub change local repo",
     "score": -4,
+    "views": 47,
+    "answers": 1,
     "tags": [
       "git"
-    ]
+    ],
+    "link": "https://stackoverflow.com/questions/79981780/github-change-local-repo"
   },
   {
     "title": "Why does numpy do a copy in this array slice?",
-    "score": -3,
+    "score": -4,
+    "views": 65,
+    "answers": 0,
     "tags": [
       "python",
       "numpy",
       "python-internals",
       "numpy-slicing"
-    ]
+    ],
+    "link": "https://stackoverflow.com/questions/79981758/why-does-numpy-do-a-copy-in-this-array-slice"
   },
   {
     "title": "How does a parallel stream continue after a stateful operation like sorted()?",
     "score": 0,
+    "views": 62,
+    "answers": 2,
     "tags": [
       "java",
       "stream"
-    ]
+    ],
+    "link": "https://stackoverflow.com/questions/79981753/how-does-a-parallel-stream-continue-after-a-stateful-operation-like-sorted"
   },
   {
     "title": "Where is the C Standard function sqrt actually defined? (Windows user)",
     "score": 1,
+    "views": 106,
+    "answers": 2,
     "tags": [
       "c",
       "sqrt",
       "c-standard-library"
-    ]
+    ],
+    "link": "https://stackoverflow.com/questions/79981742/where-is-the-c-standard-function-sqrt-actually-defined-windows-user"
   },
   {
     "title": "Alternative to Sumif",
     "score": -3,
+    "views": 80,
+    "answers": 2,
     "tags": [
       "excel",
       "sumifs"
-    ]
+    ],
+    "link": "https://stackoverflow.com/questions/79981710/alternative-to-sumif"
   },
   {
     "title": "Is there a method/constructor in the JDK that creates a JTable with dummy data?",
     "score": -5,
+    "views": 52,
+    "answers": 1,
     "tags": [
       "java",
       "swing",
       "jtable",
       "tablemodel",
       "dummy-data"
-    ]
+    ],
+    "link": "https://stackoverflow.com/questions/79981734/is-there-a-method-constructor-in-the-jdk-that-creates-a-jtable-with-dummy-data"
   },
   {
     "title": "Which is the better framework between Express and Nest.js for developing middleware application based on text and images data and connection with DB",
-    "score": -4,
+    "score": -5,
+    "views": 39,
+    "answers": 2,
     "tags": [
       "tooling-recommendation",
       "node.js",
       "express",
       "nestjs"
-    ]
+    ],
+    "link": "https://stackoverflow.com/questions/79981762/which-is-the-better-framework-between-express-and-nest-js-for-developing-middlew"
   },
   {
     "title": "using a proof to unwind a decidable `if`",
     "score": 0,
+    "views": 40,
+    "answers": 1,
     "tags": [
       "lean"
-    ]
+    ],
+    "link": "https://stackoverflow.com/questions/79981752/using-a-proof-to-unwind-a-decidable-if"
+  },
+  {
+    "title": "RPi3B+ AArch64 kernel in `ttbr1` region: instruction fetch succeeds after `br` to `ttbr1` region, but first data access causes Data Abort (EC=0x25)",
+    "score": 2,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "rust",
+      "raspberry-pi3",
+      "arm64",
+      "bare-metal",
+      "mmu"
+    ],
+    "link": "https://stackoverflow.com/questions/79981760/rpi3b-aarch64-kernel-in-ttbr1-region-instruction-fetch-succeeds-after-br-t"
   }
 ]

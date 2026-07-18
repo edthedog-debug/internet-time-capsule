@@ -10,7 +10,6 @@
 
 ### 📚 KNOWLEDGE
 - ✅ **Wikipedia**: Trending in 10 languages
-- ✅ **ArXiv**: Latest 15 academic papers
 
 ### 💰 FINANCE
 - ✅ **Exchange Rates**: 160+ currencies

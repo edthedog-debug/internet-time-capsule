@@ -7,7 +7,7 @@
 | Category | Sources | Coverage |
 |----------|---------|----------|
 | 💻 Tech | GitHub, HN, Reddit, StackOverflow | Global |
-| 📚 Knowledge | Wikipedia (10 lang), ArXiv | Worldwide |
+| 📚 Knowledge | Wikipedia (10 lang) | Worldwide |
 | 💰 Finance | Forex (160), Crypto (30) | Worldwide |
 | 🌤️ Climate | 25 cities, Air Quality (5) | 6 continents |
 | 🌋 Nature | USGS Earthquakes | Global |
