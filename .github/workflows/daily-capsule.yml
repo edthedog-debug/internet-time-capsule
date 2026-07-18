@@ -1,4 +1,24 @@
-- name: Capture Ultra Global Snapshot
+name: Ultra Global Internet Time Capsule
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  capture-global-memory:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Capture Ultra Global Snapshot
         run: |
           set +e
           
@@ -120,14 +140,12 @@
           echo "✅ Crypto done ($(jq 'length' capsules/${DATE_PATH}/global/crypto.json 2>/dev/null || echo 0) coins)"
 
           # ============================================
-          # STOCK MARKETS - Fixed with User-Agent
+          # STOCK MARKETS
           # ============================================
           echo "📡 Capturing Stock Markets..."
           
-          # Create fresh JSON structure
           echo '{"indices":[]}' > "capsules/${DATE_PATH}/global/stock_markets.json"
           
-          # Stock symbols with names
           declare -A STOCKS
           STOCKS["%5EGSPC"]="S&P 500|US"
           STOCKS["%5EDJI"]="Dow Jones|US"
@@ -146,7 +164,7 @@
             IFS='|' read -r name market <<< "${STOCKS[$symbol]}"
             RAW_SYMBOL=$(echo "$symbol" | sed 's/%5E/^/g')
             
-            STOCK_RESPONSE=$(curl -s -H "User-Agent: Mozilla/5.0" \
+            STOCK_RESPONSE=$(curl -s -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)" \
               "https://query1.finance.yahoo.com/v8/finance/chart/${RAW_SYMBOL}?interval=1d&range=1d" 2>/dev/null)
             
             if echo "$STOCK_RESPONSE" | jq -e '.chart.result[0].meta' > /dev/null 2>&1; then
@@ -160,7 +178,6 @@
                 change_pct: ((.chart.result[0].meta.regularMarketPrice - .chart.result[0].meta.previousClose) / .chart.result[0].meta.previousClose * 100)
               }")
               
-              # Append to indices array
               jq ".indices += [${STOCK_JSON}]" "capsules/${DATE_PATH}/global/stock_markets.json" > tmp_stocks.json && mv tmp_stocks.json "capsules/${DATE_PATH}/global/stock_markets.json"
               echo "  ✅ ${name} (${market})"
             else
@@ -274,7 +291,7 @@
               echo "{\"title\": \"$title\", \"link\": \"$link\", \"date\": \"$pubDate\", \"country\": \"BR\"}"
             done | jq -s '.' > "capsules/${DATE_PATH}/global/news_brazil.json" 2>/dev/null || echo '[]' > "capsules/${DATE_PATH}/global/news_brazil.json"
           
-          echo "✅ News done (6 countries)"
+          echo "✅ News done (5 countries)"
 
           # ============================================
           # WEATHER (25 cities)
@@ -426,17 +443,4 @@
           # ============================================
           echo "📡 Capturing Health Stats..."
           COVID_DATA=$(curl -s "https://disease.sh/v3/covid-19/all" 2>/dev/null)
-          if echo "$COVID_DATA" | jq -e '.cases' > /dev/null 2>&1; then            echo "$COVID_DATA" | jq '{cases: (.cases // 0), deaths: (.deaths // 0), recovered: (.recovered // 0), active: (.active // 0), updated: (.updated // 0)}' \
-              > "capsules/${DATE_PATH}/global/covid_global.json"
-          else
-            echo '{"cases":0,"deaths":0,"recovered":0,"active":0,"updated":0}' > "capsules/${DATE_PATH}/global/covid_global.json"
-          fi
-          echo "✅ Health Stats done"
-
-          echo ""
-          echo "🎉 ULTRA GLOBAL CAPTURE COMPLETE!"
-          echo "📁 Files saved to: capsules/${DATE_PATH}/"
-          echo "📊 Generated files:"
-          ls -la "capsules/${DATE_PATH}/global/"
-          
-          set -e
+          if echo "$COVID_DATA" | jq -e
