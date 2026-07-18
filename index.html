@@ -16,7 +16,6 @@
         .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
         .header { text-align: center; padding: 40px 20px; border-bottom: 1px solid var(--border); margin-bottom: 30px; }
         .header h1 { font-size: 2.5em; background: linear-gradient(135deg, #3b82f6, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .header p { color: var(--text2); }
         .live-badge { display: inline-block; background: #10b98120; color: var(--green); padding: 5px 15px; border-radius: 20px; margin-top: 10px; }
         .stats-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-bottom: 30px; }
         .stat-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; text-align: center; }
@@ -106,7 +105,7 @@
         }
         
         function formatNum(n) {
-            if (n == null) return '—';
+            if (n == null || n === 0) return '—';
             if (n >= 1e9) return (n/1e9).toFixed(1)+'B';
             if (n >= 1e6) return (n/1e6).toFixed(1)+'M';
             if (n >= 1e3) return (n/1e3).toFixed(1)+'K';
@@ -128,7 +127,6 @@
             const base = `${REPO_RAW}/${datePath}/global`;
             const data = {};
             
-            // Load all files
             const files = [
                 'github_trending', 'hackernews', 'stackoverflow', 'reddit',
                 'exchange_rates', 'crypto', 'earthquakes',
@@ -141,12 +139,10 @@
                 data[f] = await fetchJSON(`${base}/${f}.json`);
             }
             
-            // Wikipedia
             for (const lang of ['en','es','fr','de','ja']) {
                 data[`wiki_${lang}`] = await fetchJSON(`${base}/wikipedia_${lang}.json`);
             }
             
-            // Air quality
             for (const city of ['nyc','london','tokyo','delhi','sao_paulo']) {
                 data[`aq_${city}`] = await fetchJSON(`${base}/air_quality_${city}.json`);
             }
@@ -158,121 +154,217 @@
             const grid = document.getElementById('dashboardGrid');
             const stats = document.getElementById('statsBar');
             
-            let dataCount = 0;
             let html = '';
             let statsHtml = '';
+            let dataCount = 0;
             
-            // GitHub
-            if (data.github_trending && Array.isArray(data.github_trending) && data.github_trending.length > 0) {
+            // GITHUB
+            const github = data.github_trending;
+            if (github && Array.isArray(github) && github.length > 0) {
                 dataCount++;
-                const topStar = Math.max(...data.github_trending.map(r => r.stars || 0));
-                html += createTableCard('💻 GitHub Trending', data.github_trending.slice(0,10).map((r,i) => [
-                    i+1, `<a href="${r.url||'#'}" target="_blank" style="color:#e2e8f0;text-decoration:none;">${(r.name||'?').substring(0,50)}</a>`, formatNum(r.stars), r.language||'—'
-                ]), ['#','Repository','Stars','Language']);
+                const topStar = Math.max(...github.map(r => r.stars || 0));
+                html += makeTable('💻 GitHub Trending Repositories',
+                    ['#','Repository','Stars','Language'],
+                    github.slice(0,12).map((r,i) => [
+                        i+1,
+                        `<a href="${r.url||'#'}" target="_blank" style="color:#e2e8f0;text-decoration:none;">${(r.name||'?').substring(0,45)}</a>`,
+                        formatNum(r.stars),
+                        r.language||'—'
+                    ])
+                );
                 statsHtml += `<div class="stat-card"><div class="stat-number">${topStar}</div><div class="stat-label">Top GitHub Stars</div></div>`;
             }
             
-            // Crypto
-            if (data.crypto && Array.isArray(data.crypto) && data.crypto.length > 0) {
+            // CRYPTO
+            const crypto = data.crypto;
+            if (crypto && Array.isArray(crypto) && crypto.length > 0) {
                 dataCount++;
-                html += createTableCard('💰 Top Cryptocurrencies', data.crypto.slice(0,10).map((c,i) => [
-                    i+1, `${c.name||'?'} (${(c.symbol||'').toUpperCase()})`, `$${(c.price||0).toLocaleString()}`, formatNum(c.market_cap),
-                    `<span style="color:${(c.change_24h||0)>=0?'#10b981':'#ef4444'}">${(c.change_24h||0).toFixed(2)}%</span>`
-                ]), ['#','Name','Price','Market Cap','24h']);
-                statsHtml += `<div class="stat-card"><div class="stat-number">${data.crypto.length}</div><div class="stat-label">Cryptos Tracked</div></div>`;
+                html += makeTable('💰 Top Cryptocurrencies',
+                    ['#','Name','Price (USD)','Market Cap','24h'],
+                    crypto.slice(0,12).map((c,i) => [
+                        i+1,
+                        `${c.name||'?'} <span style="color:var(--text2);text-transform:uppercase;">${c.symbol||''}</span>`,
+                        c.price ? '$'+c.price.toLocaleString() : '—',
+                        formatNum(c.market_cap),
+                        `<span style="color:${(c.change_24h||0)>=0?'#10b981':'#ef4444'}">${(c.change_24h||0)>=0?'▲':'▼'} ${Math.abs(c.change_24h||0).toFixed(2)}%</span>`
+                    ])
+                );
+                statsHtml += `<div class="stat-card"><div class="stat-number">${crypto.length}</div><div class="stat-label">Cryptos Tracked</div></div>`;
             }
             
-            // Earthquakes
-            if (data.earthquakes && Array.isArray(data.earthquakes) && data.earthquakes.length > 0) {
+            // EARTHQUAKES
+            const quakes = data.earthquakes;
+            if (quakes && Array.isArray(quakes) && quakes.length > 0) {
                 dataCount++;
-                const bigOne = data.earthquakes.sort((a,b)=>(b.magnitude||0)-(a.magnitude||0))[0];
-                html += createTableCard('🌋 Earthquakes Today', data.earthquakes.slice(0,10).map(eq => [
-                    (eq.place||'Unknown').substring(0,60),
-                    `<span style="color:${(eq.magnitude||0)>=5?'#ef4444':(eq.magnitude||0)>=3?'#f59e0b':'#10b981'};font-weight:bold;">${(eq.magnitude||0).toFixed(1)}</span>`,
-                    eq.significance||'—'
-                ]), ['Location','Magnitude','Significance']);
-                statsHtml += `<div class="stat-card"><div class="stat-number">${bigOne?.magnitude?.toFixed(1)||'—'}</div><div class="stat-label">Largest Quake</div></div>`;
+                const sorted = [...quakes].sort((a,b)=>(b.magnitude||0)-(a.magnitude||0));
+                html += makeTable('🌋 Earthquakes (Last 24h)',
+                    ['Location','Magnitude','Depth (km)','Alert'],
+                    sorted.slice(0,12).map(eq => [
+                        (eq.place||'Unknown').substring(0,55),
+                        `<span style="color:${(eq.magnitude||0)>=5?'#ef4444':(eq.magnitude||0)>=3?'#f59e0b':'#10b981'};font-weight:bold;">${(eq.magnitude||0).toFixed(1)}</span>`,
+                        eq.depth ? eq.depth.toFixed(1) : '—',
+                        eq.alert && eq.alert !== 'none' ? `<span style="color:#ef4444;">⚠ ${eq.alert}</span>` : '—'
+                    ])
+                );
+                statsHtml += `<div class="stat-card"><div class="stat-number">${sorted[0]?.magnitude?.toFixed(1)||'—'}</div><div class="stat-label">Largest Quake</div></div>`;
             }
             
-            // Exchange Rates
-            if (data.exchange_rates && data.exchange_rates.rates) {
+            // EXCHANGE RATES
+            const forex = data.exchange_rates;
+            if (forex && forex.rates && Object.keys(forex.rates).length > 0) {
                 dataCount++;
-                const rates = data.exchange_rates.rates;
-                const majors = ['EUR','GBP','JPY','CNY','INR','BRL','CAD','AUD','CHF'];
+                const rates = forex.rates;
+                const majors = ['EUR','GBP','JPY','CNY','INR','BRL','CAD','AUD','CHF','MXN','KRW','RUB'];
                 const filtered = majors.filter(c => rates[c]).map(c => [c, rates[c]]);
-                html += createTableCard('💱 Exchange Rates (vs USD)', filtered.map(([c,r]) => [
-                    `<strong>${c}</strong>`, r.toFixed(4), `1 USD = ${r.toFixed(4)} ${c}`
-                ]), ['Currency','Rate','Value']);
-                statsHtml += `<div class="stat-card"><div class="stat-number">160+</div><div class="stat-label">Currencies</div></div>`;
+                html += makeTable('💱 Exchange Rates (vs USD)',
+                    ['Currency','Rate','1 USD ='],
+                    filtered.map(([c,r]) => [
+                        `<strong>${c}</strong>`,
+                        r.toFixed(4),
+                        `${r.toFixed(4)} ${c}`
+                    ])
+                );
+                statsHtml += `<div class="stat-card"><div class="stat-number">${Object.keys(rates).length}</div><div class="stat-label">Currencies</div></div>`;
             }
             
-            // Weather
-            if (data.weather_25_cities) {
-                const cities = Object.entries(data.weather_25_cities).filter(([,v]) => v && v.temperature_2m != null);
+            // WEATHER
+            const weather = data.weather_25_cities;
+            if (weather && typeof weather === 'object') {
+                const cities = Object.entries(weather).filter(([,v]) => v && v.temp != null);
                 if (cities.length > 0) {
                     dataCount++;
-                    const temps = cities.map(([,v]) => v.temperature_2m);
+                    const temps = cities.map(([,v]) => v.temp);
                     const hottest = Math.max(...temps);
                     const coldest = Math.min(...temps);
-                    html += createTableCard('🌤️ Weather — Major Cities', cities.slice(0,15).map(([n,v]) => [
-                        n.replace('_',' '), `${v.temperature_2m}°C`, `${v.relative_humidity_2m||'—'}%`, `${v.wind_speed_10m||'—'} km/h`
-                    ]), ['City','Temp','Humidity','Wind']);
-                    statsHtml += `<div class="stat-card"><div class="stat-number">${hottest}°</div><div class="stat-label">Hottest City</div></div>`;
-                    statsHtml += `<div class="stat-card"><div class="stat-number">${coldest}°</div><div class="stat-label">Coldest City</div></div>`;
+                    html += makeTable('🌤️ Weather — Major Cities',
+                        ['City','Temp (°C)','Humidity','Wind (km/h)'],
+                        cities.slice(0,15).map(([n,v]) => [
+                            n.replace(/_/g,' '),
+                            `<span style="color:${v.temp>30?'#ef4444':v.temp>20?'#f59e0b':v.temp>10?'#10b981':'#3b82f6'};font-weight:bold;">${v.temp}°C</span>`,
+                            v.humidity ? v.humidity+'%' : '—',
+                            v.wind ? v.wind+' km/h' : '—'
+                        ])
+                    );
+                    statsHtml += `<div class="stat-card"><div class="stat-number">${hottest}°</div><div class="stat-label">Hottest</div></div>`;
+                    statsHtml += `<div class="stat-card"><div class="stat-number">${coldest}°</div><div class="stat-label">Coldest</div></div>`;
                 }
             }
             
-            // Space
-            if (data.people_in_space && data.people_in_space.total) {
+            // PEOPLE IN SPACE
+            const astro = data.people_in_space;
+            if (astro && astro.people && astro.people.length > 0) {
                 dataCount++;
-                html += `<div class="card"><div class="card-title">🚀 ${data.people_in_space.total} People in Space Right Now</div>
-                    <div style="display:flex;flex-wrap:wrap;gap:8px;">${(data.people_in_space.people||[]).map(p => 
-                        `<span style="background:#1e293b;padding:8px 15px;border-radius:20px;font-size:0.85em;">👨‍🚀 ${p.name} (${p.craft})</span>`
+                html += `<div class="card"><div class="card-title">🚀 ${astro.total||0} People in Space Right Now</div>
+                    <div style="display:flex;flex-wrap:wrap;gap:8px;">${astro.people.map(p => 
+                        `<span style="background:#1e293b;padding:8px 15px;border-radius:20px;font-size:0.85em;">👨‍🚀 ${p.name} <span style="color:var(--text2);">(${p.craft})</span></span>`
                     ).join('')}</div></div>`;
-                statsHtml += `<div class="stat-card"><div class="stat-number">${data.people_in_space.total}</div><div class="stat-label">In Space</div></div>`;
+                statsHtml += `<div class="stat-card"><div class="stat-number">${astro.total||0}</div><div class="stat-label">In Space</div></div>`;
             }
             
             // NASA APOD
-            if (data.nasa_apod && data.nasa_apod.url) {
+            const nasa = data.nasa_apod;
+            if (nasa && nasa.url) {
                 dataCount++;
-                html += `<div class="card"><div class="card-title">🔭 NASA: ${data.nasa_apod.title||'APOD'}</div>
-                    ${data.nasa_apod.media_type==='image' ? `<img src="${data.nasa_apod.url}" style="width:100%;border-radius:12px;margin-bottom:10px;" alt="APOD">` : ''}
-                    <p style="color:var(--text2);font-size:0.9em;">${(data.nasa_apod.explanation||'').substring(0,250)}...</p></div>`;
+                html += `<div class="card"><div class="card-title">🔭 NASA: ${nasa.title||'APOD'}</div>
+                    ${nasa.media_type==='image' ? `<img src="${nasa.url}" style="width:100%;border-radius:12px;margin-bottom:10px;" alt="APOD" onerror="this.style.display='none'">` : ''}
+                    <p style="color:var(--text2);font-size:0.9em;">${(nasa.explanation||'').substring(0,300)}...</p></div>`;
             }
             
-            // Countries
-            if (data.all_countries && Array.isArray(data.all_countries)) {
+            // COUNTRIES
+            const countries = data.all_countries;
+            if (countries && Array.isArray(countries) && countries.length > 0) {
                 dataCount++;
-                html += createTableCard('🌍 Largest Countries by Population', 
-                    data.all_countries.sort((a,b)=>(b.population||0)-(a.population||0)).slice(0,10).map((c,i) => [
-                        i+1, c.country||'?', formatNum(c.population), c.region||'?'
-                    ]), ['#','Country','Population','Region']);
-                statsHtml += `<div class="stat-card"><div class="stat-number">${data.all_countries.length}</div><div class="stat-label">Countries</div></div>`;
+                html += makeTable('🌍 Largest Countries by Population',
+                    ['#','Country','Population','Region'],
+                    [...countries].sort((a,b)=>(b.population||0)-(a.population||0)).slice(0,12).map((c,i) => [
+                        i+1,
+                        `<img src="${c.flag||''}" style="width:20px;height:14px;margin-right:8px;vertical-align:middle;" onerror="this.style.display='none'">${c.country||'?'}`,
+                        formatNum(c.population),
+                        c.region||'?'
+                    ])
+                );
+                statsHtml += `<div class="stat-card"><div class="stat-number">${countries.length}</div><div class="stat-label">Countries</div></div>`;
             }
             
-            // HackerNews
-            if (data.hackernews && Array.isArray(data.hackernews) && data.hackernews.length > 0) {
+            // HACKER NEWS
+            const hn = data.hackernews;
+            if (hn && Array.isArray(hn) && hn.length > 0) {
                 dataCount++;
-                html += createTableCard('📰 HackerNews Top', data.hackernews.slice(0,10).map((s,i) => [
-                    i+1, `<a href="${s.url||'#'}" target="_blank" style="color:#e2e8f0;text-decoration:none;">${(s.title||'?').substring(0,70)}</a>`, formatNum(s.score)
-                ]), ['#','Title','Score']);
+                html += makeTable('📰 HackerNews Top Stories',
+                    ['#','Title','Score','Comments'],
+                    hn.slice(0,10).map((s,i) => [
+                        i+1,
+                        `<a href="${s.url||'#'}" target="_blank" style="color:#e2e8f0;text-decoration:none;">${(s.title||'?').substring(0,60)}</a>`,
+                        formatNum(s.score),
+                        formatNum(s.comments||0)
+                    ])
+                );
             }
             
-            // Reddit
-            if (data.reddit && Array.isArray(data.reddit) && data.reddit.length > 0) {
+            // REDDIT
+            const reddit = data.reddit;
+            if (reddit && Array.isArray(reddit) && reddit.length > 0) {
                 dataCount++;
-                html += createTableCard('🔴 Reddit r/all', data.reddit.slice(0,10).map((p,i) => [
-                    i+1, (p.title||'?').substring(0,60), `r/${p.subreddit||'?'}`, formatNum(p.score)
-                ]), ['#','Title','Subreddit','Score']);
+                html += makeTable('🔴 Reddit r/all Hot',
+                    ['#','Title','Subreddit','Score','Comments'],
+                    reddit.slice(0,10).map((p,i) => [
+                        i+1,
+                        (p.title||'?').substring(0,55),
+                        `<span style="color:#3b82f6;">r/${p.subreddit||'?'}</span>`,
+                        formatNum(p.score),
+                        formatNum(p.comments||0)
+                    ])
+                );
             }
             
-            // COVID
-            if (data.covid_global && data.covid_global.cases) {
-                statsHtml += `<div class="stat-card"><div class="stat-number">${formatNum(data.covid_global.cases)}</div><div class="stat-label">Total COVID Cases</div></div>`;
+            // STACKOVERFLOW
+            const so = data.stackoverflow;
+            if (so && Array.isArray(so) && so.length > 0) {
+                dataCount++;
+                html += makeTable('📚 StackOverflow Hot Questions',
+                    ['#','Title','Score','Answers','Views'],
+                    so.slice(0,10).map((q,i) => [
+                        i+1,
+                        (q.title||'?').substring(0,55),
+                        formatNum(q.score),
+                        formatNum(q.answers||0),
+                        formatNum(q.views||0)
+                    ])
+                );
+            }
+            
+            // HOLIDAYS
+            const holidays = data.holidays_today;
+            if (holidays && Array.isArray(holidays) && holidays.length > 0) {
+                dataCount++;
+                html += makeTable('🎉 Global Holidays Today',
+                    ['Country','Holiday','Date'],
+                    holidays.slice(0,12).map(h => [
+                        h.country||'??',
+                        h.name||'Unknown',
+                        h.date||'—'
+                    ])
+                );
+            }
+            
+            // AIR QUALITY
+            const aqCities = ['nyc','london','tokyo','delhi','sao_paulo'];
+            const aqData = aqCities.map(c => data[`aq_${c}`]).filter(Boolean);
+            if (aqData.length > 0) {
+                dataCount++;
+                html += makeTable('🌬️ Air Quality Index',
+                    ['City','AQI (EU)','PM2.5','PM10'],
+                    aqData.map(aq => [
+                        (aq.city||'?').toUpperCase(),
+                        `<span style="color:${(aq.aqi||0)>100?'#ef4444':(aq.aqi||0)>50?'#f59e0b':'#10b981'};font-weight:bold;">${aq.aqi||'—'}</span>`,
+                        (aq.pm25||'—')+' µg/m³',
+                        (aq.pm10||'—')+' µg/m³'
+                    ])
+                );
             }
             
             if (dataCount === 0) {
-                grid.innerHTML = `<div class="error-box"><h3>⚠️ No data available for this date</h3><p>The Time Capsule might not have run yet for this date. Try the previous day or check the <a href="https://github.com/edthedog-debug/internet-time-capsule/actions" style="color:var(--accent);">workflow status</a>.</p></div>`;
+                grid.innerHTML = `<div class="error-box"><h3>⚠️ No data available for this date</h3><p>Try another date or check <a href="https://github.com/edthedog-debug/internet-time-capsule/actions" style="color:var(--accent);">workflow status</a>.</p></div>`;
                 stats.innerHTML = '';
             } else {
                 grid.innerHTML = html;
@@ -280,7 +372,7 @@
             }
         }
 
-        function createTableCard(title, rows, headers, extra='') {
+        function makeTable(title, headers, rows) {
             return `<div class="card">
                 <div class="card-title">${title}</div>
                 <div class="table-container">
@@ -300,15 +392,25 @@
             
             let data = await loadDate(path);
             
-            // If empty, try yesterday
-            if (!data || Object.values(data).every(v => v == null)) {
+            let found = data && Object.values(data).some(v => {
+                if (Array.isArray(v)) return v.length > 0;
+                if (v && typeof v === 'object') return Object.keys(v).length > 0;
+                return false;
+            });
+            
+            if (!found) {
                 const yesterday = new Date();
                 yesterday.setDate(yesterday.getDate() - 1);
                 const yPath = `${yesterday.getFullYear()}/${String(yesterday.getMonth()+1).padStart(2,'0')}/${String(yesterday.getDate()).padStart(2,'0')}`;
                 document.getElementById('statusMessage').innerHTML = '<span style="color:#f59e0b;">⚠️ No data for today yet. Trying yesterday...</span>';
                 data = await loadDate(yPath);
-                if (data && Object.values(data).some(v => v != null)) {
-                    document.getElementById('statusMessage').innerHTML = '<span style="color:#10b981;">✅ Showing yesterday\'s data (today\'s snapshot not yet generated)</span>';
+                found = data && Object.values(data).some(v => {
+                    if (Array.isArray(v)) return v.length > 0;
+                    if (v && typeof v === 'object') return Object.keys(v).length > 0;
+                    return false;
+                });
+                if (found) {
+                    document.getElementById('statusMessage').innerHTML = '<span style="color:#10b981;">✅ Showing yesterday\'s data</span>';
                 }
             } else {
                 document.getElementById('statusMessage').innerHTML = '<span style="color:#10b981;">✅ Data loaded successfully</span>';
@@ -325,11 +427,14 @@
             document.getElementById('statusMessage').innerHTML = `<span style="color:#f59e0b;">⏳ Loading ${val}...</span>`;
             document.getElementById('dashboardGrid').innerHTML = '<div class="loading"><div class="spinner"></div><p>Fetching data...</p></div>';
             const data = await loadDate(path);
-            if (data && Object.values(data).some(v => v != null)) {
-                document.getElementById('statusMessage').innerHTML = `<span style="color:#10b981;">✅ Data loaded for ${val}</span>`;
-            } else {
-                document.getElementById('statusMessage').innerHTML = `<span style="color:#ef4444;">❌ No data found for ${val}</span>`;
-            }
+            const found = data && Object.values(data).some(v => {
+                if (Array.isArray(v)) return v.length > 0;
+                if (v && typeof v === 'object') return Object.keys(v).length > 0;
+                return false;
+            });
+            document.getElementById('statusMessage').innerHTML = found 
+                ? `<span style="color:#10b981;">✅ Data loaded for ${val}</span>`
+                : `<span style="color:#ef4444;">❌ No data found for ${val}</span>`;
             renderDashboard(data || {});
         }
 
