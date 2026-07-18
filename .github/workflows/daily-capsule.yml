@@ -306,7 +306,8 @@ jobs:
         run: |
           git config --global user.name 'Ultra Time Capsule Bot'
           git config --global user.email 'ultra-capsule@github-actions.bot'
-          git pull --rebase origin main
+          git fetch origin main
+          git reset --soft origin/main
           git add capsules/
           git commit -m "🌐 Ultra Global Capsule: $(date +%Y-%m-%d) - Full world snapshot" || echo "No changes to commit"
           git push origin main
