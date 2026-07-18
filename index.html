@@ -31,8 +31,6 @@
             -moz-osx-font-smoothing: grayscale;
             letter-spacing: -0.01em;
         }
-        
-        /* Background ambient */
         body::before {
             content: ''; position: fixed; top: -50%; left: -50%; width: 200%; height: 200%;
             background: radial-gradient(ellipse at 30% 20%, rgba(10,132,255,0.025) 0%, transparent 50%),
@@ -40,7 +38,6 @@
                         radial-gradient(ellipse at 50% 80%, rgba(255,55,95,0.015) 0%, transparent 50%);
             pointer-events: none; z-index: 0;
         }
-        
         .container { max-width: 1400px; margin: 0 auto; padding: 32px 24px; position: relative; z-index: 1; }
         
         /* Hero */
@@ -96,7 +93,7 @@
         
         #statusMessage { text-align: center; font-size: 0.8rem; min-height: 20px; margin-bottom: 8px; font-weight: 450; }
         
-        /* ============ SYMMETRIC GRID ============ */
+        /* Grid */
         .main-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -166,7 +163,7 @@
         .it-chart-wrap canvas { width: 100% !important; height: 100% !important; }
         #itStatus { text-align: center; margin-top: 8px; font-size: 0.78rem; }
         
-        /* Full-width sections */
+        /* Full-width */
         .full-width { grid-column: 1 / -1; }
         
         /* Tags */
@@ -185,7 +182,6 @@
         .error-state { grid-column: 1/-1; text-align: center; padding: 40px; background: rgba(255,69,58,0.04); border: 1px solid rgba(255,69,58,0.15); border-radius: var(--radius); }
         .error-state a { color: var(--accent); }
         
-        /* Scroll */
         ::-webkit-scrollbar { width: 3px; } ::-webkit-scrollbar-track { background: transparent; } ::-webkit-scrollbar-thumb { background: #ffffff10; border-radius: 4px; }
     </style>
 </head>
@@ -246,45 +242,130 @@
         const BAR_COLORS = ['#0a84ff','#bf5af2','#ff375f','#30d158','#ff9f0a','#64d2ff','#ff6482','#5e5ce6','#ffd60a','#ac8e68','#ff453a','#32d74b'];
         
         // ============ HELPERS ============
-        const todayPath = () => { const d=new Date(); return `${d.getFullYear()}/${String(d.getMonth()+1).padStart(2,'0')}/${String(d.getDate()).padStart(2,'0')}`; };
-        const fmt = n => { if(n==null||n===0) return '—'; if(n>=1e9) return (n/1e9).toFixed(1)+'B'; if(n>=1e6) return (n/1e6).toFixed(1)+'M'; if(n>=1e3) return (n/1e3).toFixed(1)+'K'; return n.toLocaleString(); };
-        const fJSON = async u => { try { const r=await fetch(u); if(!r.ok) throw new Error(); return await r.json(); } catch(e) { return null; } };
+        function todayPath() { 
+            const d = new Date(); 
+            return `${d.getFullYear()}/${String(d.getMonth()+1).padStart(2,'0')}/${String(d.getDate()).padStart(2,'0')}`; 
+        }
+        
+        function fmt(n) { 
+            if (n == null || n === 0) return '—'; 
+            if (n >= 1e9) return (n/1e9).toFixed(1)+'B'; 
+            if (n >= 1e6) return (n/1e6).toFixed(1)+'M'; 
+            if (n >= 1e3) return (n/1e3).toFixed(1)+'K'; 
+            return n.toLocaleString(); 
+        }
+        
+        async function fJSON(url) { 
+            try { 
+                const r = await fetch(url); 
+                if (!r.ok) throw new Error('HTTP ' + r.status); 
+                return await r.json(); 
+            } catch(e) { 
+                console.warn('Failed to fetch:', url, e.message); 
+                return null; 
+            } 
+        }
         
         async function loadDate(datePath) {
-            const b = `${RAW}/${datePath}/global`; const d = {};
-            const files = ['github_trending','hackernews','stackoverflow','reddit','exchange_rates','crypto','earthquakes','nasa_apod','iss_position','people_in_space','all_countries','holidays_today','weather_25_cities','covid_global'];
-            for (const f of files) d[f] = await fJSON(`${b}/${f}.json`);
-            for (const l of ['en','es','fr','de','ja']) d[`wiki_${l}`] = await fJSON(`${b}/wikipedia_${l}.json`);
-            for (const c of ['nyc','london','tokyo','delhi','sao_paulo']) d[`aq_${c}`] = await fJSON(`${b}/air_quality_${c}.json`);
+            const b = `${RAW}/${datePath}/global`;
+            const d = {};
+            const files = [
+                'github_trending','hackernews','stackoverflow','reddit',
+                'exchange_rates','crypto','earthquakes',
+                'nasa_apod','iss_position','people_in_space',
+                'all_countries','holidays_today','weather_25_cities','covid_global'
+            ];
+            
+            for (const f of files) {
+                d[f] = await fJSON(`${b}/${f}.json`);
+            }
+            
+            for (const l of ['en','es','fr','de','ja']) {
+                d[`wiki_${l}`] = await fJSON(`${b}/wikipedia_${l}.json`);
+            }
+            
+            for (const c of ['nyc','london','tokyo','delhi','sao_paulo']) {
+                d[`aq_${c}`] = await fJSON(`${b}/air_quality_${c}.json`);
+            }
+            
             return d;
         }
         
-        function hasData(d) { return d && Object.values(d).some(v => (Array.isArray(v)&&v.length>0) || (v&&typeof v==='object'&&Object.keys(v).length>0)); }
+        function hasData(d) { 
+            if (!d) return false;
+            return Object.values(d).some(v => 
+                (Array.isArray(v) && v.length > 0) || 
+                (v && typeof v === 'object' && !Array.isArray(v) && Object.keys(v).length > 0)
+            ); 
+        }
         
         // ============ BAR CHARTS ============
         function barChart(id, labels, values, colorFn) {
-            const ctx = document.getElementById(id); if(!ctx) return;
+            const ctx = document.getElementById(id); 
+            if (!ctx) return;
+            const existing = Chart.getChart(id);
+            if (existing) existing.destroy();
             new Chart(ctx, {
-                type: 'bar', data: { labels, datasets: [{ data: values, backgroundColor: values.map((v,i)=>colorFn?colorFn(v,i):BAR_COLORS[i%BAR_COLORS.length]), borderRadius: 8, borderSkipped: false }] },
-                options: { responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, scales:{x:{ticks:{color:'#98989d',font:{size:10},maxRotation:45},grid:{display:false}},y:{ticks:{color:'#98989d',font:{size:10}},grid:{color:'#ffffff04'}}} }
+                type: 'bar', 
+                data: { 
+                    labels, 
+                    datasets: [{ 
+                        data: values, 
+                        backgroundColor: values.map((v,i) => colorFn ? colorFn(v,i) : BAR_COLORS[i % BAR_COLORS.length]), 
+                        borderRadius: 8, 
+                        borderSkipped: false 
+                    }] 
+                },
+                options: { 
+                    responsive: true, 
+                    maintainAspectRatio: false, 
+                    plugins: { legend: { display: false } }, 
+                    scales: {
+                        x: { ticks: { color: '#98989d', font: { size: 10 }, maxRotation: 45 }, grid: { display: false } },
+                        y: { ticks: { color: '#98989d', font: { size: 10 } }, grid: { color: '#ffffff04' } }
+                    } 
+                }
             });
         }
         
-        function lineChart(id, labels, values, color='#0a84ff') {
-            const ctx = document.getElementById(id); if(!ctx) return null;
-            const existing = Chart.getChart(id); if(existing) existing.destroy();
+        function lineChart(id, labels, values, color) {
+            const ctx = document.getElementById(id); 
+            if (!ctx) return null;
+            const existing = Chart.getChart(id); 
+            if (existing) existing.destroy();
             return new Chart(ctx, {
-                type: 'line', data: { labels, datasets: [{ data: values, borderColor: color, backgroundColor: color+'18', borderWidth: 2.5, tension: 0.35, pointRadius: 1.5, pointHoverRadius: 5, fill: true }] },
-                options: { responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, scales:{x:{ticks:{color:'#98989d',font:{size:10},maxTicksLimit:14},grid:{color:'#ffffff04'}},y:{ticks:{color:'#98989d',font:{size:10}},grid:{color:'#ffffff04'}}} }
+                type: 'line', 
+                data: { 
+                    labels, 
+                    datasets: [{ 
+                        data: values, 
+                        borderColor: color || '#0a84ff', 
+                        backgroundColor: (color || '#0a84ff') + '18', 
+                        borderWidth: 2.5, 
+                        tension: 0.35, 
+                        pointRadius: 1.5, 
+                        pointHoverRadius: 5, 
+                        fill: true 
+                    }] 
+                },
+                options: { 
+                    responsive: true, 
+                    maintainAspectRatio: false, 
+                    plugins: { legend: { display: false } }, 
+                    scales: {
+                        x: { ticks: { color: '#98989d', font: { size: 10 }, maxTicksLimit: 14 }, grid: { color: '#ffffff04' } },
+                        y: { ticks: { color: '#98989d', font: { size: 10 } }, grid: { color: '#ffffff04' } }
+                    } 
+                }
             });
         }
         
         // ============ CARD BUILDER ============
-        function card(icon, title, subtitle, badge, badgeClass, chartId, tableRows, headers, full=false) {
+        function card(icon, title, subtitle, badge, badgeClass, chartId, tableRows, headers, full) {
             const chartDiv = chartId ? `<div class="chart-area"><canvas id="${chartId}"></canvas></div>` : '';
             const tbl = tableRows && tableRows.length > 0 ? 
-                `<table class="tbl"><thead><tr>${headers.map(h=>`<th>${h}</th>`).join('')}</tr></thead><tbody>${tableRows.map(r=>`<tr>${r.map((c,i)=>`<td class="${i===headers.length-1||i===headers.length-2?'num':''}">${c}</td>`).join('')}</tr>`).join('')}</tbody></table>` : '';
-            return `<div class="card${full?' full-width':''}">
+                `<table class="tbl"><thead><tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr></thead><tbody>${tableRows.map(r => `<tr>${r.map((c,i) => `<td class="${i === headers.length-1 || i === headers.length-2 ? 'num' : ''}">${c}</td>`).join('')}</tr>`).join('')}</tbody></table>` : '';
+            return `<div class="card${full ? ' full-width' : ''}">
                 <div class="card-header"><span class="card-icon">${icon}</span><div class="card-info"><div class="card-title">${title}</div><div class="card-subtitle">${subtitle}</div></div><span class="card-badge ${badgeClass}">${badge}</span></div>
                 ${chartDiv}${tbl}</div>`;
         }
@@ -292,147 +373,142 @@
         // ============ RENDER ============
         function render(data) {
             const grid = document.getElementById('dashboardGrid');
-            let html = ''; const charts = [];
+            let html = '';
+            const charts = [];
             
-            // WEATHER (bar)
+            // WEATHER (bar chart - comparable temperatures)
             const we = data.weather_25_cities;
             if (we && typeof we === 'object') {
-                const cities = Object.entries(we).filter(([,v])=>v&&v.temp!=null).sort((a,b)=>b[1].temp-a[1].temp);
+                const cities = Object.entries(we).filter(function(entry) {
+                    var v = entry[1];
+                    return v && v.temp != null;
+                }).sort(function(a, b) { return b[1].temp - a[1].temp; });
                 if (cities.length > 0) {
-                    const id = 'b_weather';
+                    var id = 'b_weather';
                     html += card('🌤️','Global Temperatures','Comparison across major cities','comparable','badge-nature',id,
-                        cities.slice(0,10).map(([n,v])=>[n.replace(/_/g,' '),`<span style="color:${v.temp>30?'#ff453a':v.temp>20?'#ff9f0a':v.temp>10?'#30d158':'#64d2ff'}">${v.temp}°C</span>`,v.humidity?v.humidity+'%':'—',v.wind?v.wind+' km/h':'—']),
+                        cities.slice(0,10).map(function(city) {
+                            var n = city[0], v = city[1];
+                            return [n.replace(/_/g,' '), '<span style="color:' + (v.temp>30?'#ff453a':v.temp>20?'#ff9f0a':v.temp>10?'#30d158':'#64d2ff') + '">' + v.temp + '°C</span>', v.humidity ? v.humidity+'%' : '—', v.wind ? v.wind+' km/h' : '—'];
+                        }),
                         ['City','Temp','Humidity','Wind']);
-                    const top15 = cities.slice(0,15);
-                    charts.push({id,labels:top15.map(([n])=>n.replace(/_/g,' ')),values:top15.map(([,v])=>v.temp),color:v=>v>30?'#ff453a':v>20?'#ff9f0a':v>10?'#30d158':'#64d2ff'});
+                    var top15 = cities.slice(0,15);
+                    charts.push({id: id, labels: top15.map(function(c) { return c[0].replace(/_/g,' '); }), values: top15.map(function(c) { return c[1].temp; }), color: function(v) { return v>30?'#ff453a':v>20?'#ff9f0a':v>10?'#30d158':'#64d2ff'; }});
                 }
             }
             
-            // AIR QUALITY (bar)
-            const aqKeys = ['nyc','london','tokyo','delhi','sao_paulo'];
-            const aqAll = aqKeys.map(k=>data[`aq_${k}`]).filter(Boolean);
+            // AIR QUALITY (bar chart - comparable)
+            var aqKeys = ['nyc','london','tokyo','delhi','sao_paulo'];
+            var aqAll = aqKeys.map(function(k) { return data['aq_' + k]; }).filter(Boolean);
             if (aqAll.length > 0) {
-                const id = 'b_aq';
+                var id = 'b_aq';
                 html += card('🌬️','Air Quality Index','Comparison across cities','comparable','badge-nature',id,
-                    aqAll.map(a=>[(a.city||'?').toUpperCase(),`<span style="color:${(a.aqi||0)>100?'#ff453a':(a.aqi||0)>50?'#ff9f0a':'#30d158'}">${a.aqi||'—'}</span>`,(a.pm25||'—')+' µg',(a.pm10||'—')+' µg']),
+                    aqAll.map(function(a) { return [(a.city||'?').toUpperCase(), '<span style="color:' + ((a.aqi||0)>100?'#ff453a':(a.aqi||0)>50?'#ff9f0a':'#30d158') + '">' + (a.aqi||'—') + '</span>', (a.pm25||'—')+' µg', (a.pm10||'—')+' µg']; }),
                     ['City','AQI','PM2.5','PM10']);
-                charts.push({id,labels:aqAll.map(a=>(a.city||'?').toUpperCase()),values:aqAll.map(a=>a.aqi||0),color:v=>v>100?'#ff453a':v>50?'#ff9f0a':'#30d158'});
+                charts.push({id: id, labels: aqAll.map(function(a) { return (a.city||'?').toUpperCase(); }), values: aqAll.map(function(a) { return a.aqi||0; }), color: function(v) { return v>100?'#ff453a':v>50?'#ff9f0a':'#30d158'; }});
             }
             
-            // EARTHQUAKES (bar)
-            const eq = data.earthquakes;
+            // EARTHQUAKES (bar chart - comparable magnitudes)
+            var eq = data.earthquakes;
             if (eq && Array.isArray(eq) && eq.length > 0) {
-                const id = 'b_eq'; const s = [...eq].sort((a,b)=>(b.magnitude||0)-(a.magnitude||0));
+                var id = 'b_eq';
+                var sorted = eq.slice().sort(function(a, b) { return (b.magnitude||0) - (a.magnitude||0); });
                 html += card('🌋','Seismic Activity','Largest earthquakes today','comparable','badge-nature',id,
-                    s.slice(0,10).map(q=>[(q.place||'?').substring(0,40),`<span style="color:${(q.magnitude||0)>=5?'#ff453a':(q.magnitude||0)>=3?'#ff9f0a':'#30d158'}">${(q.magnitude||0).toFixed(1)}</span>`,q.depth?q.depth.toFixed(0)+' km':'—']),
+                    sorted.slice(0,10).map(function(q) { return [(q.place||'?').substring(0,40), '<span style="color:' + ((q.magnitude||0)>=5?'#ff453a':(q.magnitude||0)>=3?'#ff9f0a':'#30d158') + '">' + (q.magnitude||0).toFixed(1) + '</span>', q.depth ? q.depth.toFixed(0)+' km' : '—']; }),
                     ['Location','Mag','Depth']);
-                const top10 = s.slice(0,10);
-                charts.push({id,labels:top10.map(q=>(q.place||'?').split(',')[0].substring(0,18)),values:top10.map(q=>q.magnitude||0),color:v=>v>=5?'#ff453a':v>=3?'#ff9f0a':'#30d158'});
+                var top10 = sorted.slice(0,10);
+                charts.push({id: id, labels: top10.map(function(q) { return (q.place||'?').split(',')[0].substring(0,18); }), values: top10.map(function(q) { return q.magnitude||0; }), color: function(v) { return v>=5?'#ff453a':v>=3?'#ff9f0a':'#30d158'; }});
             }
             
-            // EXCHANGE RATES (bar)
-            const fx = data.exchange_rates;
+            // EXCHANGE RATES (bar chart - comparable vs USD)
+            var fx = data.exchange_rates;
             if (fx && fx.rates && Object.keys(fx.rates).length > 0) {
-                const id = 'b_fx'; const m = ['EUR','GBP','JPY','CNY','INR','BRL','CAD','AUD','CHF','KRW','MXN','RUB'];
-                const rates = m.filter(c=>fx.rates[c]).map(c=>[c,fx.rates[c]]);
-                html += card('💱','Exchange Rates','vs USD • '+Object.keys(fx.rates).length+' currencies','comparable','badge-finance',id,
-                    rates.slice(0,10).map(([c,r])=>[`<strong>${c}</strong>`,r.toFixed(4)]),['Currency','Rate']);
-                charts.push({id,labels:rates.map(([c])=>c),values:rates.map(([,r])=>r),color:null});
+                var id = 'b_fx';
+                var majors = ['EUR','GBP','JPY','CNY','INR','BRL','CAD','AUD','CHF','KRW','MXN','RUB'];
+                var rates = majors.filter(function(c) { return fx.rates[c]; }).map(function(c) { return [c, fx.rates[c]]; });
+                html += card('💱','Exchange Rates','vs USD • ' + Object.keys(fx.rates).length + ' currencies','comparable','badge-finance',id,
+                    rates.slice(0,10).map(function(r) { return ['<strong>' + r[0] + '</strong>', r[1].toFixed(4)]; }),
+                    ['Currency','Rate']);
+                charts.push({id: id, labels: rates.map(function(r) { return r[0]; }), values: rates.map(function(r) { return r[1]; }), color: null});
             }
             
-            // COUNTRIES (bar)
-            const cnt = data.all_countries;
+            // COUNTRIES POPULATION (bar chart - comparable)
+            var cnt = data.all_countries;
             if (cnt && Array.isArray(cnt) && cnt.length > 0) {
-                const id = 'b_cnt'; const s = [...cnt].sort((a,b)=>(b.population||0)-(a.population||0));
-                html += card('🌍','World Population',`${cnt.length} countries`,'comparable','badge-world',id,
-                    s.slice(0,10).map(c=>[c.country||'?',fmt(c.population),c.region||'—']),['Country','Population','Region']);
-                const top12 = s.slice(0,12);
-                charts.push({id,labels:top12.map(c=>c.country||'?'),values:top12.map(c=>c.population||0),color:null});
+                var id = 'b_cnt';
+                var sorted = cnt.slice().sort(function(a, b) { return (b.population||0) - (a.population||0); });
+                html += card('🌍','World Population',cnt.length + ' countries','comparable','badge-world',id,
+                    sorted.slice(0,10).map(function(c) { return [c.country||'?', fmt(c.population), c.region||'—']; }),
+                    ['Country','Population','Region']);
+                var top12 = sorted.slice(0,12);
+                charts.push({id: id, labels: top12.map(function(c) { return c.country||'?'; }), values: top12.map(function(c) { return c.population||0; }), color: null});
             }
             
-            // SPACE (full-width)
-            const astro = data.people_in_space, iss = data.iss_position, nasa = data.nasa_apod;
+            // SPACE (full-width card)
+            var astro = data.people_in_space;
+            var iss = data.iss_position;
+            var nasa = data.nasa_apod;
             if (astro || iss || nasa) {
-                let sh = '<div class="card full-width"><div class="card-header"><span class="card-icon">🛰️</span><div class="card-info"><div class="card-title">Space Explorer</div><div class="card-subtitle">ISS · NASA · Astronauts</div></div><span class="card-badge badge-space">LIVE</span></div><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">';
-                if (astro && astro.people && astro.people.length > 0) sh += `<div><h4 style="font-size:0.75rem;color:var(--text2);margin-bottom:8px;">🚀 ${astro.total||0} People in Orbit</h4><div class="tags">${astro.people.map(p=>`<span class="tag">${p.name} <span style="color:var(--text2);">${p.craft}</span></span>`).join('')}</div></div>`;
-                if (iss && iss.lat) sh += `<div><h4 style="font-size:0.75rem;color:var(--text2);margin-bottom:8px;">📍 ISS Position</h4><div style="font-size:1.6rem;font-weight:200;">${parseFloat(iss.lat).toFixed(4)}° / ${parseFloat(iss.lon).toFixed(4)}°</div></div>`;
-                if (nasa && nasa.url) sh += `<div><h4 style="font-size:0.75rem;color:var(--text2);margin-bottom:8px;">🔭 ${nasa.title||'APOD'}</h4>${nasa.media_type==='image'?`<img src="${nasa.url}" class="apod-img" onerror="this.style.display='none'" alt="APOD">`:''}<p class="apod-txt">${(nasa.explanation||'').substring(0,180)}...</p></div>`;
-                sh += '</div></div>'; html += sh;
+                var sh = '<div class="card full-width"><div class="card-header"><span class="card-icon">🛰️</span><div class="card-info"><div class="card-title">Space Explorer</div><div class="card-subtitle">ISS · NASA · Astronauts</div></div><span class="card-badge badge-space">LIVE</span></div><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">';
+                if (astro && astro.people && astro.people.length > 0) {
+                    sh += '<div><h4 style="font-size:0.75rem;color:var(--text2);margin-bottom:8px;">🚀 ' + (astro.total||0) + ' People in Orbit</h4><div class="tags">' + astro.people.map(function(p) { return '<span class="tag">' + p.name + ' <span style="color:var(--text2);">' + p.craft + '</span></span>'; }).join('') + '</div></div>';
+                }
+                if (iss && iss.lat) {
+                    sh += '<div><h4 style="font-size:0.75rem;color:var(--text2);margin-bottom:8px;">📍 ISS Position</h4><div style="font-size:1.6rem;font-weight:200;">' + parseFloat(iss.lat).toFixed(4) + '° / ' + parseFloat(iss.lon).toFixed(4) + '°</div></div>';
+                }
+                if (nasa && nasa.url) {
+                    sh += '<div><h4 style="font-size:0.75rem;color:var(--text2);margin-bottom:8px;">🔭 ' + (nasa.title||'APOD') + '</h4>' + (nasa.media_type==='image' ? '<img src="' + nasa.url + '" class="apod-img" onerror="this.style.display=\'none\'" alt="APOD">' : '') + '<p class="apod-txt">' + (nasa.explanation||'').substring(0,180) + '...</p></div>';
+                }
+                sh += '</div></div>';
+                html += sh;
             }
             
-            // GITHUB (list only)
-            const gh = data.github_trending;
+            // GITHUB (list only - not comparable as bar chart)
+            var gh = data.github_trending;
             if (gh && Array.isArray(gh) && gh.length > 0) {
                 html += card('💻','GitHub Trending','Most starred repos today','list','badge-tech',null,
-                    gh.slice(0,8).map(r=>[`<a href="${r.url||'#'}" target="_blank">${(r.name||'?').split('/')[1]||r.name||'?'}</a>`,fmt(r.stars),r.language||'—']),
+                    gh.slice(0,8).map(function(r) { return ['<a href="' + (r.url||'#') + '" target="_blank">' + ((r.name||'?').split('/')[1]||r.name||'?') + '</a>', fmt(r.stars), r.language||'—']; }),
                     ['Repository','Stars','Language']);
             }
             
-            // CRYPTO (list only)
-            const cr = data.crypto;
+            // CRYPTO (list only - prices not comparable)
+            var cr = data.crypto;
             if (cr && Array.isArray(cr) && cr.length > 0) {
                 html += card('₿','Crypto Market','Top by market cap','list','badge-finance',null,
-                    cr.slice(0,8).map(c=>[`${c.name||'?'} <span style="color:var(--text2);font-size:0.7rem;">${(c.symbol||'').toUpperCase()}</span>`,c.price?'$'+c.price.toLocaleString():'—',`<span style="color:${(c.change_24h||0)>=0?'#30d158':'#ff453a'}">${(c.change_24h||0)>=0?'↑':'↓'}${Math.abs(c.change_24h||0).toFixed(1)}%</span>`]),
+                    cr.slice(0,8).map(function(c) { return [c.name||'?' + ' <span style="color:var(--text2);font-size:0.7rem;">' + (c.symbol||'').toUpperCase() + '</span>', c.price ? '$'+c.price.toLocaleString() : '—', '<span style="color:' + ((c.change_24h||0)>=0?'#30d158':'#ff453a') + '">' + ((c.change_24h||0)>=0?'↑':'↓') + Math.abs(c.change_24h||0).toFixed(1) + '%</span>']; }),
                     ['Name','Price','24h']);
             }
             
             // HACKER NEWS (list only)
-            const hn = data.hackernews;
+            var hn = data.hackernews;
             if (hn && Array.isArray(hn) && hn.length > 0) {
                 html += card('📰','Hacker News','Top stories','list','badge-tech',null,
-                    hn.slice(0,8).map(s=>[`<a href="${s.url||'#'}" target="_blank">${(s.title||'?').substring(0,48)}</a>`,fmt(s.score),fmt(s.comments||0)]),
+                    hn.slice(0,8).map(function(s) { return ['<a href="' + (s.url||'#') + '" target="_blank">' + (s.title||'?').substring(0,48) + '</a>', fmt(s.score), fmt(s.comments||0)]; }),
                     ['Title','Score','Comments']);
             }
             
             // REDDIT (list only)
-            const rd = data.reddit;
+            var rd = data.reddit;
             if (rd && Array.isArray(rd) && rd.length > 0) {
                 html += card('🔴','Reddit Front Page','r/all hot','list','badge-tech',null,
-                    rd.slice(0,8).map(p=>[(p.title||'?').substring(0,42),`<span style="color:#ff9f0a;">${p.subreddit||'?'}</span>`,fmt(p.score)]),
+                    rd.slice(0,8).map(function(p) { return [(p.title||'?').substring(0,42), '<span style="color:#ff9f0a;">' + (p.subreddit||'?') + '</span>', fmt(p.score)]; }),
                     ['Title','Subreddit','Score']);
             }
             
             // STACKOVERFLOW (list only)
-            const so = data.stackoverflow;
+            var so = data.stackoverflow;
             if (so && Array.isArray(so) && so.length > 0) {
                 html += card('📚','Stack Overflow','Hot questions','list','badge-tech',null,
-                    so.slice(0,8).map(q=>[(q.title||'?').substring(0,42),fmt(q.score),fmt(q.views)]),
+                    so.slice(0,8).map(function(q) { return [(q.title||'?').substring(0,42), fmt(q.score), fmt(q.views)]; }),
                     ['Question','Score','Views']);
             }
             
-            // HOLIDAYS
-            const hol = data.holidays_today;
+            // HOLIDAYS (list only)
+            var hol = data.holidays_today;
             if (hol && Array.isArray(hol) && hol.length > 0) {
-                html += card('🎉','Global Holidays',`${hol.length} today`,'today','badge-world',null,
-                    hol.slice(0,8).map(h=>[h.country||'??',h.name||'Unknown',h.date||'—']),
+                html += card('🎉','Global Holidays',hol.length + ' today','today','badge-world',null,
+                    hol.slice(0,8).map(function(h) { return [h.country||'??', h.name||'Unknown', h.date||'—']; }),
                     ['Country','Holiday','Date']);
             }
             
-            if (!html) { grid.innerHTML = '<div class="error-state"><h3>No data available</h3><p>Try another date or check <a href="https://github.com/edthedog-debug/internet-time-capsule/actions">workflow</a>.</p></div>'; return; }
-            grid.innerHTML = html;
-            requestAnimationFrame(() => { charts.forEach(c => barChart(c.id, c.labels, c.values, c.color)); });
-        }
-        
-        // ============ INTER-TEMPORAL ============
-        const IT_ITEMS = {
-            weather: ['New_York','London','Tokyo','Shanghai','Mumbai','Sao_Paulo','Paris','Moscow','Sydney','Dubai','Singapore','Berlin','Rome','Istanbul','Seoul','Bangkok','Nairobi','Lima','Cape_Town','Mexico_City','Cairo','Lagos','Jakarta','Toronto','Buenos_Aires'],
-            air_quality: ['nyc','london','tokyo','delhi','sao_paulo'],
-            crypto: ['bitcoin','ethereum','tether','binancecoin','solana','ripple','usdc','cardano','dogecoin','avalanche'],
-            exchange_rates: ['EUR','GBP','JPY','CNY','INR','BRL','CAD','AUD','CHF','KRW','MXN','RUB','SEK','NOK','NZD','SGD','HKD','TRY','ZAR']
-        };
-        function updateITItems() {
-            const cat = document.getElementById('itCategory').value;
-            const sel = document.getElementById('itItem');
-            sel.innerHTML = '<option value="">— Item —</option>';
-            if (IT_ITEMS[cat]) IT_ITEMS[cat].forEach(i=>{sel.innerHTML+=`<option value="${i}">${i.replace(/_/g,' ')}</option>`;});
-            else if (['earthquakes','github','hackernews','reddit','stackoverflow'].includes(cat)) sel.innerHTML='<option value="auto">Auto (max)</option>';
-        }
-        
-        async function loadIntertemporal() {
-            const cat = document.getElementById('itCategory').value;
-            const item = document.getElementById('itItem').value;
-            const start = document.getElementById('itStart').value;
-            const end = document.getElementById('itEnd').value;
-            const st = document.getElementById('itStatus');
-            if (!cat||!item||!start||!end) { st.innerHTML='<span style="color:#ff453a;">Fill all fields.</span>'; return; }
-            const sD=new Date(start),eD=new Date(end); if(sD>eD){st.innerHTML='<span style="color:#ff453a;">Invalid range.</span>';
+            if (!html) {
+                grid.innerHTML = '<div class="error-state"><h3>No data available</h3><p>Try another date or check the <a href="https://github.com
