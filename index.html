@@ -3,600 +3,339 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Internet Time Capsule — Global Digital Archive Dashboard</title>
+    <title>Internet Time Capsule — Global Digital Archive</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <style>
         :root {
-            --bg: #0a0e17;
-            --card: #111827;
-            --border: #1e293b;
-            --text: #e2e8f0;
-            --text2: #94a3b8;
-            --accent: #3b82f6;
-            --green: #10b981;
-            --red: #ef4444;
-            --yellow: #f59e0b;
-            --purple: #8b5cf6;
+            --bg: #0a0e17; --card: #111827; --border: #1e293b;
+            --text: #e2e8f0; --text2: #94a3b8; --accent: #3b82f6;
+            --green: #10b981; --red: #ef4444; --yellow: #f59e0b; --purple: #8b5cf6;
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Segoe UI', system-ui, -apple-system; background: var(--bg); color: var(--text); line-height: 1.6; }
+        body { font-family: 'Segoe UI', system-ui; background: var(--bg); color: var(--text); line-height: 1.6; }
         .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
-        
-        /* Header */
         .header { text-align: center; padding: 40px 20px; border-bottom: 1px solid var(--border); margin-bottom: 30px; }
-        .header h1 { font-size: 2.8em; background: linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 10px; }
-        .header p { color: var(--text2); font-size: 1.2em; }
-        .live-badge { display: inline-block; background: #10b98120; color: var(--green); padding: 5px 15px; border-radius: 20px; font-size: 0.9em; margin-top: 10px; animation: pulse 2s infinite; }
-        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.6; } }
-        
-        /* Stats Bar */
-        .stats-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 30px; }
+        .header h1 { font-size: 2.5em; background: linear-gradient(135deg, #3b82f6, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .header p { color: var(--text2); }
+        .live-badge { display: inline-block; background: #10b98120; color: var(--green); padding: 5px 15px; border-radius: 20px; margin-top: 10px; }
+        .stats-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-bottom: 30px; }
         .stat-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; text-align: center; }
-        .stat-number { font-size: 2.5em; font-weight: bold; color: var(--accent); }
-        .stat-label { color: var(--text2); font-size: 0.9em; margin-top: 5px; }
-        
-        /* Grid */
+        .stat-number { font-size: 2em; font-weight: bold; color: var(--accent); }
+        .stat-label { color: var(--text2); font-size: 0.85em; }
         .dashboard-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap: 20px; margin-bottom: 30px; }
         .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 25px; }
-        .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 10px; }
-        .card-title { font-size: 1.3em; font-weight: 600; }
-        .card-badge { font-size: 0.75em; padding: 4px 10px; border-radius: 12px; }
-        .badge-tech { background: #3b82f620; color: #3b82f6; }
-        .badge-finance { background: #10b98120; color: #10b981; }
-        .badge-environment { background: #f59e0b20; color: #f59e0b; }
-        .badge-space { background: #8b5cf620; color: #8b5cf6; }
-        .badge-world { background: #ec489920; color: #ec4899; }
-        
-        /* Buttons */
-        .btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 20px; border-radius: 8px; font-size: 0.9em; cursor: pointer; text-decoration: none; border: none; transition: all 0.3s; font-weight: 500; }
+        .card-title { font-size: 1.2em; font-weight: 600; margin-bottom: 15px; }
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 8px; cursor: pointer; text-decoration: none; border: none; transition: 0.3s; font-weight: 500; margin: 5px; }
         .btn-primary { background: var(--accent); color: white; }
-        .btn-primary:hover { background: #2563eb; transform: translateY(-1px); }
+        .btn-donate { background: linear-gradient(135deg, #f59e0b, #ef4444); color: white; padding: 12px 30px; border-radius: 12px; font-size: 1.1em; }
         .btn-outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
-        .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
-        .btn-donate { background: linear-gradient(135deg, #f59e0b, #ef4444); color: white; font-size: 1.1em; padding: 12px 30px; border-radius: 12px; }
-        .btn-donate:hover { transform: scale(1.05); box-shadow: 0 4px 20px rgba(245, 158, 11, 0.4); }
-        .btn-download { background: var(--green); color: white; }
-        .btn-download:hover { background: #059669; }
-        .btn-group { display: flex; gap: 10px; flex-wrap: wrap; }
-        
-        /* Table */
-        .data-table { width: 100%; border-collapse: collapse; font-size: 0.9em; }
-        .data-table th { text-align: left; padding: 12px 8px; border-bottom: 2px solid var(--border); color: var(--text2); font-weight: 500; text-transform: uppercase; font-size: 0.8em; letter-spacing: 0.5px; }
-        .data-table td { padding: 10px 8px; border-bottom: 1px solid var(--border); }
-        .data-table tr:hover td { background: #1a2332; }
-        .data-table .rank { color: var(--text2); font-weight: bold; width: 40px; }
-        .data-table .name { font-weight: 500; max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-        .data-table .number { text-align: right; font-variant-numeric: tabular-nums; font-family: 'SF Mono', 'Fira Code', monospace; }
-        .table-container { max-height: 400px; overflow-y: auto; }
-        
-        /* Donate Section */
-        .donate-section { background: linear-gradient(135deg, #1a1a2e, #16213e); border: 1px solid #f59e0b40; border-radius: 20px; padding: 40px; text-align: center; margin: 40px 0; }
-        .donate-section h2 { font-size: 2em; margin-bottom: 10px; }
-        .donate-options { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-top: 25px; }
-        .donate-card { background: #1e293b; border: 1px solid var(--border); border-radius: 12px; padding: 25px; cursor: pointer; transition: all 0.3s; min-width: 140px; }
-        .donate-card:hover { border-color: var(--yellow); transform: translateY(-3px); box-shadow: 0 8px 25px rgba(245, 158, 11, 0.2); }
+        .table-container { max-height: 350px; overflow-y: auto; }
+        .data-table { width: 100%; border-collapse: collapse; font-size: 0.85em; }
+        .data-table th { text-align: left; padding: 10px 8px; border-bottom: 2px solid var(--border); color: var(--text2); position: sticky; top: 0; background: var(--card); }
+        .data-table td { padding: 8px; border-bottom: 1px solid var(--border); }
+        .donate-section { background: linear-gradient(135deg, #1a1a2e, #16213e); border: 1px solid #f59e0b40; border-radius: 20px; padding: 40px; text-align: center; margin: 30px 0; }
+        .donate-options { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-top: 20px; }
+        .donate-card { background: #1e293b; border: 1px solid var(--border); border-radius: 12px; padding: 25px; cursor: pointer; min-width: 130px; transition: 0.3s; }
+        .donate-card:hover { border-color: var(--yellow); transform: translateY(-3px); }
         .donate-amount { font-size: 2em; font-weight: bold; color: var(--yellow); }
-        .donate-label { color: var(--text2); margin-top: 5px; }
-        
-        /* Charts */
-        canvas { max-height: 300px; }
-        
-        /* Footer */
         .footer { text-align: center; padding: 30px; color: var(--text2); font-size: 0.85em; border-top: 1px solid var(--border); margin-top: 40px; }
-        .footer a { color: var(--accent); }
-        
-        /* Responsive */
-        @media (max-width: 600px) {
-            .dashboard-grid { grid-template-columns: 1fr; }
-            .header h1 { font-size: 1.8em; }
-            .stats-bar { grid-template-columns: repeat(2, 1fr); }
-        }
-        
-        /* Loading */
         .loading { text-align: center; padding: 40px; color: var(--text2); }
         .spinner { display: inline-block; width: 40px; height: 40px; border: 3px solid #3b82f620; border-top: 3px solid var(--accent); border-radius: 50%; animation: spin 1s linear infinite; }
-        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-        
-        /* Tabs */
-        .tabs { display: flex; gap: 5px; margin-bottom: 15px; flex-wrap: wrap; }
-        .tab { padding: 8px 16px; border-radius: 8px; cursor: pointer; font-size: 0.85em; background: transparent; color: var(--text2); border: 1px solid transparent; transition: all 0.2s; }
-        .tab:hover { color: var(--text); }
-        .tab.active { background: var(--accent); color: white; border-color: var(--accent); }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .error-box { background: #ef444420; border: 1px solid #ef4444; border-radius: 12px; padding: 20px; text-align: center; margin: 20px 0; }
+        .date-selector { display: flex; gap: 10px; align-items: center; justify-content: center; margin: 20px 0; flex-wrap: wrap; }
+        .date-selector input { background: var(--card); border: 1px solid var(--border); color: var(--text); padding: 10px; border-radius: 8px; }
+        @media (max-width: 600px) { .dashboard-grid { grid-template-columns: 1fr; } .header h1 { font-size: 1.5em; } }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Header -->
         <header class="header">
             <h1>🌐 Internet Time Capsule Dashboard</h1>
-            <p>Global Digital Archive — Automated Daily Snapshots of Human Civilization</p>
-            <span class="live-badge">● LIVE — Updated Every 24h at 00:00 UTC</span>
+            <p>Global Digital Archive — Automated Daily Snapshots</p>
+            <span class="live-badge">● Updated Every 24h at 00:00 UTC</span>
+            <div class="date-selector">
+                <label for="datePicker">📅 View date:</label>
+                <input type="date" id="datePicker">
+                <button class="btn btn-primary" onclick="loadSelectedDate()">Load Data</button>
+                <button class="btn btn-outline" onclick="loadToday()">Today</button>
+            </div>
+            <div id="statusMessage" style="margin-top:10px;"></div>
         </header>
 
-        <!-- Stats Bar -->
-        <div class="stats-bar" id="statsBar">
-            <div class="stat-card"><div class="stat-number" id="statSources">15</div><div class="stat-label">Data Sources</div></div>
-            <div class="stat-card"><div class="stat-number" id="statCountries">195</div><div class="stat-label">Countries Tracked</div></div>
-            <div class="stat-card"><div class="stat-number" id="statCurrencies">160+</div><div class="stat-label">Currencies</div></div>
-            <div class="stat-card"><div class="stat-number" id="statCities">25</div><div class="stat-label">Cities Monitored</div></div>
-            <div class="stat-card"><div class="stat-number" id="statLanguages">10</div><div class="stat-label">Languages</div></div>
-            <div class="stat-card"><div class="stat-number" id="statDataPoints">~2,500</div><div class="stat-label">Daily Data Points</div></div>
-        </div>
-
-        <!-- Dashboard Grid -->
+        <div class="stats-bar" id="statsBar"></div>
         <div class="dashboard-grid" id="dashboardGrid">
-            <div class="loading"><div class="spinner"></div><p style="margin-top:15px;">Loading data from Time Capsule...</p></div>
+            <div class="loading"><div class="spinner"></div><p>Loading data...</p></div>
         </div>
 
-        <!-- Download Section -->
-        <div class="card" style="text-align:center; margin-bottom:30px;">
-            <h2 style="margin-bottom:15px;">📥 Download Data</h2>
-            <p style="color:var(--text2); margin-bottom:20px;">All data is open-source. Download raw JSON files or processed CSV exports.</p>
-            <div class="btn-group" style="justify-content:center;">
-                <a href="https://github.com/edthedog-debug/internet-time-capsule/archive/refs/heads/main.zip" class="btn btn-download">📦 Download Full Archive (ZIP)</a>
-                <a href="https://github.com/edthedog-debug/internet-time-capsule" class="btn btn-outline">🔗 View on GitHub</a>
-                <a href="https://raw.githubusercontent.com/edthedog-debug/internet-time-capsule/main/capsules/INDEX.md" class="btn btn-outline">📋 Browse Index</a>
-            </div>
-            <p style="margin-top:15px; font-size:0.8em; color:var(--text2);">
-                Data formats: JSON • CSV • Markdown &nbsp;|&nbsp; License: MIT — Free for all uses
-            </p>
+        <div class="card" style="text-align:center;">
+            <h2>📥 Download Data</h2>
+            <p style="color:var(--text2); margin:10px 0;">All data is open-source and free to download.</p>
+            <a href="https://github.com/edthedog-debug/internet-time-capsule/archive/refs/heads/main.zip" class="btn btn-primary">📦 Download ZIP</a>
+            <a href="https://github.com/edthedog-debug/internet-time-capsule" class="btn btn-outline">🔗 GitHub Repo</a>
         </div>
 
-        <!-- Donate Section -->
         <div class="donate-section">
             <h2>💎 Support This Project</h2>
-            <p style="color:var(--text2); margin-bottom:10px;">
-                This archive runs 100% automated, 100% free, 100% open-source.<br>
-                Your donation keeps the servers fetching and the history preserved forever.
-            </p>
+            <p style="color:var(--text2);">100% free, 100% open-source. Donations keep it running.</p>
             <div class="donate-options">
-                <div class="donate-card" onclick="window.open('https://github.com/sponsors/edthedog-debug', '_blank')">
-                    <div class="donate-amount">$5</div>
-                    <div class="donate-label">Monthly Support</div>
-                    <div style="font-size:0.75em; color:var(--text2); margin-top:5px;">GitHub Sponsors</div>
+                <div class="donate-card" onclick="window.open('https://github.com/sponsors/edthedog-debug','_blank')">
+                    <div class="donate-amount">$5</div><div class="stat-label">Monthly</div>
                 </div>
-                <div class="donate-card" onclick="window.open('https://www.buymeacoffee.com/edthedog', '_blank')">
-                    <div class="donate-amount">☕ $10</div>
-                    <div class="donate-label">One-time Coffee</div>
-                    <div style="font-size:0.75em; color:var(--text2); margin-top:5px;">Buy Me a Coffee</div>
+                <div class="donate-card" onclick="window.open('https://ko-fi.com/edthedog','_blank')">
+                    <div class="donate-amount">☕ $10</div><div class="stat-label">One-time</div>
                 </div>
-                <div class="donate-card" onclick="window.open('https://ko-fi.com/edthedog', '_blank')">
-                    <div class="donate-amount">⚡ $25</div>
-                    <div class="donate-label">One-time Boost</div>
-                    <div style="font-size:0.75em; color:var(--text2); margin-top:5px;">Ko-fi</div>
-                </div>
-                <div class="donate-card" onclick="window.open('https://www.patreon.com/edthedog', '_blank')">
-                    <div class="donate-amount">🔮 $50</div>
-                    <div class="donate-label">Monthly Patron</div>
-                    <div style="font-size:0.75em; color:var(--text2); margin-top:5px;">Patreon</div>
+                <div class="donate-card" onclick="window.open('https://www.patreon.com/edthedog','_blank')">
+                    <div class="donate-amount">⭐ $25</div><div class="stat-label">Monthly</div>
                 </div>
             </div>
-            <p style="margin-top:20px; font-size:0.85em; color:var(--text2);">
-                💡 <strong>Why donate?</strong> This project costs $0 to run (thanks GitHub Actions free tier), 
-                but your support funds development of new data sources, better visualizations, and API access for researchers.
-            </p>
         </div>
 
-        <!-- Footer -->
         <footer class="footer">
             <p>🌐 <strong>Internet Time Capsule</strong> — Preserving digital history since 2026</p>
-            <p>Powered by <a href="https://github.com/features/actions">GitHub Actions</a> • 
-               <a href="https://github.com/edthedog-debug/internet-time-capsule">Open Source (MIT)</a> • 
-               <a href="https://github.com/edthedog-debug/internet-time-capsule/blob/main/capsules/INDEX.md">Browse Archive</a>
-            </p>
-            <p style="margin-top:10px; font-size:0.8em;">
-                Data sources: GitHub API • HackerNews • StackOverflow • Reddit • Wikipedia • Open Exchange Rates • 
-                CoinGecko • Open-Meteo • USGS • NASA • Open Notify • RestCountries • ArXiv
-            </p>
+            <p>Powered by GitHub Actions • Open Source (MIT) • Zero cost</p>
         </footer>
     </div>
 
     <script>
-        // ============================================
-        // CONFIGURATION
-        // ============================================
-        const GITHUB_USER = 'edthedog-debug';
-        const GITHUB_REPO = 'internet-time-capsule';
-        const RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/main/capsules`;
+        const REPO_RAW = 'https://raw.githubusercontent.com/edthedog-debug/internet-time-capsule/main/capsules';
         
-        // Get today's date in YYYY/MM/DD format
-        const now = new Date();
-        const today = `${now.getFullYear()}/${String(now.getMonth()+1).padStart(2,'0')}/${String(now.getDate()).padStart(2,'0')}`;
+        function getTodayPath() {
+            const d = new Date();
+            return `${d.getFullYear()}/${String(d.getMonth()+1).padStart(2,'0')}/${String(d.getDate()).padStart(2,'0')}`;
+        }
         
-        // ============================================
-        // HELPER FUNCTIONS
-        // ============================================
-        async function fetchJSON(path) {
+        function formatNum(n) {
+            if (n == null) return '—';
+            if (n >= 1e9) return (n/1e9).toFixed(1)+'B';
+            if (n >= 1e6) return (n/1e6).toFixed(1)+'M';
+            if (n >= 1e3) return (n/1e3).toFixed(1)+'K';
+            return n.toLocaleString();
+        }
+
+        async function fetchJSON(url) {
             try {
-                const response = await fetch(path);
-                if (!response.ok) throw new Error(`HTTP ${response.status}`);
-                return await response.json();
-            } catch (e) {
-                console.warn(`Failed to fetch ${path}: ${e.message}`);
+                const r = await fetch(url);
+                if (!r.ok) throw new Error(`HTTP ${r.status}`);
+                return await r.json();
+            } catch(e) {
+                console.warn(`Failed: ${url} — ${e.message}`);
                 return null;
             }
         }
-        
-        function formatNumber(num) {
-            if (num === undefined || num === null) return '—';
-            if (num >= 1e9) return (num / 1e9).toFixed(1) + 'B';
-            if (num >= 1e6) return (num / 1e6).toFixed(1) + 'M';
-            if (num >= 1e3) return (num / 1e3).toFixed(1) + 'K';
-            return num.toLocaleString();
-        }
-        
-        function formatDate(dateStr) {
-            if (!dateStr) return '—';
-            const d = new Date(dateStr);
-            return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-        }
-        
-        function createChart(canvasId, type, labels, datasets, options = {}) {
-            const ctx = document.getElementById(canvasId);
-            if (!ctx) return null;
-            return new Chart(ctx, {
-                type: type,
-                data: { labels, datasets },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: { 
-                        legend: { labels: { color: '#94a3b8' } }
-                    },
-                    scales: {
-                        x: { ticks: { color: '#94a3b8', maxRotation: 45 }, grid: { color: '#1e293b' } },
-                        y: { ticks: { color: '#94a3b8' }, grid: { color: '#1e293b' } }
-                    },
-                    ...options
-                }
-            });
-        }
 
-        // ============================================
-        // DATA LOADING
-        // ============================================
-        async function loadAllData() {
-            const datePath = today;
-            
-            // Try today first, fall back to yesterday
-            let data = await loadDateData(datePath);
-            if (!data || Object.keys(data).length === 0) {
-                const yesterday = new Date(now);
-                yesterday.setDate(yesterday.getDate() - 1);
-                const yesterdayPath = `${yesterday.getFullYear()}/${String(yesterday.getMonth()+1).padStart(2,'0')}/${String(yesterday.getDate()).padStart(2,'0')}`;
-                data = await loadDateData(yesterdayPath);
-            }
-            
-            if (data && Object.keys(data).length > 0) {
-                renderDashboard(data);
-            } else {
-                document.getElementById('dashboardGrid').innerHTML = `
-                    <div class="loading" style="grid-column: 1/-1;">
-                        <p>⚠️ No data available yet. The first snapshot is being generated.</p>
-                        <p style="color:var(--text2); margin-top:10px;">
-                            The Time Capsule runs daily at 00:00 UTC. 
-                            <a href="https://github.com/${GITHUB_USER}/${GITHUB_REPO}/actions" style="color:var(--accent);">
-                                Check workflow status
-                            </a>
-                        </p>
-                    </div>`;
-            }
-        }
-        
-        async function loadDateData(datePath) {
+        async function loadDate(datePath) {
+            const base = `${REPO_RAW}/${datePath}/global`;
             const data = {};
+            
+            // Load all files
             const files = [
                 'github_trending', 'hackernews', 'stackoverflow', 'reddit',
                 'exchange_rates', 'crypto', 'earthquakes',
                 'nasa_apod', 'iss_position', 'people_in_space',
                 'all_countries', 'holidays_today', 'weather_25_cities',
-                'air_quality_nyc', 'air_quality_london', 'air_quality_tokyo',
-                'air_quality_delhi', 'air_quality_sao_paulo',
                 'covid_global'
             ];
             
-            // Load Wikipedia for top 5 languages
-            for (const lang of ['en', 'es', 'fr', 'de', 'ja']) {
-                data[`wikipedia_${lang}`] = await fetchJSON(`${RAW_BASE}/${datePath}/global/wikipedia_${lang}.json`);
+            for (const f of files) {
+                data[f] = await fetchJSON(`${base}/${f}.json`);
             }
             
-            // Load main files
-            for (const file of files) {
-                data[file] = await fetchJSON(`${RAW_BASE}/${datePath}/global/${file}.json`);
+            // Wikipedia
+            for (const lang of ['en','es','fr','de','ja']) {
+                data[`wiki_${lang}`] = await fetchJSON(`${base}/wikipedia_${lang}.json`);
+            }
+            
+            // Air quality
+            for (const city of ['nyc','london','tokyo','delhi','sao_paulo']) {
+                data[`aq_${city}`] = await fetchJSON(`${base}/air_quality_${city}.json`);
             }
             
             return data;
         }
 
-        // ============================================
-        // RENDER DASHBOARD
-        // ============================================
         function renderDashboard(data) {
             const grid = document.getElementById('dashboardGrid');
-            grid.innerHTML = '';
+            const stats = document.getElementById('statsBar');
             
-            // GitHub Trending
-            if (data.github_trending && Array.isArray(data.github_trending)) {
-                grid.appendChild(createTableCard(
-                    '💻 GitHub Trending Repositories',
-                    'badge-tech',
-                    ['#', 'Repository', 'Stars', 'Language'],
-                    data.github_trending.slice(0, 15).map((r, i) => [
-                        i + 1,
-                        `<a href="${r.url || '#'}" target="_blank" style="color:#e2e8f0;text-decoration:none;" title="${r.description || ''}">${r.name || 'Unknown'}</a>`,
-                        formatNumber(r.stars),
-                        r.language || '—'
-                    ]),
-                    'githubChart',
-                    data.github_trending.slice(0, 10).map(r => r.name?.split('/')[1] || 'Unknown'),
-                    data.github_trending.slice(0, 10).map(r => r.stars || 0),
-                    'Stars'
-                ));
+            let dataCount = 0;
+            let html = '';
+            let statsHtml = '';
+            
+            // GitHub
+            if (data.github_trending && Array.isArray(data.github_trending) && data.github_trending.length > 0) {
+                dataCount++;
+                const topStar = Math.max(...data.github_trending.map(r => r.stars || 0));
+                html += createTableCard('💻 GitHub Trending', data.github_trending.slice(0,10).map((r,i) => [
+                    i+1, `<a href="${r.url||'#'}" target="_blank" style="color:#e2e8f0;text-decoration:none;">${(r.name||'?').substring(0,50)}</a>`, formatNum(r.stars), r.language||'—'
+                ]), ['#','Repository','Stars','Language']);
+                statsHtml += `<div class="stat-card"><div class="stat-number">${topStar}</div><div class="stat-label">Top GitHub Stars</div></div>`;
             }
             
             // Crypto
-            if (data.crypto && Array.isArray(data.crypto)) {
-                grid.appendChild(createTableCard(
-                    '💰 Cryptocurrency Market',
-                    'badge-finance',
-                    ['#', 'Name', 'Price (USD)', 'Market Cap', '24h Change'],
-                    data.crypto.slice(0, 15).map((c, i) => [
-                        i + 1,
-                        `${c.name || 'Unknown'} <span style="color:#94a3b8;text-transform:uppercase;">${c.symbol || ''}</span>`,
-                        `$${c.price?.toLocaleString() || '—'}`,
-                        formatNumber(c.market_cap),
-                        `<span style="color:${(c.change_24h||0) >= 0 ? '#10b981' : '#ef4444'}">${(c.change_24h||0) >= 0 ? '▲' : '▼'} ${Math.abs(c.change_24h||0).toFixed(2)}%</span>`
-                    ]),
-                    'cryptoChart',
-                    data.crypto.slice(0, 10).map(c => c.symbol?.toUpperCase() || '?'),
-                    data.crypto.slice(0, 10).map(c => c.price || 0),
-                    'Price (USD)'
-                ));
+            if (data.crypto && Array.isArray(data.crypto) && data.crypto.length > 0) {
+                dataCount++;
+                html += createTableCard('💰 Top Cryptocurrencies', data.crypto.slice(0,10).map((c,i) => [
+                    i+1, `${c.name||'?'} (${(c.symbol||'').toUpperCase()})`, `$${(c.price||0).toLocaleString()}`, formatNum(c.market_cap),
+                    `<span style="color:${(c.change_24h||0)>=0?'#10b981':'#ef4444'}">${(c.change_24h||0).toFixed(2)}%</span>`
+                ]), ['#','Name','Price','Market Cap','24h']);
+                statsHtml += `<div class="stat-card"><div class="stat-number">${data.crypto.length}</div><div class="stat-label">Cryptos Tracked</div></div>`;
             }
             
             // Earthquakes
-            if (data.earthquakes && Array.isArray(data.earthquakes)) {
-                grid.appendChild(createTableCard(
-                    '🌋 Recent Earthquakes (24h)',
-                    'badge-environment',
-                    ['Location', 'Magnitude', 'Significance'],
-                    data.earthquakes.slice(0, 15).map(eq => [
-                        eq.place || 'Unknown',
-                        `<span style="color:${eq.magnitude >= 5 ? '#ef4444' : eq.magnitude >= 3 ? '#f59e0b' : '#10b981'};font-weight:bold;">${eq.magnitude?.toFixed(1) || '—'}</span>`,
-                        eq.significance || '—'
-                    ]),
-                    'quakeChart',
-                    data.earthquakes.slice(0, 10).map(eq => eq.place?.split(',')[0] || 'Unknown'),
-                    data.earthquakes.slice(0, 10).map(eq => eq.magnitude || 0),
-                    'Magnitude'
-                ));
+            if (data.earthquakes && Array.isArray(data.earthquakes) && data.earthquakes.length > 0) {
+                dataCount++;
+                const bigOne = data.earthquakes.sort((a,b)=>(b.magnitude||0)-(a.magnitude||0))[0];
+                html += createTableCard('🌋 Earthquakes Today', data.earthquakes.slice(0,10).map(eq => [
+                    (eq.place||'Unknown').substring(0,60),
+                    `<span style="color:${(eq.magnitude||0)>=5?'#ef4444':(eq.magnitude||0)>=3?'#f59e0b':'#10b981'};font-weight:bold;">${(eq.magnitude||0).toFixed(1)}</span>`,
+                    eq.significance||'—'
+                ]), ['Location','Magnitude','Significance']);
+                statsHtml += `<div class="stat-card"><div class="stat-number">${bigOne?.magnitude?.toFixed(1)||'—'}</div><div class="stat-label">Largest Quake</div></div>`;
             }
             
             // Exchange Rates
             if (data.exchange_rates && data.exchange_rates.rates) {
+                dataCount++;
                 const rates = data.exchange_rates.rates;
-                const majorCurrencies = ['EUR', 'GBP', 'JPY', 'CNY', 'INR', 'BRL', 'CAD', 'AUD', 'CHF', 'MXN', 'KRW', 'RUB', 'ZAR', 'SGD', 'NZD'];
-                const filtered = majorCurrencies.filter(c => rates[c]).map(c => [c, rates[c]]);
-                filtered.unshift(['USD', 1.0]);
-                
-                grid.appendChild(createTableCard(
-                    '💱 Exchange Rates (vs USD)',
-                    'badge-finance',
-                    ['Currency', 'Rate', 'vs USD'],
-                    filtered.map(([code, rate]) => [
-                        `<strong>${code}</strong>`,
-                        rate.toFixed(4),
-                        code === 'USD' ? '1 USD' : `${(1/rate).toFixed(4)} per 1 ${code}`
-                    ]),
-                    'forexChart',
-                    filtered.map(([c]) => c),
-                    filtered.map(([,r]) => r),
-                    'Rate (USD)'
-                ));
-            }
-            
-            // Wikipedia Languages
-            const wikiLangs = ['en', 'es', 'fr', 'de', 'ja'];
-            let wikiTotalViews = {};
-            wikiLangs.forEach(lang => {
-                const wikiData = data[`wikipedia_${lang}`];
-                if (wikiData && wikiData.articles) {
-                    wikiData.articles.forEach(a => {
-                        wikiTotalViews[lang] = (wikiTotalViews[lang] || 0) + (a.views || 0);
-                    });
-                }
-            });
-            
-            if (Object.keys(wikiTotalViews).length > 0) {
-                const wikiEntries = Object.entries(wikiTotalViews).sort((a,b) => b[1] - a[1]);
-                grid.appendChild(createChartCard(
-                    '📚 Wikipedia Total Views by Language',
-                    'badge-world',
-                    'wikiLangChart',
-                    'bar',
-                    wikiEntries.map(([l]) => l.toUpperCase()),
-                    [{ label: 'Total Views', data: wikiEntries.map(([,v]) => v), backgroundColor: '#8b5cf6' }]
-                ));
+                const majors = ['EUR','GBP','JPY','CNY','INR','BRL','CAD','AUD','CHF'];
+                const filtered = majors.filter(c => rates[c]).map(c => [c, rates[c]]);
+                html += createTableCard('💱 Exchange Rates (vs USD)', filtered.map(([c,r]) => [
+                    `<strong>${c}</strong>`, r.toFixed(4), `1 USD = ${r.toFixed(4)} ${c}`
+                ]), ['Currency','Rate','Value']);
+                statsHtml += `<div class="stat-card"><div class="stat-number">160+</div><div class="stat-label">Currencies</div></div>`;
             }
             
             // Weather
             if (data.weather_25_cities) {
-                const cities = Object.entries(data.weather_25_cities)
-                    .filter(([,v]) => v && v.temperature_2m !== undefined)
-                    .slice(0, 15);
-                
+                const cities = Object.entries(data.weather_25_cities).filter(([,v]) => v && v.temperature_2m != null);
                 if (cities.length > 0) {
-                    grid.appendChild(createChartCard(
-                        '🌤️ Temperature — Major Cities (°C)',
-                        'badge-environment',
-                        'weatherChart',
-                        'bar',
-                        cities.map(([name]) => name.replace('_', ' ')),
-                        [{
-                            label: 'Temperature °C',
-                            data: cities.map(([,v]) => v.temperature_2m),
-                            backgroundColor: cities.map(([,v]) => {
-                                const t = v.temperature_2m;
-                                if (t > 30) return '#ef4444';
-                                if (t > 20) return '#f59e0b';
-                                if (t > 10) return '#10b981';
-                                return '#3b82f6';
-                            })
-                        }]
-                    ));
+                    dataCount++;
+                    const temps = cities.map(([,v]) => v.temperature_2m);
+                    const hottest = Math.max(...temps);
+                    const coldest = Math.min(...temps);
+                    html += createTableCard('🌤️ Weather — Major Cities', cities.slice(0,15).map(([n,v]) => [
+                        n.replace('_',' '), `${v.temperature_2m}°C`, `${v.relative_humidity_2m||'—'}%`, `${v.wind_speed_10m||'—'} km/h`
+                    ]), ['City','Temp','Humidity','Wind']);
+                    statsHtml += `<div class="stat-card"><div class="stat-number">${hottest}°</div><div class="stat-label">Hottest City</div></div>`;
+                    statsHtml += `<div class="stat-card"><div class="stat-number">${coldest}°</div><div class="stat-label">Coldest City</div></div>`;
                 }
             }
             
-            // HackerNews
-            if (data.hackernews && Array.isArray(data.hackernews)) {
-                grid.appendChild(createTableCard(
-                    '📰 HackerNews Top Stories',
-                    'badge-tech',
-                    ['#', 'Title', 'Score', 'Comments'],
-                    data.hackernews.slice(0, 15).map((s, i) => [
-                        i + 1,
-                        `<a href="${s.url || '#'}" target="_blank" style="color:#e2e8f0;text-decoration:none;">${(s.title || 'Untitled').substring(0, 80)}</a>`,
-                        formatNumber(s.score),
-                        s.comments || s.descendants || '0'
-                    ]),
-                    'hnChart',
-                    data.hackernews.slice(0, 10).map(s => (s.title || '?').substring(0, 30)),
-                    data.hackernews.slice(0, 10).map(s => s.score || 0),
-                    'Score'
-                ));
-            }
-            
-            // Reddit
-            if (data.reddit && Array.isArray(data.reddit)) {
-                grid.appendChild(createTableCard(
-                    '🔴 Reddit r/all Front Page',
-                    'badge-tech',
-                    ['#', 'Title', 'Subreddit', 'Score'],
-                    data.reddit.slice(0, 15).map((p, i) => [
-                        i + 1,
-                        (p.title || 'Untitled').substring(0, 70),
-                        `<span style="color:#3b82f6;">r/${p.subreddit || '?'}</span>`,
-                        formatNumber(p.score)
-                    ]),
-                    null, [], [], ''
-                ));
-            }
-            
             // Space
-            if (data.people_in_space) {
-                grid.innerHTML += `
-                    <div class="card">
-                        <div class="card-header">
-                            <span class="card-title">🚀 People in Space Right Now</span>
-                            <span class="card-badge badge-space">${data.people_in_space.total || 0} Astronauts</span>
-                        </div>
-                        <div style="display:flex; flex-wrap:wrap; gap:8px;">
-                            ${(data.people_in_space.people || []).map(p => 
-                                `<span style="background:#1e293b; padding:8px 15px; border-radius:20px; font-size:0.85em;">
-                                    👨‍🚀 ${p.name} <span style="color:#94a3b8;">(${p.craft})</span>
-                                </span>`
-                            ).join('')}
-                        </div>
-                    </div>`;
+            if (data.people_in_space && data.people_in_space.total) {
+                dataCount++;
+                html += `<div class="card"><div class="card-title">🚀 ${data.people_in_space.total} People in Space Right Now</div>
+                    <div style="display:flex;flex-wrap:wrap;gap:8px;">${(data.people_in_space.people||[]).map(p => 
+                        `<span style="background:#1e293b;padding:8px 15px;border-radius:20px;font-size:0.85em;">👨‍🚀 ${p.name} (${p.craft})</span>`
+                    ).join('')}</div></div>`;
+                statsHtml += `<div class="stat-card"><div class="stat-number">${data.people_in_space.total}</div><div class="stat-label">In Space</div></div>`;
             }
             
             // NASA APOD
             if (data.nasa_apod && data.nasa_apod.url) {
-                grid.innerHTML += `
-                    <div class="card">
-                        <div class="card-header">
-                            <span class="card-title">🔭 NASA Astronomy Picture of the Day</span>
-                            <span class="card-badge badge-space">${data.nasa_apod.date || ''}</span>
-                        </div>
-                        <h3 style="margin-bottom:10px;">${data.nasa_apod.title || 'APOD'}</h3>
-                        ${data.nasa_apod.media_type === 'image' 
-                            ? `<img src="${data.nasa_apod.url}" alt="${data.nasa_apod.title}" style="width:100%; border-radius:12px; margin-bottom:10px;">`
-                            : ''}
-                        <p style="color:var(--text2); font-size:0.9em;">${(data.nasa_apod.explanation || '').substring(0, 300)}...</p>
-                    </div>`;
+                dataCount++;
+                html += `<div class="card"><div class="card-title">🔭 NASA: ${data.nasa_apod.title||'APOD'}</div>
+                    ${data.nasa_apod.media_type==='image' ? `<img src="${data.nasa_apod.url}" style="width:100%;border-radius:12px;margin-bottom:10px;" alt="APOD">` : ''}
+                    <p style="color:var(--text2);font-size:0.9em;">${(data.nasa_apod.explanation||'').substring(0,250)}...</p></div>`;
             }
             
-            // ISS
-            if (data.iss_position && data.iss_position.lat) {
-                grid.innerHTML += `
-                    <div class="card" style="text-align:center;">
-                        <div class="card-header" style="justify-content:center;">
-                            <span class="card-title">🛰️ ISS Current Position</span>
-                            <span class="card-badge badge-space">LIVE</span>
-                        </div>
-                        <div style="font-size:2em; font-weight:bold; color:var(--accent);">
-                            ${parseFloat(data.iss_position.lat).toFixed(4)}°, ${parseFloat(data.iss_position.lon).toFixed(4)}°
-                        </div>
-                        <p style="color:var(--text2); margin-top:10px;">Latitude / Longitude — Updated in real-time</p>
-                        <a href="https://isstracker.space" target="_blank" class="btn btn-outline" style="margin-top:10px;">Track ISS Live</a>
-                    </div>`;
+            // Countries
+            if (data.all_countries && Array.isArray(data.all_countries)) {
+                dataCount++;
+                html += createTableCard('🌍 Largest Countries by Population', 
+                    data.all_countries.sort((a,b)=>(b.population||0)-(a.population||0)).slice(0,10).map((c,i) => [
+                        i+1, c.country||'?', formatNum(c.population), c.region||'?'
+                    ]), ['#','Country','Population','Region']);
+                statsHtml += `<div class="stat-card"><div class="stat-number">${data.all_countries.length}</div><div class="stat-label">Countries</div></div>`;
+            }
+            
+            // HackerNews
+            if (data.hackernews && Array.isArray(data.hackernews) && data.hackernews.length > 0) {
+                dataCount++;
+                html += createTableCard('📰 HackerNews Top', data.hackernews.slice(0,10).map((s,i) => [
+                    i+1, `<a href="${s.url||'#'}" target="_blank" style="color:#e2e8f0;text-decoration:none;">${(s.title||'?').substring(0,70)}</a>`, formatNum(s.score)
+                ]), ['#','Title','Score']);
+            }
+            
+            // Reddit
+            if (data.reddit && Array.isArray(data.reddit) && data.reddit.length > 0) {
+                dataCount++;
+                html += createTableCard('🔴 Reddit r/all', data.reddit.slice(0,10).map((p,i) => [
+                    i+1, (p.title||'?').substring(0,60), `r/${p.subreddit||'?'}`, formatNum(p.score)
+                ]), ['#','Title','Subreddit','Score']);
+            }
+            
+            // COVID
+            if (data.covid_global && data.covid_global.cases) {
+                statsHtml += `<div class="stat-card"><div class="stat-number">${formatNum(data.covid_global.cases)}</div><div class="stat-label">Total COVID Cases</div></div>`;
+            }
+            
+            if (dataCount === 0) {
+                grid.innerHTML = `<div class="error-box"><h3>⚠️ No data available for this date</h3><p>The Time Capsule might not have run yet for this date. Try the previous day or check the <a href="https://github.com/edthedog-debug/internet-time-capsule/actions" style="color:var(--accent);">workflow status</a>.</p></div>`;
+                stats.innerHTML = '';
+            } else {
+                grid.innerHTML = html;
+                stats.innerHTML = statsHtml;
             }
         }
 
-        // ============================================
-        // CARD COMPONENTS
-        // ============================================
-        function createTableCard(title, badgeClass, headers, rows, chartId = null, chartLabels = [], chartData = [], chartLabel = '') {
-            const card = document.createElement('div');
-            card.className = 'card';
-            
-            let html = `
-                <div class="card-header">
-                    <span class="card-title">${title}</span>
-                    <span class="card-badge ${badgeClass}">${rows.length} items</span>
-                </div>`;
-            
-            if (chartId) {
-                html += `<div style="height:250px; margin-bottom:15px;"><canvas id="${chartId}"></canvas></div>`;
-            }
-            
-            html += `
+        function createTableCard(title, rows, headers, extra='') {
+            return `<div class="card">
+                <div class="card-title">${title}</div>
                 <div class="table-container">
                     <table class="data-table">
                         <thead><tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr></thead>
-                        <tbody>${rows.map(row => 
-                            `<tr>${row.map((cell, i) => 
-                                `<td class="${i === 0 ? 'rank' : ''} ${i === headers.length - 1 ? 'number' : ''}">${cell}</td>`
-                            ).join('')}</tr>`
-                        ).join('')}</tbody>
+                        <tbody>${rows.map(row => `<tr>${row.map((c,i) => `<td class="${i===0?'rank':''}">${c}</td>`).join('')}</tr>`).join('')}</tbody>
                     </table>
                 </div>
-                <button class="btn btn-outline" style="margin-top:15px;width:100%;" onclick="downloadCSV('${title.replace(/[^a-zA-Z0-9]/g,'_')}', ${JSON.stringify(headers)}, ${JSON.stringify(rows.map(r => r.map(c => c.replace(/<[^>]*>/g, ''))))})">
-                    📥 Download as CSV
-                </button>`;
+            </div>`;
+        }
+
+        async function loadToday() {
+            const path = getTodayPath();
+            document.getElementById('statusMessage').innerHTML = '<span style="color:#f59e0b;">⏳ Loading today...</span>';
+            document.getElementById('dashboardGrid').innerHTML = '<div class="loading"><div class="spinner"></div><p>Fetching data...</p></div>';
+            document.getElementById('datePicker').value = new Date().toISOString().split('T')[0];
             
-            card.innerHTML = html;
+            let data = await loadDate(path);
             
-            // Create chart after DOM insertion
-            if (chartId && chartLabels.length > 0) {
-                setTimeout(() => {
-                    new Chart(document.getElementById(chartId), {
-                        type: 'bar',
-                        data: {
-                            labels: chartLabels,
-                            datasets: [{
-                                label: chartLabel,
-                                data: chartData,
-                                backgroundColor: '#3b82f6',
-                                borderRadius: 8
-                            }]
-                        },
-                        options: {
-                            responsive: true,
-                            maintainAspectRatio: false,
-                            indexAxis: chartLabels.length > 10 ? 'y' : 'x',
-                            plugins: { legend: { labels: { color: '#94a3b8' } } },
-                            scales: {
-                                x: { ticks: { color: '#94a3b8', maxRotation: 45 }, grid: { color: '#1e293b' } },
-                                y: { ticks: { color: '#94a3b8' }, grid: { color: '#1e293b' } }
-                            }
-                        }
-                    });
-                }, 100);
+            // If empty, try yesterday
+            if (!data || Object.values(data).every(v => v == null)) {
+                const yesterday = new Date();
+                yesterday.setDate(yesterday.getDate() - 1);
+                const yPath = `${yesterday.getFullYear()}/${String(yesterday.getMonth()+1).padStart(2,'0')}/${String(yesterday.getDate()).padStart(2,'0')}`;
+                document.getElementById('statusMessage').innerHTML = '<span style="color:#f59e0b;">⚠️ No data for today yet. Trying yesterday...</span>';
+                data = await loadDate(yPath);
+                if (data && Object.values(data).some(v => v != null)) {
+                    document.getElementById('statusMessage').innerHTML = '<span style="color:#10b981;">✅ Showing yesterday\'s data (today\'s snapshot not yet generated)</span>';
+                }
+            } else {
+                document.getElementById('statusMessage').innerHTML = '<span style="color:#10b981;">✅ Data loaded successfully</span>';
             }
             
-            return card;
+            renderDashboard(data || {});
         }
-        
-        function createChartCard(title, badgeClass, chartId, type, labels, datasets) {
-            const card = document.createElement('div');
+
+        async function loadSelectedDate() {
+            const val = document.getElementById('datePicker').value;
+            if (!val) return;
+            const [y,m,d] = val.split('-');
+            const path = `${y}/${m}/${d}`;
+            document.getElementById('statusMessage').innerHTML = `<span style="color:#f59e0b;">⏳ Loading ${val}...</span>`;
+            document.getElementById('dashboardGrid').innerHTML = '<div class="loading"><div class="spinner"></div><p>Fetching data...</p></div>';
+            const data = await loadDate(path);
+            if (data && Object.values(data).some(v => v != null)) {
+                document.getElementById('statusMessage').innerHTML = `<span style="color:#10b981;">✅ Data loaded for ${val}</span>`;
+            } else {
+                document.getElementById('statusMessage').innerHTML = `<span style="color:#ef4444;">❌ No data found for ${val}</span>`;
+            }
+            renderDashboard(data || {});
+        }
+
+        // Init
+        document.getElementById('datePicker').value = new Date().toISOString().split('T')[0];
+        loadToday();
+    </script>
+</body>
+</html>
