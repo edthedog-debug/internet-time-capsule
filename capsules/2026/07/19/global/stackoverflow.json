@@ -1,0 +1,235 @@
+[
+  {
+    "title": "Why can my VS Code extension client not find a local module?",
+    "score": 0,
+    "views": 44,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "typescript",
+      "npm",
+      "vscode-extensions"
+    ],
+    "link": "https://stackoverflow.com/questions/79981958/why-can-my-vs-code-extension-client-not-find-a-local-module"
+  },
+  {
+    "title": "What is the idiomatic way to track dependencies for asynchronous callbacks in Svelte 5?",
+    "score": 0,
+    "views": 19,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "svelte",
+      "svelte-3",
+      "svelte-5",
+      "svelte-4"
+    ],
+    "link": "https://stackoverflow.com/questions/79981951/what-is-the-idiomatic-way-to-track-dependencies-for-asynchronous-callbacks-in-sv"
+  },
+  {
+    "title": "Vibration on mobile web",
+    "score": -2,
+    "views": 54,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "web",
+      "game-development"
+    ],
+    "link": "https://stackoverflow.com/questions/79981945/vibration-on-mobile-web"
+  },
+  {
+    "title": "Azure Application Gateway for Containers mTLS header forwarding possible?",
+    "score": 0,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "azure",
+      "kubernetes"
+    ],
+    "link": "https://stackoverflow.com/questions/79981954/azure-application-gateway-for-containers-mtls-header-forwarding-possible"
+  },
+  {
+    "title": "How to interpret questions with two criteria when looking at a scatter plot?",
+    "score": -1,
+    "views": 38,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "scatter-plot"
+    ],
+    "link": "https://stackoverflow.com/questions/79981938/how-to-interpret-questions-with-two-criteria-when-looking-at-a-scatter-plot"
+  },
+  {
+    "title": "SHGetFileInfo on &quot;Camera.lnk&quot; by PIDL outputs &quot;ReturnHr(3) tid(50b8) 80070490 Element not found&quot; but icon is correct",
+    "score": 0,
+    "views": 29,
+    "answers": 0,
+    "tags": [
+      "winapi"
+    ],
+    "link": "https://stackoverflow.com/questions/79981948/shgetfileinfo-on-camera-lnk-by-pidl-outputs-returnhr3-tid50b8-80070490-el"
+  },
+  {
+    "title": "gluestack-ui, Why isn&#39;t my Modal showing?",
+    "score": -2,
+    "views": 25,
+    "answers": 1,
+    "tags": [
+      "react-native",
+      "expo",
+      "gluestack"
+    ],
+    "link": "https://stackoverflow.com/questions/79981947/gluestack-ui-why-isnt-my-modal-showing"
+  },
+  {
+    "title": "Best architecture for building an ai text detection system with deberta-v3 and fast api",
+    "score": -5,
+    "views": 40,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "python",
+      "machine-learning",
+      "artificial-intelligence"
+    ],
+    "link": "https://stackoverflow.com/questions/79981941/best-architecture-for-building-an-ai-text-detection-system-with-deberta-v3-and-f"
+  },
+  {
+    "title": "AI&#39;s Impact on Website Profitability: Revenue Generation, Cost Considerations, and Shutdown Risks",
+    "score": -3,
+    "views": 50,
+    "answers": 0,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/79981934/ais-impact-on-website-profitability-revenue-generation-cost-considerations-a"
+  },
+  {
+    "title": "Does Meta ban your Business Portfolio if you test Embedded Signup with other phone numbers?",
+    "score": -2,
+    "views": 60,
+    "answers": 0,
+    "tags": [
+      "whatsapp-cloud-api"
+    ],
+    "link": "https://stackoverflow.com/questions/79981928/does-meta-ban-your-business-portfolio-if-you-test-embedded-signup-with-other-pho"
+  },
+  {
+    "title": "Delete Codex from XCode Intelligence Settings option",
+    "score": -2,
+    "views": 56,
+    "answers": 0,
+    "tags": [
+      "xcode"
+    ],
+    "link": "https://stackoverflow.com/questions/79981864/delete-codex-from-xcode-intelligence-settings-option"
+  },
+  {
+    "title": "Multiple dynamic arrays with arena memory allocator when parsing glTF",
+    "score": 2,
+    "views": 103,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "c",
+      "json",
+      "dynamic-arrays",
+      "gltf"
+    ],
+    "link": "https://stackoverflow.com/questions/79981913/multiple-dynamic-arrays-with-arena-memory-allocator-when-parsing-gltf"
+  },
+  {
+    "title": "Untracked files that should match gitignore are showing up for git status",
+    "score": 1,
+    "views": 66,
+    "answers": 0,
+    "tags": [
+      "git",
+      "gitignore"
+    ],
+    "link": "https://stackoverflow.com/questions/79981919/untracked-files-that-should-match-gitignore-are-showing-up-for-git-status"
+  },
+  {
+    "title": "What are the mostly used ways to access the output/result from a Windows command that can be done within a batch file?",
+    "score": -2,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "windows",
+      "batch-file"
+    ],
+    "link": "https://stackoverflow.com/questions/79981926/what-are-the-mostly-used-ways-to-access-the-output-result-from-a-windows-command"
+  },
+  {
+    "title": "Want to know if I can be a good programmer or not",
+    "score": -6,
+    "views": 133,
+    "answers": 0,
+    "tags": [
+      "advice"
+    ],
+    "link": "https://stackoverflow.com/questions/79981909/want-to-know-if-i-can-be-a-good-programmer-or-not"
+  },
+  {
+    "title": "Why kotlin.String resource is not found in android studio (kmp)?",
+    "score": -1,
+    "views": 53,
+    "answers": 0,
+    "tags": [
+      "android",
+      "kotlin",
+      "kotlin-multiplatform"
+    ],
+    "link": "https://stackoverflow.com/questions/79981889/why-kotlin-string-resource-is-not-found-in-android-studio-kmp"
+  },
+  {
+    "title": "Unable to create new Azure service connection in Azure DevOps",
+    "score": 0,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "azure",
+      "authentication",
+      "azure-devops",
+      "serviceconnection"
+    ],
+    "link": "https://stackoverflow.com/questions/79981905/unable-to-create-new-azure-service-connection-in-azure-devops"
+  },
+  {
+    "title": "Where is the C Standard function sqrt actually defined? (Windows user)",
+    "score": 1,
+    "views": 184,
+    "answers": 3,
+    "tags": [
+      "c",
+      "sqrt",
+      "c-standard-library"
+    ],
+    "link": "https://stackoverflow.com/questions/79981742/where-is-the-c-standard-function-sqrt-actually-defined-windows-user"
+  },
+  {
+    "title": "ID Token vs. API Response Body for user metadata",
+    "score": -3,
+    "views": 57,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "authentication",
+      "jwt",
+      "authorization"
+    ],
+    "link": "https://stackoverflow.com/questions/79981819/id-token-vs-api-response-body-for-user-metadata"
+  },
+  {
+    "title": "How to set up the environment for an older project",
+    "score": -8,
+    "views": 113,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "python-3.x"
+    ],
+    "link": "https://stackoverflow.com/questions/79981878/how-to-set-up-the-environment-for-an-older-project"
+  }
+]
