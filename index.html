@@ -423,7 +423,7 @@
 
             if (data.covid_global && data.covid_global.cases) {
                 let cov = data.covid_global;
-                worldHtml += `<div class="card full-width"><div class="card-title">🏥 Epidemiological Health Metrics Monitoring</div>
+                worldHtml += `<div class="card full-width"><div class="card-title">🏥 Epidemiological Health Metrics Monitoring (COVID-19)</div>
                 <div class="inner-flex-grid">
                     <div class="sub-block"><h4>Cumulative Diagnosed Cases</h4><span class="stat-number" style="color:var(--accent);">${cov.cases.toLocaleString()}</span></div>
                     <div class="sub-block"><h4>Global Fatalities Log</h4><span class="stat-number" style="color:var(--red);">${cov.deaths.toLocaleString()}</span></div>
