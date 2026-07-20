@@ -1,0 +1,243 @@
+[
+  {
+    "title": "sqlmap 通过 proxychains + MSF SOCKS 代理扫描失败，报 &quot;unable to connect to the target URL&quot;，但 curl 测试正常",
+    "score": -2,
+    "views": 28,
+    "answers": 0,
+    "tags": [
+      "security",
+      "sqlmap",
+      "proxychains"
+    ],
+    "link": "https://stackoverflow.com/questions/79982114/sqlmap-%e9%80%9a%e8%bf%87-proxychains-msf-socks-%e4%bb%a3%e7%90%86%e6%89%ab%e6%8f%8f%e5%a4%b1%e8%b4%a5-%e6%8a%a5-unable-to-connect-to-the-target-url"
+  },
+  {
+    "title": "String terminates itself if there is a syntax error in shader",
+    "score": 0,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "c",
+      "opengl",
+      "memory"
+    ],
+    "link": "https://stackoverflow.com/questions/79982119/string-terminates-itself-if-there-is-a-syntax-error-in-shader"
+  },
+  {
+    "title": "Could this fetch response still be cached by the browser?",
+    "score": 0,
+    "views": 28,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "fetch-api",
+      "browser-cache",
+      "revokeobjecturl"
+    ],
+    "link": "https://stackoverflow.com/questions/79982108/could-this-fetch-response-still-be-cached-by-the-browser"
+  },
+  {
+    "title": "Calculating 32-bit CRC for png",
+    "score": 1,
+    "views": 86,
+    "answers": 1,
+    "tags": [
+      "c",
+      "png"
+    ],
+    "link": "https://stackoverflow.com/questions/79982086/calculating-32-bit-crc-for-png"
+  },
+  {
+    "title": "COALESCE(NULL, pressure) fails type analysis instead of returning pressure",
+    "score": -1,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "time-series",
+      "apache-iotdb"
+    ],
+    "link": "https://stackoverflow.com/questions/79982100/coalescenull-pressure-fails-type-analysis-instead-of-returning-pressure"
+  },
+  {
+    "title": "What&#39;s causing my solr cores to fail to load after an upgrade from solr 9.10.1 to solr 10.0.0?",
+    "score": 2,
+    "views": 36,
+    "answers": 1,
+    "tags": [
+      "solr",
+      "solrcloud"
+    ],
+    "link": "https://stackoverflow.com/questions/79982093/whats-causing-my-solr-cores-to-fail-to-load-after-an-upgrade-from-solr-9-10-1-t"
+  },
+  {
+    "title": "My Selenium Tests are running without Error but desired link &quot;Buy online&quot; under &quot;For employers&quot; List is not opening",
+    "score": -1,
+    "views": 42,
+    "answers": 1,
+    "tags": [
+      "java",
+      "selenium-webdriver",
+      "drop-down-menu"
+    ],
+    "link": "https://stackoverflow.com/questions/79982085/my-selenium-tests-are-running-without-error-but-desired-link-buy-online-under"
+  },
+  {
+    "title": "Can an iOS app rely on iCloud Drive to finish syncing files after the app is suspended or terminated?",
+    "score": 1,
+    "views": 51,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "ios",
+      "swift",
+      "cloudkit",
+      "ckasset"
+    ],
+    "link": "https://stackoverflow.com/questions/79982087/can-an-ios-app-rely-on-icloud-drive-to-finish-syncing-files-after-the-app-is-sus"
+  },
+  {
+    "title": "finding common characters from an array of words",
+    "score": -1,
+    "views": 112,
+    "answers": 1,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/79982010/finding-common-characters-from-an-array-of-words"
+  },
+  {
+    "title": "Is something wrong with zeros or multiple pairs in stroke-dasharray?",
+    "score": 1,
+    "views": 74,
+    "answers": 2,
+    "tags": [
+      "svg",
+      "stroke-dasharray"
+    ],
+    "link": "https://stackoverflow.com/questions/79982021/is-something-wrong-with-zeros-or-multiple-pairs-in-stroke-dasharray"
+  },
+  {
+    "title": "CSS adaptive to JS condition",
+    "score": -1,
+    "views": 64,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "css",
+      "reactjs"
+    ],
+    "link": "https://stackoverflow.com/questions/79982037/css-adaptive-to-js-condition"
+  },
+  {
+    "title": "Best proxy providers",
+    "score": -4,
+    "views": 52,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation"
+    ],
+    "link": "https://stackoverflow.com/questions/79982069/best-proxy-providers"
+  },
+  {
+    "title": "Python tkinter wait_window does not return",
+    "score": 1,
+    "views": 51,
+    "answers": 1,
+    "tags": [
+      "python",
+      "windows",
+      "tkinter",
+      "tk-toolkit"
+    ],
+    "link": "https://stackoverflow.com/questions/79982066/python-tkinter-wait-window-does-not-return"
+  },
+  {
+    "title": "How to create a post within a landing style website",
+    "score": -1,
+    "views": 52,
+    "answers": 0,
+    "tags": [
+      "php",
+      "wordpress",
+      "plugins",
+      "backend"
+    ],
+    "link": "https://stackoverflow.com/questions/79982033/how-to-create-a-post-within-a-landing-style-website"
+  },
+  {
+    "title": "Does a temporary task used as a co_await operand survive until await_resume?",
+    "score": 4,
+    "views": 51,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "language-lawyer",
+      "c++20",
+      "coroutine"
+    ],
+    "link": "https://stackoverflow.com/questions/79982074/does-a-temporary-task-used-as-a-co-await-operand-survive-until-await-resume"
+  },
+  {
+    "title": "Efficiently query min-max range of `number` type facet of dynamic attributes in mongodb",
+    "score": 0,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "typescript",
+      "mongodb",
+      "mongoose",
+      "mongodb-query"
+    ],
+    "link": "https://stackoverflow.com/questions/79982084/efficiently-query-min-max-range-of-number-type-facet-of-dynamic-attributes-in"
+  },
+  {
+    "title": "Is there a way to keep DTO types only in the controller and avoid repeating them in the Fastify route?",
+    "score": -1,
+    "views": 50,
+    "answers": 0,
+    "tags": [
+      "node.js",
+      "typescript",
+      "clean-architecture",
+      "fastify"
+    ],
+    "link": "https://stackoverflow.com/questions/79982028/is-there-a-way-to-keep-dto-types-only-in-the-controller-and-avoid-repeating-them"
+  },
+  {
+    "title": "How can I convert an IP address to a country in R, and what are the recommended libraries?",
+    "score": -4,
+    "views": 110,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "r",
+      "geolocation",
+      "ip2location"
+    ],
+    "link": "https://stackoverflow.com/questions/79981980/how-can-i-convert-an-ip-address-to-a-country-in-r-and-what-are-the-recommended"
+  },
+  {
+    "title": "Mixed-mode debugging (C++ MFC + C++/CLI + .NET 10) not hitting native breakpoints",
+    "score": 2,
+    "views": 48,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "c++",
+      "visual-studio",
+      "mfc",
+      ".net-10.0"
+    ],
+    "link": "https://stackoverflow.com/questions/79982052/mixed-mode-debugging-c-mfc-c-cli-net-10-not-hitting-native-breakpoint"
+  },
+  {
+    "title": "Change multiple values in the same column",
+    "score": 0,
+    "views": 31,
+    "answers": 1,
+    "tags": [
+      "pandas"
+    ],
+    "link": "https://stackoverflow.com/questions/79982061/change-multiple-values-in-the-same-column"
+  }
+]
