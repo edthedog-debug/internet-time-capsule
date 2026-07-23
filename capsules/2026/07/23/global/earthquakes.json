@@ -1,0 +1,1802 @@
+[
+  {
+    "place": "38 km WSW of Ludlow, CA",
+    "magnitude": 1.09,
+    "time": 1784773419990,
+    "depth": 9.11,
+    "significance": 18,
+    "alert": "none"
+  },
+  {
+    "place": "61 km S of Whites City, New Mexico",
+    "magnitude": 2.2,
+    "time": 1784773412040,
+    "depth": 3.8273,
+    "significance": 74,
+    "alert": "none"
+  },
+  {
+    "place": "54 km NW of Toyah, Texas",
+    "magnitude": 2.1,
+    "time": 1784772993469,
+    "depth": 4.2173,
+    "significance": 68,
+    "alert": "none"
+  },
+  {
+    "place": "55 km NW of Toyah, Texas",
+    "magnitude": 2.1,
+    "time": 1784772914165,
+    "depth": 4.1017,
+    "significance": 68,
+    "alert": "none"
+  },
+  {
+    "place": "82 km NNW of Karluk, Alaska",
+    "magnitude": 1.1,
+    "time": 1784772606723,
+    "depth": 5,
+    "significance": 19,
+    "alert": "none"
+  },
+  {
+    "place": "52 km NNW of Paxson, Alaska",
+    "magnitude": 1,
+    "time": 1784772277899,
+    "depth": 7.4,
+    "significance": 15,
+    "alert": "none"
+  },
+  {
+    "place": "55 km NW of Toyah, Texas",
+    "magnitude": 1.8,
+    "time": 1784772166940,
+    "depth": 3.7678,
+    "significance": 50,
+    "alert": "none"
+  },
+  {
+    "place": "60 km S of Whites City, New Mexico",
+    "magnitude": 1.8,
+    "time": 1784771940334,
+    "depth": 4.4686,
+    "significance": 50,
+    "alert": "none"
+  },
+  {
+    "place": "72 km S of Calama, Chile",
+    "magnitude": 4.7,
+    "time": 1784771760935,
+    "depth": 95.961,
+    "significance": 340,
+    "alert": "none"
+  },
+  {
+    "place": "18 km NW of Balmorhea, Texas",
+    "magnitude": 1.6,
+    "time": 1784771123922,
+    "depth": 0,
+    "significance": 39,
+    "alert": "none"
+  },
+  {
+    "place": "9 km NE of Borrego Springs, CA",
+    "magnitude": 1.27,
+    "time": 1784770097510,
+    "depth": 12.1,
+    "significance": 25,
+    "alert": "none"
+  },
+  {
+    "place": "55 km NW of Toyah, Texas",
+    "magnitude": 1.8,
+    "time": 1784769857896,
+    "depth": 4.5569,
+    "significance": 50,
+    "alert": "none"
+  },
+  {
+    "place": "6 km W of Cobb, CA",
+    "magnitude": 0.21,
+    "time": 1784769585780,
+    "depth": 0.680000007152557,
+    "significance": 1,
+    "alert": "none"
+  },
+  {
+    "place": "2 km W of Pāhala, Hawaii",
+    "magnitude": 2.18,
+    "time": 1784769395810,
+    "depth": 30.4699993133545,
+    "significance": 73,
+    "alert": "none"
+  },
+  {
+    "place": "85 km NNW of Karluk, Alaska",
+    "magnitude": 0.6,
+    "time": 1784769340846,
+    "depth": 9.3,
+    "significance": 6,
+    "alert": "none"
+  },
+  {
+    "place": "10 km WNW of The Geysers, CA",
+    "magnitude": 0.94,
+    "time": 1784768483380,
+    "depth": 2.40000009536743,
+    "significance": 14,
+    "alert": "none"
+  },
+  {
+    "place": "5 km WNW of Cobb, CA",
+    "magnitude": 0.77,
+    "time": 1784768263700,
+    "depth": 1.62999999523163,
+    "significance": 9,
+    "alert": "none"
+  },
+  {
+    "place": "5 km NNW of Coto Laurel, Puerto Rico",
+    "magnitude": 2.06,
+    "time": 1784767956530,
+    "depth": 19.34,
+    "significance": 65,
+    "alert": "none"
+  },
+  {
+    "place": "2 km NNE of San Leandro, CA",
+    "magnitude": 2.73,
+    "time": 1784767931350,
+    "depth": 3.50999999046326,
+    "significance": 257,
+    "alert": "none"
+  },
+  {
+    "place": "55 km ENE of Kenny Lake, Alaska",
+    "magnitude": 1.4,
+    "time": 1784767145539,
+    "depth": 11.6,
+    "significance": 30,
+    "alert": "none"
+  },
+  {
+    "place": "9 km WNW of Cobb, CA",
+    "magnitude": 0.7,
+    "time": 1784766943780,
+    "depth": 1.75999999046326,
+    "significance": 8,
+    "alert": "none"
+  },
+  {
+    "place": "11 km ESE of Willits, CA",
+    "magnitude": 2.54,
+    "time": 1784766637490,
+    "depth": 6.80000019073486,
+    "significance": 100,
+    "alert": "none"
+  },
+  {
+    "place": "45 km NW of Ninilchik, Alaska",
+    "magnitude": 2.2,
+    "time": 1784766263474,
+    "depth": 107.1,
+    "significance": 75,
+    "alert": "none"
+  },
+  {
+    "place": "5 km WNW of The Geysers, CA",
+    "magnitude": 1.07,
+    "time": 1784765541800,
+    "depth": 3.11999988555908,
+    "significance": 18,
+    "alert": "none"
+  },
+  {
+    "place": "6 km ENE of Fox, Alaska",
+    "magnitude": 1,
+    "time": 1784765539159,
+    "depth": 5,
+    "significance": 15,
+    "alert": "none"
+  },
+  {
+    "place": "5 km WNW of The Geysers, CA",
+    "magnitude": 1.47,
+    "time": 1784765523910,
+    "depth": 2.75,
+    "significance": 33,
+    "alert": "none"
+  },
+  {
+    "place": "9 km NNW of Ester, Alaska",
+    "magnitude": 0.7,
+    "time": 1784764985444,
+    "depth": 6.7,
+    "significance": 8,
+    "alert": "none"
+  },
+  {
+    "place": "34 km SSE of Malaga, New Mexico",
+    "magnitude": 2,
+    "time": 1784764254055,
+    "depth": 4.7732,
+    "significance": 62,
+    "alert": "none"
+  },
+  {
+    "place": "81 km NW of Ninilchik, Alaska",
+    "magnitude": -0.85,
+    "time": 1784764048220,
+    "depth": 5.32,
+    "significance": 0,
+    "alert": "none"
+  },
+  {
+    "place": "115 km SSE of Akhiok, Alaska",
+    "magnitude": 2.8,
+    "time": 1784762787832,
+    "depth": 20.1,
+    "significance": 121,
+    "alert": "none"
+  },
+  {
+    "place": "13 km NNE of Bray, Oklahoma",
+    "magnitude": 2.13,
+    "time": 1784762755777,
+    "depth": 9.194049835,
+    "significance": 70,
+    "alert": "none"
+  },
+  {
+    "place": "15 km NE of Henderson, Nevada",
+    "magnitude": 1.52,
+    "time": 1784761868987,
+    "depth": 3.2021,
+    "significance": 36,
+    "alert": "none"
+  },
+  {
+    "place": "11 km SSW of Jal, New Mexico",
+    "magnitude": 1.4,
+    "time": 1784761610568,
+    "depth": 4.3732,
+    "significance": 30,
+    "alert": "none"
+  },
+  {
+    "place": "15 km SSW of Jal, New Mexico",
+    "magnitude": 1.5,
+    "time": 1784761325310,
+    "depth": 6.831,
+    "significance": 35,
+    "alert": "none"
+  },
+  {
+    "place": "81 km NNW of Karluk, Alaska",
+    "magnitude": 1.7,
+    "time": 1784760590577,
+    "depth": 5,
+    "significance": 44,
+    "alert": "none"
+  },
+  {
+    "place": "9 km NE of Gilroy, CA",
+    "magnitude": 1.53,
+    "time": 1784759972880,
+    "depth": 6.05999994277954,
+    "significance": 36,
+    "alert": "none"
+  },
+  {
+    "place": "57 km S of Whites City, New Mexico",
+    "magnitude": 1.8,
+    "time": 1784759848070,
+    "depth": 3.7995,
+    "significance": 50,
+    "alert": "none"
+  },
+  {
+    "place": "59 km S of Whites City, New Mexico",
+    "magnitude": 2.1,
+    "time": 1784759817202,
+    "depth": 3.9904,
+    "significance": 68,
+    "alert": "none"
+  },
+  {
+    "place": "110 km N of Yakutat, Alaska",
+    "magnitude": 2.5,
+    "time": 1784759354221,
+    "depth": 10.454,
+    "significance": 96,
+    "alert": "none"
+  },
+  {
+    "place": "5 km SSW of Pāhala, Hawaii",
+    "magnitude": 1.89,
+    "time": 1784759278310,
+    "depth": 29.6000003814697,
+    "significance": 55,
+    "alert": "none"
+  },
+  {
+    "place": "4 km SW of Dayton, Washington",
+    "magnitude": 1.90560555458069,
+    "time": 1784758654060,
+    "depth": 5.40000009536743,
+    "significance": 56,
+    "alert": "none"
+  },
+  {
+    "place": "9 km WNW of Cobb, CA",
+    "magnitude": 0.72,
+    "time": 1784758644760,
+    "depth": 1.67999994754791,
+    "significance": 8,
+    "alert": "none"
+  },
+  {
+    "place": "96 km NNW of Karluk, Alaska",
+    "magnitude": 0.11,
+    "time": 1784758508740,
+    "depth": 1.35,
+    "significance": 0,
+    "alert": "none"
+  },
+  {
+    "place": "17 km NW of Hihifo, Tonga",
+    "magnitude": 4.9,
+    "time": 1784757531218,
+    "depth": 71.248,
+    "significance": 369,
+    "alert": "none"
+  },
+  {
+    "place": "40 km NE of Amboy, Washington",
+    "magnitude": -0.03,
+    "time": 1784757391750,
+    "depth": 7.2,
+    "significance": 0,
+    "alert": "none"
+  },
+  {
+    "place": "6 km SE of Maria Antonia, Puerto Rico",
+    "magnitude": 2.62,
+    "time": 1784757374060,
+    "depth": 11.4,
+    "significance": 106,
+    "alert": "none"
+  },
+  {
+    "place": "10 km ENE of Coso Junction, CA",
+    "magnitude": -0.19,
+    "time": 1784756632010,
+    "depth": 5.62,
+    "significance": 0,
+    "alert": "none"
+  },
+  {
+    "place": "14 km SSW of Searles Valley, CA",
+    "magnitude": 1.06,
+    "time": 1784756608520,
+    "depth": 9.02,
+    "significance": 17,
+    "alert": "none"
+  },
+  {
+    "place": "104 km ENE of Port-Olry, Vanuatu",
+    "magnitude": 4.9,
+    "time": 1784756570558,
+    "depth": 10,
+    "significance": 369,
+    "alert": "none"
+  },
+  {
+    "place": "9 km WNW of Cobb, CA",
+    "magnitude": 0.77,
+    "time": 1784756195040,
+    "depth": 2.04999995231628,
+    "significance": 9,
+    "alert": "none"
+  },
+  {
+    "place": "3 km SE of The Geysers, CA",
+    "magnitude": 0.83,
+    "time": 1784756028490,
+    "depth": 2.00999999046326,
+    "significance": 11,
+    "alert": "none"
+  },
+  {
+    "place": "6 km SE of Maria Antonia, Puerto Rico",
+    "magnitude": 2.66,
+    "time": 1784755339720,
+    "depth": 11.76,
+    "significance": 109,
+    "alert": "none"
+  },
+  {
+    "place": "3 km SE of The Geysers, CA",
+    "magnitude": 1.05,
+    "time": 1784755236630,
+    "depth": 6.84000015258789,
+    "significance": 17,
+    "alert": "none"
+  },
+  {
+    "place": "8 km SSW of Chilliwack, Canada",
+    "magnitude": 1.45,
+    "time": 1784754900770,
+    "depth": -0.71,
+    "significance": 32,
+    "alert": "none"
+  },
+  {
+    "place": "54 km NW of Toyah, Texas",
+    "magnitude": 2.2,
+    "time": 1784754564895,
+    "depth": 4.4437,
+    "significance": 74,
+    "alert": "none"
+  },
+  {
+    "place": "51 km NE of Lake Minchumina, Alaska",
+    "magnitude": 1.9,
+    "time": 1784754512109,
+    "depth": 1.9,
+    "significance": 56,
+    "alert": "none"
+  },
+  {
+    "place": "9 km N of Borrego Springs, CA",
+    "magnitude": 0.62,
+    "time": 1784754502570,
+    "depth": 10.56,
+    "significance": 6,
+    "alert": "none"
+  },
+  {
+    "place": "Kermadec Islands, New Zealand",
+    "magnitude": 5,
+    "time": 1784754182092,
+    "depth": 46.903,
+    "significance": 385,
+    "alert": "none"
+  },
+  {
+    "place": "79 km NW of San Antonio, Puerto Rico",
+    "magnitude": 3.32,
+    "time": 1784754132850,
+    "depth": 9.66,
+    "significance": 170,
+    "alert": "none"
+  },
+  {
+    "place": "4 km SSW of Pāhala, Hawaii",
+    "magnitude": 1.96,
+    "time": 1784753937070,
+    "depth": 28.7999992370605,
+    "significance": 59,
+    "alert": "none"
+  },
+  {
+    "place": "46 km S of Hualien City, Taiwan",
+    "magnitude": 4.1,
+    "time": 1784753829754,
+    "depth": 24.429,
+    "significance": 259,
+    "alert": "none"
+  },
+  {
+    "place": "11 km NE of Abbotsford, Canada",
+    "magnitude": 1.49,
+    "time": 1784753125150,
+    "depth": -0.68,
+    "significance": 34,
+    "alert": "none"
+  },
+  {
+    "place": "2 km SSW of Pāhala, Hawaii",
+    "magnitude": 2.85,
+    "time": 1784752715790,
+    "depth": 31.62,
+    "significance": 125,
+    "alert": "none"
+  },
+  {
+    "place": "7 km WNW of The Geysers, CA",
+    "magnitude": 0.76,
+    "time": 1784752424510,
+    "depth": 0.930000007152557,
+    "significance": 9,
+    "alert": "none"
+  },
+  {
+    "place": "6 km NW of San Francisco Zoo, CA",
+    "magnitude": 1.46,
+    "time": 1784751976870,
+    "depth": 11.7399997711182,
+    "significance": 33,
+    "alert": "none"
+  },
+  {
+    "place": "13 km W of Valley, Washington",
+    "magnitude": 1.53,
+    "time": 1784751359640,
+    "depth": -1.09,
+    "significance": 36,
+    "alert": "none"
+  },
+  {
+    "place": "11 km NNE of Ninilchik, Alaska",
+    "magnitude": 2.6,
+    "time": 1784751155636,
+    "depth": 57.9,
+    "significance": 104,
+    "alert": "none"
+  },
+  {
+    "place": "25 km NW of Huntington, Oregon",
+    "magnitude": 1.76,
+    "time": 1784750906210,
+    "depth": -1.58,
+    "significance": 48,
+    "alert": "none"
+  },
+  {
+    "place": "Kermadec Islands, New Zealand",
+    "magnitude": 4.9,
+    "time": 1784750847595,
+    "depth": 35,
+    "significance": 369,
+    "alert": "none"
+  },
+  {
+    "place": "1 km SSE of Stonewall, Oklahoma",
+    "magnitude": 1.2,
+    "time": 1784750816299,
+    "depth": 0.76,
+    "significance": 22,
+    "alert": "none"
+  },
+  {
+    "place": "10 km SSE of Pāhala, Hawaii",
+    "magnitude": 1.72,
+    "time": 1784750617520,
+    "depth": 24.5400009155273,
+    "significance": 46,
+    "alert": "none"
+  },
+  {
+    "place": "5 km WNW of Little Lake, CA",
+    "magnitude": 0.53,
+    "time": 1784749958770,
+    "depth": 3.75,
+    "significance": 4,
+    "alert": "none"
+  },
+  {
+    "place": "17 km W of Susitna, Alaska",
+    "magnitude": 1.8,
+    "time": 1784749779323,
+    "depth": 64.6,
+    "significance": 50,
+    "alert": "none"
+  },
+  {
+    "place": "60 km WNW of Tyonek, Alaska",
+    "magnitude": 0.16,
+    "time": 1784749624990,
+    "depth": 5.89,
+    "significance": 0,
+    "alert": "none"
+  },
+  {
+    "place": "6 km NW of The Geysers, CA",
+    "magnitude": 1.03,
+    "time": 1784749582000,
+    "depth": 2.51999998092651,
+    "significance": 16,
+    "alert": "none"
+  },
+  {
+    "place": "3 km ESE of Home Gardens, CA",
+    "magnitude": 1.21,
+    "time": 1784748632750,
+    "depth": -0.45,
+    "significance": 23,
+    "alert": "none"
+  },
+  {
+    "place": "85 km NNW of Karluk, Alaska",
+    "magnitude": -0.43,
+    "time": 1784748265240,
+    "depth": 3.7,
+    "significance": 0,
+    "alert": "none"
+  },
+  {
+    "place": "14 km SE of Pāhala, Hawaii",
+    "magnitude": 1.83,
+    "time": 1784748189750,
+    "depth": 27.8400001525879,
+    "significance": 52,
+    "alert": "none"
+  },
+  {
+    "place": "34 km SSE of Malaga, New Mexico",
+    "magnitude": 1.6,
+    "time": 1784747877193,
+    "depth": 4.7008,
+    "significance": 39,
+    "alert": "none"
+  },
+  {
+    "place": "10 km NW of Pinnacles, CA",
+    "magnitude": 1.98,
+    "time": 1784746432330,
+    "depth": 3.8199999332428,
+    "significance": 60,
+    "alert": "none"
+  },
+  {
+    "place": "105 km SSE of Akhiok, Alaska",
+    "magnitude": 3.2,
+    "time": 1784746291884,
+    "depth": 6.1,
+    "significance": 158,
+    "alert": "none"
+  },
+  {
+    "place": "100 km SSE of Akhiok, Alaska",
+    "magnitude": 2.8,
+    "time": 1784746119662,
+    "depth": 5.2,
+    "significance": 121,
+    "alert": "none"
+  },
+  {
+    "place": "Kermadec Islands region",
+    "magnitude": 4.8,
+    "time": 1784744979600,
+    "depth": 346.444,
+    "significance": 354,
+    "alert": "none"
+  },
+  {
+    "place": "57 km NW of Toyah, Texas",
+    "magnitude": 1.7,
+    "time": 1784744081530,
+    "depth": 6.5613,
+    "significance": 44,
+    "alert": "none"
+  },
+  {
+    "place": "96 km SSE of Akhiok, Alaska",
+    "magnitude": 4.9,
+    "time": 1784744003544,
+    "depth": 16.2,
+    "significance": 370,
+    "alert": "none"
+  },
+  {
+    "place": "23 km ESE of Naalehu, Hawaii",
+    "magnitude": 1.74,
+    "time": 1784743662590,
+    "depth": 31.1800003051758,
+    "significance": 47,
+    "alert": "none"
+  },
+  {
+    "place": "12 km S of Pedro Bay, Alaska",
+    "magnitude": 2,
+    "time": 1784743493657,
+    "depth": 166,
+    "significance": 62,
+    "alert": "none"
+  },
+  {
+    "place": "5 km WNW of Little Lake, CA",
+    "magnitude": 0.69,
+    "time": 1784743447200,
+    "depth": 2.75,
+    "significance": 7,
+    "alert": "none"
+  },
+  {
+    "place": "2 km SW of Anderson Springs, CA",
+    "magnitude": 1.06,
+    "time": 1784743361780,
+    "depth": 1.23000001907349,
+    "significance": 17,
+    "alert": "none"
+  },
+  {
+    "place": "9 km NE of Coso Junction, CA",
+    "magnitude": 0.67,
+    "time": 1784743332140,
+    "depth": 3.41,
+    "significance": 7,
+    "alert": "none"
+  },
+  {
+    "place": "83 km NE of Tonopah, Nevada",
+    "magnitude": 1.8,
+    "time": 1784743130591,
+    "depth": 5.0238,
+    "significance": 50,
+    "alert": "none"
+  },
+  {
+    "place": "6 km NNW of The Geysers, CA",
+    "magnitude": 0.75,
+    "time": 1784742804330,
+    "depth": 3.09999990463257,
+    "significance": 9,
+    "alert": "none"
+  },
+  {
+    "place": "61 km SSW of San Pedro de Atacama, Chile",
+    "magnitude": 5.1,
+    "time": 1784741676746,
+    "depth": 108.731,
+    "significance": 400,
+    "alert": "none"
+  },
+  {
+    "place": "63 km ENE of Pedro Bay, Alaska",
+    "magnitude": 1.9,
+    "time": 1784741474174,
+    "depth": 130.3,
+    "significance": 56,
+    "alert": "none"
+  },
+  {
+    "place": "6 km WNW of Tiptonville, Tennessee",
+    "magnitude": 1.9,
+    "time": 1784741315530,
+    "depth": 9.6,
+    "significance": 56,
+    "alert": "none"
+  },
+  {
+    "place": "16 km NE of Yerington, Nevada",
+    "magnitude": 3.5,
+    "time": 1784740852315,
+    "depth": 14,
+    "significance": 192,
+    "alert": "none"
+  },
+  {
+    "place": "230 km SE of Chiniak, Alaska",
+    "magnitude": 3.3,
+    "time": 1784740529796,
+    "depth": 10,
+    "significance": 168,
+    "alert": "none"
+  },
+  {
+    "place": "6 km S of Marrowstone, Washington",
+    "magnitude": 0.98,
+    "time": 1784740442640,
+    "depth": 26.58,
+    "significance": 15,
+    "alert": "none"
+  },
+  {
+    "place": "66 km SSW of Puerto Madero, Mexico",
+    "magnitude": 4.3,
+    "time": 1784739810001,
+    "depth": 35,
+    "significance": 284,
+    "alert": "none"
+  },
+  {
+    "place": "0 km E of Circleville, Utah",
+    "magnitude": 1.4,
+    "time": 1784739582220,
+    "depth": 1.84,
+    "significance": 30,
+    "alert": "none"
+  },
+  {
+    "place": "4 km SW of Malibu Beach, CA",
+    "magnitude": 0.89,
+    "time": 1784738855800,
+    "depth": 14.67,
+    "significance": 12,
+    "alert": "none"
+  },
+  {
+    "place": "60 km NE of Port Alsworth, Alaska",
+    "magnitude": 1.3,
+    "time": 1784737880822,
+    "depth": 14.6,
+    "significance": 26,
+    "alert": "none"
+  },
+  {
+    "place": "43 km W of Nikolski, Alaska",
+    "magnitude": 1.95,
+    "time": 1784737386260,
+    "depth": 0.5,
+    "significance": 58,
+    "alert": "none"
+  },
+  {
+    "place": "13 km SSW of Jal, New Mexico",
+    "magnitude": 1.4,
+    "time": 1784737313128,
+    "depth": 5.9204,
+    "significance": 30,
+    "alert": "none"
+  },
+  {
+    "place": "11 km ENE of Ocotillo Wells, CA",
+    "magnitude": 0.6,
+    "time": 1784736053510,
+    "depth": 5.41,
+    "significance": 6,
+    "alert": "none"
+  },
+  {
+    "place": "10 km N of Borrego Springs, CA",
+    "magnitude": 0.8,
+    "time": 1784735781650,
+    "depth": 12.26,
+    "significance": 10,
+    "alert": "none"
+  },
+  {
+    "place": "10 km N of Borrego Springs, CA",
+    "magnitude": 0.86,
+    "time": 1784735779700,
+    "depth": 12.52,
+    "significance": 11,
+    "alert": "none"
+  },
+  {
+    "place": "14 km SE of Volcano, Hawaii",
+    "magnitude": 1.77,
+    "time": 1784735591240,
+    "depth": 3.46000003814697,
+    "significance": 48,
+    "alert": "none"
+  },
+  {
+    "place": "14 km S of Fern Forest, Hawaii",
+    "magnitude": 1.36,
+    "time": 1784735316660,
+    "depth": 7,
+    "significance": 28,
+    "alert": "none"
+  },
+  {
+    "place": "Kermadec Islands region",
+    "magnitude": 4.8,
+    "time": 1784735147284,
+    "depth": 35,
+    "significance": 354,
+    "alert": "none"
+  },
+  {
+    "place": "17 km SE of Silver Springs, Nevada",
+    "magnitude": 1.83,
+    "time": 1784735108094,
+    "depth": 6.5491,
+    "significance": 52,
+    "alert": "none"
+  },
+  {
+    "place": "1 km SSW of Laguna Niguel, CA",
+    "magnitude": 1.25,
+    "time": 1784734965570,
+    "depth": 13.96,
+    "significance": 24,
+    "alert": "none"
+  },
+  {
+    "place": "Kermadec Islands, New Zealand",
+    "magnitude": 4.9,
+    "time": 1784734762525,
+    "depth": 35,
+    "significance": 369,
+    "alert": "none"
+  },
+  {
+    "place": "34 km SSE of Malaga, New Mexico",
+    "magnitude": 1.3,
+    "time": 1784731981391,
+    "depth": 7.1509,
+    "significance": 26,
+    "alert": "none"
+  },
+  {
+    "place": "21 km NW of Beluga, Alaska",
+    "magnitude": 1.1,
+    "time": 1784731894053,
+    "depth": 78.3,
+    "significance": 19,
+    "alert": "none"
+  },
+  {
+    "place": "200 km W of Abepura, Indonesia",
+    "magnitude": 4.9,
+    "time": 1784731842472,
+    "depth": 10,
+    "significance": 369,
+    "alert": "none"
+  },
+  {
+    "place": "64 km ENE of Pedro Bay, Alaska",
+    "magnitude": -0.34,
+    "time": 1784731549120,
+    "depth": 0.84,
+    "significance": 0,
+    "alert": "none"
+  },
+  {
+    "place": "6 km W of Dutch Harbor, Alaska",
+    "magnitude": 0.47,
+    "time": 1784731485090,
+    "depth": 9.93,
+    "significance": 3,
+    "alert": "none"
+  },
+  {
+    "place": "7 km W of Dutch Harbor, Alaska",
+    "magnitude": 0.07,
+    "time": 1784730950100,
+    "depth": 7.91,
+    "significance": 0,
+    "alert": "none"
+  },
+  {
+    "place": "0 km W of Guánica, Puerto Rico",
+    "magnitude": 2.42,
+    "time": 1784730665450,
+    "depth": 12.33,
+    "significance": 90,
+    "alert": "none"
+  },
+  {
+    "place": "8 km WNW of Dutch Harbor, Alaska",
+    "magnitude": 0.61,
+    "time": 1784730616000,
+    "depth": 8.02,
+    "significance": 6,
+    "alert": "none"
+  },
+  {
+    "place": "27 km SSW of Mammoth, Wyoming",
+    "magnitude": 1.32,
+    "time": 1784729701190,
+    "depth": 5.06,
+    "significance": 27,
+    "alert": "none"
+  },
+  {
+    "place": "15 km W of Round Valley, CA",
+    "magnitude": 1.48,
+    "time": 1784729687150,
+    "depth": 1.46000003814697,
+    "significance": 34,
+    "alert": "none"
+  },
+  {
+    "place": "69 km WNW of Tyonek, Alaska",
+    "magnitude": -0.46,
+    "time": 1784728312480,
+    "depth": 2.08,
+    "significance": 0,
+    "alert": "none"
+  },
+  {
+    "place": "9 km SSE of Pāhala, Hawaii",
+    "magnitude": 1.58,
+    "time": 1784727491840,
+    "depth": 27.98,
+    "significance": 38,
+    "alert": "none"
+  },
+  {
+    "place": "7 km NW of The Geysers, CA",
+    "magnitude": 1.89,
+    "time": 1784726589960,
+    "depth": 2.42000007629395,
+    "significance": 55,
+    "alert": "none"
+  },
+  {
+    "place": "7 km E of Calimesa, CA",
+    "magnitude": 0.87,
+    "time": 1784725739970,
+    "depth": 11.56,
+    "significance": 12,
+    "alert": "none"
+  },
+  {
+    "place": "66 km ENE of Pedro Bay, Alaska",
+    "magnitude": -0.58,
+    "time": 1784724582670,
+    "depth": -1.37,
+    "significance": 0,
+    "alert": "none"
+  },
+  {
+    "place": "12 km E of Aguanga, CA",
+    "magnitude": 0.83,
+    "time": 1784724297810,
+    "depth": 12.86,
+    "significance": 11,
+    "alert": "none"
+  },
+  {
+    "place": "6 km WSW of Bennington, Idaho",
+    "magnitude": 1.88,
+    "time": 1784723956770,
+    "depth": 6.31,
+    "significance": 54,
+    "alert": "none"
+  },
+  {
+    "place": "24 km ENE of West Yellowstone, Montana",
+    "magnitude": 1.63,
+    "time": 1784723553120,
+    "depth": 4.87,
+    "significance": 41,
+    "alert": "none"
+  },
+  {
+    "place": "4 km N of Julian, CA",
+    "magnitude": 0.61,
+    "time": 1784723277260,
+    "depth": 11.79,
+    "significance": 6,
+    "alert": "none"
+  },
+  {
+    "place": "2 km WSW of Circleville, Utah",
+    "magnitude": 1.31,
+    "time": 1784722942860,
+    "depth": 1.84,
+    "significance": 26,
+    "alert": "none"
+  },
+  {
+    "place": "4 km WSW of Circleville, Utah",
+    "magnitude": 0.94,
+    "time": 1784722633770,
+    "depth": 1.83,
+    "significance": 14,
+    "alert": "none"
+  },
+  {
+    "place": "4 km NW of Marston, Missouri",
+    "magnitude": 1.47,
+    "time": 1784721449810,
+    "depth": 8.25,
+    "significance": 33,
+    "alert": "none"
+  },
+  {
+    "place": "28 km S of Morton, Washington",
+    "magnitude": -0.05,
+    "time": 1784720624260,
+    "depth": 4.79,
+    "significance": 0,
+    "alert": "none"
+  },
+  {
+    "place": "56 km WNW of Beluga, Alaska",
+    "magnitude": 0.09,
+    "time": 1784720481440,
+    "depth": 2.41,
+    "significance": 0,
+    "alert": "none"
+  },
+  {
+    "place": "59 km WNW of Beluga, Alaska",
+    "magnitude": 0.89,
+    "time": 1784720442000,
+    "depth": -2.46,
+    "significance": 12,
+    "alert": "none"
+  },
+  {
+    "place": "93 km NE of Tonopah, Nevada",
+    "magnitude": 1.64,
+    "time": 1784720424034,
+    "depth": 9.7285,
+    "significance": 41,
+    "alert": "none"
+  },
+  {
+    "place": "21 km ENE of Ashford, Washington",
+    "magnitude": 0.68,
+    "time": 1784720272050,
+    "depth": -2.61,
+    "significance": 7,
+    "alert": "none"
+  },
+  {
+    "place": "103 km S of San Pedro de Atacama, Chile",
+    "magnitude": 4.6,
+    "time": 1784720237816,
+    "depth": 126.094,
+    "significance": 326,
+    "alert": "none"
+  },
+  {
+    "place": "15 km SW of Thatcher, Utah",
+    "magnitude": 0.41,
+    "time": 1784719517780,
+    "depth": 2.71,
+    "significance": 3,
+    "alert": "none"
+  },
+  {
+    "place": "12 km SW of Searles Valley, CA",
+    "magnitude": 1.12,
+    "time": 1784718960870,
+    "depth": 6.98,
+    "significance": 19,
+    "alert": "none"
+  },
+  {
+    "place": "11 km ENE of Ocotillo Wells, CA",
+    "magnitude": 1.15,
+    "time": 1784718873220,
+    "depth": 5.43,
+    "significance": 20,
+    "alert": "none"
+  },
+  {
+    "place": "58 km NE of Calama, Chile",
+    "magnitude": 4.3,
+    "time": 1784718771471,
+    "depth": 112.974,
+    "significance": 284,
+    "alert": "none"
+  },
+  {
+    "place": "58 km ESE of Tomioka, Japan",
+    "magnitude": 4.4,
+    "time": 1784718692578,
+    "depth": 47.601,
+    "significance": 298,
+    "alert": "none"
+  },
+  {
+    "place": "9 km SE of Cloverdale, CA",
+    "magnitude": 1.67,
+    "time": 1784718606760,
+    "depth": 5.63000011444092,
+    "significance": 43,
+    "alert": "none"
+  },
+  {
+    "place": "17 km WSW of Johannesburg, CA",
+    "magnitude": 1.05,
+    "time": 1784718600300,
+    "depth": 8.13,
+    "significance": 17,
+    "alert": "none"
+  },
+  {
+    "place": "64 km WNW of Happy Valley, Alaska",
+    "magnitude": 2.3,
+    "time": 1784718539072,
+    "depth": 121.5,
+    "significance": 81,
+    "alert": "none"
+  },
+  {
+    "place": "89 km NW of Finschhafen, Papua New Guinea",
+    "magnitude": 4.7,
+    "time": 1784717912056,
+    "depth": 106.527,
+    "significance": 340,
+    "alert": "none"
+  },
+  {
+    "place": "1 km SW of Circleville, Utah",
+    "magnitude": 1.37,
+    "time": 1784717597580,
+    "depth": 1.84,
+    "significance": 29,
+    "alert": "none"
+  },
+  {
+    "place": "40 km S of Pole Ojea, Puerto Rico",
+    "magnitude": 3.03,
+    "time": 1784717522410,
+    "depth": 7.78,
+    "significance": 141,
+    "alert": "none"
+  },
+  {
+    "place": "2 km SE of Beaver, Utah",
+    "magnitude": 0.56,
+    "time": 1784717314170,
+    "depth": 5.89,
+    "significance": 5,
+    "alert": "none"
+  },
+  {
+    "place": "10 km SSE of Laytonville, CA",
+    "magnitude": 2.07,
+    "time": 1784716645010,
+    "depth": 6.80000019073486,
+    "significance": 66,
+    "alert": "none"
+  },
+  {
+    "place": "20 km SW of Snyder, Texas",
+    "magnitude": 1.1,
+    "time": 1784716421143,
+    "depth": 3.0734,
+    "significance": 19,
+    "alert": "none"
+  },
+  {
+    "place": "66 km SW of Puerto Madero, Mexico",
+    "magnitude": 4.5,
+    "time": 1784715893831,
+    "depth": 35,
+    "significance": 312,
+    "alert": "none"
+  },
+  {
+    "place": "3 km SE of Aromas, CA",
+    "magnitude": 1.99,
+    "time": 1784715837950,
+    "depth": 6.1100001335144,
+    "significance": 61,
+    "alert": "none"
+  },
+  {
+    "place": "4 km SW of Circleville, Utah",
+    "magnitude": 0.88,
+    "time": 1784715469670,
+    "depth": 5.9,
+    "significance": 12,
+    "alert": "none"
+  },
+  {
+    "place": "55 km NW of Toyah, Texas",
+    "magnitude": 2.3,
+    "time": 1784715151242,
+    "depth": 6.8817,
+    "significance": 81,
+    "alert": "none"
+  },
+  {
+    "place": "69 km SSW of Puerto Madero, Mexico",
+    "magnitude": 4.2,
+    "time": 1784713985939,
+    "depth": 35,
+    "significance": 271,
+    "alert": "none"
+  },
+  {
+    "place": "13 km ESE of Pearsall, Texas",
+    "magnitude": 2.1,
+    "time": 1784713953823,
+    "depth": 7.5582,
+    "significance": 68,
+    "alert": "none"
+  },
+  {
+    "place": "1 km WSW of Pāhala, Hawaii",
+    "magnitude": 1.76,
+    "time": 1784713723460,
+    "depth": 31.79,
+    "significance": 48,
+    "alert": "none"
+  },
+  {
+    "place": "77 km NE of Tonopah, Nevada",
+    "magnitude": 1.89,
+    "time": 1784713687275,
+    "depth": 0.0117,
+    "significance": 55,
+    "alert": "none"
+  },
+  {
+    "place": "11 km NW of Sugal, Philippines",
+    "magnitude": 4.9,
+    "time": 1784713640059,
+    "depth": 64.477,
+    "significance": 370,
+    "alert": "none"
+  },
+  {
+    "place": "121 km NW of Vallenar, Chile",
+    "magnitude": 5.1,
+    "time": 1784712862317,
+    "depth": 10,
+    "significance": 400,
+    "alert": "none"
+  },
+  {
+    "place": "16 km ESE of Anza, CA",
+    "magnitude": 2.2,
+    "time": 1784712856540,
+    "depth": 13.87,
+    "significance": 74,
+    "alert": "none"
+  },
+  {
+    "place": "14 km SW of Searles Valley, CA",
+    "magnitude": 0.78,
+    "time": 1784711744400,
+    "depth": 7.51,
+    "significance": 9,
+    "alert": "none"
+  },
+  {
+    "place": "3 km E of Oak Harbor, Washington",
+    "magnitude": 2.1,
+    "time": 1784711632650,
+    "depth": 25.58,
+    "significance": 68,
+    "alert": "none"
+  },
+  {
+    "place": "11 km ESE of Anza, CA",
+    "magnitude": 0.38,
+    "time": 1784711607390,
+    "depth": 11.98,
+    "significance": 2,
+    "alert": "none"
+  },
+  {
+    "place": "24 km SW of Garden City, Texas",
+    "magnitude": 2.5,
+    "time": 1784711242562,
+    "depth": 7.3975,
+    "significance": 96,
+    "alert": "none"
+  },
+  {
+    "place": "29 km SSE of Volcano, Hawaii",
+    "magnitude": 1.77,
+    "time": 1784711166660,
+    "depth": 40.439998626709,
+    "significance": 48,
+    "alert": "none"
+  },
+  {
+    "place": "6 km NE of La Parguera, Puerto Rico",
+    "magnitude": 2.21,
+    "time": 1784710918630,
+    "depth": 7,
+    "significance": 75,
+    "alert": "none"
+  },
+  {
+    "place": "3 km SSW of Pāhala, Hawaii",
+    "magnitude": 2.22,
+    "time": 1784710356320,
+    "depth": 31.44,
+    "significance": 76,
+    "alert": "none"
+  },
+  {
+    "place": "104 km NNW of Karluk, Alaska",
+    "magnitude": 1.5,
+    "time": 1784710162308,
+    "depth": 7.3,
+    "significance": 35,
+    "alert": "none"
+  },
+  {
+    "place": "18 km WSW of Johannesburg, CA",
+    "magnitude": 1.41,
+    "time": 1784709722570,
+    "depth": 8.33,
+    "significance": 31,
+    "alert": "none"
+  },
+  {
+    "place": "25 km WSW of Emery, Utah",
+    "magnitude": 1.03,
+    "time": 1784709023780,
+    "depth": 17.63,
+    "significance": 16,
+    "alert": "none"
+  },
+  {
+    "place": "14 km W of Johannesburg, CA",
+    "magnitude": 0.92,
+    "time": 1784709018500,
+    "depth": 4.84,
+    "significance": 13,
+    "alert": "none"
+  },
+  {
+    "place": "19 km N of Susitna, Alaska",
+    "magnitude": 1.8,
+    "time": 1784705111126,
+    "depth": 61.3,
+    "significance": 50,
+    "alert": "none"
+  },
+  {
+    "place": "15 km WNW of Kalaoa, Hawaii",
+    "magnitude": 1.85,
+    "time": 1784704847440,
+    "depth": 8.78999996185303,
+    "significance": 53,
+    "alert": "none"
+  },
+  {
+    "place": "76 km ENE of Tonopah, Nevada",
+    "magnitude": 1.9,
+    "time": 1784703980832,
+    "depth": 6.7345,
+    "significance": 56,
+    "alert": "none"
+  },
+  {
+    "place": "76 km ENE of Tonopah, Nevada",
+    "magnitude": 1.55,
+    "time": 1784703218004,
+    "depth": 6.4651,
+    "significance": 37,
+    "alert": "none"
+  },
+  {
+    "place": "208 km W of Abepura, Indonesia",
+    "magnitude": 4.9,
+    "time": 1784702800106,
+    "depth": 21.587,
+    "significance": 369,
+    "alert": "none"
+  },
+  {
+    "place": "11 km SE of Willits, CA",
+    "magnitude": 2.33,
+    "time": 1784702591210,
+    "depth": 4.5,
+    "significance": 84,
+    "alert": "none"
+  },
+  {
+    "place": "5 km WSW of Circleville, Utah",
+    "magnitude": 0.58,
+    "time": 1784701652360,
+    "depth": 3.58,
+    "significance": 5,
+    "alert": "none"
+  },
+  {
+    "place": "19 km SSE of Lindsay, Texas",
+    "magnitude": 1.6,
+    "time": 1784701067617,
+    "depth": 5.174,
+    "significance": 39,
+    "alert": "none"
+  },
+  {
+    "place": "7 km WSW of Gilroy, CA",
+    "magnitude": 1.79,
+    "time": 1784701013070,
+    "depth": 3.3199999332428,
+    "significance": 49,
+    "alert": "none"
+  },
+  {
+    "place": "35 km SW of Skwentna, Alaska",
+    "magnitude": 2.3,
+    "time": 1784700862508,
+    "depth": 110.4,
+    "significance": 81,
+    "alert": "none"
+  },
+  {
+    "place": "10 km N of Borrego Springs, CA",
+    "magnitude": 2.4,
+    "time": 1784700840600,
+    "depth": 11.93,
+    "significance": 89,
+    "alert": "none"
+  },
+  {
+    "place": "6 km WSW of Bennington, Idaho",
+    "magnitude": 2.99,
+    "time": 1784700552780,
+    "depth": -1.92,
+    "significance": 140,
+    "alert": "none"
+  },
+  {
+    "place": "6 km NNE of Valle Vista, CA",
+    "magnitude": 0.94,
+    "time": 1784699057600,
+    "depth": 13.54,
+    "significance": 14,
+    "alert": "none"
+  },
+  {
+    "place": "5 km N of Pinnacles, CA",
+    "magnitude": 1.31,
+    "time": 1784698885780,
+    "depth": 9.86999988555908,
+    "significance": 26,
+    "alert": "none"
+  },
+  {
+    "place": "55 km NW of Toyah, Texas",
+    "magnitude": 1.5,
+    "time": 1784698669945,
+    "depth": 6.4075,
+    "significance": 35,
+    "alert": "none"
+  },
+  {
+    "place": "189 km W of Bandon, Oregon",
+    "magnitude": 3,
+    "time": 1784696998751,
+    "depth": 10,
+    "significance": 138,
+    "alert": "none"
+  },
+  {
+    "place": "27 km WNW of Karluk, Alaska",
+    "magnitude": 2.1,
+    "time": 1784696850151,
+    "depth": 16.6,
+    "significance": 68,
+    "alert": "none"
+  },
+  {
+    "place": "34 km SSE of Malaga, New Mexico",
+    "magnitude": 1,
+    "time": 1784696842982,
+    "depth": 7.843,
+    "significance": 15,
+    "alert": "none"
+  },
+  {
+    "place": "42 km SSE of Whites City, New Mexico",
+    "magnitude": 1.6,
+    "time": 1784696649886,
+    "depth": 6.0614,
+    "significance": 39,
+    "alert": "none"
+  },
+  {
+    "place": "6 km SSW of Pāhala, Hawaii",
+    "magnitude": 1.79,
+    "time": 1784695475430,
+    "depth": 29.2000007629395,
+    "significance": 49,
+    "alert": "none"
+  },
+  {
+    "place": "18 km ESE of Anza, CA",
+    "magnitude": 0.52,
+    "time": 1784695071890,
+    "depth": 13.68,
+    "significance": 4,
+    "alert": "none"
+  },
+  {
+    "place": "15 km NW of Ivanof Bay, Alaska",
+    "magnitude": 0.47,
+    "time": 1784694690150,
+    "depth": 7.69,
+    "significance": 3,
+    "alert": "none"
+  },
+  {
+    "place": "22 km SSE of Lindsay, Texas",
+    "magnitude": 1.1,
+    "time": 1784693948001,
+    "depth": 3.1775,
+    "significance": 19,
+    "alert": "none"
+  },
+  {
+    "place": "55 km WSW of Langsa, Indonesia",
+    "magnitude": 5,
+    "time": 1784693902071,
+    "depth": 10,
+    "significance": 386,
+    "alert": "none"
+  },
+  {
+    "place": "17 km SW of Nile, Washington",
+    "magnitude": 1.07,
+    "time": 1784693828560,
+    "depth": 7.3,
+    "significance": 18,
+    "alert": "none"
+  },
+  {
+    "place": "56 km NE of Tonopah, Nevada",
+    "magnitude": 1.82,
+    "time": 1784693443565,
+    "depth": 2.6007,
+    "significance": 51,
+    "alert": "none"
+  },
+  {
+    "place": "24 km ESE of Naalehu, Hawaii",
+    "magnitude": 1.8,
+    "time": 1784693296320,
+    "depth": 16.5900001525879,
+    "significance": 50,
+    "alert": "none"
+  },
+  {
+    "place": "10 km ENE of Ocotillo Wells, CA",
+    "magnitude": 1.38,
+    "time": 1784693132810,
+    "depth": 5.34,
+    "significance": 29,
+    "alert": "none"
+  },
+  {
+    "place": "4 km NNW of The Geysers, CA",
+    "magnitude": 1.11,
+    "time": 1784692895790,
+    "depth": 2.95000004768372,
+    "significance": 19,
+    "alert": "none"
+  },
+  {
+    "place": "2 km N of The Geysers, CA",
+    "magnitude": 0.75,
+    "time": 1784692787160,
+    "depth": 1.73000001907349,
+    "significance": 9,
+    "alert": "none"
+  },
+  {
+    "place": "16 km ESE of Anza, CA",
+    "magnitude": 0.97,
+    "time": 1784692475890,
+    "depth": 13.32,
+    "significance": 14,
+    "alert": "none"
+  },
+  {
+    "place": "60 km SW of Puerto Madero, Mexico",
+    "magnitude": 4,
+    "time": 1784692110298,
+    "depth": 35,
+    "significance": 246,
+    "alert": "none"
+  },
+  {
+    "place": "124 km SE of Kuril’sk, Russia",
+    "magnitude": 4.6,
+    "time": 1784691949474,
+    "depth": 35,
+    "significance": 326,
+    "alert": "none"
+  },
+  {
+    "place": "7 km W of Dutch Harbor, Alaska",
+    "magnitude": 0.24,
+    "time": 1784691767750,
+    "depth": 8.01,
+    "significance": 1,
+    "alert": "none"
+  },
+  {
+    "place": "8 km SSE of Redlands, CA",
+    "magnitude": 0.96,
+    "time": 1784691364590,
+    "depth": 11.14,
+    "significance": 14,
+    "alert": "none"
+  },
+  {
+    "place": "7 km NW of The Geysers, CA",
+    "magnitude": 0.87,
+    "time": 1784691350210,
+    "depth": 2.6800000667572,
+    "significance": 12,
+    "alert": "none"
+  },
+  {
+    "place": "3 km WNW of Frazier Park, CA",
+    "magnitude": 1.28,
+    "time": 1784691231800,
+    "depth": 12.4,
+    "significance": 25,
+    "alert": "none"
+  },
+  {
+    "place": "1 km W of Pāhala, Hawaii",
+    "magnitude": 2.25,
+    "time": 1784691208410,
+    "depth": 30.94,
+    "significance": 78,
+    "alert": "none"
+  },
+  {
+    "place": "21 km WSW of Ivanof Bay, Alaska",
+    "magnitude": 2.2,
+    "time": 1784690950856,
+    "depth": 8.7,
+    "significance": 74,
+    "alert": "none"
+  },
+  {
+    "place": "18 km WSW of Johannesburg, CA",
+    "magnitude": 1.22,
+    "time": 1784690865030,
+    "depth": 8.57,
+    "significance": 23,
+    "alert": "none"
+  },
+  {
+    "place": "12 km SSW of Jal, New Mexico",
+    "magnitude": 1.4,
+    "time": 1784690470832,
+    "depth": 7.074,
+    "significance": 30,
+    "alert": "none"
+  },
+  {
+    "place": "30 km SE of Cascadia, Oregon",
+    "magnitude": 1.2,
+    "time": 1784689998440,
+    "depth": 5.31,
+    "significance": 22,
+    "alert": "none"
+  },
+  {
+    "place": "20 km WNW of Anchor Point, Alaska",
+    "magnitude": 1.6,
+    "time": 1784689913891,
+    "depth": 81.7,
+    "significance": 39,
+    "alert": "none"
+  },
+  {
+    "place": "14 km NE of Ashford, Washington",
+    "magnitude": 0.25,
+    "time": 1784689877630,
+    "depth": 10.94,
+    "significance": 1,
+    "alert": "none"
+  },
+  {
+    "place": "2 km W of Circleville, Utah",
+    "magnitude": 2.06,
+    "time": 1784688927710,
+    "depth": 5.88,
+    "significance": 65,
+    "alert": "none"
+  },
+  {
+    "place": "68 km WNW of Ninilchik, Alaska",
+    "magnitude": 2.9,
+    "time": 1784688865429,
+    "depth": 130,
+    "significance": 129,
+    "alert": "none"
+  },
+  {
+    "place": "2 km WNW of Hollywood, CA",
+    "magnitude": 0.94,
+    "time": 1784688375140,
+    "depth": 18.87,
+    "significance": 14,
+    "alert": "none"
+  },
+  {
+    "place": "2 km SSW of Parkfield, CA",
+    "magnitude": 1,
+    "time": 1784688039250,
+    "depth": 10.039999961853,
+    "significance": 15,
+    "alert": "none"
+  }
+]

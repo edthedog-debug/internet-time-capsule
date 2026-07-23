@@ -1,0 +1,240 @@
+[
+  {
+    "title": "How can I directly declare Unicode rather than finding a string to encode?",
+    "score": -1,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "python",
+      "unicode",
+      "decode",
+      "encode",
+      "large-language-model"
+    ],
+    "link": "https://stackoverflow.com/questions/79984022/how-can-i-directly-declare-unicode-rather-than-finding-a-string-to-encode"
+  },
+  {
+    "title": "java.lang.ClassNotFoundException despite having the dependency",
+    "score": 0,
+    "views": 40,
+    "answers": 0,
+    "tags": [
+      "java",
+      "maven",
+      "classnotfoundexception",
+      "noclassdeffounderror",
+      "apache-commons-lang3"
+    ],
+    "link": "https://stackoverflow.com/questions/79984015/java-lang-classnotfoundexception-despite-having-the-dependency"
+  },
+  {
+    "title": "How do I get R plotly autorangeoptions clipmax and maxallowed to work",
+    "score": 0,
+    "views": 23,
+    "answers": 1,
+    "tags": [
+      "r",
+      "plotly"
+    ],
+    "link": "https://stackoverflow.com/questions/79984008/how-do-i-get-r-plotly-autorangeoptions-clipmax-and-maxallowed-to-work"
+  },
+  {
+    "title": "Trying to monitor a shared MS365 inbox using an Azure Function via MS Graph - 401 response",
+    "score": 0,
+    "views": 12,
+    "answers": 0,
+    "tags": [
+      "microsoft-graph-api",
+      "microsoft-entra-id"
+    ],
+    "link": "https://stackoverflow.com/questions/79984009/trying-to-monitor-a-shared-ms365-inbox-using-an-azure-function-via-ms-graph-40"
+  },
+  {
+    "title": "How to specialize a template with a parameter pack",
+    "score": -1,
+    "views": 72,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "templates",
+      "metaprogramming"
+    ],
+    "link": "https://stackoverflow.com/questions/79983970/how-to-specialize-a-template-with-a-parameter-pack"
+  },
+  {
+    "title": "Low-Res Thumbnail Images on Embedded YouTube Videos In WordPress",
+    "score": 0,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "html",
+      "wordpress",
+      "iframe",
+      "youtube",
+      "thumbnails"
+    ],
+    "link": "https://stackoverflow.com/questions/79984006/low-res-thumbnail-images-on-embedded-youtube-videos-in-wordpress"
+  },
+  {
+    "title": "Gouraud shading can not apply texture?",
+    "score": 0,
+    "views": 20,
+    "answers": 0,
+    "tags": [
+      "shading",
+      "gouraud"
+    ],
+    "link": "https://stackoverflow.com/questions/79983999/gouraud-shading-can-not-apply-texture"
+  },
+  {
+    "title": "Why TypeScript thinks dist/types/*.d.ts are input files",
+    "score": -2,
+    "views": 59,
+    "answers": 0,
+    "tags": [
+      "typescript"
+    ],
+    "link": "https://stackoverflow.com/questions/79983990/why-typescript-thinks-dist-types-d-ts-are-input-files"
+  },
+  {
+    "title": "Swift warning about possible isolated conformance of &quot;some View&quot;",
+    "score": 0,
+    "views": 19,
+    "answers": 0,
+    "tags": [
+      "swift",
+      "xcode",
+      "swift-concurrency"
+    ],
+    "link": "https://stackoverflow.com/questions/79984005/swift-warning-about-possible-isolated-conformance-of-some-view"
+  },
+  {
+    "title": "Limit visibility of a struct to a single file, yet use that struct in a public class",
+    "score": 0,
+    "views": 70,
+    "answers": 2,
+    "tags": [
+      "c#"
+    ],
+    "link": "https://stackoverflow.com/questions/79983957/limit-visibility-of-a-struct-to-a-single-file-yet-use-that-struct-in-a-public-c"
+  },
+  {
+    "title": "Unreal Engine 5.6 - Gap between pawn and angled surfaces (Like ramps)",
+    "score": 0,
+    "views": 60,
+    "answers": 0,
+    "tags": [
+      "unreal-engine5",
+      "unreal-blueprint",
+      "unreal"
+    ],
+    "link": "https://stackoverflow.com/questions/79983982/unreal-engine-5-6-gap-between-pawn-and-angled-surfaces-like-ramps"
+  },
+  {
+    "title": "Does Vite 8.1 build.chunkImportMap stop an old tab from loading removed lazy chunks?",
+    "score": 2,
+    "views": 35,
+    "answers": 1,
+    "tags": [
+      "reactjs",
+      "vite",
+      "browser-cache"
+    ],
+    "link": "https://stackoverflow.com/questions/79983966/does-vite-8-1-build-chunkimportmap-stop-an-old-tab-from-loading-removed-lazy-chu"
+  },
+  {
+    "title": "How to see service worker errors in Chromium debugger?",
+    "score": 1,
+    "views": 39,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "service-worker",
+      "chromium"
+    ],
+    "link": "https://stackoverflow.com/questions/79983949/how-to-see-service-worker-errors-in-chromium-debugger"
+  },
+  {
+    "title": "Need help in 419 token Mismatch in Laravel Sanctum SPA",
+    "score": 0,
+    "views": 33,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "php",
+      "csrf-token"
+    ],
+    "link": "https://stackoverflow.com/questions/79983985/need-help-in-419-token-mismatch-in-laravel-sanctum-spa"
+  },
+  {
+    "title": "How to return querystring parameter value with VueUse useRouteQuery",
+    "score": 0,
+    "views": 51,
+    "answers": 1,
+    "tags": [
+      "vuejs3",
+      "vueuse"
+    ],
+    "link": "https://stackoverflow.com/questions/79983976/how-to-return-querystring-parameter-value-with-vueuse-useroutequery"
+  },
+  {
+    "title": "What is a reliable way to get file descriptor in android to pass it to native code",
+    "score": 0,
+    "views": 52,
+    "answers": 1,
+    "tags": [
+      "java",
+      "android",
+      "file-descriptor"
+    ],
+    "link": "https://stackoverflow.com/questions/79983960/what-is-a-reliable-way-to-get-file-descriptor-in-android-to-pass-it-to-native-co"
+  },
+  {
+    "title": "Dynamic Array to stack blocks of calculations",
+    "score": 0,
+    "views": 68,
+    "answers": 2,
+    "tags": [
+      "excel",
+      "dynamic-arrays"
+    ],
+    "link": "https://stackoverflow.com/questions/79983924/dynamic-array-to-stack-blocks-of-calculations"
+  },
+  {
+    "title": "How to create a unity splines tunnel with spline architect?",
+    "score": 1,
+    "views": 32,
+    "answers": 1,
+    "tags": [
+      "unity-game-engine",
+      "spline",
+      "terrain"
+    ],
+    "link": "https://stackoverflow.com/questions/79983971/how-to-create-a-unity-splines-tunnel-with-spline-architect"
+  },
+  {
+    "title": "Does a CSS-only &lt;details&gt;/&lt;summary&gt; disclosure widget need aria-expanded for accessibility?",
+    "score": 0,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "html",
+      "accessibility",
+      "wai-aria",
+      "wcag"
+    ],
+    "link": "https://stackoverflow.com/questions/79983981/does-a-css-only-details-summary-disclosure-widget-need-aria-expanded-for-acc"
+  },
+  {
+    "title": "Windows 10 iMac Stuck in Boot Loop &amp; -3001F Error (No USB, Ethernet Not Detected)",
+    "score": -3,
+    "views": 34,
+    "answers": 0,
+    "tags": [
+      "windows",
+      "macos"
+    ],
+    "link": "https://stackoverflow.com/questions/79983974/windows-10-imac-stuck-in-boot-loop-3001f-error-no-usb-ethernet-not-detected"
+  }
+]
