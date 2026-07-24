@@ -1,0 +1,520 @@
+[
+  {
+    "name": "codecrafters-io/build-your-own-x",
+    "stars": 530880,
+    "language": "Markdown",
+    "description": "Master programming by recreating your favorite technologies from scratch.",
+    "url": "https://github.com/codecrafters-io/build-your-own-x",
+    "topics": [
+      "awesome-list",
+      "free",
+      "programming",
+      "tutorial-code",
+      "tutorial-exercises",
+      "tutorials"
+    ]
+  },
+  {
+    "name": "sindresorhus/awesome",
+    "stars": 488186,
+    "language": "Unknown",
+    "description": "😎 Awesome lists about all kinds of interesting topics",
+    "url": "https://github.com/sindresorhus/awesome",
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "lists",
+      "resources",
+      "unicorns"
+    ]
+  },
+  {
+    "name": "freeCodeCamp/freeCodeCamp",
+    "stars": 452583,
+    "language": "TypeScript",
+    "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "topics": [
+      "careers",
+      "certification",
+      "community",
+      "curriculum",
+      "d3",
+      "education",
+      "freecodecamp",
+      "javascript",
+      "learn-to-code",
+      "math",
+      "nodejs",
+      "nonprofits",
+      "programming",
+      "react",
+      "teachers"
+    ]
+  },
+  {
+    "name": "public-apis/public-apis",
+    "stars": 452224,
+    "language": "Python",
+    "description": "A collective list of free APIs",
+    "url": "https://github.com/public-apis/public-apis",
+    "topics": [
+      "api",
+      "apis",
+      "dataset",
+      "development",
+      "free",
+      "list",
+      "lists",
+      "open-source",
+      "public",
+      "public-api",
+      "public-apis",
+      "resources",
+      "software"
+    ]
+  },
+  {
+    "name": "EbookFoundation/free-programming-books",
+    "stars": 392856,
+    "language": "Python",
+    "description": ":books: Freely available programming books",
+    "url": "https://github.com/EbookFoundation/free-programming-books",
+    "topics": [
+      "books",
+      "education",
+      "hacktoberfest",
+      "list",
+      "resource"
+    ]
+  },
+  {
+    "name": "openclaw/openclaw",
+    "stars": 383953,
+    "language": "TypeScript",
+    "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+    "url": "https://github.com/openclaw/openclaw",
+    "topics": [
+      "ai",
+      "assistant",
+      "crustacean",
+      "molty",
+      "openclaw",
+      "own-your-data",
+      "personal"
+    ]
+  },
+  {
+    "name": "nilbuild/developer-roadmap",
+    "stars": 362450,
+    "language": "TypeScript",
+    "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+    "url": "https://github.com/nilbuild/developer-roadmap",
+    "topics": [
+      "angular-roadmap",
+      "backend-roadmap",
+      "blockchain-roadmap",
+      "computer-science",
+      "dba-roadmap",
+      "developer-roadmap",
+      "devops-roadmap",
+      "frontend-roadmap",
+      "go-roadmap",
+      "java-roadmap",
+      "javascript-roadmap",
+      "nodejs-roadmap",
+      "python-roadmap",
+      "qa-roadmap",
+      "react-roadmap",
+      "roadmap",
+      "software-architect-roadmap",
+      "vue-roadmap"
+    ]
+  },
+  {
+    "name": "donnemartin/system-design-primer",
+    "stars": 358938,
+    "language": "Python",
+    "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "topics": [
+      "design",
+      "design-patterns",
+      "design-system",
+      "development",
+      "interview",
+      "interview-practice",
+      "interview-questions",
+      "programming",
+      "python",
+      "system",
+      "web",
+      "web-application",
+      "webapp"
+    ]
+  },
+  {
+    "name": "jwasham/coding-interview-university",
+    "stars": 356999,
+    "language": "Unknown",
+    "description": "A complete computer science study plan to become a software engineer.",
+    "url": "https://github.com/jwasham/coding-interview-university",
+    "topics": [
+      "algorithm",
+      "algorithms",
+      "coding-interview",
+      "coding-interviews",
+      "computer-science",
+      "data-structures",
+      "interview",
+      "interview-prep",
+      "interview-preparation",
+      "programming-interviews",
+      "software-engineering",
+      "study-plan"
+    ]
+  },
+  {
+    "name": "vinta/awesome-python",
+    "stars": 309954,
+    "language": "Python",
+    "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+    "url": "https://github.com/vinta/awesome-python",
+    "topics": [
+      "awesome",
+      "collections",
+      "python",
+      "python-frameworks",
+      "python-libraries",
+      "python-tools"
+    ]
+  },
+  {
+    "name": "awesome-selfhosted/awesome-selfhosted",
+    "stars": 307705,
+    "language": "Unknown",
+    "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+    "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "cloud",
+      "free-software",
+      "hosting",
+      "privacy",
+      "self-hosted",
+      "selfhosted"
+    ]
+  },
+  {
+    "name": "996icu/996.ICU",
+    "stars": 276463,
+    "language": "Unknown",
+    "description": "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
+    "url": "https://github.com/996icu/996.ICU",
+    "topics": []
+  },
+  {
+    "name": "practical-tutorials/project-based-learning",
+    "stars": 274960,
+    "language": "Python",
+    "description": "Curated list of project-based tutorials",
+    "url": "https://github.com/practical-tutorials/project-based-learning",
+    "topics": [
+      "beginner-project",
+      "cpp",
+      "golang",
+      "javascript",
+      "project",
+      "python",
+      "tutorial",
+      "webdevelopment"
+    ]
+  },
+  {
+    "name": "obra/superpowers",
+    "stars": 260098,
+    "language": "Shell",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "url": "https://github.com/obra/superpowers",
+    "topics": [
+      "ai",
+      "brainstorming",
+      "coding",
+      "obra",
+      "sdlc",
+      "skills",
+      "subagent-driven-development",
+      "superpowers"
+    ]
+  },
+  {
+    "name": "react/react",
+    "stars": 246689,
+    "language": "JavaScript",
+    "description": "The library for web and native user interfaces.",
+    "url": "https://github.com/react/react",
+    "topics": [
+      "declarative",
+      "frontend",
+      "javascript",
+      "library",
+      "react",
+      "ui"
+    ]
+  },
+  {
+    "name": "torvalds/linux",
+    "stars": 240252,
+    "language": "C",
+    "description": "Linux kernel source tree",
+    "url": "https://github.com/torvalds/linux",
+    "topics": []
+  },
+  {
+    "name": "trimstray/the-book-of-secret-knowledge",
+    "stars": 234834,
+    "language": "Unknown",
+    "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+    "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "bsd",
+      "cheatsheets",
+      "devops",
+      "guidelines",
+      "hacking",
+      "hacks",
+      "howtos",
+      "linux",
+      "lists",
+      "manuals",
+      "one-liners",
+      "pentesters",
+      "resources",
+      "search-engines",
+      "security",
+      "security-researchers",
+      "sysops"
+    ]
+  },
+  {
+    "name": "affaan-m/ECC",
+    "stars": 232596,
+    "language": "JavaScript",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "url": "https://github.com/affaan-m/ECC",
+    "topics": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "llm",
+      "mcp",
+      "productivity"
+    ]
+  },
+  {
+    "name": "TheAlgorithms/Python",
+    "stars": 223048,
+    "language": "Python",
+    "description": "All Algorithms implemented in Python",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "topics": [
+      "algorithm",
+      "algorithm-competitions",
+      "algorithms-implemented",
+      "algos",
+      "community-driven",
+      "education",
+      "hacktoberfest",
+      "interview",
+      "learn",
+      "practice",
+      "python",
+      "searches",
+      "sorting-algorithms",
+      "sorts"
+    ]
+  },
+  {
+    "name": "NousResearch/hermes-agent",
+    "stars": 219548,
+    "language": "Python",
+    "description": "The agent that grows with you",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "clawdbot",
+      "codex",
+      "hermes",
+      "hermes-agent",
+      "llm",
+      "moltbot",
+      "nous-research",
+      "openai",
+      "openclaw"
+    ]
+  },
+  {
+    "name": "vuejs/vue",
+    "stars": 210112,
+    "language": "TypeScript",
+    "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
+    "url": "https://github.com/vuejs/vue",
+    "topics": [
+      "framework",
+      "frontend",
+      "javascript",
+      "vue"
+    ]
+  },
+  {
+    "name": "ossu/computer-science",
+    "stars": 207150,
+    "language": "HTML",
+    "description": "🎓 Path to a free self-taught education in Computer Science!",
+    "url": "https://github.com/ossu/computer-science",
+    "topics": [
+      "awesome-list",
+      "computer-science",
+      "courses",
+      "curriculum"
+    ]
+  },
+  {
+    "name": "n8n-io/n8n",
+    "stars": 197681,
+    "language": "TypeScript",
+    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "url": "https://github.com/n8n-io/n8n",
+    "topics": [
+      "ai",
+      "apis",
+      "automation",
+      "cli",
+      "data-flow",
+      "development",
+      "integration-framework",
+      "integrations",
+      "ipaas",
+      "low-code",
+      "low-code-platform",
+      "mcp",
+      "mcp-client",
+      "mcp-server",
+      "n8n",
+      "no-code",
+      "self-hosted",
+      "typescript",
+      "workflow",
+      "workflow-automation"
+    ]
+  },
+  {
+    "name": "tensorflow/tensorflow",
+    "stars": 196484,
+    "language": "C++",
+    "description": "An Open Source Machine Learning Framework for Everyone",
+    "url": "https://github.com/tensorflow/tensorflow",
+    "topics": [
+      "deep-learning",
+      "deep-neural-networks",
+      "distributed",
+      "machine-learning",
+      "ml",
+      "neural-network",
+      "python",
+      "tensorflow"
+    ]
+  },
+  {
+    "name": "trekhleb/javascript-algorithms",
+    "stars": 196317,
+    "language": "JavaScript",
+    "description": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+    "url": "https://github.com/trekhleb/javascript-algorithms",
+    "topics": [
+      "algorithm",
+      "algorithms",
+      "computer-science",
+      "data-structures",
+      "interview",
+      "interview-preparation",
+      "javascript",
+      "javascript-algorithms"
+    ]
+  },
+  {
+    "name": "multica-ai/andrej-karpathy-skills",
+    "stars": 195746,
+    "language": "Unknown",
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+    "topics": []
+  },
+  {
+    "name": "ultraworkers/claw-code",
+    "stars": 194882,
+    "language": "Rust",
+    "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
+    "url": "https://github.com/ultraworkers/claw-code",
+    "topics": []
+  },
+  {
+    "name": "anomalyco/opencode",
+    "stars": 189053,
+    "language": "TypeScript",
+    "description": "The open source coding agent.",
+    "url": "https://github.com/anomalyco/opencode",
+    "topics": []
+  },
+  {
+    "name": "ohmyzsh/ohmyzsh",
+    "stars": 188765,
+    "language": "Shell",
+    "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+    "url": "https://github.com/ohmyzsh/ohmyzsh",
+    "topics": [
+      "cli",
+      "cli-app",
+      "oh-my-zsh",
+      "oh-my-zsh-plugin",
+      "oh-my-zsh-theme",
+      "ohmyzsh",
+      "plugin-framework",
+      "plugins",
+      "productivity",
+      "shell",
+      "terminal",
+      "theme",
+      "themes",
+      "zsh",
+      "zsh-configuration"
+    ]
+  },
+  {
+    "name": "DigitalPlatDev/FreeDomain",
+    "stars": 187956,
+    "language": "Unknown",
+    "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
+    "url": "https://github.com/DigitalPlatDev/FreeDomain",
+    "topics": [
+      "digitalplat",
+      "domain",
+      "domain-platform",
+      "domainname",
+      "domains",
+      "free",
+      "freedomain"
+    ]
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "title": "How to use an imported library as if local in rust?",
+    "score": 1,
+    "views": 18,
+    "answers": 0,
+    "tags": [
+      "rust",
+      "include",
+      "rename",
+      "code-readability"
+    ],
+    "link": "https://stackoverflow.com/questions/79984391/how-to-use-an-imported-library-as-if-local-in-rust"
+  },
+  {
+    "title": "Different kinds of UB are processed differently by GCC",
+    "score": 0,
+    "views": 70,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "gcc",
+      "clang",
+      "compiler-construction",
+      "undefined-behavior"
+    ],
+    "link": "https://stackoverflow.com/questions/79984359/different-kinds-of-ub-are-processed-differently-by-gcc"
+  },
+  {
+    "title": "Tree Shaking / Minifying Firebase using esbuild",
+    "score": 0,
+    "views": 41,
+    "answers": 1,
+    "tags": [
+      "node.js",
+      "firebase",
+      "esbuild",
+      "tree-shaking"
+    ],
+    "link": "https://stackoverflow.com/questions/79984376/tree-shaking-minifying-firebase-using-esbuild"
+  },
+  {
+    "title": "Type-mismatch in my VBA code for output PDF file",
+    "score": 0,
+    "views": 40,
+    "answers": 0,
+    "tags": [
+      "excel",
+      "vba",
+      "pdf",
+      "output",
+      "type-mismatch"
+    ],
+    "link": "https://stackoverflow.com/questions/79984374/type-mismatch-in-my-vba-code-for-output-pdf-file"
+  },
+  {
+    "title": "New Android project in Intellij 2026 is missing ic_launcher_foreground.xml",
+    "score": 0,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "android",
+      "intellij-idea"
+    ],
+    "link": "https://stackoverflow.com/questions/79984368/new-android-project-in-intellij-2026-is-missing-ic-launcher-foreground-xml"
+  },
+  {
+    "title": "How get acrual INCLUDE depthai-core 3.7.1 C++",
+    "score": -1,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "c++17",
+      "include"
+    ],
+    "link": "https://stackoverflow.com/questions/79984367/how-get-acrual-include-depthai-core-3-7-1-c"
+  },
+  {
+    "title": "What is best practice for preventing a class attribute from becoming stale data?",
+    "score": -2,
+    "views": 50,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/79984365/what-is-best-practice-for-preventing-a-class-attribute-from-becoming-stale-data"
+  },
+  {
+    "title": "Posit Workbench on Snowflake Connection to External Drive or Sharepoint",
+    "score": 0,
+    "views": 14,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "r",
+      "snowflake-cloud-data-platform",
+      "rstudio"
+    ],
+    "link": "https://stackoverflow.com/questions/79984373/posit-workbench-on-snowflake-connection-to-external-drive-or-sharepoint"
+  },
+  {
+    "title": "Storing time series data in Solr or ElasticSearch",
+    "score": 0,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "elasticsearch",
+      "solr",
+      "solrcloud"
+    ],
+    "link": "https://stackoverflow.com/questions/79984349/storing-time-series-data-in-solr-or-elasticsearch"
+  },
+  {
+    "title": "Optimize C++ function by value analysis (remove an if body that derefs a pointer which must be null if reached)",
+    "score": 2,
+    "views": 127,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "compiler-optimization",
+      "undefined-behavior"
+    ],
+    "link": "https://stackoverflow.com/questions/79984291/optimize-c-function-by-value-analysis-remove-an-if-body-that-derefs-a-pointer"
+  },
+  {
+    "title": "How to set Homography correctly",
+    "score": -1,
+    "views": 44,
+    "answers": 1,
+    "tags": [
+      "java",
+      "image",
+      "image-processing",
+      "perspective",
+      "homography"
+    ],
+    "link": "https://stackoverflow.com/questions/79984334/how-to-set-homography-correctly"
+  },
+  {
+    "title": "Why Copilot does not load language models/does not connect to MCP server/cannot even list available servers?",
+    "score": -1,
+    "views": 31,
+    "answers": 0,
+    "tags": [
+      "github-copilot"
+    ],
+    "link": "https://stackoverflow.com/questions/79984358/why-copilot-does-not-load-language-models-does-not-connect-to-mcp-server-cannot"
+  },
+  {
+    "title": "How to iterate over two objects without heap allocations?",
+    "score": 2,
+    "views": 97,
+    "answers": 2,
+    "tags": [
+      "best-practices",
+      "c#"
+    ],
+    "link": "https://stackoverflow.com/questions/79984276/how-to-iterate-over-two-objects-without-heap-allocations"
+  },
+  {
+    "title": "How to vectorize annotate() on a faceted plot?",
+    "score": 3,
+    "views": 63,
+    "answers": 2,
+    "tags": [
+      "r",
+      "ggplot2",
+      "facet-wrap",
+      "annotate"
+    ],
+    "link": "https://stackoverflow.com/questions/79984293/how-to-vectorize-annotate-on-a-faceted-plot"
+  },
+  {
+    "title": "Attempting to hide a video element once it finishes playing",
+    "score": 0,
+    "views": 49,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "html",
+      "css",
+      "video"
+    ],
+    "link": "https://stackoverflow.com/questions/79984346/attempting-to-hide-a-video-element-once-it-finishes-playing"
+  },
+  {
+    "title": "DU64 Interpret Output",
+    "score": -3,
+    "views": 31,
+    "answers": 0,
+    "tags": [
+      "disk",
+      "diskspace"
+    ],
+    "link": "https://stackoverflow.com/questions/79984344/du64-interpret-output"
+  },
+  {
+    "title": "PDF redlines script cannot place bounding boxes or comments in correct location",
+    "score": 0,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "pdf"
+    ],
+    "link": "https://stackoverflow.com/questions/79984342/pdf-redlines-script-cannot-place-bounding-boxes-or-comments-in-correct-location"
+  },
+  {
+    "title": "Do you think decentralized AI projects like OpenGradient (OPG) will actually be useful in the future?",
+    "score": -4,
+    "views": 48,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "cryptography"
+    ],
+    "link": "https://stackoverflow.com/questions/79984338/do-you-think-decentralized-ai-projects-like-opengradient-opg-will-actually-be"
+  },
+  {
+    "title": "Why does casting 68190 to an Integer overflow?",
+    "score": 0,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "excel",
+      "vba"
+    ],
+    "link": "https://stackoverflow.com/questions/79984336/why-does-casting-68190-to-an-integer-overflow"
+  },
+  {
+    "title": "Back end of Qt log in desktop application for inventory management application",
+    "score": -3,
+    "views": 57,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "qt",
+      "desktop-application"
+    ],
+    "link": "https://stackoverflow.com/questions/79984295/back-end-of-qt-log-in-desktop-application-for-inventory-management-application"
+  }
+]

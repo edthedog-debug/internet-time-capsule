@@ -1,0 +1,42 @@
+[
+  {
+    "home": "Atlanta Braves",
+    "away": "San Diego Padres",
+    "home_score": "6",
+    "away_score": "5",
+    "status": "STATUS_FINAL",
+    "date": "2026-07-23T16:15Z"
+  },
+  {
+    "home": "Cleveland Guardians",
+    "away": "Minnesota Twins",
+    "home_score": "1",
+    "away_score": "3",
+    "status": "STATUS_FINAL",
+    "date": "2026-07-23T17:10Z"
+  },
+  {
+    "home": "Toronto Blue Jays",
+    "away": "Tampa Bay Rays",
+    "home_score": "3",
+    "away_score": "1",
+    "status": "STATUS_FINAL",
+    "date": "2026-07-23T19:07Z"
+  },
+  {
+    "home": "St. Louis Cardinals",
+    "away": "Arizona Diamondbacks",
+    "home_score": "6",
+    "away_score": "10",
+    "status": "STATUS_FINAL",
+    "date": "2026-07-23T21:15Z"
+  },
+  {
+    "home": "Detroit Tigers",
+    "away": "Kansas City Royals",
+    "home_score": "4",
+    "away_score": "3",
+    "status": "STATUS_FINAL",
+    "date": "2026-07-23T22:40Z"
+  }
+]
