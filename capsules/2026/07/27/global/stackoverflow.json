@@ -1,0 +1,241 @@
+[
+  {
+    "title": "How can I optimize Eloquent relationships when importing millions of records?",
+    "score": 0,
+    "views": 16,
+    "answers": 0,
+    "tags": [
+      "php",
+      "mysql",
+      "laravel",
+      "eloquent"
+    ],
+    "link": "https://stackoverflow.com/questions/79986164/how-can-i-optimize-eloquent-relationships-when-importing-millions-of-records"
+  },
+  {
+    "title": "launchctl Bootstrap failed: 5: Input/output error",
+    "score": 0,
+    "views": 15,
+    "answers": 0,
+    "tags": [
+      "macos",
+      "plist",
+      "launchctl"
+    ],
+    "link": "https://stackoverflow.com/questions/79986165/launchctl-bootstrap-failed-5-input-output-error"
+  },
+  {
+    "title": "pathfinding service is relly weird",
+    "score": 0,
+    "views": 16,
+    "answers": 0,
+    "tags": [
+      "lua",
+      "roblox",
+      "luau",
+      "roblox-studio"
+    ],
+    "link": "https://stackoverflow.com/questions/79986162/pathfinding-service-is-relly-weird"
+  },
+  {
+    "title": "What are the best practices for porting a design language/system to another framework or platform?",
+    "score": -3,
+    "views": 48,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "porting"
+    ],
+    "link": "https://stackoverflow.com/questions/79986158/what-are-the-best-practices-for-porting-a-design-language-system-to-another-fram"
+  },
+  {
+    "title": "Modify pdf toolbar in vue-pdf",
+    "score": 0,
+    "views": 20,
+    "answers": 0,
+    "tags": [
+      "vue-pdf"
+    ],
+    "link": "https://stackoverflow.com/questions/79986156/modify-pdf-toolbar-in-vue-pdf"
+  },
+  {
+    "title": "Use git to list differences with their respective line blame information",
+    "score": 1,
+    "views": 35,
+    "answers": 1,
+    "tags": [
+      "git",
+      "terminal",
+      "git-diff",
+      "change-tracking",
+      "git-blame"
+    ],
+    "link": "https://stackoverflow.com/questions/79986144/use-git-to-list-differences-with-their-respective-line-blame-information"
+  },
+  {
+    "title": "Best way to implement client IDs",
+    "score": -2,
+    "views": 37,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "c#",
+      "asp.net",
+      "server",
+      "client"
+    ],
+    "link": "https://stackoverflow.com/questions/79986146/best-way-to-implement-client-ids"
+  },
+  {
+    "title": "How to check if an office program, such as Microsoft Word or Microsoft Access is installed",
+    "score": -1,
+    "views": 34,
+    "answers": 0,
+    "tags": [
+      ".net",
+      "vb.net",
+      "winforms"
+    ],
+    "link": "https://stackoverflow.com/questions/79986150/how-to-check-if-an-office-program-such-as-microsoft-word-or-microsoft-access-is"
+  },
+  {
+    "title": "Wrong manual caching of recursion",
+    "score": 0,
+    "views": 40,
+    "answers": 2,
+    "tags": [
+      "recursion",
+      "caching"
+    ],
+    "link": "https://stackoverflow.com/questions/79986133/wrong-manual-caching-of-recursion"
+  },
+  {
+    "title": "Threads in C programming language",
+    "score": 0,
+    "views": 89,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "c",
+      "unix",
+      "pthreads"
+    ],
+    "link": "https://stackoverflow.com/questions/79986134/threads-in-c-programming-language"
+  },
+  {
+    "title": "Can the JS code event listener &quot;know&quot; the event target within an openshadow DOM node?",
+    "score": 0,
+    "views": 54,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "dom-events",
+      "shadow-dom"
+    ],
+    "link": "https://stackoverflow.com/questions/79986113/can-the-js-code-event-listener-know-the-event-target-within-an-openshadow-dom"
+  },
+  {
+    "title": "How do you show LLM thinking when using VS Code + Ollama?",
+    "score": -2,
+    "views": 54,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "visual-studio-code"
+    ],
+    "link": "https://stackoverflow.com/questions/79986139/how-do-you-show-llm-thinking-when-using-vs-code-ollama"
+  },
+  {
+    "title": "How to get ngx-stripe working with Angular 22",
+    "score": -1,
+    "views": 29,
+    "answers": 0,
+    "tags": [
+      "angular",
+      "stripe-payments",
+      "ngx-stripe"
+    ],
+    "link": "https://stackoverflow.com/questions/79986114/how-to-get-ngx-stripe-working-with-angular-22"
+  },
+  {
+    "title": "Why was move_ptr renamed to unique_ptr?",
+    "score": 0,
+    "views": 72,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "c++11",
+      "c++03"
+    ],
+    "link": "https://stackoverflow.com/questions/79986126/why-was-move-ptr-renamed-to-unique-ptr"
+  },
+  {
+    "title": "Concurrency on load instruction",
+    "score": -3,
+    "views": 51,
+    "answers": 1,
+    "tags": [
+      "c",
+      "multithreading",
+      "concurrency",
+      "operating-system",
+      "pthreads"
+    ],
+    "link": "https://stackoverflow.com/questions/79986120/concurrency-on-load-instruction"
+  },
+  {
+    "title": "My app&#180;s product page in the Apple App Store is not opened when I try to redirect the user from my domain to the Apple App Store",
+    "score": 0,
+    "views": 42,
+    "answers": 0,
+    "tags": [
+      "html",
+      "ios",
+      "app-store"
+    ],
+    "link": "https://stackoverflow.com/questions/79986122/my-app%c2%b4s-product-page-in-the-apple-app-store-is-not-opened-when-i-try-to-redirec"
+  },
+  {
+    "title": "Just installed Python/Pygame-CE",
+    "score": -5,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "python-3.x"
+    ],
+    "link": "https://stackoverflow.com/questions/79986130/just-installed-python-pygame-ce"
+  },
+  {
+    "title": "SVG - Adding Hyperlink with Query String",
+    "score": 0,
+    "views": 23,
+    "answers": 1,
+    "tags": [
+      "svg"
+    ],
+    "link": "https://stackoverflow.com/questions/79986119/svg-adding-hyperlink-with-query-string"
+  },
+  {
+    "title": "Creating Table : Relation does not exist",
+    "score": 0,
+    "views": 54,
+    "answers": 1,
+    "tags": [
+      "postgresql",
+      "create-table"
+    ],
+    "link": "https://stackoverflow.com/questions/79986102/creating-table-relation-does-not-exist"
+  },
+  {
+    "title": "Lua IRC bot: bot does not start and no output",
+    "score": 0,
+    "views": 37,
+    "answers": 0,
+    "tags": [
+      "lua",
+      "irc"
+    ],
+    "link": "https://stackoverflow.com/questions/79986101/lua-irc-bot-bot-does-not-start-and-no-output"
+  }
+]
