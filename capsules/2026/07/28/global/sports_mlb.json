@@ -1,0 +1,98 @@
+[
+  {
+    "home": "Texas Rangers",
+    "away": "Seattle Mariners",
+    "home_score": "7",
+    "away_score": "3",
+    "status": "STATUS_FINAL",
+    "date": "2026-07-27T18:35Z"
+  },
+  {
+    "home": "Pittsburgh Pirates",
+    "away": "Arizona Diamondbacks",
+    "home_score": "3",
+    "away_score": "2",
+    "status": "STATUS_FINAL",
+    "date": "2026-07-27T22:40Z"
+  },
+  {
+    "home": "Detroit Tigers",
+    "away": "Baltimore Orioles",
+    "home_score": "5",
+    "away_score": "8",
+    "status": "STATUS_FINAL",
+    "date": "2026-07-27T22:40Z"
+  },
+  {
+    "home": "Miami Marlins",
+    "away": "Philadelphia Phillies",
+    "home_score": "8",
+    "away_score": "7",
+    "status": "STATUS_FINAL",
+    "date": "2026-07-27T22:40Z"
+  },
+  {
+    "home": "Washington Nationals",
+    "away": "Toronto Blue Jays",
+    "home_score": "2",
+    "away_score": "3",
+    "status": "STATUS_FINAL",
+    "date": "2026-07-27T22:45Z"
+  },
+  {
+    "home": "Cincinnati Reds",
+    "away": "Cleveland Guardians",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_POSTPONED",
+    "date": "2026-07-27T23:00Z"
+  },
+  {
+    "home": "New York Mets",
+    "away": "Atlanta Braves",
+    "home_score": "14",
+    "away_score": "3",
+    "status": "STATUS_FINAL",
+    "date": "2026-07-27T23:10Z"
+  },
+  {
+    "home": "Chicago White Sox",
+    "away": "New York Yankees",
+    "home_score": "4",
+    "away_score": "5",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-07-27T23:40Z"
+  },
+  {
+    "home": "St. Louis Cardinals",
+    "away": "Chicago Cubs",
+    "home_score": "1",
+    "away_score": "3",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-07-27T23:45Z"
+  },
+  {
+    "home": "Los Angeles Angels",
+    "away": "Houston Astros",
+    "home_score": "2",
+    "away_score": "0",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-07-28T01:38Z"
+  },
+  {
+    "home": "Athletics",
+    "away": "Boston Red Sox",
+    "home_score": "1",
+    "away_score": "0",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-07-28T01:40Z"
+  },
+  {
+    "home": "San Francisco Giants",
+    "away": "Milwaukee Brewers",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-07-28T01:45Z"
+  }
+]

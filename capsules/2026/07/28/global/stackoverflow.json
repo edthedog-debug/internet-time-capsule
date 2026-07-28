@@ -1,0 +1,255 @@
+[
+  {
+    "title": "What networking features introduced after Linux 6.6 have provided the most practical value in cloud environments?",
+    "score": -2,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "linux",
+      "network-programming",
+      "linux-kernel",
+      "ebpf",
+      "xdp-bpf"
+    ],
+    "link": "https://stackoverflow.com/questions/79986467/what-networking-features-introduced-after-linux-6-6-have-provided-the-most-pract"
+  },
+  {
+    "title": "VS2022 not detecting uninitialised variable from heap",
+    "score": 0,
+    "views": 28,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "visual-studio",
+      "initialization"
+    ],
+    "link": "https://stackoverflow.com/questions/79986466/vs2022-not-detecting-uninitialised-variable-from-heap"
+  },
+  {
+    "title": "OceanBase 4.3.x: Hybrid query (ANN_SEARCH + WHERE clause) forces full table scan instead of Vector Index Pre-filtering",
+    "score": 0,
+    "views": 17,
+    "answers": 0,
+    "tags": [
+      "database",
+      "vector-database",
+      "rag",
+      "query-planner",
+      "oceanbase"
+    ],
+    "link": "https://stackoverflow.com/questions/79986462/oceanbase-4-3-x-hybrid-query-ann-search-where-clause-forces-full-table-scan"
+  },
+  {
+    "title": "How automatically update the status of an enrollment in an ASP.NET Core API following Clean Architecture?",
+    "score": 1,
+    "views": 39,
+    "answers": 2,
+    "tags": [
+      "c#",
+      "asp.net-web-api"
+    ],
+    "link": "https://stackoverflow.com/questions/79986449/how-automatically-update-the-status-of-an-enrollment-in-an-asp-net-core-api-foll"
+  },
+  {
+    "title": "Performing summary statistics on a data table in R (with two different classes)",
+    "score": 1,
+    "views": 25,
+    "answers": 1,
+    "tags": [
+      "r",
+      "dplyr",
+      "aggregate",
+      "summary",
+      "t-test"
+    ],
+    "link": "https://stackoverflow.com/questions/79986447/performing-summary-statistics-on-a-data-table-in-r-with-two-different-classes"
+  },
+  {
+    "title": "R version 4.5.2 for macOS appears accept ambiguous references to columns",
+    "score": 0,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "r",
+      "ambiguous"
+    ],
+    "link": "https://stackoverflow.com/questions/79986458/r-version-4-5-2-for-macos-appears-accept-ambiguous-references-to-columns"
+  },
+  {
+    "title": "Asynchronous Timers in Swift",
+    "score": 1,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "swift",
+      "swiftui"
+    ],
+    "link": "https://stackoverflow.com/questions/79986444/asynchronous-timers-in-swift"
+  },
+  {
+    "title": "Implementing From vs Into for non-covering sets in Rust",
+    "score": -1,
+    "views": 47,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "rust"
+    ],
+    "link": "https://stackoverflow.com/questions/79986440/implementing-from-vs-into-for-non-covering-sets-in-rust"
+  },
+  {
+    "title": "Can Rust enforce a non-zero BigDecimal parameter at compile time?",
+    "score": 0,
+    "views": 46,
+    "answers": 1,
+    "tags": [
+      "rust",
+      "bigdecimal",
+      "panic",
+      "rust-analyzer"
+    ],
+    "link": "https://stackoverflow.com/questions/79986437/can-rust-enforce-a-non-zero-bigdecimal-parameter-at-compile-time"
+  },
+  {
+    "title": "Cloudflare proxy enabled but my PHP website does not load correctly after DNS configuration",
+    "score": -1,
+    "views": 35,
+    "answers": 0,
+    "tags": [
+      "php",
+      "apache",
+      "ssl",
+      "dns",
+      "cloudflare"
+    ],
+    "link": "https://stackoverflow.com/questions/79986438/cloudflare-proxy-enabled-but-my-php-website-does-not-load-correctly-after-dns-co"
+  },
+  {
+    "title": "Is pthread_cancel called during a SIGINT?",
+    "score": -4,
+    "views": 74,
+    "answers": 0,
+    "tags": [
+      "c",
+      "pthreads",
+      "embedded-linux"
+    ],
+    "link": "https://stackoverflow.com/questions/79986425/is-pthread-cancel-called-during-a-sigint"
+  },
+  {
+    "title": "C assign to char * in a struct in a pointer to the struct from a char * function parameter called with a char array",
+    "score": 3,
+    "views": 114,
+    "answers": 2,
+    "tags": [
+      "c",
+      "string",
+      "pointers",
+      "memory-management"
+    ],
+    "link": "https://stackoverflow.com/questions/79986370/c-assign-to-char-in-a-struct-in-a-pointer-to-the-struct-from-a-char-function"
+  },
+  {
+    "title": "Normalized Mutual Information (skimage) near-minimum (~1.03) for registered RGB-thermal images — expected or an issue?",
+    "score": 1,
+    "views": 52,
+    "answers": 0,
+    "tags": [
+      "python",
+      "image-processing",
+      "scikit-image",
+      "image-registration",
+      "mutual-information"
+    ],
+    "link": "https://stackoverflow.com/questions/79986366/normalized-mutual-information-skimage-near-minimum-1-03-for-registered-rgb"
+  },
+  {
+    "title": "How do I make a 3d matrix out of multiple 2d matrices in C#?",
+    "score": 1,
+    "views": 75,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "matrix",
+      "concatenation"
+    ],
+    "link": "https://stackoverflow.com/questions/79986408/how-do-i-make-a-3d-matrix-out-of-multiple-2d-matrices-in-c"
+  },
+  {
+    "title": "React use() cache gets overwritten by an older Promise after invalidation",
+    "score": 0,
+    "views": 54,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "reactjs",
+      "caching",
+      "promise"
+    ],
+    "link": "https://stackoverflow.com/questions/79986423/react-use-cache-gets-overwritten-by-an-older-promise-after-invalidation"
+  },
+  {
+    "title": "RuntimeError: Event loop is closed - python exception",
+    "score": 2,
+    "views": 94,
+    "answers": 1,
+    "tags": [
+      "python",
+      "python-3.x",
+      "asynchronous",
+      "python-aiofiles"
+    ],
+    "link": "https://stackoverflow.com/questions/79986381/runtimeerror-event-loop-is-closed-python-exception"
+  },
+  {
+    "title": "`offset` from stats package insert an offset, but `stats::offset` insert a variable",
+    "score": -2,
+    "views": 78,
+    "answers": 1,
+    "tags": [
+      "r",
+      "offset",
+      "glm",
+      "glmmtmb"
+    ],
+    "link": "https://stackoverflow.com/questions/79986382/offset-from-stats-package-insert-an-offset-but-statsoffset-insert-a-varia"
+  },
+  {
+    "title": "What is the exact object construction timeline for a built-in data member initialized using a member initializer list?",
+    "score": 2,
+    "views": 124,
+    "answers": 2,
+    "tags": [
+      "c++",
+      "constructor",
+      "member-initialization"
+    ],
+    "link": "https://stackoverflow.com/questions/79986285/what-is-the-exact-object-construction-timeline-for-a-built-in-data-member-initia"
+  },
+  {
+    "title": "Prediction from nls() in R with investr::predFit and a list of coefficient values",
+    "score": 0,
+    "views": 35,
+    "answers": 0,
+    "tags": [
+      "r",
+      "nls"
+    ],
+    "link": "https://stackoverflow.com/questions/79986410/prediction-from-nls-in-r-with-investrpredfit-and-a-list-of-coefficient-value"
+  },
+  {
+    "title": "When to use a triplestore or an LPG database for GraphRAG?",
+    "score": -3,
+    "views": 34,
+    "answers": 0,
+    "tags": [
+      "rdf",
+      "ontology",
+      "large-language-model",
+      "graphrag"
+    ],
+    "link": "https://stackoverflow.com/questions/79986417/when-to-use-a-triplestore-or-an-lpg-database-for-graphrag"
+  }
+]
