@@ -1,0 +1,245 @@
+[
+  {
+    "title": "psycopg3 &quot;copy to stdout with csv header&quot; always hangs",
+    "score": 0,
+    "views": 20,
+    "answers": 0,
+    "tags": [
+      "python",
+      "psycopg3"
+    ],
+    "link": "https://stackoverflow.com/questions/79988040/psycopg3-copy-to-stdout-with-csv-header-always-hangs"
+  },
+  {
+    "title": "Color structures and constants for embedded display",
+    "score": -1,
+    "views": 26,
+    "answers": 0,
+    "tags": [
+      "c",
+      "struct",
+      "macros",
+      "constants",
+      "compile-time-constant"
+    ],
+    "link": "https://stackoverflow.com/questions/79988036/color-structures-and-constants-for-embedded-display"
+  },
+  {
+    "title": "Compose Preview different from emulated on device",
+    "score": 0,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "android",
+      "kotlin",
+      "android-jetpack-compose"
+    ],
+    "link": "https://stackoverflow.com/questions/79988032/compose-preview-different-from-emulated-on-device"
+  },
+  {
+    "title": "Angular 22.1 update failing Cannot read properties of undefined (reading &#39;filter&#39;)",
+    "score": 0,
+    "views": 18,
+    "answers": 0,
+    "tags": [
+      "angular",
+      "angular-cli"
+    ],
+    "link": "https://stackoverflow.com/questions/79988033/angular-22-1-update-failing-cannot-read-properties-of-undefined-reading-filter"
+  },
+  {
+    "title": "how do I get correct type hints in subclass",
+    "score": 0,
+    "views": 13,
+    "answers": 0,
+    "tags": [
+      "python-3.x",
+      "subclass",
+      "type-hinting",
+      "subclassing"
+    ],
+    "link": "https://stackoverflow.com/questions/79988030/how-do-i-get-correct-type-hints-in-subclass"
+  },
+  {
+    "title": "b64encode() / b64decode - unbalanced encoding",
+    "score": -1,
+    "views": 51,
+    "answers": 2,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/79988026/b64encode-b64decode-unbalanced-encoding"
+  },
+  {
+    "title": "JavaScript for a collapsible which expands on click",
+    "score": 0,
+    "views": 72,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/79988009/javascript-for-a-collapsible-which-expands-on-click"
+  },
+  {
+    "title": "Perform template parameter type checking and make a decision based on it",
+    "score": -1,
+    "views": 62,
+    "answers": 2,
+    "tags": [
+      "best-practices",
+      "c++",
+      "templates"
+    ],
+    "link": "https://stackoverflow.com/questions/79988002/perform-template-parameter-type-checking-and-make-a-decision-based-on-it"
+  },
+  {
+    "title": "Logback filtering is ignored when running &quot;mvn clean install&quot; for all tests, but works for an individual test in isolation",
+    "score": 0,
+    "views": 29,
+    "answers": 1,
+    "tags": [
+      "spring-boot",
+      "maven",
+      "logback"
+    ],
+    "link": "https://stackoverflow.com/questions/79987999/logback-filtering-is-ignored-when-running-mvn-clean-install-for-all-tests-but"
+  },
+  {
+    "title": "How to avoid stale data across multiple Riverpod family providers that fetch overlapping filtered subsets?",
+    "score": 0,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "flutter",
+      "riverpod"
+    ],
+    "link": "https://stackoverflow.com/questions/79988023/how-to-avoid-stale-data-across-multiple-riverpod-family-providers-that-fetch-ove"
+  },
+  {
+    "title": "Helm vs Kustomize for a small service - when should I reach for a templating package manager versus overlay-based patching?",
+    "score": -1,
+    "views": 19,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "kubernetes",
+      "kubernetes-helm",
+      "kustomize"
+    ],
+    "link": "https://stackoverflow.com/questions/79988017/helm-vs-kustomize-for-a-small-service-when-should-i-reach-for-a-templating-pac"
+  },
+  {
+    "title": "How do you stitch together 3 meshes in Python?",
+    "score": 0,
+    "views": 39,
+    "answers": 1,
+    "tags": [
+      "python",
+      "mesh",
+      "shutil",
+      "pyvista",
+      "pymeshlab"
+    ],
+    "link": "https://stackoverflow.com/questions/79987997/how-do-you-stitch-together-3-meshes-in-python"
+  },
+  {
+    "title": "Why is CHANGETABLE slower than an indexed rowversion when both return a single changed row?",
+    "score": 1,
+    "views": 32,
+    "answers": 1,
+    "tags": [
+      "sql-server"
+    ],
+    "link": "https://stackoverflow.com/questions/79987975/why-is-changetable-slower-than-an-indexed-rowversion-when-both-return-a-single-c"
+  },
+  {
+    "title": ".NET Core API Swagger always returning 401",
+    "score": 0,
+    "views": 29,
+    "answers": 1,
+    "tags": [
+      "asp.net-core",
+      "asp.net-web-api",
+      "jwt",
+      "swagger"
+    ],
+    "link": "https://stackoverflow.com/questions/79987995/net-core-api-swagger-always-returning-401"
+  },
+  {
+    "title": "How to tell if NTLM is disabled programatically?",
+    "score": 1,
+    "views": 63,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "winapi",
+      "ntlm"
+    ],
+    "link": "https://stackoverflow.com/questions/79987892/how-to-tell-if-ntlm-is-disabled-programatically"
+  },
+  {
+    "title": "Is replaying a transactional outbox in auto-increment ID order will maintain the order of events?",
+    "score": -1,
+    "views": 74,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "mysql",
+      "postgresql",
+      "distributed-transactions",
+      "outbox-pattern"
+    ],
+    "link": "https://stackoverflow.com/questions/79987905/is-replaying-a-transactional-outbox-in-auto-increment-id-order-will-maintain-the"
+  },
+  {
+    "title": "Independent y axes per facet colum with ggplot2::geom_density() and ggh4x::facet_grid2()",
+    "score": 1,
+    "views": 51,
+    "answers": 2,
+    "tags": [
+      "r",
+      "ggplot2",
+      "ggh4x"
+    ],
+    "link": "https://stackoverflow.com/questions/79987891/independent-y-axes-per-facet-colum-with-ggplot2geom-density-and-ggh4xfacet"
+  },
+  {
+    "title": "Best architecture for secure direct uploads to Bunny Stream from a web admin dashboard?",
+    "score": 0,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "laravel",
+      "web",
+      "stream",
+      "token",
+      "bunny"
+    ],
+    "link": "https://stackoverflow.com/questions/79987987/best-architecture-for-secure-direct-uploads-to-bunny-stream-from-a-web-admin-das"
+  },
+  {
+    "title": "Dev Team with different OSs for Flutter app developement",
+    "score": -4,
+    "views": 48,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "flutter"
+    ],
+    "link": "https://stackoverflow.com/questions/79987976/dev-team-with-different-oss-for-flutter-app-developement"
+  },
+  {
+    "title": "Silent integer overflow: std::stoi",
+    "score": 3,
+    "views": 153,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "compiler-warnings"
+    ],
+    "link": "https://stackoverflow.com/questions/79987896/silent-integer-overflow-stdstoi"
+  }
+]
