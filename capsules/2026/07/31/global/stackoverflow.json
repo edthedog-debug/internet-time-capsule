@@ -1,0 +1,238 @@
+[
+  {
+    "title": "What is the average cost of kitchen remodeling in Cape Cod?",
+    "score": -4,
+    "views": 14,
+    "answers": 0,
+    "tags": [
+      "meteor-kitchen"
+    ],
+    "link": "https://stackoverflow.com/questions/79989349/what-is-the-average-cost-of-kitchen-remodeling-in-cape-cod"
+  },
+  {
+    "title": "Wildcard query filters by only one expanded measurement when WHERE uses an unqualified name",
+    "score": 0,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "time-series",
+      "apache-iotdb"
+    ],
+    "link": "https://stackoverflow.com/questions/79989343/wildcard-query-filters-by-only-one-expanded-measurement-when-where-uses-an-unqua"
+  },
+  {
+    "title": "Primary-Foreign key tables, what is the best practice to insert record with Foreign key if Primary key is missing?",
+    "score": 0,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "sql",
+      "mysql",
+      "insert",
+      "foreign-keys"
+    ],
+    "link": "https://stackoverflow.com/questions/79989345/primary-foreign-key-tables-what-is-the-best-practice-to-insert-record-with-fore"
+  },
+  {
+    "title": "unable to get local issuer certificate in node.js",
+    "score": 0,
+    "views": 11,
+    "answers": 0,
+    "tags": [
+      "node.js",
+      "ssl"
+    ],
+    "link": "https://stackoverflow.com/questions/79989347/unable-to-get-local-issuer-certificate-in-node-js"
+  },
+  {
+    "title": "Trying to Change A Pixel in Python",
+    "score": -1,
+    "views": 41,
+    "answers": 1,
+    "tags": [
+      "python",
+      "opencv",
+      "matplotlib"
+    ],
+    "link": "https://stackoverflow.com/questions/79989338/trying-to-change-a-pixel-in-python"
+  },
+  {
+    "title": "Is line 20 really wrong or the application is bad?",
+    "score": -9,
+    "views": 133,
+    "answers": 1,
+    "tags": [
+      "error-handling"
+    ],
+    "link": "https://stackoverflow.com/questions/79989322/is-line-20-really-wrong-or-the-application-is-bad"
+  },
+  {
+    "title": "APPROX_COUNT_DISTINCT returns different count from GROUP BY for -0.0 and 0.0",
+    "score": 0,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "time-series",
+      "apache-iotdb"
+    ],
+    "link": "https://stackoverflow.com/questions/79989335/approx-count-distinct-returns-different-count-from-group-by-for-0-0-and-0-0"
+  },
+  {
+    "title": "co-log: ambiguous type variable from a use of `withLog`",
+    "score": 0,
+    "views": 15,
+    "answers": 0,
+    "tags": [
+      "haskell",
+      "ambiguous-type-variable"
+    ],
+    "link": "https://stackoverflow.com/questions/79989332/co-log-ambiguous-type-variable-from-a-use-of-withlog"
+  },
+  {
+    "title": "ABS(-2147483648) remains negative",
+    "score": 3,
+    "views": 65,
+    "answers": 1,
+    "tags": [
+      "time-series",
+      "apache-iotdb"
+    ],
+    "link": "https://stackoverflow.com/questions/79989303/abs-2147483648-remains-negative"
+  },
+  {
+    "title": "Does running Docker inside a KVM VM inside Docker improve security isolation?",
+    "score": 0,
+    "views": 40,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "linux",
+      "docker",
+      "security",
+      "kvm"
+    ],
+    "link": "https://stackoverflow.com/questions/79989318/does-running-docker-inside-a-kvm-vm-inside-docker-improve-security-isolation"
+  },
+  {
+    "title": "CAST(time AS STRING) drops zero seconds and the timezone offset",
+    "score": 0,
+    "views": 40,
+    "answers": 0,
+    "tags": [
+      "time-series",
+      "apache-iotdb"
+    ],
+    "link": "https://stackoverflow.com/questions/79989306/casttime-as-string-drops-zero-seconds-and-the-timezone-offset"
+  },
+  {
+    "title": "Controller-View Connection in ASP.NET Core",
+    "score": -3,
+    "views": 31,
+    "answers": 0,
+    "tags": [
+      "asp.net",
+      "model-view-controller",
+      "view",
+      "controller",
+      "crud"
+    ],
+    "link": "https://stackoverflow.com/questions/79989321/controller-view-connection-in-asp-net-core"
+  },
+  {
+    "title": "How to modify traffic light size in Swing",
+    "score": 3,
+    "views": 78,
+    "answers": 1,
+    "tags": [
+      "java",
+      "macos",
+      "swing",
+      "jframe",
+      "window-decoration"
+    ],
+    "link": "https://stackoverflow.com/questions/79989256/how-to-modify-traffic-light-size-in-swing"
+  },
+  {
+    "title": "How does it follow that the implementation guarantees that less than `FOPEN_MAX` number of files can be open simultaneously?",
+    "score": -2,
+    "views": 95,
+    "answers": 3,
+    "tags": [
+      "c",
+      "language-lawyer",
+      "stdio"
+    ],
+    "link": "https://stackoverflow.com/questions/79989250/how-does-it-follow-that-the-implementation-guarantees-that-less-than-fopen-max"
+  },
+  {
+    "title": "Can I override resources in a custom helm chart&#39;s dependencies?",
+    "score": 0,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "kubernetes-helm",
+      "kustomize"
+    ],
+    "link": "https://stackoverflow.com/questions/79989315/can-i-override-resources-in-a-custom-helm-charts-dependencies"
+  },
+  {
+    "title": "After removing PHP 8.4 I still see 8.4.1 in the CLI",
+    "score": 0,
+    "views": 37,
+    "answers": 0,
+    "tags": [
+      "php",
+      "linux",
+      "command-line-interface"
+    ],
+    "link": "https://stackoverflow.com/questions/79989311/after-removing-php-8-4-i-still-see-8-4-1-in-the-cli"
+  },
+  {
+    "title": "Should I build a general purpose sparse set container with tons of features or just repeat myself?",
+    "score": -2,
+    "views": 82,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "c++"
+    ],
+    "link": "https://stackoverflow.com/questions/79989288/should-i-build-a-general-purpose-sparse-set-container-with-tons-of-features-or-j"
+  },
+  {
+    "title": "Attach value to Chrome window that persists on restart",
+    "score": 0,
+    "views": 34,
+    "answers": 0,
+    "tags": [
+      "google-chrome",
+      "google-chrome-extension"
+    ],
+    "link": "https://stackoverflow.com/questions/79989308/attach-value-to-chrome-window-that-persists-on-restart"
+  },
+  {
+    "title": "Power bottom flicker while laptop is off",
+    "score": -4,
+    "views": 33,
+    "answers": 0,
+    "tags": [
+      "windows",
+      "fedora",
+      "boot",
+      "light"
+    ],
+    "link": "https://stackoverflow.com/questions/79989301/power-bottom-flicker-while-laptop-is-off"
+  },
+  {
+    "title": "How does reading data with &gt;&gt; work inside a while loop in C++?",
+    "score": -4,
+    "views": 113,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "fstream",
+      "ifstream"
+    ],
+    "link": "https://stackoverflow.com/questions/79989242/how-does-reading-data-with-work-inside-a-while-loop-in-c"
+  }
+]
