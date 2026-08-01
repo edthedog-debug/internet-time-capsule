@@ -1,0 +1,243 @@
+[
+  {
+    "title": "View query results from a PL/SQL block without PUT_LINE, RETURN_RESULTS, or CREATE?",
+    "score": 0,
+    "views": 29,
+    "answers": 0,
+    "tags": [
+      "sql",
+      "plsql",
+      "inline-functions",
+      "sys-refcursor",
+      "oracle12.2"
+    ],
+    "link": "https://stackoverflow.com/questions/79989612/view-query-results-from-a-pl-sql-block-without-put-line-return-results-or-crea"
+  },
+  {
+    "title": "podman bind address already in use all checks showing it&#39;s clear",
+    "score": -3,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "port",
+      "podman",
+      "vnc"
+    ],
+    "link": "https://stackoverflow.com/questions/79989608/podman-bind-address-already-in-use-all-checks-showing-its-clear"
+  },
+  {
+    "title": "How can I hide a nocodb token from dev tools?",
+    "score": -2,
+    "views": 27,
+    "answers": 0,
+    "tags": [
+      "advice"
+    ],
+    "link": "https://stackoverflow.com/questions/79989610/how-can-i-hide-a-nocodb-token-from-dev-tools"
+  },
+  {
+    "title": "VS Code shows &quot;Incorrect type. &#39;string&#39; expected&quot; for @-metadata entries in .arb files, even though flutter gen-l10n works fine",
+    "score": -1,
+    "views": 26,
+    "answers": 0,
+    "tags": [
+      "flutter",
+      "dart",
+      "localization"
+    ],
+    "link": "https://stackoverflow.com/questions/79989605/vs-code-shows-incorrect-type-string-expected-for-metadata-entries-in-arb"
+  },
+  {
+    "title": "Build .NET Framework 4.7.1 ASP.NET apps without Visual Studio",
+    "score": 1,
+    "views": 55,
+    "answers": 0,
+    "tags": [
+      "c#",
+      ".net",
+      "asp.net-mvc"
+    ],
+    "link": "https://stackoverflow.com/questions/79989583/build-net-framework-4-7-1-asp-net-apps-without-visual-studio"
+  },
+  {
+    "title": "Design patterns for detecting end-of-batch in a multi-partition Apache Kafka topic",
+    "score": -3,
+    "views": 28,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "apache-kafka",
+      "architecture",
+      "distributed-system",
+      "event-driven"
+    ],
+    "link": "https://stackoverflow.com/questions/79989604/design-patterns-for-detecting-end-of-batch-in-a-multi-partition-apache-kafka-top"
+  },
+  {
+    "title": "Why is scrapy not returning items despite crawling?",
+    "score": 3,
+    "views": 40,
+    "answers": 1,
+    "tags": [
+      "python",
+      "web-scraping",
+      "scrapy"
+    ],
+    "link": "https://stackoverflow.com/questions/79989568/why-is-scrapy-not-returning-items-despite-crawling"
+  },
+  {
+    "title": "pyqt - stuck in loop, window not opening",
+    "score": -2,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "python",
+      "user-interface",
+      "pyqt"
+    ],
+    "link": "https://stackoverflow.com/questions/79989600/pyqt-stuck-in-loop-window-not-opening"
+  },
+  {
+    "title": "Should I deallocate a global, importable, allocated map in Odin?",
+    "score": -2,
+    "views": 19,
+    "answers": 0,
+    "tags": [
+      "odin"
+    ],
+    "link": "https://stackoverflow.com/questions/79989603/should-i-deallocate-a-global-importable-allocated-map-in-odin"
+  },
+  {
+    "title": "MCP tool icon is not showing up in VS Code UI",
+    "score": 0,
+    "views": 19,
+    "answers": 0,
+    "tags": [
+      "visual-studio-code",
+      "model-context-protocol"
+    ],
+    "link": "https://stackoverflow.com/questions/79989601/mcp-tool-icon-is-not-showing-up-in-vs-code-ui"
+  },
+  {
+    "title": "How do I get the autocomplete hints to work for items in my generic dictionary class?",
+    "score": 1,
+    "views": 70,
+    "answers": 1,
+    "tags": [
+      "python",
+      "python-typing"
+    ],
+    "link": "https://stackoverflow.com/questions/79989585/how-do-i-get-the-autocomplete-hints-to-work-for-items-in-my-generic-dictionary-c"
+  },
+  {
+    "title": "Closing modal userform causes modeless userform to unload/crash",
+    "score": -1,
+    "views": 12,
+    "answers": 0,
+    "tags": [
+      "vba",
+      "userform",
+      "solidworks"
+    ],
+    "link": "https://stackoverflow.com/questions/79989594/closing-modal-userform-causes-modeless-userform-to-unload-crash"
+  },
+  {
+    "title": "Create a foreign key using a subset of values from a primary key column",
+    "score": 1,
+    "views": 85,
+    "answers": 2,
+    "tags": [
+      "sql-server",
+      "foreign-keys"
+    ],
+    "link": "https://stackoverflow.com/questions/79989516/create-a-foreign-key-using-a-subset-of-values-from-a-primary-key-column"
+  },
+  {
+    "title": "Why is Try-Except not catching DIVIDE BY ZERO?",
+    "score": -1,
+    "views": 68,
+    "answers": 2,
+    "tags": [
+      "freepascal",
+      "lazarus",
+      "try-except",
+      "divide-by-zero",
+      "floating-point-exceptions"
+    ],
+    "link": "https://stackoverflow.com/questions/79989562/why-is-try-except-not-catching-divide-by-zero"
+  },
+  {
+    "title": "Resize video that has bad scale",
+    "score": -6,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "ffmpeg"
+    ],
+    "link": "https://stackoverflow.com/questions/79989581/resize-video-that-has-bad-scale"
+  },
+  {
+    "title": "Making sure pairs of integers are contained in a list",
+    "score": -5,
+    "views": 67,
+    "answers": 0,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/79989572/making-sure-pairs-of-integers-are-contained-in-a-list"
+  },
+  {
+    "title": "How to test Vue ripple directive has been used?",
+    "score": 0,
+    "views": 18,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "vue.js",
+      "quasar",
+      "vue-test-utils",
+      "vue-directives"
+    ],
+    "link": "https://stackoverflow.com/questions/79989578/how-to-test-vue-ripple-directive-has-been-used"
+  },
+  {
+    "title": "Delphi FMX Billing-8.0.0",
+    "score": 1,
+    "views": 51,
+    "answers": 1,
+    "tags": [
+      "android",
+      "delphi",
+      "firemonkey",
+      "rad-studio",
+      "delphi-13-florence"
+    ],
+    "link": "https://stackoverflow.com/questions/79989520/delphi-fmx-billing-8-0-0"
+  },
+  {
+    "title": "How to test sandboxed file access in Electron with a free macOS developer account?",
+    "score": -1,
+    "views": 27,
+    "answers": 0,
+    "tags": [
+      "macos",
+      "electron",
+      "mac-app-store",
+      "electron-forge"
+    ],
+    "link": "https://stackoverflow.com/questions/79989573/how-to-test-sandboxed-file-access-in-electron-with-a-free-macos-developer-accoun"
+  },
+  {
+    "title": "What architecture should replace Redis Pub/Sub for a large-scale distributed WebSocket system?",
+    "score": -1,
+    "views": 27,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "websocket",
+      "redis",
+      "event-driven-design"
+    ],
+    "link": "https://stackoverflow.com/questions/79989570/what-architecture-should-replace-redis-pub-sub-for-a-large-scale-distributed-web"
+  }
+]
