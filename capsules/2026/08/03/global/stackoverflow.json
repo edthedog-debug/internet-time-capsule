@@ -1,0 +1,235 @@
+[
+  {
+    "title": "How to fix adjustment responsive web on next js, and using tailwind css",
+    "score": -1,
+    "views": 11,
+    "answers": 0,
+    "tags": [
+      "next.js",
+      "tailwind-css"
+    ],
+    "link": "https://stackoverflow.com/questions/79989989/how-to-fix-adjustment-responsive-web-on-next-js-and-using-tailwind-css"
+  },
+  {
+    "title": "What are the implementation trade-offs between RAG and Fine-Tuning for a domain-specific chatbot?",
+    "score": -1,
+    "views": 28,
+    "answers": 0,
+    "tags": [
+      "artificial-intelligence"
+    ],
+    "link": "https://stackoverflow.com/questions/79989981/what-are-the-implementation-trade-offs-between-rag-and-fine-tuning-for-a-domain"
+  },
+  {
+    "title": "ImportError: cannot import name &#39;BuildDependencyInstallError&#39; while compiling Python Kivy 2.1.0 with Buildozer 1.4.0",
+    "score": 1,
+    "views": 27,
+    "answers": 1,
+    "tags": [
+      "python",
+      "pip",
+      "importerror",
+      "buildozer",
+      "python-3.10"
+    ],
+    "link": "https://stackoverflow.com/questions/79989978/importerror-cannot-import-name-builddependencyinstallerror-while-compiling-py"
+  },
+  {
+    "title": "Weirdness with NSTextLists and UITextView",
+    "score": 0,
+    "views": 34,
+    "answers": 1,
+    "tags": [
+      "macos",
+      "uitextview",
+      "textkit2"
+    ],
+    "link": "https://stackoverflow.com/questions/79989973/weirdness-with-nstextlists-and-uitextview"
+  },
+  {
+    "title": "Add information from response in HTML component",
+    "score": 1,
+    "views": 29,
+    "answers": 1,
+    "tags": [
+      "angular"
+    ],
+    "link": "https://stackoverflow.com/questions/79989970/add-information-from-response-in-html-component"
+  },
+  {
+    "title": "How can I locate an element in a nested div without selecting the outer div?",
+    "score": 0,
+    "views": 45,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "ui-automation",
+      "playwright"
+    ],
+    "link": "https://stackoverflow.com/questions/79989960/how-can-i-locate-an-element-in-a-nested-div-without-selecting-the-outer-div"
+  },
+  {
+    "title": "How do I create a Word (.docx) report with multiple interspersed bullet points from a template Word (.docx) using python-docx?",
+    "score": 2,
+    "views": 46,
+    "answers": 1,
+    "tags": [
+      "python",
+      "docx",
+      "python-docx"
+    ],
+    "link": "https://stackoverflow.com/questions/79989937/how-do-i-create-a-word-docx-report-with-multiple-interspersed-bullet-points-f"
+  },
+  {
+    "title": "Race condition on large systems",
+    "score": 0,
+    "views": 27,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "design-patterns",
+      "race-condition"
+    ],
+    "link": "https://stackoverflow.com/questions/79989959/race-condition-on-large-systems"
+  },
+  {
+    "title": "Problems formatting Rust code in presence of dioxus `rsx!` macro",
+    "score": -1,
+    "views": 49,
+    "answers": 1,
+    "tags": [
+      "rust",
+      "emacs",
+      "dioxus"
+    ],
+    "link": "https://stackoverflow.com/questions/79989938/problems-formatting-rust-code-in-presence-of-dioxus-rsx-macro"
+  },
+  {
+    "title": "Positioning plot legend",
+    "score": -5,
+    "views": 40,
+    "answers": 0,
+    "tags": [
+      "python",
+      "matplotlib"
+    ],
+    "link": "https://stackoverflow.com/questions/79989961/positioning-plot-legend"
+  },
+  {
+    "title": "Static Extension Method: CS0704: Cannot do non-virtual member lookup in &#39;type&#39; because it is a type parameter?",
+    "score": 4,
+    "views": 87,
+    "answers": 2,
+    "tags": [
+      "c#",
+      "generics",
+      "extension-methods",
+      ".net-generic-math"
+    ],
+    "link": "https://stackoverflow.com/questions/79989900/static-extension-method-cs0704-cannot-do-non-virtual-member-lookup-in-type-b"
+  },
+  {
+    "title": "flutter build appbundle warning: &quot;unobfuscated DWARF debugging information&quot;",
+    "score": 0,
+    "views": 35,
+    "answers": 0,
+    "tags": [
+      "flutter",
+      "gradle",
+      "android-app-bundle"
+    ],
+    "link": "https://stackoverflow.com/questions/79989952/flutter-build-appbundle-warning-unobfuscated-dwarf-debugging-information"
+  },
+  {
+    "title": "How to delete a line in a string",
+    "score": -6,
+    "views": 92,
+    "answers": 1,
+    "tags": [
+      "rust"
+    ],
+    "link": "https://stackoverflow.com/questions/79989909/how-to-delete-a-line-in-a-string"
+  },
+  {
+    "title": "Failed to create virtual environment in VS Code",
+    "score": 0,
+    "views": 55,
+    "answers": 1,
+    "tags": [
+      "python",
+      "visual-studio-code",
+      "virtual-environment"
+    ],
+    "link": "https://stackoverflow.com/questions/79989943/failed-to-create-virtual-environment-in-vs-code"
+  },
+  {
+    "title": "Llama model generation always skips 1 token during inference",
+    "score": 0,
+    "views": 55,
+    "answers": 1,
+    "tags": [
+      "python",
+      "pytorch",
+      "huggingface-transformers",
+      "training-data"
+    ],
+    "link": "https://stackoverflow.com/questions/79989890/llama-model-generation-always-skips-1-token-during-inference"
+  },
+  {
+    "title": "KeyError with Performing K-Fold Cross-Validation",
+    "score": 1,
+    "views": 45,
+    "answers": 1,
+    "tags": [
+      "python",
+      "cross-validation",
+      "k-fold"
+    ],
+    "link": "https://stackoverflow.com/questions/79989929/keyerror-with-performing-k-fold-cross-validation"
+  },
+  {
+    "title": "Godot Google Play Billing ( I&#39;m getting this result -&gt; [IAP] Product not cached: coins_0.99 )",
+    "score": -4,
+    "views": 44,
+    "answers": 0,
+    "tags": [
+      "google-cloud-platform",
+      "godot",
+      "play-billing-library"
+    ],
+    "link": "https://stackoverflow.com/questions/79989939/godot-google-play-billing-im-getting-this-result-iap-product-not-cached"
+  },
+  {
+    "title": "WhatsApp Cloud API webhook is verified (200 OK), but incoming messages never reach my FastAPI server",
+    "score": -9,
+    "views": 56,
+    "answers": 0,
+    "tags": [
+      "fastapi",
+      "whatsapp-cloud-api"
+    ],
+    "link": "https://stackoverflow.com/questions/79989945/whatsapp-cloud-api-webhook-is-verified-200-ok-but-incoming-messages-never-rea"
+  },
+  {
+    "title": "Abaqus CAE Python scripting, what documentation is available",
+    "score": -3,
+    "views": 40,
+    "answers": 1,
+    "tags": [
+      "python",
+      "abaqus"
+    ],
+    "link": "https://stackoverflow.com/questions/79989898/abaqus-cae-python-scripting-what-documentation-is-available"
+  },
+  {
+    "title": "Forbid use of certain types (ones in the javax.inject package)",
+    "score": 1,
+    "views": 41,
+    "answers": 1,
+    "tags": [
+      "scala",
+      "sbt"
+    ],
+    "link": "https://stackoverflow.com/questions/79989904/forbid-use-of-certain-types-ones-in-the-javax-inject-package"
+  }
+]
