@@ -1,0 +1,249 @@
+[
+  {
+    "title": "Why aren&#39;t credentials/regions from any profile other than default being loaded?",
+    "score": 0,
+    "views": 12,
+    "answers": 0,
+    "tags": [
+      "amazon-web-services",
+      "aws-cli",
+      "aws-sdk-java-2.0",
+      "aws-regions",
+      "aws-credentials"
+    ],
+    "link": "https://stackoverflow.com/questions/79990859/why-arent-credentials-regions-from-any-profile-other-than-default-being-loaded"
+  },
+  {
+    "title": "How can I separate functions on Python so that it doesn&#39;t reset each time I use the terminal?",
+    "score": -3,
+    "views": 47,
+    "answers": 0,
+    "tags": [
+      "python",
+      "python-3.x",
+      "function",
+      "class"
+    ],
+    "link": "https://stackoverflow.com/questions/79990855/how-can-i-separate-functions-on-python-so-that-it-doesnt-reset-each-time-i-use"
+  },
+  {
+    "title": "Search files for C function using grep",
+    "score": 0,
+    "views": 39,
+    "answers": 0,
+    "tags": [
+      "c",
+      "grep"
+    ],
+    "link": "https://stackoverflow.com/questions/79990852/search-files-for-c-function-using-grep"
+  },
+  {
+    "title": "Power Automate &#39;Create a Teams Meeting&#39; not handling timezones correctly",
+    "score": 0,
+    "views": 39,
+    "answers": 0,
+    "tags": [
+      "datetime",
+      "microsoft-teams",
+      "power-automate",
+      "timezone-offset"
+    ],
+    "link": "https://stackoverflow.com/questions/79990827/power-automate-create-a-teams-meeting-not-handling-timezones-correctly"
+  },
+  {
+    "title": "OptionPane.sameSizeButtons property with Metal PLAF",
+    "score": 0,
+    "views": 23,
+    "answers": 1,
+    "tags": [
+      "java",
+      "swing",
+      "joptionpane"
+    ],
+    "link": "https://stackoverflow.com/questions/79990842/optionpane-samesizebuttons-property-with-metal-plaf"
+  },
+  {
+    "title": "SQL Server database stuck restoring when restored with mssql_python",
+    "score": 1,
+    "views": 60,
+    "answers": 1,
+    "tags": [
+      "python",
+      "sql-server",
+      "sql-server-2022",
+      "mssql-python"
+    ],
+    "link": "https://stackoverflow.com/questions/79990815/sql-server-database-stuck-restoring-when-restored-with-mssql-python"
+  },
+  {
+    "title": "Why is the pre-C++23 start_lifetime_as() function described in &quot;Taking A byte out of C++&quot; not exhibiting Undefined Behavior?",
+    "score": 5,
+    "views": 86,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "c++20",
+      "lifetime",
+      "reinterpret-cast",
+      "stdlaunder"
+    ],
+    "link": "https://stackoverflow.com/questions/79990816/why-is-the-pre-c23-start-lifetime-as-function-described-in-taking-a-byte-ou"
+  },
+  {
+    "title": "How does CSS render different parts of text in a single &lt;div&gt; differently?",
+    "score": 0,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/79990825/how-does-css-render-different-parts-of-text-in-a-single-div-differently"
+  },
+  {
+    "title": "Why does the memory allocation in this program stay consistently high?",
+    "score": 0,
+    "views": 58,
+    "answers": 0,
+    "tags": [
+      "rust",
+      "memory"
+    ],
+    "link": "https://stackoverflow.com/questions/79990820/why-does-the-memory-allocation-in-this-program-stay-consistently-high"
+  },
+  {
+    "title": "How to determine number of characters consumed by vsscanf without modifying the format string?",
+    "score": 3,
+    "views": 96,
+    "answers": 2,
+    "tags": [
+      "c",
+      "scanf",
+      "buffer",
+      "variadic-functions",
+      "format-string"
+    ],
+    "link": "https://stackoverflow.com/questions/79990757/how-to-determine-number-of-characters-consumed-by-vsscanf-without-modifying-the"
+  },
+  {
+    "title": "Finding the complement of an original data table &amp; the distinct entries of that data table with dplyr in R. All duplicates must be retained",
+    "score": -2,
+    "views": 68,
+    "answers": 3,
+    "tags": [
+      "r",
+      "dplyr"
+    ],
+    "link": "https://stackoverflow.com/questions/79990723/finding-the-complement-of-an-original-data-table-the-distinct-entries-of-that"
+  },
+  {
+    "title": "Is fetching std::chrono::steady_clock inside a critical section necessary to theoretically align C++ happens-before with real-time order?",
+    "score": -2,
+    "views": 162,
+    "answers": 3,
+    "tags": [
+      "c++",
+      "language-lawyer",
+      "atomic"
+    ],
+    "link": "https://stackoverflow.com/questions/79990614/is-fetching-stdchronosteady-clock-inside-a-critical-section-necessary-to-the"
+  },
+  {
+    "title": "Error: signed modular JAR ...bcprov-jdk18on-1.84.jar is currently not supported, use --ignore-signing-information to suppress error",
+    "score": 0,
+    "views": 53,
+    "answers": 0,
+    "tags": [
+      "java",
+      "maven",
+      "netbeans"
+    ],
+    "link": "https://stackoverflow.com/questions/79990762/error-signed-modular-jar-bcprov-jdk18on-1-84-jar-is-currently-not-supported"
+  },
+  {
+    "title": "Duplicated code-gen on clang for non-defaulted destructor in templated class with shared_ptr",
+    "score": 0,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "code-generation",
+      "clang++",
+      "std-variant"
+    ],
+    "link": "https://stackoverflow.com/questions/79990814/duplicated-code-gen-on-clang-for-non-defaulted-destructor-in-templated-class-wit"
+  },
+  {
+    "title": "How to validate a field without storing it",
+    "score": 0,
+    "views": 82,
+    "answers": 0,
+    "tags": [
+      "rust",
+      "serde"
+    ],
+    "link": "https://stackoverflow.com/questions/79990793/how-to-validate-a-field-without-storing-it"
+  },
+  {
+    "title": "How to solve verify traffic error for web scraping",
+    "score": -6,
+    "views": 103,
+    "answers": 0,
+    "tags": [
+      "python",
+      "web-scraping",
+      "shopee"
+    ],
+    "link": "https://stackoverflow.com/questions/79990794/how-to-solve-verify-traffic-error-for-web-scraping"
+  },
+  {
+    "title": "max_length messages from error_messages do not override default message of existing MaxLengthValidators",
+    "score": -1,
+    "views": 33,
+    "answers": 0,
+    "tags": [
+      "django",
+      "validation",
+      "django-models",
+      "django-forms"
+    ],
+    "link": "https://stackoverflow.com/questions/79990807/max-length-messages-from-error-messages-do-not-override-default-message-of-exist"
+  },
+  {
+    "title": "How can I pause a &#39;repeating forever&#39; animation in Reality Composer Pro 2?",
+    "score": 0,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "ios",
+      "swift",
+      "arkit",
+      "realitykit",
+      "reality-composer-pro"
+    ],
+    "link": "https://stackoverflow.com/questions/79990806/how-can-i-pause-a-repeating-forever-animation-in-reality-composer-pro-2"
+  },
+  {
+    "title": "couldn&#39;t connect mongodb in vs code using connection string",
+    "score": -4,
+    "views": 83,
+    "answers": 1,
+    "tags": [
+      "node.js",
+      "mongodb",
+      "mongodb-atlas"
+    ],
+    "link": "https://stackoverflow.com/questions/79990774/couldnt-connect-mongodb-in-vs-code-using-connection-string"
+  },
+  {
+    "title": "When should a Python project be reorganized into packages instead of keeping modules in the project root?",
+    "score": 0,
+    "views": 129,
+    "answers": 4,
+    "tags": [
+      "best-practices",
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/79990707/when-should-a-python-project-be-reorganized-into-packages-instead-of-keeping-mod"
+  }
+]
