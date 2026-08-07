@@ -1,0 +1,246 @@
+[
+  {
+    "title": "Why is zeroed out USB drive still showing up in UEFI/BIOS bootmenu?",
+    "score": 0,
+    "views": 20,
+    "answers": 1,
+    "tags": [
+      "x86",
+      "boot",
+      "bios",
+      "uefi"
+    ],
+    "link": "https://stackoverflow.com/questions/79991182/why-is-zeroed-out-usb-drive-still-showing-up-in-uefi-bios-bootmenu"
+  },
+  {
+    "title": "Running MySQL get results and exit",
+    "score": 0,
+    "views": 17,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "mysql"
+    ],
+    "link": "https://stackoverflow.com/questions/79991177/running-mysql-get-results-and-exit"
+  },
+  {
+    "title": "Why doesn’t Vulkan support MIPI RAW10 image sampling, while OpenCL does with raw extensions?",
+    "score": 0,
+    "views": 12,
+    "answers": 0,
+    "tags": [
+      "opencl",
+      "vulkan"
+    ],
+    "link": "https://stackoverflow.com/questions/79991183/why-doesn-t-vulkan-support-mipi-raw10-image-sampling-while-opencl-does-with-raw"
+  },
+  {
+    "title": "How should AGENTS.md be structured in a Gradle multi-module Java project when a module&#39;s sourceSets point outside its own directory?",
+    "score": 0,
+    "views": 17,
+    "answers": 0,
+    "tags": [
+      "java",
+      "gradle",
+      "agent",
+      "monorepo"
+    ],
+    "link": "https://stackoverflow.com/questions/79991176/how-should-agents-md-be-structured-in-a-gradle-multi-module-java-project-when-a"
+  },
+  {
+    "title": "WinForms DataGridView: Prevent Enter from moving to the next row and move focus to another column in the same row",
+    "score": 1,
+    "views": 29,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "winforms",
+      "datagridview",
+      "focus",
+      "keyboard-events"
+    ],
+    "link": "https://stackoverflow.com/questions/79991165/winforms-datagridview-prevent-enter-from-moving-to-the-next-row-and-move-focus"
+  },
+  {
+    "title": "Reverse authentication by password for the root user of MariaDB to do admin tasks via phpMyAdmin",
+    "score": 0,
+    "views": 13,
+    "answers": 0,
+    "tags": [
+      "php",
+      "phpmyadmin",
+      "mariadb"
+    ],
+    "link": "https://stackoverflow.com/questions/79991179/reverse-authentication-by-password-for-the-root-user-of-mariadb-to-do-admin-task"
+  },
+  {
+    "title": "What&#39;s the best pattern for keeping custom database tables and post meta synchronized without duplicating business logic?",
+    "score": 0,
+    "views": 15,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "wordpress",
+      "design-patterns",
+      "custom-post-type",
+      "wordpress-rest-api"
+    ],
+    "link": "https://stackoverflow.com/questions/79991168/whats-the-best-pattern-for-keeping-custom-database-tables-and-post-meta-synchro"
+  },
+  {
+    "title": "Why does asyncio.TaskGroup hang instead of raising when one of several concurrent LLM calls swallows CancelledError?",
+    "score": 1,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "python",
+      "python-asyncio"
+    ],
+    "link": "https://stackoverflow.com/questions/79991171/why-does-asyncio-taskgroup-hang-instead-of-raising-when-one-of-several-concurren"
+  },
+  {
+    "title": "How to plot in an independent window by default in Positron?",
+    "score": 0,
+    "views": 16,
+    "answers": 1,
+    "tags": [
+      "rstudio",
+      "positron"
+    ],
+    "link": "https://stackoverflow.com/questions/79991162/how-to-plot-in-an-independent-window-by-default-in-positron"
+  },
+  {
+    "title": "What&#39;s the correct pattern to guarantee an async generator is closed when its consuming task is cancelled mid-queue.put()?",
+    "score": 3,
+    "views": 66,
+    "answers": 1,
+    "tags": [
+      "python",
+      "python-asyncio",
+      "generator",
+      "backpressure"
+    ],
+    "link": "https://stackoverflow.com/questions/79991144/whats-the-correct-pattern-to-guarantee-an-async-generator-is-closed-when-its-co"
+  },
+  {
+    "title": "What is the best practice for creating Git commits and writing meaningful commit messages?",
+    "score": -7,
+    "views": 79,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "git",
+      "github"
+    ],
+    "link": "https://stackoverflow.com/questions/79991123/what-is-the-best-practice-for-creating-git-commits-and-writing-meaningful-commit"
+  },
+  {
+    "title": "Logic behind sizeof() for 2D arrays in C",
+    "score": 3,
+    "views": 125,
+    "answers": 5,
+    "tags": [
+      "arrays",
+      "c",
+      "sizeof"
+    ],
+    "link": "https://stackoverflow.com/questions/79991056/logic-behind-sizeof-for-2d-arrays-in-c"
+  },
+  {
+    "title": "Calling interface method causes stack overflow error",
+    "score": 0,
+    "views": 58,
+    "answers": 2,
+    "tags": [
+      "c#",
+      "inheritance",
+      "interface",
+      "multiple-inheritance",
+      "unityscript"
+    ],
+    "link": "https://stackoverflow.com/questions/79991119/calling-interface-method-causes-stack-overflow-error"
+  },
+  {
+    "title": "How to bypass Cloudflare protection from a cloud server for free (Error 403)?",
+    "score": -8,
+    "views": 77,
+    "answers": 1,
+    "tags": [
+      "tooling-recommendation"
+    ],
+    "link": "https://stackoverflow.com/questions/79991134/how-to-bypass-cloudflare-protection-from-a-cloud-server-for-free-error-403"
+  },
+  {
+    "title": "How to delete from a sorted array without O(n)",
+    "score": -2,
+    "views": 94,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "javascript",
+      "database",
+      "optimization",
+      "data-structures"
+    ],
+    "link": "https://stackoverflow.com/questions/79991124/how-to-delete-from-a-sorted-array-without-on"
+  },
+  {
+    "title": "Having trouble with writing and reading a binary file",
+    "score": -5,
+    "views": 97,
+    "answers": 2,
+    "tags": [
+      "c++",
+      "binary"
+    ],
+    "link": "https://stackoverflow.com/questions/79991112/having-trouble-with-writing-and-reading-a-binary-file"
+  },
+  {
+    "title": "On Windows, how do you check if the proxy in Windows Proxy Settings window is on?",
+    "score": 0,
+    "views": 70,
+    "answers": 0,
+    "tags": [
+      "java",
+      "windows",
+      "proxy"
+    ],
+    "link": "https://stackoverflow.com/questions/79991084/on-windows-how-do-you-check-if-the-proxy-in-windows-proxy-settings-window-is-on"
+  },
+  {
+    "title": "Why does MySQL allow only one AUTO_INCREMENT Column per table?",
+    "score": -3,
+    "views": 108,
+    "answers": 1,
+    "tags": [
+      "mysql",
+      "auto-increment"
+    ],
+    "link": "https://stackoverflow.com/questions/79991042/why-does-mysql-allow-only-one-auto-increment-column-per-table"
+  },
+  {
+    "title": "RabbitMQ is missing every other message",
+    "score": 1,
+    "views": 54,
+    "answers": 1,
+    "tags": [
+      "python",
+      "rabbitmq"
+    ],
+    "link": "https://stackoverflow.com/questions/79991050/rabbitmq-is-missing-every-other-message"
+  },
+  {
+    "title": "How to call a C++ lambda from a constexpr function?",
+    "score": 0,
+    "views": 90,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "lambda",
+      "c++17",
+      "constexpr",
+      "constexpr-function"
+    ],
+    "link": "https://stackoverflow.com/questions/79991105/how-to-call-a-c-lambda-from-a-constexpr-function"
+  }
+]
