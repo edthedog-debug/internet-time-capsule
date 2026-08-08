@@ -1,0 +1,240 @@
+[
+  {
+    "title": "Im confused about changing a background image with a confirm()",
+    "score": -1,
+    "views": 15,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "css",
+      "confirm"
+    ],
+    "link": "https://stackoverflow.com/questions/79991460/im-confused-about-changing-a-background-image-with-a-confirm"
+  },
+  {
+    "title": "self.setCentralWidget() places my widget in top left not center",
+    "score": 0,
+    "views": 14,
+    "answers": 0,
+    "tags": [
+      "python",
+      "pyqt6"
+    ],
+    "link": "https://stackoverflow.com/questions/79991458/self-setcentralwidget-places-my-widget-in-top-left-not-center"
+  },
+  {
+    "title": "In an HTML table, what&#39;s the use of the scope attribute for &lt;tr&gt;, &lt;tg&gt;, and &lt;td&gt;",
+    "score": 0,
+    "views": 32,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "html",
+      "html-table",
+      "accessibility"
+    ],
+    "link": "https://stackoverflow.com/questions/79991445/in-an-html-table-whats-the-use-of-the-scope-attribute-for-tr-tg-and-td"
+  },
+  {
+    "title": "How does apple create this glass effect in the contacts app of IOS",
+    "score": -1,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "swift",
+      "swiftui"
+    ],
+    "link": "https://stackoverflow.com/questions/79991453/how-does-apple-create-this-glass-effect-in-the-contacts-app-of-ios"
+  },
+  {
+    "title": "Query with LIKE / IN",
+    "score": -1,
+    "views": 20,
+    "answers": 0,
+    "tags": [
+      "sql"
+    ],
+    "link": "https://stackoverflow.com/questions/79991450/query-with-like-in"
+  },
+  {
+    "title": "QGraphicsView scrollbar does not update with contents",
+    "score": -4,
+    "views": 19,
+    "answers": 0,
+    "tags": [
+      "python",
+      "qt",
+      "pyqt",
+      "scrollbar"
+    ],
+    "link": "https://stackoverflow.com/questions/79991448/qgraphicsview-scrollbar-does-not-update-with-contents"
+  },
+  {
+    "title": "Any recourse with applying a functional based index to multiple situations?",
+    "score": 0,
+    "views": 28,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "sql",
+      "oracle19c"
+    ],
+    "link": "https://stackoverflow.com/questions/79991439/any-recourse-with-applying-a-functional-based-index-to-multiple-situations"
+  },
+  {
+    "title": "I am hosting a proxy from socat and when I curl to it, curl returns &quot;Empty reply from server&quot;",
+    "score": -2,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "http",
+      "curl",
+      "socat",
+      "http-1.1"
+    ],
+    "link": "https://stackoverflow.com/questions/79991435/i-am-hosting-a-proxy-from-socat-and-when-i-curl-to-it-curl-returns-empty-reply"
+  },
+  {
+    "title": "Bluetooth application on the huawei device not working",
+    "score": 0,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "bluetooth",
+      "huawei-mobile-services"
+    ],
+    "link": "https://stackoverflow.com/questions/79991441/bluetooth-application-on-the-huawei-device-not-working"
+  },
+  {
+    "title": "Unexpected interaction between list comprehensions, late-binding closures, and in-place mutation in Python loop scopes",
+    "score": 4,
+    "views": 49,
+    "answers": 0,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/79991433/unexpected-interaction-between-list-comprehensions-late-binding-closures-and-i"
+  },
+  {
+    "title": "asyncio.shield() protects my in-flight LLM call from cancellation, but I lose the ability to know when it actually finishes",
+    "score": 2,
+    "views": 60,
+    "answers": 2,
+    "tags": [
+      "python",
+      "task",
+      "python-asyncio"
+    ],
+    "link": "https://stackoverflow.com/questions/79991412/asyncio-shield-protects-my-in-flight-llm-call-from-cancellation-but-i-lose-th"
+  },
+  {
+    "title": "How do you avoid race condition in Spring Boot applications, is it @Version or something else?",
+    "score": -3,
+    "views": 52,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "spring",
+      "spring-boot"
+    ],
+    "link": "https://stackoverflow.com/questions/79991417/how-do-you-avoid-race-condition-in-spring-boot-applications-is-it-version-or-s"
+  },
+  {
+    "title": "Linkage woes; source built libcrypto is not being pulled as a dependency when linking against its libssl counterpart",
+    "score": 0,
+    "views": 51,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "cmake",
+      "openssl",
+      "ld"
+    ],
+    "link": "https://stackoverflow.com/questions/79991370/linkage-woes-source-built-libcrypto-is-not-being-pulled-as-a-dependency-when-li"
+  },
+  {
+    "title": "How to place a button immediately after the last CollectionView item?",
+    "score": 0,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "xaml",
+      "maui",
+      "collectionview",
+      ".net-10.0"
+    ],
+    "link": "https://stackoverflow.com/questions/79991418/how-to-place-a-button-immediately-after-the-last-collectionview-item"
+  },
+  {
+    "title": "Decode PyASN1 recursive structure",
+    "score": -1,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "python",
+      "pyasn1"
+    ],
+    "link": "https://stackoverflow.com/questions/79991413/decode-pyasn1-recursive-structure"
+  },
+  {
+    "title": "Why does my async function return a pending Promise instead of the resolved value when I call it inside a forEach loop",
+    "score": 0,
+    "views": 17,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "asynchronous",
+      "promise",
+      "es6-promise"
+    ],
+    "link": "https://stackoverflow.com/questions/79991429/why-does-my-async-function-return-a-pending-promise-instead-of-the-resolved-valu"
+  },
+  {
+    "title": "CMake linker problem disguised as include error or is is something else?",
+    "score": 0,
+    "views": 35,
+    "answers": 1,
+    "tags": [
+      "cmake"
+    ],
+    "link": "https://stackoverflow.com/questions/79991403/cmake-linker-problem-disguised-as-include-error-or-is-is-something-else"
+  },
+  {
+    "title": "A pair of md5 hash sums for one file",
+    "score": -4,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "gzip",
+      "md5"
+    ],
+    "link": "https://stackoverflow.com/questions/79991410/a-pair-of-md5-hash-sums-for-one-file"
+  },
+  {
+    "title": "Hibernate update failing",
+    "score": 0,
+    "views": 43,
+    "answers": 0,
+    "tags": [
+      "java",
+      "spring",
+      "hibernate"
+    ],
+    "link": "https://stackoverflow.com/questions/79991405/hibernate-update-failing"
+  },
+  {
+    "title": "Longest Increasing Subsequence - failing for a test case",
+    "score": -3,
+    "views": 89,
+    "answers": 1,
+    "tags": [
+      "java",
+      "algorithm",
+      "recursion",
+      "dynamic-programming"
+    ],
+    "link": "https://stackoverflow.com/questions/79991371/longest-increasing-subsequence-failing-for-a-test-case"
+  }
+]
