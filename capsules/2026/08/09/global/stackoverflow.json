@@ -1,0 +1,226 @@
+[
+  {
+    "title": "Custom overload for operator&lt;&lt; for ostream not taken",
+    "score": 0,
+    "views": 24,
+    "answers": 2,
+    "tags": [
+      "c++"
+    ],
+    "link": "https://stackoverflow.com/questions/79991648/custom-overload-for-operator-for-ostream-not-taken"
+  },
+  {
+    "title": "Configuration issues with Simon Wright&#39;s Stand Alone GNATStudio for Macbook/rosetta and *.gpr project file with gcc-13.2.0-aarch64",
+    "score": 0,
+    "views": 15,
+    "answers": 0,
+    "tags": [
+      "gnat-studio"
+    ],
+    "link": "https://stackoverflow.com/questions/79991646/configuration-issues-with-simon-wrights-stand-alone-gnatstudio-for-macbook-rose"
+  },
+  {
+    "title": "Pointers and references in Javascript",
+    "score": -1,
+    "views": 39,
+    "answers": 1,
+    "tags": [
+      "javascript"
+    ],
+    "link": "https://stackoverflow.com/questions/79991637/pointers-and-references-in-javascript"
+  },
+  {
+    "title": "How do I parse and process a const char * string in C without modifying the original string?",
+    "score": 0,
+    "views": 55,
+    "answers": 0,
+    "tags": [
+      "c"
+    ],
+    "link": "https://stackoverflow.com/questions/79991639/how-do-i-parse-and-process-a-const-char-string-in-c-without-modifying-the-orig"
+  },
+  {
+    "title": "Why i am unable to past this text in the body of the stackover flow",
+    "score": -3,
+    "views": 33,
+    "answers": 0,
+    "tags": [
+      "stack-overflow"
+    ],
+    "link": "https://stackoverflow.com/questions/79991641/why-i-am-unable-to-past-this-text-in-the-body-of-the-stackover-flow"
+  },
+  {
+    "title": "Initialize multiple static data members via a function",
+    "score": -2,
+    "views": 43,
+    "answers": 1,
+    "tags": [
+      "c++"
+    ],
+    "link": "https://stackoverflow.com/questions/79991630/initialize-multiple-static-data-members-via-a-function"
+  },
+  {
+    "title": "How can I prevent duplicate WooCommerce webhook processing when the same event is delivered multiple times?",
+    "score": 0,
+    "views": 11,
+    "answers": 0,
+    "tags": [
+      "php",
+      "wordpress",
+      "rest",
+      "woocommerce",
+      "webhooks"
+    ],
+    "link": "https://stackoverflow.com/questions/79991642/how-can-i-prevent-duplicate-woocommerce-webhook-processing-when-the-same-event-i"
+  },
+  {
+    "title": "How do I disable the default iOS form styling in place of my CSS?",
+    "score": 1,
+    "views": 44,
+    "answers": 1,
+    "tags": [
+      "html",
+      "css",
+      "forms",
+      "input",
+      "safari"
+    ],
+    "link": "https://stackoverflow.com/questions/79991607/how-do-i-disable-the-default-ios-form-styling-in-place-of-my-css"
+  },
+  {
+    "title": "Langchain-community is deprecated or sunset, how to adjust to this?",
+    "score": 0,
+    "views": 51,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "langchain"
+    ],
+    "link": "https://stackoverflow.com/questions/79991625/langchain-community-is-deprecated-or-sunset-how-to-adjust-to-this"
+  },
+  {
+    "title": "Xcode connection problem. Keeps saying Exit instead of UIController when I try to connect it from the storyboard to the code",
+    "score": -1,
+    "views": 15,
+    "answers": 0,
+    "tags": [
+      "swift",
+      "xcode",
+      "xcode-storyboard"
+    ],
+    "link": "https://stackoverflow.com/questions/79991633/xcode-connection-problem-keeps-saying-exit-instead-of-uicontroller-when-i-try-t"
+  },
+  {
+    "title": "Item index in a for loop",
+    "score": -3,
+    "views": 112,
+    "answers": 2,
+    "tags": [
+      "python",
+      "dataframe"
+    ],
+    "link": "https://stackoverflow.com/questions/79991612/item-index-in-a-for-loop"
+  },
+  {
+    "title": "How to reduce the time taken to solve cses problem number 2?",
+    "score": -3,
+    "views": 91,
+    "answers": 1,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/79991602/how-to-reduce-the-time-taken-to-solve-cses-problem-number-2"
+  },
+  {
+    "title": "Why does std::vector sometimes reallocate even when I know how many elements I’ll add?",
+    "score": 0,
+    "views": 103,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "memory-management",
+      "stdvector"
+    ],
+    "link": "https://stackoverflow.com/questions/79991614/why-does-stdvector-sometimes-reallocate-even-when-i-know-how-many-elements-i-l"
+  },
+  {
+    "title": "Port Busy When uploading Sketch to Arduino Uno R3 on Mac",
+    "score": 0,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "macos",
+      "arduino"
+    ],
+    "link": "https://stackoverflow.com/questions/79991605/port-busy-when-uploading-sketch-to-arduino-uno-r3-on-mac"
+  },
+  {
+    "title": "Store long-lived password securely in PBEKeySpec or a Key Store",
+    "score": 0,
+    "views": 59,
+    "answers": 0,
+    "tags": [
+      "java",
+      "security",
+      "password-protection",
+      "dump"
+    ],
+    "link": "https://stackoverflow.com/questions/79991583/store-long-lived-password-securely-in-pbekeyspec-or-a-key-store"
+  },
+  {
+    "title": "Why is IN(s) much slower than alternatives, especially index(s)?",
+    "score": 0,
+    "views": 58,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "jq"
+    ],
+    "link": "https://stackoverflow.com/questions/79991613/why-is-ins-much-slower-than-alternatives-especially-indexs"
+  },
+  {
+    "title": "how can we make system(&quot;&quot;) -- dynamic?",
+    "score": -2,
+    "views": 89,
+    "answers": 1,
+    "tags": [
+      "c"
+    ],
+    "link": "https://stackoverflow.com/questions/79991587/how-can-we-make-system-dynamic"
+  },
+  {
+    "title": "Using std::valarray, access elements by their index value with the end function",
+    "score": 1,
+    "views": 48,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "arrays",
+      "c++23",
+      "valarray"
+    ],
+    "link": "https://stackoverflow.com/questions/79991591/using-stdvalarray-access-elements-by-their-index-value-with-the-end-function"
+  },
+  {
+    "title": "How can I restrict a method to only classes implementing a specific interface in Java?",
+    "score": 3,
+    "views": 197,
+    "answers": 4,
+    "tags": [
+      "java",
+      "oop"
+    ],
+    "link": "https://stackoverflow.com/questions/79991553/how-can-i-restrict-a-method-to-only-classes-implementing-a-specific-interface-in"
+  },
+  {
+    "title": "How can I dynamically build an HTML email body in UiPath using values read from Excel?",
+    "score": -4,
+    "views": 44,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "uipath"
+    ],
+    "link": "https://stackoverflow.com/questions/79991601/how-can-i-dynamically-build-an-html-email-body-in-uipath-using-values-read-from"
+  }
+]
