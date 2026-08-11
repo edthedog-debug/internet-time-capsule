@@ -1,0 +1,82 @@
+[
+  {
+    "home": "Toronto Blue Jays",
+    "away": "Boston Red Sox",
+    "home_score": "2",
+    "away_score": "1",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-08-10T23:07Z"
+  },
+  {
+    "home": "Atlanta Braves",
+    "away": "New York Mets",
+    "home_score": "5",
+    "away_score": "7",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-08-10T23:15Z"
+  },
+  {
+    "home": "Minnesota Twins",
+    "away": "Baltimore Orioles",
+    "home_score": "2",
+    "away_score": "1",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-08-10T23:40Z"
+  },
+  {
+    "home": "St. Louis Cardinals",
+    "away": "Philadelphia Phillies",
+    "home_score": "0",
+    "away_score": "3",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-08-10T23:45Z"
+  },
+  {
+    "home": "Los Angeles Angels",
+    "away": "Texas Rangers",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_SCHEDULED",
+    "date": "2026-08-11T01:38Z"
+  },
+  {
+    "home": "Arizona Diamondbacks",
+    "away": "Colorado Rockies",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_SCHEDULED",
+    "date": "2026-08-11T01:40Z"
+  },
+  {
+    "home": "San Diego Padres",
+    "away": "Milwaukee Brewers",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_SCHEDULED",
+    "date": "2026-08-11T01:40Z"
+  },
+  {
+    "home": "Athletics",
+    "away": "Tampa Bay Rays",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_SCHEDULED",
+    "date": "2026-08-11T01:40Z"
+  },
+  {
+    "home": "San Francisco Giants",
+    "away": "Houston Astros",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_SCHEDULED",
+    "date": "2026-08-11T01:45Z"
+  },
+  {
+    "home": "Los Angeles Dodgers",
+    "away": "Kansas City Royals",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_SCHEDULED",
+    "date": "2026-08-11T02:10Z"
+  }
+]
