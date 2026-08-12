@@ -1,0 +1,246 @@
+[
+  {
+    "title": "Catching problem of multiple (non-equivalent) type definitions with the same name in C",
+    "score": 0,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "c",
+      "debugging",
+      "static-analysis",
+      "compiler-options"
+    ],
+    "link": "https://stackoverflow.com/questions/79992364/catching-problem-of-multiple-non-equivalent-type-definitions-with-the-same-nam"
+  },
+  {
+    "title": "Scraping web with Cloudflare Turnstile (Token)",
+    "score": -1,
+    "views": 19,
+    "answers": 0,
+    "tags": [
+      "python",
+      "web-scraping",
+      "request",
+      "cloudflare",
+      "cloudflare-turnstile"
+    ],
+    "link": "https://stackoverflow.com/questions/79992367/scraping-web-with-cloudflare-turnstile-token"
+  },
+  {
+    "title": "Which one is better WordPress or Shopify?",
+    "score": -3,
+    "views": 17,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "wordpress",
+      "shopify",
+      "client"
+    ],
+    "link": "https://stackoverflow.com/questions/79992363/which-one-is-better-wordpress-or-shopify"
+  },
+  {
+    "title": "How to ensure that PDF is restored to same scroll position when navigating within same web page?",
+    "score": 0,
+    "views": 55,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "html-object"
+    ],
+    "link": "https://stackoverflow.com/questions/79992354/how-to-ensure-that-pdf-is-restored-to-same-scroll-position-when-navigating-withi"
+  },
+  {
+    "title": "Writing just one line to fifo",
+    "score": 0,
+    "views": 100,
+    "answers": 1,
+    "tags": [
+      "linux",
+      "rust"
+    ],
+    "link": "https://stackoverflow.com/questions/79992335/writing-just-one-line-to-fifo"
+  },
+  {
+    "title": "Should I enforce uniqueness on a new user-entered identifier in an existing database in the backend, the database, or both?",
+    "score": -2,
+    "views": 119,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "c#",
+      "sql-server",
+      "entity-framework"
+    ],
+    "link": "https://stackoverflow.com/questions/79992275/should-i-enforce-uniqueness-on-a-new-user-entered-identifier-in-an-existing-data"
+  },
+  {
+    "title": "How to integrate multiomic data and predict the disease type?",
+    "score": -4,
+    "views": 47,
+    "answers": 0,
+    "tags": [
+      "machine-learning",
+      "deep-learning",
+      "neural-network",
+      "bioinformatics",
+      "machine-learning-model"
+    ],
+    "link": "https://stackoverflow.com/questions/79992349/how-to-integrate-multiomic-data-and-predict-the-disease-type"
+  },
+  {
+    "title": "ffmpeg attached_pic option removes the metadata, and vice versa ffmpeg with use_metadata_tags removes the cover image",
+    "score": -1,
+    "views": 34,
+    "answers": 0,
+    "tags": [
+      "macos",
+      "ffmpeg"
+    ],
+    "link": "https://stackoverflow.com/questions/79992341/ffmpeg-attached-pic-option-removes-the-metadata-and-vice-versa-ffmpeg-with-use"
+  },
+  {
+    "title": "Flutter Google Sign-In works in release APK but fails in Google Play Internal Testing with [16] Account reauth failed",
+    "score": 0,
+    "views": 54,
+    "answers": 0,
+    "tags": [
+      "android",
+      "flutter",
+      "firebase",
+      "firebase-authentication",
+      "google-signin"
+    ],
+    "link": "https://stackoverflow.com/questions/79992284/flutter-google-sign-in-works-in-release-apk-but-fails-in-google-play-internal-te"
+  },
+  {
+    "title": "Github cloning issue",
+    "score": -5,
+    "views": 65,
+    "answers": 0,
+    "tags": [
+      "github"
+    ],
+    "link": "https://stackoverflow.com/questions/79992328/github-cloning-issue"
+  },
+  {
+    "title": "Read zip in zip for updating",
+    "score": 2,
+    "views": 101,
+    "answers": 1,
+    "tags": [
+      "java",
+      "java.nio.file"
+    ],
+    "link": "https://stackoverflow.com/questions/79992292/read-zip-in-zip-for-updating"
+  },
+  {
+    "title": "Immediate variable substitution in bash function definition",
+    "score": 3,
+    "views": 125,
+    "answers": 2,
+    "tags": [
+      "bash",
+      "sh"
+    ],
+    "link": "https://stackoverflow.com/questions/79992197/immediate-variable-substitution-in-bash-function-definition"
+  },
+  {
+    "title": "Relate two tables, one table has no data yet",
+    "score": 0,
+    "views": 60,
+    "answers": 0,
+    "tags": [
+      "vb.net",
+      "datatable"
+    ],
+    "link": "https://stackoverflow.com/questions/79992299/relate-two-tables-one-table-has-no-data-yet"
+  },
+  {
+    "title": "How to overcome CSV formatting with Datediff",
+    "score": -1,
+    "views": 51,
+    "answers": 0,
+    "tags": [
+      "sql",
+      "csv",
+      "datediff"
+    ],
+    "link": "https://stackoverflow.com/questions/79992305/how-to-overcome-csv-formatting-with-datediff"
+  },
+  {
+    "title": "Maintaining a SOCKS connection over ssh in Python",
+    "score": 1,
+    "views": 89,
+    "answers": 1,
+    "tags": [
+      "python",
+      "sockets",
+      "ssh",
+      "paramiko",
+      "socks"
+    ],
+    "link": "https://stackoverflow.com/questions/79992195/maintaining-a-socks-connection-over-ssh-in-python"
+  },
+  {
+    "title": "Any code or programs that can block battery manager on a phone?",
+    "score": -6,
+    "views": 57,
+    "answers": 0,
+    "tags": [
+      "android",
+      "battery",
+      "android-12",
+      "batterymanager"
+    ],
+    "link": "https://stackoverflow.com/questions/79992323/any-code-or-programs-that-can-block-battery-manager-on-a-phone"
+  },
+  {
+    "title": "Capacitor+Vite: when including Filesystem plugin, get warning “Unable to read file at path public/plugins”, then fails on import",
+    "score": 0,
+    "views": 39,
+    "answers": 0,
+    "tags": [
+      "android",
+      "cordova",
+      "vite",
+      "capacitor"
+    ],
+    "link": "https://stackoverflow.com/questions/79992319/capacitorvite-when-including-filesystem-plugin-get-warning-unable-to-read-fi"
+  },
+  {
+    "title": "Trying to get the Instagram Mobile API endpoint",
+    "score": -7,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "web-scraping",
+      "instagram-api",
+      "instagram-graph-api"
+    ],
+    "link": "https://stackoverflow.com/questions/79992324/trying-to-get-the-instagram-mobile-api-endpoint"
+  },
+  {
+    "title": "Protect variable from writing only?",
+    "score": -3,
+    "views": 72,
+    "answers": 0,
+    "tags": [
+      "java",
+      "variables",
+      "access-modifiers"
+    ],
+    "link": "https://stackoverflow.com/questions/79992306/protect-variable-from-writing-only"
+  },
+  {
+    "title": "Is /[\\s\\S]/ the same as saying /.|\\n/ in regex",
+    "score": 0,
+    "views": 64,
+    "answers": 2,
+    "tags": [
+      "javascript",
+      "regex"
+    ],
+    "link": "https://stackoverflow.com/questions/79992273/is-s-s-the-same-as-saying-n-in-regex"
+  }
+]
