@@ -1,0 +1,246 @@
+[
+  {
+    "title": "StoreKit 2 Sandbox: transaction.finish() logs requestEncodeFailed and replays subscription renewals on every launch",
+    "score": 0,
+    "views": 15,
+    "answers": 0,
+    "tags": [
+      "swift",
+      "xcode",
+      "swiftui",
+      "storekit"
+    ],
+    "link": "https://stackoverflow.com/questions/79993964/storekit-2-sandbox-transaction-finish-logs-requestencodefailed-and-replays-su"
+  },
+  {
+    "title": "How To Make An Animate Menu Icon Show/Hide Menu",
+    "score": 0,
+    "views": 85,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/79993945/how-to-make-an-animate-menu-icon-show-hide-menu"
+  },
+  {
+    "title": "Null is not an object for DOM",
+    "score": -3,
+    "views": 62,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/79993937/null-is-not-an-object-for-dom"
+  },
+  {
+    "title": "Building a custom Android MDM / DPC for device financing (&quot;Lost Mode&quot;) — Looking for real developer feedback &amp; pain points",
+    "score": -6,
+    "views": 62,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation"
+    ],
+    "link": "https://stackoverflow.com/questions/79993951/building-a-custom-android-mdm-dpc-for-device-financing-lost-mode-looking"
+  },
+  {
+    "title": "Initialization of all elements of a multidimensional std::array to one default value",
+    "score": 3,
+    "views": 134,
+    "answers": 5,
+    "tags": [
+      "c++",
+      "multidimensional-array",
+      "simplify",
+      "c++23",
+      "stdarray"
+    ],
+    "link": "https://stackoverflow.com/questions/79993900/initialization-of-all-elements-of-a-multidimensional-stdarray-to-one-default-v"
+  },
+  {
+    "title": "403 PERMISSION_DENIED: Firebase AI Logic has been deactivated in this project. To resume using Firebase AI Logic, you must enforce Firebase App Check",
+    "score": 0,
+    "views": 31,
+    "answers": 1,
+    "tags": [
+      "android",
+      "firebase",
+      "firebase-ai-logic"
+    ],
+    "link": "https://stackoverflow.com/questions/79993941/403-permission-denied-firebase-ai-logic-has-been-deactivated-in-this-project-t"
+  },
+  {
+    "title": "Can you select all text in a SwiftUI TextField populated with a NumberFormatter on entering it?",
+    "score": 0,
+    "views": 43,
+    "answers": 1,
+    "tags": [
+      "swift",
+      "swiftui",
+      "textfield",
+      "nsnumberformatter"
+    ],
+    "link": "https://stackoverflow.com/questions/79993911/can-you-select-all-text-in-a-swiftui-textfield-populated-with-a-numberformatter"
+  },
+  {
+    "title": "Lack of/Unbalance of Training Data in a High-Accuracy-Required AI Model",
+    "score": -2,
+    "views": 35,
+    "answers": 1,
+    "tags": [
+      "python",
+      "machine-learning"
+    ],
+    "link": "https://stackoverflow.com/questions/79993940/lack-of-unbalance-of-training-data-in-a-high-accuracy-required-ai-model"
+  },
+  {
+    "title": "How to do a tls handshake with &quot;api.steampowered.com&quot; using boost asio?",
+    "score": 0,
+    "views": 37,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "ssl",
+      "boost",
+      "steamworks-api"
+    ],
+    "link": "https://stackoverflow.com/questions/79993932/how-to-do-a-tls-handshake-with-api-steampowered-com-using-boost-asio"
+  },
+  {
+    "title": "2-column flexbox layout without nesting divs",
+    "score": 0,
+    "views": 33,
+    "answers": 0,
+    "tags": [
+      "html",
+      "css",
+      "flexbox"
+    ],
+    "link": "https://stackoverflow.com/questions/79993926/2-column-flexbox-layout-without-nesting-divs"
+  },
+  {
+    "title": "On Windows, the C# Bluetooth LE API cannot pair with iPhone devices",
+    "score": 0,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "winapi",
+      "bluetooth",
+      "bluetooth-lowenergy",
+      "c++-winrt"
+    ],
+    "link": "https://stackoverflow.com/questions/79993935/on-windows-the-c-bluetooth-le-api-cannot-pair-with-iphone-devices"
+  },
+  {
+    "title": "Reproduce n-ary `vmap` from unary",
+    "score": 1,
+    "views": 57,
+    "answers": 1,
+    "tags": [
+      "python",
+      "jax"
+    ],
+    "link": "https://stackoverflow.com/questions/79993877/reproduce-n-ary-vmap-from-unary"
+  },
+  {
+    "title": "Cassandra vs DynamoDB for a High-Traffic Mobile App — Which One Would You Pick?",
+    "score": -3,
+    "views": 29,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "cassandra",
+      "amazon-dynamodb"
+    ],
+    "link": "https://stackoverflow.com/questions/79993930/cassandra-vs-dynamodb-for-a-high-traffic-mobile-app-which-one-would-you-pick"
+  },
+  {
+    "title": "Azure DevOps Server 2022.2 email alerts fail with &quot;TF400898: An Internal Error Occurred&quot; after migrating SMTP relay to Microsoft 365",
+    "score": -5,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "azure-devops"
+    ],
+    "link": "https://stackoverflow.com/questions/79993934/azure-devops-server-2022-2-email-alerts-fail-with-tf400898-an-internal-error-o"
+  },
+  {
+    "title": "Get value from dataframe transformation with regex",
+    "score": 0,
+    "views": 41,
+    "answers": 2,
+    "tags": [
+      "php",
+      "dataframe",
+      "etl"
+    ],
+    "link": "https://stackoverflow.com/questions/79993870/get-value-from-dataframe-transformation-with-regex"
+  },
+  {
+    "title": "API for iCloud password change",
+    "score": -5,
+    "views": 115,
+    "answers": 0,
+    "tags": [
+      "python",
+      "icloud"
+    ],
+    "link": "https://stackoverflow.com/questions/79993914/api-for-icloud-password-change"
+  },
+  {
+    "title": "Python dictionary with threads",
+    "score": 2,
+    "views": 131,
+    "answers": 2,
+    "tags": [
+      "python",
+      "multithreading",
+      "dictionary"
+    ],
+    "link": "https://stackoverflow.com/questions/79993767/python-dictionary-with-threads"
+  },
+  {
+    "title": "Is there a way to set the userInterfaceStyle of menus displayed by UIMainMenuSystem?",
+    "score": 0,
+    "views": 13,
+    "answers": 0,
+    "tags": [
+      "swift",
+      "uikit",
+      "uimenucontroller",
+      "uimenu"
+    ],
+    "link": "https://stackoverflow.com/questions/79993931/is-there-a-way-to-set-the-userinterfacestyle-of-menus-displayed-by-uimainmenusys"
+  },
+  {
+    "title": "How to call a statically linked Pascal function from a C main?",
+    "score": 3,
+    "views": 94,
+    "answers": 0,
+    "tags": [
+      "c",
+      "pascal",
+      "ffi",
+      "freepascal"
+    ],
+    "link": "https://stackoverflow.com/questions/79993843/how-to-call-a-statically-linked-pascal-function-from-a-c-main"
+  },
+  {
+    "title": "Multiple ggterns in a patchwork - how to prevent appearance change?",
+    "score": 2,
+    "views": 69,
+    "answers": 2,
+    "tags": [
+      "r",
+      "ggplot2",
+      "patchwork",
+      "grob",
+      "ggtern"
+    ],
+    "link": "https://stackoverflow.com/questions/79993800/multiple-ggterns-in-a-patchwork-how-to-prevent-appearance-change"
+  }
+]
