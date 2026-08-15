@@ -1,0 +1,255 @@
+[
+  {
+    "title": "Why does gcc fail to compile sqlite3.c with -Wall flag",
+    "score": -1,
+    "views": 15,
+    "answers": 0,
+    "tags": [
+      "sqlite",
+      "gcc"
+    ],
+    "link": "https://stackoverflow.com/questions/79995243/why-does-gcc-fail-to-compile-sqlite3-c-with-wall-flag"
+  },
+  {
+    "title": "Is the Merge Sort Merely an Improved Insertion Sort?",
+    "score": -3,
+    "views": 47,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "algorithm",
+      "performance",
+      "sorting",
+      "complexity-theory"
+    ],
+    "link": "https://stackoverflow.com/questions/79995224/is-the-merge-sort-merely-an-improved-insertion-sort"
+  },
+  {
+    "title": "How to fix image importation problem in PhaserJs",
+    "score": -2,
+    "views": 18,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "import",
+      "game-development",
+      "phaser-framework"
+    ],
+    "link": "https://stackoverflow.com/questions/79995236/how-to-fix-image-importation-problem-in-phaserjs"
+  },
+  {
+    "title": "How to fill in color between two lines of a series in TMS FNC Charts?",
+    "score": 0,
+    "views": 17,
+    "answers": 0,
+    "tags": [
+      "delphi",
+      "char",
+      "firemonkey",
+      "tms",
+      "delphi-13-florence"
+    ],
+    "link": "https://stackoverflow.com/questions/79995231/how-to-fill-in-color-between-two-lines-of-a-series-in-tms-fnc-charts"
+  },
+  {
+    "title": "Write multiple values to file in mounted local folder",
+    "score": 0,
+    "views": 48,
+    "answers": 1,
+    "tags": [
+      "python",
+      "pyscript"
+    ],
+    "link": "https://stackoverflow.com/questions/79995205/write-multiple-values-to-file-in-mounted-local-folder"
+  },
+  {
+    "title": "C++17: Check if constructor is ill-formed",
+    "score": 3,
+    "views": 61,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "templates",
+      "c++17"
+    ],
+    "link": "https://stackoverflow.com/questions/79995211/c17-check-if-constructor-is-ill-formed"
+  },
+  {
+    "title": "Why is std::move necessary when forwarding values through std::tuple?",
+    "score": 0,
+    "views": 15,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "apply",
+      "perfect-forwarding",
+      "stdtuple",
+      "forwarding-reference"
+    ],
+    "link": "https://stackoverflow.com/questions/79995238/why-is-stdmove-necessary-when-forwarding-values-through-stdtuple"
+  },
+  {
+    "title": "Striped lines are not following the entire series in TMS FNC Charts",
+    "score": 0,
+    "views": 11,
+    "answers": 0,
+    "tags": [
+      "delphi",
+      "charts",
+      "firemonkey",
+      "tms",
+      "delphi-13-florence"
+    ],
+    "link": "https://stackoverflow.com/questions/79995230/striped-lines-are-not-following-the-entire-series-in-tms-fnc-charts"
+  },
+  {
+    "title": "Full Calendar JS does not detect styles",
+    "score": 0,
+    "views": 23,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "css",
+      "blazor",
+      "fullcalendar",
+      "fullcalendar-7"
+    ],
+    "link": "https://stackoverflow.com/questions/79995220/full-calendar-js-does-not-detect-styles"
+  },
+  {
+    "title": "Has a lazy-initialization vocabulary type been proposed for C++?",
+    "score": 3,
+    "views": 100,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "std",
+      "lazy-initialization",
+      "standardization"
+    ],
+    "link": "https://stackoverflow.com/questions/79995192/has-a-lazy-initialization-vocabulary-type-been-proposed-for-c"
+  },
+  {
+    "title": "Sparse/Compact Matrix Initialization to 0 in C",
+    "score": 0,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "arrays",
+      "c",
+      "matrix",
+      "sparse-matrix"
+    ],
+    "link": "https://stackoverflow.com/questions/79995203/sparse-compact-matrix-initialization-to-0-in-c"
+  },
+  {
+    "title": "How to combine csv files in Batch at Windows command prompt?",
+    "score": 0,
+    "views": 14,
+    "answers": 0,
+    "tags": [
+      "windows",
+      "batch-file",
+      "command-line",
+      "dos"
+    ],
+    "link": "https://stackoverflow.com/questions/79995223/how-to-combine-csv-files-in-batch-at-windows-command-prompt"
+  },
+  {
+    "title": "using argon2 from zig standard library (v0.16.0) verifyHash crashes with a padding error when writing to and reading from a file",
+    "score": 0,
+    "views": 29,
+    "answers": 1,
+    "tags": [
+      "linux",
+      "file-io",
+      "posix",
+      "zig",
+      "argon2"
+    ],
+    "link": "https://stackoverflow.com/questions/79995200/using-argon2-from-zig-standard-library-v0-16-0-verifyhash-crashes-with-a-paddi"
+  },
+  {
+    "title": "Annotate ingress resource with http method?",
+    "score": -1,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "haproxy-ingress"
+    ],
+    "link": "https://stackoverflow.com/questions/79995216/annotate-ingress-resource-with-http-method"
+  },
+  {
+    "title": "In C# what is the best way to detect that an optional parameter wasn&#39;t specified?",
+    "score": -2,
+    "views": 88,
+    "answers": 2,
+    "tags": [
+      "advice",
+      "c#",
+      "parameters",
+      "option-type"
+    ],
+    "link": "https://stackoverflow.com/questions/79995184/in-c-what-is-the-best-way-to-detect-that-an-optional-parameter-wasnt-specified"
+  },
+  {
+    "title": "unreal engine crashes when try to call a function on another class?",
+    "score": -2,
+    "views": 48,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "unreal-engine5",
+      "unreal"
+    ],
+    "link": "https://stackoverflow.com/questions/79995171/unreal-engine-crashes-when-try-to-call-a-function-on-another-class"
+  },
+  {
+    "title": "How to query row based data and left join it?",
+    "score": 0,
+    "views": 66,
+    "answers": 1,
+    "tags": [
+      "sql",
+      "sql-server",
+      "entity-attribute-value"
+    ],
+    "link": "https://stackoverflow.com/questions/79995174/how-to-query-row-based-data-and-left-join-it"
+  },
+  {
+    "title": "Permission Issues with Snowflake Agents in CoWork and Claude",
+    "score": 0,
+    "views": 63,
+    "answers": 0,
+    "tags": [
+      "snowflake-cloud-data-platform",
+      "claude"
+    ],
+    "link": "https://stackoverflow.com/questions/79995187/permission-issues-with-snowflake-agents-in-cowork-and-claude"
+  },
+  {
+    "title": "Does querying multiple EF Core DbSets in a single LINQ call still result in a single SQL query that is executed on the database?",
+    "score": 1,
+    "views": 57,
+    "answers": 2,
+    "tags": [
+      "advice",
+      "linq",
+      "entity-framework-core",
+      "iqueryable"
+    ],
+    "link": "https://stackoverflow.com/questions/79995166/does-querying-multiple-ef-core-dbsets-in-a-single-linq-call-still-result-in-a-si"
+  },
+  {
+    "title": "Yocto recipe that depends on a local file",
+    "score": 1,
+    "views": 68,
+    "answers": 2,
+    "tags": [
+      "python",
+      "dependencies",
+      "yocto-recipe"
+    ],
+    "link": "https://stackoverflow.com/questions/79995206/yocto-recipe-that-depends-on-a-local-file"
+  }
+]
