@@ -1,0 +1,235 @@
+[
+  {
+    "title": "Why are the ASCII codes of characters not seen in the dump function output for an object type of varchar2(3885) in a select statement SQL?",
+    "score": 0,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "sql",
+      "oracle-database",
+      "oracle-sqldeveloper",
+      "oracle23ai"
+    ],
+    "link": "https://stackoverflow.com/questions/79995647/why-are-the-ascii-codes-of-characters-not-seen-in-the-dump-function-output-for-a"
+  },
+  {
+    "title": "SwiftUI HStack with Text and Picker alignment and spacing",
+    "score": 0,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "swiftui",
+      "swiftui-picker"
+    ],
+    "link": "https://stackoverflow.com/questions/79995657/swiftui-hstack-with-text-and-picker-alignment-and-spacing"
+  },
+  {
+    "title": "Is there a way to show a ProgressView (spinner) until Chart3D appears?",
+    "score": 0,
+    "views": 15,
+    "answers": 0,
+    "tags": [
+      "swiftui",
+      "charts"
+    ],
+    "link": "https://stackoverflow.com/questions/79995654/is-there-a-way-to-show-a-progressview-spinner-until-chart3d-appears"
+  },
+  {
+    "title": "How can I transition to Software Development/Engineering?",
+    "score": -1,
+    "views": 72,
+    "answers": 1,
+    "tags": [
+      "advice"
+    ],
+    "link": "https://stackoverflow.com/questions/79995642/how-can-i-transition-to-software-development-engineering"
+  },
+  {
+    "title": "RVO and evaluating a fail condition at the beginning (early return) or at the end in a function",
+    "score": 0,
+    "views": 70,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "performance",
+      "return",
+      "return-value-optimization",
+      "early-return"
+    ],
+    "link": "https://stackoverflow.com/questions/79995621/rvo-and-evaluating-a-fail-condition-at-the-beginning-early-return-or-at-the-en"
+  },
+  {
+    "title": "Pycharm type hinting constraining improperly?",
+    "score": 0,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "python-3.x",
+      "pycharm",
+      "type-hinting"
+    ],
+    "link": "https://stackoverflow.com/questions/79995653/pycharm-type-hinting-constraining-improperly"
+  },
+  {
+    "title": ".Net Maui returns png header when expecting BMP",
+    "score": 2,
+    "views": 61,
+    "answers": 2,
+    "tags": [
+      "c#",
+      "android",
+      ".net",
+      "maui",
+      ".net-10.0"
+    ],
+    "link": "https://stackoverflow.com/questions/79995593/net-maui-returns-png-header-when-expecting-bmp"
+  },
+  {
+    "title": "Create a board on the console for the game tic tac toe",
+    "score": -2,
+    "views": 54,
+    "answers": 3,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/79995636/create-a-board-on-the-console-for-the-game-tic-tac-toe"
+  },
+  {
+    "title": "How can I deform or subtract parts of 3D meshes at runtime based on bullet impact radius in Unity?",
+    "score": -2,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "unity-game-engine",
+      "boolean-operations",
+      "csg"
+    ],
+    "link": "https://stackoverflow.com/questions/79995637/how-can-i-deform-or-subtract-parts-of-3d-meshes-at-runtime-based-on-bullet-impac"
+  },
+  {
+    "title": "Why were @, $, and ` not included in C89&#39;s basic source character set?",
+    "score": 1,
+    "views": 115,
+    "answers": 1,
+    "tags": [
+      "c"
+    ],
+    "link": "https://stackoverflow.com/questions/79995581/why-were-and-not-included-in-c89s-basic-source-character-set"
+  },
+  {
+    "title": "How to make a Select All function for tkinter ScrolledText",
+    "score": 0,
+    "views": 27,
+    "answers": 1,
+    "tags": [
+      "python",
+      "selectall",
+      "tkinter-scrolledtext"
+    ],
+    "link": "https://stackoverflow.com/questions/79995614/how-to-make-a-select-all-function-for-tkinter-scrolledtext"
+  },
+  {
+    "title": "Is it possible to generate a reversed list of reversed permutations of a list?",
+    "score": 0,
+    "views": 61,
+    "answers": 1,
+    "tags": [
+      "haskell",
+      "permutation",
+      "lexicographic-ordering"
+    ],
+    "link": "https://stackoverflow.com/questions/79995587/is-it-possible-to-generate-a-reversed-list-of-reversed-permutations-of-a-list"
+  },
+  {
+    "title": "Why does enabling MultipleActiveResultSets (MARS) prevent TransactionScope from promoting to MSDTC?",
+    "score": 0,
+    "views": 29,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "c#",
+      "sql",
+      "asp.net",
+      ".net"
+    ],
+    "link": "https://stackoverflow.com/questions/79995620/why-does-enabling-multipleactiveresultsets-mars-prevent-transactionscope-from"
+  },
+  {
+    "title": "What is the best component library with tailwindcss based on it?",
+    "score": -6,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "tailwind-css"
+    ],
+    "link": "https://stackoverflow.com/questions/79995616/what-is-the-best-component-library-with-tailwindcss-based-on-it"
+  },
+  {
+    "title": "Can Python&#39;s argparse handle multiple distinct usages?",
+    "score": -2,
+    "views": 44,
+    "answers": 0,
+    "tags": [
+      "python",
+      "argparse"
+    ],
+    "link": "https://stackoverflow.com/questions/79995617/can-pythons-argparse-handle-multiple-distinct-usages"
+  },
+  {
+    "title": "How to put many different mysqli_query into the same array with a for loop",
+    "score": 1,
+    "views": 79,
+    "answers": 2,
+    "tags": [
+      "php",
+      "arrays",
+      "for-loop"
+    ],
+    "link": "https://stackoverflow.com/questions/79995534/how-to-put-many-different-mysqli-query-into-the-same-array-with-a-for-loop"
+  },
+  {
+    "title": "sympy evalf fails when chop=True",
+    "score": 0,
+    "views": 28,
+    "answers": 1,
+    "tags": [
+      "sympy",
+      "mpmath",
+      "evalf"
+    ],
+    "link": "https://stackoverflow.com/questions/79995615/sympy-evalf-fails-when-chop-true"
+  },
+  {
+    "title": "Why is Collectors.collect not able to infer the types in this stream pipeline?",
+    "score": 8,
+    "views": 202,
+    "answers": 2,
+    "tags": [
+      "java",
+      "java-stream"
+    ],
+    "link": "https://stackoverflow.com/questions/79995516/why-is-collectors-collect-not-able-to-infer-the-types-in-this-stream-pipeline"
+  },
+  {
+    "title": "Railway.com builds suddenly taking much longer than usual",
+    "score": 0,
+    "views": 39,
+    "answers": 1,
+    "tags": [
+      "railway"
+    ],
+    "link": "https://stackoverflow.com/questions/79995618/railway-com-builds-suddenly-taking-much-longer-than-usual"
+  },
+  {
+    "title": "How can I apply a CSS hover effect to each individual &lt;h3&gt; when I hover over it, and not apply to all the &lt;h3&gt;&#39;s?",
+    "score": -1,
+    "views": 76,
+    "answers": 2,
+    "tags": [
+      "css",
+      "hover"
+    ],
+    "link": "https://stackoverflow.com/questions/79995588/how-can-i-apply-a-css-hover-effect-to-each-individual-h3-when-i-hover-over-it"
+  }
+]
