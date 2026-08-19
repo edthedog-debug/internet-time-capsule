@@ -1,0 +1,122 @@
+[
+  {
+    "home": "Baltimore Orioles",
+    "away": "New York Yankees",
+    "home_score": "1",
+    "away_score": "3",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-08-18T22:35Z"
+  },
+  {
+    "home": "Pittsburgh Pirates",
+    "away": "Detroit Tigers",
+    "home_score": "4",
+    "away_score": "1",
+    "status": "STATUS_FINAL",
+    "date": "2026-08-18T22:40Z"
+  },
+  {
+    "home": "Philadelphia Phillies",
+    "away": "Miami Marlins",
+    "home_score": "5",
+    "away_score": "3",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-08-18T22:40Z"
+  },
+  {
+    "home": "Cleveland Guardians",
+    "away": "San Francisco Giants",
+    "home_score": "8",
+    "away_score": "1",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-08-18T22:40Z"
+  },
+  {
+    "home": "Cincinnati Reds",
+    "away": "St. Louis Cardinals",
+    "home_score": "0",
+    "away_score": "3",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-08-18T22:40Z"
+  },
+  {
+    "home": "Tampa Bay Rays",
+    "away": "Toronto Blue Jays",
+    "home_score": "3",
+    "away_score": "10",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-08-18T22:40Z"
+  },
+  {
+    "home": "Boston Red Sox",
+    "away": "Arizona Diamondbacks",
+    "home_score": "6",
+    "away_score": "4",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-08-18T23:10Z"
+  },
+  {
+    "home": "New York Mets",
+    "away": "San Diego Padres",
+    "home_score": "1",
+    "away_score": "3",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-08-18T23:10Z"
+  },
+  {
+    "home": "Kansas City Royals",
+    "away": "Athletics",
+    "home_score": "0",
+    "away_score": "2",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-08-18T23:40Z"
+  },
+  {
+    "home": "Milwaukee Brewers",
+    "away": "Seattle Mariners",
+    "home_score": "1",
+    "away_score": "0",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-08-18T23:40Z"
+  },
+  {
+    "home": "Minnesota Twins",
+    "away": "Atlanta Braves",
+    "home_score": "2",
+    "away_score": "1",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-08-18T23:40Z"
+  },
+  {
+    "home": "Chicago Cubs",
+    "away": "Chicago White Sox",
+    "home_score": "2",
+    "away_score": "2",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-08-19T00:05Z"
+  },
+  {
+    "home": "Texas Rangers",
+    "away": "Washington Nationals",
+    "home_score": "5",
+    "away_score": "0",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-08-19T00:05Z"
+  },
+  {
+    "home": "Houston Astros",
+    "away": "Los Angeles Angels",
+    "home_score": "0",
+    "away_score": "1",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-08-19T00:10Z"
+  },
+  {
+    "home": "Colorado Rockies",
+    "away": "Los Angeles Dodgers",
+    "home_score": "1",
+    "away_score": "1",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-08-19T00:40Z"
+  }
+]
