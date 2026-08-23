@@ -1,0 +1,238 @@
+[
+  {
+    "title": "React Snippet not capitalizing [VSCode]",
+    "score": 0,
+    "views": 25,
+    "answers": 1,
+    "tags": [
+      "visual-studio-code",
+      "vscode-snippets"
+    ],
+    "link": "https://stackoverflow.com/questions/79997437/react-snippet-not-capitalizing-vscode"
+  },
+  {
+    "title": "Is it possible to know if a Device is in Airplane Mode or not via JavaScript?",
+    "score": 0,
+    "views": 31,
+    "answers": 2,
+    "tags": [
+      "javascript",
+      "airplane-mode"
+    ],
+    "link": "https://stackoverflow.com/questions/79997431/is-it-possible-to-know-if-a-device-is-in-airplane-mode-or-not-via-javascript"
+  },
+  {
+    "title": "Unexpected Private Chat Appeared With an Unsaved Contact Without Any Message or Interaction",
+    "score": -3,
+    "views": 20,
+    "answers": 0,
+    "tags": [
+      "security",
+      "telegram",
+      "account"
+    ],
+    "link": "https://stackoverflow.com/questions/79997434/unexpected-private-chat-appeared-with-an-unsaved-contact-without-any-message-or"
+  },
+  {
+    "title": "Blazor .NET Server Web App CRUD Tutorial - I get two rows when on submit",
+    "score": 0,
+    "views": 11,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "web",
+      "blazor",
+      "razor-pages"
+    ],
+    "link": "https://stackoverflow.com/questions/79997435/blazor-net-server-web-app-crud-tutorial-i-get-two-rows-when-on-submit"
+  },
+  {
+    "title": "Different notation of returning inline struct in C23",
+    "score": 2,
+    "views": 69,
+    "answers": 2,
+    "tags": [
+      "c",
+      "c23"
+    ],
+    "link": "https://stackoverflow.com/questions/79997388/different-notation-of-returning-inline-struct-in-c23"
+  },
+  {
+    "title": "Find max of 3 integers. Tricky solution",
+    "score": -2,
+    "views": 63,
+    "answers": 0,
+    "tags": [
+      "algorithm",
+      "math",
+      "max"
+    ],
+    "link": "https://stackoverflow.com/questions/79997421/find-max-of-3-integers-tricky-solution"
+  },
+  {
+    "title": "React displays old text when a opacity animation is applied",
+    "score": -2,
+    "views": 28,
+    "answers": 1,
+    "tags": [
+      "reactjs",
+      "css-animations"
+    ],
+    "link": "https://stackoverflow.com/questions/79997408/react-displays-old-text-when-a-opacity-animation-is-applied"
+  },
+  {
+    "title": "Media3 ExoPlayer AudioSink receives PCM, but my Vosk callback is never reached",
+    "score": 0,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "android",
+      "multithreading",
+      "kotlin"
+    ],
+    "link": "https://stackoverflow.com/questions/79997419/media3-exoplayer-audiosink-receives-pcm-but-my-vosk-callback-is-never-reached"
+  },
+  {
+    "title": "What is the common practice among developers rather than using todo comments?",
+    "score": -1,
+    "views": 76,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "language-agnostic",
+      "coding-style"
+    ],
+    "link": "https://stackoverflow.com/questions/79997383/what-is-the-common-practice-among-developers-rather-than-using-todo-comments"
+  },
+  {
+    "title": "Reaction Time tester",
+    "score": 2,
+    "views": 86,
+    "answers": 1,
+    "tags": [
+      "c",
+      "linux",
+      "windows",
+      "clock"
+    ],
+    "link": "https://stackoverflow.com/questions/79997337/reaction-time-tester"
+  },
+  {
+    "title": "Node.js not installing onto Windows system in Hermes Agent setup",
+    "score": -1,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "node.js",
+      "powershell",
+      "hermes-agent"
+    ],
+    "link": "https://stackoverflow.com/questions/79997417/node-js-not-installing-onto-windows-system-in-hermes-agent-setup"
+  },
+  {
+    "title": "Why do I have to hit enter twice to evaluate a list comprehension with a local let in GHCi?",
+    "score": 0,
+    "views": 43,
+    "answers": 1,
+    "tags": [
+      "haskell",
+      "functional-programming",
+      "where-clause",
+      "list-comprehension",
+      "ghci"
+    ],
+    "link": "https://stackoverflow.com/questions/79997396/why-do-i-have-to-hit-enter-twice-to-evaluate-a-list-comprehension-with-a-local-l"
+  },
+  {
+    "title": "Having issue with my state not appearing on my first render until I refresh",
+    "score": -1,
+    "views": 27,
+    "answers": 0,
+    "tags": [
+      "next.js"
+    ],
+    "link": "https://stackoverflow.com/questions/79997407/having-issue-with-my-state-not-appearing-on-my-first-render-until-i-refresh"
+  },
+  {
+    "title": "Private Cloud Run service returns generic HTML 404 with no request log",
+    "score": -4,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "google-cloud-run"
+    ],
+    "link": "https://stackoverflow.com/questions/79997411/private-cloud-run-service-returns-generic-html-404-with-no-request-log"
+  },
+  {
+    "title": "How to Insert an SF Symbol in a textField or a Label, as text, inn Swift",
+    "score": 0,
+    "views": 45,
+    "answers": 1,
+    "tags": [
+      "ios",
+      "swift",
+      "uikit",
+      "sf-symbols"
+    ],
+    "link": "https://stackoverflow.com/questions/79997365/how-to-insert-an-sf-symbol-in-a-textfield-or-a-label-as-text-inn-swift"
+  },
+  {
+    "title": "Combining a Fade animation with a ScaleInPlace",
+    "score": 0,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "python",
+      "manim"
+    ],
+    "link": "https://stackoverflow.com/questions/79997381/combining-a-fade-animation-with-a-scaleinplace"
+  },
+  {
+    "title": "Is it possible for a PNG file to be perfectly valid, yet nothing can open it fully?",
+    "score": -1,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "filter",
+      "png",
+      "gzip",
+      "zlib",
+      "deflate"
+    ],
+    "link": "https://stackoverflow.com/questions/79997395/is-it-possible-for-a-png-file-to-be-perfectly-valid-yet-nothing-can-open-it-ful"
+  },
+  {
+    "title": "Unable to open 3 VS Code windows attached to the same Docker container",
+    "score": 0,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "docker",
+      "visual-studio-code",
+      "vscode-remote",
+      "git-worktree"
+    ],
+    "link": "https://stackoverflow.com/questions/79997400/unable-to-open-3-vs-code-windows-attached-to-the-same-docker-container"
+  },
+  {
+    "title": "Explicit call to conversion function treated differently than implicit call when using explicit object parameter",
+    "score": 1,
+    "views": 74,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "language-lawyer"
+    ],
+    "link": "https://stackoverflow.com/questions/79997361/explicit-call-to-conversion-function-treated-differently-than-implicit-call-when"
+  },
+  {
+    "title": "How to know if a post or comment is written by AI or a human?",
+    "score": -6,
+    "views": 47,
+    "answers": 0,
+    "tags": [
+      "difference"
+    ],
+    "link": "https://stackoverflow.com/questions/79997386/how-to-know-if-a-post-or-comment-is-written-by-ai-or-a-human"
+  }
+]
