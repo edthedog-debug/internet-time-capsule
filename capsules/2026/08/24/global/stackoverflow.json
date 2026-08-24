@@ -1,0 +1,237 @@
+[
+  {
+    "title": "Good Programming Languages for Novices",
+    "score": -2,
+    "views": 13,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "python",
+      "java",
+      "syntax",
+      "coding-style"
+    ],
+    "link": "https://stackoverflow.com/questions/79997629/good-programming-languages-for-novices"
+  },
+  {
+    "title": "How many IP Blocks should I Order?",
+    "score": -4,
+    "views": 34,
+    "answers": 0,
+    "tags": [
+      "advice"
+    ],
+    "link": "https://stackoverflow.com/questions/79997625/how-many-ip-blocks-should-i-order"
+  },
+  {
+    "title": "Creating a drawing application in C with Raylib, can&#39;t figure out a bug",
+    "score": -2,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "c",
+      "raylib"
+    ],
+    "link": "https://stackoverflow.com/questions/79997627/creating-a-drawing-application-in-c-with-raylib-cant-figure-out-a-bug"
+  },
+  {
+    "title": "Is it possible to use the Astro &lt;Image/&gt; component inside a gallery that rerenders after a state change?",
+    "score": 0,
+    "views": 27,
+    "answers": 1,
+    "tags": [
+      "reactjs",
+      "astrojs"
+    ],
+    "link": "https://stackoverflow.com/questions/79997620/is-it-possible-to-use-the-astro-image-component-inside-a-gallery-that-rerende"
+  },
+  {
+    "title": "gganimate::animate() warns &quot;font family not found in Windows font database&quot; even when using ragg",
+    "score": 1,
+    "views": 18,
+    "answers": 0,
+    "tags": [
+      "r",
+      "fonts",
+      "gganimate"
+    ],
+    "link": "https://stackoverflow.com/questions/79997623/gganimateanimate-warns-font-family-not-found-in-windows-font-database-even"
+  },
+  {
+    "title": "line breaks problem in reStructuredText with Python",
+    "score": -1,
+    "views": 59,
+    "answers": 1,
+    "tags": [
+      "python",
+      "restructuredtext"
+    ],
+    "link": "https://stackoverflow.com/questions/79997611/line-breaks-problem-in-restructuredtext-with-python"
+  },
+  {
+    "title": "Do copies of dictionaries change if the dictionary itself changed",
+    "score": -5,
+    "views": 43,
+    "answers": 0,
+    "tags": [
+      "python",
+      "dictionary",
+      "for-loop"
+    ],
+    "link": "https://stackoverflow.com/questions/79997618/do-copies-of-dictionaries-change-if-the-dictionary-itself-changed"
+  },
+  {
+    "title": "Any recommendations for Pygame tutorials?",
+    "score": -5,
+    "views": 43,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "python",
+      "pygame"
+    ],
+    "link": "https://stackoverflow.com/questions/79997617/any-recommendations-for-pygame-tutorials"
+  },
+  {
+    "title": "How to use data returned by an INSERT...RETURNING in another query?",
+    "score": -1,
+    "views": 58,
+    "answers": 2,
+    "tags": [
+      "mariadb",
+      "mariadb-10.6"
+    ],
+    "link": "https://stackoverflow.com/questions/79997570/how-to-use-data-returned-by-an-insert-returning-in-another-query"
+  },
+  {
+    "title": "Recommendations for Unreal Engine video tutorials",
+    "score": -7,
+    "views": 71,
+    "answers": 1,
+    "tags": [
+      "tooling-recommendation",
+      "animation",
+      "unreal"
+    ],
+    "link": "https://stackoverflow.com/questions/79997606/recommendations-for-unreal-engine-video-tutorials"
+  },
+  {
+    "title": "How to implement append-only hash map?",
+    "score": -8,
+    "views": 72,
+    "answers": 0,
+    "tags": [
+      "performance",
+      "dictionary",
+      "hashmap"
+    ],
+    "link": "https://stackoverflow.com/questions/79997603/how-to-implement-append-only-hash-map"
+  },
+  {
+    "title": "Dataframe sorting and column count",
+    "score": -1,
+    "views": 67,
+    "answers": 2,
+    "tags": [
+      "python",
+      "pandas"
+    ],
+    "link": "https://stackoverflow.com/questions/79997582/dataframe-sorting-and-column-count"
+  },
+  {
+    "title": "If String is a reference type, what exactly happens when we write String name = &quot;Rahul&quot;?",
+    "score": 0,
+    "views": 143,
+    "answers": 1,
+    "tags": [
+      "java"
+    ],
+    "link": "https://stackoverflow.com/questions/79997463/if-string-is-a-reference-type-what-exactly-happens-when-we-write-string-name"
+  },
+  {
+    "title": "Squashing commits after local/remote history diverged — best approach?",
+    "score": 0,
+    "views": 63,
+    "answers": 1,
+    "tags": [
+      "git",
+      "git-rebase",
+      "git-squash"
+    ],
+    "link": "https://stackoverflow.com/questions/79997597/squashing-commits-after-local-remote-history-diverged-best-approach"
+  },
+  {
+    "title": "Are the Espressif linker directive (`DRAM_ATTR`, etc.) at the declaration or definition of functions and variables?",
+    "score": 4,
+    "views": 72,
+    "answers": 2,
+    "tags": [
+      "c",
+      "arduino",
+      "linker",
+      "esp-idf"
+    ],
+    "link": "https://stackoverflow.com/questions/79997526/are-the-espressif-linker-directive-dram-attr-etc-at-the-declaration-or-def"
+  },
+  {
+    "title": "Configuring foreign key using Fluent API does not work",
+    "score": 1,
+    "views": 33,
+    "answers": 1,
+    "tags": [
+      "sql",
+      "sql-server",
+      "foreign-keys",
+      "one-to-many",
+      "ef-fluent-api"
+    ],
+    "link": "https://stackoverflow.com/questions/79997549/configuring-foreign-key-using-fluent-api-does-not-work"
+  },
+  {
+    "title": "TUMBLE drops the last pre-epoch PLC sample",
+    "score": 0,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "time-series",
+      "apache-iotdb"
+    ],
+    "link": "https://stackoverflow.com/questions/79997593/tumble-drops-the-last-pre-epoch-plc-sample"
+  },
+  {
+    "title": "Why are my brackets not being recognized?",
+    "score": -7,
+    "views": 95,
+    "answers": 0,
+    "tags": [
+      "java",
+      "filereader"
+    ],
+    "link": "https://stackoverflow.com/questions/79997584/why-are-my-brackets-not-being-recognized"
+  },
+  {
+    "title": "Phaser 3 Arcade Physics: sprite following a precomputed waypoint path stalls / doesn&#39;t move correctly",
+    "score": 0,
+    "views": 38,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "phaser"
+    ],
+    "link": "https://stackoverflow.com/questions/79997599/phaser-3-arcade-physics-sprite-following-a-precomputed-waypoint-path-stalls-d"
+  },
+  {
+    "title": "(GNU) C23: How to define an constant array as a constant expression in C but keeping the defintion in a seperate C file?",
+    "score": 4,
+    "views": 105,
+    "answers": 2,
+    "tags": [
+      "arrays",
+      "c",
+      "compile-time-constant",
+      "constant-expression",
+      "c23"
+    ],
+    "link": "https://stackoverflow.com/questions/79997518/gnu-c23-how-to-define-an-constant-array-as-a-constant-expression-in-c-but-kee"
+  }
+]
