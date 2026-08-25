@@ -1,0 +1,171 @@
+{
+"Buenos_Aires": {
+  "temp": 9.2,
+  "humidity": 75,
+  "wind": 12.6,
+  "code": 2
+}
+,
+"Toronto": {
+  "temp": 17.7,
+  "humidity": 82,
+  "wind": 11.2,
+  "code": 3
+}
+,
+"Singapore": {
+  "temp": 28.6,
+  "humidity": 78,
+  "wind": 10.4,
+  "code": 2
+}
+,
+"New_York": {
+  "temp": 20.7,
+  "humidity": 62,
+  "wind": 8.4,
+  "code": 0
+}
+,
+"Cairo": {
+  "temp": 25.3,
+  "humidity": 82,
+  "wind": 2.6,
+  "code": 0
+}
+,
+"Paris": {
+  "temp": 19.3,
+  "humidity": 57,
+  "wind": 7.7,
+  "code": 3
+}
+,
+"Seoul": {
+  "temp": 27.3,
+  "humidity": 88,
+  "wind": 1.8,
+  "code": 51
+}
+,
+"Nairobi": {
+  "temp": 14.0,
+  "humidity": 82,
+  "wind": 5.5,
+  "code": 0
+}
+,
+"Berlin": {
+  "temp": 14.8,
+  "humidity": 76,
+  "wind": 6.2,
+  "code": 0
+}
+,
+"Lima": {
+  "temp": 19.4,
+  "humidity": 78,
+  "wind": 18.7,
+  "code": 3
+}
+,
+"Moscow": {
+  "temp": 12.4,
+  "humidity": 90,
+  "wind": 8.6,
+  "code": 3
+}
+,
+"Tokyo": {
+  "temp": 31.3,
+  "humidity": 68,
+  "wind": 4.7,
+  "code": 0
+}
+,
+"Istanbul": {
+  "temp": 23.5,
+  "humidity": 77,
+  "wind": 9.0,
+  "code": 1
+}
+,
+"Dubai": {
+  "temp": 30.7,
+  "humidity": 57,
+  "wind": 5.2,
+  "code": 0
+}
+,
+"Sao_Paulo": {
+  "temp": 13.5,
+  "humidity": 90,
+  "wind": 10.6,
+  "code": 3
+}
+,
+"London": {
+  "temp": 17.1,
+  "humidity": 72,
+  "wind": 15.5,
+  "code": 2
+}
+,
+"Lagos": {
+  "temp": 25.4,
+  "humidity": 93,
+  "wind": 8.5,
+  "code": 3
+}
+,
+"Rome": {
+  "temp": 24.9,
+  "humidity": 69,
+  "wind": 5.1,
+  "code": 2
+}
+,
+"Mumbai": {
+  "temp": 25.5,
+  "humidity": 88,
+  "wind": 6.4,
+  "code": 53
+}
+,
+"Cape_Town": {
+  "temp": 12.8,
+  "humidity": 90,
+  "wind": 26.0,
+  "code": 0
+}
+,
+"Mexico_City": {
+  "temp": 15.3,
+  "humidity": 88,
+  "wind": 4.7,
+  "code": 55
+}
+,
+"Shanghai": {
+  "temp": 29.4,
+  "humidity": 72,
+  "wind": 12.8,
+  "code": 1
+}
+,
+"Jakarta": {
+  "temp": 28.6,
+  "humidity": 65,
+  "wind": 3.3,
+  "code": 0
+}
+,
+"Sydney": {
+  "temp": 19.9,
+  "humidity": 63,
+  "wind": 9.6,
+  "code": 3
+}
+,
+"Bangkok": {"temp":0,"humidity":0,"wind":0,"code":0}
+}
