@@ -1,0 +1,245 @@
+[
+  {
+    "title": "Excel scroll bar stuck with 2500 extra empty rows even after deleting rows. Recreating the sheet is NOT an option",
+    "score": 1,
+    "views": 16,
+    "answers": 0,
+    "tags": [
+      "excel",
+      "scrollbar",
+      "worksheet"
+    ],
+    "link": "https://stackoverflow.com/questions/79998234/excel-scroll-bar-stuck-with-2500-extra-empty-rows-even-after-deleting-rows-recr"
+  },
+  {
+    "title": "How to merge specific rows in a pandas DataFrame?",
+    "score": 0,
+    "views": 32,
+    "answers": 2,
+    "tags": [
+      "python",
+      "pandas",
+      "dataframe"
+    ],
+    "link": "https://stackoverflow.com/questions/79998224/how-to-merge-specific-rows-in-a-pandas-dataframe"
+  },
+  {
+    "title": "Link is active?",
+    "score": -3,
+    "views": 29,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "dom"
+    ],
+    "link": "https://stackoverflow.com/questions/79998231/link-is-active"
+  },
+  {
+    "title": "java code license with openjdk on android",
+    "score": 0,
+    "views": 38,
+    "answers": 0,
+    "tags": [
+      "java",
+      "android",
+      "java-11"
+    ],
+    "link": "https://stackoverflow.com/questions/79998223/java-code-license-with-openjdk-on-android"
+  },
+  {
+    "title": "Can you tell me if this means anything? Doing an essay on the site Soul-net.co",
+    "score": -5,
+    "views": 32,
+    "answers": 0,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/79998221/can-you-tell-me-if-this-means-anything-doing-an-essay-on-the-site-soul-net-co"
+  },
+  {
+    "title": "Why does case_when() work with one RHS value but return character(0) with another?",
+    "score": 1,
+    "views": 44,
+    "answers": 2,
+    "tags": [
+      "r",
+      "dplyr",
+      "case"
+    ],
+    "link": "https://stackoverflow.com/questions/79998204/why-does-case-when-work-with-one-rhs-value-but-return-character0-with-anothe"
+  },
+  {
+    "title": "How can I continue an unfinished Claude Design project using AI?",
+    "score": -6,
+    "views": 83,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "artificial-intelligence",
+      "ui-design",
+      "prototyping",
+      "claude"
+    ],
+    "link": "https://stackoverflow.com/questions/79998212/how-can-i-continue-an-unfinished-claude-design-project-using-ai"
+  },
+  {
+    "title": "Django Channels redis.exceptions.TimeoutError: Timeout reading from 127.0.0.1:6379",
+    "score": 2,
+    "views": 48,
+    "answers": 2,
+    "tags": [
+      "python",
+      "django",
+      "redis"
+    ],
+    "link": "https://stackoverflow.com/questions/79998186/django-channels-redis-exceptions-timeouterror-timeout-reading-from-127-0-0-163"
+  },
+  {
+    "title": "Close the curve of the &quot;R&quot;",
+    "score": -3,
+    "views": 41,
+    "answers": 0,
+    "tags": [
+      "figma"
+    ],
+    "link": "https://stackoverflow.com/questions/79998194/close-the-curve-of-the-r"
+  },
+  {
+    "title": "What does “WiFiQLMMetrics” mean in iOS analytics",
+    "score": -1,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "ios",
+      "iphone",
+      "wifi",
+      "analytics"
+    ],
+    "link": "https://stackoverflow.com/questions/79998210/what-does-wifiqlmmetrics-mean-in-ios-analytics"
+  },
+  {
+    "title": "Find first match",
+    "score": -1,
+    "views": 65,
+    "answers": 2,
+    "tags": [
+      "google-sheets",
+      "spreadsheet"
+    ],
+    "link": "https://stackoverflow.com/questions/79998179/find-first-match"
+  },
+  {
+    "title": "Is this C++ compatiblity header setup for new features unavailable in older C++ versions a good idea?",
+    "score": 0,
+    "views": 72,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "c++17",
+      "std",
+      "upgrade"
+    ],
+    "link": "https://stackoverflow.com/questions/79998166/is-this-c-compatiblity-header-setup-for-new-features-unavailable-in-older-c"
+  },
+  {
+    "title": "Is there a recommended icon for parking pay station?",
+    "score": -1,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "user-interface",
+      "responsive-design"
+    ],
+    "link": "https://stackoverflow.com/questions/79998202/is-there-a-recommended-icon-for-parking-pay-station"
+  },
+  {
+    "title": "How to improve deep learning model sensitivity for subtle ordinal class transitions (e.g., Diabetic Retinopathy)?",
+    "score": 1,
+    "views": 61,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "python",
+      "machine-learning",
+      "deep-learning",
+      "computer-vision"
+    ],
+    "link": "https://stackoverflow.com/questions/79998181/how-to-improve-deep-learning-model-sensitivity-for-subtle-ordinal-class-transiti"
+  },
+  {
+    "title": "How Can I Exclude Holidays Using My Custom Holiday Table Into my SQL Code that Excludes Weekends",
+    "score": 0,
+    "views": 58,
+    "answers": 1,
+    "tags": [
+      "sql",
+      "sql-server"
+    ],
+    "link": "https://stackoverflow.com/questions/79998190/how-can-i-exclude-holidays-using-my-custom-holiday-table-into-my-sql-code-that-e"
+  },
+  {
+    "title": "django.db.utils.NotSupportedError: MariaDB 10.11 or later is required (found 10.6.22)",
+    "score": -1,
+    "views": 72,
+    "answers": 1,
+    "tags": [
+      "python",
+      "django",
+      "mariadb"
+    ],
+    "link": "https://stackoverflow.com/questions/79998083/django-db-utils-notsupportederror-mariadb-10-11-or-later-is-required-found-10"
+  },
+  {
+    "title": "Deploy copilot studio agent to Teams channel using Azure DevOps pipeline",
+    "score": -1,
+    "views": 31,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "azure-devops",
+      "azure-pipelines",
+      "agent",
+      "microsoft-copilot-studio"
+    ],
+    "link": "https://stackoverflow.com/questions/79998183/deploy-copilot-studio-agent-to-teams-channel-using-azure-devops-pipeline"
+  },
+  {
+    "title": "While Executing The Java Code It Suddenly Showed Error",
+    "score": -6,
+    "views": 82,
+    "answers": 0,
+    "tags": [
+      "java",
+      "visual-studio-code",
+      "printing",
+      "numbers"
+    ],
+    "link": "https://stackoverflow.com/questions/79998172/while-executing-the-java-code-it-suddenly-showed-error"
+  },
+  {
+    "title": "Is there a tool/command that can transform a `podman run` into a podman-compose.yml?",
+    "score": -2,
+    "views": 58,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "podman",
+      "podman-compose"
+    ],
+    "link": "https://stackoverflow.com/questions/79998102/is-there-a-tool-command-that-can-transform-a-podman-run-into-a-podman-compose"
+  },
+  {
+    "title": "How to extend class based off of template parameters?",
+    "score": 2,
+    "views": 179,
+    "answers": 3,
+    "tags": [
+      "c++",
+      "oop",
+      "templates",
+      "operator-overloading"
+    ],
+    "link": "https://stackoverflow.com/questions/79998005/how-to-extend-class-based-off-of-template-parameters"
+  }
+]

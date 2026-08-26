@@ -1,0 +1,166 @@
+{
+"Buenos_Aires": {
+  "temp": 11.6,
+  "humidity": 82,
+  "wind": 12.7,
+  "code": 0
+}
+,
+"Toronto": {
+  "temp": 19.1,
+  "humidity": 89,
+  "wind": 5.8,
+  "code": 0
+}
+,
+"Singapore": {
+  "temp": 28.7,
+  "humidity": 76,
+  "wind": 9.7,
+  "code": 3
+}
+,
+"New_York": {
+  "temp": 21.4,
+  "humidity": 68,
+  "wind": 10.2,
+  "code": 0
+}
+,
+"Cairo": {
+  "temp": 25.7,
+  "humidity": 87,
+  "wind": 6.2,
+  "code": 2
+}
+,
+"Paris": {
+  "temp": 21.5,
+  "humidity": 79,
+  "wind": 4.7,
+  "code": 3
+}
+,
+"Seoul": {
+  "temp": 25.1,
+  "humidity": 94,
+  "wind": 1.5,
+  "code": 2
+}
+,
+"Nairobi": {
+  "temp": 13.8,
+  "humidity": 80,
+  "wind": 0.8,
+  "code": 0
+}
+,
+"Berlin": {
+  "temp": 15.7,
+  "humidity": 68,
+  "wind": 9.0,
+  "code": 2
+}
+,
+"Lima": {
+  "temp": 19.4,
+  "humidity": 79,
+  "wind": 10.6,
+  "code": 1
+}
+,
+"Moscow": {
+  "temp": 12.9,
+  "humidity": 91,
+  "wind": 9.3,
+  "code": 3
+}
+,
+"Tokyo": {"temp":0,"humidity":0,"wind":0,"code":0}
+,
+"Istanbul": {
+  "temp": 22.2,
+  "humidity": 76,
+  "wind": 2.9,
+  "code": 0
+}
+,
+"Dubai": {
+  "temp": 32.2,
+  "humidity": 52,
+  "wind": 6.9,
+  "code": 0
+}
+,
+"Sao_Paulo": {
+  "temp": 15.9,
+  "humidity": 90,
+  "wind": 2.6,
+  "code": 3
+}
+,
+"London": {
+  "temp": 19.6,
+  "humidity": 82,
+  "wind": 6.8,
+  "code": 51
+}
+,
+"Lagos": {
+  "temp": 25.6,
+  "humidity": 93,
+  "wind": 9.4,
+  "code": 3
+}
+,
+"Rome": {
+  "temp": 22.1,
+  "humidity": 89,
+  "wind": 3.0,
+  "code": 0
+}
+,
+"Mumbai": {
+  "temp": 26.4,
+  "humidity": 86,
+  "wind": 9.0,
+  "code": 1
+}
+,
+"Cape_Town": {
+  "temp": 12.2,
+  "humidity": 91,
+  "wind": 11.0,
+  "code": 1
+}
+,
+"Mexico_City": {
+  "temp": 17.0,
+  "humidity": 81,
+  "wind": 3.1,
+  "code": 3
+}
+,
+"Shanghai": {"temp":0,"humidity":0,"wind":0,"code":0}
+,
+"Jakarta": {
+  "temp": 28.5,
+  "humidity": 68,
+  "wind": 5.1,
+  "code": 0
+}
+,
+"Sydney": {
+  "temp": 17.2,
+  "humidity": 80,
+  "wind": 17.8,
+  "code": 53
+}
+,
+"Bangkok": {
+  "temp": 27.5,
+  "humidity": 80,
+  "wind": 6.5,
+  "code": 3
+}
+}
