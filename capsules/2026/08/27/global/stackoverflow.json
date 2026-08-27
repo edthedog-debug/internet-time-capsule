@@ -1,0 +1,243 @@
+[
+  {
+    "title": "Posts API returns empty-body 403 for self-serve app with valid w_member_social — personal profile posting",
+    "score": -1,
+    "views": 28,
+    "answers": 0,
+    "tags": [
+      "oauth-2.0",
+      "linkedin-api",
+      "n8n"
+    ],
+    "link": "https://stackoverflow.com/questions/79998573/posts-api-returns-empty-body-403-for-self-serve-app-with-valid-w-member-social"
+  },
+  {
+    "title": "Sub-query - Error due to insufficient parentheses",
+    "score": -1,
+    "views": 51,
+    "answers": 0,
+    "tags": [
+      "sql",
+      "google-bigquery"
+    ],
+    "link": "https://stackoverflow.com/questions/79998566/sub-query-error-due-to-insufficient-parentheses"
+  },
+  {
+    "title": "Why does NTILE(-1) put every maintenance score in bucket 1?",
+    "score": -1,
+    "views": 31,
+    "answers": 2,
+    "tags": [
+      "time-series",
+      "apache-iotdb"
+    ],
+    "link": "https://stackoverflow.com/questions/79998551/why-does-ntile-1-put-every-maintenance-score-in-bucket-1"
+  },
+  {
+    "title": "Unable to Create Cloud Billing Account — OR_BACR2_31",
+    "score": -4,
+    "views": 38,
+    "answers": 0,
+    "tags": [
+      "google-cloud-platform",
+      "cloud",
+      "billing"
+    ],
+    "link": "https://stackoverflow.com/questions/79998556/unable-to-create-cloud-billing-account-or-bacr2-31"
+  },
+  {
+    "title": "Why does the typing break when I split one operation into two?",
+    "score": 0,
+    "views": 62,
+    "answers": 3,
+    "tags": [
+      "python",
+      "python-typing",
+      "pylance"
+    ],
+    "link": "https://stackoverflow.com/questions/79998534/why-does-the-typing-break-when-i-split-one-operation-into-two"
+  },
+  {
+    "title": "In the C expression x = x + 1, does the left-hand sub-expression x undergo evaluation?",
+    "score": -4,
+    "views": 103,
+    "answers": 2,
+    "tags": [
+      "c"
+    ],
+    "link": "https://stackoverflow.com/questions/79998539/in-the-c-expression-x-x-1-does-the-left-hand-sub-expression-x-undergo-evalu"
+  },
+  {
+    "title": "Personalized Page rank with weighted nodes",
+    "score": -2,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "math",
+      "pagerank"
+    ],
+    "link": "https://stackoverflow.com/questions/79998564/personalized-page-rank-with-weighted-nodes"
+  },
+  {
+    "title": "Implementing generic polymorphism in C using union-pointer casting: approach and correctness",
+    "score": 0,
+    "views": 44,
+    "answers": 0,
+    "tags": [
+      "c",
+      "pointers",
+      "union",
+      "undefined-behavior",
+      "strict-aliasing"
+    ],
+    "link": "https://stackoverflow.com/questions/79998549/implementing-generic-polymorphism-in-c-using-union-pointer-casting-approach-and"
+  },
+  {
+    "title": "Azure Pipeline: how to separate 2 environments for testing?",
+    "score": 0,
+    "views": 27,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "azure-devops",
+      "azure-pipelines"
+    ],
+    "link": "https://stackoverflow.com/questions/79998537/azure-pipeline-how-to-separate-2-environments-for-testing"
+  },
+  {
+    "title": "Kubernetes/RKE2: New worker nodes get ImagePullBackOff and unexpected EOF from private registry",
+    "score": -2,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "devops",
+      "rancher",
+      "rke2"
+    ],
+    "link": "https://stackoverflow.com/questions/79998545/kubernetes-rke2-new-worker-nodes-get-imagepullbackoff-and-unexpected-eof-from-p"
+  },
+  {
+    "title": "I need something like digital signature",
+    "score": -4,
+    "views": 44,
+    "answers": 0,
+    "tags": [
+      "laravel",
+      "vue.js",
+      "authentication"
+    ],
+    "link": "https://stackoverflow.com/questions/79998536/i-need-something-like-digital-signature"
+  },
+  {
+    "title": "DeepSeek Harness stuck after successful installation",
+    "score": -3,
+    "views": 38,
+    "answers": 0,
+    "tags": [
+      "deepseek",
+      "harness"
+    ],
+    "link": "https://stackoverflow.com/questions/79998538/deepseek-harness-stuck-after-successful-installation"
+  },
+  {
+    "title": "Text centered next to the image header",
+    "score": 1,
+    "views": 50,
+    "answers": 1,
+    "tags": [
+      "html",
+      "css",
+      "class",
+      "header",
+      "headertext"
+    ],
+    "link": "https://stackoverflow.com/questions/79998525/text-centered-next-to-the-image-header"
+  },
+  {
+    "title": "How to hide details of PHP error from Wordpress REST API response",
+    "score": -1,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "php",
+      "error-handling",
+      "wordpress-rest-api"
+    ],
+    "link": "https://stackoverflow.com/questions/79998531/how-to-hide-details-of-php-error-from-wordpress-rest-api-response"
+  },
+  {
+    "title": "Using Int Array Reference",
+    "score": 1,
+    "views": 65,
+    "answers": 2,
+    "tags": [
+      "javascript"
+    ],
+    "link": "https://stackoverflow.com/questions/79998518/using-int-array-reference"
+  },
+  {
+    "title": "Web browser reloads page every time back is clicked",
+    "score": -5,
+    "views": 47,
+    "answers": 0,
+    "tags": [
+      "google-chrome",
+      "firefox",
+      "browser"
+    ],
+    "link": "https://stackoverflow.com/questions/79998527/web-browser-reloads-page-every-time-back-is-clicked"
+  },
+  {
+    "title": "&quot;zsh: segmentation fault&quot; error using PyQt6 and MacBook",
+    "score": 1,
+    "views": 67,
+    "answers": 1,
+    "tags": [
+      "python",
+      "macos",
+      "pyqt"
+    ],
+    "link": "https://stackoverflow.com/questions/79998448/zsh-segmentation-fault-error-using-pyqt6-and-macbook"
+  },
+  {
+    "title": "How can I improve Shopify product page performance without removing dynamic sections?",
+    "score": 0,
+    "views": 42,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "wordpress",
+      "shopify",
+      "e-commerce"
+    ],
+    "link": "https://stackoverflow.com/questions/79998512/how-can-i-improve-shopify-product-page-performance-without-removing-dynamic-sect"
+  },
+  {
+    "title": "Meta Lead-Ads-Testing-Tool Webhook stuck on &quot;Pending&quot; — Graph API works, but Meta never sends POST to my webhook",
+    "score": -2,
+    "views": 33,
+    "answers": 0,
+    "tags": [
+      "facebook-graph-api",
+      "dynamics-crm",
+      "crm",
+      "facebook-ads-api",
+      "facebook-webhooks"
+    ],
+    "link": "https://stackoverflow.com/questions/79998515/meta-lead-ads-testing-tool-webhook-stuck-on-pending-graph-api-works-but-met"
+  },
+  {
+    "title": "How do I add log statements to a stateflow?",
+    "score": 0,
+    "views": 43,
+    "answers": 3,
+    "tags": [
+      "android",
+      "kotlin",
+      "logging",
+      "kotlin-stateflow"
+    ],
+    "link": "https://stackoverflow.com/questions/79998442/how-do-i-add-log-statements-to-a-stateflow"
+  }
+]
