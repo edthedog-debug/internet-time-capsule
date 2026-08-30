@@ -1,0 +1,171 @@
+{
+"Buenos_Aires": {
+  "temp": 11.8,
+  "humidity": 84,
+  "wind": 6.8,
+  "code": 2
+}
+,
+"Toronto": {
+  "temp": 18.0,
+  "humidity": 77,
+  "wind": 7.1,
+  "code": 3
+}
+,
+"Singapore": {
+  "temp": 29.4,
+  "humidity": 75,
+  "wind": 9.5,
+  "code": 55
+}
+,
+"New_York": {
+  "temp": 18.4,
+  "humidity": 74,
+  "wind": 7.6,
+  "code": 1
+}
+,
+"Cairo": {
+  "temp": 23.6,
+  "humidity": 73,
+  "wind": 1.8,
+  "code": 2
+}
+,
+"Paris": {
+  "temp": 18.0,
+  "humidity": 81,
+  "wind": 10.4,
+  "code": 3
+}
+,
+"Seoul": {
+  "temp": 25.9,
+  "humidity": 79,
+  "wind": 2.7,
+  "code": 2
+}
+,
+"Nairobi": {
+  "temp": 13.5,
+  "humidity": 88,
+  "wind": 2.0,
+  "code": 3
+}
+,
+"Berlin": {
+  "temp": 19.0,
+  "humidity": 73,
+  "wind": 10.8,
+  "code": 3
+}
+,
+"Lima": {
+  "temp": 18.9,
+  "humidity": 81,
+  "wind": 12.2,
+  "code": 1
+}
+,
+"Moscow": {
+  "temp": 11.7,
+  "humidity": 81,
+  "wind": 4.0,
+  "code": 0
+}
+,
+"Tokyo": {"temp":0,"humidity":0,"wind":0,"code":0}
+,
+"Istanbul": {
+  "temp": 20.8,
+  "humidity": 89,
+  "wind": 2.1,
+  "code": 2
+}
+,
+"Dubai": {
+  "temp": 32.1,
+  "humidity": 52,
+  "wind": 13.5,
+  "code": 0
+}
+,
+"Sao_Paulo": {
+  "temp": 23.3,
+  "humidity": 71,
+  "wind": 4.3,
+  "code": 2
+}
+,
+"London": {
+  "temp": 17.4,
+  "humidity": 79,
+  "wind": 15.8,
+  "code": 3
+}
+,
+"Lagos": {
+  "temp": 25.2,
+  "humidity": 92,
+  "wind": 10.9,
+  "code": 3
+}
+,
+"Rome": {
+  "temp": 24.7,
+  "humidity": 74,
+  "wind": 2.6,
+  "code": 2
+}
+,
+"Mumbai": {
+  "temp": 27.7,
+  "humidity": 78,
+  "wind": 16.6,
+  "code": 53
+}
+,
+"Cape_Town": {
+  "temp": 11.6,
+  "humidity": 71,
+  "wind": 11.2,
+  "code": 0
+}
+,
+"Mexico_City": {
+  "temp": 14.7,
+  "humidity": 93,
+  "wind": 0.6,
+  "code": 51
+}
+,
+"Shanghai": {
+  "temp": 30.8,
+  "humidity": 70,
+  "wind": 10.9,
+  "code": 95
+}
+,
+"Jakarta": {
+  "temp": 33.9,
+  "humidity": 39,
+  "wind": 6.9,
+  "code": 1
+}
+,
+"Sydney": {
+  "temp": 18.2,
+  "humidity": 64,
+  "wind": 8.0,
+  "code": 0
+}
+,
+"Bangkok": {
+  "temp": 30.3,
+  "humidity": 69,
+  "wind": 11.1,
+  "code": 3
+}
+}

@@ -1,0 +1,243 @@
+[
+  {
+    "title": "How do I make the menu button open the nav menu in media queries",
+    "score": 0,
+    "views": 11,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/79999312/how-do-i-make-the-menu-button-open-the-nav-menu-in-media-queries"
+  },
+  {
+    "title": "Does OwnMates expose any documented APIs for developers?",
+    "score": 0,
+    "views": 20,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "backend",
+      "document"
+    ],
+    "link": "https://stackoverflow.com/questions/79999309/does-ownmates-expose-any-documented-apis-for-developers"
+  },
+  {
+    "title": "Calling msys2 mingw32 make from the Windows terminal",
+    "score": 2,
+    "views": 36,
+    "answers": 1,
+    "tags": [
+      "c",
+      "gnu-make",
+      "msys2",
+      "mingw32"
+    ],
+    "link": "https://stackoverflow.com/questions/79999305/calling-msys2-mingw32-make-from-the-windows-terminal"
+  },
+  {
+    "title": "How to properly connect Boost.Asio server with lock free queue?",
+    "score": 0,
+    "views": 37,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "network-programming",
+      "boost-asio"
+    ],
+    "link": "https://stackoverflow.com/questions/79999298/how-to-properly-connect-boost-asio-server-with-lock-free-queue"
+  },
+  {
+    "title": "How can I detect and visualize multiple touch points with JavaScript?",
+    "score": 0,
+    "views": 54,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "javascript",
+      "web",
+      "touch",
+      "touch-event"
+    ],
+    "link": "https://stackoverflow.com/questions/79999272/how-can-i-detect-and-visualize-multiple-touch-points-with-javascript"
+  },
+  {
+    "title": "Why is program synthesis more convenient?",
+    "score": -3,
+    "views": 40,
+    "answers": 0,
+    "tags": [
+      "advice"
+    ],
+    "link": "https://stackoverflow.com/questions/79999296/why-is-program-synthesis-more-convenient"
+  },
+  {
+    "title": "Amazon SES: BadRequestException and HTTP Body: {&quot;message&quot;:null}",
+    "score": 0,
+    "views": 24,
+    "answers": 2,
+    "tags": [
+      "c#",
+      "amazon-ses",
+      "aws-sdk-net"
+    ],
+    "link": "https://stackoverflow.com/questions/79999278/amazon-ses-badrequestexception-and-http-body-messagenull"
+  },
+  {
+    "title": "In Kotlin, how do I copy an ArrayList so changes to copy do not affect original?",
+    "score": -1,
+    "views": 43,
+    "answers": 1,
+    "tags": [
+      "kotlin"
+    ],
+    "link": "https://stackoverflow.com/questions/79999238/in-kotlin-how-do-i-copy-an-arraylist-so-changes-to-copy-do-not-affect-original"
+  },
+  {
+    "title": "How to resize a JFrame to include the full title text?",
+    "score": 0,
+    "views": 29,
+    "answers": 1,
+    "tags": [
+      "java",
+      "swing",
+      "resize",
+      "titlebar",
+      "autoresize"
+    ],
+    "link": "https://stackoverflow.com/questions/79999286/how-to-resize-a-jframe-to-include-the-full-title-text"
+  },
+  {
+    "title": "How to write automation tests for elements/processes that are frequently used elsewhere?",
+    "score": 0,
+    "views": 16,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "selenium-webdriver",
+      "testing",
+      "automated-tests",
+      "cypress"
+    ],
+    "link": "https://stackoverflow.com/questions/79999292/how-to-write-automation-tests-for-elements-processes-that-are-frequently-used-el"
+  },
+  {
+    "title": "How to visualize a Jax neural network?",
+    "score": 0,
+    "views": 14,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "visualization",
+      "jax"
+    ],
+    "link": "https://stackoverflow.com/questions/79999297/how-to-visualize-a-jax-neural-network"
+  },
+  {
+    "title": "My project with classes and encapsulation in Python programming language",
+    "score": -3,
+    "views": 68,
+    "answers": 1,
+    "tags": [
+      "python",
+      "class"
+    ],
+    "link": "https://stackoverflow.com/questions/79999281/my-project-with-classes-and-encapsulation-in-python-programming-language"
+  },
+  {
+    "title": "Merging Multiple PDF&#39;s",
+    "score": 0,
+    "views": 64,
+    "answers": 1,
+    "tags": [
+      "vb.net",
+      "pdf",
+      "merge",
+      "itext7"
+    ],
+    "link": "https://stackoverflow.com/questions/79999220/merging-multiple-pdfs"
+  },
+  {
+    "title": "TreeMap in Java overrides values with same comparison keys",
+    "score": 4,
+    "views": 150,
+    "answers": 3,
+    "tags": [
+      "java",
+      "treemap"
+    ],
+    "link": "https://stackoverflow.com/questions/79999184/treemap-in-java-overrides-values-with-same-comparison-keys"
+  },
+  {
+    "title": "How to resolve TypeError: isSubclass() arg 1 must be a class when issubclass() wasn&#39;t explicitly called?",
+    "score": 1,
+    "views": 86,
+    "answers": 1,
+    "tags": [
+      "python",
+      "asynchronous",
+      "bots"
+    ],
+    "link": "https://stackoverflow.com/questions/79999259/how-to-resolve-typeerror-issubclass-arg-1-must-be-a-class-when-issubclass-w"
+  },
+  {
+    "title": "Integration of Whatsapp and Google Calender onto WebApp",
+    "score": -5,
+    "views": 44,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "web-applications",
+      "whatsapp",
+      "whatsapi"
+    ],
+    "link": "https://stackoverflow.com/questions/79999268/integration-of-whatsapp-and-google-calender-onto-webapp"
+  },
+  {
+    "title": "Using ast.parse to evaluate arithmetic expression safely",
+    "score": 3,
+    "views": 48,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/79999255/using-ast-parse-to-evaluate-arithmetic-expression-safely"
+  },
+  {
+    "title": "Why Does an Identity Comparison Using id() Evaluate to False?",
+    "score": -2,
+    "views": 38,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/79999271/why-does-an-identity-comparison-using-id-evaluate-to-false"
+  },
+  {
+    "title": "Preconditions on std::layout_stride::mapping&#39;s constructor",
+    "score": 0,
+    "views": 66,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "language-lawyer"
+    ],
+    "link": "https://stackoverflow.com/questions/79999219/preconditions-on-stdlayout-stridemappings-constructor"
+  },
+  {
+    "title": "How to launch another app as a floating window",
+    "score": 1,
+    "views": 53,
+    "answers": 0,
+    "tags": [
+      "android",
+      "kotlin",
+      "android-activity",
+      "android-jetpack-compose"
+    ],
+    "link": "https://stackoverflow.com/questions/79999258/how-to-launch-another-app-as-a-floating-window"
+  }
+]

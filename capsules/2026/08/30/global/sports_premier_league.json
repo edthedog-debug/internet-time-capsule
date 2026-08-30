@@ -1,0 +1,34 @@
+[
+  {
+    "home": "Liverpool",
+    "away": "Nottingham Forest",
+    "home_score": "2",
+    "away_score": "2",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-08-29T11:30Z"
+  },
+  {
+    "home": "AFC Bournemouth",
+    "away": "Everton",
+    "home_score": "1",
+    "away_score": "1",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-08-29T14:00Z"
+  },
+  {
+    "home": "Coventry City",
+    "away": "Hull City",
+    "home_score": "0",
+    "away_score": "1",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-08-29T14:00Z"
+  },
+  {
+    "home": "Tottenham Hotspur",
+    "away": "Newcastle United",
+    "home_score": "0",
+    "away_score": "2",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-08-29T16:30Z"
+  }
+]
