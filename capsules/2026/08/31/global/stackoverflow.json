@@ -1,0 +1,237 @@
+[
+  {
+    "title": "Cannot get Windows 11 Smart App Control to detect and block my unsigned application",
+    "score": -3,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      ".net",
+      "windows",
+      "security"
+    ],
+    "link": "https://stackoverflow.com/questions/79999482/cannot-get-windows-11-smart-app-control-to-detect-and-block-my-unsigned-applicat"
+  },
+  {
+    "title": "JavaScript modules and libraries",
+    "score": -4,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "advice"
+    ],
+    "link": "https://stackoverflow.com/questions/79999479/javascript-modules-and-libraries"
+  },
+  {
+    "title": "Create complex CLI apps using C",
+    "score": 1,
+    "views": 92,
+    "answers": 3,
+    "tags": [
+      "c",
+      "command-line-interface"
+    ],
+    "link": "https://stackoverflow.com/questions/79999433/create-complex-cli-apps-using-c"
+  },
+  {
+    "title": "Should &quot;side CAUSES&quot;, even just global constants, be avoided when writing functions (in Clojure and ClojureScript but really any functional language)?",
+    "score": 0,
+    "views": 40,
+    "answers": 2,
+    "tags": [
+      "best-practices",
+      "functional-programming",
+      "clojure",
+      "clojurescript"
+    ],
+    "link": "https://stackoverflow.com/questions/79999452/should-side-causes-even-just-global-constants-be-avoided-when-writing-functi"
+  },
+  {
+    "title": "How can I allow a specific user to access hardware performance counters on Ubuntu?",
+    "score": 0,
+    "views": 46,
+    "answers": 1,
+    "tags": [
+      "linux",
+      "ubuntu",
+      "perf",
+      "papi"
+    ],
+    "link": "https://stackoverflow.com/questions/79999455/how-can-i-allow-a-specific-user-to-access-hardware-performance-counters-on-ubunt"
+  },
+  {
+    "title": "Javascript doesn&#39;t have console input?",
+    "score": 1,
+    "views": 77,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "performance"
+    ],
+    "link": "https://stackoverflow.com/questions/79999469/javascript-doesnt-have-console-input"
+  },
+  {
+    "title": "When arguments are a vector and a brace-enclosed list, no instance of function template matches the argument list",
+    "score": 0,
+    "views": 70,
+    "answers": 2,
+    "tags": [
+      "c++"
+    ],
+    "link": "https://stackoverflow.com/questions/79999451/when-arguments-are-a-vector-and-a-brace-enclosed-list-no-instance-of-function-t"
+  },
+  {
+    "title": "R taking excessive CPU and memory when using from Positron/terminal",
+    "score": 0,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "r",
+      "terminal",
+      "positron"
+    ],
+    "link": "https://stackoverflow.com/questions/79999468/r-taking-excessive-cpu-and-memory-when-using-from-positron-terminal"
+  },
+  {
+    "title": "Git requires a force push after deleting and recreating a repository",
+    "score": -2,
+    "views": 43,
+    "answers": 1,
+    "tags": [
+      "git",
+      "github"
+    ],
+    "link": "https://stackoverflow.com/questions/79999420/git-requires-a-force-push-after-deleting-and-recreating-a-repository"
+  },
+  {
+    "title": "When do i derive the IV counter in AES GCM? (TLS 1.3)",
+    "score": -1,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "ssl",
+      "encryption",
+      "cryptography",
+      "aes-gcm"
+    ],
+    "link": "https://stackoverflow.com/questions/79999450/when-do-i-derive-the-iv-counter-in-aes-gcm-tls-1-3"
+  },
+  {
+    "title": "ORDER BY TIME DESC changes which tied TOP_K points are selected",
+    "score": 0,
+    "views": 41,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "window-functions",
+      "apache-iotdb"
+    ],
+    "link": "https://stackoverflow.com/questions/79999424/order-by-time-desc-changes-which-tied-top-k-points-are-selected"
+  },
+  {
+    "title": "Why is JavaScript stopping when it calls getElementById method?",
+    "score": -3,
+    "views": 29,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "dom"
+    ],
+    "link": "https://stackoverflow.com/questions/79999444/why-is-javascript-stopping-when-it-calls-getelementbyid-method"
+  },
+  {
+    "title": "Need a general advice on day-day coding scenario",
+    "score": -6,
+    "views": 57,
+    "answers": 1,
+    "tags": [
+      "advice"
+    ],
+    "link": "https://stackoverflow.com/questions/79999429/need-a-general-advice-on-day-day-coding-scenario"
+  },
+  {
+    "title": "Must a variable template be instantiated when it appears only as `&amp;x` in a default template argument?",
+    "score": 5,
+    "views": 86,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "templates",
+      "language-lawyer",
+      "template-instantiation",
+      "variable-templates"
+    ],
+    "link": "https://stackoverflow.com/questions/79999417/must-a-variable-template-be-instantiated-when-it-appears-only-as-x-in-a-defau"
+  },
+  {
+    "title": "How to make a bootable drive without an EFI partition on it?",
+    "score": -3,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "linux",
+      "windows",
+      "bootloader",
+      "uefi",
+      "grub"
+    ],
+    "link": "https://stackoverflow.com/questions/79999447/how-to-make-a-bootable-drive-without-an-efi-partition-on-it"
+  },
+  {
+    "title": "Getting an error when CBuilder installing Turbopack ribbon framework",
+    "score": -1,
+    "views": 34,
+    "answers": 0,
+    "tags": [
+      "c++builder",
+      "c++builder-13-florence"
+    ],
+    "link": "https://stackoverflow.com/questions/79999410/getting-an-error-when-cbuilder-installing-turbopack-ribbon-framework"
+  },
+  {
+    "title": "Negative LEAD offset exposes an IndexOutOfBoundsException",
+    "score": 0,
+    "views": 29,
+    "answers": 0,
+    "tags": [
+      "window-functions",
+      "apache-iotdb"
+    ],
+    "link": "https://stackoverflow.com/questions/79999430/negative-lead-offset-exposes-an-indexoutofboundsexception"
+  },
+  {
+    "title": "I installed Flutter in Android Studio, and this is the error Android toolchain - develop for Android devices (Android SDK version 37.0.0)",
+    "score": 1,
+    "views": 41,
+    "answers": 1,
+    "tags": [
+      "flutter",
+      "licensing",
+      "toolchain"
+    ],
+    "link": "https://stackoverflow.com/questions/79999415/i-installed-flutter-in-android-studio-and-this-is-the-error-android-toolchain"
+  },
+  {
+    "title": "Google Apps Script that Claude wrote for me turning red",
+    "score": -7,
+    "views": 76,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "google-sheets",
+      "google-apps-script"
+    ],
+    "link": "https://stackoverflow.com/questions/79999408/google-apps-script-that-claude-wrote-for-me-turning-red"
+  },
+  {
+    "title": "EXTREME misses the largest-magnitude INT32 value",
+    "score": 0,
+    "views": 32,
+    "answers": 0,
+    "tags": [
+      "time-series",
+      "aggregate-functions",
+      "apache-iotdb"
+    ],
+    "link": "https://stackoverflow.com/questions/79999416/extreme-misses-the-largest-magnitude-int32-value"
+  }
+]
