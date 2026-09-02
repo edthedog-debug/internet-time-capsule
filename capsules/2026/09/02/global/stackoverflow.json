@@ -1,0 +1,241 @@
+[
+  {
+    "title": "SwiftData Custom DataStore fetched snapshots properties invalid",
+    "score": 0,
+    "views": 12,
+    "answers": 0,
+    "tags": [
+      "datastore",
+      "swiftdata"
+    ],
+    "link": "https://stackoverflow.com/questions/80000049/swiftdata-custom-datastore-fetched-snapshots-properties-invalid"
+  },
+  {
+    "title": "Why am I getting a 404 error with python anywhere?",
+    "score": 0,
+    "views": 61,
+    "answers": 1,
+    "tags": [
+      "python",
+      "django",
+      "pythonanywhere"
+    ],
+    "link": "https://stackoverflow.com/questions/80000043/why-am-i-getting-a-404-error-with-python-anywhere"
+  },
+  {
+    "title": "Text alignment on a dynamically created HTML element via JavaScript not working",
+    "score": 0,
+    "views": 53,
+    "answers": 2,
+    "tags": [
+      "javascript",
+      "html",
+      "text",
+      "dynamic",
+      "alignment"
+    ],
+    "link": "https://stackoverflow.com/questions/80000036/text-alignment-on-a-dynamically-created-html-element-via-javascript-not-working"
+  },
+  {
+    "title": "Future.pause delays longer than the specified Duration",
+    "score": 0,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "dart",
+      "async-await",
+      "delay",
+      "future",
+      "pause"
+    ],
+    "link": "https://stackoverflow.com/questions/80000032/future-pause-delays-longer-than-the-specified-duration"
+  },
+  {
+    "title": "Where is the respective file in the Doxygen repository for Configuration in the Doxygen documentation page?",
+    "score": -3,
+    "views": 32,
+    "answers": 1,
+    "tags": [
+      "doxygen"
+    ],
+    "link": "https://stackoverflow.com/questions/80000022/where-is-the-respective-file-in-the-doxygen-repository-for-configuration-in-the"
+  },
+  {
+    "title": "Query doesn&#39;t recognize a table name",
+    "score": -2,
+    "views": 82,
+    "answers": 2,
+    "tags": [
+      "sql",
+      "google-bigquery"
+    ],
+    "link": "https://stackoverflow.com/questions/80000000/query-doesnt-recognize-a-table-name"
+  },
+  {
+    "title": "How can an MCP client commit to GitHub without a long-lived PAT?",
+    "score": 0,
+    "views": 26,
+    "answers": 0,
+    "tags": [
+      "github",
+      "oauth",
+      "azure-static-web-app",
+      "model-context-protocol",
+      "github-app"
+    ],
+    "link": "https://stackoverflow.com/questions/80000028/how-can-an-mcp-client-commit-to-github-without-a-long-lived-pat"
+  },
+  {
+    "title": "VS reports MAUI app deployment errors in Debug mode",
+    "score": 0,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "maui"
+    ],
+    "link": "https://stackoverflow.com/questions/80000025/vs-reports-maui-app-deployment-errors-in-debug-mode"
+  },
+  {
+    "title": "Learning Python OOP with classes. The 2 line procedural testframe appears, but the class iframe does not",
+    "score": -2,
+    "views": 70,
+    "answers": 1,
+    "tags": [
+      "python",
+      "oop",
+      "tkinter"
+    ],
+    "link": "https://stackoverflow.com/questions/79999993/learning-python-oop-with-classes-the-2-line-procedural-testframe-appears-but-t"
+  },
+  {
+    "title": "Figuring out which SBT subproject logged or output a particular statement to the console",
+    "score": 0,
+    "views": 16,
+    "answers": 0,
+    "tags": [
+      "sbt"
+    ],
+    "link": "https://stackoverflow.com/questions/80000021/figuring-out-which-sbt-subproject-logged-or-output-a-particular-statement-to-the"
+  },
+  {
+    "title": "Generate a custom integer sequence for type parameter offsets",
+    "score": 2,
+    "views": 79,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "offset",
+      "constexpr",
+      "type-traits"
+    ],
+    "link": "https://stackoverflow.com/questions/79999949/generate-a-custom-integer-sequence-for-type-parameter-offsets"
+  },
+  {
+    "title": "How can I get user fields to show up in the Modern UI for AP Preferences?",
+    "score": -2,
+    "views": 51,
+    "answers": 0,
+    "tags": [
+      "acumatica",
+      "acumatica-kb"
+    ],
+    "link": "https://stackoverflow.com/questions/80000001/how-can-i-get-user-fields-to-show-up-in-the-modern-ui-for-ap-preferences"
+  },
+  {
+    "title": "Setting multiple environment variables that already exist inside another variable",
+    "score": -1,
+    "views": 80,
+    "answers": 2,
+    "tags": [
+      "json",
+      "bash",
+      "environment-variables",
+      "jq"
+    ],
+    "link": "https://stackoverflow.com/questions/79999963/setting-multiple-environment-variables-that-already-exist-inside-another-variabl"
+  },
+  {
+    "title": "Create a ListModel programatically",
+    "score": -1,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "qml",
+      "qtquick2",
+      "quickshell"
+    ],
+    "link": "https://stackoverflow.com/questions/79999994/create-a-listmodel-programatically"
+  },
+  {
+    "title": "Windows IPv6 flow label breaks TLS to Azure (dev.azure.com, portal.azure.com, and any other load balancers that hash on flow label)",
+    "score": -2,
+    "views": 43,
+    "answers": 1,
+    "tags": [
+      "windows",
+      "ipv6",
+      "netsh"
+    ],
+    "link": "https://stackoverflow.com/questions/79999996/windows-ipv6-flow-label-breaks-tls-to-azure-dev-azure-com-portal-azure-com-an"
+  },
+  {
+    "title": "Google Maps Distance Matrix API returning &#39;ZERO_RESULTS&#39; for valid local addresses in JavaScript",
+    "score": -2,
+    "views": 71,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "google-maps",
+      "google-maps-api-3",
+      "geolocation"
+    ],
+    "link": "https://stackoverflow.com/questions/79999987/google-maps-distance-matrix-api-returning-zero-results-for-valid-local-address"
+  },
+  {
+    "title": "Every time i type flutter doctor to cmd i get this",
+    "score": -4,
+    "views": 53,
+    "answers": 0,
+    "tags": [
+      "flutter",
+      "flutter-doctor",
+      "flutter-downloader"
+    ],
+    "link": "https://stackoverflow.com/questions/79999983/every-time-i-type-flutter-doctor-to-cmd-i-get-this"
+  },
+  {
+    "title": "Firestore rules: 6800 Errors vs 11 Denies in Rules metrics on a named (non-default) database, web SDK only",
+    "score": 0,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "firebase",
+      "google-cloud-firestore",
+      "firebase-security"
+    ],
+    "link": "https://stackoverflow.com/questions/79999990/firestore-rules-6800-errors-vs-11-denies-in-rules-metrics-on-a-named-non-defau"
+  },
+  {
+    "title": "how to change window color using vala gtk4",
+    "score": -5,
+    "views": 53,
+    "answers": 0,
+    "tags": [
+      "css",
+      "vala",
+      "gtk4"
+    ],
+    "link": "https://stackoverflow.com/questions/79999985/how-to-change-window-color-using-vala-gtk4"
+  },
+  {
+    "title": "How can I extract and split PDF content into logical paragraphs when some pages contain text and others contain images?",
+    "score": -1,
+    "views": 68,
+    "answers": 0,
+    "tags": [
+      "python",
+      "ocr"
+    ],
+    "link": "https://stackoverflow.com/questions/79999971/how-can-i-extract-and-split-pdf-content-into-logical-paragraphs-when-some-pages"
+  }
+]
