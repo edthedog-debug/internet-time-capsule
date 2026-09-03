@@ -1,0 +1,245 @@
+[
+  {
+    "title": "I understand the concept of Insertion Sort, but I can&#39;t understand how to implement it in Java",
+    "score": 0,
+    "views": 39,
+    "answers": 0,
+    "tags": [
+      "java",
+      "insertion-sort"
+    ],
+    "link": "https://stackoverflow.com/questions/80000353/i-understand-the-concept-of-insertion-sort-but-i-cant-understand-how-to-implem"
+  },
+  {
+    "title": "Is repository size really a Git problem, or a history-design problem?",
+    "score": -1,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "advice"
+    ],
+    "link": "https://stackoverflow.com/questions/80000351/is-repository-size-really-a-git-problem-or-a-history-design-problem"
+  },
+  {
+    "title": "In the Python Socket Module, I am trying to send HTTP status codes to my client socket, but none work properly",
+    "score": 0,
+    "views": 40,
+    "answers": 1,
+    "tags": [
+      "python",
+      "sockets"
+    ],
+    "link": "https://stackoverflow.com/questions/80000338/in-the-python-socket-module-i-am-trying-to-send-http-status-codes-to-my-client"
+  },
+  {
+    "title": "Sites.FullControl.All behavior for driveItem delta link",
+    "score": 1,
+    "views": 22,
+    "answers": 1,
+    "tags": [
+      "sharepoint",
+      "microsoft-graph-api",
+      "azure-web-app-service",
+      "office365",
+      "sharepoint-online"
+    ],
+    "link": "https://stackoverflow.com/questions/80000347/sites-fullcontrol-all-behavior-for-driveitem-delta-link"
+  },
+  {
+    "title": "How to call a Python script from Octave using system()",
+    "score": -1,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "python",
+      "octave"
+    ],
+    "link": "https://stackoverflow.com/questions/80000342/how-to-call-a-python-script-from-octave-using-system"
+  },
+  {
+    "title": "How to write GPU code using only g++ or clang++",
+    "score": 0,
+    "views": 75,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "c++",
+      "gpu"
+    ],
+    "link": "https://stackoverflow.com/questions/80000321/how-to-write-gpu-code-using-only-g-or-clang"
+  },
+  {
+    "title": "How Best to Dynamically Link Available Files during Compile Time",
+    "score": 2,
+    "views": 72,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "c",
+      "compilation",
+      "dynamic-linking"
+    ],
+    "link": "https://stackoverflow.com/questions/80000307/how-best-to-dynamically-link-available-files-during-compile-time"
+  },
+  {
+    "title": "Do inline private class functions need to be placed in the header file? just like public class functions",
+    "score": 4,
+    "views": 101,
+    "answers": 2,
+    "tags": [
+      "c++",
+      "inline",
+      "private",
+      "inline-functions"
+    ],
+    "link": "https://stackoverflow.com/questions/80000280/do-inline-private-class-functions-need-to-be-placed-in-the-header-file-just-lik"
+  },
+  {
+    "title": "How do I remove the variables in an element of an array across 2 classes?",
+    "score": -3,
+    "views": 81,
+    "answers": 2,
+    "tags": [
+      "java",
+      "arrays"
+    ],
+    "link": "https://stackoverflow.com/questions/80000322/how-do-i-remove-the-variables-in-an-element-of-an-array-across-2-classes"
+  },
+  {
+    "title": "Getting &quot;Looks like we&#39;re unable to access the semantic model&quot; after updating model and repointing report",
+    "score": -2,
+    "views": 69,
+    "answers": 0,
+    "tags": [
+      "powerbi",
+      "powerbi-desktop"
+    ],
+    "link": "https://stackoverflow.com/questions/80000312/getting-looks-like-were-unable-to-access-the-semantic-model-after-updating-mo"
+  },
+  {
+    "title": "How to make css fading effect in svelte 5",
+    "score": 0,
+    "views": 39,
+    "answers": 1,
+    "tags": [
+      "css",
+      "svelte"
+    ],
+    "link": "https://stackoverflow.com/questions/80000319/how-to-make-css-fading-effect-in-svelte-5"
+  },
+  {
+    "title": "Python asyncio raw TCP server on Fly.io drops external client connections while internal health checks pass",
+    "score": -1,
+    "views": 40,
+    "answers": 0,
+    "tags": [
+      "python",
+      "network-programming",
+      "tcp",
+      "python-asyncio"
+    ],
+    "link": "https://stackoverflow.com/questions/80000328/python-asyncio-raw-tcp-server-on-fly-io-drops-external-client-connections-while"
+  },
+  {
+    "title": "How can multiple offline clients decrement a bounded counter without oversubscribing after synchronization?",
+    "score": 3,
+    "views": 51,
+    "answers": 2,
+    "tags": [
+      "laravel",
+      "postgresql",
+      "concurrency",
+      "offline",
+      "distributed-system"
+    ],
+    "link": "https://stackoverflow.com/questions/80000228/how-can-multiple-offline-clients-decrement-a-bounded-counter-without-oversubscri"
+  },
+  {
+    "title": "Heavy calculations in SwiftUI architecture",
+    "score": 1,
+    "views": 38,
+    "answers": 1,
+    "tags": [
+      "ios",
+      "swift",
+      "swiftui",
+      "mvvm",
+      "architecture"
+    ],
+    "link": "https://stackoverflow.com/questions/80000293/heavy-calculations-in-swiftui-architecture"
+  },
+  {
+    "title": "How do I design a multi-purpose event handler without making it generic?",
+    "score": 2,
+    "views": 92,
+    "answers": 0,
+    "tags": [
+      "python",
+      "python-typing",
+      "pyright"
+    ],
+    "link": "https://stackoverflow.com/questions/80000298/how-do-i-design-a-multi-purpose-event-handler-without-making-it-generic"
+  },
+  {
+    "title": "Pygames and coins",
+    "score": -7,
+    "views": 70,
+    "answers": 0,
+    "tags": [
+      "python",
+      "pygame",
+      "game-development",
+      "pygame-surface",
+      "flappy-bird-clone"
+    ],
+    "link": "https://stackoverflow.com/questions/80000310/pygames-and-coins"
+  },
+  {
+    "title": "Canonical way to select data in SQLAlchemy",
+    "score": 2,
+    "views": 78,
+    "answers": 3,
+    "tags": [
+      "best-practices",
+      "python",
+      "sqlalchemy"
+    ],
+    "link": "https://stackoverflow.com/questions/80000257/canonical-way-to-select-data-in-sqlalchemy"
+  },
+  {
+    "title": "How can I set tab width in Visual Studio 2022 for only specific files or editor windows",
+    "score": 0,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "visual-studio"
+    ],
+    "link": "https://stackoverflow.com/questions/80000320/how-can-i-set-tab-width-in-visual-studio-2022-for-only-specific-files-or-editor"
+  },
+  {
+    "title": "How to make a Toplevel window over a Tk window in Python Tkinter?",
+    "score": 1,
+    "views": 50,
+    "answers": 2,
+    "tags": [
+      "python",
+      "tkinter",
+      "toplevel"
+    ],
+    "link": "https://stackoverflow.com/questions/80000254/how-to-make-a-toplevel-window-over-a-tk-window-in-python-tkinter"
+  },
+  {
+    "title": "What does constexpr atomic&lt;T&gt;::wait() do at compile time?",
+    "score": 15,
+    "views": 276,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "language-lawyer",
+      "atomic",
+      "deadlock",
+      "c++26"
+    ],
+    "link": "https://stackoverflow.com/questions/80000170/what-does-constexpr-atomictwait-do-at-compile-time"
+  }
+]
