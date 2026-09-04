@@ -1,0 +1,250 @@
+[
+  {
+    "title": "Re: More information about technology",
+    "score": 0,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "best-practices"
+    ],
+    "link": "https://stackoverflow.com/questions/80000663/re-more-information-about-technology"
+  },
+  {
+    "title": "Fix user interface (UI)",
+    "score": 0,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "html",
+      "css",
+      "github",
+      "interface"
+    ],
+    "link": "https://stackoverflow.com/questions/80000659/fix-user-interface-ui"
+  },
+  {
+    "title": "PySide6 Custom widget with Enum property",
+    "score": 0,
+    "views": 18,
+    "answers": 0,
+    "tags": [
+      "python",
+      "qt-designer",
+      "pyside6"
+    ],
+    "link": "https://stackoverflow.com/questions/80000657/pyside6-custom-widget-with-enum-property"
+  },
+  {
+    "title": "Do I need to use Sheet..ListObjects in VBA in Excel",
+    "score": 0,
+    "views": 38,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "excel",
+      "vba",
+      "range"
+    ],
+    "link": "https://stackoverflow.com/questions/80000652/do-i-need-to-use-sheet-listobjects-in-vba-in-excel"
+  },
+  {
+    "title": "pipewire-jack seems to be causing a memory leak",
+    "score": -2,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "c",
+      "memory-leaks",
+      "jack",
+      "pipewire"
+    ],
+    "link": "https://stackoverflow.com/questions/80000650/pipewire-jack-seems-to-be-causing-a-memory-leak"
+  },
+  {
+    "title": "${fileDirname}//**.cpp is not reconized : Linking error: VS Code c++ will not compile all project files",
+    "score": 3,
+    "views": 86,
+    "answers": 2,
+    "tags": [
+      "c++",
+      "windows",
+      "vs-code",
+      "code-splitting"
+    ],
+    "link": "https://stackoverflow.com/questions/80000604/filedirname-cpp-is-not-reconized-linking-error-vs-code-c-will-not-co"
+  },
+  {
+    "title": "Why can moving an await change whether a Python object remains reachable, even when the object has no explicit strong reference?",
+    "score": 3,
+    "views": 66,
+    "answers": 1,
+    "tags": [
+      "python",
+      "garbage-collection",
+      "python-asyncio",
+      "weak-references"
+    ],
+    "link": "https://stackoverflow.com/questions/80000634/why-can-moving-an-await-change-whether-a-python-object-remains-reachable-even-w"
+  },
+  {
+    "title": "jqueryvalidation.org cert errors",
+    "score": -1,
+    "views": 63,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "jquery-validate"
+    ],
+    "link": "https://stackoverflow.com/questions/80000639/jqueryvalidation-org-cert-errors"
+  },
+  {
+    "title": "How to save and restore a multi-window layout in VS Code when switching projects?",
+    "score": 0,
+    "views": 38,
+    "answers": 1,
+    "tags": [
+      "vs-code",
+      "layout",
+      "window",
+      "vscode-workspace"
+    ],
+    "link": "https://stackoverflow.com/questions/80000568/how-to-save-and-restore-a-multi-window-layout-in-vs-code-when-switching-projects"
+  },
+  {
+    "title": "How should a React app handle API data when the user navigates away before the request finishes?",
+    "score": 1,
+    "views": 64,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "javascript",
+      "reactjs"
+    ],
+    "link": "https://stackoverflow.com/questions/80000605/how-should-a-react-app-handle-api-data-when-the-user-navigates-away-before-the-r"
+  },
+  {
+    "title": "Exception when adding a parameter to a query in a SqlCommand (C#, .NET 6.0)",
+    "score": -2,
+    "views": 77,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "parameters",
+      ".net-6.0",
+      "sqlclient"
+    ],
+    "link": "https://stackoverflow.com/questions/80000616/exception-when-adding-a-parameter-to-a-query-in-a-sqlcommand-c-net-6-0"
+  },
+  {
+    "title": "Cloud Run default URL returns Google 404 before request reaches container",
+    "score": 0,
+    "views": 29,
+    "answers": 0,
+    "tags": [
+      "google-cloud-run"
+    ],
+    "link": "https://stackoverflow.com/questions/80000633/cloud-run-default-url-returns-google-404-before-request-reaches-container"
+  },
+  {
+    "title": "Python Library/Module Won&#39;t Import While Others Do",
+    "score": -2,
+    "views": 55,
+    "answers": 0,
+    "tags": [
+      "python",
+      "macos"
+    ],
+    "link": "https://stackoverflow.com/questions/80000620/python-library-module-wont-import-while-others-do"
+  },
+  {
+    "title": "Expo Go app crashes on startup on S23 (SDK 54.0.0)&quot;",
+    "score": -1,
+    "views": 37,
+    "answers": 0,
+    "tags": [
+      "android",
+      "react-native",
+      "mobile",
+      "expo",
+      "expo-go"
+    ],
+    "link": "https://stackoverflow.com/questions/80000615/expo-go-app-crashes-on-startup-on-s23-sdk-54-0-0"
+  },
+  {
+    "title": "Where to place a validation rule that depends on data from another table in a DDD Spring Boot app?",
+    "score": -1,
+    "views": 60,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "java",
+      "spring-boot",
+      "validation",
+      "domain-driven-design"
+    ],
+    "link": "https://stackoverflow.com/questions/80000543/where-to-place-a-validation-rule-that-depends-on-data-from-another-table-in-a-dd"
+  },
+  {
+    "title": "How to safely remove older emergency commits from a branch with heavy rewrites?",
+    "score": -1,
+    "views": 86,
+    "answers": 2,
+    "tags": [
+      "git",
+      "github",
+      "branch"
+    ],
+    "link": "https://stackoverflow.com/questions/80000571/how-to-safely-remove-older-emergency-commits-from-a-branch-with-heavy-rewrites"
+  },
+  {
+    "title": "Duckdb database connection",
+    "score": -7,
+    "views": 52,
+    "answers": 0,
+    "tags": [
+      "database",
+      "apache-superset",
+      "duckdb"
+    ],
+    "link": "https://stackoverflow.com/questions/80000611/duckdb-database-connection"
+  },
+  {
+    "title": "How to handle class imbalance and feature selection with a small dataset and no column names?",
+    "score": -3,
+    "views": 35,
+    "answers": 0,
+    "tags": [
+      "machine-learning",
+      "scikit-learn",
+      "feature-selection",
+      "imbalanced-data"
+    ],
+    "link": "https://stackoverflow.com/questions/80000600/how-to-handle-class-imbalance-and-feature-selection-with-a-small-dataset-and-no"
+  },
+  {
+    "title": "Pages disappear on wiki using MediaWiki, even sometime after table migration",
+    "score": 0,
+    "views": 35,
+    "answers": 0,
+    "tags": [
+      "php",
+      "mediawiki",
+      "mediawiki-installation"
+    ],
+    "link": "https://stackoverflow.com/questions/80000599/pages-disappear-on-wiki-using-mediawiki-even-sometime-after-table-migration"
+  },
+  {
+    "title": "Should application logs be categorized by code layer or by domain event name?",
+    "score": 0,
+    "views": 35,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "php",
+      "laravel",
+      "laravel-8"
+    ],
+    "link": "https://stackoverflow.com/questions/80000598/should-application-logs-be-categorized-by-code-layer-or-by-domain-event-name"
+  }
+]
