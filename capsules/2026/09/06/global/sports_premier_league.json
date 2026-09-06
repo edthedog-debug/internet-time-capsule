@@ -1,0 +1,58 @@
+[
+  {
+    "home": "Newcastle United",
+    "away": "AFC Bournemouth",
+    "home_score": "2",
+    "away_score": "2",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-09-05T11:30Z"
+  },
+  {
+    "home": "Brentford",
+    "away": "Sunderland",
+    "home_score": "1",
+    "away_score": "1",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-09-05T14:00Z"
+  },
+  {
+    "home": "Brighton & Hove Albion",
+    "away": "Leeds United",
+    "home_score": "1",
+    "away_score": "1",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-09-05T14:00Z"
+  },
+  {
+    "home": "Fulham",
+    "away": "Crystal Palace",
+    "home_score": "2",
+    "away_score": "3",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-09-05T14:00Z"
+  },
+  {
+    "home": "Manchester City",
+    "away": "Coventry City",
+    "home_score": "1",
+    "away_score": "0",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-09-05T14:00Z"
+  },
+  {
+    "home": "Nottingham Forest",
+    "away": "Tottenham Hotspur",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-09-05T14:00Z"
+  },
+  {
+    "home": "Hull City",
+    "away": "Aston Villa",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-09-05T16:30Z"
+  }
+]

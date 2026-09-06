@@ -1,0 +1,249 @@
+[
+  {
+    "title": "Can the system call wait() ever return with a non-terminated child?",
+    "score": 2,
+    "views": 57,
+    "answers": 1,
+    "tags": [
+      "c",
+      "linux",
+      "process",
+      "wait"
+    ],
+    "link": "https://stackoverflow.com/questions/80001062/can-the-system-call-wait-ever-return-with-a-non-terminated-child"
+  },
+  {
+    "title": "Queue size in C#?",
+    "score": -8,
+    "views": 43,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "queue",
+      "size"
+    ],
+    "link": "https://stackoverflow.com/questions/80001063/queue-size-in-c"
+  },
+  {
+    "title": "Does it bother you that print commands don&#39;t have any graphing?",
+    "score": -5,
+    "views": 55,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "vs-code",
+      "debugging",
+      "testing",
+      "computer-science"
+    ],
+    "link": "https://stackoverflow.com/questions/80001070/does-it-bother-you-that-print-commands-dont-have-any-graphing"
+  },
+  {
+    "title": "How do I disable metrics with the Android CLI?",
+    "score": 1,
+    "views": 33,
+    "answers": 1,
+    "tags": [
+      "android",
+      "command-line",
+      "android-sdk-manager",
+      "data-collection"
+    ],
+    "link": "https://stackoverflow.com/questions/80001065/how-do-i-disable-metrics-with-the-android-cli"
+  },
+  {
+    "title": "Is it possible to hold an appendable list of comma separated values usable by preprocessor?",
+    "score": -1,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "c",
+      "c-preprocessor"
+    ],
+    "link": "https://stackoverflow.com/questions/80001061/is-it-possible-to-hold-an-appendable-list-of-comma-separated-values-usable-by-pr"
+  },
+  {
+    "title": "Comma Operator in for-loop in C",
+    "score": 1,
+    "views": 110,
+    "answers": 3,
+    "tags": [
+      "c",
+      "operators"
+    ],
+    "link": "https://stackoverflow.com/questions/80001029/comma-operator-in-for-loop-in-c"
+  },
+  {
+    "title": "Edit brush configurations in c win32",
+    "score": -2,
+    "views": 26,
+    "answers": 0,
+    "tags": [
+      "c",
+      "winapi",
+      "brush"
+    ],
+    "link": "https://stackoverflow.com/questions/80001067/edit-brush-configurations-in-c-win32"
+  },
+  {
+    "title": "Oauth invalid scope error trying to connect free trial account to citibank",
+    "score": -3,
+    "views": 33,
+    "answers": 0,
+    "tags": [
+      "oauth",
+      "free",
+      "trial"
+    ],
+    "link": "https://stackoverflow.com/questions/80001056/oauth-invalid-scope-error-trying-to-connect-free-trial-account-to-citibank"
+  },
+  {
+    "title": "Python discount function returns negative value and passes all linters, mypy, bandit and unit tests",
+    "score": -5,
+    "views": 86,
+    "answers": 0,
+    "tags": [
+      "python",
+      "pytest",
+      "static-analysis",
+      "hypothesis-test"
+    ],
+    "link": "https://stackoverflow.com/questions/80001048/python-discount-function-returns-negative-value-and-passes-all-linters-mypy-ba"
+  },
+  {
+    "title": "Tool listed as dependency, how to run",
+    "score": 1,
+    "views": 50,
+    "answers": 1,
+    "tags": [
+      "makefile",
+      "gnu-make",
+      "automake"
+    ],
+    "link": "https://stackoverflow.com/questions/80001014/tool-listed-as-dependency-how-to-run"
+  },
+  {
+    "title": "WooCommerce 11.1.0 Variation Primary Image Does NOT Show",
+    "score": -2,
+    "views": 17,
+    "answers": 0,
+    "tags": [
+      "wordpress",
+      "woocommerce"
+    ],
+    "link": "https://stackoverflow.com/questions/80001060/woocommerce-11-1-0-variation-primary-image-does-not-show"
+  },
+  {
+    "title": "PhilSMS API sends a voice call instead of plain SMS despite setting `type` to `plain`",
+    "score": -1,
+    "views": 41,
+    "answers": 0,
+    "tags": [
+      "php",
+      "laravel",
+      "rest",
+      "sms",
+      "sms-gateway"
+    ],
+    "link": "https://stackoverflow.com/questions/80001043/philsms-api-sends-a-voice-call-instead-of-plain-sms-despite-setting-type-to-p"
+  },
+  {
+    "title": "Can I use Rust for TCP networking in an MFC application?",
+    "score": -6,
+    "views": 96,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "rust",
+      "mfc",
+      "ffi"
+    ],
+    "link": "https://stackoverflow.com/questions/80001032/can-i-use-rust-for-tcp-networking-in-an-mfc-application"
+  },
+  {
+    "title": "Error running under AppPoolIdentity: DllNotFoundException: Unable to load DLL &#39;db2app64.dll&#39; or one of its dependencies",
+    "score": 0,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "asp.net",
+      "db2"
+    ],
+    "link": "https://stackoverflow.com/questions/80001037/error-running-under-apppoolidentity-dllnotfoundexception-unable-to-load-dll-d"
+  },
+  {
+    "title": "How to improve Github Profile",
+    "score": -5,
+    "views": 78,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "github"
+    ],
+    "link": "https://stackoverflow.com/questions/80001030/how-to-improve-github-profile"
+  },
+  {
+    "title": "Svelte IP whitelisting",
+    "score": -3,
+    "views": 47,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "docker",
+      "nginx",
+      "sveltekit",
+      "access-control"
+    ],
+    "link": "https://stackoverflow.com/questions/80001023/svelte-ip-whitelisting"
+  },
+  {
+    "title": "Gradle build fails with &quot;Timeout waiting to lock journal cache&quot; in Flutter project",
+    "score": 2,
+    "views": 38,
+    "answers": 0,
+    "tags": [
+      "java",
+      "android",
+      "flutter",
+      "gradle"
+    ],
+    "link": "https://stackoverflow.com/questions/80001024/gradle-build-fails-with-timeout-waiting-to-lock-journal-cache-in-flutter-proje"
+  },
+  {
+    "title": "Android license for flutter mobile development",
+    "score": -6,
+    "views": 64,
+    "answers": 0,
+    "tags": [
+      "flutter"
+    ],
+    "link": "https://stackoverflow.com/questions/80001017/android-license-for-flutter-mobile-development"
+  },
+  {
+    "title": "When installing requests with UV, VS code cannot find requests module, but the script runs successfully from the command line",
+    "score": -2,
+    "views": 61,
+    "answers": 1,
+    "tags": [
+      "python",
+      "pip",
+      "python-requests",
+      "uv"
+    ],
+    "link": "https://stackoverflow.com/questions/80001008/when-installing-requests-with-uv-vs-code-cannot-find-requests-module-but-the-s"
+  },
+  {
+    "title": "result type must be constructible from input type",
+    "score": -6,
+    "views": 102,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "c++11",
+      "containers",
+      "smart-pointers"
+    ],
+    "link": "https://stackoverflow.com/questions/80000931/result-type-must-be-constructible-from-input-type"
+  }
+]
