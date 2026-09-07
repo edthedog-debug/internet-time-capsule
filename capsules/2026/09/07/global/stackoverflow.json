@@ -1,0 +1,249 @@
+[
+  {
+    "title": "Keeping bronze layer as strings",
+    "score": -2,
+    "views": 15,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "data-layers"
+    ],
+    "link": "https://stackoverflow.com/questions/80001284/keeping-bronze-layer-as-strings"
+  },
+  {
+    "title": "How do I change the Action attributed to the Tab key, when in a JTable?",
+    "score": 0,
+    "views": 13,
+    "answers": 1,
+    "tags": [
+      "java",
+      "swing",
+      "jtable",
+      "key-bindings",
+      "keylistener"
+    ],
+    "link": "https://stackoverflow.com/questions/80001290/how-do-i-change-the-action-attributed-to-the-tab-key-when-in-a-jtable"
+  },
+  {
+    "title": "continue.dev + ollama missing agent tools",
+    "score": -1,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "vscode-extensions",
+      "ollama"
+    ],
+    "link": "https://stackoverflow.com/questions/80001282/continue-dev-ollama-missing-agent-tools"
+  },
+  {
+    "title": "What technical limitations prevent using just the address-of operator (&amp;) without pointer variables in C?",
+    "score": 1,
+    "views": 72,
+    "answers": 2,
+    "tags": [
+      "advice",
+      "c",
+      "pointers",
+      "compiler-construction",
+      "memory-address"
+    ],
+    "link": "https://stackoverflow.com/questions/80001263/what-technical-limitations-prevent-using-just-the-address-of-operator-withou"
+  },
+  {
+    "title": "iPython Running Old Version of Script",
+    "score": -3,
+    "views": 42,
+    "answers": 0,
+    "tags": [
+      "python",
+      "ipython",
+      "psychopy"
+    ],
+    "link": "https://stackoverflow.com/questions/80001264/ipython-running-old-version-of-script"
+  },
+  {
+    "title": "Splitting hand-drawn elements from a photographed paper background",
+    "score": -3,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "opencv",
+      "image-processing",
+      "computer-vision",
+      "image-segmentation"
+    ],
+    "link": "https://stackoverflow.com/questions/80001268/splitting-hand-drawn-elements-from-a-photographed-paper-background"
+  },
+  {
+    "title": "What are these weird relations on multiple comlumns in MS Access database?",
+    "score": -2,
+    "views": 44,
+    "answers": 1,
+    "tags": [
+      "ms-access",
+      "foreign-keys",
+      "composite-key"
+    ],
+    "link": "https://stackoverflow.com/questions/80001255/what-are-these-weird-relations-on-multiple-comlumns-in-ms-access-database"
+  },
+  {
+    "title": "Accessing Java 25 cacerts in Azure App Service",
+    "score": 0,
+    "views": 20,
+    "answers": 0,
+    "tags": [
+      "java",
+      "spring",
+      "azure-web-app-service",
+      "cacerts"
+    ],
+    "link": "https://stackoverflow.com/questions/80001273/accessing-java-25-cacerts-in-azure-app-service"
+  },
+  {
+    "title": "new line doesn&#39;t go to the next line",
+    "score": 0,
+    "views": 91,
+    "answers": 3,
+    "tags": [
+      "c++",
+      "terminal"
+    ],
+    "link": "https://stackoverflow.com/questions/80001208/new-line-doesnt-go-to-the-next-line"
+  },
+  {
+    "title": "Change os for c++ programing",
+    "score": -10,
+    "views": 82,
+    "answers": 1,
+    "tags": [
+      "tooling-recommendation",
+      "c++",
+      "clion"
+    ],
+    "link": "https://stackoverflow.com/questions/80001259/change-os-for-c-programing"
+  },
+  {
+    "title": "Avoid repeating base initializer list when only a few values differ",
+    "score": 0,
+    "views": 46,
+    "answers": 2,
+    "tags": [
+      "c++",
+      "class",
+      "inheritance",
+      "constructor",
+      "initialization"
+    ],
+    "link": "https://stackoverflow.com/questions/80001235/avoid-repeating-base-initializer-list-when-only-a-few-values-differ"
+  },
+  {
+    "title": "How to access Microsoft Azure student pack",
+    "score": -4,
+    "views": 26,
+    "answers": 0,
+    "tags": [
+      "azure",
+      "github"
+    ],
+    "link": "https://stackoverflow.com/questions/80001252/how-to-access-microsoft-azure-student-pack"
+  },
+  {
+    "title": "Update Database",
+    "score": -2,
+    "views": 66,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "database-migration",
+      "entity-framework-migrations"
+    ],
+    "link": "https://stackoverflow.com/questions/80001238/update-database"
+  },
+  {
+    "title": "Gemini 3.5 flash preview voice lagging sometimes it response fast but it takes minutes which is not bearable in real call",
+    "score": 0,
+    "views": 50,
+    "answers": 0,
+    "tags": [
+      "python",
+      "google-gemini"
+    ],
+    "link": "https://stackoverflow.com/questions/80001192/gemini-3-5-flash-preview-voice-lagging-sometimes-it-response-fast-but-it-takes-m"
+  },
+  {
+    "title": "Why does clEnqueueNativeKernel need a bunch of cl_mem&#39;s if it already gets them via function arguments?",
+    "score": 0,
+    "views": 18,
+    "answers": 0,
+    "tags": [
+      "language-lawyer",
+      "opencl",
+      "redundancy",
+      "function-invocation"
+    ],
+    "link": "https://stackoverflow.com/questions/80001256/why-does-clenqueuenativekernel-need-a-bunch-of-cl-mems-if-it-already-gets-them"
+  },
+  {
+    "title": "XAMPP 8.2.4 install fails with &quot;Error copying file&quot; on Ubuntu (new release, PHP 8.5 native) — missing .so symlinks and config files",
+    "score": 0,
+    "views": 39,
+    "answers": 1,
+    "tags": [
+      "linux",
+      "apache",
+      "ubuntu",
+      "xampp"
+    ],
+    "link": "https://stackoverflow.com/questions/80001225/xampp-8-2-4-install-fails-with-error-copying-file-on-ubuntu-new-release-php"
+  },
+  {
+    "title": "Problems with getting variables via lifespan context manager in Fastapi",
+    "score": -1,
+    "views": 50,
+    "answers": 1,
+    "tags": [
+      "python",
+      "sqlalchemy",
+      "fastapi"
+    ],
+    "link": "https://stackoverflow.com/questions/80001221/problems-with-getting-variables-via-lifespan-context-manager-in-fastapi"
+  },
+  {
+    "title": "Create a tuning task from C# through managed data access client",
+    "score": 0,
+    "views": 35,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "stored-procedures",
+      "oracle-manageddataaccess"
+    ],
+    "link": "https://stackoverflow.com/questions/80001232/create-a-tuning-task-from-c-through-managed-data-access-client"
+  },
+  {
+    "title": "Why is my message not comitted to the backout queue?",
+    "score": 0,
+    "views": 35,
+    "answers": 2,
+    "tags": [
+      "spring",
+      "ibm-mq",
+      "spring-jms"
+    ],
+    "link": "https://stackoverflow.com/questions/80001229/why-is-my-message-not-comitted-to-the-backout-queue"
+  },
+  {
+    "title": "AF_PACKET + PACKET_FANOUT_LB: why does the observed round-robin sequence break after some time?",
+    "score": 2,
+    "views": 45,
+    "answers": 1,
+    "tags": [
+      "c",
+      "linux",
+      "sockets",
+      "network-programming",
+      "packet-capture"
+    ],
+    "link": "https://stackoverflow.com/questions/80001211/af-packet-packet-fanout-lb-why-does-the-observed-round-robin-sequence-break-a"
+  }
+]
