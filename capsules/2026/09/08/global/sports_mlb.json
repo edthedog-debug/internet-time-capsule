@@ -1,0 +1,90 @@
+[
+  {
+    "home": "Philadelphia Phillies",
+    "away": "Atlanta Braves",
+    "home_score": "1",
+    "away_score": "0",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-07T17:05Z"
+  },
+  {
+    "home": "Miami Marlins",
+    "away": "New York Mets",
+    "home_score": "4",
+    "away_score": "9",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-07T17:10Z"
+  },
+  {
+    "home": "Boston Red Sox",
+    "away": "Los Angeles Angels",
+    "home_score": "5",
+    "away_score": "2",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-07T17:35Z"
+  },
+  {
+    "home": "Baltimore Orioles",
+    "away": "Cleveland Guardians",
+    "home_score": "6",
+    "away_score": "4",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-07T17:35Z"
+  },
+  {
+    "home": "Kansas City Royals",
+    "away": "Arizona Diamondbacks",
+    "home_score": "4",
+    "away_score": "5",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-07T18:10Z"
+  },
+  {
+    "home": "Milwaukee Brewers",
+    "away": "Chicago Cubs",
+    "home_score": "4",
+    "away_score": "3",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-07T18:10Z"
+  },
+  {
+    "home": "Detroit Tigers",
+    "away": "Minnesota Twins",
+    "home_score": "5",
+    "away_score": "4",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-07T19:10Z"
+  },
+  {
+    "home": "San Diego Padres",
+    "away": "Washington Nationals",
+    "home_score": "3",
+    "away_score": "2",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-07T21:10Z"
+  },
+  {
+    "home": "San Francisco Giants",
+    "away": "St. Louis Cardinals",
+    "home_score": "3",
+    "away_score": "3",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-09-08T00:10Z"
+  },
+  {
+    "home": "Los Angeles Dodgers",
+    "away": "Cincinnati Reds",
+    "home_score": "5",
+    "away_score": "2",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-09-08T01:10Z"
+  },
+  {
+    "home": "Athletics",
+    "away": "Toronto Blue Jays",
+    "home_score": "4",
+    "away_score": "1",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-09-08T02:05Z"
+  }
+]

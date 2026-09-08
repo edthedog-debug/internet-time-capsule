@@ -1,0 +1,242 @@
+[
+  {
+    "title": "Designing a Future Message System with Flutter and Firebase Firestore",
+    "score": -1,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation"
+    ],
+    "link": "https://stackoverflow.com/questions/80001523/designing-a-future-message-system-with-flutter-and-firebase-firestore"
+  },
+  {
+    "title": "Isolcores being run at min_freq and not respecting the cpupower config?",
+    "score": -1,
+    "views": 20,
+    "answers": 0,
+    "tags": [
+      "linux-kernel",
+      "driver",
+      "cpu",
+      "intel"
+    ],
+    "link": "https://stackoverflow.com/questions/80001522/isolcores-being-run-at-min-freq-and-not-respecting-the-cpupower-config"
+  },
+  {
+    "title": "QUIC protocoal - qvis is not loading qlog files generated from pcap2qlog",
+    "score": -2,
+    "views": 31,
+    "answers": 0,
+    "tags": [
+      "quic"
+    ],
+    "link": "https://stackoverflow.com/questions/80001516/quic-protocoal-qvis-is-not-loading-qlog-files-generated-from-pcap2qlog"
+  },
+  {
+    "title": "Recommended approach for configurable HTTP traffic logging in Spring WebFlux?",
+    "score": -2,
+    "views": 37,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "java",
+      "spring",
+      "logging",
+      "spring-webflux"
+    ],
+    "link": "https://stackoverflow.com/questions/80001514/recommended-approach-for-configurable-http-traffic-logging-in-spring-webflux"
+  },
+  {
+    "title": "When i build my dockerfile, I have a problem like this, It is called Docker problem",
+    "score": -5,
+    "views": 56,
+    "answers": 0,
+    "tags": [
+      "c#",
+      ".net",
+      "docker",
+      "asp.net-core",
+      "command-line-interface"
+    ],
+    "link": "https://stackoverflow.com/questions/80001500/when-i-build-my-dockerfile-i-have-a-problem-like-this-it-is-called-docker-prob"
+  },
+  {
+    "title": "Documentation of pandas DataFrame.replace with series as input",
+    "score": 0,
+    "views": 32,
+    "answers": 0,
+    "tags": [
+      "python",
+      "pandas",
+      "dataframe"
+    ],
+    "link": "https://stackoverflow.com/questions/80001493/documentation-of-pandas-dataframe-replace-with-series-as-input"
+  },
+  {
+    "title": "Accessing struct members via pointer is not constant expression?",
+    "score": 1,
+    "views": 137,
+    "answers": 2,
+    "tags": [
+      "c++",
+      "constexpr",
+      "c++26"
+    ],
+    "link": "https://stackoverflow.com/questions/80001443/accessing-struct-members-via-pointer-is-not-constant-expression"
+  },
+  {
+    "title": "Why does clang use fsub.4s for a single scalar subtraction? How can I prevent this?",
+    "score": 1,
+    "views": 70,
+    "answers": 0,
+    "tags": [
+      "c",
+      "arm",
+      "clang",
+      "simd",
+      "neon"
+    ],
+    "link": "https://stackoverflow.com/questions/80001502/why-does-clang-use-fsub-4s-for-a-single-scalar-subtraction-how-can-i-prevent-th"
+  },
+  {
+    "title": "How to achieve absolute positioning in Angular",
+    "score": -3,
+    "views": 68,
+    "answers": 1,
+    "tags": [
+      "html",
+      "css",
+      "angular"
+    ],
+    "link": "https://stackoverflow.com/questions/80001497/how-to-achieve-absolute-positioning-in-angular"
+  },
+  {
+    "title": "Can &lt;a&gt; and &lt;input&gt; cooperate without JS?",
+    "score": -1,
+    "views": 72,
+    "answers": 2,
+    "tags": [
+      "html"
+    ],
+    "link": "https://stackoverflow.com/questions/80001472/can-a-and-input-cooperate-without-js"
+  },
+  {
+    "title": "Is :customer_id really all I need to securely isolate client data in CustomerDashboard.io?",
+    "score": 1,
+    "views": 50,
+    "answers": 3,
+    "tags": [
+      "best-practices",
+      "sql",
+      "analytics",
+      "dashboard",
+      "saas"
+    ],
+    "link": "https://stackoverflow.com/questions/80001480/is-customer-id-really-all-i-need-to-securely-isolate-client-data-in-customerdas"
+  },
+  {
+    "title": "How to display the time of a stopwatch in GODOT 4.7",
+    "score": 0,
+    "views": 43,
+    "answers": 0,
+    "tags": [
+      "game-development",
+      "godot",
+      "godot4"
+    ],
+    "link": "https://stackoverflow.com/questions/80001501/how-to-display-the-time-of-a-stopwatch-in-godot-4-7"
+  },
+  {
+    "title": "How to make a cursorRight keybinding work in VS Code quick open?",
+    "score": 0,
+    "views": 35,
+    "answers": 0,
+    "tags": [
+      "vs-code",
+      "key-bindings",
+      "vscode-keybinding"
+    ],
+    "link": "https://stackoverflow.com/questions/80001489/how-to-make-a-cursorright-keybinding-work-in-vs-code-quick-open"
+  },
+  {
+    "title": "C17 vs C23: () function pointer error - Is this the correct fix?",
+    "score": 1,
+    "views": 115,
+    "answers": 1,
+    "tags": [
+      "c",
+      "c23",
+      "c17"
+    ],
+    "link": "https://stackoverflow.com/questions/80001459/c17-vs-c23-function-pointer-error-is-this-the-correct-fix"
+  },
+  {
+    "title": "What does “normal random sampling” mean in LLM text generation?",
+    "score": -3,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "random",
+      "sampling",
+      "large-language-model"
+    ],
+    "link": "https://stackoverflow.com/questions/80001483/what-does-normal-random-sampling-mean-in-llm-text-generation"
+  },
+  {
+    "title": "How do I make my compiler not auto-close in CodeBlocks?",
+    "score": -4,
+    "views": 74,
+    "answers": 0,
+    "tags": [
+      "codeblocks"
+    ],
+    "link": "https://stackoverflow.com/questions/80001455/how-do-i-make-my-compiler-not-auto-close-in-codeblocks"
+  },
+  {
+    "title": "Word VBA project loads very slowly",
+    "score": -4,
+    "views": 42,
+    "answers": 0,
+    "tags": [
+      "vba",
+      "performance",
+      "ms-word",
+      "load"
+    ],
+    "link": "https://stackoverflow.com/questions/80001490/word-vba-project-loads-very-slowly"
+  },
+  {
+    "title": "Type hint a default return type used unless more specific overload exists",
+    "score": 3,
+    "views": 95,
+    "answers": 1,
+    "tags": [
+      "python",
+      "python-typing"
+    ],
+    "link": "https://stackoverflow.com/questions/80001437/type-hint-a-default-return-type-used-unless-more-specific-overload-exists"
+  },
+  {
+    "title": "Is there a way to make scipy.optimize.minimize(method=&#39;trust-constr&#39;) accurate?",
+    "score": 1,
+    "views": 62,
+    "answers": 1,
+    "tags": [
+      "scipy",
+      "scipy-optimize",
+      "scipy-optimize-minimize"
+    ],
+    "link": "https://stackoverflow.com/questions/80001416/is-there-a-way-to-make-scipy-optimize-minimizemethod-trust-constr-accurate"
+  },
+  {
+    "title": "Google Cloud Console: &quot;Your app&#39;s configuration is incomplete&quot; warning on OAuth Audience page",
+    "score": -2,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "google-cloud-platform",
+      "oauth-2.0"
+    ],
+    "link": "https://stackoverflow.com/questions/80001491/google-cloud-console-your-apps-configuration-is-incomplete-warning-on-oauth"
+  }
+]
