@@ -1,0 +1,241 @@
+[
+  {
+    "title": "How to Rename an Intellij Project?",
+    "score": 0,
+    "views": 27,
+    "answers": 2,
+    "tags": [
+      "java",
+      "intellij-idea"
+    ],
+    "link": "https://stackoverflow.com/questions/80001800/how-to-rename-an-intellij-project"
+  },
+  {
+    "title": "Best messaging pattern for server that spawns multiple workers",
+    "score": 0,
+    "views": 27,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "c++",
+      "windows",
+      "ipc",
+      "zeromq"
+    ],
+    "link": "https://stackoverflow.com/questions/80001801/best-messaging-pattern-for-server-that-spawns-multiple-workers"
+  },
+  {
+    "title": "Compiler complaining about non-copy-assignable type despite a condition ensuring it is",
+    "score": 0,
+    "views": 40,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "c++11",
+      "gcc",
+      "compiler-warnings",
+      "memmove"
+    ],
+    "link": "https://stackoverflow.com/questions/80001781/compiler-complaining-about-non-copy-assignable-type-despite-a-condition-ensuring"
+  },
+  {
+    "title": "Use CSS to hide/show arbitrary elements via data attributes?",
+    "score": 3,
+    "views": 57,
+    "answers": 2,
+    "tags": [
+      "css",
+      "css-selectors"
+    ],
+    "link": "https://stackoverflow.com/questions/80001772/use-css-to-hide-show-arbitrary-elements-via-data-attributes"
+  },
+  {
+    "title": "Having trouble setting up a dockerfile",
+    "score": -3,
+    "views": 73,
+    "answers": 0,
+    "tags": [
+      "docker",
+      "turborepo"
+    ],
+    "link": "https://stackoverflow.com/questions/80001784/having-trouble-setting-up-a-dockerfile"
+  },
+  {
+    "title": "How to handle invalid non-integer input in C using scanf return value and input buffer cleanup?",
+    "score": 0,
+    "views": 114,
+    "answers": 1,
+    "tags": [
+      "c",
+      "validation",
+      "input",
+      "scanf",
+      "buffer"
+    ],
+    "link": "https://stackoverflow.com/questions/80001693/how-to-handle-invalid-non-integer-input-in-c-using-scanf-return-value-and-input"
+  },
+  {
+    "title": "How to crop 100 photos simultaneously",
+    "score": -5,
+    "views": 63,
+    "answers": 0,
+    "tags": [
+      "crop",
+      "photo",
+      "bulk"
+    ],
+    "link": "https://stackoverflow.com/questions/80001778/how-to-crop-100-photos-simultaneously"
+  },
+  {
+    "title": "An unexpected error with number 1000 has occurred: Not authenticated: NotSignedIn",
+    "score": -1,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "delphi",
+      "rad-studio",
+      "delphi-13-florence"
+    ],
+    "link": "https://stackoverflow.com/questions/80001775/an-unexpected-error-with-number-1000-has-occurred-not-authenticated-notsignedi"
+  },
+  {
+    "title": "WebViewer2 won&#39;t show web reports to simultaneous users",
+    "score": -2,
+    "views": 29,
+    "answers": 0,
+    "tags": [
+      "webview2"
+    ],
+    "link": "https://stackoverflow.com/questions/80001777/webviewer2-wont-show-web-reports-to-simultaneous-users"
+  },
+  {
+    "title": "Add a named element conditionally in a list",
+    "score": 4,
+    "views": 92,
+    "answers": 2,
+    "tags": [
+      "r",
+      "list",
+      "if-statement"
+    ],
+    "link": "https://stackoverflow.com/questions/80001748/add-a-named-element-conditionally-in-a-list"
+  },
+  {
+    "title": "Why is Python able to perform a bitwise and on LSB of 16 bit value instead of the 8MSBs?",
+    "score": -3,
+    "views": 82,
+    "answers": 1,
+    "tags": [
+      "python",
+      "bitwise-operators"
+    ],
+    "link": "https://stackoverflow.com/questions/80001733/why-is-python-able-to-perform-a-bitwise-and-on-lsb-of-16-bit-value-instead-of-th"
+  },
+  {
+    "title": "SQL Queries for CRUD Operations",
+    "score": -4,
+    "views": 58,
+    "answers": 0,
+    "tags": [
+      "php",
+      "sql"
+    ],
+    "link": "https://stackoverflow.com/questions/80001757/sql-queries-for-crud-operations"
+  },
+  {
+    "title": "Lenovo is no longer getting Wi-Fi",
+    "score": -4,
+    "views": 51,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "wifi"
+    ],
+    "link": "https://stackoverflow.com/questions/80001758/lenovo-is-no-longer-getting-wi-fi"
+  },
+  {
+    "title": "Full documentation for the &#39;PS1&#39; syntax used in &#39;adb shell&#39;",
+    "score": 2,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "android",
+      "shell",
+      "adb",
+      "ps1"
+    ],
+    "link": "https://stackoverflow.com/questions/80001761/full-documentation-for-the-ps1-syntax-used-in-adb-shell"
+  },
+  {
+    "title": "Textures mismatched after exporting model from Prisma3D → Blender → LibGDX",
+    "score": -3,
+    "views": 32,
+    "answers": 0,
+    "tags": [
+      "libgdx",
+      "textures",
+      "blender"
+    ],
+    "link": "https://stackoverflow.com/questions/80001709/textures-mismatched-after-exporting-model-from-prisma3d-%e2%86%92-blender-%e2%86%92-libgdx"
+  },
+  {
+    "title": "How do I automatically approve &quot;low risk&quot; Github Copilot commands in VS Code?",
+    "score": 2,
+    "views": 68,
+    "answers": 1,
+    "tags": [
+      "vs-code",
+      "github-copilot",
+      "vscode-copilot"
+    ],
+    "link": "https://stackoverflow.com/questions/80001736/how-do-i-automatically-approve-low-risk-github-copilot-commands-in-vs-code"
+  },
+  {
+    "title": "I have two elements with JavaScript: one is inside of another and they are layering",
+    "score": -5,
+    "views": 88,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "html"
+    ],
+    "link": "https://stackoverflow.com/questions/80001730/i-have-two-elements-with-javascript-one-is-inside-of-another-and-they-are-layer"
+  },
+  {
+    "title": "If statement evaluates to false unexpectedly",
+    "score": -2,
+    "views": 97,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "asp.net",
+      "linq",
+      "if-statement",
+      "debugging"
+    ],
+    "link": "https://stackoverflow.com/questions/80001721/if-statement-evaluates-to-false-unexpectedly"
+  },
+  {
+    "title": "How to update a SwiftUI View generated from a subclass",
+    "score": 2,
+    "views": 53,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "swift",
+      "swiftui"
+    ],
+    "link": "https://stackoverflow.com/questions/80001738/how-to-update-a-swiftui-view-generated-from-a-subclass"
+  },
+  {
+    "title": "Property Text {dataSource.Column} in Text component Stimulsoft does not appear at runtime",
+    "score": -1,
+    "views": 28,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "stimulsoft"
+    ],
+    "link": "https://stackoverflow.com/questions/80001745/property-text-datasource-column-in-text-component-stimulsoft-does-not-appear-a"
+  }
+]

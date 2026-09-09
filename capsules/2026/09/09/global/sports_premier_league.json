@@ -1,0 +1,18 @@
+[
+  {
+    "home": "Everton",
+    "away": "Manchester United",
+    "home_score": "2",
+    "away_score": "2",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-09-06T13:00Z"
+  },
+  {
+    "home": "Arsenal",
+    "away": "Chelsea",
+    "home_score": "2",
+    "away_score": "1",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-09-06T15:30Z"
+  }
+]
