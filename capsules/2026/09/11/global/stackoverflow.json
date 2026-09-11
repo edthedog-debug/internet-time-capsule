@@ -1,0 +1,237 @@
+[
+  {
+    "title": "And someone give me a suggestion to learn python framework",
+    "score": -2,
+    "views": 28,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "python",
+      "frameworks"
+    ],
+    "link": "https://stackoverflow.com/questions/80002300/and-someone-give-me-a-suggestion-to-learn-python-framework"
+  },
+  {
+    "title": "JavaFX, multiple custom pane added to scene group, unreachable content controls but in the last one",
+    "score": 0,
+    "views": 12,
+    "answers": 1,
+    "tags": [
+      "javafx",
+      "controls"
+    ],
+    "link": "https://stackoverflow.com/questions/80002298/javafx-multiple-custom-pane-added-to-scene-group-unreachable-content-controls"
+  },
+  {
+    "title": "How to reserve space in advance for adaptive banner AdMob ads in Flutter?",
+    "score": 0,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "flutter",
+      "admob",
+      "flutter-dependencies"
+    ],
+    "link": "https://stackoverflow.com/questions/80002294/how-to-reserve-space-in-advance-for-adaptive-banner-admob-ads-in-flutter"
+  },
+  {
+    "title": "Constructor process that might fail. Proper way to handle this. A try catch where is the class instance? private constructor + public static member?",
+    "score": 0,
+    "views": 64,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "oop",
+      "constructor",
+      "private-constructor"
+    ],
+    "link": "https://stackoverflow.com/questions/80002273/constructor-process-that-might-fail-proper-way-to-handle-this-a-try-catch-wher"
+  },
+  {
+    "title": "CMake setting incorrect Python executable for GNU Radio UCRT64",
+    "score": 1,
+    "views": 47,
+    "answers": 0,
+    "tags": [
+      "cmake",
+      "mingw-w64",
+      "msys2",
+      "gnuradio",
+      "gnuradio-companion"
+    ],
+    "link": "https://stackoverflow.com/questions/80002283/cmake-setting-incorrect-python-executable-for-gnu-radio-ucrt64"
+  },
+  {
+    "title": "Why does zsh generate zcompdump files in ZDOTDIR even when a different location is specified when calling compinit?",
+    "score": -1,
+    "views": 42,
+    "answers": 1,
+    "tags": [
+      "zsh",
+      "zshrc"
+    ],
+    "link": "https://stackoverflow.com/questions/80002288/why-does-zsh-generate-zcompdump-files-in-zdotdir-even-when-a-different-location"
+  },
+  {
+    "title": "Missing selection for device in app inspector",
+    "score": -2,
+    "views": 25,
+    "answers": 1,
+    "tags": [
+      "android-studio",
+      "app-inspection"
+    ],
+    "link": "https://stackoverflow.com/questions/80002282/missing-selection-for-device-in-app-inspector"
+  },
+  {
+    "title": "About sprite-flex-js issues",
+    "score": 0,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "flexbox",
+      "flashdevelop",
+      "apache-royale"
+    ],
+    "link": "https://stackoverflow.com/questions/80002281/about-sprite-flex-js-issues"
+  },
+  {
+    "title": "Is it okay to have a varied structure definition and implementation?",
+    "score": 2,
+    "views": 170,
+    "answers": 3,
+    "tags": [
+      "c",
+      "struct"
+    ],
+    "link": "https://stackoverflow.com/questions/80002164/is-it-okay-to-have-a-varied-structure-definition-and-implementation"
+  },
+  {
+    "title": "VSAM KSDS paginated HTTP reads fail with ClosedChannelException at high offsets — z/OS Liberty buffers entire response before sending first byte",
+    "score": 0,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "java",
+      "tcp",
+      "timeout",
+      "zos",
+      "vsam"
+    ],
+    "link": "https://stackoverflow.com/questions/80002277/vsam-ksds-paginated-http-reads-fail-with-closedchannelexception-at-high-offsets"
+  },
+  {
+    "title": "When does theoretical Big O complexity fail to predict real-world performance in production configurations?",
+    "score": -4,
+    "views": 44,
+    "answers": 0,
+    "tags": [
+      "big-o"
+    ],
+    "link": "https://stackoverflow.com/questions/80002267/when-does-theoretical-big-o-complexity-fail-to-predict-real-world-performance-in"
+  },
+  {
+    "title": "f-string with :.2f format spec raises ValueError: Unknown format code &#39;f&#39; for object of type &#39;str&#39;",
+    "score": -2,
+    "views": 39,
+    "answers": 1,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80002271/f-string-with-2f-format-spec-raises-valueerror-unknown-format-code-f-for-ob"
+  },
+  {
+    "title": "Why is there no sorted_vector container in the C++ standard library, and what are the recommended alternatives?",
+    "score": 4,
+    "views": 197,
+    "answers": 3,
+    "tags": [
+      "best-practices",
+      "c++"
+    ],
+    "link": "https://stackoverflow.com/questions/80002149/why-is-there-no-sorted-vector-container-in-the-c-standard-library-and-what-ar"
+  },
+  {
+    "title": "Identifier Encryption with KMS (FastAPI Backend)",
+    "score": 0,
+    "views": 28,
+    "answers": 0,
+    "tags": [
+      "best-practices"
+    ],
+    "link": "https://stackoverflow.com/questions/80002279/identifier-encryption-with-kms-fastapi-backend"
+  },
+  {
+    "title": "Python script download blocked by antivirus as a virus",
+    "score": -3,
+    "views": 58,
+    "answers": 0,
+    "tags": [
+      "python",
+      "download",
+      "antivirus",
+      "virus"
+    ],
+    "link": "https://stackoverflow.com/questions/80002260/python-script-download-blocked-by-antivirus-as-a-virus"
+  },
+  {
+    "title": "Prefix of string up to first numeric value",
+    "score": -4,
+    "views": 47,
+    "answers": 0,
+    "tags": [
+      "sql"
+    ],
+    "link": "https://stackoverflow.com/questions/80002262/prefix-of-string-up-to-first-numeric-value"
+  },
+  {
+    "title": "Avoiding an extra column renaming step when using rbind in R",
+    "score": 0,
+    "views": 41,
+    "answers": 0,
+    "tags": [
+      "r",
+      "dataframe",
+      "rbind"
+    ],
+    "link": "https://stackoverflow.com/questions/80002256/avoiding-an-extra-column-renaming-step-when-using-rbind-in-r"
+  },
+  {
+    "title": "How to build Postgres Docker image with pg_cron extension?",
+    "score": 1,
+    "views": 47,
+    "answers": 1,
+    "tags": [
+      "postgresql",
+      "docker"
+    ],
+    "link": "https://stackoverflow.com/questions/80002263/how-to-build-postgres-docker-image-with-pg-cron-extension"
+  },
+  {
+    "title": "How do I make it so that the element that holds the canvas stands on top of the button?",
+    "score": 0,
+    "views": 81,
+    "answers": 1,
+    "tags": [
+      "html",
+      "css",
+      "menu",
+      "color-picker"
+    ],
+    "link": "https://stackoverflow.com/questions/80002214/how-do-i-make-it-so-that-the-element-that-holds-the-canvas-stands-on-top-of-the"
+  },
+  {
+    "title": "Power BI Python Visualization erroring out when it shouldn&#39;t",
+    "score": -1,
+    "views": 59,
+    "answers": 1,
+    "tags": [
+      "python",
+      "pandas",
+      "dataframe",
+      "powerbi"
+    ],
+    "link": "https://stackoverflow.com/questions/80002222/power-bi-python-visualization-erroring-out-when-it-shouldnt"
+  }
+]
