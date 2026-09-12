@@ -1,0 +1,245 @@
+[
+  {
+    "title": "Format for date",
+    "score": -4,
+    "views": 39,
+    "answers": 0,
+    "tags": [
+      "format"
+    ],
+    "link": "https://stackoverflow.com/questions/80002516/format-for-date"
+  },
+  {
+    "title": "ReactJS (19.2) Server &quot;LEFT JOIN&quot; get all Results from 2. Table in first Query?",
+    "score": -2,
+    "views": 64,
+    "answers": 2,
+    "tags": [
+      "javascript"
+    ],
+    "link": "https://stackoverflow.com/questions/80002481/reactjs-19-2-server-left-join-get-all-results-from-2-table-in-first-query"
+  },
+  {
+    "title": "Downloading Apple-hosted asset packs in a SwiftUI macOS app",
+    "score": -2,
+    "views": 51,
+    "answers": 1,
+    "tags": [
+      "swift",
+      "xcode",
+      "macos",
+      "swiftui",
+      "background-assets-framework"
+    ],
+    "link": "https://stackoverflow.com/questions/80002501/downloading-apple-hosted-asset-packs-in-a-swiftui-macos-app"
+  },
+  {
+    "title": "NumPy neural network from scratch for regression: is my implementation correct, and what hyperparameters or feature engineering should I try next?",
+    "score": -2,
+    "views": 71,
+    "answers": 0,
+    "tags": [
+      "python",
+      "numpy",
+      "machine-learning",
+      "deep-learning",
+      "neural-network"
+    ],
+    "link": "https://stackoverflow.com/questions/80002496/numpy-neural-network-from-scratch-for-regression-is-my-implementation-correct"
+  },
+  {
+    "title": "Updating Git for Windows unattended with PowerShell returns an error when run against remote servers",
+    "score": 1,
+    "views": 65,
+    "answers": 0,
+    "tags": [
+      "powershell",
+      "powershell-core",
+      "git-for-windows"
+    ],
+    "link": "https://stackoverflow.com/questions/80002487/updating-git-for-windows-unattended-with-powershell-returns-an-error-when-run-ag"
+  },
+  {
+    "title": "Expanding class members following open/closed principles",
+    "score": 0,
+    "views": 81,
+    "answers": 2,
+    "tags": [
+      "best-practices",
+      "c++",
+      "templates",
+      "template-instantiation"
+    ],
+    "link": "https://stackoverflow.com/questions/80002473/expanding-class-members-following-open-closed-principles"
+  },
+  {
+    "title": "GCC compilation fails or succeeds depending on the current directory",
+    "score": -2,
+    "views": 102,
+    "answers": 0,
+    "tags": [
+      "c",
+      "linux",
+      "gcc"
+    ],
+    "link": "https://stackoverflow.com/questions/80002452/gcc-compilation-fails-or-succeeds-depending-on-the-current-directory"
+  },
+  {
+    "title": "Why does subprocess.run(cmd, shell=True) with shlex.quote() break on Windows?",
+    "score": 1,
+    "views": 96,
+    "answers": 2,
+    "tags": [
+      "python",
+      "windows",
+      "shell",
+      "subprocess",
+      "cross-platform"
+    ],
+    "link": "https://stackoverflow.com/questions/80002375/why-does-subprocess-runcmd-shell-true-with-shlex-quote-break-on-windows"
+  },
+  {
+    "title": "Xml Source with Enum type",
+    "score": -1,
+    "views": 42,
+    "answers": 0,
+    "tags": [
+      "enums",
+      "rule-engine",
+      "codeeffects"
+    ],
+    "link": "https://stackoverflow.com/questions/80002482/xml-source-with-enum-type"
+  },
+  {
+    "title": "SHAppBarMessage: my own window gets pushed out of the AppBar space it just registered, before my own function call even returns",
+    "score": 0,
+    "views": 20,
+    "answers": 0,
+    "tags": [
+      "winapi",
+      "electron",
+      "taskbar"
+    ],
+    "link": "https://stackoverflow.com/questions/80002486/shappbarmessage-my-own-window-gets-pushed-out-of-the-appbar-space-it-just-regis"
+  },
+  {
+    "title": "Avoid empty directories in Filelist",
+    "score": 0,
+    "views": 38,
+    "answers": 0,
+    "tags": [
+      "directory",
+      "doxygen"
+    ],
+    "link": "https://stackoverflow.com/questions/80002479/avoid-empty-directories-in-filelist"
+  },
+  {
+    "title": "Does @NullMarked package imply non-nullablity on a field level?",
+    "score": 2,
+    "views": 71,
+    "answers": 3,
+    "tags": [
+      "java",
+      "jspecify"
+    ],
+    "link": "https://stackoverflow.com/questions/80002412/does-nullmarked-package-imply-non-nullablity-on-a-field-level"
+  },
+  {
+    "title": "Read and write a LocalDateTime in a JSON object using a custom date/time format",
+    "score": 0,
+    "views": 49,
+    "answers": 1,
+    "tags": [
+      "scala",
+      "play-json"
+    ],
+    "link": "https://stackoverflow.com/questions/80002471/read-and-write-a-localdatetime-in-a-json-object-using-a-custom-date-time-format"
+  },
+  {
+    "title": "What is a good design for custom extensions to a Java class?",
+    "score": 0,
+    "views": 112,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "java",
+      "class"
+    ],
+    "link": "https://stackoverflow.com/questions/80002427/what-is-a-good-design-for-custom-extensions-to-a-java-class"
+  },
+  {
+    "title": "How to automatically detect no internet connection and show an offline screen in React Native (Expo)?",
+    "score": -1,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "react-native",
+      "expo",
+      "offline-caching",
+      "react-native-community-netinfo"
+    ],
+    "link": "https://stackoverflow.com/questions/80002468/how-to-automatically-detect-no-internet-connection-and-show-an-offline-screen-in"
+  },
+  {
+    "title": "Why does my Py-Shiny web app download an empty file?",
+    "score": 0,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "python",
+      "py-shiny"
+    ],
+    "link": "https://stackoverflow.com/questions/80002466/why-does-my-py-shiny-web-app-download-an-empty-file"
+  },
+  {
+    "title": "Shall I use a link or an input field for a hamburger menu",
+    "score": -5,
+    "views": 101,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "html",
+      "navigation",
+      "hamburger-menu"
+    ],
+    "link": "https://stackoverflow.com/questions/80002416/shall-i-use-a-link-or-an-input-field-for-a-hamburger-menu"
+  },
+  {
+    "title": "How do I make my website change layouts depending on screen size?",
+    "score": 2,
+    "views": 106,
+    "answers": 3,
+    "tags": [
+      "html",
+      "css",
+      "bootstrap-5"
+    ],
+    "link": "https://stackoverflow.com/questions/80002451/how-do-i-make-my-website-change-layouts-depending-on-screen-size"
+  },
+  {
+    "title": "Fetch and count all records in M2M join table",
+    "score": 0,
+    "views": 29,
+    "answers": 0,
+    "tags": [
+      "django",
+      "django-models",
+      "many-to-many"
+    ],
+    "link": "https://stackoverflow.com/questions/80002474/fetch-and-count-all-records-in-m2m-join-table"
+  },
+  {
+    "title": "Concurrency and Parallelism in Go and C++",
+    "score": -4,
+    "views": 124,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "go",
+      "concurrency",
+      "goroutine",
+      "stdthread"
+    ],
+    "link": "https://stackoverflow.com/questions/80002325/concurrency-and-parallelism-in-go-and-c"
+  }
+]
