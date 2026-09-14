@@ -1,0 +1,234 @@
+[
+  {
+    "title": "How to configure a python installation in Python Install Manager?",
+    "score": -1,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "python",
+      "python-3.x",
+      "python-install",
+      "pylauncher"
+    ],
+    "link": "https://stackoverflow.com/questions/80002873/how-to-configure-a-python-installation-in-python-install-manager"
+  },
+  {
+    "title": "Firestore client SDK always fails with &quot;unavailable&quot; — requests never reach backend",
+    "score": 0,
+    "views": 20,
+    "answers": 0,
+    "tags": [
+      "firebase",
+      "google-cloud-firestore"
+    ],
+    "link": "https://stackoverflow.com/questions/80002876/firestore-client-sdk-always-fails-with-unavailable-requests-never-reach-back"
+  },
+  {
+    "title": "Does the type qualifier restrict apply to members of a struct pointed to by a pointer?",
+    "score": 0,
+    "views": 19,
+    "answers": 0,
+    "tags": [
+      "c"
+    ],
+    "link": "https://stackoverflow.com/questions/80002875/does-the-type-qualifier-restrict-apply-to-members-of-a-struct-pointed-to-by-a-po"
+  },
+  {
+    "title": "How do threading scripts work when Tkinter is involved?",
+    "score": 1,
+    "views": 21,
+    "answers": 1,
+    "tags": [
+      "python",
+      "multithreading",
+      "tkinter"
+    ],
+    "link": "https://stackoverflow.com/questions/80002870/how-do-threading-scripts-work-when-tkinter-is-involved"
+  },
+  {
+    "title": "What&#39;s the difference between Windows WriteFile and WriteConsole?",
+    "score": 1,
+    "views": 68,
+    "answers": 1,
+    "tags": [
+      "windows",
+      "assembly",
+      "winapi",
+      "x86-64",
+      "writefile"
+    ],
+    "link": "https://stackoverflow.com/questions/80002862/whats-the-difference-between-windows-writefile-and-writeconsole"
+  },
+  {
+    "title": "quisiera saber la diferencia entre node.js y next.js",
+    "score": -2,
+    "views": 16,
+    "answers": 0,
+    "tags": [
+      "node.js",
+      "next.js"
+    ],
+    "link": "https://stackoverflow.com/questions/80002869/quisiera-saber-la-diferencia-entre-node-js-y-next-js"
+  },
+  {
+    "title": "Excel Solve for VBA Function Parameter",
+    "score": 0,
+    "views": 37,
+    "answers": 1,
+    "tags": [
+      "excel",
+      "vba"
+    ],
+    "link": "https://stackoverflow.com/questions/80002858/excel-solve-for-vba-function-parameter"
+  },
+  {
+    "title": "Why is my stored data in my TamperMonkey giving unexpected values?",
+    "score": 0,
+    "views": 31,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "tampermonkey"
+    ],
+    "link": "https://stackoverflow.com/questions/80002860/why-is-my-stored-data-in-my-tampermonkey-giving-unexpected-values"
+  },
+  {
+    "title": "C++ buffering - buffer not cleared as expected",
+    "score": 0,
+    "views": 91,
+    "answers": 1,
+    "tags": [
+      "c++"
+    ],
+    "link": "https://stackoverflow.com/questions/80002846/c-buffering-buffer-not-cleared-as-expected"
+  },
+  {
+    "title": "How do I build a parallel job runner in Python?",
+    "score": -6,
+    "views": 53,
+    "answers": 1,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80002861/how-do-i-build-a-parallel-job-runner-in-python"
+  },
+  {
+    "title": "How to use isinstance on functools.cache cached classes?",
+    "score": 0,
+    "views": 63,
+    "answers": 2,
+    "tags": [
+      "python",
+      "singleton",
+      "memoization"
+    ],
+    "link": "https://stackoverflow.com/questions/80002840/how-to-use-isinstance-on-functools-cache-cached-classes"
+  },
+  {
+    "title": "Casting an out-of-range counter through DOUBLE clamps it to INT64 max",
+    "score": 4,
+    "views": 47,
+    "answers": 2,
+    "tags": [
+      "sql",
+      "integer",
+      "apache-iotdb"
+    ],
+    "link": "https://stackoverflow.com/questions/80002830/casting-an-out-of-range-counter-through-double-clamps-it-to-int64-max"
+  },
+  {
+    "title": "Grass super shiny when facing the sun",
+    "score": -3,
+    "views": 80,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "unreal-engine5",
+      "unreal"
+    ],
+    "link": "https://stackoverflow.com/questions/80002832/grass-super-shiny-when-facing-the-sun"
+  },
+  {
+    "title": "CSV exported from a custom TIME column cannot be imported by Apache IoTDB",
+    "score": 1,
+    "views": 24,
+    "answers": 1,
+    "tags": [
+      "csv",
+      "apache-iotdb",
+      "data-import"
+    ],
+    "link": "https://stackoverflow.com/questions/80002831/csv-exported-from-a-custom-time-column-cannot-be-imported-by-apache-iotdb"
+  },
+  {
+    "title": "export-data rejects explicit ISO8601 although its default output is ISO8601",
+    "score": 0,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "csv",
+      "apache-iotdb"
+    ],
+    "link": "https://stackoverflow.com/questions/80002833/export-data-rejects-explicit-iso8601-although-its-default-output-is-iso8601"
+  },
+  {
+    "title": "Foreground Service doesn&#39;t keep score of data",
+    "score": -1,
+    "views": 72,
+    "answers": 1,
+    "tags": [
+      "kotlin",
+      "memory-leaks"
+    ],
+    "link": "https://stackoverflow.com/questions/80002807/foreground-service-doesnt-keep-score-of-data"
+  },
+  {
+    "title": "Compiling and parsing After Effects JavaScript code",
+    "score": 0,
+    "views": 60,
+    "answers": 1,
+    "tags": [
+      "tooling-recommendation",
+      "javascript",
+      "extendscript",
+      "after-effects"
+    ],
+    "link": "https://stackoverflow.com/questions/80002782/compiling-and-parsing-after-effects-javascript-code"
+  },
+  {
+    "title": "Conditional scroll-timeline binding inside CSS Container Queries",
+    "score": 0,
+    "views": 53,
+    "answers": 0,
+    "tags": [
+      "html",
+      "css",
+      "css-variables",
+      "container-queries"
+    ],
+    "link": "https://stackoverflow.com/questions/80002805/conditional-scroll-timeline-binding-inside-css-container-queries"
+  },
+  {
+    "title": "I have a picture with a mapped area that by clicking on it opens a mp4 video in a highslide frame",
+    "score": 0,
+    "views": 43,
+    "answers": 1,
+    "tags": [
+      "html",
+      "highslide"
+    ],
+    "link": "https://stackoverflow.com/questions/80002824/i-have-a-picture-with-a-mapped-area-that-by-clicking-on-it-opens-a-mp4-video-in"
+  },
+  {
+    "title": "Why does the first database write take significantly longer than subsequent writes?",
+    "score": -1,
+    "views": 87,
+    "answers": 2,
+    "tags": [
+      "sql-server",
+      "asp.net-core",
+      "entity-framework-core"
+    ],
+    "link": "https://stackoverflow.com/questions/80002802/why-does-the-first-database-write-take-significantly-longer-than-subsequent-writ"
+  }
+]

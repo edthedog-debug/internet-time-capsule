@@ -1,0 +1,34 @@
+[
+  {
+    "home": "Celta Vigo",
+    "away": "Málaga",
+    "home_score": "1",
+    "away_score": "1",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-09-13T12:00Z"
+  },
+  {
+    "home": "Levante",
+    "away": "Barcelona",
+    "home_score": "2",
+    "away_score": "4",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-09-13T14:15Z"
+  },
+  {
+    "home": "Getafe",
+    "away": "Deportivo",
+    "home_score": "1",
+    "away_score": "1",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-09-13T16:30Z"
+  },
+  {
+    "home": "Real Sociedad",
+    "away": "Atlético Madrid",
+    "home_score": "0",
+    "away_score": "3",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-09-13T19:00Z"
+  }
+]
