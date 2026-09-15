@@ -1,0 +1,244 @@
+[
+  {
+    "title": "Reversing array vector rows in state engine: does reverse(H:col) work?",
+    "score": 0,
+    "views": 14,
+    "answers": 0,
+    "tags": [
+      "arrays",
+      "vector",
+      "streaming",
+      "dolphindb"
+    ],
+    "link": "https://stackoverflow.com/questions/80003136/reversing-array-vector-rows-in-state-engine-does-reversehcol-work"
+  },
+  {
+    "title": "How Do Experienced Python Developers Stay Motivated When Learning Gets Frustrating?",
+    "score": -2,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80003130/how-do-experienced-python-developers-stay-motivated-when-learning-gets-frustrati"
+  },
+  {
+    "title": "What does this &quot;,/:&quot; operator mean in Python?",
+    "score": 4,
+    "views": 90,
+    "answers": 1,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80003122/what-does-this-operator-mean-in-python"
+  },
+  {
+    "title": "MongoDB Atlas connection fails with querySrv ETIMEOUT on SRV and TLS alert 80 on non-SRV",
+    "score": 0,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "node.js",
+      "mongodb",
+      "mongoose",
+      "dns",
+      "mongodb-atlas"
+    ],
+    "link": "https://stackoverflow.com/questions/80003119/mongodb-atlas-connection-fails-with-querysrv-etimeout-on-srv-and-tls-alert-80-on"
+  },
+  {
+    "title": "curve_fit() with multiple independent variables in integral function",
+    "score": 0,
+    "views": 101,
+    "answers": 1,
+    "tags": [
+      "python",
+      "scipy",
+      "curve-fitting",
+      "integral",
+      "quad"
+    ],
+    "link": "https://stackoverflow.com/questions/80003081/curve-fit-with-multiple-independent-variables-in-integral-function"
+  },
+  {
+    "title": "Google Translate using PHP and cURL",
+    "score": -2,
+    "views": 38,
+    "answers": 1,
+    "tags": [
+      "php",
+      "curl",
+      "google-translate"
+    ],
+    "link": "https://stackoverflow.com/questions/80003104/google-translate-using-php-and-curl"
+  },
+  {
+    "title": "Is Registered for Android Developer Verification by Sep 30, 2026 warning an indication we missed something or just a note?",
+    "score": 0,
+    "views": 29,
+    "answers": 0,
+    "tags": [
+      "android",
+      "google-play",
+      "google-play-services",
+      "google-play-console"
+    ],
+    "link": "https://stackoverflow.com/questions/80003113/is-registered-for-android-developer-verification-by-sep-30-2026-warning-an-indi"
+  },
+  {
+    "title": "Mistral OCR 25.05 model &quot;Enable&quot; button is disabled in Google Cloud",
+    "score": 0,
+    "views": 11,
+    "answers": 0,
+    "tags": [
+      "google-cloud-platform"
+    ],
+    "link": "https://stackoverflow.com/questions/80003120/mistral-ocr-25-05-model-enable-button-is-disabled-in-google-cloud"
+  },
+  {
+    "title": "How to connect entities in DDD",
+    "score": 1,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "domain-driven-design",
+      "entity",
+      "clean-architecture"
+    ],
+    "link": "https://stackoverflow.com/questions/80003101/how-to-connect-entities-in-ddd"
+  },
+  {
+    "title": "Traversing the DOM of a Service Now page",
+    "score": 0,
+    "views": 53,
+    "answers": 0,
+    "tags": [
+      "tampermonkey"
+    ],
+    "link": "https://stackoverflow.com/questions/80003099/traversing-the-dom-of-a-service-now-page"
+  },
+  {
+    "title": "Fetching Delta Deployment Stage DependencyOrdering",
+    "score": 0,
+    "views": 11,
+    "answers": 0,
+    "tags": [
+      "postgresql",
+      "liquibase"
+    ],
+    "link": "https://stackoverflow.com/questions/80003114/fetching-delta-deployment-stage-dependencyordering"
+  },
+  {
+    "title": "error: expected specifier-qualifier-list before ‘VarShapeFunc’",
+    "score": 3,
+    "views": 83,
+    "answers": 2,
+    "tags": [
+      "c",
+      "function-pointers"
+    ],
+    "link": "https://stackoverflow.com/questions/80003012/error-expected-specifier-qualifier-list-before-varshapefunc"
+  },
+  {
+    "title": "AT TIME ZONE with unknown-type string literal: no error, but timezone not applied?",
+    "score": 3,
+    "views": 53,
+    "answers": 1,
+    "tags": [
+      "sql",
+      "postgresql",
+      "timestamp",
+      "timezone",
+      "implicit-conversion"
+    ],
+    "link": "https://stackoverflow.com/questions/80003080/at-time-zone-with-unknown-type-string-literal-no-error-but-timezone-not-applie"
+  },
+  {
+    "title": "What does annotating a variable do in the Python REPL?",
+    "score": 1,
+    "views": 121,
+    "answers": 1,
+    "tags": [
+      "python",
+      "python-typing",
+      "read-eval-print-loop"
+    ],
+    "link": "https://stackoverflow.com/questions/80003077/what-does-annotating-a-variable-do-in-the-python-repl"
+  },
+  {
+    "title": "Why is there no std::bin stream manipulator in C++?",
+    "score": 4,
+    "views": 253,
+    "answers": 2,
+    "tags": [
+      "c++",
+      "iostream",
+      "language-design"
+    ],
+    "link": "https://stackoverflow.com/questions/80002935/why-is-there-no-stdbin-stream-manipulator-in-c"
+  },
+  {
+    "title": "When and how should __all__ be defined?",
+    "score": -4,
+    "views": 156,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "python",
+      "python-import",
+      "python-packaging"
+    ],
+    "link": "https://stackoverflow.com/questions/80003039/when-and-how-should-all-be-defined"
+  },
+  {
+    "title": "sklearn.learning_curve(n_jobs=-1) crashes with TerminatedWorkerError in Quarto but not Jupyter",
+    "score": 1,
+    "views": 71,
+    "answers": 0,
+    "tags": [
+      "python",
+      "multithreading",
+      "scikit-learn",
+      "quarto",
+      "joblib"
+    ],
+    "link": "https://stackoverflow.com/questions/80003089/sklearn-learning-curven-jobs-1-crashes-with-terminatedworkererror-in-quarto-b"
+  },
+  {
+    "title": "Sub loop via while within primary loop",
+    "score": -1,
+    "views": 78,
+    "answers": 3,
+    "tags": [
+      "php"
+    ],
+    "link": "https://stackoverflow.com/questions/80003068/sub-loop-via-while-within-primary-loop"
+  },
+  {
+    "title": "Working with missing value code without replacing value to NA",
+    "score": 0,
+    "views": 54,
+    "answers": 1,
+    "tags": [
+      "r",
+      "missing-data"
+    ],
+    "link": "https://stackoverflow.com/questions/80003044/working-with-missing-value-code-without-replacing-value-to-na"
+  },
+  {
+    "title": "I need help choosing file dialog library for C++ ImGui project",
+    "score": 0,
+    "views": 93,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "c++",
+      "c++17",
+      "filedialog",
+      "imgui"
+    ],
+    "link": "https://stackoverflow.com/questions/80003052/i-need-help-choosing-file-dialog-library-for-c-imgui-project"
+  }
+]
