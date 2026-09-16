@@ -1,0 +1,26 @@
+[
+  {
+    "home": "Rayo Vallecano",
+    "away": "Espanyol",
+    "home_score": "2",
+    "away_score": "1",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-09-15T17:00Z"
+  },
+  {
+    "home": "Alavés",
+    "away": "Valencia",
+    "home_score": "0",
+    "away_score": "1",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-09-15T18:00Z"
+  },
+  {
+    "home": "Elche",
+    "away": "Real Madrid",
+    "home_score": "2",
+    "away_score": "3",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-09-15T19:30Z"
+  }
+]
