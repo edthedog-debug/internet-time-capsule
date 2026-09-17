@@ -1,0 +1,181 @@
+[
+{
+  "id": 49724881,
+  "title": "Nvidia announces native GPU programming in Rust",
+  "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+  "score": 379,
+  "by": "nonmaskable",
+  "comments": 146
+}
+,
+{
+  "id": 49731285,
+  "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+  "url": "https://rohanbansal.com/qorl",
+  "score": 433,
+  "by": "polyphilz",
+  "comments": 89
+}
+,
+{
+  "id": 49732270,
+  "title": "Xiaomi Mimo 2.6 live post-training dashboard",
+  "url": "https://mimo.xiaomi.com/rl/",
+  "score": 300,
+  "by": "krackers",
+  "comments": 80
+}
+,
+{
+  "id": 49732931,
+  "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
+  "url": "https://arxiv.org/abs/2609.16338",
+  "score": 152,
+  "by": "matt_d",
+  "comments": 21
+}
+,
+{
+  "id": 49732513,
+  "title": "Backups Aren't Simple",
+  "url": "https://filipovski.net/2026/09/16/backups-arent-simple.html",
+  "score": 114,
+  "by": "afilipovski",
+  "comments": 53
+}
+,
+{
+  "id": 49735410,
+  "title": "DeepSeek-v4.1 Flash: Pushing the Limits of KV Cache Compression",
+  "url": "https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html",
+  "score": 32,
+  "by": "mfiguiere",
+  "comments": 2
+}
+,
+{
+  "id": 49729000,
+  "title": "Small programming tricks",
+  "url": "https://will-keleher.com/posts/small-programming-tricks-matter/",
+  "score": 424,
+  "by": "signa11",
+  "comments": 189
+}
+,
+{
+  "id": 49735930,
+  "title": "Keys Not Included: recovering the signing keys for US driver's license barcodes",
+  "url": "https://ryan.science/blog/keys-not-included",
+  "score": 4,
+  "by": "Ryan5453",
+  "comments": 0
+}
+,
+{
+  "id": 49700153,
+  "title": "Developing provably correct Rust code with Verus",
+  "url": "https://www.amazon.science/blog/developing-provably-correct-rust-code-with-verus",
+  "score": 39,
+  "by": "Betelbuddy",
+  "comments": 2
+}
+,
+{
+  "id": 49734264,
+  "title": "OpenSpec – A lightweight and configurable AI spec framework",
+  "url": "https://openspec.dev/",
+  "score": 88,
+  "by": "etoxin",
+  "comments": 35
+}
+,
+{
+  "id": 49719596,
+  "title": "The engineering behind the US Strategic Petroleum Reserve",
+  "url": "https://johnjwang.com/post/2026/09/15/engineering-behind-us-strategic-petroleum-reserve",
+  "score": 128,
+  "by": "johnjwang",
+  "comments": 51
+}
+,
+{
+  "id": 49734929,
+  "title": "The Return of Sail Power: Cargo Ships Are Turning Back to the Wind",
+  "url": "https://gcaptain.com/the-return-of-sail-power-cargo-ships-are-turning-back-to-the-wind/",
+  "score": 27,
+  "by": "gumby",
+  "comments": 10
+}
+,
+{
+  "id": 49711424,
+  "title": "Performance Improvements in .NET 11",
+  "url": "https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-11/",
+  "score": 202,
+  "by": "soheilpro",
+  "comments": 39
+}
+,
+{
+  "id": 49674451,
+  "title": "Reversing Factorio's RNG",
+  "url": "https://gegell.github.io/posts/factorio-rng/",
+  "score": 155,
+  "by": "jheitmann",
+  "comments": 20
+}
+,
+{
+  "id": 49733726,
+  "title": "HarnessTax: How Much Does the Harness Matter for Coding Agents?",
+  "url": "https://harnesstax.github.io/",
+  "score": 56,
+  "by": "matt_d",
+  "comments": 16
+}
+,
+{
+  "id": 49677916,
+  "title": "Japan's book scene is moving from bookstores to libraries",
+  "url": "https://untranslatedjp.substack.com/p/japans-book-scene-is-quietly-moving",
+  "score": 133,
+  "by": "herbertl",
+  "comments": 50
+}
+,
+{
+  "id": 49711544,
+  "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+  "url": "https://github.com/arnegiacomo/fugleramme",
+  "score": 2104,
+  "by": "arnemunthekaas",
+  "comments": 240
+}
+,
+{
+  "id": 49719249,
+  "title": "AWS says it can't restore some data from mideast facilities struck by Iran",
+  "url": "https://www.wsj.com/world/middle-east/aws-says-it-cant-restore-some-data-from-mideast-facilities-struck-by-iran-ddcb7e5d",
+  "score": 266,
+  "by": "berkeleyjunk",
+  "comments": 228
+}
+,
+{
+  "id": 49735367,
+  "title": "Part-human part-mouse brain developed in science breakthrough",
+  "url": "https://www.bbc.com/news/articles/c60m3k28j81mo",
+  "score": 7,
+  "by": "marc__1",
+  "comments": 2
+}
+,
+{
+  "id": 49717525,
+  "title": "Mapsnap: Automated Georeferencing for Historic Sanborn Insurance Maps",
+  "url": "https://www.danvk.org/2026/09/10/mapsnap.html",
+  "score": 7,
+  "by": "evakhoury",
+  "comments": 0
+}
+]

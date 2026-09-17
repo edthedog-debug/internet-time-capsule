@@ -1,0 +1,122 @@
+[
+  {
+    "home": "Cleveland Guardians",
+    "away": "Chicago White Sox",
+    "home_score": "6",
+    "away_score": "3",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-16T17:00Z"
+  },
+  {
+    "home": "St. Louis Cardinals",
+    "away": "San Francisco Giants",
+    "home_score": "5",
+    "away_score": "6",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-16T17:15Z"
+  },
+  {
+    "home": "Minnesota Twins",
+    "away": "New York Yankees",
+    "home_score": "5",
+    "away_score": "4",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-16T17:40Z"
+  },
+  {
+    "home": "Toronto Blue Jays",
+    "away": "Detroit Tigers",
+    "home_score": "5",
+    "away_score": "1",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-16T19:07Z"
+  },
+  {
+    "home": "Tampa Bay Rays",
+    "away": "Athletics",
+    "home_score": "4",
+    "away_score": "3",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-16T22:40Z"
+  },
+  {
+    "home": "Cincinnati Reds",
+    "away": "Los Angeles Dodgers",
+    "home_score": "6",
+    "away_score": "2",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-16T22:40Z"
+  },
+  {
+    "home": "Pittsburgh Pirates",
+    "away": "Milwaukee Brewers",
+    "home_score": "4",
+    "away_score": "5",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-16T22:40Z"
+  },
+  {
+    "home": "Washington Nationals",
+    "away": "Philadelphia Phillies",
+    "home_score": "0",
+    "away_score": "3",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-16T22:45Z"
+  },
+  {
+    "home": "New York Mets",
+    "away": "Baltimore Orioles",
+    "home_score": "1",
+    "away_score": "7",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-16T23:00Z"
+  },
+  {
+    "home": "Chicago Cubs",
+    "away": "Atlanta Braves",
+    "home_score": "8",
+    "away_score": "4",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-16T23:40Z"
+  },
+  {
+    "home": "Texas Rangers",
+    "away": "Boston Red Sox",
+    "home_score": "7",
+    "away_score": "3",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-17T00:05Z"
+  },
+  {
+    "home": "Houston Astros",
+    "away": "Kansas City Royals",
+    "home_score": "2",
+    "away_score": "5",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-17T00:10Z"
+  },
+  {
+    "home": "Colorado Rockies",
+    "away": "San Diego Padres",
+    "home_score": "3",
+    "away_score": "9",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-17T00:40Z"
+  },
+  {
+    "home": "Los Angeles Angels",
+    "away": "Seattle Mariners",
+    "home_score": "2",
+    "away_score": "5",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-09-17T01:38Z"
+  },
+  {
+    "home": "Arizona Diamondbacks",
+    "away": "Miami Marlins",
+    "home_score": "2",
+    "away_score": "4",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-09-17T01:40Z"
+  }
+]

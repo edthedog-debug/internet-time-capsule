@@ -1,0 +1,249 @@
+[
+  {
+    "title": "For TTFT, TPOT and ITL : how does one optimize for each",
+    "score": 0,
+    "views": 18,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "cuda",
+      "gpu",
+      "inference",
+      "hip"
+    ],
+    "link": "https://stackoverflow.com/questions/80003660/for-ttft-tpot-and-itl-how-does-one-optimize-for-each"
+  },
+  {
+    "title": "Issue with Importing rand Crate in Rust",
+    "score": 0,
+    "views": 21,
+    "answers": 1,
+    "tags": [
+      "rust",
+      "extern",
+      "rust-crates"
+    ],
+    "link": "https://stackoverflow.com/questions/80003652/issue-with-importing-rand-crate-in-rust"
+  },
+  {
+    "title": "How to add custom file type to New File selection list?",
+    "score": 1,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "visual-studio"
+    ],
+    "link": "https://stackoverflow.com/questions/80003655/how-to-add-custom-file-type-to-new-file-selection-list"
+  },
+  {
+    "title": "Copy the total row value from one table to another table",
+    "score": -1,
+    "views": 35,
+    "answers": 1,
+    "tags": [
+      "excel"
+    ],
+    "link": "https://stackoverflow.com/questions/80003636/copy-the-total-row-value-from-one-table-to-another-table"
+  },
+  {
+    "title": "Why doesn&#39;t compiled code target the OS instead of specific hardware?",
+    "score": -1,
+    "views": 46,
+    "answers": 2,
+    "tags": [
+      "advice",
+      "operating-system",
+      "compiler-construction"
+    ],
+    "link": "https://stackoverflow.com/questions/80003642/why-doesnt-compiled-code-target-the-os-instead-of-specific-hardware"
+  },
+  {
+    "title": "C++26 reflecton getting compile-time exception &#39;reflect_constant failed&#39;",
+    "score": 1,
+    "views": 67,
+    "answers": 2,
+    "tags": [
+      "c++",
+      "reflection",
+      "c++26",
+      "template-for"
+    ],
+    "link": "https://stackoverflow.com/questions/80003628/c26-reflecton-getting-compile-time-exception-reflect-constant-failed"
+  },
+  {
+    "title": "How to catch Ctrl+C for blocking functions in C",
+    "score": 1,
+    "views": 53,
+    "answers": 0,
+    "tags": [
+      "c",
+      "signals"
+    ],
+    "link": "https://stackoverflow.com/questions/80003644/how-to-catch-ctrlc-for-blocking-functions-in-c"
+  },
+  {
+    "title": "How to use same service for multiple Prisma clients without DRY",
+    "score": 0,
+    "views": 19,
+    "answers": 0,
+    "tags": [
+      "typescript",
+      "database",
+      "prisma"
+    ],
+    "link": "https://stackoverflow.com/questions/80003639/how-to-use-same-service-for-multiple-prisma-clients-without-dry"
+  },
+  {
+    "title": "Writing method to access all properties in extended class",
+    "score": 1,
+    "views": 42,
+    "answers": 0,
+    "tags": [
+      "php",
+      "class",
+      "inheritance",
+      "parent"
+    ],
+    "link": "https://stackoverflow.com/questions/80003623/writing-method-to-access-all-properties-in-extended-class"
+  },
+  {
+    "title": "Overlaying OSM Data in folium",
+    "score": -2,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "python",
+      "folium"
+    ],
+    "link": "https://stackoverflow.com/questions/80003635/overlaying-osm-data-in-folium"
+  },
+  {
+    "title": "When the path of a relationship depends on the context, how do I know whether it is a forbidden cyclic relationship? What should I do here?",
+    "score": 0,
+    "views": 52,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "database",
+      "database-design",
+      "foreign-keys",
+      "first-normal-form"
+    ],
+    "link": "https://stackoverflow.com/questions/80003604/when-the-path-of-a-relationship-depends-on-the-context-how-do-i-know-whether-it"
+  },
+  {
+    "title": "How do you fix Eclipse Metadata breaking when swapping between OS with a git repo?",
+    "score": 1,
+    "views": 32,
+    "answers": 0,
+    "tags": [
+      "java",
+      "git",
+      "eclipse",
+      "fedora",
+      "windows-11"
+    ],
+    "link": "https://stackoverflow.com/questions/80003621/how-do-you-fix-eclipse-metadata-breaking-when-swapping-between-os-with-a-git-rep"
+  },
+  {
+    "title": "Traversing the DOM of a Service Now page - Stuck on a Shadowroot",
+    "score": -3,
+    "views": 62,
+    "answers": 0,
+    "tags": [
+      "tampermonkey"
+    ],
+    "link": "https://stackoverflow.com/questions/80003607/traversing-the-dom-of-a-service-now-page-stuck-on-a-shadowroot"
+  },
+  {
+    "title": "Monaco Editor JSON validation ignores unknown properties when they are declared through allOf / if-then-else (unevaluatedProperties: false)",
+    "score": 0,
+    "views": 18,
+    "answers": 0,
+    "tags": [
+      "json",
+      "angular",
+      "monaco-editor",
+      "ngx-monaco-editor"
+    ],
+    "link": "https://stackoverflow.com/questions/80003618/monaco-editor-json-validation-ignores-unknown-properties-when-they-are-declared"
+  },
+  {
+    "title": "Swift app using Hummingbird Middleware gives error: does not conform to protocol &#39;MiddlewareProtocol&#39;",
+    "score": -1,
+    "views": 57,
+    "answers": 0,
+    "tags": [
+      "ios",
+      "swift",
+      "swift-protocols",
+      "hummingbird"
+    ],
+    "link": "https://stackoverflow.com/questions/80003595/swift-app-using-hummingbird-middleware-gives-error-does-not-conform-to-protocol"
+  },
+  {
+    "title": "Getting forbidden error on selenium chrome",
+    "score": -4,
+    "views": 48,
+    "answers": 0,
+    "tags": [
+      "google-chrome",
+      "selenium-webdriver",
+      "automation",
+      "bots",
+      "railway"
+    ],
+    "link": "https://stackoverflow.com/questions/80003603/getting-forbidden-error-on-selenium-chrome"
+  },
+  {
+    "title": "gcc compiler issue for Windows 11",
+    "score": -5,
+    "views": 61,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "gcc",
+      "undefined-reference"
+    ],
+    "link": "https://stackoverflow.com/questions/80003560/gcc-compiler-issue-for-windows-11"
+  },
+  {
+    "title": "How to implement 2D, 3D, etc. vectors with one templated struct?",
+    "score": 5,
+    "views": 300,
+    "answers": 3,
+    "tags": [
+      "c++",
+      "templates",
+      "metaprogramming",
+      "unions",
+      "default-constructor"
+    ],
+    "link": "https://stackoverflow.com/questions/80003406/how-to-implement-2d-3d-etc-vectors-with-one-templated-struct"
+  },
+  {
+    "title": "What is a good structured learning path for understanding machine learning from fundamentals to advanced concepts?",
+    "score": -3,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "python",
+      "machine-learning",
+      "scikit-learn"
+    ],
+    "link": "https://stackoverflow.com/questions/80003602/what-is-a-good-structured-learning-path-for-understanding-machine-learning-from"
+  },
+  {
+    "title": "I’m having trouble getting Python to locate a specific value in a spreadsheet",
+    "score": -5,
+    "views": 99,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "python",
+      "excel"
+    ],
+    "link": "https://stackoverflow.com/questions/80003582/i-m-having-trouble-getting-python-to-locate-a-specific-value-in-a-spreadsheet"
+  }
+]
