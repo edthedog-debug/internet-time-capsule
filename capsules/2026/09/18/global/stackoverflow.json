@@ -1,0 +1,230 @@
+[
+  {
+    "title": "Display every conversation that matches the selected sentiment",
+    "score": 0,
+    "views": 29,
+    "answers": 2,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80003937/display-every-conversation-that-matches-the-selected-sentiment"
+  },
+  {
+    "title": "I have dataframe I need to know how to index the row count",
+    "score": -1,
+    "views": 34,
+    "answers": 1,
+    "tags": [
+      "python",
+      "dataframe"
+    ],
+    "link": "https://stackoverflow.com/questions/80003939/i-have-dataframe-i-need-to-know-how-to-index-the-row-count"
+  },
+  {
+    "title": "What are the Hex BBGGRR numeric values for the 64 selectable palette colors in the VB6 IDE?",
+    "score": -1,
+    "views": 26,
+    "answers": 1,
+    "tags": [
+      "vb6",
+      "color-scheme"
+    ],
+    "link": "https://stackoverflow.com/questions/80003933/what-are-the-hex-bbggrr-numeric-values-for-the-64-selectable-palette-colors-in-t"
+  },
+  {
+    "title": "How do I bypass the Cloudflare challenge?",
+    "score": -3,
+    "views": 48,
+    "answers": 0,
+    "tags": [
+      "cloudflare",
+      "bypass"
+    ],
+    "link": "https://stackoverflow.com/questions/80003934/how-do-i-bypass-the-cloudflare-challenge"
+  },
+  {
+    "title": "Struct &amp; Impl with my_variable[&quot;thing&quot;] syntax?",
+    "score": 0,
+    "views": 15,
+    "answers": 0,
+    "tags": [
+      "rust",
+      "shortcut"
+    ],
+    "link": "https://stackoverflow.com/questions/80003932/struct-impl-with-my-variablething-syntax"
+  },
+  {
+    "title": "Most usefull feature of Java server side templating",
+    "score": -7,
+    "views": 98,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "java",
+      "thymeleaf",
+      "server-side-rendering",
+      "jte"
+    ],
+    "link": "https://stackoverflow.com/questions/80003915/most-usefull-feature-of-java-server-side-templating"
+  },
+  {
+    "title": "Run code when module is unloaded from memory",
+    "score": -3,
+    "views": 97,
+    "answers": 1,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80003859/run-code-when-module-is-unloaded-from-memory"
+  },
+  {
+    "title": "Add prediction draws (function epred_draws) from 2 different models in a single graph",
+    "score": 0,
+    "views": 78,
+    "answers": 1,
+    "tags": [
+      "r",
+      "ggplot2",
+      "brms"
+    ],
+    "link": "https://stackoverflow.com/questions/80003896/add-prediction-draws-function-epred-draws-from-2-different-models-in-a-single"
+  },
+  {
+    "title": "Issue regarding hybrid search setup for an AI coding assistant, combining pgvector (dense embeddings) with a BM25 sparse search",
+    "score": -5,
+    "views": 50,
+    "answers": 0,
+    "tags": [
+      "best-practices"
+    ],
+    "link": "https://stackoverflow.com/questions/80003910/issue-regarding-hybrid-search-setup-for-an-ai-coding-assistant-combining-pgvect"
+  },
+  {
+    "title": "BIOS shows 12GB RAM (8GB stick + 4GB shared VRAM) but Ubuntu Server only reports 4GB",
+    "score": -7,
+    "views": 111,
+    "answers": 0,
+    "tags": [
+      "hardware"
+    ],
+    "link": "https://stackoverflow.com/questions/80003892/bios-shows-12gb-ram-8gb-stick-4gb-shared-vram-but-ubuntu-server-only-reports"
+  },
+  {
+    "title": "Gcc warning about anonymous non-C-compatible type given name for linkage purposes by ‘typedef’ declaration",
+    "score": 4,
+    "views": 127,
+    "answers": 3,
+    "tags": [
+      "c++",
+      "typedef",
+      "gcc-warning"
+    ],
+    "link": "https://stackoverflow.com/questions/80003731/gcc-warning-about-anonymous-non-c-compatible-type-given-name-for-linkage-purpose"
+  },
+  {
+    "title": "Best practice for managing staging and production environments in App Store Connect",
+    "score": 1,
+    "views": 40,
+    "answers": 2,
+    "tags": [
+      "best-practices",
+      "ios",
+      "react-native",
+      "app-store-connect"
+    ],
+    "link": "https://stackoverflow.com/questions/80003831/best-practice-for-managing-staging-and-production-environments-in-app-store-conn"
+  },
+  {
+    "title": "Flutter: Riverpod package does not update the widget",
+    "score": 0,
+    "views": 44,
+    "answers": 1,
+    "tags": [
+      "flutter",
+      "dart",
+      "riverpod"
+    ],
+    "link": "https://stackoverflow.com/questions/80003877/flutter-riverpod-package-does-not-update-the-widget"
+  },
+  {
+    "title": "Regex to match start and middle of a string to parse Content-Type header",
+    "score": 0,
+    "views": 88,
+    "answers": 1,
+    "tags": [
+      "regex"
+    ],
+    "link": "https://stackoverflow.com/questions/80003881/regex-to-match-start-and-middle-of-a-string-to-parse-content-type-header"
+  },
+  {
+    "title": "How can I translate this SAT algorithm description into executable code?",
+    "score": -13,
+    "views": 138,
+    "answers": 0,
+    "tags": [
+      "python",
+      "algorithm",
+      "satisfiability"
+    ],
+    "link": "https://stackoverflow.com/questions/80003890/how-can-i-translate-this-sat-algorithm-description-into-executable-code"
+  },
+  {
+    "title": "How can I split a list by element in Gleam?",
+    "score": 1,
+    "views": 80,
+    "answers": 0,
+    "tags": [
+      "list",
+      "split",
+      "functional-programming",
+      "gleam"
+    ],
+    "link": "https://stackoverflow.com/questions/80003884/how-can-i-split-a-list-by-element-in-gleam"
+  },
+  {
+    "title": "ESLint not detecting nested .d.ts file",
+    "score": 0,
+    "views": 52,
+    "answers": 0,
+    "tags": [
+      "typescript",
+      "nestjs",
+      "eslint",
+      "turborepo"
+    ],
+    "link": "https://stackoverflow.com/questions/80003862/eslint-not-detecting-nested-d-ts-file"
+  },
+  {
+    "title": "Unable to purchase Apple Developer Program membership after verification – Apple Support keeps redirecting me",
+    "score": -5,
+    "views": 58,
+    "answers": 0,
+    "tags": [
+      "apple-developer",
+      "apple-developer-account"
+    ],
+    "link": "https://stackoverflow.com/questions/80003866/unable-to-purchase-apple-developer-program-membership-after-verification-apple"
+  },
+  {
+    "title": "pygame + multiprocessing =?",
+    "score": 2,
+    "views": 71,
+    "answers": 1,
+    "tags": [
+      "python",
+      "multithreading",
+      "pygame"
+    ],
+    "link": "https://stackoverflow.com/questions/80003840/pygame-multiprocessing"
+  },
+  {
+    "title": "Sort results by the specified name",
+    "score": -10,
+    "views": 127,
+    "answers": 2,
+    "tags": [
+      "php"
+    ],
+    "link": "https://stackoverflow.com/questions/80003769/sort-results-by-the-specified-name"
+  }
+]
