@@ -1,0 +1,240 @@
+[
+  {
+    "title": "MathML renders incorrectly",
+    "score": 1,
+    "views": 20,
+    "answers": 0,
+    "tags": [
+      "mathml"
+    ],
+    "link": "https://stackoverflow.com/questions/80004197/mathml-renders-incorrectly"
+  },
+  {
+    "title": "Getting pixel data from a bitmap",
+    "score": 0,
+    "views": 36,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "winapi"
+    ],
+    "link": "https://stackoverflow.com/questions/80004193/getting-pixel-data-from-a-bitmap"
+  },
+  {
+    "title": "Flex-direction: column messes up the element&#39;s responsivity, flex-direction: row doesn&#39;t",
+    "score": 0,
+    "views": 47,
+    "answers": 0,
+    "tags": [
+      "html",
+      "css",
+      "flexbox"
+    ],
+    "link": "https://stackoverflow.com/questions/80004188/flex-direction-column-messes-up-the-elements-responsivity-flex-direction-row"
+  },
+  {
+    "title": "Why is Teensy 4.1 not finding MPU-6050?",
+    "score": 0,
+    "views": 31,
+    "answers": 0,
+    "tags": [
+      "teensy",
+      "mpu6050"
+    ],
+    "link": "https://stackoverflow.com/questions/80004157/why-is-teensy-4-1-not-finding-mpu-6050"
+  },
+  {
+    "title": "Instagram Graph API /me/messages returns &quot;Failed to decrypt&quot; (OAuthException 190) with valid token",
+    "score": 0,
+    "views": 29,
+    "answers": 0,
+    "tags": [
+      "facebook-graph-api",
+      "oauth-2.0",
+      "instagram",
+      "instagram-graph-api"
+    ],
+    "link": "https://stackoverflow.com/questions/80004185/instagram-graph-api-me-messages-returns-failed-to-decrypt-oauthexception-190"
+  },
+  {
+    "title": "Why does my Sudoku solver fill duplicate numbers in rows",
+    "score": 0,
+    "views": 89,
+    "answers": 1,
+    "tags": [
+      "c",
+      "sudoku"
+    ],
+    "link": "https://stackoverflow.com/questions/80004172/why-does-my-sudoku-solver-fill-duplicate-numbers-in-rows"
+  },
+  {
+    "title": "st_sample for grouped sf points dataframe",
+    "score": 0,
+    "views": 38,
+    "answers": 1,
+    "tags": [
+      "r",
+      "spatial",
+      "sample",
+      "multilinestring",
+      "r-stars"
+    ],
+    "link": "https://stackoverflow.com/questions/80004148/st-sample-for-grouped-sf-points-dataframe"
+  },
+  {
+    "title": "Understanding how TImageList, TActionToolBar and TActionManager Work Together Related to the Image Size",
+    "score": -1,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "delphi"
+    ],
+    "link": "https://stackoverflow.com/questions/80004181/understanding-how-timagelist-tactiontoolbar-and-tactionmanager-work-together-re"
+  },
+  {
+    "title": "How I can use python in order to populate and modify groups?",
+    "score": 1,
+    "views": 73,
+    "answers": 1,
+    "tags": [
+      "python",
+      "django",
+      "django-models"
+    ],
+    "link": "https://stackoverflow.com/questions/80004115/how-i-can-use-python-in-order-to-populate-and-modify-groups"
+  },
+  {
+    "title": "Tile map renderer fails to render some tiles",
+    "score": 0,
+    "views": 68,
+    "answers": 1,
+    "tags": [
+      "python",
+      "pygame",
+      "game-development"
+    ],
+    "link": "https://stackoverflow.com/questions/80004136/tile-map-renderer-fails-to-render-some-tiles"
+  },
+  {
+    "title": "Datagrid Accessibility",
+    "score": -1,
+    "views": 38,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "accessibility",
+      "wcag2.0"
+    ],
+    "link": "https://stackoverflow.com/questions/80004127/datagrid-accessibility"
+  },
+  {
+    "title": "Why does Tkinter &lt;Configure&gt; report the wrong window position on Windows after native window movement?",
+    "score": 1,
+    "views": 36,
+    "answers": 1,
+    "tags": [
+      "windows",
+      "tkinter",
+      "winapi",
+      "hwnd",
+      "tcltk"
+    ],
+    "link": "https://stackoverflow.com/questions/80004175/why-does-tkinter-configure-report-the-wrong-window-position-on-windows-after-n"
+  },
+  {
+    "title": "Automatic floating-point precision with std::format in fixed mode",
+    "score": 1,
+    "views": 48,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "c++20",
+      "fmt",
+      "stdformat"
+    ],
+    "link": "https://stackoverflow.com/questions/80004168/automatic-floating-point-precision-with-stdformat-in-fixed-mode"
+  },
+  {
+    "title": "How can I get &quot;stringified&quot; object with nested objects?",
+    "score": -2,
+    "views": 50,
+    "answers": 0,
+    "tags": [
+      "javascript"
+    ],
+    "link": "https://stackoverflow.com/questions/80004162/how-can-i-get-stringified-object-with-nested-objects"
+  },
+  {
+    "title": "Protecting an Entra ID web API for delegated user and application-only access",
+    "score": -1,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "asp.net-core-webapi",
+      "microsoft-entra-id"
+    ],
+    "link": "https://stackoverflow.com/questions/80004171/protecting-an-entra-id-web-api-for-delegated-user-and-application-only-access"
+  },
+  {
+    "title": "Some Non-Hashable Objects still Work as Auxiliary Data in Custom Pytree",
+    "score": 1,
+    "views": 50,
+    "answers": 0,
+    "tags": [
+      "python",
+      "jax"
+    ],
+    "link": "https://stackoverflow.com/questions/80004106/some-non-hashable-objects-still-work-as-auxiliary-data-in-custom-pytree"
+  },
+  {
+    "title": "Cloud Run returns Google 404 before reaching container",
+    "score": -1,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "asp.net-core",
+      "google-cloud-platform",
+      "google-cloud-run"
+    ],
+    "link": "https://stackoverflow.com/questions/80004165/cloud-run-returns-google-404-before-reaching-container"
+  },
+  {
+    "title": "Reverse engineer an audio interface driver from windows to linux (arm)",
+    "score": -3,
+    "views": 88,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "c",
+      "usb",
+      "driver",
+      "reverse-engineering"
+    ],
+    "link": "https://stackoverflow.com/questions/80004124/reverse-engineer-an-audio-interface-driver-from-windows-to-linux-arm"
+  },
+  {
+    "title": "Not showing keyboard in Swift Playgrounds iPad",
+    "score": -3,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "swift",
+      "swiftui"
+    ],
+    "link": "https://stackoverflow.com/questions/80004146/not-showing-keyboard-in-swift-playgrounds-ipad"
+  },
+  {
+    "title": "Quarkus MongoDB Panache: how to use a different MongoDB connection per tenant?",
+    "score": -2,
+    "views": 35,
+    "answers": 0,
+    "tags": [
+      "mongodb",
+      "quarkus",
+      "multi-tenant",
+      "quarkus-panache"
+    ],
+    "link": "https://stackoverflow.com/questions/80004131/quarkus-mongodb-panache-how-to-use-a-different-mongodb-connection-per-tenant"
+  }
+]
