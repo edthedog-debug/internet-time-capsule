@@ -1,0 +1,248 @@
+[
+  {
+    "title": "Why does DbContext prohibit concurrent read operations if reads don&#39;t modify entity state?",
+    "score": 6,
+    "views": 61,
+    "answers": 1,
+    "tags": [
+      "asp.net-mvc",
+      "asynchronous",
+      "entity-framework-core",
+      "dbcontext",
+      "race-condition"
+    ],
+    "link": "https://stackoverflow.com/questions/80004368/why-does-dbcontext-prohibit-concurrent-read-operations-if-reads-dont-modify-ent"
+  },
+  {
+    "title": "onclick=&quot;showContent(&#39;x&#39;)&quot; only works once",
+    "score": 3,
+    "views": 102,
+    "answers": 4,
+    "tags": [
+      "javascript",
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/80004333/onclick-showcontentx-only-works-once"
+  },
+  {
+    "title": "Why does std::vector not compile when provided a class with no move/copy constructor and reserve/emplace is called?",
+    "score": 3,
+    "views": 88,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "vector",
+      "c++20"
+    ],
+    "link": "https://stackoverflow.com/questions/80004343/why-does-stdvector-not-compile-when-provided-a-class-with-no-move-copy-constru"
+  },
+  {
+    "title": "Console.ReadKey recording excess keypresses when used more frequently than a loop can finish running",
+    "score": 2,
+    "views": 36,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "console-application",
+      "game-development",
+      "console.readkey"
+    ],
+    "link": "https://stackoverflow.com/questions/80004358/console-readkey-recording-excess-keypresses-when-used-more-frequently-than-a-loo"
+  },
+  {
+    "title": "Swift template matching algorithm",
+    "score": -3,
+    "views": 34,
+    "answers": 0,
+    "tags": [
+      "swift",
+      "template-matching"
+    ],
+    "link": "https://stackoverflow.com/questions/80004357/swift-template-matching-algorithm"
+  },
+  {
+    "title": "Replace a printed line when it overflows to the next line",
+    "score": 4,
+    "views": 75,
+    "answers": 1,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80004341/replace-a-printed-line-when-it-overflows-to-the-next-line"
+  },
+  {
+    "title": "printf - char values are not printed as expected",
+    "score": 4,
+    "views": 139,
+    "answers": 2,
+    "tags": [
+      "c",
+      "integer",
+      "char",
+      "printf"
+    ],
+    "link": "https://stackoverflow.com/questions/80004322/printf-char-values-are-not-printed-as-expected"
+  },
+  {
+    "title": "Adding columns in matplotlib graph breaks row layout",
+    "score": 2,
+    "views": 46,
+    "answers": 1,
+    "tags": [
+      "python",
+      "matplotlib"
+    ],
+    "link": "https://stackoverflow.com/questions/80004336/adding-columns-in-matplotlib-graph-breaks-row-layout"
+  },
+  {
+    "title": "Does the payload need to be `volatile`, or only the doorbell, when publishing data to a PCIe device through a mapped BAR?",
+    "score": 5,
+    "views": 86,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "volatile",
+      "memory-barriers",
+      "pci-e",
+      "memory-mapped-io"
+    ],
+    "link": "https://stackoverflow.com/questions/80004287/does-the-payload-need-to-be-volatile-or-only-the-doorbell-when-publishing-da"
+  },
+  {
+    "title": "Launching an SSIS project on tables or views",
+    "score": -1,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "ssis",
+      "data-warehouse"
+    ],
+    "link": "https://stackoverflow.com/questions/80004354/launching-an-ssis-project-on-tables-or-views"
+  },
+  {
+    "title": "How should I learn PostgreSQL internals such as WAL and DISTINCT execution?",
+    "score": -1,
+    "views": 50,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "postgresql"
+    ],
+    "link": "https://stackoverflow.com/questions/80004306/how-should-i-learn-postgresql-internals-such-as-wal-and-distinct-execution"
+  },
+  {
+    "title": "Why am I getting an invalid, but non-null, default OpenCL device queue?",
+    "score": -1,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "queue",
+      "opencl",
+      "default"
+    ],
+    "link": "https://stackoverflow.com/questions/80004329/why-am-i-getting-an-invalid-but-non-null-default-opencl-device-queue"
+  },
+  {
+    "title": "How should i remove the extra space in the code using antigravity ide",
+    "score": -4,
+    "views": 81,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "typescript",
+      "vs-code",
+      "ide",
+      "antigravity"
+    ],
+    "link": "https://stackoverflow.com/questions/80004286/how-should-i-remove-the-extra-space-in-the-code-using-antigravity-ide"
+  },
+  {
+    "title": "Media Foundation function &quot;MFCreateSourceReaderFromMediaSource()&quot; is giving me an error",
+    "score": -3,
+    "views": 74,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "debugging",
+      "error-handling",
+      "ms-media-foundation"
+    ],
+    "link": "https://stackoverflow.com/questions/80004313/media-foundation-function-mfcreatesourcereaderfrommediasource-is-giving-me-a"
+  },
+  {
+    "title": "Installing pyenv on Ubuntu 26.04 running WSL1",
+    "score": 0,
+    "views": 40,
+    "answers": 1,
+    "tags": [
+      "ubuntu",
+      "windows-subsystem-for-linux",
+      "pyenv"
+    ],
+    "link": "https://stackoverflow.com/questions/80004308/installing-pyenv-on-ubuntu-26-04-running-wsl1"
+  },
+  {
+    "title": "NeoForge 1.21.1 Minecraft Modded | General Advice, Where do I go? | Mobs driving SuperbWarfare Vehicles, Vehicle AI",
+    "score": -4,
+    "views": 54,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "javascript",
+      "java",
+      "artificial-intelligence",
+      "minecraft"
+    ],
+    "link": "https://stackoverflow.com/questions/80004311/neoforge-1-21-1-minecraft-modded-general-advice-where-do-i-go-mobs-driving"
+  },
+  {
+    "title": "Implementing e-einvoices for Spain",
+    "score": -5,
+    "views": 59,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      ".net",
+      "invoice"
+    ],
+    "link": "https://stackoverflow.com/questions/80004312/implementing-e-einvoices-for-spain"
+  },
+  {
+    "title": "Google Apps Script Web App gives &quot;Sorry, unable to open the file&quot; error for other users despite &quot;Execute as: Me&quot; and openById()",
+    "score": 1,
+    "views": 34,
+    "answers": 1,
+    "tags": [
+      "google-apps-script"
+    ],
+    "link": "https://stackoverflow.com/questions/80004304/google-apps-script-web-app-gives-sorry-unable-to-open-the-file-error-for-othe"
+  },
+  {
+    "title": "Why does .apk works but not .aab?",
+    "score": -2,
+    "views": 63,
+    "answers": 0,
+    "tags": [
+      "android",
+      "authentication",
+      "configuration",
+      "apk",
+      "android-app-bundle"
+    ],
+    "link": "https://stackoverflow.com/questions/80004297/why-does-apk-works-but-not-aab"
+  },
+  {
+    "title": "Why groups are not populated upon `auth_permission`?",
+    "score": -1,
+    "views": 35,
+    "answers": 0,
+    "tags": [
+      "python",
+      "django",
+      "django-models"
+    ],
+    "link": "https://stackoverflow.com/questions/80004310/why-groups-are-not-populated-upon-auth-permission"
+  }
+]
