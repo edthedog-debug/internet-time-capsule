@@ -1,0 +1,240 @@
+[
+  {
+    "title": "Problem to access a private method in java",
+    "score": 0,
+    "views": 16,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "java"
+    ],
+    "link": "https://stackoverflow.com/questions/80004543/problem-to-access-a-private-method-in-java"
+  },
+  {
+    "title": "Why does my 64x64 pixel art DotLottie animation still look blurry even with image-rendering: pixelated and devicePixelRatio: 1?",
+    "score": -2,
+    "views": 12,
+    "answers": 0,
+    "tags": [
+      "css",
+      "reactjs",
+      "lottie"
+    ],
+    "link": "https://stackoverflow.com/questions/80004539/why-does-my-64x64-pixel-art-dotlottie-animation-still-look-blurry-even-with-imag"
+  },
+  {
+    "title": "How do I create a function to display statistics from a list?",
+    "score": -1,
+    "views": 36,
+    "answers": 1,
+    "tags": [
+      "python",
+      "function"
+    ],
+    "link": "https://stackoverflow.com/questions/80004529/how-do-i-create-a-function-to-display-statistics-from-a-list"
+  },
+  {
+    "title": "How to get token_type_ids and attention_mask in Microsoft.ML.Tokenizers?",
+    "score": -1,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "ml.net"
+    ],
+    "link": "https://stackoverflow.com/questions/80004531/how-to-get-token-type-ids-and-attention-mask-in-microsoft-ml-tokenizers"
+  },
+  {
+    "title": "React input form not rendering",
+    "score": 2,
+    "views": 51,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "html",
+      "reactjs"
+    ],
+    "link": "https://stackoverflow.com/questions/80004523/react-input-form-not-rendering"
+  },
+  {
+    "title": "MEGA-CC for selection of the best DNA model for an alignment",
+    "score": -3,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "python",
+      "pipeline",
+      "bioinformatics",
+      "phylogeny"
+    ],
+    "link": "https://stackoverflow.com/questions/80004527/mega-cc-for-selection-of-the-best-dna-model-for-an-alignment"
+  },
+  {
+    "title": "Add to a backing vector of a ListView without shifting prior lParam-tied vector elements",
+    "score": -3,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "winapi"
+    ],
+    "link": "https://stackoverflow.com/questions/80004522/add-to-a-backing-vector-of-a-listview-without-shifting-prior-lparam-tied-vector"
+  },
+  {
+    "title": "Database Design For Shared Inboxes",
+    "score": -3,
+    "views": 77,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "database-design",
+      "architecture",
+      "multi-tenant"
+    ],
+    "link": "https://stackoverflow.com/questions/80004491/database-design-for-shared-inboxes"
+  },
+  {
+    "title": "How to configure pg to work natively with Temporal.PlainDate?",
+    "score": 0,
+    "views": 32,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "postgresql",
+      "date",
+      "node-postgres",
+      "temporal"
+    ],
+    "link": "https://stackoverflow.com/questions/80004520/how-to-configure-pg-to-work-natively-with-temporal-plaindate"
+  },
+  {
+    "title": "How to properly initialize HUB75 64x32 LED matrix with ESP32 DevKit",
+    "score": 1,
+    "views": 29,
+    "answers": 0,
+    "tags": [
+      "arduino",
+      "esp32"
+    ],
+    "link": "https://stackoverflow.com/questions/80004519/how-to-properly-initialize-hub75-64x32-led-matrix-with-esp32-devkit"
+  },
+  {
+    "title": "Calculating metrics from different subfolders at several stations in Python",
+    "score": -4,
+    "views": 92,
+    "answers": 0,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80004503/calculating-metrics-from-different-subfolders-at-several-stations-in-python"
+  },
+  {
+    "title": "Setting karaoke audio-filter with VLC C API",
+    "score": 1,
+    "views": 58,
+    "answers": 1,
+    "tags": [
+      "c",
+      "audio",
+      "libvlc"
+    ],
+    "link": "https://stackoverflow.com/questions/80004478/setting-karaoke-audio-filter-with-vlc-c-api"
+  },
+  {
+    "title": "Roblox UI Image label- changing values through localscript doesn&#39;t work",
+    "score": 0,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "roblox",
+      "luau"
+    ],
+    "link": "https://stackoverflow.com/questions/80004500/roblox-ui-image-label-changing-values-through-localscript-doesnt-work"
+  },
+  {
+    "title": "When I print raw character codes to terminal one after another, why is there a gap in the range from 157 to 280?",
+    "score": 9,
+    "views": 470,
+    "answers": 4,
+    "tags": [
+      "c",
+      "integer",
+      "char",
+      "printf",
+      "wezterm"
+    ],
+    "link": "https://stackoverflow.com/questions/80004322/when-i-print-raw-character-codes-to-terminal-one-after-another-why-is-there-a-g"
+  },
+  {
+    "title": "Persistent intermittent 503 errors on Firebase RTDB after Spark→Blaze billing upgrade (paid account confirmed)",
+    "score": -2,
+    "views": 60,
+    "answers": 0,
+    "tags": [
+      "firebase",
+      "google-cloud-platform",
+      "firebase-realtime-database",
+      "http-status-code-503"
+    ],
+    "link": "https://stackoverflow.com/questions/80004472/persistent-intermittent-503-errors-on-firebase-rtdb-after-spark%e2%86%92blaze-billing-up"
+  },
+  {
+    "title": "How should BetterAntiSpam (discord.js) offload anti-spam and anti-raid work so the gateway thread can still ACK interactions?",
+    "score": -5,
+    "views": 68,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "node.js",
+      "asynchronous",
+      "discord",
+      "discord.js"
+    ],
+    "link": "https://stackoverflow.com/questions/80004484/how-should-betterantispam-discord-js-offload-anti-spam-and-anti-raid-work-so-t"
+  },
+  {
+    "title": "Removing elements between two indexes in an array",
+    "score": -3,
+    "views": 157,
+    "answers": 0,
+    "tags": [
+      "c++"
+    ],
+    "link": "https://stackoverflow.com/questions/80004464/removing-elements-between-two-indexes-in-an-array"
+  },
+  {
+    "title": "Comparing raw MRI vs FreeSurfer-derived features for multimodal fusion with a small dataset",
+    "score": -1,
+    "views": 30,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "machine-learning",
+      "deep-learning"
+    ],
+    "link": "https://stackoverflow.com/questions/80004454/comparing-raw-mri-vs-freesurfer-derived-features-for-multimodal-fusion-with-a-sm"
+  },
+  {
+    "title": "Managing custom libraries with NASM or x86",
+    "score": 5,
+    "views": 140,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "x86",
+      "nasm"
+    ],
+    "link": "https://stackoverflow.com/questions/80004407/managing-custom-libraries-with-nasm-or-x86"
+  },
+  {
+    "title": "onclick=&quot;showContent(&#39;x&#39;)&quot; only works once",
+    "score": 4,
+    "views": 167,
+    "answers": 5,
+    "tags": [
+      "javascript",
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/80004333/onclick-showcontentx-only-works-once"
+  }
+]
