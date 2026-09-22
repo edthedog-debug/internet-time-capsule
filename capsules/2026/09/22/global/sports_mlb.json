@@ -1,0 +1,26 @@
+[
+  {
+    "home": "Baltimore Orioles",
+    "away": "Toronto Blue Jays",
+    "home_score": "4",
+    "away_score": "3",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-21T22:35Z"
+  },
+  {
+    "home": "Detroit Tigers",
+    "away": "Washington Nationals",
+    "home_score": "9",
+    "away_score": "2",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-21T22:40Z"
+  },
+  {
+    "home": "San Francisco Giants",
+    "away": "Minnesota Twins",
+    "home_score": "5",
+    "away_score": "1",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-09-22T01:45Z"
+  }
+]

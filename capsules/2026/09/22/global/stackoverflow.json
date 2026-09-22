@@ -1,0 +1,238 @@
+[
+  {
+    "title": "How should I safely clear extracted JSON data when a corresponding section is missing from OCR markdown in Python?",
+    "score": 0,
+    "views": 34,
+    "answers": 0,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80004819/how-should-i-safely-clear-extracted-json-data-when-a-corresponding-section-is-mi"
+  },
+  {
+    "title": "What are the best practices for managing gym equipment data in a web app?",
+    "score": -1,
+    "views": 35,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "asp.net-mvc",
+      "database",
+      "software-design",
+      "web-development-server"
+    ],
+    "link": "https://stackoverflow.com/questions/80004810/what-are-the-best-practices-for-managing-gym-equipment-data-in-a-web-app"
+  },
+  {
+    "title": "How can I remotely screen-share an Android device without showing the screen-sharing permission popup every time?",
+    "score": 0,
+    "views": 33,
+    "answers": 0,
+    "tags": [
+      "android",
+      "kotlin",
+      "devops"
+    ],
+    "link": "https://stackoverflow.com/questions/80004808/how-can-i-remotely-screen-share-an-android-device-without-showing-the-screen-sha"
+  },
+  {
+    "title": "how do i make button hover use my custom `:root` color instead of bootstrap’s default?",
+    "score": -1,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/80004807/how-do-i-make-button-hover-use-my-custom-root-color-instead-of-bootstrap-s-de"
+  },
+  {
+    "title": "Modifying elements of SVG image as background-image property",
+    "score": -2,
+    "views": 43,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "html",
+      "svg",
+      "background-image"
+    ],
+    "link": "https://stackoverflow.com/questions/80004801/modifying-elements-of-svg-image-as-background-image-property"
+  },
+  {
+    "title": "Can I use projections to search a container for an object based on one of its fields?",
+    "score": -1,
+    "views": 105,
+    "answers": 2,
+    "tags": [
+      "c++",
+      "find",
+      "projection",
+      "std-algorithm"
+    ],
+    "link": "https://stackoverflow.com/questions/80004740/can-i-use-projections-to-search-a-container-for-an-object-based-on-one-of-its-fi"
+  },
+  {
+    "title": "Cannot add class to code chunks when rendering .Rmd to .md with blogdown",
+    "score": 0,
+    "views": 19,
+    "answers": 0,
+    "tags": [
+      "r-markdown",
+      "blogdown"
+    ],
+    "link": "https://stackoverflow.com/questions/80004805/cannot-add-class-to-code-chunks-when-rendering-rmd-to-md-with-blogdown"
+  },
+  {
+    "title": "Spotify API without premium",
+    "score": -6,
+    "views": 51,
+    "answers": 0,
+    "tags": [
+      "spotify"
+    ],
+    "link": "https://stackoverflow.com/questions/80004793/spotify-api-without-premium"
+  },
+  {
+    "title": "Subclassing mysql.connector",
+    "score": -8,
+    "views": 43,
+    "answers": 0,
+    "tags": [
+      "python",
+      "mysql-connector"
+    ],
+    "link": "https://stackoverflow.com/questions/80004790/subclassing-mysql-connector"
+  },
+  {
+    "title": "How to Specify MiniExcel Templates",
+    "score": 2,
+    "views": 28,
+    "answers": 0,
+    "tags": [
+      "vb.net",
+      "miniexcel"
+    ],
+    "link": "https://stackoverflow.com/questions/80004794/how-to-specify-miniexcel-templates"
+  },
+  {
+    "title": "GA4 gtag.js: tag loads, dataLayer fills correctly, Tag Assistant sees it, but &quot;No hits were sent by this tag&quot;",
+    "score": 1,
+    "views": 27,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "google-analytics",
+      "google-analytics-4"
+    ],
+    "link": "https://stackoverflow.com/questions/80004775/ga4-gtag-js-tag-loads-datalayer-fills-correctly-tag-assistant-sees-it-but-n"
+  },
+  {
+    "title": "Multiple bases have instance lay-out conflict when dynamically subclassing @dataclass(slots=True) with cooperative multiple inheritance",
+    "score": 1,
+    "views": 40,
+    "answers": 1,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80004781/multiple-bases-have-instance-lay-out-conflict-when-dynamically-subclassing-data"
+  },
+  {
+    "title": "Using NSURLSessionDataTask in separate class",
+    "score": 1,
+    "views": 23,
+    "answers": 1,
+    "tags": [
+      "objective-c",
+      "xcode",
+      "macos",
+      "nsurlsessiondatatask"
+    ],
+    "link": "https://stackoverflow.com/questions/80004792/using-nsurlsessiondatatask-in-separate-class"
+  },
+  {
+    "title": "BL0016: Unguarded JS interop call - How to resolve this when creating new lazy task",
+    "score": 0,
+    "views": 21,
+    "answers": 1,
+    "tags": [
+      "blazor-jsinterop"
+    ],
+    "link": "https://stackoverflow.com/questions/80004774/bl0016-unguarded-js-interop-call-how-to-resolve-this-when-creating-new-lazy-t"
+  },
+  {
+    "title": "Can&#39;t verify CSRF token authenticity in Electron desktop app",
+    "score": 0,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "ruby-on-rails",
+      "ruby",
+      "electron",
+      "vite",
+      "tanstackreact-query"
+    ],
+    "link": "https://stackoverflow.com/questions/80004783/cant-verify-csrf-token-authenticity-in-electron-desktop-app"
+  },
+  {
+    "title": "Projectile flies horizontally instead of toward the clicked point",
+    "score": 1,
+    "views": 47,
+    "answers": 1,
+    "tags": [
+      "python",
+      "panda3d"
+    ],
+    "link": "https://stackoverflow.com/questions/80004776/projectile-flies-horizontally-instead-of-toward-the-clicked-point"
+  },
+  {
+    "title": "How to recover a table that was dropped in xampp",
+    "score": -5,
+    "views": 60,
+    "answers": 1,
+    "tags": [
+      "mariadb",
+      "xampp"
+    ],
+    "link": "https://stackoverflow.com/questions/80004763/how-to-recover-a-table-that-was-dropped-in-xampp"
+  },
+  {
+    "title": "Trouble with getting RGB data from getImageData()",
+    "score": 0,
+    "views": 66,
+    "answers": 2,
+    "tags": [
+      "javascript",
+      "html"
+    ],
+    "link": "https://stackoverflow.com/questions/80004749/trouble-with-getting-rgb-data-from-getimagedata"
+  },
+  {
+    "title": "Process character keys as well as command keys",
+    "score": 0,
+    "views": 54,
+    "answers": 0,
+    "tags": [
+      "winforms",
+      "character",
+      ".net-8.0",
+      "keyboard-events",
+      "keycode"
+    ],
+    "link": "https://stackoverflow.com/questions/80004755/process-character-keys-as-well-as-command-keys"
+  },
+  {
+    "title": "PayPal SDK V6 with GooglePay - error OR_BIBED_06 (a gateway problem)",
+    "score": 0,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "paypal",
+      "sdk",
+      "paypal-sandbox",
+      "google-pay"
+    ],
+    "link": "https://stackoverflow.com/questions/80004767/paypal-sdk-v6-with-googlepay-error-or-bibed-06-a-gateway-problem"
+  }
+]
