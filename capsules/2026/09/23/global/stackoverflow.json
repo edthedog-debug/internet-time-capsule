@@ -1,0 +1,235 @@
+[
+  {
+    "title": "How to add a method to a specific instance in Python",
+    "score": 0,
+    "views": 34,
+    "answers": 0,
+    "tags": [
+      "python",
+      "methods"
+    ],
+    "link": "https://stackoverflow.com/questions/80005112/how-to-add-a-method-to-a-specific-instance-in-python"
+  },
+  {
+    "title": "Explanation on R package installation insight",
+    "score": 1,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "r",
+      "r-package"
+    ],
+    "link": "https://stackoverflow.com/questions/80005110/explanation-on-r-package-installation-insight"
+  },
+  {
+    "title": "Gravity and movement affecting Camera2D not Sprite/CharacterBody",
+    "score": -3,
+    "views": 37,
+    "answers": 0,
+    "tags": [
+      "game-development",
+      "game-physics",
+      "godot"
+    ],
+    "link": "https://stackoverflow.com/questions/80005106/gravity-and-movement-affecting-camera2d-not-sprite-characterbody"
+  },
+  {
+    "title": "How can I tighten a provable upper bound for an exact SameGame solver?",
+    "score": -1,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "python",
+      "algorithm",
+      "optimization",
+      "dynamic-programming"
+    ],
+    "link": "https://stackoverflow.com/questions/80005109/how-can-i-tighten-a-provable-upper-bound-for-an-exact-samegame-solver"
+  },
+  {
+    "title": "Trying to call a constructor + instance that summons a ball from another class that just works as a centric timeframe",
+    "score": -1,
+    "views": 53,
+    "answers": 0,
+    "tags": [
+      "java",
+      "eclipse"
+    ],
+    "link": "https://stackoverflow.com/questions/80005100/trying-to-call-a-constructor-instance-that-summons-a-ball-from-another-class-t"
+  },
+  {
+    "title": "A simple MVC example that isn&#39;t working. What am I doing wrong?",
+    "score": -2,
+    "views": 40,
+    "answers": 0,
+    "tags": [
+      "php",
+      "model-view-controller"
+    ],
+    "link": "https://stackoverflow.com/questions/80005098/a-simple-mvc-example-that-isnt-working-what-am-i-doing-wrong"
+  },
+  {
+    "title": "Creating a reusable Object from JavaScript array",
+    "score": -1,
+    "views": 49,
+    "answers": 2,
+    "tags": [
+      "javascript",
+      "object",
+      "foreach"
+    ],
+    "link": "https://stackoverflow.com/questions/80005082/creating-a-reusable-object-from-javascript-array"
+  },
+  {
+    "title": "PyMySQL pool - how to close pool cleanly",
+    "score": 1,
+    "views": 38,
+    "answers": 1,
+    "tags": [
+      "python",
+      "pymysql"
+    ],
+    "link": "https://stackoverflow.com/questions/80005085/pymysql-pool-how-to-close-pool-cleanly"
+  },
+  {
+    "title": "How to bypass PostgreSQL&#39;s 100 parameter limitation for IN and FIELD",
+    "score": 1,
+    "views": 52,
+    "answers": 1,
+    "tags": [
+      "postgresql"
+    ],
+    "link": "https://stackoverflow.com/questions/80005090/how-to-bypass-postgresqls-100-parameter-limitation-for-in-and-field"
+  },
+  {
+    "title": "Why does updating a struct array sequentially become 4x slower when threads write to adjacent indices?",
+    "score": 0,
+    "views": 77,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "multithreading",
+      "performance",
+      "cpu-architecture",
+      "false-sharing"
+    ],
+    "link": "https://stackoverflow.com/questions/80005091/why-does-updating-a-struct-array-sequentially-become-4x-slower-when-threads-writ"
+  },
+  {
+    "title": "How to convert activecell address into associated listobject address",
+    "score": 0,
+    "views": 28,
+    "answers": 1,
+    "tags": [
+      "excel",
+      "vba"
+    ],
+    "link": "https://stackoverflow.com/questions/80005084/how-to-convert-activecell-address-into-associated-listobject-address"
+  },
+  {
+    "title": "How to use array.prototype.every to check if all audio files are muted",
+    "score": 0,
+    "views": 51,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "html",
+      "arrays"
+    ],
+    "link": "https://stackoverflow.com/questions/80005069/how-to-use-array-prototype-every-to-check-if-all-audio-files-are-muted"
+  },
+  {
+    "title": "HTTP/1.1 403 error from background but browser request works fine",
+    "score": -4,
+    "views": 40,
+    "answers": 0,
+    "tags": [
+      "php",
+      "http-headers",
+      "http-status-code-403"
+    ],
+    "link": "https://stackoverflow.com/questions/80005078/http-1-1-403-error-from-background-but-browser-request-works-fine"
+  },
+  {
+    "title": "How to make Android app discoverable by AI agents using AppFunctions?",
+    "score": -4,
+    "views": 43,
+    "answers": 0,
+    "tags": [
+      "android",
+      "artificial-intelligence",
+      "agent",
+      "appfunctions"
+    ],
+    "link": "https://stackoverflow.com/questions/80005073/how-to-make-android-app-discoverable-by-ai-agents-using-appfunctions"
+  },
+  {
+    "title": "While committing changes to git in IntelliJ IDEA the &quot;...warnings&quot; and &quot;Review code analysis&quot; links don&#39;t work",
+    "score": -1,
+    "views": 64,
+    "answers": 1,
+    "tags": [
+      "git",
+      "intellij-idea"
+    ],
+    "link": "https://stackoverflow.com/questions/80005055/while-committing-changes-to-git-in-intellij-idea-the-warnings-and-review-c"
+  },
+  {
+    "title": "Esp32 PID switch - How to use the PID controller",
+    "score": -1,
+    "views": 32,
+    "answers": 0,
+    "tags": [
+      "operating-system",
+      "esp32",
+      "bare-metal",
+      "xtensa"
+    ],
+    "link": "https://stackoverflow.com/questions/80005071/esp32-pid-switch-how-to-use-the-pid-controller"
+  },
+  {
+    "title": "How to write Python integers to binary file using &quot;struct.pack&quot; equivalent to &quot;unsigned int&quot; in C++",
+    "score": 6,
+    "views": 214,
+    "answers": 1,
+    "tags": [
+      "python",
+      "c++",
+      "binaryfiles"
+    ],
+    "link": "https://stackoverflow.com/questions/80004962/how-to-write-python-integers-to-binary-file-using-struct-pack-equivalent-to-u"
+  },
+  {
+    "title": "Data that is fetched/generated by one method that eventually will be accessed by another method(s)",
+    "score": 3,
+    "views": 129,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "c#",
+      "oop"
+    ],
+    "link": "https://stackoverflow.com/questions/80005041/data-that-is-fetched-generated-by-one-method-that-eventually-will-be-accessed-by"
+  },
+  {
+    "title": "Flutter Web app crashes repeatedly on iOS Safari (&quot;A problem occurred repeatedly&quot;) but works fine on Chrome/Android/Desktop",
+    "score": 0,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "flutter"
+    ],
+    "link": "https://stackoverflow.com/questions/80005070/flutter-web-app-crashes-repeatedly-on-ios-safari-a-problem-occurred-repeatedly"
+  },
+  {
+    "title": "Update two directories using git",
+    "score": -4,
+    "views": 84,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "git"
+    ],
+    "link": "https://stackoverflow.com/questions/80004969/update-two-directories-using-git"
+  }
+]
