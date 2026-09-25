@@ -1,0 +1,98 @@
+[
+  {
+    "home": "Pittsburgh Pirates",
+    "away": "St. Louis Cardinals",
+    "home_score": "2",
+    "away_score": "1",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-24T16:35Z"
+  },
+  {
+    "home": "Kansas City Royals",
+    "away": "Chicago White Sox",
+    "home_score": "1",
+    "away_score": "9",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-24T18:10Z"
+  },
+  {
+    "home": "Chicago Cubs",
+    "away": "Miami Marlins",
+    "home_score": "2",
+    "away_score": "1",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-24T18:20Z"
+  },
+  {
+    "home": "Texas Rangers",
+    "away": "New York Mets",
+    "home_score": "3",
+    "away_score": "1",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-24T18:35Z"
+  },
+  {
+    "home": "Colorado Rockies",
+    "away": "Arizona Diamondbacks",
+    "home_score": "8",
+    "away_score": "12",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-24T19:10Z"
+  },
+  {
+    "home": "Philadelphia Phillies",
+    "away": "Milwaukee Brewers",
+    "home_score": "1",
+    "away_score": "5",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-24T22:05Z"
+  },
+  {
+    "home": "Boston Red Sox",
+    "away": "Cleveland Guardians",
+    "home_score": "0",
+    "away_score": "1",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-24T22:45Z"
+  },
+  {
+    "home": "New York Yankees",
+    "away": "Tampa Bay Rays",
+    "home_score": "6",
+    "away_score": "4",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-24T23:05Z"
+  },
+  {
+    "home": "Atlanta Braves",
+    "away": "Cincinnati Reds",
+    "home_score": "6",
+    "away_score": "7",
+    "status": "STATUS_FINAL",
+    "date": "2026-09-24T23:15Z"
+  },
+  {
+    "home": "Seattle Mariners",
+    "away": "Los Angeles Angels",
+    "home_score": "4",
+    "away_score": "3",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-09-25T01:40Z"
+  },
+  {
+    "home": "Athletics",
+    "away": "Houston Astros",
+    "home_score": "4",
+    "away_score": "4",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-09-25T01:40Z"
+  },
+  {
+    "home": "Los Angeles Dodgers",
+    "away": "San Diego Padres",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-09-25T02:10Z"
+  }
+]

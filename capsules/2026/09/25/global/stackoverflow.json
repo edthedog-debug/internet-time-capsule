@@ -1,0 +1,238 @@
+[
+  {
+    "title": "How to improve ai usage",
+    "score": -3,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "best-practices"
+    ],
+    "link": "https://stackoverflow.com/questions/80005682/how-to-improve-ai-usage"
+  },
+  {
+    "title": "crowdsec-bouncer-traefik-plugin: invalid middleware type or middleware does not exist",
+    "score": 0,
+    "views": 26,
+    "answers": 0,
+    "tags": [
+      "systemd",
+      "traefik",
+      "traefik-middleware",
+      "traefik-routers",
+      "traefik-plugins"
+    ],
+    "link": "https://stackoverflow.com/questions/80005672/crowdsec-bouncer-traefik-plugin-invalid-middleware-type-or-middleware-does-not"
+  },
+  {
+    "title": "Raku programming language: Why &quot;so all( )&quot; returns True?",
+    "score": 0,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "boolean",
+      "raku",
+      "junction"
+    ],
+    "link": "https://stackoverflow.com/questions/80005669/raku-programming-language-why-so-all-returns-true"
+  },
+  {
+    "title": "How do I create an NSWindow instance and display it on the screen without an NSApplication object",
+    "score": 2,
+    "views": 47,
+    "answers": 0,
+    "tags": [
+      "objective-c",
+      "macos",
+      "metal"
+    ],
+    "link": "https://stackoverflow.com/questions/80005665/how-do-i-create-an-nswindow-instance-and-display-it-on-the-screen-without-an-nsa"
+  },
+  {
+    "title": "makefile target variable is empty in prerequisites",
+    "score": 0,
+    "views": 31,
+    "answers": 1,
+    "tags": [
+      "c",
+      "makefile",
+      "gnu-make"
+    ],
+    "link": "https://stackoverflow.com/questions/80005654/makefile-target-variable-is-empty-in-prerequisites"
+  },
+  {
+    "title": "Will std::async run out of threads if a lot of tasks depend on each other for completion?",
+    "score": -2,
+    "views": 75,
+    "answers": 2,
+    "tags": [
+      "c++",
+      "stdasync"
+    ],
+    "link": "https://stackoverflow.com/questions/80005611/will-stdasync-run-out-of-threads-if-a-lot-of-tasks-depend-on-each-other-for-co"
+  },
+  {
+    "title": "GLFW Windows 10/11 Dark Mode support",
+    "score": -3,
+    "views": 15,
+    "answers": 1,
+    "tags": [
+      "tooling-recommendation",
+      "glfw"
+    ],
+    "link": "https://stackoverflow.com/questions/80005670/glfw-windows-10-11-dark-mode-support"
+  },
+  {
+    "title": "How to infer the class from which a System.Management.Automation.PSMethod object belongs to?",
+    "score": 1,
+    "views": 42,
+    "answers": 1,
+    "tags": [
+      "powershell",
+      "reflection"
+    ],
+    "link": "https://stackoverflow.com/questions/80005650/how-to-infer-the-class-from-which-a-system-management-automation-psmethod-object"
+  },
+  {
+    "title": "Refer to the source C file in a GNU Make rule without relying on prerequisite ordering",
+    "score": 1,
+    "views": 38,
+    "answers": 1,
+    "tags": [
+      "gnu-make"
+    ],
+    "link": "https://stackoverflow.com/questions/80005639/refer-to-the-source-c-file-in-a-gnu-make-rule-without-relying-on-prerequisite-or"
+  },
+  {
+    "title": "Updated replacement for image upload using ImageCSharp.aspx and ImageCSharpThumb.aspx",
+    "score": -2,
+    "views": 42,
+    "answers": 0,
+    "tags": [
+      "asp.net",
+      "image"
+    ],
+    "link": "https://stackoverflow.com/questions/80005657/updated-replacement-for-image-upload-using-imagecsharp-aspx-and-imagecsharpthumb"
+  },
+  {
+    "title": "Change the button color",
+    "score": 1,
+    "views": 42,
+    "answers": 0,
+    "tags": [
+      "c",
+      "winapi",
+      "button",
+      "colors"
+    ],
+    "link": "https://stackoverflow.com/questions/80005651/change-the-button-color"
+  },
+  {
+    "title": "How to determine whether a class should own a method or not?",
+    "score": 4,
+    "views": 175,
+    "answers": 5,
+    "tags": [
+      "best-practices",
+      "oop",
+      "refactoring",
+      "clean-architecture"
+    ],
+    "link": "https://stackoverflow.com/questions/80005505/how-to-determine-whether-a-class-should-own-a-method-or-not"
+  },
+  {
+    "title": "How to return lists/arrays properly in C",
+    "score": 0,
+    "views": 118,
+    "answers": 2,
+    "tags": [
+      "arrays",
+      "c",
+      "pointers",
+      "return"
+    ],
+    "link": "https://stackoverflow.com/questions/80005614/how-to-return-lists-arrays-properly-in-c"
+  },
+  {
+    "title": "TypeScript implicitly calls toString during class construction",
+    "score": -3,
+    "views": 34,
+    "answers": 0,
+    "tags": [
+      "node.js",
+      "typescript"
+    ],
+    "link": "https://stackoverflow.com/questions/80005642/typescript-implicitly-calls-tostring-during-class-construction"
+  },
+  {
+    "title": "Range.setFormula() throws #NAME? in non-English locale spreadsheet, even with correct list separator",
+    "score": 0,
+    "views": 33,
+    "answers": 1,
+    "tags": [
+      "tooling-recommendation",
+      "google-sheets",
+      "google-apps-script",
+      "google-sheets-formula",
+      "locale"
+    ],
+    "link": "https://stackoverflow.com/questions/80005626/range-setformula-throws-name-in-non-english-locale-spreadsheet-even-with-co"
+  },
+  {
+    "title": "How to control a Gazebo multicopter motor model with ROS 2 ros2_control?",
+    "score": -4,
+    "views": 40,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "ros2",
+      "drone.io"
+    ],
+    "link": "https://stackoverflow.com/questions/80005630/how-to-control-a-gazebo-multicopter-motor-model-with-ros-2-ros2-control"
+  },
+  {
+    "title": "counter in a for loop keeps saying there are 4883909 items, other counter in same loop works fine",
+    "score": -6,
+    "views": 117,
+    "answers": 1,
+    "tags": [
+      "c++"
+    ],
+    "link": "https://stackoverflow.com/questions/80005583/counter-in-a-for-loop-keeps-saying-there-are-4883909-items-other-counter-in-sam"
+  },
+  {
+    "title": "Creating a Repo in Azure Devops for the first time",
+    "score": -1,
+    "views": 33,
+    "answers": 1,
+    "tags": [
+      "git",
+      "azure-devops",
+      "cicd"
+    ],
+    "link": "https://stackoverflow.com/questions/80005624/creating-a-repo-in-azure-devops-for-the-first-time"
+  },
+  {
+    "title": "How to restart a thread with a different parameter",
+    "score": 0,
+    "views": 105,
+    "answers": 2,
+    "tags": [
+      "c++"
+    ],
+    "link": "https://stackoverflow.com/questions/80005550/how-to-restart-a-thread-with-a-different-parameter"
+  },
+  {
+    "title": "Can users tamper my webasm code in background or is there any way to know that?",
+    "score": -5,
+    "views": 49,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "rust",
+      "web",
+      "cryptography",
+      "webassembly"
+    ],
+    "link": "https://stackoverflow.com/questions/80005620/can-users-tamper-my-webasm-code-in-background-or-is-there-any-way-to-know-that"
+  }
+]
