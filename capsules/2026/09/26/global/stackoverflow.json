@@ -1,0 +1,234 @@
+[
+  {
+    "title": "XRM Toolbox&#39;s Audit History Extractor Plugin freezing when trying to export large logs",
+    "score": 0,
+    "views": 32,
+    "answers": 0,
+    "tags": [
+      "microsoft-dynamics",
+      "dataverse",
+      "xrmtoolbox"
+    ],
+    "link": "https://stackoverflow.com/questions/80005945/xrm-toolboxs-audit-history-extractor-plugin-freezing-when-trying-to-export-larg"
+  },
+  {
+    "title": "Minimizing overhead for constant loading and composition with compilers for RISC architectures",
+    "score": 1,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "c",
+      "assembly",
+      "constants",
+      "compiler-optimization",
+      "micro-optimization"
+    ],
+    "link": "https://stackoverflow.com/questions/80005942/minimizing-overhead-for-constant-loading-and-composition-with-compilers-for-risc"
+  },
+  {
+    "title": "How do you guys build up your coding enviroment for maximum efficiency?",
+    "score": -3,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "configuration",
+      "config"
+    ],
+    "link": "https://stackoverflow.com/questions/80005941/how-do-you-guys-build-up-your-coding-enviroment-for-maximum-efficiency"
+  },
+  {
+    "title": "Using `with` and a custom class not setting attributes",
+    "score": -3,
+    "views": 70,
+    "answers": 1,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80005922/using-with-and-a-custom-class-not-setting-attributes"
+  },
+  {
+    "title": "How to properly dispose of SolidBrush objects created in a loop to prevent GDI+ memory leaks in WinForms?",
+    "score": 1,
+    "views": 34,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "winforms",
+      "memory-leaks",
+      "idisposable"
+    ],
+    "link": "https://stackoverflow.com/questions/80005916/how-to-properly-dispose-of-solidbrush-objects-created-in-a-loop-to-prevent-gdi"
+  },
+  {
+    "title": "Checking Visibility of selfhost Gitlab MCP",
+    "score": 0,
+    "views": 31,
+    "answers": 0,
+    "tags": [
+      "model-context-protocol"
+    ],
+    "link": "https://stackoverflow.com/questions/80005928/checking-visibility-of-selfhost-gitlab-mcp"
+  },
+  {
+    "title": "Joining 3 tables and multiple parameters",
+    "score": 0,
+    "views": 67,
+    "answers": 2,
+    "tags": [
+      "sql",
+      "mysql",
+      "mariadb"
+    ],
+    "link": "https://stackoverflow.com/questions/80005862/joining-3-tables-and-multiple-parameters"
+  },
+  {
+    "title": "virtual memory and paging",
+    "score": 1,
+    "views": 65,
+    "answers": 1,
+    "tags": [
+      "c",
+      "memory-management",
+      "linux-kernel",
+      "vesa"
+    ],
+    "link": "https://stackoverflow.com/questions/80005881/virtual-memory-and-paging"
+  },
+  {
+    "title": "Cannot stop virtual keyboard from opening programmatically when getfocus called",
+    "score": 1,
+    "views": 52,
+    "answers": 1,
+    "tags": [
+      "android",
+      "kotlin"
+    ],
+    "link": "https://stackoverflow.com/questions/80005914/cannot-stop-virtual-keyboard-from-opening-programmatically-when-getfocus-called"
+  },
+  {
+    "title": "Eclipse c++ editor not recognizing C++ STL headers",
+    "score": -2,
+    "views": 26,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "eclipse"
+    ],
+    "link": "https://stackoverflow.com/questions/80005918/eclipse-c-editor-not-recognizing-c-stl-headers"
+  },
+  {
+    "title": "flask sqlalchemy no data in template",
+    "score": 0,
+    "views": 23,
+    "answers": 1,
+    "tags": [
+      "flask",
+      "sqlalchemy"
+    ],
+    "link": "https://stackoverflow.com/questions/80005897/flask-sqlalchemy-no-data-in-template"
+  },
+  {
+    "title": "Why do shapes drawn with Control.CreateGraphics() disappear when the WinForms window is resized?",
+    "score": 0,
+    "views": 37,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "winforms",
+      "graphics",
+      "paintevent"
+    ],
+    "link": "https://stackoverflow.com/questions/80005888/why-do-shapes-drawn-with-control-creategraphics-disappear-when-the-winforms-wi"
+  },
+  {
+    "title": "VBA Method Runs In 64-Bit Excel But Not 32-Bit",
+    "score": -3,
+    "views": 67,
+    "answers": 2,
+    "tags": [
+      "excel",
+      "vba"
+    ],
+    "link": "https://stackoverflow.com/questions/80005861/vba-method-runs-in-64-bit-excel-but-not-32-bit"
+  },
+  {
+    "title": "SSRS Comparing Multiple Datasets",
+    "score": -3,
+    "views": 26,
+    "answers": 0,
+    "tags": [
+      "reporting-services",
+      "dataset",
+      "lookup"
+    ],
+    "link": "https://stackoverflow.com/questions/80005913/ssrs-comparing-multiple-datasets"
+  },
+  {
+    "title": "How can I reduce LLM token usage for Text-to-SQL without sending the entire database schema?",
+    "score": -4,
+    "views": 43,
+    "answers": 0,
+    "tags": [
+      "mysql",
+      "token",
+      "chatbot",
+      "large-language-model"
+    ],
+    "link": "https://stackoverflow.com/questions/80005909/how-can-i-reduce-llm-token-usage-for-text-to-sql-without-sending-the-entire-data"
+  },
+  {
+    "title": "Any other alternative to notify events in flutter?",
+    "score": 0,
+    "views": 40,
+    "answers": 1,
+    "tags": [
+      "flutter",
+      "dart"
+    ],
+    "link": "https://stackoverflow.com/questions/80005835/any-other-alternative-to-notify-events-in-flutter"
+  },
+  {
+    "title": "How do I correctly type a wrapper that returns a classmethod?",
+    "score": 0,
+    "views": 50,
+    "answers": 1,
+    "tags": [
+      "python",
+      "python-typing",
+      "class-method"
+    ],
+    "link": "https://stackoverflow.com/questions/80005905/how-do-i-correctly-type-a-wrapper-that-returns-a-classmethod"
+  },
+  {
+    "title": "What kind of regular expression captures the root of a URL?",
+    "score": 0,
+    "views": 83,
+    "answers": 1,
+    "tags": [
+      "python",
+      "regex"
+    ],
+    "link": "https://stackoverflow.com/questions/80005894/what-kind-of-regular-expression-captures-the-root-of-a-url"
+  },
+  {
+    "title": "Currency Number To Words",
+    "score": -3,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "numbers"
+    ],
+    "link": "https://stackoverflow.com/questions/80005908/currency-number-to-words"
+  },
+  {
+    "title": "How to add a number to the beginning of each line with awk?",
+    "score": 4,
+    "views": 62,
+    "answers": 5,
+    "tags": [
+      "awk"
+    ],
+    "link": "https://stackoverflow.com/questions/80005807/how-to-add-a-number-to-the-beginning-of-each-line-with-awk"
+  }
+]
