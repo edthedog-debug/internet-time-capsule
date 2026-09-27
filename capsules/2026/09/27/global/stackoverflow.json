@@ -1,0 +1,243 @@
+[
+  {
+    "title": "Windows 11 lock screen freezes (no password prompt) after swiping up, but mouse and keyboard still work",
+    "score": -4,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "windows",
+      "freeze",
+      "windows-11",
+      "lockscreen"
+    ],
+    "link": "https://stackoverflow.com/questions/80006147/windows-11-lock-screen-freezes-no-password-prompt-after-swiping-up-but-mouse"
+  },
+  {
+    "title": "DropDownList controls not responding to OnSelectedIndexChanged",
+    "score": 0,
+    "views": 48,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "asp.net",
+      "dropdownbox"
+    ],
+    "link": "https://stackoverflow.com/questions/80006130/dropdownlist-controls-not-responding-to-onselectedindexchanged"
+  },
+  {
+    "title": "SqlQueryRaw with Count claiming Invalid Column Name Value",
+    "score": 0,
+    "views": 88,
+    "answers": 1,
+    "tags": [
+      "entity-framework-core"
+    ],
+    "link": "https://stackoverflow.com/questions/80006131/sqlqueryraw-with-count-claiming-invalid-column-name-value"
+  },
+  {
+    "title": "C++ compilation fail with template nested vector in module",
+    "score": 0,
+    "views": 54,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "gcc",
+      "stdvector",
+      "new-operator",
+      "c++-modules"
+    ],
+    "link": "https://stackoverflow.com/questions/80006123/c-compilation-fail-with-template-nested-vector-in-module"
+  },
+  {
+    "title": "Displaying max of 5 columns of images using DIV tags in a Repeater",
+    "score": 2,
+    "views": 68,
+    "answers": 1,
+    "tags": [
+      "html",
+      "css",
+      "repeater"
+    ],
+    "link": "https://stackoverflow.com/questions/80006099/displaying-max-of-5-columns-of-images-using-div-tags-in-a-repeater"
+  },
+  {
+    "title": "Github terraform to deploy to databricks",
+    "score": -6,
+    "views": 39,
+    "answers": 0,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80006129/github-terraform-to-deploy-to-databricks"
+  },
+  {
+    "title": "Building Delphi package, using $LIBSUFFIX option. Compiler cannot find .bpl w/o suffix",
+    "score": 0,
+    "views": 27,
+    "answers": 0,
+    "tags": [
+      "delphi"
+    ],
+    "link": "https://stackoverflow.com/questions/80006114/building-delphi-package-using-libsuffix-option-compiler-cannot-find-bpl-w-o"
+  },
+  {
+    "title": "Render color in Direct X12",
+    "score": -1,
+    "views": 59,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "directx",
+      "game-engine"
+    ],
+    "link": "https://stackoverflow.com/questions/80006124/render-color-in-direct-x12"
+  },
+  {
+    "title": "Issue linking and finding functions in C library",
+    "score": -1,
+    "views": 67,
+    "answers": 0,
+    "tags": [
+      "c",
+      "linux",
+      "makefile",
+      "linker-errors"
+    ],
+    "link": "https://stackoverflow.com/questions/80006120/issue-linking-and-finding-functions-in-c-library"
+  },
+  {
+    "title": "Incrond - access denied for specific file I own",
+    "score": -4,
+    "views": 41,
+    "answers": 0,
+    "tags": [
+      "incron"
+    ],
+    "link": "https://stackoverflow.com/questions/80006117/incrond-access-denied-for-specific-file-i-own"
+  },
+  {
+    "title": "Elegant way to return a filter function from an HTML element",
+    "score": 3,
+    "views": 87,
+    "answers": 3,
+    "tags": [
+      "best-practices",
+      "javascript",
+      "arrays",
+      "forms",
+      "filter"
+    ],
+    "link": "https://stackoverflow.com/questions/80006046/elegant-way-to-return-a-filter-function-from-an-html-element"
+  },
+  {
+    "title": "Firebase AI (Gemini Flash) throwing DECODE_PREEMPTED and UNAVAILABLE errors during Android app image analysis",
+    "score": -1,
+    "views": 60,
+    "answers": 0,
+    "tags": [
+      "android",
+      "firebase",
+      "google-gemini",
+      "firebase-ai-logic"
+    ],
+    "link": "https://stackoverflow.com/questions/80006096/firebase-ai-gemini-flash-throwing-decode-preempted-and-unavailable-errors-duri"
+  },
+  {
+    "title": "Checking which state variable changes caused UIViewRepresentable update",
+    "score": 0,
+    "views": 31,
+    "answers": 0,
+    "tags": [
+      "swift",
+      "swiftui",
+      "uiviewrepresentable"
+    ],
+    "link": "https://stackoverflow.com/questions/80006110/checking-which-state-variable-changes-caused-uiviewrepresentable-update"
+  },
+  {
+    "title": "Passing a string of keyword arguments",
+    "score": -12,
+    "views": 160,
+    "answers": 0,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80006016/passing-a-string-of-keyword-arguments"
+  },
+  {
+    "title": "Google Antigravity",
+    "score": -5,
+    "views": 53,
+    "answers": 0,
+    "tags": [
+      "antigravity"
+    ],
+    "link": "https://stackoverflow.com/questions/80006090/google-antigravity"
+  },
+  {
+    "title": "How should I identify starting players when a confirmed basketball lineup marks every player as substitute: true?",
+    "score": -8,
+    "views": 61,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "json",
+      "typescript"
+    ],
+    "link": "https://stackoverflow.com/questions/80006094/how-should-i-identify-starting-players-when-a-confirmed-basketball-lineup-marks"
+  },
+  {
+    "title": "How do I randomize the position of bezier vertices?",
+    "score": 2,
+    "views": 64,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "random",
+      "bezier"
+    ],
+    "link": "https://stackoverflow.com/questions/80006033/how-do-i-randomize-the-position-of-bezier-vertices"
+  },
+  {
+    "title": "Minimizing overhead for constant loading and composition with compilers for RISC architectures",
+    "score": 5,
+    "views": 103,
+    "answers": 1,
+    "tags": [
+      "c",
+      "assembly",
+      "constants",
+      "compiler-optimization",
+      "micro-optimization"
+    ],
+    "link": "https://stackoverflow.com/questions/80005942/minimizing-overhead-for-constant-loading-and-composition-with-compilers-for-risc"
+  },
+  {
+    "title": "H&#225;bitos de ciberseguridad",
+    "score": -5,
+    "views": 47,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "security",
+      "informatica",
+      "culture",
+      "spanish"
+    ],
+    "link": "https://stackoverflow.com/questions/80006080/h%c3%a1bitos-de-ciberseguridad"
+  },
+  {
+    "title": "Modeling a hierarchical staff role system alongside a plain customer role: same User entity or split into Customer/Employee?",
+    "score": -1,
+    "views": 55,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "java",
+      "spring-boot",
+      "spring-security",
+      "role-based-access-control"
+    ],
+    "link": "https://stackoverflow.com/questions/80006036/modeling-a-hierarchical-staff-role-system-alongside-a-plain-customer-role-same"
+  }
+]
