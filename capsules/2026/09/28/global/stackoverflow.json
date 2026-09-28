@@ -1,0 +1,239 @@
+[
+  {
+    "title": "SQL vs R cleaning large rideshare, which approach is more efficeint for 1M+ rows?",
+    "score": 0,
+    "views": 14,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "sql",
+      "r",
+      "google-bigquery",
+      "data-cleaning"
+    ],
+    "link": "https://stackoverflow.com/questions/80006346/sql-vs-r-cleaning-large-rideshare-which-approach-is-more-efficeint-for-1m-rows"
+  },
+  {
+    "title": "How to concatenate two variables to assign one variable in Python?",
+    "score": -5,
+    "views": 92,
+    "answers": 0,
+    "tags": [
+      "python",
+      "string",
+      "concatenation"
+    ],
+    "link": "https://stackoverflow.com/questions/80006339/how-to-concatenate-two-variables-to-assign-one-variable-in-python"
+  },
+  {
+    "title": "RVO versus passing by reference",
+    "score": 0,
+    "views": 49,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "c++",
+      "return-value-optimization",
+      "std-expected"
+    ],
+    "link": "https://stackoverflow.com/questions/80006329/rvo-versus-passing-by-reference"
+  },
+  {
+    "title": "How do I reprocess unchanged documents with a new chunker in GraphRAG-SDK?",
+    "score": 0,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "graphrag",
+      "falkordb"
+    ],
+    "link": "https://stackoverflow.com/questions/80006338/how-do-i-reprocess-unchanged-documents-with-a-new-chunker-in-graphrag-sdk"
+  },
+  {
+    "title": "Why is my command printing errors when doing Start-Job?",
+    "score": 1,
+    "views": 49,
+    "answers": 1,
+    "tags": [
+      "powershell",
+      "start-job"
+    ],
+    "link": "https://stackoverflow.com/questions/80006333/why-is-my-command-printing-errors-when-doing-start-job"
+  },
+  {
+    "title": "How do I align a `position: absolute` `span` by its baseline/cap?",
+    "score": 0,
+    "views": 38,
+    "answers": 1,
+    "tags": [
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/80006327/how-do-i-align-a-position-absolute-span-by-its-baseline-cap"
+  },
+  {
+    "title": "AJAX Image Uploader that will let me edit the image name before I upload it, and then write the name and description to a table",
+    "score": -1,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "asp.net",
+      "ajax",
+      "file-upload"
+    ],
+    "link": "https://stackoverflow.com/questions/80006330/ajax-image-uploader-that-will-let-me-edit-the-image-name-before-i-upload-it-and"
+  },
+  {
+    "title": "Trait Bounding a Generic Associated type in Rust",
+    "score": 0,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "generics",
+      "rust",
+      "type-systems",
+      "generic-associated-types",
+      "trait-bounds"
+    ],
+    "link": "https://stackoverflow.com/questions/80006328/trait-bounding-a-generic-associated-type-in-rust"
+  },
+  {
+    "title": "My digital certificate contain root ca as issuer but issued by intermediate. Why",
+    "score": -4,
+    "views": 27,
+    "answers": 0,
+    "tags": [
+      "openssl",
+      "certificate",
+      "authoritykeyidentifier"
+    ],
+    "link": "https://stackoverflow.com/questions/80006324/my-digital-certificate-contain-root-ca-as-issuer-but-issued-by-intermediate-why"
+  },
+  {
+    "title": "Wifi issue on windows 10",
+    "score": -5,
+    "views": 68,
+    "answers": 0,
+    "tags": [
+      "windows"
+    ],
+    "link": "https://stackoverflow.com/questions/80006312/wifi-issue-on-windows-10"
+  },
+  {
+    "title": "jquery datepicker icon disappears after autopostback",
+    "score": -2,
+    "views": 40,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "jquery",
+      "asp.net",
+      "datepicker"
+    ],
+    "link": "https://stackoverflow.com/questions/80006310/jquery-datepicker-icon-disappears-after-autopostback"
+  },
+  {
+    "title": "Return multiple text and associated number from string",
+    "score": 1,
+    "views": 93,
+    "answers": 6,
+    "tags": [
+      "sql",
+      "sql-server"
+    ],
+    "link": "https://stackoverflow.com/questions/80006227/return-multiple-text-and-associated-number-from-string"
+  },
+  {
+    "title": "files require-once not executing",
+    "score": -1,
+    "views": 44,
+    "answers": 0,
+    "tags": [
+      "php",
+      "require-once"
+    ],
+    "link": "https://stackoverflow.com/questions/80006302/files-require-once-not-executing"
+  },
+  {
+    "title": "Why is this loop unroll on the avx512 pagecpy I made faster than before?",
+    "score": -1,
+    "views": 80,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "c",
+      "memory",
+      "x86-64",
+      "avx512"
+    ],
+    "link": "https://stackoverflow.com/questions/80006288/why-is-this-loop-unroll-on-the-avx512-pagecpy-i-made-faster-than-before"
+  },
+  {
+    "title": "Menubar does not appear",
+    "score": -4,
+    "views": 62,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "imgui"
+    ],
+    "link": "https://stackoverflow.com/questions/80006233/menubar-does-not-appear"
+  },
+  {
+    "title": "Git bash commands",
+    "score": -7,
+    "views": 55,
+    "answers": 0,
+    "tags": [
+      "git",
+      "github",
+      "gitlab"
+    ],
+    "link": "https://stackoverflow.com/questions/80006309/git-bash-commands"
+  },
+  {
+    "title": "How to fix an issue with random images not showing",
+    "score": -2,
+    "views": 92,
+    "answers": 3,
+    "tags": [
+      "javascript",
+      "image",
+      "random"
+    ],
+    "link": "https://stackoverflow.com/questions/80006260/how-to-fix-an-issue-with-random-images-not-showing"
+  },
+  {
+    "title": "Unable to view driver when installing windows on a dos laptop",
+    "score": -4,
+    "views": 39,
+    "answers": 0,
+    "tags": [
+      "windows",
+      "installation"
+    ],
+    "link": "https://stackoverflow.com/questions/80006304/unable-to-view-driver-when-installing-windows-on-a-dos-laptop"
+  },
+  {
+    "title": "Why do fixed &amp; free form return different multiplication results?",
+    "score": 0,
+    "views": 38,
+    "answers": 0,
+    "tags": [
+      "fortran"
+    ],
+    "link": "https://stackoverflow.com/questions/80006307/why-do-fixed-free-form-return-different-multiplication-results"
+  },
+  {
+    "title": "What to do as a beginner game developer?",
+    "score": -6,
+    "views": 102,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "game-development"
+    ],
+    "link": "https://stackoverflow.com/questions/80006265/what-to-do-as-a-beginner-game-developer"
+  }
+]
