@@ -1,0 +1,240 @@
+[
+  {
+    "title": "Automatic Order Request From Image",
+    "score": 0,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "python",
+      "opencv",
+      "computer-vision",
+      "erp"
+    ],
+    "link": "https://stackoverflow.com/questions/80006589/automatic-order-request-from-image"
+  },
+  {
+    "title": "finding bayes classifier without p(x)",
+    "score": 0,
+    "views": 18,
+    "answers": 0,
+    "tags": [
+      "machine-learning",
+      "probability",
+      "bayesian"
+    ],
+    "link": "https://stackoverflow.com/questions/80006586/finding-bayes-classifier-without-px"
+  },
+  {
+    "title": "How can I total RUN time without TIME_DURATION spanning STOP gaps in tree model?",
+    "score": 0,
+    "views": 33,
+    "answers": 1,
+    "tags": [
+      "time-series",
+      "apache-iotdb"
+    ],
+    "link": "https://stackoverflow.com/questions/80006584/how-can-i-total-run-time-without-time-duration-spanning-stop-gaps-in-tree-model"
+  },
+  {
+    "title": "mr() across partitions produces duplicate week data",
+    "score": 0,
+    "views": 31,
+    "answers": 0,
+    "tags": [
+      "duplicates",
+      "partitioning",
+      "dolphindb"
+    ],
+    "link": "https://stackoverflow.com/questions/80006579/mr-across-partitions-produces-duplicate-week-data"
+  },
+  {
+    "title": "Claude Design MCP in Claude Code fails with 403 FIRST_PARTY_AUTH_REJECTED – how to get design scopes?",
+    "score": -2,
+    "views": 32,
+    "answers": 0,
+    "tags": [
+      "model-context-protocol",
+      "claude-code"
+    ],
+    "link": "https://stackoverflow.com/questions/80006572/claude-design-mcp-in-claude-code-fails-with-403-first-party-auth-rejected-how"
+  },
+  {
+    "title": "Do not know how to set XR Envrionment Blend Mode to Alpha in Unity 6.3",
+    "score": 0,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "unity-game-engine",
+      "openxr"
+    ],
+    "link": "https://stackoverflow.com/questions/80006576/do-not-know-how-to-set-xr-envrionment-blend-mode-to-alpha-in-unity-6-3"
+  },
+  {
+    "title": "Why does hashlib declaration location matter in python?",
+    "score": 0,
+    "views": 57,
+    "answers": 1,
+    "tags": [
+      "python",
+      "hashlib"
+    ],
+    "link": "https://stackoverflow.com/questions/80006558/why-does-hashlib-declaration-location-matter-in-python"
+  },
+  {
+    "title": "How to get the address of a CUDA/C++ struct member without dereferencing the member",
+    "score": 2,
+    "views": 97,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "pointers",
+      "struct",
+      "cuda"
+    ],
+    "link": "https://stackoverflow.com/questions/80006507/how-to-get-the-address-of-a-cuda-c-struct-member-without-dereferencing-the-mem"
+  },
+  {
+    "title": "Way to make AWS accept invalid access key?",
+    "score": -1,
+    "views": 69,
+    "answers": 0,
+    "tags": [
+      "amazon-web-services",
+      "amazon-s3"
+    ],
+    "link": "https://stackoverflow.com/questions/80006563/way-to-make-aws-accept-invalid-access-key"
+  },
+  {
+    "title": "Is opencode itself causing null pointer dereference errors on my pangolin laptop or is it because of AMD CPU software?",
+    "score": 0,
+    "views": 32,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "linux",
+      "amd-processor",
+      "panic",
+      "opencode"
+    ],
+    "link": "https://stackoverflow.com/questions/80006562/is-opencode-itself-causing-null-pointer-dereference-errors-on-my-pangolin-laptop"
+  },
+  {
+    "title": "print value of function in erlang",
+    "score": 0,
+    "views": 87,
+    "answers": 0,
+    "tags": [
+      "erlang"
+    ],
+    "link": "https://stackoverflow.com/questions/80006541/print-value-of-function-in-erlang"
+  },
+  {
+    "title": "Why is JSON not working in Python 2 Trinket?",
+    "score": -7,
+    "views": 26,
+    "answers": 0,
+    "tags": [
+      "json",
+      "game-development",
+      "python-2.x",
+      "trinket.io"
+    ],
+    "link": "https://stackoverflow.com/questions/80006560/why-is-json-not-working-in-python-2-trinket"
+  },
+  {
+    "title": "mlr3 selector_cardinality_greater_than() returns target name",
+    "score": 1,
+    "views": 53,
+    "answers": 1,
+    "tags": [
+      "r",
+      "mlr3"
+    ],
+    "link": "https://stackoverflow.com/questions/80006515/mlr3-selector-cardinality-greater-than-returns-target-name"
+  },
+  {
+    "title": "How to see the selected text in Python Tkinter Text when the Text is not in focus",
+    "score": -3,
+    "views": 82,
+    "answers": 1,
+    "tags": [
+      "python",
+      "tkinter",
+      "text",
+      "focus"
+    ],
+    "link": "https://stackoverflow.com/questions/80006535/how-to-see-the-selected-text-in-python-tkinter-text-when-the-text-is-not-in-focu"
+  },
+  {
+    "title": "npm link or install local package stored in network drive",
+    "score": 1,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "angular",
+      "npm"
+    ],
+    "link": "https://stackoverflow.com/questions/80006539/npm-link-or-install-local-package-stored-in-network-drive"
+  },
+  {
+    "title": "Insert of XML record into SQL table through stored procedure call",
+    "score": -5,
+    "views": 93,
+    "answers": 0,
+    "tags": [
+      "sql-server",
+      "xml",
+      "stored-procedures",
+      "xml-parsing"
+    ],
+    "link": "https://stackoverflow.com/questions/80006485/insert-of-xml-record-into-sql-table-through-stored-procedure-call"
+  },
+  {
+    "title": "Cannot pass arguments from .bat to .bat",
+    "score": -3,
+    "views": 62,
+    "answers": 1,
+    "tags": [
+      "windows",
+      "batch-file",
+      "cmd"
+    ],
+    "link": "https://stackoverflow.com/questions/80006531/cannot-pass-arguments-from-bat-to-bat"
+  },
+  {
+    "title": "Reading from a zip file with fread and not getting all the data",
+    "score": 2,
+    "views": 108,
+    "answers": 1,
+    "tags": [
+      "c"
+    ],
+    "link": "https://stackoverflow.com/questions/80006506/reading-from-a-zip-file-with-fread-and-not-getting-all-the-data"
+  },
+  {
+    "title": "How to separate the operation of getting data from the operation of reading it?",
+    "score": -2,
+    "views": 90,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "asp.net-core",
+      "httpcontext",
+      "separation-of-concerns",
+      "benchmarkdotnet"
+    ],
+    "link": "https://stackoverflow.com/questions/80006527/how-to-separate-the-operation-of-getting-data-from-the-operation-of-reading-it"
+  },
+  {
+    "title": "Shortcut to not have to type out entire alphabet or numbers",
+    "score": -8,
+    "views": 49,
+    "answers": 0,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80006534/shortcut-to-not-have-to-type-out-entire-alphabet-or-numbers"
+  }
+]
