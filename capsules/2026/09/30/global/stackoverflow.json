@@ -1,0 +1,239 @@
+[
+  {
+    "title": "Hide attributes that exist only in the saved result, but keep them selectable in the filter",
+    "score": 1,
+    "views": 20,
+    "answers": 1,
+    "tags": [
+      "java",
+      "angular",
+      "algorithm",
+      "filter"
+    ],
+    "link": "https://stackoverflow.com/questions/80006858/hide-attributes-that-exist-only-in-the-saved-result-but-keep-them-selectable-in"
+  },
+  {
+    "title": "Can I add a button to the ribbon that appears in a subgrid when a user clicks one or more items?",
+    "score": -1,
+    "views": 28,
+    "answers": 0,
+    "tags": [
+      "powerapps-modeldriven"
+    ],
+    "link": "https://stackoverflow.com/questions/80006856/can-i-add-a-button-to-the-ribbon-that-appears-in-a-subgrid-when-a-user-clicks-on"
+  },
+  {
+    "title": "Image spacing issue in div",
+    "score": 0,
+    "views": 36,
+    "answers": 1,
+    "tags": [
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/80006841/image-spacing-issue-in-div"
+  },
+  {
+    "title": "Camera not found error in Fedora 44 KDE Edition",
+    "score": -3,
+    "views": 28,
+    "answers": 1,
+    "tags": [
+      "linux",
+      "webcam",
+      "fedora",
+      "kde-plasma"
+    ],
+    "link": "https://stackoverflow.com/questions/80006845/camera-not-found-error-in-fedora-44-kde-edition"
+  },
+  {
+    "title": "PDFs exported from Excel to a network drive share get deleted randomly, and the server log shows the user&#39;s own network drive account deleting them",
+    "score": -2,
+    "views": 22,
+    "answers": 1,
+    "tags": [
+      "network-drive"
+    ],
+    "link": "https://stackoverflow.com/questions/80006844/pdfs-exported-from-excel-to-a-network-drive-share-get-deleted-randomly-and-the"
+  },
+  {
+    "title": "Fintech Products or Side Project Ideas",
+    "score": -5,
+    "views": 24,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "finance"
+    ],
+    "link": "https://stackoverflow.com/questions/80006848/fintech-products-or-side-project-ideas"
+  },
+  {
+    "title": "pywebtransport and docker - client timing out trying to find server",
+    "score": 0,
+    "views": 42,
+    "answers": 1,
+    "tags": [
+      "python",
+      "docker",
+      "docker-compose",
+      "webtransport"
+    ],
+    "link": "https://stackoverflow.com/questions/80006837/pywebtransport-and-docker-client-timing-out-trying-to-find-server"
+  },
+  {
+    "title": "SIGSEV(11) in C, when accessing some elements of &#39;const char&#39;",
+    "score": -1,
+    "views": 81,
+    "answers": 0,
+    "tags": [
+      "c",
+      "char",
+      "constants"
+    ],
+    "link": "https://stackoverflow.com/questions/80006828/sigsev11-in-c-when-accessing-some-elements-of-const-char"
+  },
+  {
+    "title": "How to efficiently pass structs to OpenGL Uniform Buffer Objects?",
+    "score": 0,
+    "views": 73,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "opengl",
+      "glsl",
+      "glm-math"
+    ],
+    "link": "https://stackoverflow.com/questions/80006784/how-to-efficiently-pass-structs-to-opengl-uniform-buffer-objects"
+  },
+  {
+    "title": "Most efficient way to extract one field from a JSON string column in Spark (8–10B rows)",
+    "score": 0,
+    "views": 103,
+    "answers": 0,
+    "tags": [
+      "json",
+      "scala",
+      "apache-spark",
+      "apache-spark-sql"
+    ],
+    "link": "https://stackoverflow.com/questions/80006817/most-efficient-way-to-extract-one-field-from-a-json-string-column-in-spark-8-10"
+  },
+  {
+    "title": "custom cursor over personal iframes",
+    "score": -5,
+    "views": 91,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "html",
+      "css",
+      "iframe",
+      "custom-cursor"
+    ],
+    "link": "https://stackoverflow.com/questions/80006802/custom-cursor-over-personal-iframes"
+  },
+  {
+    "title": "Duplicate keys in a dictionary",
+    "score": -8,
+    "views": 135,
+    "answers": 0,
+    "tags": [
+      "python",
+      "dictionary"
+    ],
+    "link": "https://stackoverflow.com/questions/80006788/duplicate-keys-in-a-dictionary"
+  },
+  {
+    "title": "State of an in-memory object is modified after calling SaveChangesAsync",
+    "score": 0,
+    "views": 81,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "asp.net-core",
+      "entity-framework-core",
+      "dbcontext",
+      "savechanges"
+    ],
+    "link": "https://stackoverflow.com/questions/80006808/state-of-an-in-memory-object-is-modified-after-calling-savechangesasync"
+  },
+  {
+    "title": "Push experimental git branch to GitHub",
+    "score": -4,
+    "views": 120,
+    "answers": 1,
+    "tags": [
+      "git",
+      "github",
+      "git-branch"
+    ],
+    "link": "https://stackoverflow.com/questions/80006755/push-experimental-git-branch-to-github"
+  },
+  {
+    "title": "Can a null pointer be an operand of unary *?",
+    "score": 3,
+    "views": 192,
+    "answers": 3,
+    "tags": [
+      "c",
+      "language-lawyer"
+    ],
+    "link": "https://stackoverflow.com/questions/80006718/can-a-null-pointer-be-an-operand-of-unary"
+  },
+  {
+    "title": "using non-argument step output in Zig build system",
+    "score": 0,
+    "views": 31,
+    "answers": 0,
+    "tags": [
+      "build",
+      "zig"
+    ],
+    "link": "https://stackoverflow.com/questions/80006806/using-non-argument-step-output-in-zig-build-system"
+  },
+  {
+    "title": "Android BLE scan performance significantly degrades in the background",
+    "score": 0,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "android",
+      "bluetooth",
+      "bluetooth-lowenergy"
+    ],
+    "link": "https://stackoverflow.com/questions/80006700/android-ble-scan-performance-significantly-degrades-in-the-background"
+  },
+  {
+    "title": "List of Lists for Values in a Table with Rows &amp; Columns",
+    "score": -7,
+    "views": 78,
+    "answers": 0,
+    "tags": [
+      "python",
+      "list"
+    ],
+    "link": "https://stackoverflow.com/questions/80006789/list-of-lists-for-values-in-a-table-with-rows-columns"
+  },
+  {
+    "title": "How is the number of bins/bin width determined in a seaborn histogram by default?",
+    "score": 1,
+    "views": 57,
+    "answers": 1,
+    "tags": [
+      "python",
+      "seaborn",
+      "histogram"
+    ],
+    "link": "https://stackoverflow.com/questions/80006752/how-is-the-number-of-bins-bin-width-determined-in-a-seaborn-histogram-by-default"
+  },
+  {
+    "title": "Google Workspace subscription active but administrator access not provisioned after signup",
+    "score": -6,
+    "views": 53,
+    "answers": 1,
+    "tags": [
+      "google-workspace"
+    ],
+    "link": "https://stackoverflow.com/questions/80006786/google-workspace-subscription-active-but-administrator-access-not-provisioned-af"
+  }
+]
