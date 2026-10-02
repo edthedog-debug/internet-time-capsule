@@ -1,0 +1,50 @@
+[
+  {
+    "home": "Arsenal",
+    "away": "Leeds United",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_SCHEDULED",
+    "date": "2026-10-10T11:30Z"
+  },
+  {
+    "home": "Aston Villa",
+    "away": "Brentford",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_SCHEDULED",
+    "date": "2026-10-10T14:00Z"
+  },
+  {
+    "home": "Chelsea",
+    "away": "AFC Bournemouth",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_SCHEDULED",
+    "date": "2026-10-10T14:00Z"
+  },
+  {
+    "home": "Ipswich Town",
+    "away": "Fulham",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_SCHEDULED",
+    "date": "2026-10-10T14:00Z"
+  },
+  {
+    "home": "Sunderland",
+    "away": "Brighton & Hove Albion",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_SCHEDULED",
+    "date": "2026-10-10T14:00Z"
+  },
+  {
+    "home": "Manchester United",
+    "away": "Tottenham Hotspur",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_SCHEDULED",
+    "date": "2026-10-10T16:30Z"
+  }
+]
