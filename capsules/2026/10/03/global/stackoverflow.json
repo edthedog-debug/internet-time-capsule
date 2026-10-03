@@ -1,0 +1,228 @@
+[
+  {
+    "title": "Use JavascriptMessageListener with remote container",
+    "score": 0,
+    "views": 58,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "ironpdf"
+    ],
+    "link": "https://stackoverflow.com/questions/80007608/use-javascriptmessagelistener-with-remote-container"
+  },
+  {
+    "title": "С++ operator class",
+    "score": 0,
+    "views": 146,
+    "answers": 5,
+    "tags": [
+      "c++"
+    ],
+    "link": "https://stackoverflow.com/questions/80007542/%d0%a1-operator-class"
+  },
+  {
+    "title": "Does emeditor support dual-column layout?",
+    "score": -4,
+    "views": 33,
+    "answers": 1,
+    "tags": [
+      "emeditor"
+    ],
+    "link": "https://stackoverflow.com/questions/80007594/does-emeditor-support-dual-column-layout"
+  },
+  {
+    "title": "Calculate Pi in hadoop",
+    "score": -6,
+    "views": 60,
+    "answers": 0,
+    "tags": [
+      "java",
+      "hadoop",
+      "pi"
+    ],
+    "link": "https://stackoverflow.com/questions/80007602/calculate-pi-in-hadoop"
+  },
+  {
+    "title": "ASAN error on std::tuple pointer element assignment",
+    "score": -2,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "stdtuple"
+    ],
+    "link": "https://stackoverflow.com/questions/80007599/asan-error-on-stdtuple-pointer-element-assignment"
+  },
+  {
+    "title": "VSCode, CMake, MinGW, gcov: no coverage",
+    "score": 0,
+    "views": 50,
+    "answers": 1,
+    "tags": [
+      "vs-code",
+      "cmake",
+      "code-coverage",
+      "ctest"
+    ],
+    "link": "https://stackoverflow.com/questions/80007584/vscode-cmake-mingw-gcov-no-coverage"
+  },
+  {
+    "title": "Play two songs back to back in autoplay",
+    "score": 1,
+    "views": 70,
+    "answers": 1,
+    "tags": [
+      "html",
+      "audio-streaming"
+    ],
+    "link": "https://stackoverflow.com/questions/80007590/play-two-songs-back-to-back-in-autoplay"
+  },
+  {
+    "title": "Return an empty array from a function",
+    "score": -2,
+    "views": 72,
+    "answers": 1,
+    "tags": [
+      "arrays",
+      "vba"
+    ],
+    "link": "https://stackoverflow.com/questions/80007541/return-an-empty-array-from-a-function"
+  },
+  {
+    "title": "How to disable Y-axis panning and make Y-axis use calculated min and max value from highest and lowest price of the current candles on chart",
+    "score": 0,
+    "views": 16,
+    "answers": 0,
+    "tags": [
+      "flutter"
+    ],
+    "link": "https://stackoverflow.com/questions/80007600/how-to-disable-y-axis-panning-and-make-y-axis-use-calculated-min-and-max-value-f"
+  },
+  {
+    "title": "Input validation by data type best practices in C",
+    "score": 0,
+    "views": 206,
+    "answers": 3,
+    "tags": [
+      "best-practices",
+      "c"
+    ],
+    "link": "https://stackoverflow.com/questions/80007403/input-validation-by-data-type-best-practices-in-c"
+  },
+  {
+    "title": "VSCode Retain a multi-agent setup with both .claude and .github folders now that setting for chat.instructionsFilesLocations is deprecated",
+    "score": 0,
+    "views": 68,
+    "answers": 0,
+    "tags": [
+      "vs-code",
+      "vscode-copilot",
+      "claude-code"
+    ],
+    "link": "https://stackoverflow.com/questions/80007564/vscode-retain-a-multi-agent-setup-with-both-claude-and-github-folders-now-that"
+  },
+  {
+    "title": "How can I implement a concurrency-limited Promise pool while preserving input order and handling cancellation",
+    "score": -4,
+    "views": 61,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "async-await",
+      "es6-promise",
+      "abortcontroller"
+    ],
+    "link": "https://stackoverflow.com/questions/80007581/how-can-i-implement-a-concurrency-limited-promise-pool-while-preserving-input-or"
+  },
+  {
+    "title": "How to get plural string resource outside of Composable?",
+    "score": 2,
+    "views": 40,
+    "answers": 1,
+    "tags": [
+      "kotlin",
+      "android-jetpack-compose"
+    ],
+    "link": "https://stackoverflow.com/questions/80007554/how-to-get-plural-string-resource-outside-of-composable"
+  },
+  {
+    "title": "Finding value within nested dictionary with arrays",
+    "score": 1,
+    "views": 113,
+    "answers": 2,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80007452/finding-value-within-nested-dictionary-with-arrays"
+  },
+  {
+    "title": "How to make two attr.s instances equal each other in this code",
+    "score": -5,
+    "views": 93,
+    "answers": 3,
+    "tags": [
+      "python",
+      "python-attrs"
+    ],
+    "link": "https://stackoverflow.com/questions/80007474/how-to-make-two-attr-s-instances-equal-each-other-in-this-code"
+  },
+  {
+    "title": "Does an item expired in a MemoryCache become available for garbage collection?",
+    "score": 2,
+    "views": 83,
+    "answers": 2,
+    "tags": [
+      "c#",
+      ".net"
+    ],
+    "link": "https://stackoverflow.com/questions/80007502/does-an-item-expired-in-a-memorycache-become-available-for-garbage-collection"
+  },
+  {
+    "title": "GCC11 fails to create string or string_view from range iterators",
+    "score": 1,
+    "views": 102,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "c++20",
+      "std-ranges"
+    ],
+    "link": "https://stackoverflow.com/questions/80007510/gcc11-fails-to-create-string-or-string-view-from-range-iterators"
+  },
+  {
+    "title": "How do I use &quot;pmset&quot; Terminal sudo command programmatically in Swift without AuthorizationExecuteWithPrivileges",
+    "score": 0,
+    "views": 31,
+    "answers": 1,
+    "tags": [
+      "command-line",
+      "sudo",
+      "root",
+      "swift"
+    ],
+    "link": "https://stackoverflow.com/questions/80007558/how-do-i-use-pmset-terminal-sudo-command-programmatically-in-swift-without-aut"
+  },
+  {
+    "title": "Loosing files because of names encoding in R when using unzip - could be because of encoding (umlauts)",
+    "score": -4,
+    "views": 72,
+    "answers": 0,
+    "tags": [
+      "r",
+      "unzip"
+    ],
+    "link": "https://stackoverflow.com/questions/80007526/loosing-files-because-of-names-encoding-in-r-when-using-unzip-could-be-because"
+  },
+  {
+    "title": "How I make a PyTorch model bit-identical outputs across different GPUs, cuDNN versions, and CPU fallback, with no source of nondeterminism anywhere?",
+    "score": 1,
+    "views": 77,
+    "answers": 1,
+    "tags": [
+      "pytorch",
+      "floating-point",
+      "cuda"
+    ],
+    "link": "https://stackoverflow.com/questions/80007514/how-i-make-a-pytorch-model-bit-identical-outputs-across-different-gpus-cudnn-ve"
+  }
+]
