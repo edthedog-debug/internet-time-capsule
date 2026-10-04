@@ -1,0 +1,166 @@
+{
+"Buenos_Aires": {
+  "temp": 13.1,
+  "humidity": 89,
+  "wind": 6.9,
+  "code": 0
+}
+,
+"Toronto": {
+  "temp": 10.7,
+  "humidity": 70,
+  "wind": 12.4,
+  "code": 0
+}
+,
+"Singapore": {
+  "temp": 32.1,
+  "humidity": 56,
+  "wind": 9.4,
+  "code": 3
+}
+,
+"New_York": {
+  "temp": 14.2,
+  "humidity": 83,
+  "wind": 7.3,
+  "code": 0
+}
+,
+"Cairo": {
+  "temp": 18.4,
+  "humidity": 71,
+  "wind": 1.5,
+  "code": 0
+}
+,
+"Paris": {
+  "temp": 14.0,
+  "humidity": 77,
+  "wind": 9.0,
+  "code": 3
+}
+,
+"Seoul": {
+  "temp": 22.9,
+  "humidity": 52,
+  "wind": 6.2,
+  "code": 0
+}
+,
+"Nairobi": {
+  "temp": 16.1,
+  "humidity": 87,
+  "wind": 6.9,
+  "code": 51
+}
+,
+"Berlin": {
+  "temp": 12.9,
+  "humidity": 100,
+  "wind": 3.9,
+  "code": 45
+}
+,
+"Lima": {
+  "temp": 20.4,
+  "humidity": 85,
+  "wind": 12.1,
+  "code": 1
+}
+,
+"Moscow": {"temp":0,"humidity":0,"wind":0,"code":0}
+,
+"Tokyo": {
+  "temp": 22.0,
+  "humidity": 59,
+  "wind": 5.0,
+  "code": 2
+}
+,
+"Istanbul": {
+  "temp": 15.3,
+  "humidity": 73,
+  "wind": 10.7,
+  "code": 1
+}
+,
+"Dubai": {
+  "temp": 31.9,
+  "humidity": 66,
+  "wind": 8.7,
+  "code": 0
+}
+,
+"Sao_Paulo": {
+  "temp": 17.4,
+  "humidity": 93,
+  "wind": 8.8,
+  "code": 0
+}
+,
+"London": {
+  "temp": 14.0,
+  "humidity": 84,
+  "wind": 4.0,
+  "code": 0
+}
+,
+"Lagos": {
+  "temp": 25.5,
+  "humidity": 91,
+  "wind": 4.3,
+  "code": 51
+}
+,
+"Rome": {
+  "temp": 18.8,
+  "humidity": 91,
+  "wind": 2.3,
+  "code": 2
+}
+,
+"Mumbai": {
+  "temp": 32.3,
+  "humidity": 38,
+  "wind": 6.8,
+  "code": 0
+}
+,
+"Cape_Town": {
+  "temp": 13.0,
+  "humidity": 90,
+  "wind": 4.4,
+  "code": 0
+}
+,
+"Mexico_City": {
+  "temp": 15.3,
+  "humidity": 92,
+  "wind": 6.3,
+  "code": 3
+}
+,
+"Shanghai": {
+  "temp": 21.7,
+  "humidity": 83,
+  "wind": 10.4,
+  "code": 51
+}
+,
+"Jakarta": {
+  "temp": 34.2,
+  "humidity": 41,
+  "wind": 5.3,
+  "code": 2
+}
+,
+"Sydney": {"temp":0,"humidity":0,"wind":0,"code":0}
+,
+"Bangkok": {
+  "temp": 34.3,
+  "humidity": 50,
+  "wind": 4.8,
+  "code": 3
+}
+}

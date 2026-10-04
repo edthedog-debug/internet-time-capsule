@@ -1,0 +1,238 @@
+[
+  {
+    "title": "How to take inputs on multiple lines?",
+    "score": 0,
+    "views": 64,
+    "answers": 3,
+    "tags": [
+      "python",
+      "input"
+    ],
+    "link": "https://stackoverflow.com/questions/80007739/how-to-take-inputs-on-multiple-lines"
+  },
+  {
+    "title": "Resizing objects inside the image through Nano Banana 2 Lite",
+    "score": -3,
+    "views": 57,
+    "answers": 0,
+    "tags": [
+      "image",
+      "google-gemini"
+    ],
+    "link": "https://stackoverflow.com/questions/80007742/resizing-objects-inside-the-image-through-nano-banana-2-lite"
+  },
+  {
+    "title": "How do y&#39;all handle texting your clients and opportunity prospects and have them auto tracked in HubSpot?",
+    "score": -3,
+    "views": 37,
+    "answers": 0,
+    "tags": [
+      "hubspot"
+    ],
+    "link": "https://stackoverflow.com/questions/80007738/how-do-yall-handle-texting-your-clients-and-opportunity-prospects-and-have-them"
+  },
+  {
+    "title": "What should I do when a REST request times out but the operation may still be running?",
+    "score": 0,
+    "views": 74,
+    "answers": 2,
+    "tags": [
+      "advice",
+      "java",
+      "spring-boot",
+      "rest",
+      "distributed-system"
+    ],
+    "link": "https://stackoverflow.com/questions/80007732/what-should-i-do-when-a-rest-request-times-out-but-the-operation-may-still-be-ru"
+  },
+  {
+    "title": "GCC 6.5.0 C++11 compilation of concurrence.h: error: braces around scalar initializer for type ‘unsigned int’",
+    "score": 0,
+    "views": 61,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "compiler-errors",
+      "initialization",
+      "g++"
+    ],
+    "link": "https://stackoverflow.com/questions/80007729/gcc-6-5-0-c11-compilation-of-concurrence-h-error-braces-around-scalar-initia"
+  },
+  {
+    "title": "how to pass execution graph directly to HANA engine without SQL",
+    "score": 1,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "hana"
+    ],
+    "link": "https://stackoverflow.com/questions/80007727/how-to-pass-execution-graph-directly-to-hana-engine-without-sql"
+  },
+  {
+    "title": "Make clutter actor draggable in gnome shell",
+    "score": -3,
+    "views": 38,
+    "answers": 0,
+    "tags": [
+      "gnome-shell",
+      "gnome-shell-extensions",
+      "gjs"
+    ],
+    "link": "https://stackoverflow.com/questions/80007728/make-clutter-actor-draggable-in-gnome-shell"
+  },
+  {
+    "title": "Using CSS with XML to align table header cells with table body cells",
+    "score": 0,
+    "views": 59,
+    "answers": 1,
+    "tags": [
+      "css",
+      "xml"
+    ],
+    "link": "https://stackoverflow.com/questions/80007724/using-css-with-xml-to-align-table-header-cells-with-table-body-cells"
+  },
+  {
+    "title": "pip failes with ModuleNotFoundError: No module named &#39;_posixsubprocess&#39;",
+    "score": 0,
+    "views": 33,
+    "answers": 0,
+    "tags": [
+      "python-3.x",
+      "linux",
+      "pip"
+    ],
+    "link": "https://stackoverflow.com/questions/80007719/pip-failes-with-modulenotfounderror-no-module-named-posixsubprocess"
+  },
+  {
+    "title": "PDF viewer auto refresh on Android",
+    "score": -3,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "android"
+    ],
+    "link": "https://stackoverflow.com/questions/80007721/pdf-viewer-auto-refresh-on-android"
+  },
+  {
+    "title": "How to move the responsibility of executing some logic to the SQL Server instead of executing that logic inside the application?",
+    "score": 2,
+    "views": 84,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "sql-server",
+      "excel",
+      "asp.net-core",
+      "sqlbulkcopy"
+    ],
+    "link": "https://stackoverflow.com/questions/80007698/how-to-move-the-responsibility-of-executing-some-logic-to-the-sql-server-instead"
+  },
+  {
+    "title": "How to mutate multiply imputed data for estimateNetwork() in R? (mice, bootnet)",
+    "score": 0,
+    "views": 19,
+    "answers": 0,
+    "tags": [
+      "r",
+      "r-mice",
+      "network-analysis"
+    ],
+    "link": "https://stackoverflow.com/questions/80007722/how-to-mutate-multiply-imputed-data-for-estimatenetwork-in-r-mice-bootnet"
+  },
+  {
+    "title": "Confusing sequence of IntelliJ inspection after Kotlin conversion",
+    "score": 0,
+    "views": 31,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "kotlin",
+      "intellij-idea"
+    ],
+    "link": "https://stackoverflow.com/questions/80007707/confusing-sequence-of-intellij-inspection-after-kotlin-conversion"
+  },
+  {
+    "title": "Kubernetes Horizontal Pod Autoscaler (HPA) fails to scale down after CPU load drops",
+    "score": -5,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "kubernetes",
+      "devops",
+      "autoscaling",
+      "metrics-server",
+      "kubernetes-hpa"
+    ],
+    "link": "https://stackoverflow.com/questions/80007695/kubernetes-horizontal-pod-autoscaler-hpa-fails-to-scale-down-after-cpu-load-dr"
+  },
+  {
+    "title": "Design DB for a model with multiple data sources",
+    "score": -5,
+    "views": 73,
+    "answers": 2,
+    "tags": [
+      "advice",
+      "laravel",
+      "database"
+    ],
+    "link": "https://stackoverflow.com/questions/80007706/design-db-for-a-model-with-multiple-data-sources"
+  },
+  {
+    "title": "How to solve `Error CS0246: The type or namespace name &#39;Sylvan&#39; could not be found`",
+    "score": 0,
+    "views": 61,
+    "answers": 1,
+    "tags": [
+      ".net",
+      "visual-studio",
+      "solution",
+      "exceldatareader"
+    ],
+    "link": "https://stackoverflow.com/questions/80007679/how-to-solve-error-cs0246-the-type-or-namespace-name-sylvan-could-not-be-fou"
+  },
+  {
+    "title": "Declaring a С++ operator function that is friend to a class",
+    "score": -1,
+    "views": 192,
+    "answers": 5,
+    "tags": [
+      "c++"
+    ],
+    "link": "https://stackoverflow.com/questions/80007542/declaring-a-%d0%a1-operator-function-that-is-friend-to-a-class"
+  },
+  {
+    "title": "How to get result(text) from NamedOnnxValue?",
+    "score": -1,
+    "views": 63,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "onnx",
+      "onnx-coreml"
+    ],
+    "link": "https://stackoverflow.com/questions/80007632/how-to-get-resulttext-from-namedonnxvalue"
+  },
+  {
+    "title": "When using pygame events, I can&#39;t detect when a KEY_UP event happens for some reason",
+    "score": -2,
+    "views": 74,
+    "answers": 2,
+    "tags": [
+      "python",
+      "pygame"
+    ],
+    "link": "https://stackoverflow.com/questions/80007692/when-using-pygame-events-i-cant-detect-when-a-key-up-event-happens-for-some-re"
+  },
+  {
+    "title": "How to create movable and resizable native text in flutter?",
+    "score": 0,
+    "views": 45,
+    "answers": 1,
+    "tags": [
+      "flutter",
+      "dart"
+    ],
+    "link": "https://stackoverflow.com/questions/80007687/how-to-create-movable-and-resizable-native-text-in-flutter"
+  }
+]
