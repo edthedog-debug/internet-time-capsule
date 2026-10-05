@@ -1,0 +1,246 @@
+[
+  {
+    "title": "How to pass dependencies using interfaces while retaining functionality?",
+    "score": 0,
+    "views": 51,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "dependency-injection",
+      "interface"
+    ],
+    "link": "https://stackoverflow.com/questions/80007896/how-to-pass-dependencies-using-interfaces-while-retaining-functionality"
+  },
+  {
+    "title": "GitHub Copilot Agent in VS Code Insiders executes commands without asking for permission (Allow/Deny)",
+    "score": 0,
+    "views": 39,
+    "answers": 0,
+    "tags": [
+      "github-copilot",
+      "visual-studio-code-insiders"
+    ],
+    "link": "https://stackoverflow.com/questions/80007892/github-copilot-agent-in-vs-code-insiders-executes-commands-without-asking-for-pe"
+  },
+  {
+    "title": "Drag and Drop list, populated from database, and save the new list in a table",
+    "score": -2,
+    "views": 74,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "drag-and-drop"
+    ],
+    "link": "https://stackoverflow.com/questions/80007885/drag-and-drop-list-populated-from-database-and-save-the-new-list-in-a-table"
+  },
+  {
+    "title": "How does one implement nested LEFT JOIN in &quot;old style joins&quot; on SQL Server 4.2",
+    "score": 2,
+    "views": 91,
+    "answers": 2,
+    "tags": [
+      "sql-server",
+      "left-join"
+    ],
+    "link": "https://stackoverflow.com/questions/80007870/how-does-one-implement-nested-left-join-in-old-style-joins-on-sql-server-4-2"
+  },
+  {
+    "title": "Day by day tickets and sales per POS",
+    "score": -4,
+    "views": 85,
+    "answers": 0,
+    "tags": [
+      "sql",
+      "pivot-table"
+    ],
+    "link": "https://stackoverflow.com/questions/80007878/day-by-day-tickets-and-sales-per-pos"
+  },
+  {
+    "title": "NVCC 9 + GCC 6.5.0 having trouble with __int128 and __s128 - can I circumvent this?",
+    "score": 0,
+    "views": 47,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "gcc",
+      "compiler-errors",
+      "nvcc",
+      "int128"
+    ],
+    "link": "https://stackoverflow.com/questions/80007868/nvcc-9-gcc-6-5-0-having-trouble-with-int128-and-s128-can-i-circumvent-th"
+  },
+  {
+    "title": "Is there any useful pattern when coding with erlang?",
+    "score": -5,
+    "views": 59,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "erlang"
+    ],
+    "link": "https://stackoverflow.com/questions/80007876/is-there-any-useful-pattern-when-coding-with-erlang"
+  },
+  {
+    "title": "Match the beginning and end of a word that has &quot;-&quot;",
+    "score": -1,
+    "views": 92,
+    "answers": 2,
+    "tags": [
+      "vim"
+    ],
+    "link": "https://stackoverflow.com/questions/80007833/match-the-beginning-and-end-of-a-word-that-has"
+  },
+  {
+    "title": "Why do the pointer-to-member operators have lower precedence than their counterpart?",
+    "score": 6,
+    "views": 184,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "syntax",
+      "operator-precedence",
+      "language-design",
+      "pointer-to-member"
+    ],
+    "link": "https://stackoverflow.com/questions/80007784/why-do-the-pointer-to-member-operators-have-lower-precedence-than-their-counterp"
+  },
+  {
+    "title": "Need to integrate ChatGPT business account as an app in my Google for Non Profit account",
+    "score": -4,
+    "views": 103,
+    "answers": 1,
+    "tags": [
+      "openai-api",
+      "google-business"
+    ],
+    "link": "https://stackoverflow.com/questions/80007858/need-to-integrate-chatgpt-business-account-as-an-app-in-my-google-for-non-profit"
+  },
+  {
+    "title": "Why do RMWs require flushing of write buffer in TSO?",
+    "score": 2,
+    "views": 52,
+    "answers": 1,
+    "tags": [
+      "x86",
+      "cpu-architecture",
+      "atomic",
+      "memory-barriers"
+    ],
+    "link": "https://stackoverflow.com/questions/80007850/why-do-rmws-require-flushing-of-write-buffer-in-tso"
+  },
+  {
+    "title": "How does an MCP client discover tools from an MCP server?",
+    "score": -3,
+    "views": 68,
+    "answers": 1,
+    "tags": [
+      "rest",
+      "http",
+      "agent",
+      "model-context-protocol"
+    ],
+    "link": "https://stackoverflow.com/questions/80007857/how-does-an-mcp-client-discover-tools-from-an-mcp-server"
+  },
+  {
+    "title": "Avoiding memory aliasing errors in R",
+    "score": -3,
+    "views": 70,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "r",
+      "memory",
+      "alias"
+    ],
+    "link": "https://stackoverflow.com/questions/80007854/avoiding-memory-aliasing-errors-in-r"
+  },
+  {
+    "title": "I&#39;m trying to get started with Flutter, but I keep running into errors",
+    "score": -3,
+    "views": 60,
+    "answers": 0,
+    "tags": [
+      "flutter"
+    ],
+    "link": "https://stackoverflow.com/questions/80007843/im-trying-to-get-started-with-flutter-but-i-keep-running-into-errors"
+  },
+  {
+    "title": "Canonicalising unit names from a flat file in a normalised database structure",
+    "score": 2,
+    "views": 137,
+    "answers": 3,
+    "tags": [
+      "sql",
+      "postgresql",
+      "database-design",
+      "database-normalization",
+      "surrogate-key"
+    ],
+    "link": "https://stackoverflow.com/questions/80007765/canonicalising-unit-names-from-a-flat-file-in-a-normalised-database-structure"
+  },
+  {
+    "title": "Using the index # of one array to call the index # of another array",
+    "score": 3,
+    "views": 106,
+    "answers": 4,
+    "tags": [
+      "c#",
+      "arrays",
+      "indexing",
+      "morse-code"
+    ],
+    "link": "https://stackoverflow.com/questions/80007775/using-the-index-of-one-array-to-call-the-index-of-another-array"
+  },
+  {
+    "title": "SwiftUI zoom swipe-back briefly hides the large title and leaves the destination toolbar visible",
+    "score": 1,
+    "views": 35,
+    "answers": 0,
+    "tags": [
+      "ios",
+      "swift",
+      "swiftui",
+      "swiftui-navigationstack"
+    ],
+    "link": "https://stackoverflow.com/questions/80007851/swiftui-zoom-swipe-back-briefly-hides-the-large-title-and-leaves-the-destination"
+  },
+  {
+    "title": "Searching for PDFs with fixed page range on the internet",
+    "score": -2,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "google-chrome",
+      "pdf",
+      "search"
+    ],
+    "link": "https://stackoverflow.com/questions/80007848/searching-for-pdfs-with-fixed-page-range-on-the-internet"
+  },
+  {
+    "title": "What should I do when a REST request times out but the operation may still be running?",
+    "score": 1,
+    "views": 133,
+    "answers": 3,
+    "tags": [
+      "advice",
+      "java",
+      "spring-boot",
+      "rest",
+      "distributed-system"
+    ],
+    "link": "https://stackoverflow.com/questions/80007732/what-should-i-do-when-a-rest-request-times-out-but-the-operation-may-still-be-ru"
+  },
+  {
+    "title": "How to name a string variable inside a \\foreach loop using the loop variable",
+    "score": -1,
+    "views": 50,
+    "answers": 0,
+    "tags": [
+      "pdflatex",
+      "pgfplots",
+      "texworks"
+    ],
+    "link": "https://stackoverflow.com/questions/80007839/how-to-name-a-string-variable-inside-a-foreach-loop-using-the-loop-variable"
+  }
+]
