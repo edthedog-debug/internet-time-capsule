@@ -1,0 +1,231 @@
+[
+  {
+    "title": "Graph Analysis - How do I handle negative edge weights in betweenness centrality and modularity",
+    "score": -1,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "graph",
+      "networkx"
+    ],
+    "link": "https://stackoverflow.com/questions/80008116/graph-analysis-how-do-i-handle-negative-edge-weights-in-betweenness-centrality"
+  },
+  {
+    "title": "How can I edit this Google Apps Script to remove the &quot;search for unchecked checkboxes&quot; element?",
+    "score": 0,
+    "views": 32,
+    "answers": 1,
+    "tags": [
+      "google-sheets",
+      "google-apps-script"
+    ],
+    "link": "https://stackoverflow.com/questions/80008105/how-can-i-edit-this-google-apps-script-to-remove-the-search-for-unchecked-check"
+  },
+  {
+    "title": "Can CSS anchor positioning be scoped per component without generating unique anchor names?",
+    "score": 0,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "html",
+      "css",
+      "popover",
+      "css-anchor"
+    ],
+    "link": "https://stackoverflow.com/questions/80008104/can-css-anchor-positioning-be-scoped-per-component-without-generating-unique-anc"
+  },
+  {
+    "title": "How do I constrain a generic type to allow struct types that embed a given type?",
+    "score": 1,
+    "views": 61,
+    "answers": 1,
+    "tags": [
+      "go",
+      "generics",
+      "types"
+    ],
+    "link": "https://stackoverflow.com/questions/80008099/how-do-i-constrain-a-generic-type-to-allow-struct-types-that-embed-a-given-type"
+  },
+  {
+    "title": "Reading and writing data into a list containing a data class",
+    "score": -4,
+    "views": 41,
+    "answers": 1,
+    "tags": [
+      "list",
+      "kotlin",
+      "data-class"
+    ],
+    "link": "https://stackoverflow.com/questions/80008089/reading-and-writing-data-into-a-list-containing-a-data-class"
+  },
+  {
+    "title": "SQL Cannot ORDER BY literal value",
+    "score": -2,
+    "views": 72,
+    "answers": 1,
+    "tags": [
+      "sql",
+      "google-bigquery"
+    ],
+    "link": "https://stackoverflow.com/questions/80008091/sql-cannot-order-by-literal-value"
+  },
+  {
+    "title": "Why I am unable to set Groups despite user having an Id?",
+    "score": 0,
+    "views": 41,
+    "answers": 1,
+    "tags": [
+      "python",
+      "django"
+    ],
+    "link": "https://stackoverflow.com/questions/80008079/why-i-am-unable-to-set-groups-despite-user-having-an-id"
+  },
+  {
+    "title": "Assign literal value to a dynamic property of given type of a generic object",
+    "score": 1,
+    "views": 34,
+    "answers": 0,
+    "tags": [
+      "typescript"
+    ],
+    "link": "https://stackoverflow.com/questions/80008078/assign-literal-value-to-a-dynamic-property-of-given-type-of-a-generic-object"
+  },
+  {
+    "title": "Is there a standard way to deal with columns whose value is rarely different from the default?",
+    "score": 1,
+    "views": 139,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "sql"
+    ],
+    "link": "https://stackoverflow.com/questions/80008049/is-there-a-standard-way-to-deal-with-columns-whose-value-is-rarely-different-fro"
+  },
+  {
+    "title": "focusableInTouchMode has odd side-effects",
+    "score": 0,
+    "views": 48,
+    "answers": 1,
+    "tags": [
+      "android"
+    ],
+    "link": "https://stackoverflow.com/questions/80008085/focusableintouchmode-has-odd-side-effects"
+  },
+  {
+    "title": "Why _getch() and std::cin.get() act differently while working with screen buffers in winapi?",
+    "score": -3,
+    "views": 70,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "winapi",
+      "console"
+    ],
+    "link": "https://stackoverflow.com/questions/80008081/why-getch-and-stdcin-get-act-differently-while-working-with-screen-buffer"
+  },
+  {
+    "title": "How to detect the number of calls from the same printf() to avoid overbuffering",
+    "score": 1,
+    "views": 266,
+    "answers": 3,
+    "tags": [
+      "c"
+    ],
+    "link": "https://stackoverflow.com/questions/80008011/how-to-detect-the-number-of-calls-from-the-same-printf-to-avoid-overbuffering"
+  },
+  {
+    "title": "Random lines on geom_tile plot",
+    "score": 0,
+    "views": 41,
+    "answers": 0,
+    "tags": [
+      "r",
+      "ggplot2",
+      "geom-tile"
+    ],
+    "link": "https://stackoverflow.com/questions/80008080/random-lines-on-geom-tile-plot"
+  },
+  {
+    "title": "How to combine pivot table columns?",
+    "score": 1,
+    "views": 86,
+    "answers": 2,
+    "tags": [
+      "sql",
+      "sql-server",
+      "pivot-table",
+      "days"
+    ],
+    "link": "https://stackoverflow.com/questions/80008024/how-to-combine-pivot-table-columns"
+  },
+  {
+    "title": "Using Kotlin Data Class in an array and accessing data items within it",
+    "score": 1,
+    "views": 98,
+    "answers": 2,
+    "tags": [
+      "kotlin"
+    ],
+    "link": "https://stackoverflow.com/questions/80007986/using-kotlin-data-class-in-an-array-and-accessing-data-items-within-it"
+  },
+  {
+    "title": "`NonNullable&lt;Generic&gt;` always returns `never` when under `Generic extends undefined`",
+    "score": 2,
+    "views": 73,
+    "answers": 1,
+    "tags": [
+      "typescript",
+      "typescript-generics"
+    ],
+    "link": "https://stackoverflow.com/questions/80008061/nonnullablegeneric-always-returns-never-when-under-generic-extends-undefi"
+  },
+  {
+    "title": "Review my Star Schema design: Is storing changing customer attributes directly in the Fact table valid or flawed?",
+    "score": -2,
+    "views": 190,
+    "answers": 0,
+    "tags": [
+      "sql-server",
+      "database-design",
+      "data-warehouse",
+      "dimensional-modeling",
+      "star-schema"
+    ],
+    "link": "https://stackoverflow.com/questions/80007928/review-my-star-schema-design-is-storing-changing-customer-attributes-directly-i"
+  },
+  {
+    "title": "Servo not responding when controlling with Raspberry pi",
+    "score": -4,
+    "views": 79,
+    "answers": 0,
+    "tags": [
+      "python",
+      "servo",
+      "gpiozero"
+    ],
+    "link": "https://stackoverflow.com/questions/80008045/servo-not-responding-when-controlling-with-raspberry-pi"
+  },
+  {
+    "title": "Better way of doing logging in Python?",
+    "score": -9,
+    "views": 321,
+    "answers": 0,
+    "tags": [
+      "python",
+      "logging"
+    ],
+    "link": "https://stackoverflow.com/questions/80008004/better-way-of-doing-logging-in-python"
+  },
+  {
+    "title": "expo react native app location background task only run when the app is in foreground",
+    "score": 0,
+    "views": 85,
+    "answers": 1,
+    "tags": [
+      "android",
+      "react-native"
+    ],
+    "link": "https://stackoverflow.com/questions/80008034/expo-react-native-app-location-background-task-only-run-when-the-app-is-in-foreg"
+  }
+]
