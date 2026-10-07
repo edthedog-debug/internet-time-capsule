@@ -1,0 +1,240 @@
+[
+  {
+    "title": "What are the differences between CGI and ASP?",
+    "score": -4,
+    "views": 18,
+    "answers": 0,
+    "tags": [
+      "advice"
+    ],
+    "link": "https://stackoverflow.com/questions/80008376/what-are-the-differences-between-cgi-and-asp"
+  },
+  {
+    "title": "Secure Code Warrior Server side formula injection via CSV",
+    "score": -2,
+    "views": 11,
+    "answers": 0,
+    "tags": [
+      "advice"
+    ],
+    "link": "https://stackoverflow.com/questions/80008374/secure-code-warrior-server-side-formula-injection-via-csv"
+  },
+  {
+    "title": "How to convert a UUID to an unsigned long?",
+    "score": 1,
+    "views": 45,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "uuid"
+    ],
+    "link": "https://stackoverflow.com/questions/80008360/how-to-convert-a-uuid-to-an-unsigned-long"
+  },
+  {
+    "title": "Why is git-filter not permanently deleting files from my repository?",
+    "score": -1,
+    "views": 44,
+    "answers": 0,
+    "tags": [
+      "python",
+      "git",
+      "gitignore"
+    ],
+    "link": "https://stackoverflow.com/questions/80008362/why-is-git-filter-not-permanently-deleting-files-from-my-repository"
+  },
+  {
+    "title": "VBA macro ms word - change photo caption based on reference within file name",
+    "score": 0,
+    "views": 24,
+    "answers": 2,
+    "tags": [
+      "vba",
+      "ms-word",
+      "caption",
+      "fig",
+      "figcaption"
+    ],
+    "link": "https://stackoverflow.com/questions/80008361/vba-macro-ms-word-change-photo-caption-based-on-reference-within-file-name"
+  },
+  {
+    "title": "How to read two elements of an array using operator&gt;&gt; in C++?",
+    "score": -1,
+    "views": 147,
+    "answers": 2,
+    "tags": [
+      "c++",
+      "arrays"
+    ],
+    "link": "https://stackoverflow.com/questions/80008335/how-to-read-two-elements-of-an-array-using-operator-in-c"
+  },
+  {
+    "title": "C++ has pointers, smart pointers and references for indirect access, so what is std::indirect?",
+    "score": 4,
+    "views": 214,
+    "answers": 3,
+    "tags": [
+      "c++",
+      "smart-pointers",
+      "value-type",
+      "reference-type",
+      "c++26"
+    ],
+    "link": "https://stackoverflow.com/questions/80008249/c-has-pointers-smart-pointers-and-references-for-indirect-access-so-what-is"
+  },
+  {
+    "title": "Why chmod command is not permitted in WSL Ubuntu on a Windows 11 system?",
+    "score": -4,
+    "views": 47,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "unix",
+      "windows-subsystem-for-linux",
+      "chmod"
+    ],
+    "link": "https://stackoverflow.com/questions/80008300/why-chmod-command-is-not-permitted-in-wsl-ubuntu-on-a-windows-11-system"
+  },
+  {
+    "title": "MCPJam Playground never renders a tool&#39;s _meta.ui.resourceUri widget (MCP Apps / ui:// resource) even though resources/read succeeds",
+    "score": 0,
+    "views": 40,
+    "answers": 0,
+    "tags": [
+      "large-language-model",
+      "model-context-protocol",
+      "mcp-server"
+    ],
+    "link": "https://stackoverflow.com/questions/80008341/mcpjam-playground-never-renders-a-tools-meta-ui-resourceuri-widget-mcp-apps"
+  },
+  {
+    "title": "BAT file doesn&#39;t seem to run, but code works on command line",
+    "score": -5,
+    "views": 105,
+    "answers": 1,
+    "tags": [
+      "batch-file",
+      "cmd"
+    ],
+    "link": "https://stackoverflow.com/questions/80008290/bat-file-doesnt-seem-to-run-but-code-works-on-command-line"
+  },
+  {
+    "title": "How to get SendAs emails from Account in Outlook VSTO C# code?",
+    "score": -3,
+    "views": 53,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "email",
+      "outlook",
+      "vsto"
+    ],
+    "link": "https://stackoverflow.com/questions/80008310/how-to-get-sendas-emails-from-account-in-outlook-vsto-c-code"
+  },
+  {
+    "title": "Regex replace group reference and Unicode escape conflict",
+    "score": 0,
+    "views": 87,
+    "answers": 2,
+    "tags": [
+      "python",
+      "regex",
+      "unicode"
+    ],
+    "link": "https://stackoverflow.com/questions/80008271/regex-replace-group-reference-and-unicode-escape-conflict"
+  },
+  {
+    "title": "How do I get all hosts on my Mininet custom topology to respond to ping using pingall?",
+    "score": 0,
+    "views": 89,
+    "answers": 1,
+    "tags": [
+      "python",
+      "mininet"
+    ],
+    "link": "https://stackoverflow.com/questions/80008174/how-do-i-get-all-hosts-on-my-mininet-custom-topology-to-respond-to-ping-using-pi"
+  },
+  {
+    "title": "trying to configure apparmor for mariadb",
+    "score": -2,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "ubuntu",
+      "mariadb",
+      "apparmor",
+      "mysqld-multi"
+    ],
+    "link": "https://stackoverflow.com/questions/80008325/trying-to-configure-apparmor-for-mariadb"
+  },
+  {
+    "title": "Problems with Webview - Kotlin Android development",
+    "score": -2,
+    "views": 60,
+    "answers": 0,
+    "tags": [
+      "android",
+      "kotlin"
+    ],
+    "link": "https://stackoverflow.com/questions/80008303/problems-with-webview-kotlin-android-development"
+  },
+  {
+    "title": "&quot;ng add @angular/material&quot; command fails with &quot;Error: ERR_PNPM_ADDING_TO_ROOT&quot;",
+    "score": 0,
+    "views": 21,
+    "answers": 1,
+    "tags": [
+      "angular",
+      "npm",
+      "pnpm"
+    ],
+    "link": "https://stackoverflow.com/questions/80008328/ng-add-angular-material-command-fails-with-error-err-pnpm-adding-to-root"
+  },
+  {
+    "title": "Sorting Objects by Numerical Value Not Working For Two Sets?",
+    "score": -4,
+    "views": 48,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "arrays",
+      "sorting",
+      "integer"
+    ],
+    "link": "https://stackoverflow.com/questions/80008318/sorting-objects-by-numerical-value-not-working-for-two-sets"
+  },
+  {
+    "title": "Why doesn&#39;t Dump() seem to work inside my Linq query?",
+    "score": 0,
+    "views": 20,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "linqpad"
+    ],
+    "link": "https://stackoverflow.com/questions/80008324/why-doesnt-dump-seem-to-work-inside-my-linq-query"
+  },
+  {
+    "title": "MinGW g++ result of std::source_location is a relative path. Should it be absolute?",
+    "score": 2,
+    "views": 110,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "mingw"
+    ],
+    "link": "https://stackoverflow.com/questions/80008235/mingw-g-result-of-stdsource-location-is-a-relative-path-should-it-be-absolu"
+  },
+  {
+    "title": "Converting vector&lt;vector&lt;int&gt;&gt; to int",
+    "score": -1,
+    "views": 186,
+    "answers": 2,
+    "tags": [
+      "c++",
+      "iterator",
+      "stdvector",
+      "dereference"
+    ],
+    "link": "https://stackoverflow.com/questions/80008150/converting-vectorvectorint-to-int"
+  }
+]
