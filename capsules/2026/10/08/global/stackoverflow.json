@@ -1,0 +1,235 @@
+[
+  {
+    "title": "`typeof` operator may return unpadded structs?",
+    "score": 0,
+    "views": 26,
+    "answers": 0,
+    "tags": [
+      "c",
+      "language-lawyer",
+      "abi",
+      "c23"
+    ],
+    "link": "https://stackoverflow.com/questions/80008596/typeof-operator-may-return-unpadded-structs"
+  },
+  {
+    "title": "How to declare quorum queues with RabbitAmqpAdmin in Spring AMQP 1.0?",
+    "score": 0,
+    "views": 17,
+    "answers": 0,
+    "tags": [
+      "java",
+      "spring-boot",
+      "amqp",
+      "spring-amqp"
+    ],
+    "link": "https://stackoverflow.com/questions/80008597/how-to-declare-quorum-queues-with-rabbitamqpadmin-in-spring-amqp-1-0"
+  },
+  {
+    "title": "How to feed select form links back into CrawlSpider engine for pagination",
+    "score": -1,
+    "views": 17,
+    "answers": 1,
+    "tags": [
+      "scrapy"
+    ],
+    "link": "https://stackoverflow.com/questions/80008595/how-to-feed-select-form-links-back-into-crawlspider-engine-for-pagination"
+  },
+  {
+    "title": "Why does the GCC compiler specify its operands and mnemonics using the low-order bytes instead of using the appropriate word size?",
+    "score": 1,
+    "views": 58,
+    "answers": 2,
+    "tags": [
+      "c",
+      "assembly",
+      "gcc",
+      "x86-64",
+      "compiler-construction"
+    ],
+    "link": "https://stackoverflow.com/questions/80008585/why-does-the-gcc-compiler-specify-its-operands-and-mnemonics-using-the-low-order"
+  },
+  {
+    "title": "Nested members using std::shared_ptr",
+    "score": 2,
+    "views": 72,
+    "answers": 3,
+    "tags": [
+      "c++",
+      "shared-ptr"
+    ],
+    "link": "https://stackoverflow.com/questions/80008577/nested-members-using-stdshared-ptr"
+  },
+  {
+    "title": "Windows and nginx and php, relative html folder outside nginx folder not working?",
+    "score": 0,
+    "views": 40,
+    "answers": 0,
+    "tags": [
+      "php",
+      "nginx"
+    ],
+    "link": "https://stackoverflow.com/questions/80008589/windows-and-nginx-and-php-relative-html-folder-outside-nginx-folder-not-working"
+  },
+  {
+    "title": "What is wrong with this SQL Server procedure?",
+    "score": -2,
+    "views": 58,
+    "answers": 1,
+    "tags": [
+      "sql-server",
+      "stored-procedures"
+    ],
+    "link": "https://stackoverflow.com/questions/80008561/what-is-wrong-with-this-sql-server-procedure"
+  },
+  {
+    "title": "How does dependency injection work at a low level?",
+    "score": 0,
+    "views": 71,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "c#",
+      ".net-core"
+    ],
+    "link": "https://stackoverflow.com/questions/80008542/how-does-dependency-injection-work-at-a-low-level"
+  },
+  {
+    "title": "How can I make a csv file in C++ containing data from arrays so I can visualize them in Python?",
+    "score": -3,
+    "views": 109,
+    "answers": 2,
+    "tags": [
+      "c++",
+      "csv",
+      "export-to-csv"
+    ],
+    "link": "https://stackoverflow.com/questions/80008564/how-can-i-make-a-csv-file-in-c-containing-data-from-arrays-so-i-can-visualize"
+  },
+  {
+    "title": "Rust Ownership and Lifetimes in Multi-threaded Matrix Multiplication (No Locks)",
+    "score": 0,
+    "views": 38,
+    "answers": 1,
+    "tags": [
+      "multithreading",
+      "rust",
+      "matrix-multiplication"
+    ],
+    "link": "https://stackoverflow.com/questions/80008554/rust-ownership-and-lifetimes-in-multi-threaded-matrix-multiplication-no-locks"
+  },
+  {
+    "title": "combining speaker diarization and speech adaptation causes a code 13 INTERNAL error",
+    "score": 0,
+    "views": 17,
+    "answers": 0,
+    "tags": [
+      "speech-to-text",
+      "chirp"
+    ],
+    "link": "https://stackoverflow.com/questions/80008576/combining-speaker-diarization-and-speech-adaptation-causes-a-code-13-internal-er"
+  },
+  {
+    "title": "Why does either.fold(identity, _ -&gt; fail()) trigger the &quot;dead code&quot; warning with -Wdead-code?",
+    "score": 0,
+    "views": 52,
+    "answers": 1,
+    "tags": [
+      "scala",
+      "scalatest",
+      "dead-code",
+      "scalac",
+      "scala-2.13"
+    ],
+    "link": "https://stackoverflow.com/questions/80008555/why-does-either-foldidentity-fail-trigger-the-dead-code-warning-with"
+  },
+  {
+    "title": "How to backup a Jupyter Notebook?",
+    "score": -1,
+    "views": 71,
+    "answers": 1,
+    "tags": [
+      "jupyter-notebook"
+    ],
+    "link": "https://stackoverflow.com/questions/80008544/how-to-backup-a-jupyter-notebook"
+  },
+  {
+    "title": "How to split and name Audio Hijack Recordings based on Spotify Metadata",
+    "score": -7,
+    "views": 55,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "audio",
+      "applescript",
+      "spotify"
+    ],
+    "link": "https://stackoverflow.com/questions/80008550/how-to-split-and-name-audio-hijack-recordings-based-on-spotify-metadata"
+  },
+  {
+    "title": "How to request JSON data from NYT, BLS, Census, and NewsAPI using Python requests?",
+    "score": -5,
+    "views": 50,
+    "answers": 0,
+    "tags": [
+      "python",
+      "json",
+      "testing"
+    ],
+    "link": "https://stackoverflow.com/questions/80008553/how-to-request-json-data-from-nyt-bls-census-and-newsapi-using-python-request"
+  },
+  {
+    "title": "CS50s finance - stuck at : buy handles valid purchase",
+    "score": -7,
+    "views": 88,
+    "answers": 0,
+    "tags": [
+      "python",
+      "cs50"
+    ],
+    "link": "https://stackoverflow.com/questions/80008526/cs50s-finance-stuck-at-buy-handles-valid-purchase"
+  },
+  {
+    "title": "Some redraws are suspended during a drag gesture",
+    "score": 0,
+    "views": 66,
+    "answers": 0,
+    "tags": [
+      "swiftui"
+    ],
+    "link": "https://stackoverflow.com/questions/80008530/some-redraws-are-suspended-during-a-drag-gesture"
+  },
+  {
+    "title": "How to test NgRx (v22) effects using vitest?",
+    "score": 0,
+    "views": 28,
+    "answers": 0,
+    "tags": [
+      "angular",
+      "ngrx",
+      "vitest"
+    ],
+    "link": "https://stackoverflow.com/questions/80008543/how-to-test-ngrx-v22-effects-using-vitest"
+  },
+  {
+    "title": "How can I get the Angular component name from a global ErrorHandler in a production build?",
+    "score": 0,
+    "views": 59,
+    "answers": 0,
+    "tags": [
+      "angular"
+    ],
+    "link": "https://stackoverflow.com/questions/80008523/how-can-i-get-the-angular-component-name-from-a-global-errorhandler-in-a-product"
+  },
+  {
+    "title": "Blazor web app not working when defined as library and loaded by other assembly (upgrade from .NET 8 to .NET 10)",
+    "score": 0,
+    "views": 41,
+    "answers": 0,
+    "tags": [
+      "blazor",
+      ".net-10.0"
+    ],
+    "link": "https://stackoverflow.com/questions/80008522/blazor-web-app-not-working-when-defined-as-library-and-loaded-by-other-assembly"
+  }
+]
