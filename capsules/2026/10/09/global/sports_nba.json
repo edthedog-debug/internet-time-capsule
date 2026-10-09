@@ -1,0 +1,50 @@
+[
+  {
+    "home": "Cleveland Cavaliers",
+    "away": "Boston Celtics",
+    "home_score": "113",
+    "away_score": "124",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-08T23:00Z"
+  },
+  {
+    "home": "Miami Heat",
+    "away": "New Orleans Pelicans",
+    "home_score": "128",
+    "away_score": "118",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-08T23:30Z"
+  },
+  {
+    "home": "Brooklyn Nets",
+    "away": "Philadelphia 76ers",
+    "home_score": "114",
+    "away_score": "108",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-08T23:30Z"
+  },
+  {
+    "home": "New York Knicks",
+    "away": "Washington Wizards",
+    "home_score": "109",
+    "away_score": "111",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-08T23:30Z"
+  },
+  {
+    "home": "San Antonio Spurs",
+    "away": "Atlanta Hawks",
+    "home_score": "116",
+    "away_score": "123",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-09T00:00Z"
+  },
+  {
+    "home": "Los Angeles Lakers",
+    "away": "Sacramento Kings",
+    "home_score": "74",
+    "away_score": "69",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-10-09T02:45Z"
+  }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "title": "How do I create a windows app in [NodeJS]",
+    "score": -4,
+    "views": 32,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "node.js",
+      "windows",
+      "node-modules"
+    ],
+    "link": "https://stackoverflow.com/questions/80008821/how-do-i-create-a-windows-app-in-nodejs"
+  },
+  {
+    "title": "Why does async void event handler swallow exceptions in .NET, and what&#39;s the proper pattern for async event handling?",
+    "score": -1,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "wpf"
+    ],
+    "link": "https://stackoverflow.com/questions/80008814/why-does-async-void-event-handler-swallow-exceptions-in-net-and-whats-the-pro"
+  },
+  {
+    "title": "Stripe connect live account creation error",
+    "score": -2,
+    "views": 17,
+    "answers": 0,
+    "tags": [
+      "stripe-payments"
+    ],
+    "link": "https://stackoverflow.com/questions/80008820/stripe-connect-live-account-creation-error"
+  },
+  {
+    "title": "Is a dedicated MySQL replica for AI/agent traffic worth the cost and routing complexity?",
+    "score": -1,
+    "views": 66,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "mysql"
+    ],
+    "link": "https://stackoverflow.com/questions/80008815/is-a-dedicated-mysql-replica-for-ai-agent-traffic-worth-the-cost-and-routing-com"
+  },
+  {
+    "title": "How to make use of Rust functions/structs in rust/bindings/bindings_generated.rs?",
+    "score": 0,
+    "views": 31,
+    "answers": 0,
+    "tags": [
+      "rust",
+      "linux-kernel",
+      "rust-bindgen"
+    ],
+    "link": "https://stackoverflow.com/questions/80008811/how-to-make-use-of-rust-functions-structs-in-rust-bindings-bindings-generated-rs"
+  },
+  {
+    "title": "How-to color code individual lines of kable table in Quarto",
+    "score": 0,
+    "views": 39,
+    "answers": 1,
+    "tags": [
+      "r",
+      "quarto",
+      "kable"
+    ],
+    "link": "https://stackoverflow.com/questions/80008803/how-to-color-code-individual-lines-of-kable-table-in-quarto"
+  },
+  {
+    "title": "VScode kotlin unresolved reference println",
+    "score": -4,
+    "views": 37,
+    "answers": 0,
+    "tags": [
+      "kotlin",
+      "vs-code",
+      "debugging"
+    ],
+    "link": "https://stackoverflow.com/questions/80008805/vscode-kotlin-unresolved-reference-println"
+  },
+  {
+    "title": "How to function in Node.js without libraries",
+    "score": -4,
+    "views": 53,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "html",
+      "css",
+      "node.js",
+      "node-modules"
+    ],
+    "link": "https://stackoverflow.com/questions/80008799/how-to-function-in-node-js-without-libraries"
+  },
+  {
+    "title": "legendry unable to nest axis guide",
+    "score": 0,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "r",
+      "ggplot2",
+      "nested",
+      "axis"
+    ],
+    "link": "https://stackoverflow.com/questions/80008798/legendry-unable-to-nest-axis-guide"
+  },
+  {
+    "title": "Why does the PHP website example for create_session_id include a line that sets use_strict_mode to 0?",
+    "score": -3,
+    "views": 72,
+    "answers": 1,
+    "tags": [
+      "php",
+      "session"
+    ],
+    "link": "https://stackoverflow.com/questions/80008792/why-does-the-php-website-example-for-create-session-id-include-a-line-that-sets"
+  },
+  {
+    "title": "Why do some tags I am passing into createContextualFragment not appear as elements in the resulting DocumentFragment?",
+    "score": 1,
+    "views": 72,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "dom",
+      "html-parsing",
+      "documentfragment"
+    ],
+    "link": "https://stackoverflow.com/questions/80008787/why-do-some-tags-i-am-passing-into-createcontextualfragment-not-appear-as-elemen"
+  },
+  {
+    "title": "How to read Chrome cookies from Delphi 12?",
+    "score": -4,
+    "views": 43,
+    "answers": 0,
+    "tags": [
+      "google-chrome",
+      "delphi",
+      "delphi-12-athens"
+    ],
+    "link": "https://stackoverflow.com/questions/80008786/how-to-read-chrome-cookies-from-delphi-12"
+  },
+  {
+    "title": "I can&#39;t login to Snowflake, can&#39;t get my password reset link sent to my account and am being charged for an account I can&#39;t access",
+    "score": -5,
+    "views": 82,
+    "answers": 0,
+    "tags": [
+      "authentication",
+      "snowflake-cloud-data-platform"
+    ],
+    "link": "https://stackoverflow.com/questions/80008781/i-cant-login-to-snowflake-cant-get-my-password-reset-link-sent-to-my-account"
+  },
+  {
+    "title": "Why does the GCC compiler generate operands and mnemonics that specify just the low-order bytes instead of using the declared size?",
+    "score": 5,
+    "views": 199,
+    "answers": 2,
+    "tags": [
+      "c",
+      "assembly",
+      "gcc",
+      "x86-64",
+      "compiler-construction"
+    ],
+    "link": "https://stackoverflow.com/questions/80008585/why-does-the-gcc-compiler-generate-operands-and-mnemonics-that-specify-just-the"
+  },
+  {
+    "title": "Securing App&#39;s Access to Database using Entra/MAL",
+    "score": -4,
+    "views": 51,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "authentication",
+      "authorization",
+      "microsoft-entra-id"
+    ],
+    "link": "https://stackoverflow.com/questions/80008782/securing-apps-access-to-database-using-entra-mal"
+  },
+  {
+    "title": "Unity custom Ui shader not alpha blending properly with render to texture?",
+    "score": 1,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "unity-game-engine",
+      "shader",
+      "hlsl"
+    ],
+    "link": "https://stackoverflow.com/questions/80008767/unity-custom-ui-shader-not-alpha-blending-properly-with-render-to-texture"
+  },
+  {
+    "title": "How can I preserve ID3 metadata when converting audio files to MP3 in Python?",
+    "score": -5,
+    "views": 86,
+    "answers": 0,
+    "tags": [
+      "python",
+      "audio",
+      "metadata",
+      "mp3",
+      "id3"
+    ],
+    "link": "https://stackoverflow.com/questions/80008773/how-can-i-preserve-id3-metadata-when-converting-audio-files-to-mp3-in-python"
+  },
+  {
+    "title": "Select only if ID value is X and no other value",
+    "score": 0,
+    "views": 166,
+    "answers": 7,
+    "tags": [
+      "sql",
+      "where-clause",
+      "exists",
+      "having",
+      "sql-except"
+    ],
+    "link": "https://stackoverflow.com/questions/80008655/select-only-if-id-value-is-x-and-no-other-value"
+  },
+  {
+    "title": "image getting cached on an &lt;img&gt; tag but not on background-image on a &lt;button&gt; tag",
+    "score": 0,
+    "views": 74,
+    "answers": 1,
+    "tags": [
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/80008733/image-getting-cached-on-an-img-tag-but-not-on-background-image-on-a-button-t"
+  },
+  {
+    "title": "Print subscript character to console in Java",
+    "score": 0,
+    "views": 100,
+    "answers": 2,
+    "tags": [
+      "java",
+      "character-encoding",
+      "console"
+    ],
+    "link": "https://stackoverflow.com/questions/80008756/print-subscript-character-to-console-in-java"
+  }
+]
