@@ -1,0 +1,34 @@
+[
+  {
+    "home": "Houston Rockets",
+    "away": "Dallas Mavericks",
+    "home_score": "115",
+    "away_score": "132",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-11T10:00Z"
+  },
+  {
+    "home": "Cleveland Cavaliers",
+    "away": "Orlando Magic",
+    "home_score": "119",
+    "away_score": "105",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-11T22:30Z"
+  },
+  {
+    "home": "Charlotte Hornets",
+    "away": "Milwaukee Bucks",
+    "home_score": "105",
+    "away_score": "90",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-11T23:00Z"
+  },
+  {
+    "home": "Denver Nuggets",
+    "away": "Chicago Bulls",
+    "home_score": "133",
+    "away_score": "128",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-12T01:00Z"
+  }
+]
