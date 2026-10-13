@@ -1,0 +1,171 @@
+{
+"Buenos_Aires": {
+  "temp": 13.5,
+  "humidity": 89,
+  "wind": 10.9,
+  "code": 51
+}
+,
+"Toronto": {
+  "temp": 15.3,
+  "humidity": 86,
+  "wind": 8.6,
+  "code": 0
+}
+,
+"Singapore": {
+  "temp": 31.4,
+  "humidity": 64,
+  "wind": 10.2,
+  "code": 80
+}
+,
+"New_York": {
+  "temp": 14.7,
+  "humidity": 89,
+  "wind": 3.3,
+  "code": 0
+}
+,
+"Cairo": {
+  "temp": 19.7,
+  "humidity": 83,
+  "wind": 5.8,
+  "code": 2
+}
+,
+"Paris": {
+  "temp": 17.8,
+  "humidity": 93,
+  "wind": 7.6,
+  "code": 3
+}
+,
+"Seoul": {
+  "temp": 19.6,
+  "humidity": 66,
+  "wind": 8.8,
+  "code": 1
+}
+,
+"Nairobi": {
+  "temp": 19.0,
+  "humidity": 57,
+  "wind": 7.0,
+  "code": 0
+}
+,
+"Berlin": {
+  "temp": 2.9,
+  "humidity": 100,
+  "wind": 4.6,
+  "code": 45
+}
+,
+"Lima": {
+  "temp": 21.1,
+  "humidity": 86,
+  "wind": 14.3,
+  "code": 51
+}
+,
+"Moscow": {"temp":0,"humidity":0,"wind":0,"code":0}
+,
+"Tokyo": {
+  "temp": 23.1,
+  "humidity": 69,
+  "wind": 2.6,
+  "code": 1
+}
+,
+"Istanbul": {
+  "temp": 17.3,
+  "humidity": 92,
+  "wind": 4.3,
+  "code": 80
+}
+,
+"Dubai": {
+  "temp": 32.4,
+  "humidity": 47,
+  "wind": 9.6,
+  "code": 0
+}
+,
+"Sao_Paulo": {
+  "temp": 17.5,
+  "humidity": 98,
+  "wind": 4.9,
+  "code": 2
+}
+,
+"London": {
+  "temp": 17.2,
+  "humidity": 90,
+  "wind": 16.2,
+  "code": 1
+}
+,
+"Lagos": {
+  "temp": 26.0,
+  "humidity": 93,
+  "wind": 9.1,
+  "code": 3
+}
+,
+"Rome": {
+  "temp": 13.4,
+  "humidity": 78,
+  "wind": 6.8,
+  "code": 0
+}
+,
+"Mumbai": {
+  "temp": 35.9,
+  "humidity": 27,
+  "wind": 4.6,
+  "code": 0
+}
+,
+"Cape_Town": {
+  "temp": 12.6,
+  "humidity": 99,
+  "wind": 2.1,
+  "code": 45
+}
+,
+"Mexico_City": {
+  "temp": 15.5,
+  "humidity": 93,
+  "wind": 1.0,
+  "code": 51
+}
+,
+"Shanghai": {
+  "temp": 26.7,
+  "humidity": 51,
+  "wind": 13.7,
+  "code": 0
+}
+,
+"Jakarta": {
+  "temp": 35.0,
+  "humidity": 43,
+  "wind": 8.9,
+  "code": 51
+}
+,
+"Sydney": {
+  "temp": 18.4,
+  "humidity": 82,
+  "wind": 20.3,
+  "code": 53
+}
+,
+"Bangkok": {
+  "temp": 32.4,
+  "humidity": 59,
+  "wind": 9.1,
+  "code": 2
+}
+}

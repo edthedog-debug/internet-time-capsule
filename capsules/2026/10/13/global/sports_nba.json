@@ -1,0 +1,42 @@
+[
+  {
+    "home": "Portland Trail Blazers",
+    "away": "London Lions",
+    "home_score": "119",
+    "away_score": "66",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-12T20:00Z"
+  },
+  {
+    "home": "Atlanta Hawks",
+    "away": "Oklahoma City Thunder",
+    "home_score": "113",
+    "away_score": "110",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-12T23:00Z"
+  },
+  {
+    "home": "Washington Wizards",
+    "away": "Brooklyn Nets",
+    "home_score": "122",
+    "away_score": "131",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-12T23:00Z"
+  },
+  {
+    "home": "New York Knicks",
+    "away": "Minnesota Timberwolves",
+    "home_score": "104",
+    "away_score": "122",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-12T23:30Z"
+  },
+  {
+    "home": "Utah Jazz",
+    "away": "San Antonio Spurs",
+    "home_score": "119",
+    "away_score": "109",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-13T01:00Z"
+  }
+]
