@@ -1,0 +1,237 @@
+[
+  {
+    "title": "googletrans - python - Is not translating",
+    "score": -3,
+    "views": 49,
+    "answers": 0,
+    "tags": [
+      "python",
+      "googletrans"
+    ],
+    "link": "https://stackoverflow.com/questions/80010106/googletrans-python-is-not-translating"
+  },
+  {
+    "title": "Iterating a list of data class objects doesn&#39;t allow accessing their properties",
+    "score": -2,
+    "views": 92,
+    "answers": 1,
+    "tags": [
+      "kotlin",
+      "iteration"
+    ],
+    "link": "https://stackoverflow.com/questions/80010089/iterating-a-list-of-data-class-objects-doesnt-allow-accessing-their-properties"
+  },
+  {
+    "title": "How to remove excess padding from an mrow border in Firefox",
+    "score": 1,
+    "views": 60,
+    "answers": 1,
+    "tags": [
+      "firefox",
+      "render",
+      "mathml"
+    ],
+    "link": "https://stackoverflow.com/questions/80010071/how-to-remove-excess-padding-from-an-mrow-border-in-firefox"
+  },
+  {
+    "title": "Requests cache does not store requests or use cache",
+    "score": -3,
+    "views": 82,
+    "answers": 1,
+    "tags": [
+      "python",
+      "caching",
+      "python-requests"
+    ],
+    "link": "https://stackoverflow.com/questions/80010011/requests-cache-does-not-store-requests-or-use-cache"
+  },
+  {
+    "title": "Matplotlib Histogram - Threshold where all values above it show accumulated in a single bar",
+    "score": -8,
+    "views": 82,
+    "answers": 0,
+    "tags": [
+      "python",
+      "matplotlib",
+      "histogram"
+    ],
+    "link": "https://stackoverflow.com/questions/80010019/matplotlib-histogram-threshold-where-all-values-above-it-show-accumulated-in-a"
+  },
+  {
+    "title": "Can I make ThreeJS use left handed Cartesian coordinate system?",
+    "score": -6,
+    "views": 78,
+    "answers": 0,
+    "tags": [
+      "three.js"
+    ],
+    "link": "https://stackoverflow.com/questions/80010075/can-i-make-threejs-use-left-handed-cartesian-coordinate-system"
+  },
+  {
+    "title": "Angular multi entry points library - referencing scss file from other entry point",
+    "score": -1,
+    "views": 36,
+    "answers": 1,
+    "tags": [
+      "angular",
+      "sass",
+      "mapping",
+      "ng-packagr"
+    ],
+    "link": "https://stackoverflow.com/questions/80010046/angular-multi-entry-points-library-referencing-scss-file-from-other-entry-poin"
+  },
+  {
+    "title": "How Does the Decimal32 IEEE 754 Float Format Work and Why Do You Barely See It?",
+    "score": -2,
+    "views": 115,
+    "answers": 1,
+    "tags": [
+      "floating-point",
+      "decimal",
+      "cpu-architecture",
+      "ieee-754"
+    ],
+    "link": "https://stackoverflow.com/questions/80010041/how-does-the-decimal32-ieee-754-float-format-work-and-why-do-you-barely-see-it"
+  },
+  {
+    "title": "Why is the Spelling inspection not available?",
+    "score": -3,
+    "views": 49,
+    "answers": 1,
+    "tags": [
+      "intellij-idea"
+    ],
+    "link": "https://stackoverflow.com/questions/80010068/why-is-the-spelling-inspection-not-available"
+  },
+  {
+    "title": "Why does collecting into an ArrayList inside a parallel stream give different results each run?",
+    "score": 2,
+    "views": 185,
+    "answers": 2,
+    "tags": [
+      "java"
+    ],
+    "link": "https://stackoverflow.com/questions/80009944/why-does-collecting-into-an-arraylist-inside-a-parallel-stream-give-different-re"
+  },
+  {
+    "title": "Django Admin Page not found (404) - First time accessing. error with only admin page",
+    "score": -7,
+    "views": 95,
+    "answers": 1,
+    "tags": [
+      "python",
+      "django"
+    ],
+    "link": "https://stackoverflow.com/questions/80010014/django-admin-page-not-found-404-first-time-accessing-error-with-only-admin"
+  },
+  {
+    "title": "Changing the x-scale and its breaks in a cumilative incidence plot risk table using ggcuminc and add_risktable in R",
+    "score": 1,
+    "views": 77,
+    "answers": 0,
+    "tags": [
+      "r",
+      "survival-analysis",
+      "survival",
+      "ggsurvfit"
+    ],
+    "link": "https://stackoverflow.com/questions/80010058/changing-the-x-scale-and-its-breaks-in-a-cumilative-incidence-plot-risk-table-us"
+  },
+  {
+    "title": "Reactbits shadcn components crashing on render",
+    "score": -2,
+    "views": 41,
+    "answers": 0,
+    "tags": [
+      "reactjs",
+      "tailwind-css",
+      "vite",
+      "shadcnui"
+    ],
+    "link": "https://stackoverflow.com/questions/80010055/reactbits-shadcn-components-crashing-on-render"
+  },
+  {
+    "title": "How should I implement long-term memory for an AI character chat app without sending the entire conversation history to the LLM?",
+    "score": -8,
+    "views": 117,
+    "answers": 1,
+    "tags": [
+      "postgresql",
+      "next.js",
+      "large-language-model",
+      "vector-database",
+      "pgvector"
+    ],
+    "link": "https://stackoverflow.com/questions/80010040/how-should-i-implement-long-term-memory-for-an-ai-character-chat-app-without-sen"
+  },
+  {
+    "title": "Renesas FSP UART receive callback not firing in half-duplex RS-485 communication",
+    "score": -3,
+    "views": 55,
+    "answers": 1,
+    "tags": [
+      "c",
+      "usb",
+      "serial-communication",
+      "rs485"
+    ],
+    "link": "https://stackoverflow.com/questions/80009921/renesas-fsp-uart-receive-callback-not-firing-in-half-duplex-rs-485-communication"
+  },
+  {
+    "title": "how to run native android code using javafx using gluonfx",
+    "score": 0,
+    "views": 55,
+    "answers": 1,
+    "tags": [
+      "javafx",
+      "gluon-mobile",
+      "gluonfx"
+    ],
+    "link": "https://stackoverflow.com/questions/80009936/how-to-run-native-android-code-using-javafx-using-gluonfx"
+  },
+  {
+    "title": "How can an iOS app detect input from automation or AI agents",
+    "score": -8,
+    "views": 69,
+    "answers": 0,
+    "tags": [
+      "swift",
+      "artificial-intelligence",
+      "agent"
+    ],
+    "link": "https://stackoverflow.com/questions/80010038/how-can-an-ios-app-detect-input-from-automation-or-ai-agents"
+  },
+  {
+    "title": "Thingworx Dashboard Troubleshoot",
+    "score": -8,
+    "views": 49,
+    "answers": 0,
+    "tags": [
+      "thingworx"
+    ],
+    "link": "https://stackoverflow.com/questions/80009952/thingworx-dashboard-troubleshoot"
+  },
+  {
+    "title": "How to override styles of React component with vanilla extract?",
+    "score": 1,
+    "views": 69,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "css",
+      "reactjs",
+      "vanilla-extract"
+    ],
+    "link": "https://stackoverflow.com/questions/80010006/how-to-override-styles-of-react-component-with-vanilla-extract"
+  },
+  {
+    "title": "How do I print to a shared Windows 11 printer using Node.js without using LPT mapping?",
+    "score": -7,
+    "views": 65,
+    "answers": 0,
+    "tags": [
+      "node.js"
+    ],
+    "link": "https://stackoverflow.com/questions/80010034/how-do-i-print-to-a-shared-windows-11-printer-using-node-js-without-using-lpt-ma"
+  }
+]
