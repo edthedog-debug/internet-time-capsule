@@ -1,0 +1,171 @@
+{
+"Buenos_Aires": {
+  "temp": 13.4,
+  "humidity": 87,
+  "wind": 16.9,
+  "code": 3
+}
+,
+"Toronto": {
+  "temp": 11.7,
+  "humidity": 80,
+  "wind": 13.9,
+  "code": 3
+}
+,
+"Singapore": {
+  "temp": 32.4,
+  "humidity": 57,
+  "wind": 1.8,
+  "code": 2
+}
+,
+"New_York": {
+  "temp": 13.2,
+  "humidity": 82,
+  "wind": 5.5,
+  "code": 0
+}
+,
+"Cairo": {
+  "temp": 19.8,
+  "humidity": 81,
+  "wind": 1.8,
+  "code": 1
+}
+,
+"Paris": {
+  "temp": 15.5,
+  "humidity": 84,
+  "wind": 4.9,
+  "code": 0
+}
+,
+"Seoul": {
+  "temp": 19.7,
+  "humidity": 75,
+  "wind": 1.1,
+  "code": 1
+}
+,
+"Nairobi": {
+  "temp": 13.8,
+  "humidity": 91,
+  "wind": 2.9,
+  "code": 1
+}
+,
+"Berlin": {
+  "temp": 8.3,
+  "humidity": 97,
+  "wind": 3.2,
+  "code": 45
+}
+,
+"Lima": {
+  "temp": 22.2,
+  "humidity": 79,
+  "wind": 15.6,
+  "code": 2
+}
+,
+"Moscow": {
+  "temp": 8.9,
+  "humidity": 97,
+  "wind": 5.4,
+  "code": 45
+}
+,
+"Tokyo": {
+  "temp": 24.4,
+  "humidity": 49,
+  "wind": 1.6,
+  "code": 0
+}
+,
+"Istanbul": {
+  "temp": 12.6,
+  "humidity": 81,
+  "wind": 8.7,
+  "code": 3
+}
+,
+"Dubai": {
+  "temp": 28.8,
+  "humidity": 92,
+  "wind": 5.5,
+  "code": 0
+}
+,
+"Sao_Paulo": {
+  "temp": 18.2,
+  "humidity": 99,
+  "wind": 4.3,
+  "code": 53
+}
+,
+"London": {
+  "temp": 15.3,
+  "humidity": 86,
+  "wind": 9.4,
+  "code": 2
+}
+,
+"Lagos": {"temp":0,"humidity":0,"wind":0,"code":0}
+,
+"Rome": {
+  "temp": 13.1,
+  "humidity": 98,
+  "wind": 2.6,
+  "code": 45
+}
+,
+"Mumbai": {
+  "temp": 29.3,
+  "humidity": 61,
+  "wind": 4.2,
+  "code": 2
+}
+,
+"Cape_Town": {
+  "temp": 13.6,
+  "humidity": 89,
+  "wind": 9.8,
+  "code": 0
+}
+,
+"Mexico_City": {
+  "temp": 14.4,
+  "humidity": 87,
+  "wind": 9.3,
+  "code": 51
+}
+,
+"Shanghai": {
+  "temp": 26.8,
+  "humidity": 47,
+  "wind": 14.7,
+  "code": 2
+}
+,
+"Jakarta": {
+  "temp": 33.6,
+  "humidity": 45,
+  "wind": 3.0,
+  "code": 2
+}
+,
+"Sydney": {
+  "temp": 19.0,
+  "humidity": 48,
+  "wind": 14.0,
+  "code": 0
+}
+,
+"Bangkok": {
+  "temp": 29.5,
+  "humidity": 77,
+  "wind": 4.2,
+  "code": 3
+}
+}
