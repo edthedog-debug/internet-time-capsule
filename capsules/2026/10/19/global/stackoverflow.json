@@ -1,0 +1,246 @@
+[
+  {
+    "title": "How should I design a Flink job that rebuilds a multi-join SQL view as a streaming result, and keep its state bounded?",
+    "score": -2,
+    "views": 26,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "apache-flink",
+      "flink-streaming",
+      "confluent-platform"
+    ],
+    "link": "https://stackoverflow.com/questions/80010967/how-should-i-design-a-flink-job-that-rebuilds-a-multi-join-sql-view-as-a-streami"
+  },
+  {
+    "title": "What’s your opinion on remote Mac Mini setups for iOS development?",
+    "score": -3,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "macos"
+    ],
+    "link": "https://stackoverflow.com/questions/80010966/what-s-your-opinion-on-remote-mac-mini-setups-for-ios-development"
+  },
+  {
+    "title": "Qt QPainter object implementation for visibility in the main window class",
+    "score": -1,
+    "views": 41,
+    "answers": 0,
+    "tags": [
+      "qt",
+      "qpainter"
+    ],
+    "link": "https://stackoverflow.com/questions/80010964/qt-qpainter-object-implementation-for-visibility-in-the-main-window-class"
+  },
+  {
+    "title": "Ubuntu 26.04.1 LTS Terminal cut and paste gone",
+    "score": -2,
+    "views": 38,
+    "answers": 0,
+    "tags": [
+      "linux",
+      "ubuntu"
+    ],
+    "link": "https://stackoverflow.com/questions/80010959/ubuntu-26-04-1-lts-terminal-cut-and-paste-gone"
+  },
+  {
+    "title": "C++ structures from mmap",
+    "score": 4,
+    "views": 226,
+    "answers": 3,
+    "tags": [
+      "advice",
+      "c++",
+      "language-lawyer"
+    ],
+    "link": "https://stackoverflow.com/questions/80010925/c-structures-from-mmap"
+  },
+  {
+    "title": "How to create default list in Error case clause in Gleam?",
+    "score": 1,
+    "views": 82,
+    "answers": 1,
+    "tags": [
+      "gleam"
+    ],
+    "link": "https://stackoverflow.com/questions/80010946/how-to-create-default-list-in-error-case-clause-in-gleam"
+  },
+  {
+    "title": "Android touchscreen barely responsive — how to enable USB file transfer / ADB debugging with minimal taps?",
+    "score": -3,
+    "views": 71,
+    "answers": 0,
+    "tags": [
+      "android",
+      "usb",
+      "adb",
+      "mtp"
+    ],
+    "link": "https://stackoverflow.com/questions/80010952/android-touchscreen-barely-responsive-how-to-enable-usb-file-transfer-adb-de"
+  },
+  {
+    "title": "What&#39;s the use of the blocking_map argument of clEnqueueMapBuffer?",
+    "score": 1,
+    "views": 58,
+    "answers": 1,
+    "tags": [
+      "events",
+      "opencl",
+      "memory-mapping"
+    ],
+    "link": "https://stackoverflow.com/questions/80010942/whats-the-use-of-the-blocking-map-argument-of-clenqueuemapbuffer"
+  },
+  {
+    "title": "ExpressionChangedAfterItHasBeenCheckedError occurs in Angular by accessing properties of DOM elements",
+    "score": -3,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "angular"
+    ],
+    "link": "https://stackoverflow.com/questions/80010912/expressionchangedafterithasbeencheckederror-occurs-in-angular-by-accessing-prope"
+  },
+  {
+    "title": "How do I compute operating thresholds for FAR=0% when evaluating biometric match scores in Python/MATLAB?",
+    "score": -4,
+    "views": 102,
+    "answers": 1,
+    "tags": [
+      "python",
+      "numpy",
+      "computer-vision",
+      "biometrics",
+      "pattern-recognition"
+    ],
+    "link": "https://stackoverflow.com/questions/80010900/how-do-i-compute-operating-thresholds-for-far-0-when-evaluating-biometric-match"
+  },
+  {
+    "title": "Why does an int variable that multiplies by a double still type as an int?",
+    "score": -3,
+    "views": 240,
+    "answers": 3,
+    "tags": [
+      "c++",
+      "types"
+    ],
+    "link": "https://stackoverflow.com/questions/80010829/why-does-an-int-variable-that-multiplies-by-a-double-still-type-as-an-int"
+  },
+  {
+    "title": "Deeplinking for LinkedIn Mobile app when sharing a post",
+    "score": -5,
+    "views": 60,
+    "answers": 0,
+    "tags": [
+      "ios",
+      "linkedin-api",
+      "deep-linking",
+      "ipados"
+    ],
+    "link": "https://stackoverflow.com/questions/80010913/deeplinking-for-linkedin-mobile-app-when-sharing-a-post"
+  },
+  {
+    "title": "Nasm : how do I get rid of segmentation fault (core dumped)?",
+    "score": -5,
+    "views": 90,
+    "answers": 1,
+    "tags": [
+      "assembly",
+      "x86-64",
+      "nasm"
+    ],
+    "link": "https://stackoverflow.com/questions/80010878/nasm-how-do-i-get-rid-of-segmentation-fault-core-dumped"
+  },
+  {
+    "title": "Create HTML file via rmd with custom CSS",
+    "score": 1,
+    "views": 126,
+    "answers": 1,
+    "tags": [
+      "html",
+      "css",
+      "r"
+    ],
+    "link": "https://stackoverflow.com/questions/80010862/create-html-file-via-rmd-with-custom-css"
+  },
+  {
+    "title": "How to safely manipulate or inspect stack frames in C++ using inline assembly without triggering Undefined Behavior?",
+    "score": 3,
+    "views": 239,
+    "answers": 2,
+    "tags": [
+      "c++",
+      "assembly",
+      "x86-64",
+      "undefined-behavior",
+      "stack-frame"
+    ],
+    "link": "https://stackoverflow.com/questions/80010774/how-to-safely-manipulate-or-inspect-stack-frames-in-c-using-inline-assembly-wi"
+  },
+  {
+    "title": "Can manually closing a page inside Puppeteer Cluster cause TargetCloseError with Firefox BiDi?",
+    "score": 2,
+    "views": 54,
+    "answers": 1,
+    "tags": [
+      "linux",
+      "oracle-database",
+      "automation",
+      "cluster-computing"
+    ],
+    "link": "https://stackoverflow.com/questions/80010858/can-manually-closing-a-page-inside-puppeteer-cluster-cause-targetcloseerror-with"
+  },
+  {
+    "title": "How to keep Tabs when applying .tabViewStyle(.page)?",
+    "score": -3,
+    "views": 53,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "swiftui",
+      "swiftui-tabview"
+    ],
+    "link": "https://stackoverflow.com/questions/80010879/how-to-keep-tabs-when-applying-tabviewstyle-page"
+  },
+  {
+    "title": "Why does Xcelium throw a hierarchical name error on a module parameter?",
+    "score": 1,
+    "views": 76,
+    "answers": 1,
+    "tags": [
+      "verilog",
+      "system-verilog",
+      "test-bench",
+      "questasim",
+      "synopsys-vcs"
+    ],
+    "link": "https://stackoverflow.com/questions/80010865/why-does-xcelium-throw-a-hierarchical-name-error-on-a-module-parameter"
+  },
+  {
+    "title": "Publish package for distribution via vcpkg fails due to missing debug/share",
+    "score": 0,
+    "views": 90,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "cmake",
+      "vcpkg"
+    ],
+    "link": "https://stackoverflow.com/questions/80010870/publish-package-for-distribution-via-vcpkg-fails-due-to-missing-debug-share"
+  },
+  {
+    "title": "Three-body solver using RK45 produces incorrect &quot;shifted&quot; plot",
+    "score": 2,
+    "views": 184,
+    "answers": 1,
+    "tags": [
+      "python",
+      "physics",
+      "numerical-methods",
+      "astronomy",
+      "runge-kutta"
+    ],
+    "link": "https://stackoverflow.com/questions/80010831/three-body-solver-using-rk45-produces-incorrect-shifted-plot"
+  }
+]
