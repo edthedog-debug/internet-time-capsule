@@ -1,0 +1,26 @@
+[
+  {
+    "home": "Detroit Pistons",
+    "away": "Boston Celtics",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_SCHEDULED",
+    "date": "2026-10-20T19:00Z"
+  },
+  {
+    "home": "New York Knicks",
+    "away": "Philadelphia 76ers",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_SCHEDULED",
+    "date": "2026-10-20T23:00Z"
+  },
+  {
+    "home": "San Antonio Spurs",
+    "away": "Oklahoma City Thunder",
+    "home_score": "0",
+    "away_score": "0",
+    "status": "STATUS_SCHEDULED",
+    "date": "2026-10-21T01:30Z"
+  }
+]

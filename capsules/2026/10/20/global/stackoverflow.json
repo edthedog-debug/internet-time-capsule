@@ -1,0 +1,241 @@
+[
+  {
+    "title": "&quot;ffconcat merge method is not supported for fMP4 streams. Using append instead&quot;",
+    "score": 0,
+    "views": 48,
+    "answers": 0,
+    "tags": [
+      "powershell",
+      "ffmpeg",
+      "twitch",
+      "yt-dlp"
+    ],
+    "link": "https://stackoverflow.com/questions/80011215/ffconcat-merge-method-is-not-supported-for-fmp4-streams-using-append-instead"
+  },
+  {
+    "title": "How to fix &quot;copilot-runtime: failed to load runtime cdylib&quot;?",
+    "score": -1,
+    "views": 28,
+    "answers": 0,
+    "tags": [
+      "macos",
+      "github",
+      "github-copilot",
+      "visual-studio-code-server"
+    ],
+    "link": "https://stackoverflow.com/questions/80011211/how-to-fix-copilot-runtime-failed-to-load-runtime-cdylib"
+  },
+  {
+    "title": "Instagram Business Login OAuth — Undocumented permissions Array Response",
+    "score": -3,
+    "views": 28,
+    "answers": 0,
+    "tags": [
+      "metadata",
+      "next.js13",
+      "next-auth"
+    ],
+    "link": "https://stackoverflow.com/questions/80011214/instagram-business-login-oauth-undocumented-permissions-array-response"
+  },
+  {
+    "title": "What is difference between #embed and #include in C",
+    "score": 4,
+    "views": 169,
+    "answers": 2,
+    "tags": [
+      "c",
+      "include",
+      "embed",
+      "c23"
+    ],
+    "link": "https://stackoverflow.com/questions/80011157/what-is-difference-between-embed-and-include-in-c"
+  },
+  {
+    "title": "Switch / IF Errors",
+    "score": 0,
+    "views": 133,
+    "answers": 3,
+    "tags": [
+      "powershell",
+      "boolean-expression"
+    ],
+    "link": "https://stackoverflow.com/questions/80011115/switch-if-errors"
+  },
+  {
+    "title": "FreeRDP RDP session shows a black screen and eventually times out over HTB VPN",
+    "score": -5,
+    "views": 54,
+    "answers": 0,
+    "tags": [
+      "windows",
+      "vpn",
+      "rdp"
+    ],
+    "link": "https://stackoverflow.com/questions/80011204/freerdp-rdp-session-shows-a-black-screen-and-eventually-times-out-over-htb-vpn"
+  },
+  {
+    "title": "How can I make Hibernate report the original JDBC connection error instead of &quot;Unable to determine Dialect without JDBC metadata&quot;?",
+    "score": 0,
+    "views": 57,
+    "answers": 1,
+    "tags": [
+      "spring",
+      "hibernate"
+    ],
+    "link": "https://stackoverflow.com/questions/80011187/how-can-i-make-hibernate-report-the-original-jdbc-connection-error-instead-of-u"
+  },
+  {
+    "title": "Cant log into existing workspace account because admin account is deleted",
+    "score": -7,
+    "views": 41,
+    "answers": 0,
+    "tags": [
+      "google-workspace",
+      "google-admin-sdk"
+    ],
+    "link": "https://stackoverflow.com/questions/80011186/cant-log-into-existing-workspace-account-because-admin-account-is-deleted"
+  },
+  {
+    "title": "TypeError: ‘str’ object cannot be interpreted as an integer” error.&quot;",
+    "score": -5,
+    "views": 179,
+    "answers": 1,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80011168/typeerror-str-object-cannot-be-interpreted-as-an-integer-error"
+  },
+  {
+    "title": "Cloud Functions Gen2: Can cloudfunctions.functions.update be scoped to one function?",
+    "score": -3,
+    "views": 45,
+    "answers": 1,
+    "tags": [
+      "google-cloud-platform",
+      "google-cloud-functions",
+      "google-cloud-iam"
+    ],
+    "link": "https://stackoverflow.com/questions/80011150/cloud-functions-gen2-can-cloudfunctions-functions-update-be-scoped-to-one-funct"
+  },
+  {
+    "title": "Show MessageBox while child form is open",
+    "score": -3,
+    "views": 61,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "parent-child",
+      "messagebox"
+    ],
+    "link": "https://stackoverflow.com/questions/80011159/show-messagebox-while-child-form-is-open"
+  },
+  {
+    "title": "Counting unique visitors on a redirect link when the same person opens it on multiple devices",
+    "score": -7,
+    "views": 74,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "javascript",
+      "cloudflare-workers"
+    ],
+    "link": "https://stackoverflow.com/questions/80011164/counting-unique-visitors-on-a-redirect-link-when-the-same-person-opens-it-on-mul"
+  },
+  {
+    "title": "TypeError: &#39;DefaultMeta&#39; object is not iterable",
+    "score": -4,
+    "views": 77,
+    "answers": 1,
+    "tags": [
+      "python",
+      "flask",
+      "sqlalchemy"
+    ],
+    "link": "https://stackoverflow.com/questions/80011142/typeerror-defaultmeta-object-is-not-iterable"
+  },
+  {
+    "title": "React Native Expo Android APK cannot connect to my Node.js backend over HTTP",
+    "score": -5,
+    "views": 58,
+    "answers": 1,
+    "tags": [
+      "react-native"
+    ],
+    "link": "https://stackoverflow.com/questions/80011153/react-native-expo-android-apk-cannot-connect-to-my-node-js-backend-over-http"
+  },
+  {
+    "title": "How can I reduce the output size of a WinUI 3 desktop app with a fairly large set of NuGet dependencies?",
+    "score": 1,
+    "views": 66,
+    "answers": 1,
+    "tags": [
+      ".net",
+      "windows",
+      "xaml",
+      "winui-3",
+      "windows-app-sdk"
+    ],
+    "link": "https://stackoverflow.com/questions/80011076/how-can-i-reduce-the-output-size-of-a-winui-3-desktop-app-with-a-fairly-large-se"
+  },
+  {
+    "title": "assign dates to weekly periods",
+    "score": -1,
+    "views": 94,
+    "answers": 1,
+    "tags": [
+      "r",
+      "datetime",
+      "lubridate"
+    ],
+    "link": "https://stackoverflow.com/questions/80011110/assign-dates-to-weekly-periods"
+  },
+  {
+    "title": "Converting natural-language cases into Prolog facts with a fixed predicate vocabulary",
+    "score": -2,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "prolog",
+      "relation-extraction",
+      "glirel"
+    ],
+    "link": "https://stackoverflow.com/questions/80011098/converting-natural-language-cases-into-prolog-facts-with-a-fixed-predicate-vocab"
+  },
+  {
+    "title": "How to investigate a silent os.rename() failure in python? Samba is involved",
+    "score": -6,
+    "views": 136,
+    "answers": 1,
+    "tags": [
+      "python",
+      "file-rename",
+      "samba"
+    ],
+    "link": "https://stackoverflow.com/questions/80011041/how-to-investigate-a-silent-os-rename-failure-in-python-samba-is-involved"
+  },
+  {
+    "title": "How to make clipboard work on Playwright?",
+    "score": -4,
+    "views": 60,
+    "answers": 0,
+    "tags": [
+      "clipboard",
+      "playwright",
+      "slate.js"
+    ],
+    "link": "https://stackoverflow.com/questions/80011084/how-to-make-clipboard-work-on-playwright"
+  },
+  {
+    "title": "Partially/fully specializing member class template of a class template results in surprising/conflicting outputs",
+    "score": 1,
+    "views": 120,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "templates",
+      "language-lawyer",
+      "template-specialization"
+    ],
+    "link": "https://stackoverflow.com/questions/80011116/partially-fully-specializing-member-class-template-of-a-class-template-results-i"
+  }
+]
