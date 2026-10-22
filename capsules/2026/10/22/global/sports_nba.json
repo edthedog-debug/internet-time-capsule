@@ -1,0 +1,90 @@
+[
+  {
+    "home": "Orlando Magic",
+    "away": "Atlanta Hawks",
+    "home_score": "125",
+    "away_score": "132",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-21T23:00Z"
+  },
+  {
+    "home": "Washington Wizards",
+    "away": "Milwaukee Bucks",
+    "home_score": "128",
+    "away_score": "116",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-21T23:00Z"
+  },
+  {
+    "home": "Miami Heat",
+    "away": "Minnesota Timberwolves",
+    "home_score": "106",
+    "away_score": "131",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-21T23:30Z"
+  },
+  {
+    "home": "Brooklyn Nets",
+    "away": "Charlotte Hornets",
+    "home_score": "103",
+    "away_score": "110",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-21T23:30Z"
+  },
+  {
+    "home": "Toronto Raptors",
+    "away": "Chicago Bulls",
+    "home_score": "135",
+    "away_score": "92",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-21T23:30Z"
+  },
+  {
+    "home": "Memphis Grizzlies",
+    "away": "Utah Jazz",
+    "home_score": "123",
+    "away_score": "103",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-22T00:00Z"
+  },
+  {
+    "home": "New Orleans Pelicans",
+    "away": "Indiana Pacers",
+    "home_score": "120",
+    "away_score": "123",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-22T00:00Z"
+  },
+  {
+    "home": "Houston Rockets",
+    "away": "Dallas Mavericks",
+    "home_score": "128",
+    "away_score": "110",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-22T00:30Z"
+  },
+  {
+    "home": "Los Angeles Lakers",
+    "away": "Golden State Warriors",
+    "home_score": "66",
+    "away_score": "52",
+    "status": "STATUS_HALFTIME",
+    "date": "2026-10-22T02:00Z"
+  },
+  {
+    "home": "Portland Trail Blazers",
+    "away": "Phoenix Suns",
+    "home_score": "72",
+    "away_score": "39",
+    "status": "STATUS_HALFTIME",
+    "date": "2026-10-22T02:00Z"
+  },
+  {
+    "home": "LA Clippers",
+    "away": "Sacramento Kings",
+    "home_score": "47",
+    "away_score": "29",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-10-22T02:30Z"
+  }
+]

@@ -1,0 +1,239 @@
+[
+  {
+    "title": "AWS Console Sign-in stuck in a loop: &quot;Authentication failed&quot; with Passkey/WebAuthn for Root User",
+    "score": -3,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "amazon-web-services",
+      "webauthn",
+      "passkey",
+      "aws-console"
+    ],
+    "link": "https://stackoverflow.com/questions/80011729/aws-console-sign-in-stuck-in-a-loop-authentication-failed-with-passkey-webaut"
+  },
+  {
+    "title": "Any tips or recommendations for learning to program without ending up completely stuck a blank?",
+    "score": -6,
+    "views": 49,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80011721/any-tips-or-recommendations-for-learning-to-program-without-ending-up-completely"
+  },
+  {
+    "title": "unserialize/serialize objects in Node.js, similar to PHP",
+    "score": 1,
+    "views": 96,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "node.js"
+    ],
+    "link": "https://stackoverflow.com/questions/80011706/unserialize-serialize-objects-in-node-js-similar-to-php"
+  },
+  {
+    "title": "Why doesn&#39;t the for loop go through the whole list in the function using the #define?",
+    "score": 1,
+    "views": 85,
+    "answers": 2,
+    "tags": [
+      "c",
+      "sizeof"
+    ],
+    "link": "https://stackoverflow.com/questions/80011682/why-doesnt-the-for-loop-go-through-the-whole-list-in-the-function-using-the-de"
+  },
+  {
+    "title": "Breaking long URLs in comments, still having them selectable/clickable",
+    "score": -5,
+    "views": 234,
+    "answers": 7,
+    "tags": [
+      "best-practices",
+      "c++",
+      "c"
+    ],
+    "link": "https://stackoverflow.com/questions/80011577/breaking-long-urls-in-comments-still-having-them-selectable-clickable"
+  },
+  {
+    "title": "How do I make a JSON parser in C without libraries?",
+    "score": -5,
+    "views": 90,
+    "answers": 0,
+    "tags": [
+      "c",
+      "json",
+      "parsing",
+      "tokenize"
+    ],
+    "link": "https://stackoverflow.com/questions/80011704/how-do-i-make-a-json-parser-in-c-without-libraries"
+  },
+  {
+    "title": "SELECT SQL query returning no columns",
+    "score": 0,
+    "views": 53,
+    "answers": 1,
+    "tags": [
+      "sql",
+      "snowflake-cloud-data-platform"
+    ],
+    "link": "https://stackoverflow.com/questions/80011702/select-sql-query-returning-no-columns"
+  },
+  {
+    "title": "Batch-File Substituting an entire string for one character",
+    "score": 0,
+    "views": 53,
+    "answers": 1,
+    "tags": [
+      "batch-file"
+    ],
+    "link": "https://stackoverflow.com/questions/80011674/batch-file-substituting-an-entire-string-for-one-character"
+  },
+  {
+    "title": "How to use one sequence per table in Entity Framework to generate new primary keys on INSERT in SQL Server",
+    "score": 1,
+    "views": 32,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "sql-server",
+      "entity-framework-core"
+    ],
+    "link": "https://stackoverflow.com/questions/80011694/how-to-use-one-sequence-per-table-in-entity-framework-to-generate-new-primary-ke"
+  },
+  {
+    "title": "How can I temporarily mitigate CVE-2026-109618 and CVE-2026-109619 on Bitnami PHP-FPM Wordpress - PHP 5.4 - 8.5?",
+    "score": 2,
+    "views": 232,
+    "answers": 1,
+    "tags": [
+      "php",
+      "wordpress",
+      "apache",
+      "nginx",
+      "bitnami"
+    ],
+    "link": "https://stackoverflow.com/questions/80011670/how-can-i-temporarily-mitigate-cve-2026-109618-and-cve-2026-109619-on-bitnami-ph"
+  },
+  {
+    "title": "Can an Internal Google OAuth client under Cloud Identity Free receive the `hwk` AMR claim through Google&#39;s Security Bundle?",
+    "score": -1,
+    "views": 26,
+    "answers": 0,
+    "tags": [
+      "google-oauth",
+      "openid-connect",
+      "google-cloud-identity"
+    ],
+    "link": "https://stackoverflow.com/questions/80011696/can-an-internal-google-oauth-client-under-cloud-identity-free-receive-the-hwk"
+  },
+  {
+    "title": "Why does a class property with a non-public setter fail to implement an interface property?",
+    "score": 4,
+    "views": 93,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "inheritance",
+      "interface",
+      "access-modifiers"
+    ],
+    "link": "https://stackoverflow.com/questions/80011658/why-does-a-class-property-with-a-non-public-setter-fail-to-implement-an-interfac"
+  },
+  {
+    "title": "Embed Net48 Installer with Wix",
+    "score": -1,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "wix"
+    ],
+    "link": "https://stackoverflow.com/questions/80011693/embed-net48-installer-with-wix"
+  },
+  {
+    "title": "App Engine Standard PHP runtimes not yet serving patched versions for CVE-2026-109618 / CVE-2026-109619",
+    "score": 0,
+    "views": 180,
+    "answers": 0,
+    "tags": [
+      "php",
+      "google-app-engine"
+    ],
+    "link": "https://stackoverflow.com/questions/80011663/app-engine-standard-php-runtimes-not-yet-serving-patched-versions-for-cve-2026-1"
+  },
+  {
+    "title": "Designer View doesn&#39;t acts the same as the run time",
+    "score": 0,
+    "views": 37,
+    "answers": 0,
+    "tags": [
+      "c#",
+      ".net",
+      "winforms",
+      "windows-forms-designer"
+    ],
+    "link": "https://stackoverflow.com/questions/80011685/designer-view-doesnt-acts-the-same-as-the-run-time"
+  },
+  {
+    "title": "Plan and ask mode in VScode copilot has dissappeared after my Quota was exhausted",
+    "score": -5,
+    "views": 42,
+    "answers": 0,
+    "tags": [
+      "vs-code",
+      "vscode-copilot"
+    ],
+    "link": "https://stackoverflow.com/questions/80011681/plan-and-ask-mode-in-vscode-copilot-has-dissappeared-after-my-quota-was-exhauste"
+  },
+  {
+    "title": "Patching CVE-2026-109619 on a Ubuntu PHP 8 installation that was manually patched over PHP 7.4",
+    "score": -1,
+    "views": 156,
+    "answers": 0,
+    "tags": [
+      "php",
+      "ubuntu"
+    ],
+    "link": "https://stackoverflow.com/questions/80011647/patching-cve-2026-109619-on-a-ubuntu-php-8-installation-that-was-manually-patche"
+  },
+  {
+    "title": "How can I handle all possible PouchDB error messages?",
+    "score": -5,
+    "views": 70,
+    "answers": 0,
+    "tags": [
+      "pouchdb"
+    ],
+    "link": "https://stackoverflow.com/questions/80011661/how-can-i-handle-all-possible-pouchdb-error-messages"
+  },
+  {
+    "title": "How to turn xml_deadlock_report events from system_health into readable rows on Amazon RDS for SQL Server 2017? wx3000",
+    "score": -2,
+    "views": 71,
+    "answers": 0,
+    "tags": [
+      "sql-server",
+      "xml",
+      "events",
+      "amazon-rds",
+      "amazon-cloudwatch"
+    ],
+    "link": "https://stackoverflow.com/questions/80011653/how-to-turn-xml-deadlock-report-events-from-system-health-into-readable-rows-on"
+  },
+  {
+    "title": "Get sizeof string_views from std::array with variadic template",
+    "score": 3,
+    "views": 130,
+    "answers": 3,
+    "tags": [
+      "c++",
+      "c++20",
+      "variadic-templates",
+      "stdarray"
+    ],
+    "link": "https://stackoverflow.com/questions/80011536/get-sizeof-string-views-from-stdarray-with-variadic-template"
+  }
+]
