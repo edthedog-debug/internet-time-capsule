@@ -1,0 +1,237 @@
+[
+  {
+    "title": "file_get_contents fails for reCaptcha siteverify",
+    "score": 1,
+    "views": 35,
+    "answers": 0,
+    "tags": [
+      "php",
+      "magento2"
+    ],
+    "link": "https://stackoverflow.com/questions/80011969/file-get-contents-fails-for-recaptcha-siteverify"
+  },
+  {
+    "title": "How can I prevent infinite recursion and a SIGSEGV when using std::shared_ptr with an incomplete type in C++?",
+    "score": 0,
+    "views": 92,
+    "answers": 2,
+    "tags": [
+      "c++",
+      "smart-pointers"
+    ],
+    "link": "https://stackoverflow.com/questions/80011956/how-can-i-prevent-infinite-recursion-and-a-sigsegv-when-using-stdshared-ptr-wi"
+  },
+  {
+    "title": "Multi-file HTML IDE that runs in a browser (is a website)",
+    "score": -4,
+    "views": 44,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "javascript",
+      "html"
+    ],
+    "link": "https://stackoverflow.com/questions/80011965/multi-file-html-ide-that-runs-in-a-browser-is-a-website"
+  },
+  {
+    "title": "WindowsAppSdk AppNotificationManager System.Runtime.InteropServices.COMException (0x80040154): Class not registered",
+    "score": 0,
+    "views": 27,
+    "answers": 0,
+    "tags": [
+      ".net",
+      "windows-app-sdk"
+    ],
+    "link": "https://stackoverflow.com/questions/80011964/windowsappsdk-appnotificationmanager-system-runtime-interopservices-comexception"
+  },
+  {
+    "title": "How do I replicate the iOS 27 Liquid Glass opening app animation in Flutter?",
+    "score": -4,
+    "views": 29,
+    "answers": 0,
+    "tags": [
+      "flutter-animation",
+      "ios18"
+    ],
+    "link": "https://stackoverflow.com/questions/80011963/how-do-i-replicate-the-ios-27-liquid-glass-opening-app-animation-in-flutter"
+  },
+  {
+    "title": "is running random spams of hexadecimal code converted to assembly a good idea?",
+    "score": -8,
+    "views": 51,
+    "answers": 0,
+    "tags": [
+      "assembly",
+      "dependency-injection",
+      "hex",
+      "machine-code"
+    ],
+    "link": "https://stackoverflow.com/questions/80011955/is-running-random-spams-of-hexadecimal-code-converted-to-assembly-a-good-idea"
+  },
+  {
+    "title": "Cloud Functions 2nd gen (Cloud Run) containers suddenly fail to start &quot;failed to listen on PORT 8080 within timeout&quot;",
+    "score": 1,
+    "views": 31,
+    "answers": 0,
+    "tags": [
+      "node.js",
+      "firebase",
+      "google-cloud-functions",
+      "google-cloud-run"
+    ],
+    "link": "https://stackoverflow.com/questions/80011960/cloud-functions-2nd-gen-cloud-run-containers-suddenly-fail-to-start-failed-to"
+  },
+  {
+    "title": "How can I split double hyphens in a Python word counter while preserving single hyphens and apostrophes?",
+    "score": 0,
+    "views": 147,
+    "answers": 3,
+    "tags": [
+      "python",
+      "regex",
+      "string"
+    ],
+    "link": "https://stackoverflow.com/questions/80011903/how-can-i-split-double-hyphens-in-a-python-word-counter-while-preserving-single"
+  },
+  {
+    "title": "Minimize code duplication across Electron main/renderer/preload",
+    "score": -1,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "typescript",
+      "electron",
+      "dry"
+    ],
+    "link": "https://stackoverflow.com/questions/80011954/minimize-code-duplication-across-electron-main-renderer-preload"
+  },
+  {
+    "title": "Batch-File Use of asterisks (*) in a variable",
+    "score": -4,
+    "views": 115,
+    "answers": 1,
+    "tags": [
+      "batch-file"
+    ],
+    "link": "https://stackoverflow.com/questions/80011924/batch-file-use-of-asterisks-in-a-variable"
+  },
+  {
+    "title": "The property &#39;{EntityName}.{PropertyName}&#39; is part of a key and so cannot be modified or marked as modified",
+    "score": 0,
+    "views": 26,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "entity-framework-core"
+    ],
+    "link": "https://stackoverflow.com/questions/80011953/the-property-entityname-propertyname-is-part-of-a-key-and-so-cannot-be-mod"
+  },
+  {
+    "title": "Downcast generic interface (INumber&lt;T&gt;) to derived generic interface (IBinaryInteger&lt;T&gt;)",
+    "score": 0,
+    "views": 88,
+    "answers": 3,
+    "tags": [
+      "c#",
+      "generics",
+      "interface",
+      "casting",
+      ".net-generic-math"
+    ],
+    "link": "https://stackoverflow.com/questions/80011917/downcast-generic-interface-inumbert-to-derived-generic-interface-ibinaryint"
+  },
+  {
+    "title": "Does this code cause undefined behavior or just &quot;safe random&quot; behavior",
+    "score": -1,
+    "views": 184,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "undefined-behavior"
+    ],
+    "link": "https://stackoverflow.com/questions/80011905/does-this-code-cause-undefined-behavior-or-just-safe-random-behavior"
+  },
+  {
+    "title": "Wix MSI package not recognizing existing upgrade code",
+    "score": -2,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "wix",
+      "windows-installer"
+    ],
+    "link": "https://stackoverflow.com/questions/80011945/wix-msi-package-not-recognizing-existing-upgrade-code"
+  },
+  {
+    "title": "How can I make a vector append function type-agnostic in C?",
+    "score": 1,
+    "views": 114,
+    "answers": 1,
+    "tags": [
+      "c",
+      "generics",
+      "dynamic-arrays"
+    ],
+    "link": "https://stackoverflow.com/questions/80011891/how-can-i-make-a-vector-append-function-type-agnostic-in-c"
+  },
+  {
+    "title": "How can I know if my application is affected by the &quot;PHP2Shell&quot; vulnerabilities CVE-2026-109618 / CVE-2026-109619 and how can I mitigate them?",
+    "score": 15,
+    "views": 1525,
+    "answers": 1,
+    "tags": [
+      "php",
+      "security"
+    ],
+    "link": "https://stackoverflow.com/questions/80011791/how-can-i-know-if-my-application-is-affected-by-the-php2shell-vulnerabilities"
+  },
+  {
+    "title": "Alternative import hook for modifying source code before compiling",
+    "score": -4,
+    "views": 115,
+    "answers": 0,
+    "tags": [
+      "python",
+      "import-hooks"
+    ],
+    "link": "https://stackoverflow.com/questions/80011839/alternative-import-hook-for-modifying-source-code-before-compiling"
+  },
+  {
+    "title": "Optimize query to get row-based data with lots of attributes?",
+    "score": 0,
+    "views": 93,
+    "answers": 1,
+    "tags": [
+      "sql",
+      "sql-server",
+      "t-sql",
+      "query-optimization"
+    ],
+    "link": "https://stackoverflow.com/questions/80011886/optimize-query-to-get-row-based-data-with-lots-of-attributes"
+  },
+  {
+    "title": "Working with noise words in CONTAINSTABLE",
+    "score": 3,
+    "views": 61,
+    "answers": 1,
+    "tags": [
+      "sql-server",
+      "full-text-search",
+      "sql-server-2019"
+    ],
+    "link": "https://stackoverflow.com/questions/80011833/working-with-noise-words-in-containstable"
+  },
+  {
+    "title": "Open application from keyboard extension – current status?",
+    "score": -4,
+    "views": 96,
+    "answers": 0,
+    "tags": [
+      "ios",
+      "swift",
+      "ios-keyboard-extension"
+    ],
+    "link": "https://stackoverflow.com/questions/80011854/open-application-from-keyboard-extension-current-status"
+  }
+]
