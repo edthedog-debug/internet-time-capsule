@@ -1,0 +1,240 @@
+[
+  {
+    "title": "How to access Eiffel attribute inside a C++ external",
+    "score": 0,
+    "views": 41,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "eiffel",
+      "eiffel-studio-20.05"
+    ],
+    "link": "https://stackoverflow.com/questions/80012347/how-to-access-eiffel-attribute-inside-a-c-external"
+  },
+  {
+    "title": "Should picture URLs include file extensions?",
+    "score": 0,
+    "views": 40,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "http",
+      "url",
+      "content-type",
+      "content-negotiation"
+    ],
+    "link": "https://stackoverflow.com/questions/80012350/should-picture-urls-include-file-extensions"
+  },
+  {
+    "title": "How can a multilingual application like OwnMates implement message translation in a chat system?",
+    "score": -2,
+    "views": 37,
+    "answers": 0,
+    "tags": [
+      "php",
+      "websocket",
+      "translation"
+    ],
+    "link": "https://stackoverflow.com/questions/80012355/how-can-a-multilingual-application-like-ownmates-implement-message-translation-i"
+  },
+  {
+    "title": "PHP 8.5 from deb.sury.org - cannot execute binary file exec format error on WSL1",
+    "score": 0,
+    "views": 58,
+    "answers": 0,
+    "tags": [
+      "php",
+      "debian",
+      "windows-subsystem-for-linux"
+    ],
+    "link": "https://stackoverflow.com/questions/80012333/php-8-5-from-deb-sury-org-cannot-execute-binary-file-exec-format-error-on-wsl1"
+  },
+  {
+    "title": "Does PageSpeed Insights API v5 support X-Goog-Api-Key and project quota attribution?",
+    "score": -3,
+    "views": 51,
+    "answers": 0,
+    "tags": [
+      "google-api",
+      "api-key",
+      "google-pagespeed",
+      "google-pagespeed-insights-api"
+    ],
+    "link": "https://stackoverflow.com/questions/80012341/does-pagespeed-insights-api-v5-support-x-goog-api-key-and-project-quota-attribut"
+  },
+  {
+    "title": "Fastboot doesn&#39;t detect plugged in smartphone",
+    "score": -2,
+    "views": 43,
+    "answers": 1,
+    "tags": [
+      "android",
+      "adb",
+      "fastboot"
+    ],
+    "link": "https://stackoverflow.com/questions/80012340/fastboot-doesnt-detect-plugged-in-smartphone"
+  },
+  {
+    "title": "Windows WebDAV client fails to read files over a certain size (~50 MB, 0x800700DF) but uploads work. Any way around it without admin?",
+    "score": 0,
+    "views": 69,
+    "answers": 0,
+    "tags": [
+      "python",
+      "windows",
+      "filesystems",
+      "webdav"
+    ],
+    "link": "https://stackoverflow.com/questions/80012328/windows-webdav-client-fails-to-read-files-over-a-certain-size-50-mb-0x800700d"
+  },
+  {
+    "title": "ggsurvplot not returning a plot",
+    "score": 0,
+    "views": 26,
+    "answers": 0,
+    "tags": [
+      "r"
+    ],
+    "link": "https://stackoverflow.com/questions/80012326/ggsurvplot-not-returning-a-plot"
+  },
+  {
+    "title": "&quot;Error in -rm(list = ls()) : invalid argument to unary operator&quot;",
+    "score": -2,
+    "views": 50,
+    "answers": 0,
+    "tags": [
+      "r"
+    ],
+    "link": "https://stackoverflow.com/questions/80012327/error-in-rmlist-ls-invalid-argument-to-unary-operator"
+  },
+  {
+    "title": "Borders on html website/background image over smaller content area?",
+    "score": -5,
+    "views": 82,
+    "answers": 1,
+    "tags": [
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/80012290/borders-on-html-website-background-image-over-smaller-content-area"
+  },
+  {
+    "title": "Why isn’t the stdout of my program redirected into a file?",
+    "score": 2,
+    "views": 102,
+    "answers": 1,
+    "tags": [
+      "shell",
+      "assembly",
+      "x86"
+    ],
+    "link": "https://stackoverflow.com/questions/80012308/why-isn-t-the-stdout-of-my-program-redirected-into-a-file"
+  },
+  {
+    "title": "What is the complexity of this algorithm? Common elements in two lists",
+    "score": -6,
+    "views": 137,
+    "answers": 1,
+    "tags": [
+      "python",
+      "algorithm",
+      "time-complexity",
+      "complexity-theory"
+    ],
+    "link": "https://stackoverflow.com/questions/80012286/what-is-the-complexity-of-this-algorithm-common-elements-in-two-lists"
+  },
+  {
+    "title": "Ambiguous type conversion in switch statement with only one viable conversion",
+    "score": 4,
+    "views": 127,
+    "answers": 2,
+    "tags": [
+      "c++",
+      "switch-statement",
+      "language-lawyer",
+      "c++20",
+      "requires-clause"
+    ],
+    "link": "https://stackoverflow.com/questions/80012225/ambiguous-type-conversion-in-switch-statement-with-only-one-viable-conversion"
+  },
+  {
+    "title": "PDFBox: incremental signature on an AES-encrypted PDF leaves encrypted bytes in the /Contents padding instead of zeros",
+    "score": -3,
+    "views": 63,
+    "answers": 1,
+    "tags": [
+      "java",
+      "pdf",
+      "pdfbox",
+      "bouncycastle"
+    ],
+    "link": "https://stackoverflow.com/questions/80012295/pdfbox-incremental-signature-on-an-aes-encrypted-pdf-leaves-encrypted-bytes-in"
+  },
+  {
+    "title": "VS code displaying only path to folder but no files in the explorer",
+    "score": -2,
+    "views": 71,
+    "answers": 1,
+    "tags": [
+      "visual-studio",
+      "vs-code"
+    ],
+    "link": "https://stackoverflow.com/questions/80012276/vs-code-displaying-only-path-to-folder-but-no-files-in-the-explorer"
+  },
+  {
+    "title": "How to assign information in a table on the basis of another table in excel 2016?",
+    "score": -6,
+    "views": 43,
+    "answers": 1,
+    "tags": [
+      "excel-2016"
+    ],
+    "link": "https://stackoverflow.com/questions/80012323/how-to-assign-information-in-a-table-on-the-basis-of-another-table-in-excel-2016"
+  },
+  {
+    "title": "How can I solve a SIGSEGV when using std::regex at a large string?",
+    "score": 0,
+    "views": 130,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "regex"
+    ],
+    "link": "https://stackoverflow.com/questions/80012273/how-can-i-solve-a-sigsegv-when-using-stdregex-at-a-large-string"
+  },
+  {
+    "title": "Writing code to plot the trajectory of a particle undergoing projectile motion, then a graph of the kinetic energy ratio vs launch angle",
+    "score": -4,
+    "views": 101,
+    "answers": 0,
+    "tags": [
+      "python",
+      "physics"
+    ],
+    "link": "https://stackoverflow.com/questions/80012268/writing-code-to-plot-the-trajectory-of-a-particle-undergoing-projectile-motion"
+  },
+  {
+    "title": "Find All Sets of Viable Row/Column Pairings in a Table of Checkboxes",
+    "score": 0,
+    "views": 32,
+    "answers": 1,
+    "tags": [
+      "datatable",
+      "set",
+      "combinations",
+      "matching",
+      "bipartite"
+    ],
+    "link": "https://stackoverflow.com/questions/80012299/find-all-sets-of-viable-row-column-pairings-in-a-table-of-checkboxes"
+  },
+  {
+    "title": "Ollama is not getting downloaded in Windows Operating System",
+    "score": -6,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "ollama"
+    ],
+    "link": "https://stackoverflow.com/questions/80012294/ollama-is-not-getting-downloaded-in-windows-operating-system"
+  }
+]
