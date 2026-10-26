@@ -1,0 +1,58 @@
+[
+  {
+    "home": "Utah Jazz",
+    "away": "Los Angeles Lakers",
+    "home_score": "123",
+    "away_score": "132",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-25T21:00Z"
+  },
+  {
+    "home": "Brooklyn Nets",
+    "away": "Indiana Pacers",
+    "home_score": "109",
+    "away_score": "136",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-25T22:00Z"
+  },
+  {
+    "home": "New York Knicks",
+    "away": "Orlando Magic",
+    "home_score": "102",
+    "away_score": "111",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-25T23:00Z"
+  },
+  {
+    "home": "Minnesota Timberwolves",
+    "away": "Toronto Raptors",
+    "home_score": "117",
+    "away_score": "94",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-25T23:00Z"
+  },
+  {
+    "home": "Oklahoma City Thunder",
+    "away": "LA Clippers",
+    "home_score": "108",
+    "away_score": "101",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-25T23:00Z"
+  },
+  {
+    "home": "Philadelphia 76ers",
+    "away": "Detroit Pistons",
+    "home_score": "93",
+    "away_score": "106",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-25T23:30Z"
+  },
+  {
+    "home": "Sacramento Kings",
+    "away": "Memphis Grizzlies",
+    "home_score": "106",
+    "away_score": "108",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-10-26T01:00Z"
+  }
+]

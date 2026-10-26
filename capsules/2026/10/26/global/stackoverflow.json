@@ -1,0 +1,247 @@
+[
+  {
+    "title": "Why does my JS make the browser scroll to the bottom of the page when switching to a section that&#39;s taller than the window height?",
+    "score": -1,
+    "views": 65,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "html"
+    ],
+    "link": "https://stackoverflow.com/questions/80012509/why-does-my-js-make-the-browser-scroll-to-the-bottom-of-the-page-when-switching"
+  },
+  {
+    "title": "Is it possible to update all `text-align: left` rules to justify` while leaving `center` and `right` unchanged?",
+    "score": 0,
+    "views": 46,
+    "answers": 1,
+    "tags": [
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/80012502/is-it-possible-to-update-all-text-align-left-rules-to-justify-while-leaving"
+  },
+  {
+    "title": "bitbake do_compile Error building a program using spdlog in yocto",
+    "score": -2,
+    "views": 18,
+    "answers": 0,
+    "tags": [
+      "linux",
+      "yocto",
+      "spdlog"
+    ],
+    "link": "https://stackoverflow.com/questions/80012507/bitbake-do-compile-error-building-a-program-using-spdlog-in-yocto"
+  },
+  {
+    "title": "What are sanitizers and how could they help me find problems in my code?",
+    "score": 0,
+    "views": 110,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "c++",
+      "c",
+      "address-sanitizer",
+      "ubsan"
+    ],
+    "link": "https://stackoverflow.com/questions/80012463/what-are-sanitizers-and-how-could-they-help-me-find-problems-in-my-code"
+  },
+  {
+    "title": "Why does casting to Object[] prevent a ClassCastException?",
+    "score": 3,
+    "views": 81,
+    "answers": 1,
+    "tags": [
+      "java",
+      "generics",
+      "casting",
+      "type-erasure"
+    ],
+    "link": "https://stackoverflow.com/questions/80012496/why-does-casting-to-object-prevent-a-classcastexception"
+  },
+  {
+    "title": "Does Unique make sense on unique values?",
+    "score": -3,
+    "views": 74,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "unique-constraint"
+    ],
+    "link": "https://stackoverflow.com/questions/80012490/does-unique-make-sense-on-unique-values"
+  },
+  {
+    "title": "In Java, Is an Object[] Homogeneous or Heterogeneous?",
+    "score": -9,
+    "views": 134,
+    "answers": 1,
+    "tags": [
+      "java",
+      "arrays",
+      "types",
+      "collections",
+      "jvm"
+    ],
+    "link": "https://stackoverflow.com/questions/80012467/in-java-is-an-object-homogeneous-or-heterogeneous"
+  },
+  {
+    "title": "Why does fflush(stdin) not clear the input buffer in C on macOS (GCC)?",
+    "score": -2,
+    "views": 98,
+    "answers": 1,
+    "tags": [
+      "c",
+      "macos",
+      "scanf",
+      "fflush",
+      "input-buffer"
+    ],
+    "link": "https://stackoverflow.com/questions/80012478/why-does-fflushstdin-not-clear-the-input-buffer-in-c-on-macos-gcc"
+  },
+  {
+    "title": "Segmentation fault when inserting a node at the end of a singly linked list in C",
+    "score": -1,
+    "views": 106,
+    "answers": 1,
+    "tags": [
+      "c",
+      "data-structures",
+      "linked-list",
+      "segmentation-fault"
+    ],
+    "link": "https://stackoverflow.com/questions/80012452/segmentation-fault-when-inserting-a-node-at-the-end-of-a-singly-linked-list-in-c"
+  },
+  {
+    "title": "ValueError: failed to validate MultiPolygons when trying to create interactive map using Carto basemap and geopandas",
+    "score": 3,
+    "views": 108,
+    "answers": 1,
+    "tags": [
+      "python",
+      "geospatial",
+      "geopandas",
+      "cartopy",
+      "holoviews"
+    ],
+    "link": "https://stackoverflow.com/questions/80012435/valueerror-failed-to-validate-multipolygons-when-trying-to-create-interactive-m"
+  },
+  {
+    "title": "Sending/Receiving SMS using Android apps",
+    "score": -7,
+    "views": 66,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "android",
+      "sms"
+    ],
+    "link": "https://stackoverflow.com/questions/80012461/sending-receiving-sms-using-android-apps"
+  },
+  {
+    "title": "I fail to understand in simple terms what `eglSwapBuffers` does in this piece of code",
+    "score": -3,
+    "views": 91,
+    "answers": 0,
+    "tags": [
+      "c",
+      "opengl-es",
+      "egl",
+      "linux-drm"
+    ],
+    "link": "https://stackoverflow.com/questions/80012457/i-fail-to-understand-in-simple-terms-what-eglswapbuffers-does-in-this-piece-of"
+  },
+  {
+    "title": "Why are spaces misaligned in the bottom half of my C diamond pattern?",
+    "score": -5,
+    "views": 96,
+    "answers": 1,
+    "tags": [
+      "c",
+      "for-loop",
+      "printing"
+    ],
+    "link": "https://stackoverflow.com/questions/80012429/why-are-spaces-misaligned-in-the-bottom-half-of-my-c-diamond-pattern"
+  },
+  {
+    "title": "JQuery validation not working in new ASP.NET Core MVC web application",
+    "score": 1,
+    "views": 42,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "jquery",
+      "asp.net-core-mvc"
+    ],
+    "link": "https://stackoverflow.com/questions/80012423/jquery-validation-not-working-in-new-asp-net-core-mvc-web-application"
+  },
+  {
+    "title": "How can I ensure a 20 microsecond cycle during real time testing?",
+    "score": 1,
+    "views": 159,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "python",
+      "testing",
+      "jitter"
+    ],
+    "link": "https://stackoverflow.com/questions/80012365/how-can-i-ensure-a-20-microsecond-cycle-during-real-time-testing"
+  },
+  {
+    "title": "Div is expanding to fit content when I don&#39;t want it to",
+    "score": 3,
+    "views": 101,
+    "answers": 1,
+    "tags": [
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/80012415/div-is-expanding-to-fit-content-when-i-dont-want-it-to"
+  },
+  {
+    "title": "How to fix sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) unable to open database file?",
+    "score": 1,
+    "views": 150,
+    "answers": 1,
+    "tags": [
+      "python",
+      "model-context-protocol"
+    ],
+    "link": "https://stackoverflow.com/questions/80012398/how-to-fix-sqlalchemy-exc-operationalerror-sqlite3-operationalerror-unable-to"
+  },
+  {
+    "title": "How to ignore whitespace in the review page when calling `git commit --verbose`?",
+    "score": -5,
+    "views": 60,
+    "answers": 0,
+    "tags": [
+      "git",
+      "git-diff"
+    ],
+    "link": "https://stackoverflow.com/questions/80012424/how-to-ignore-whitespace-in-the-review-page-when-calling-git-commit-verbose"
+  },
+  {
+    "title": "Get rid of unwanted splash of color which is not splashColor in Flutter FilterChip widget",
+    "score": 0,
+    "views": 54,
+    "answers": 1,
+    "tags": [
+      "flutter",
+      "themes"
+    ],
+    "link": "https://stackoverflow.com/questions/80012412/get-rid-of-unwanted-splash-of-color-which-is-not-splashcolor-in-flutter-filterch"
+  },
+  {
+    "title": "How to fix WampServer addons defaulting to C:\\wamp64 after migrating to another computer?",
+    "score": -1,
+    "views": 38,
+    "answers": 1,
+    "tags": [
+      "php",
+      "windows",
+      "wamp",
+      "inno-setup"
+    ],
+    "link": "https://stackoverflow.com/questions/80012430/how-to-fix-wampserver-addons-defaulting-to-c-wamp64-after-migrating-to-another"
+  }
+]
