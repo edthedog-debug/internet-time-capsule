@@ -1,0 +1,237 @@
+[
+  {
+    "title": "The Definitive Reference Guide for C++",
+    "score": -5,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "c++"
+    ],
+    "link": "https://stackoverflow.com/questions/80012992/the-definitive-reference-guide-for-c"
+  },
+  {
+    "title": "How can I enforce a hard request limit for Google Places API (New) during the free trial?",
+    "score": -2,
+    "views": 27,
+    "answers": 0,
+    "tags": [
+      "google-maps",
+      "google-cloud-platform"
+    ],
+    "link": "https://stackoverflow.com/questions/80012991/how-can-i-enforce-a-hard-request-limit-for-google-places-api-new-during-the-fr"
+  },
+  {
+    "title": "Facebook Graph API No Longer Returns the token_for_business Field on Specific iOS/iPadOS Devices",
+    "score": 0,
+    "views": 19,
+    "answers": 0,
+    "tags": [
+      "ios",
+      "facebook"
+    ],
+    "link": "https://stackoverflow.com/questions/80012987/facebook-graph-api-no-longer-returns-the-token-for-business-field-on-specific-io"
+  },
+  {
+    "title": "Epsilon value in R and comparing numbers",
+    "score": -1,
+    "views": 16,
+    "answers": 0,
+    "tags": [
+      "r"
+    ],
+    "link": "https://stackoverflow.com/questions/80012989/epsilon-value-in-r-and-comparing-numbers"
+  },
+  {
+    "title": "Why did Anthropic/Theorem&#39;s formal verification work restrict itself to single-threaded binaries?",
+    "score": -1,
+    "views": 15,
+    "answers": 0,
+    "tags": [
+      "rocq-prover",
+      "large-language-model",
+      "formal-verification"
+    ],
+    "link": "https://stackoverflow.com/questions/80012990/why-did-anthropic-theorems-formal-verification-work-restrict-itself-to-single-t"
+  },
+  {
+    "title": "Three.js canvas memory leak in React functional components during rapid unmounting",
+    "score": -2,
+    "views": 33,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "reactjs",
+      "redux"
+    ],
+    "link": "https://stackoverflow.com/questions/80012985/three-js-canvas-memory-leak-in-react-functional-components-during-rapid-unmounti"
+  },
+  {
+    "title": "How to return an ostream from an IIFE?",
+    "score": 2,
+    "views": 74,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "ostream"
+    ],
+    "link": "https://stackoverflow.com/questions/80012976/how-to-return-an-ostream-from-an-iife"
+  },
+  {
+    "title": "&#191;C&#243;mo conectar una librer&#237;a Kotlin/JVM de Maven con SQLite en Android?",
+    "score": -4,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "android",
+      "kotlin",
+      "maven"
+    ],
+    "link": "https://stackoverflow.com/questions/80012983/c%c3%b3mo-conectar-una-librer%c3%ada-kotlin-jvm-de-maven-con-sqlite-en-android"
+  },
+  {
+    "title": "How do I successfully return httpResource from a function in a service?",
+    "score": 0,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "angular",
+      "angular-httpclient",
+      "angular-signals"
+    ],
+    "link": "https://stackoverflow.com/questions/80012981/how-do-i-successfully-return-httpresource-from-a-function-in-a-service"
+  },
+  {
+    "title": "animations fail but video of same spritesheet perfect how?",
+    "score": -2,
+    "views": 20,
+    "answers": 0,
+    "tags": [
+      "animation",
+      "artificial-intelligence",
+      "css-animations"
+    ],
+    "link": "https://stackoverflow.com/questions/80012982/animations-fail-but-video-of-same-spritesheet-perfect-how"
+  },
+  {
+    "title": "Malloc string print in 8 bytes allocation",
+    "score": 0,
+    "views": 76,
+    "answers": 1,
+    "tags": [
+      "c",
+      "string",
+      "malloc",
+      "fgets"
+    ],
+    "link": "https://stackoverflow.com/questions/80012972/malloc-string-print-in-8-bytes-allocation"
+  },
+  {
+    "title": "Unable to build using Python 3.16 (current Python main)",
+    "score": 1,
+    "views": 48,
+    "answers": 0,
+    "tags": [
+      "python",
+      "clang",
+      "python-imaging-library"
+    ],
+    "link": "https://stackoverflow.com/questions/80012969/unable-to-build-using-python-3-16-current-python-main"
+  },
+  {
+    "title": "tryCatch error function not returning dataframe",
+    "score": 0,
+    "views": 90,
+    "answers": 2,
+    "tags": [
+      "r"
+    ],
+    "link": "https://stackoverflow.com/questions/80012932/trycatch-error-function-not-returning-dataframe"
+  },
+  {
+    "title": "How to create secure link uisng java(spring)",
+    "score": -3,
+    "views": 64,
+    "answers": 0,
+    "tags": [
+      "java",
+      "spring",
+      "spring-boot",
+      "spring-security"
+    ],
+    "link": "https://stackoverflow.com/questions/80012973/how-to-create-secure-link-uisng-javaspring"
+  },
+  {
+    "title": "External HDD connects briefly (sda), then times out on Debian 13 ( but Works fine on Windows 11)",
+    "score": -4,
+    "views": 43,
+    "answers": 0,
+    "tags": [
+      "linux",
+      "debian",
+      "usb",
+      "storage"
+    ],
+    "link": "https://stackoverflow.com/questions/80012971/external-hdd-connects-briefly-sda-then-times-out-on-debian-13-but-works-fin"
+  },
+  {
+    "title": "I am getting error messages for a Core Data fetch request that is new since Xcode 27.1",
+    "score": -2,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "xcode",
+      "core-data"
+    ],
+    "link": "https://stackoverflow.com/questions/80012970/i-am-getting-error-messages-for-a-core-data-fetch-request-that-is-new-since-xcod"
+  },
+  {
+    "title": "Many wordpress editing aspects affecting since PHP issue",
+    "score": -4,
+    "views": 39,
+    "answers": 0,
+    "tags": [
+      "php",
+      "wordpress",
+      "plugins"
+    ],
+    "link": "https://stackoverflow.com/questions/80012966/many-wordpress-editing-aspects-affecting-since-php-issue"
+  },
+  {
+    "title": "Is using PHP&#39;s official minimal source-backports for PHP 7.4/8.0/8.1 recommended for production, and what are the best practices for use them?",
+    "score": 1,
+    "views": 116,
+    "answers": 2,
+    "tags": [
+      "best-practices",
+      "php",
+      "security",
+      "cve"
+    ],
+    "link": "https://stackoverflow.com/questions/80012903/is-using-phps-official-minimal-source-backports-for-php-7-4-8-0-8-1-recommended"
+  },
+  {
+    "title": "How do I do a proper chase camera without breaking culling?",
+    "score": 0,
+    "views": 50,
+    "answers": 0,
+    "tags": [
+      "three.js",
+      "camera",
+      "culling"
+    ],
+    "link": "https://stackoverflow.com/questions/80012962/how-do-i-do-a-proper-chase-camera-without-breaking-culling"
+  },
+  {
+    "title": "Tkinter Toplevel Windows Persisting in Memory When Deleted",
+    "score": 1,
+    "views": 38,
+    "answers": 0,
+    "tags": [
+      "python",
+      "tkinter",
+      "garbage-collection",
+      "toplevel"
+    ],
+    "link": "https://stackoverflow.com/questions/80012958/tkinter-toplevel-windows-persisting-in-memory-when-deleted"
+  }
+]
