@@ -1,0 +1,98 @@
+[
+  {
+    "home": "Atlanta Hawks",
+    "away": "Miami Heat",
+    "home_score": "117",
+    "away_score": "129",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-28T23:00Z"
+  },
+  {
+    "home": "Cleveland Cavaliers",
+    "away": "Washington Wizards",
+    "home_score": "121",
+    "away_score": "111",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-28T23:00Z"
+  },
+  {
+    "home": "Detroit Pistons",
+    "away": "Charlotte Hornets",
+    "home_score": "97",
+    "away_score": "89",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-28T23:00Z"
+  },
+  {
+    "home": "Indiana Pacers",
+    "away": "Philadelphia 76ers",
+    "home_score": "109",
+    "away_score": "114",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-28T23:00Z"
+  },
+  {
+    "home": "Toronto Raptors",
+    "away": "Orlando Magic",
+    "home_score": "129",
+    "away_score": "99",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-28T23:30Z"
+  },
+  {
+    "home": "Chicago Bulls",
+    "away": "New York Knicks",
+    "home_score": "127",
+    "away_score": "133",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-29T00:00Z"
+  },
+  {
+    "home": "Milwaukee Bucks",
+    "away": "Houston Rockets",
+    "home_score": "100",
+    "away_score": "132",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-29T00:00Z"
+  },
+  {
+    "home": "Minnesota Timberwolves",
+    "away": "Golden State Warriors",
+    "home_score": "114",
+    "away_score": "119",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-29T00:00Z"
+  },
+  {
+    "home": "New Orleans Pelicans",
+    "away": "Denver Nuggets",
+    "home_score": "91",
+    "away_score": "104",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-29T00:00Z"
+  },
+  {
+    "home": "Utah Jazz",
+    "away": "San Antonio Spurs",
+    "home_score": "111",
+    "away_score": "117",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-29T01:00Z"
+  },
+  {
+    "home": "Dallas Mavericks",
+    "away": "Oklahoma City Thunder",
+    "home_score": "120",
+    "away_score": "96",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-29T01:30Z"
+  },
+  {
+    "home": "LA Clippers",
+    "away": "Los Angeles Lakers",
+    "home_score": "57",
+    "away_score": "72",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-10-29T02:30Z"
+  }
+]

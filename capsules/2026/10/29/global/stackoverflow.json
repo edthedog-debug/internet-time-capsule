@@ -1,0 +1,241 @@
+[
+  {
+    "title": "How can I preserve Double precision when saving values in Android SharedPreferences?",
+    "score": 0,
+    "views": 34,
+    "answers": 0,
+    "tags": [
+      "android",
+      "kotlin",
+      "sharedpreferences"
+    ],
+    "link": "https://stackoverflow.com/questions/80013273/how-can-i-preserve-double-precision-when-saving-values-in-android-sharedpreferen"
+  },
+  {
+    "title": "How to obtain Google&#39;s written consent for using Drive API to back up mobile app data?",
+    "score": -3,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "google-drive-api",
+      "google-workspace"
+    ],
+    "link": "https://stackoverflow.com/questions/80013270/how-to-obtain-googles-written-consent-for-using-drive-api-to-back-up-mobile-app"
+  },
+  {
+    "title": "Time-series engine only computes the group that receives new data — how do I close the previous minute for every group?",
+    "score": 0,
+    "views": 33,
+    "answers": 0,
+    "tags": [
+      "time-series",
+      "streaming",
+      "dolphindb"
+    ],
+    "link": "https://stackoverflow.com/questions/80013272/time-series-engine-only-computes-the-group-that-receives-new-data-how-do-i-clo"
+  },
+  {
+    "title": "Can I make pyright catch unnecessarily broad type annotations?",
+    "score": 0,
+    "views": 43,
+    "answers": 0,
+    "tags": [
+      "python",
+      "typing",
+      "pyright"
+    ],
+    "link": "https://stackoverflow.com/questions/80013267/can-i-make-pyright-catch-unnecessarily-broad-type-annotations"
+  },
+  {
+    "title": "How do I detect arrow key/non-alphanumeric keypresses with GLFW?",
+    "score": -3,
+    "views": 153,
+    "answers": 1,
+    "tags": [
+      "c",
+      "opengl",
+      "glfw"
+    ],
+    "link": "https://stackoverflow.com/questions/80013254/how-do-i-detect-arrow-key-non-alphanumeric-keypresses-with-glfw"
+  },
+  {
+    "title": "How to use multiple files with egui",
+    "score": -1,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "rust",
+      "egui"
+    ],
+    "link": "https://stackoverflow.com/questions/80013269/how-to-use-multiple-files-with-egui"
+  },
+  {
+    "title": "Why can&#39;t I make this loop in this pyglet-using code work?",
+    "score": 0,
+    "views": 83,
+    "answers": 0,
+    "tags": [
+      "python",
+      "windows",
+      "loops",
+      "time",
+      "pyglet"
+    ],
+    "link": "https://stackoverflow.com/questions/80013265/why-cant-i-make-this-loop-in-this-pyglet-using-code-work"
+  },
+  {
+    "title": "Prevent Google Translate from translating specific content",
+    "score": -5,
+    "views": 83,
+    "answers": 0,
+    "tags": [
+      "html",
+      "css",
+      "jsx",
+      "google-translate"
+    ],
+    "link": "https://stackoverflow.com/questions/80013257/prevent-google-translate-from-translating-specific-content"
+  },
+  {
+    "title": "How to cast a std::chrono::hh_mm_ss component to an integer",
+    "score": 2,
+    "views": 171,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "c++-chrono"
+    ],
+    "link": "https://stackoverflow.com/questions/80013245/how-to-cast-a-stdchronohh-mm-ss-component-to-an-integer"
+  },
+  {
+    "title": "How can callers cancel independently when they share the same fetch request?",
+    "score": 2,
+    "views": 88,
+    "answers": 2,
+    "tags": [
+      "javascript",
+      "promise",
+      "abortcontroller"
+    ],
+    "link": "https://stackoverflow.com/questions/80013221/how-can-callers-cancel-independently-when-they-share-the-same-fetch-request"
+  },
+  {
+    "title": "Does a new dns record work worldwide instantly?",
+    "score": -5,
+    "views": 147,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "dns"
+    ],
+    "link": "https://stackoverflow.com/questions/80013180/does-a-new-dns-record-work-worldwide-instantly"
+  },
+  {
+    "title": ".Net MAUI label not updating with data binding",
+    "score": 0,
+    "views": 58,
+    "answers": 1,
+    "tags": [
+      "mvvm",
+      "maui"
+    ],
+    "link": "https://stackoverflow.com/questions/80013242/net-maui-label-not-updating-with-data-binding"
+  },
+  {
+    "title": "Why is Pyright saying I have already declared this enum member?",
+    "score": 1,
+    "views": 194,
+    "answers": 3,
+    "tags": [
+      "python",
+      "typing",
+      "pyright"
+    ],
+    "link": "https://stackoverflow.com/questions/80013112/why-is-pyright-saying-i-have-already-declared-this-enum-member"
+  },
+  {
+    "title": "How to import TypeScript project files in Mocha test file",
+    "score": -1,
+    "views": 143,
+    "answers": 1,
+    "tags": [
+      "node.js",
+      "typescript",
+      "mocha.js"
+    ],
+    "link": "https://stackoverflow.com/questions/80013228/how-to-import-typescript-project-files-in-mocha-test-file"
+  },
+  {
+    "title": "Severin Java EndpointMapping",
+    "score": -3,
+    "views": 44,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "java"
+    ],
+    "link": "https://stackoverflow.com/questions/80013227/severin-java-endpointmapping"
+  },
+  {
+    "title": "Why does local account sometimes not appear in admin group even after being added via powershell?",
+    "score": 0,
+    "views": 84,
+    "answers": 0,
+    "tags": [
+      "powershell",
+      "scripting",
+      "windows-11"
+    ],
+    "link": "https://stackoverflow.com/questions/80013231/why-does-local-account-sometimes-not-appear-in-admin-group-even-after-being-adde"
+  },
+  {
+    "title": "How to enable HTTP/2.0 for unencrypted http requests in Kestrel",
+    "score": 1,
+    "views": 88,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "asp.net-core",
+      ".net-10.0"
+    ],
+    "link": "https://stackoverflow.com/questions/80013217/how-to-enable-http-2-0-for-unencrypted-http-requests-in-kestrel"
+  },
+  {
+    "title": "How can I safely unregister a one-time Wi-Fi event handler in Arduino-ESP32?",
+    "score": 2,
+    "views": 98,
+    "answers": 2,
+    "tags": [
+      "wifi",
+      "esp32",
+      "arduino-esp32"
+    ],
+    "link": "https://stackoverflow.com/questions/80013188/how-can-i-safely-unregister-a-one-time-wi-fi-event-handler-in-arduino-esp32"
+  },
+  {
+    "title": "Rules for std::start_lifetime_as",
+    "score": 2,
+    "views": 147,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "undefined-behavior",
+      "lifetime",
+      "strict-aliasing"
+    ],
+    "link": "https://stackoverflow.com/questions/80013196/rules-for-stdstart-lifetime-as"
+  },
+  {
+    "title": "Simmer: How to pause active trajectory timeout()s when new arrival seizes a resource",
+    "score": 0,
+    "views": 41,
+    "answers": 0,
+    "tags": [
+      "r",
+      "simulation",
+      "queueing"
+    ],
+    "link": "https://stackoverflow.com/questions/80013206/simmer-how-to-pause-active-trajectory-timeouts-when-new-arrival-seizes-a-reso"
+  }
+]
