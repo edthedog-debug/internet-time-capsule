@@ -1,0 +1,244 @@
+[
+  {
+    "title": "How can I audit PostgreSQL virtual generated columns when OLD and NEW contain NULL?",
+    "score": 0,
+    "views": 44,
+    "answers": 0,
+    "tags": [
+      "postgresql",
+      "triggers",
+      "audit",
+      "virtual-column",
+      "postgresql-18"
+    ],
+    "link": "https://stackoverflow.com/questions/80013545/how-can-i-audit-postgresql-virtual-generated-columns-when-old-and-new-contain-nu"
+  },
+  {
+    "title": "How can I prevent narrowing conversion with {} (curly braces) for assignment and not just initialization?",
+    "score": -3,
+    "views": 108,
+    "answers": 2,
+    "tags": [
+      "c++"
+    ],
+    "link": "https://stackoverflow.com/questions/80013525/how-can-i-prevent-narrowing-conversion-with-curly-braces-for-assignment-and"
+  },
+  {
+    "title": "Reverse data which contains duplicates",
+    "score": 1,
+    "views": 47,
+    "answers": 1,
+    "tags": [
+      "google-sheets-formula"
+    ],
+    "link": "https://stackoverflow.com/questions/80013538/reverse-data-which-contains-duplicates"
+  },
+  {
+    "title": "Why does the randomiser repeatedly print B?",
+    "score": -3,
+    "views": 65,
+    "answers": 2,
+    "tags": [
+      "python",
+      "random",
+      "pyglet"
+    ],
+    "link": "https://stackoverflow.com/questions/80013523/why-does-the-randomiser-repeatedly-print-b"
+  },
+  {
+    "title": "Why does my program work in C23 and not in C11?",
+    "score": 12,
+    "views": 521,
+    "answers": 3,
+    "tags": [
+      "c",
+      "language-lawyer",
+      "c23"
+    ],
+    "link": "https://stackoverflow.com/questions/80013344/why-does-my-program-work-in-c23-and-not-in-c11"
+  },
+  {
+    "title": "Wildcard Digit Replacement",
+    "score": -12,
+    "views": 246,
+    "answers": 0,
+    "tags": [
+      "algorithm",
+      "numbers",
+      "algebra"
+    ],
+    "link": "https://stackoverflow.com/questions/80013504/wildcard-digit-replacement"
+  },
+  {
+    "title": "How do I create multiple columns in a single step?",
+    "score": 2,
+    "views": 175,
+    "answers": 2,
+    "tags": [
+      "excel",
+      "powerbi",
+      "powerquery"
+    ],
+    "link": "https://stackoverflow.com/questions/80013502/how-do-i-create-multiple-columns-in-a-single-step"
+  },
+  {
+    "title": "Unable to set HTML clipboard content in X11 session using Avalonia",
+    "score": -2,
+    "views": 92,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "linux",
+      "clipboard",
+      "x11",
+      "avaloniaui"
+    ],
+    "link": "https://stackoverflow.com/questions/80013473/unable-to-set-html-clipboard-content-in-x11-session-using-avalonia"
+  },
+  {
+    "title": "interactive `kill-session; new-session` causes server to heavily use CPU in `evmap_io_active_()`",
+    "score": 0,
+    "views": 70,
+    "answers": 1,
+    "tags": [
+      "tmux",
+      "libevent"
+    ],
+    "link": "https://stackoverflow.com/questions/80013489/interactive-kill-session-new-session-causes-server-to-heavily-use-cpu-in-evm"
+  },
+  {
+    "title": "A type specifier is required for all declarations",
+    "score": -2,
+    "views": 67,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "qt6"
+    ],
+    "link": "https://stackoverflow.com/questions/80013496/a-type-specifier-is-required-for-all-declarations"
+  },
+  {
+    "title": "MySQL updates sometimes not making it to BigQuery",
+    "score": -7,
+    "views": 132,
+    "answers": 0,
+    "tags": [
+      "mysql",
+      "google-bigquery",
+      "etl"
+    ],
+    "link": "https://stackoverflow.com/questions/80013499/mysql-updates-sometimes-not-making-it-to-bigquery"
+  },
+  {
+    "title": "Null values from Salesforce overwriting data in PostgreSQL",
+    "score": -4,
+    "views": 94,
+    "answers": 0,
+    "tags": [
+      "python",
+      "postgresql",
+      "salesforce",
+      "upsert"
+    ],
+    "link": "https://stackoverflow.com/questions/80013497/null-values-from-salesforce-overwriting-data-in-postgresql"
+  },
+  {
+    "title": "How can I display localized dates in Jetpack Compose without breaking ISO date filtering?",
+    "score": -1,
+    "views": 60,
+    "answers": 2,
+    "tags": [
+      "android",
+      "kotlin",
+      "datetime",
+      "android-jetpack-compose"
+    ],
+    "link": "https://stackoverflow.com/questions/80013424/how-can-i-display-localized-dates-in-jetpack-compose-without-breaking-iso-date-f"
+  },
+  {
+    "title": "Starting a Netbox Plugin with Template Extension fails with ModuleNotFoundError",
+    "score": -3,
+    "views": 64,
+    "answers": 1,
+    "tags": [
+      "python",
+      "netbox"
+    ],
+    "link": "https://stackoverflow.com/questions/80013401/starting-a-netbox-plugin-with-template-extension-fails-with-modulenotfounderror"
+  },
+  {
+    "title": "const auto reference parameter not protecting against changing a value",
+    "score": -1,
+    "views": 119,
+    "answers": 2,
+    "tags": [
+      "c++",
+      "parameters",
+      "c++20",
+      "auto"
+    ],
+    "link": "https://stackoverflow.com/questions/80013362/const-auto-reference-parameter-not-protecting-against-changing-a-value"
+  },
+  {
+    "title": "How do I test a Windows command line program when I&#39;m using Linux?",
+    "score": -8,
+    "views": 176,
+    "answers": 0,
+    "tags": [
+      "linux",
+      "windows",
+      "command-line-interface",
+      "virtual-machine"
+    ],
+    "link": "https://stackoverflow.com/questions/80013464/how-do-i-test-a-windows-command-line-program-when-im-using-linux"
+  },
+  {
+    "title": "Why does PostgreSQL ignore my B-tree index on WHERE upper(name) LIKE &#39;GARC%&#39; and do a sequential scan?",
+    "score": 0,
+    "views": 192,
+    "answers": 3,
+    "tags": [
+      "postgresql",
+      "indexing",
+      "query-optimization",
+      "sql-execution-plan"
+    ],
+    "link": "https://stackoverflow.com/questions/80013451/why-does-postgresql-ignore-my-b-tree-index-on-where-uppername-like-garc-and"
+  },
+  {
+    "title": "Finding out the time of multiple files at once",
+    "score": -7,
+    "views": 202,
+    "answers": 1,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80013460/finding-out-the-time-of-multiple-files-at-once"
+  },
+  {
+    "title": "How should I enforce consistent authorization and input validation across tools in an MCP server?",
+    "score": -4,
+    "views": 64,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "authentication",
+      "security",
+      "authorization",
+      "mcp-server"
+    ],
+    "link": "https://stackoverflow.com/questions/80013484/how-should-i-enforce-consistent-authorization-and-input-validation-across-tools"
+  },
+  {
+    "title": "SQL Server to PostgreSQL sync missing some records",
+    "score": -6,
+    "views": 75,
+    "answers": 0,
+    "tags": [
+      "sql-server",
+      "postgresql",
+      "data-synchronization"
+    ],
+    "link": "https://stackoverflow.com/questions/80013490/sql-server-to-postgresql-sync-missing-some-records"
+  }
+]

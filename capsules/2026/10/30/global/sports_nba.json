@@ -1,0 +1,26 @@
+[
+  {
+    "home": "Atlanta Hawks",
+    "away": "Cleveland Cavaliers",
+    "home_score": "114",
+    "away_score": "111",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-30T00:00Z"
+  },
+  {
+    "home": "New Orleans Pelicans",
+    "away": "Sacramento Kings",
+    "home_score": "132",
+    "away_score": "120",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-30T00:00Z"
+  },
+  {
+    "home": "Portland Trail Blazers",
+    "away": "Memphis Grizzlies",
+    "home_score": "103",
+    "away_score": "124",
+    "status": "STATUS_FINAL",
+    "date": "2026-10-30T02:00Z"
+  }
+]
