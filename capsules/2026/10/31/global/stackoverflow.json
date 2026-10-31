@@ -1,0 +1,240 @@
+[
+  {
+    "title": "How to fix that error when i try to install python3.15 in brew",
+    "score": 0,
+    "views": 29,
+    "answers": 0,
+    "tags": [
+      "python",
+      "homebrew"
+    ],
+    "link": "https://stackoverflow.com/questions/80013762/how-to-fix-that-error-when-i-try-to-install-python3-15-in-brew"
+  },
+  {
+    "title": "Buggy implementation of Knuth&#39;s Mastermind algorithm in python",
+    "score": 3,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "python",
+      "algorithm",
+      "minimax",
+      "knuth"
+    ],
+    "link": "https://stackoverflow.com/questions/80013760/buggy-implementation-of-knuths-mastermind-algorithm-in-python"
+  },
+  {
+    "title": "Experiencing deadlock when trying to list root directory in custom filesystem",
+    "score": 1,
+    "views": 24,
+    "answers": 0,
+    "tags": [
+      "c",
+      "freebsd",
+      "vfs"
+    ],
+    "link": "https://stackoverflow.com/questions/80013759/experiencing-deadlock-when-trying-to-list-root-directory-in-custom-filesystem"
+  },
+  {
+    "title": "How does one configure .vscode to stop applying JSON Schemas to a yaml configuration file?",
+    "score": 0,
+    "views": 43,
+    "answers": 1,
+    "tags": [
+      "vs-code",
+      "yaml",
+      "jsonschema"
+    ],
+    "link": "https://stackoverflow.com/questions/80013752/how-does-one-configure-vscode-to-stop-applying-json-schemas-to-a-yaml-configura"
+  },
+  {
+    "title": "int main(int argc, char* argv[]) is causing compilation issues",
+    "score": 1,
+    "views": 137,
+    "answers": 1,
+    "tags": [
+      "c"
+    ],
+    "link": "https://stackoverflow.com/questions/80013737/int-mainint-argc-char-argv-is-causing-compilation-issues"
+  },
+  {
+    "title": "Increase wait time for custom alexa skill / Lambda event function to listen after invoking",
+    "score": -2,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "aws-lambda",
+      "alexa-skills-kit"
+    ],
+    "link": "https://stackoverflow.com/questions/80013750/increase-wait-time-for-custom-alexa-skill-lambda-event-function-to-listen-afte"
+  },
+  {
+    "title": "Codex permissions suddenly missing for important tasks",
+    "score": -1,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "openai-api",
+      "openai-codex"
+    ],
+    "link": "https://stackoverflow.com/questions/80013746/codex-permissions-suddenly-missing-for-important-tasks"
+  },
+  {
+    "title": "How can a user uninstall a Chrome JavaScript SpeechRecognition.install language pack?",
+    "score": 0,
+    "views": 32,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "cloud",
+      "speech-recognition",
+      "local",
+      "webspeech-api"
+    ],
+    "link": "https://stackoverflow.com/questions/80013743/how-can-a-user-uninstall-a-chrome-javascript-speechrecognition-install-language"
+  },
+  {
+    "title": "How to display the numbers after using API Get question",
+    "score": -1,
+    "views": 29,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "reactjs",
+      "typescript",
+      "fetch-api"
+    ],
+    "link": "https://stackoverflow.com/questions/80013736/how-to-display-the-numbers-after-using-api-get-question"
+  },
+  {
+    "title": "Dealing with unsupported media type in HTML5 audio element?",
+    "score": 2,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "html5-audio"
+    ],
+    "link": "https://stackoverflow.com/questions/80013732/dealing-with-unsupported-media-type-in-html5-audio-element"
+  },
+  {
+    "title": "What Are the Biggest Limitations of Current AI Chatbots in Enterprise Environments?",
+    "score": -6,
+    "views": 65,
+    "answers": 0,
+    "tags": [
+      "advice"
+    ],
+    "link": "https://stackoverflow.com/questions/80013721/what-are-the-biggest-limitations-of-current-ai-chatbots-in-enterprise-environmen"
+  },
+  {
+    "title": "Why does my program work in C23 and not in C11?",
+    "score": 19,
+    "views": 1224,
+    "answers": 3,
+    "tags": [
+      "c",
+      "language-lawyer",
+      "c23",
+      "trigraphs"
+    ],
+    "link": "https://stackoverflow.com/questions/80013344/why-does-my-program-work-in-c23-and-not-in-c11"
+  },
+  {
+    "title": "Resolving &quot;log in to confirm youre not a bot&quot; when deploying yt-dlp through Vercel",
+    "score": -2,
+    "views": 70,
+    "answers": 1,
+    "tags": [
+      "node.js",
+      "youtube",
+      "vercel",
+      "yt-dlp"
+    ],
+    "link": "https://stackoverflow.com/questions/80013710/resolving-log-in-to-confirm-youre-not-a-bot-when-deploying-yt-dlp-through-verc"
+  },
+  {
+    "title": "Excel VBA Selenium problems opening port",
+    "score": -4,
+    "views": 109,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "excel",
+      "vba",
+      "selenium-webdriver"
+    ],
+    "link": "https://stackoverflow.com/questions/80013631/excel-vba-selenium-problems-opening-port"
+  },
+  {
+    "title": "How can I remove an outdated contributor from a GitHub repository when the commit history is clean?",
+    "score": 4,
+    "views": 153,
+    "answers": 1,
+    "tags": [
+      "git",
+      "github"
+    ],
+    "link": "https://stackoverflow.com/questions/80013680/how-can-i-remove-an-outdated-contributor-from-a-github-repository-when-the-commi"
+  },
+  {
+    "title": "In WebGPU, is it faster to use a single interleaved GPUBuffer for positions, normals, and UVs? Or should I use separate GPUBuffers?",
+    "score": 1,
+    "views": 66,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "vertex-buffer",
+      "webgpu"
+    ],
+    "link": "https://stackoverflow.com/questions/80013705/in-webgpu-is-it-faster-to-use-a-single-interleaved-gpubuffer-for-positions-nor"
+  },
+  {
+    "title": "How do I implement different modified objects by using classes?",
+    "score": -2,
+    "views": 149,
+    "answers": 0,
+    "tags": [
+      "python",
+      "pygame"
+    ],
+    "link": "https://stackoverflow.com/questions/80013673/how-do-i-implement-different-modified-objects-by-using-classes"
+  },
+  {
+    "title": "How to distinguish Npgsql connection pool wait time from EF Core BeginTransactionAsync latency?",
+    "score": 4,
+    "views": 42,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "postgresql",
+      "entity-framework-core",
+      "npgsql"
+    ],
+    "link": "https://stackoverflow.com/questions/80013695/how-to-distinguish-npgsql-connection-pool-wait-time-from-ef-core-begintransactio"
+  },
+  {
+    "title": "win-acme : Authorization result: invalid. Timeout during connect (likely firewall problem)&quot;,&quot;status&quot;:400,&quot;instance&quot;:null}. Create certificate failed",
+    "score": -1,
+    "views": 58,
+    "answers": 0,
+    "tags": [
+      "ssl",
+      "ssl-certificate",
+      "lets-encrypt",
+      "acme"
+    ],
+    "link": "https://stackoverflow.com/questions/80013696/win-acme-authorization-result-invalid-timeout-during-connect-likely-firewal"
+  },
+  {
+    "title": "Write Prim&#39;s algorithm in Python",
+    "score": -4,
+    "views": 262,
+    "answers": 2,
+    "tags": [
+      "python",
+      "prims-algorithm"
+    ],
+    "link": "https://stackoverflow.com/questions/80013569/write-prims-algorithm-in-python"
+  }
+]
