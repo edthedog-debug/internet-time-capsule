@@ -1,0 +1,181 @@
+[
+{
+  "id": 50319510,
+  "title": "HackerTube: YouTube built from videos recommended by HN",
+  "url": "https://karpathy.bearblog.dev/hacker-tube/",
+  "score": 920,
+  "by": "karpathy",
+  "comments": 287
+}
+,
+{
+  "id": 50320963,
+  "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+  "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+  "score": 235,
+  "by": "ecares",
+  "comments": 68
+}
+,
+{
+  "id": 50319143,
+  "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+  "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+  "score": 401,
+  "by": "oger",
+  "comments": 188
+}
+,
+{
+  "id": 50320995,
+  "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+  "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+  "score": 132,
+  "by": "guregodevo",
+  "comments": 74
+}
+,
+{
+  "id": 50322173,
+  "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+  "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+  "score": 21,
+  "by": "doodlesdev",
+  "comments": 10
+}
+,
+{
+  "id": 50321048,
+  "title": "Altoids Project",
+  "url": "https://uvdn7.github.io/altoids-project/",
+  "score": 74,
+  "by": "uvdn7",
+  "comments": 4
+}
+,
+{
+  "id": 50322022,
+  "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM",
+  "url": "https://arxiv.org/abs/2409.02292",
+  "score": 15,
+  "by": "hapax_legomena",
+  "comments": 5
+}
+,
+{
+  "id": 50321130,
+  "title": "When electric cars were for women",
+  "url": "https://spectrum.ieee.org/early-electric-vehicles",
+  "score": 51,
+  "by": "dverlaeckt80",
+  "comments": 28
+}
+,
+{
+  "id": 50318720,
+  "title": "It's the memory latency, stupid",
+  "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+  "score": 160,
+  "by": "ntur1337",
+  "comments": 42
+}
+,
+{
+  "id": 50311045,
+  "title": "Zinc creep in cable spelter sockets brought down the Arecibo telescope in 2020",
+  "url": "https://maketecheasier.com/arecibo-zinc-creep-collapse/",
+  "score": 53,
+  "by": "ohjeez",
+  "comments": 14
+}
+,
+{
+  "id": 50284789,
+  "title": "Edgar Allan Poe, Quintessential American Writer",
+  "url": "https://slate.com/culture/2026/10/edgar-allan-poe-poems-stories-most-influential-american-writer-death-horror-detective.html",
+  "score": 16,
+  "by": "samclemens",
+  "comments": 0
+}
+,
+{
+  "id": 50316100,
+  "title": "Jepsen: ParticleDB 1.1.4",
+  "url": "https://jepsen.io/analyses/particledb-1.1.4",
+  "score": 227,
+  "by": "aphyr",
+  "comments": 123
+}
+,
+{
+  "id": 50319169,
+  "title": "Show HN: NES Contra (1987) port (ASM –> C and then C –> WebAssembly)",
+  "url": "https://epoyraz.github.io/nes-contra-us/",
+  "score": 71,
+  "by": "tevlon",
+  "comments": 43
+}
+,
+{
+  "id": 50319563,
+  "title": "Surviving \"The Graduate\"",
+  "url": "https://www.newyorker.com/culture/the-weekend-essay/dustin-hoffman-on-surviving-the-graduate",
+  "score": 79,
+  "by": "samizdis",
+  "comments": 25
+}
+,
+{
+  "id": 50319061,
+  "title": "The Duty of a Scholar",
+  "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
+  "score": 100,
+  "by": "gslin",
+  "comments": 31
+}
+,
+{
+  "id": 50314699,
+  "title": "Do the math: How we took over ChatGPT accounts",
+  "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+  "score": 312,
+  "by": "armcat",
+  "comments": 153
+}
+,
+{
+  "id": 50320599,
+  "title": "AI text watermarking and quality loss",
+  "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+  "score": 36,
+  "by": "danielfoster",
+  "comments": 6
+}
+,
+{
+  "id": 50319110,
+  "title": "Electrification Could Cut Global Energy Use in Half",
+  "url": "https://fullycharged.show/podcasts/podcast-361-why-electrification-could-cut-global-energy-use-in-half/",
+  "score": 54,
+  "by": "toomuchtodo",
+  "comments": 10
+}
+,
+{
+  "id": 50302686,
+  "title": "Decode kernel panic from QR Code photo",
+  "url": "https://gist.github.com/skorotkiewicz/c59e591c26661cb52b06afc42d8ac546",
+  "score": 15,
+  "by": "modinfo",
+  "comments": 4
+}
+,
+{
+  "id": 50321436,
+  "title": "Constructing a Quine from Kleene's Second Recursion Theorem",
+  "url": "https://emarzion.github.io/KSRT/",
+  "score": 13,
+  "by": "mkckto",
+  "comments": 1
+}
+]

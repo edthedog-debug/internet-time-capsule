@@ -1,0 +1,233 @@
+[
+  {
+    "title": "Why does clicking the icon inside a dynamically added button not trigger my delegated click handler, while clicking the button text does?",
+    "score": 0,
+    "views": 12,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "html",
+      "dom-events"
+    ],
+    "link": "https://stackoverflow.com/questions/80013931/why-does-clicking-the-icon-inside-a-dynamically-added-button-not-trigger-my-dele"
+  },
+  {
+    "title": "TURBO C++ 3.2 on WINDOWS 10",
+    "score": -4,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "c++"
+    ],
+    "link": "https://stackoverflow.com/questions/80013927/turbo-c-3-2-on-windows-10"
+  },
+  {
+    "title": "How do I fix “multi-part identifier could not be bound” after wrapping raw SQL in a paging subquery?",
+    "score": 0,
+    "views": 22,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "sql-server",
+      "entity-framework-core",
+      "pagination"
+    ],
+    "link": "https://stackoverflow.com/questions/80013922/how-do-i-fix-multi-part-identifier-could-not-be-bound-after-wrapping-raw-sql-i"
+  },
+  {
+    "title": "I am building a sports betting app like 1xBet in Flutter",
+    "score": 0,
+    "views": 19,
+    "answers": 0,
+    "tags": [
+      "json",
+      "flutter",
+      "dart",
+      "http"
+    ],
+    "link": "https://stackoverflow.com/questions/80013928/i-am-building-a-sports-betting-app-like-1xbet-in-flutter"
+  },
+  {
+    "title": "Hashmaps and storage requirements",
+    "score": 0,
+    "views": 13,
+    "answers": 1,
+    "tags": [
+      "hashmap"
+    ],
+    "link": "https://stackoverflow.com/questions/80013929/hashmaps-and-storage-requirements"
+  },
+  {
+    "title": "C++ Multithreading not achieving expected performance boost",
+    "score": 0,
+    "views": 82,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "arrays",
+      "multithreading",
+      "memory"
+    ],
+    "link": "https://stackoverflow.com/questions/80013918/c-multithreading-not-achieving-expected-performance-boost"
+  },
+  {
+    "title": "Does Stack Overflow answer Math Problems?",
+    "score": -7,
+    "views": 76,
+    "answers": 0,
+    "tags": [
+      "advice"
+    ],
+    "link": "https://stackoverflow.com/questions/80013914/does-stack-overflow-answer-math-problems"
+  },
+  {
+    "title": "Qt scale visible content globally in main()",
+    "score": 1,
+    "views": 44,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "qt6"
+    ],
+    "link": "https://stackoverflow.com/questions/80013901/qt-scale-visible-content-globally-in-main"
+  },
+  {
+    "title": "Why can&#39;t I use key.A and key.B after importing Pyglet?",
+    "score": -2,
+    "views": 109,
+    "answers": 1,
+    "tags": [
+      "python",
+      "import",
+      "nameerror",
+      "pyglet"
+    ],
+    "link": "https://stackoverflow.com/questions/80013880/why-cant-i-use-key-a-and-key-b-after-importing-pyglet"
+  },
+  {
+    "title": "modifying one inner list in `[[0]] * 3` changes all three. How to avoid it?",
+    "score": -4,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80013908/modifying-one-inner-list-in-0-3-changes-all-three-how-to-avoid-it"
+  },
+  {
+    "title": "Is there any syntax highlighter that handles C trigraphs",
+    "score": 4,
+    "views": 116,
+    "answers": 3,
+    "tags": [
+      "c",
+      "editor",
+      "syntax-highlighting",
+      "trigraphs"
+    ],
+    "link": "https://stackoverflow.com/questions/80013845/is-there-any-syntax-highlighter-that-handles-c-trigraphs"
+  },
+  {
+    "title": "Python 3.14: NameError for a self-referencing annotation, but only when it’s read in __init_subclass__",
+    "score": 1,
+    "views": 58,
+    "answers": 0,
+    "tags": [
+      "python",
+      "python-typing",
+      "python-3.14"
+    ],
+    "link": "https://stackoverflow.com/questions/80013905/python-3-14-nameerror-for-a-self-referencing-annotation-but-only-when-it-s-rea"
+  },
+  {
+    "title": "Non-terminal variadic arguments via deduction guide and perfect forwarding constructor",
+    "score": 0,
+    "views": 54,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "language-lawyer",
+      "variadic-templates",
+      "c++23",
+      "perfect-forwarding"
+    ],
+    "link": "https://stackoverflow.com/questions/80013899/non-terminal-variadic-arguments-via-deduction-guide-and-perfect-forwarding-const"
+  },
+  {
+    "title": "How Can I Improve ROC AUC in a Click-Through Rate Recommendation Model with 10 Candidates per Event?",
+    "score": -4,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "advice"
+    ],
+    "link": "https://stackoverflow.com/questions/80013902/how-can-i-improve-roc-auc-in-a-click-through-rate-recommendation-model-with-10-c"
+  },
+  {
+    "title": "forecast the future price of a stock based on the past prices of other stocks",
+    "score": -7,
+    "views": 178,
+    "answers": 0,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80013867/forecast-the-future-price-of-a-stock-based-on-the-past-prices-of-other-stocks"
+  },
+  {
+    "title": "converting to php 8.5.12 on windows using firebird 2.5 but unable to load pdo_firebird",
+    "score": 1,
+    "views": 44,
+    "answers": 0,
+    "tags": [
+      "php",
+      "apache",
+      "firebird"
+    ],
+    "link": "https://stackoverflow.com/questions/80013894/converting-to-php-8-5-12-on-windows-using-firebird-2-5-but-unable-to-load-pdo-fi"
+  },
+  {
+    "title": "Domain vs Application layers",
+    "score": 0,
+    "views": 55,
+    "answers": 0,
+    "tags": [
+      "clean-architecture"
+    ],
+    "link": "https://stackoverflow.com/questions/80013893/domain-vs-application-layers"
+  },
+  {
+    "title": "Karatsuba algorithm without recursion",
+    "score": 3,
+    "views": 134,
+    "answers": 1,
+    "tags": [
+      "c",
+      "algorithm",
+      "multiplication"
+    ],
+    "link": "https://stackoverflow.com/questions/80013860/karatsuba-algorithm-without-recursion"
+  },
+  {
+    "title": "Clicking on &quot;Email&quot; Textfied (not obscureText), keyboard did not appears, or appears and disappers in 1 second",
+    "score": -2,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "android",
+      "flutter",
+      "dart"
+    ],
+    "link": "https://stackoverflow.com/questions/80013888/clicking-on-email-textfied-not-obscuretext-keyboard-did-not-appears-or-app"
+  },
+  {
+    "title": "&#39;antialising&#39; key missing when trying to run flutter",
+    "score": 0,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "flutter",
+      "glib"
+    ],
+    "link": "https://stackoverflow.com/questions/80013885/antialising-key-missing-when-trying-to-run-flutter"
+  }
+]
