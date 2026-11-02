@@ -1,0 +1,34 @@
+[
+  {
+    "home": "Orlando Magic",
+    "away": "Boston Celtics",
+    "home_score": "97",
+    "away_score": "108",
+    "status": "STATUS_FINAL",
+    "date": "2026-11-01T20:30Z"
+  },
+  {
+    "home": "Indiana Pacers",
+    "away": "Brooklyn Nets",
+    "home_score": "90",
+    "away_score": "98",
+    "status": "STATUS_FINAL",
+    "date": "2026-11-01T22:00Z"
+  },
+  {
+    "home": "Golden State Warriors",
+    "away": "LA Clippers",
+    "home_score": "124",
+    "away_score": "112",
+    "status": "STATUS_FINAL",
+    "date": "2026-11-02T01:30Z"
+  },
+  {
+    "home": "Los Angeles Lakers",
+    "away": "Toronto Raptors",
+    "home_score": "125",
+    "away_score": "120",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-11-02T02:00Z"
+  }
+]

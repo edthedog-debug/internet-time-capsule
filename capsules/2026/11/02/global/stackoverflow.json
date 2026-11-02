@@ -1,0 +1,233 @@
+[
+  {
+    "title": "xcodebuild fails with errSecInternalComponent on remote Mac Mini over SSH",
+    "score": -1,
+    "views": 13,
+    "answers": 0,
+    "tags": [
+      "macos",
+      "remote-access",
+      "vnc",
+      "system-configuration"
+    ],
+    "link": "https://stackoverflow.com/questions/80014104/xcodebuild-fails-with-errsecinternalcomponent-on-remote-mac-mini-over-ssh"
+  },
+  {
+    "title": "Trying to make an image fixed to the top of the page",
+    "score": -1,
+    "views": 33,
+    "answers": 0,
+    "tags": [
+      "html",
+      "css",
+      "image",
+      "vertical-scrolling"
+    ],
+    "link": "https://stackoverflow.com/questions/80014101/trying-to-make-an-image-fixed-to-the-top-of-the-page"
+  },
+  {
+    "title": "Use lazy imports in backwards-compatible code",
+    "score": 1,
+    "views": 63,
+    "answers": 1,
+    "tags": [
+      "python",
+      "python-import"
+    ],
+    "link": "https://stackoverflow.com/questions/80014095/use-lazy-imports-in-backwards-compatible-code"
+  },
+  {
+    "title": "Storing items in classes in python game development",
+    "score": -5,
+    "views": 54,
+    "answers": 0,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80014087/storing-items-in-classes-in-python-game-development"
+  },
+  {
+    "title": "MAUI FilePicker.PickMultipleAsync() taking 30 seconds just to open the dialog",
+    "score": 1,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "dialog",
+      "maui",
+      "filepicker"
+    ],
+    "link": "https://stackoverflow.com/questions/80014088/maui-filepicker-pickmultipleasync-taking-30-seconds-just-to-open-the-dialog"
+  },
+  {
+    "title": "Why is the 2nd overload picked-up?",
+    "score": 1,
+    "views": 56,
+    "answers": 1,
+    "tags": [
+      "typescript",
+      "typescript-generics"
+    ],
+    "link": "https://stackoverflow.com/questions/80014081/why-is-the-2nd-overload-picked-up"
+  },
+  {
+    "title": "Why does attrs treat a frozen attrs class differently from a frozen attrs field",
+    "score": 5,
+    "views": 91,
+    "answers": 2,
+    "tags": [
+      "python",
+      "python-attrs"
+    ],
+    "link": "https://stackoverflow.com/questions/80014020/why-does-attrs-treat-a-frozen-attrs-class-differently-from-a-frozen-attrs-field"
+  },
+  {
+    "title": "population a column based on a character in a specific position in a string in another column",
+    "score": 1,
+    "views": 44,
+    "answers": 1,
+    "tags": [
+      "r",
+      "stringr"
+    ],
+    "link": "https://stackoverflow.com/questions/80014078/population-a-column-based-on-a-character-in-a-specific-position-in-a-string-in-a"
+  },
+  {
+    "title": "Swapping unique values in mongoose without swapping all properties",
+    "score": 0,
+    "views": 62,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "node.js",
+      "mongodb",
+      "mongoose"
+    ],
+    "link": "https://stackoverflow.com/questions/80014074/swapping-unique-values-in-mongoose-without-swapping-all-properties"
+  },
+  {
+    "title": "Determining maximum number of characters in MEDIUMTEXT when using utf8mb4 (specifically, utf8mb4_unicode_ci, but that shouldn&#39;t matter)",
+    "score": -5,
+    "views": 115,
+    "answers": 1,
+    "tags": [
+      "mysql",
+      "utf8mb4"
+    ],
+    "link": "https://stackoverflow.com/questions/80014060/determining-maximum-number-of-characters-in-mediumtext-when-using-utf8mb4-speci"
+  },
+  {
+    "title": "How does the .NET SDK/Nuget determine which version to use when converting a ProjectReference to PackageReference?",
+    "score": 0,
+    "views": 62,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "msbuild",
+      "nuget"
+    ],
+    "link": "https://stackoverflow.com/questions/80014046/how-does-the-net-sdk-nuget-determine-which-version-to-use-when-converting-a-pro"
+  },
+  {
+    "title": "Logic to check if Long Value is less then Long.MIN_VALUE",
+    "score": 1,
+    "views": 106,
+    "answers": 2,
+    "tags": [
+      "java",
+      "long-integer"
+    ],
+    "link": "https://stackoverflow.com/questions/80014057/logic-to-check-if-long-value-is-less-then-long-min-value"
+  },
+  {
+    "title": "Unwanted background artifacts around ContextMenu and Tooltip despite custom styling",
+    "score": 3,
+    "views": 88,
+    "answers": 1,
+    "tags": [
+      "java",
+      "css",
+      "javafx"
+    ],
+    "link": "https://stackoverflow.com/questions/80014022/unwanted-background-artifacts-around-contextmenu-and-tooltip-despite-custom-styl"
+  },
+  {
+    "title": "How to place app-ads.txt at the root of GitHub",
+    "score": -7,
+    "views": 50,
+    "answers": 0,
+    "tags": [
+      "github",
+      "admob",
+      "github-pages",
+      "app-ads.txt"
+    ],
+    "link": "https://stackoverflow.com/questions/80014067/how-to-place-app-ads-txt-at-the-root-of-github"
+  },
+  {
+    "title": "Elements in nav bar overlapping on zoom",
+    "score": 2,
+    "views": 73,
+    "answers": 2,
+    "tags": [
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/80014032/elements-in-nav-bar-overlapping-on-zoom"
+  },
+  {
+    "title": "How to center MathML&#39;s &lt;math&gt; in Firefox?",
+    "score": 3,
+    "views": 94,
+    "answers": 3,
+    "tags": [
+      "html",
+      "css",
+      "firefox",
+      "mathml"
+    ],
+    "link": "https://stackoverflow.com/questions/80013991/how-to-center-mathmls-math-in-firefox"
+  },
+  {
+    "title": "Looking for a practical example where making a super call in the body of __init__ method of a metaclass makes a difference",
+    "score": -1,
+    "views": 110,
+    "answers": 2,
+    "tags": [
+      "python",
+      "oop"
+    ],
+    "link": "https://stackoverflow.com/questions/80014004/looking-for-a-practical-example-where-making-a-super-call-in-the-body-of-init"
+  },
+  {
+    "title": "presentationPlacement(.leading) sheet won&#39;t go half width on iPhone Duo when fully unfolded",
+    "score": 0,
+    "views": 53,
+    "answers": 1,
+    "tags": [
+      "ios",
+      "swiftui"
+    ],
+    "link": "https://stackoverflow.com/questions/80014015/presentationplacement-leading-sheet-wont-go-half-width-on-iphone-duo-when-ful"
+  },
+  {
+    "title": "Job Assitance for landing job (Specially fresher )",
+    "score": -5,
+    "views": 85,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "java"
+    ],
+    "link": "https://stackoverflow.com/questions/80014036/job-assitance-for-landing-job-specially-fresher"
+  },
+  {
+    "title": "Match-Case in python 3. I do not know how to use Match case so could someone please explain?",
+    "score": -14,
+    "views": 63,
+    "answers": 0,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80014047/match-case-in-python-3-i-do-not-know-how-to-use-match-case-so-could-someone-ple"
+  }
+]
