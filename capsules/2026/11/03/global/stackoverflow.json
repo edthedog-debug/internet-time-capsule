@@ -1,0 +1,239 @@
+[
+  {
+    "title": "Setattr on frozen slotted dataclass raises TypeError in py3.12 but FrozenInstanceError in py3.13",
+    "score": 1,
+    "views": 33,
+    "answers": 2,
+    "tags": [
+      "python",
+      "python-dataclasses"
+    ],
+    "link": "https://stackoverflow.com/questions/80014347/setattr-on-frozen-slotted-dataclass-raises-typeerror-in-py3-12-but-frozeninstanc"
+  },
+  {
+    "title": "Session management via a set of 4 mandatory cookies",
+    "score": -1,
+    "views": 13,
+    "answers": 0,
+    "tags": [
+      "asp.net-mvc",
+      "cookies"
+    ],
+    "link": "https://stackoverflow.com/questions/80014344/session-management-via-a-set-of-4-mandatory-cookies"
+  },
+  {
+    "title": "Unusual syntax for declaring or extending a class - how does this work?",
+    "score": 2,
+    "views": 77,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "class"
+    ],
+    "link": "https://stackoverflow.com/questions/80014338/unusual-syntax-for-declaring-or-extending-a-class-how-does-this-work"
+  },
+  {
+    "title": "How do you solve the trust problem in P2P transactions without escrow?",
+    "score": -5,
+    "views": 26,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "system-design"
+    ],
+    "link": "https://stackoverflow.com/questions/80014345/how-do-you-solve-the-trust-problem-in-p2p-transactions-without-escrow"
+  },
+  {
+    "title": "Add a decimated signal: the user enters a number (e.g., 4), and the system should remove signals that are multiples of 4",
+    "score": -8,
+    "views": 76,
+    "answers": 0,
+    "tags": [
+      "c"
+    ],
+    "link": "https://stackoverflow.com/questions/80014311/add-a-decimated-signal-the-user-enters-a-number-e-g-4-and-the-system-shoul"
+  },
+  {
+    "title": "Raylib drawing images",
+    "score": -2,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "c",
+      "image",
+      "raylib"
+    ],
+    "link": "https://stackoverflow.com/questions/80014335/raylib-drawing-images"
+  },
+  {
+    "title": "Does anyone know how images in pyglet work?",
+    "score": -3,
+    "views": 39,
+    "answers": 0,
+    "tags": [
+      "python",
+      "image",
+      "pyglet"
+    ],
+    "link": "https://stackoverflow.com/questions/80014334/does-anyone-know-how-images-in-pyglet-work"
+  },
+  {
+    "title": "Android Auto POI app notifications not displaying on car screen (Not using MessagingStyle)",
+    "score": 0,
+    "views": 35,
+    "answers": 0,
+    "tags": [
+      "android",
+      "kotlin",
+      "android-auto"
+    ],
+    "link": "https://stackoverflow.com/questions/80014337/android-auto-poi-app-notifications-not-displaying-on-car-screen-not-using-messa"
+  },
+  {
+    "title": "Google OAuth token exchange gives 401 invalid_client after successful consent",
+    "score": -3,
+    "views": 65,
+    "answers": 0,
+    "tags": [
+      "python",
+      "oauth-2.0",
+      "google-oauth"
+    ],
+    "link": "https://stackoverflow.com/questions/80014324/google-oauth-token-exchange-gives-401-invalid-client-after-successful-consent"
+  },
+  {
+    "title": "Cross-sectional engine only fires when the next minute&#39;s data arrives: how do I trigger a delayed aggregation for the current timestamp?",
+    "score": 0,
+    "views": 20,
+    "answers": 0,
+    "tags": [
+      "time-series",
+      "streaming",
+      "dolphindb"
+    ],
+    "link": "https://stackoverflow.com/questions/80014336/cross-sectional-engine-only-fires-when-the-next-minutes-data-arrives-how-do-i"
+  },
+  {
+    "title": "Enabling IDE/editor code-completion for projects/files that use C++20 modules?",
+    "score": -2,
+    "views": 83,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "c++20",
+      "code-completion",
+      "c++-modules"
+    ],
+    "link": "https://stackoverflow.com/questions/80014321/enabling-ide-editor-code-completion-for-projects-files-that-use-c20-modules"
+  },
+  {
+    "title": "Why does ContextVar return its default value inside run_in_executor() in Python asyncio?",
+    "score": 3,
+    "views": 97,
+    "answers": 1,
+    "tags": [
+      "python",
+      "python-asyncio",
+      "python-contextvars"
+    ],
+    "link": "https://stackoverflow.com/questions/80014255/why-does-contextvar-return-its-default-value-inside-run-in-executor-in-python"
+  },
+  {
+    "title": "Classic (non-ML) method to remove in-band noise (electrode motion / muscle) from ECG, suitable for a low-power FPGA",
+    "score": -3,
+    "views": 42,
+    "answers": 0,
+    "tags": [
+      "filter",
+      "signal-processing",
+      "fpga",
+      "wavelet"
+    ],
+    "link": "https://stackoverflow.com/questions/80014320/classic-non-ml-method-to-remove-in-band-noise-electrode-motion-muscle-from"
+  },
+  {
+    "title": ":nth-child() with selectors inconsistent behavior",
+    "score": 3,
+    "views": 93,
+    "answers": 1,
+    "tags": [
+      "html",
+      "css",
+      "css-selectors"
+    ],
+    "link": "https://stackoverflow.com/questions/80014303/nth-child-with-selectors-inconsistent-behavior"
+  },
+  {
+    "title": "Why does scikit-image skeletonization produce off-center loops and unwanted branches in thresholded handwritten strokes?",
+    "score": -1,
+    "views": 35,
+    "answers": 0,
+    "tags": [
+      "python",
+      "handwriting-recognition"
+    ],
+    "link": "https://stackoverflow.com/questions/80014319/why-does-scikit-image-skeletonization-produce-off-center-loops-and-unwanted-bran"
+  },
+  {
+    "title": "Java generator showing &quot;warning: ambiguous type name&quot; from two functions with same name, distinct parameters",
+    "score": 0,
+    "views": 74,
+    "answers": 0,
+    "tags": [
+      "java",
+      "postgresql",
+      "jooq",
+      "function-templates-overloading"
+    ],
+    "link": "https://stackoverflow.com/questions/80014305/java-generator-showing-warning-ambiguous-type-name-from-two-functions-with-sa"
+  },
+  {
+    "title": "Should module-level constants in constants.py be annotated with typing.Final",
+    "score": 1,
+    "views": 144,
+    "answers": 2,
+    "tags": [
+      "python",
+      "constants",
+      "python-typing"
+    ],
+    "link": "https://stackoverflow.com/questions/80014209/should-module-level-constants-in-constants-py-be-annotated-with-typing-final"
+  },
+  {
+    "title": "What other LiDAR data processing software exist apart from LP360? (commercial or open-source)",
+    "score": -9,
+    "views": 108,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "geospatial",
+      "lidar",
+      "lidar-data"
+    ],
+    "link": "https://stackoverflow.com/questions/80014293/what-other-lidar-data-processing-software-exist-apart-from-lp360-commercial-or"
+  },
+  {
+    "title": "Does the order of columns matter in Liquid Clustered Tables in Databricks?",
+    "score": -4,
+    "views": 87,
+    "answers": 1,
+    "tags": [
+      "databricks",
+      "bigdata",
+      "delta-lake"
+    ],
+    "link": "https://stackoverflow.com/questions/80014274/does-the-order-of-columns-matter-in-liquid-clustered-tables-in-databricks"
+  },
+  {
+    "title": "How to have a &#39;bungie&#39; like animation for a div that plays on scroll of the page",
+    "score": -6,
+    "views": 101,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/80014263/how-to-have-a-bungie-like-animation-for-a-div-that-plays-on-scroll-of-the-page"
+  }
+]
