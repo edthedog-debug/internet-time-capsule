@@ -1,0 +1,239 @@
+[
+  {
+    "title": "Phase 4 Response Body interruption fails: HTTP 200 headers flushed before ModSecurity can evaluate/block",
+    "score": 0,
+    "views": 67,
+    "answers": 0,
+    "tags": [
+      "nginx",
+      "nginx-reverse-proxy",
+      "mod-security",
+      "mod-security2"
+    ],
+    "link": "https://stackoverflow.com/questions/80014814/phase-4-response-body-interruption-fails-http-200-headers-flushed-before-modsec"
+  },
+  {
+    "title": "Azure - Not getting 2FA code in Authenticator App",
+    "score": -1,
+    "views": 28,
+    "answers": 0,
+    "tags": [
+      "azure",
+      "authenticator"
+    ],
+    "link": "https://stackoverflow.com/questions/80014811/azure-not-getting-2fa-code-in-authenticator-app"
+  },
+  {
+    "title": "Two frontend apps sharing one backend with identical credentials: what security or isolation problems does this design create?",
+    "score": -2,
+    "views": 40,
+    "answers": 0,
+    "tags": [
+      "security",
+      "backend",
+      "multi-tenant",
+      "content-security-policy",
+      "saas"
+    ],
+    "link": "https://stackoverflow.com/questions/80014802/two-frontend-apps-sharing-one-backend-with-identical-credentials-what-security"
+  },
+  {
+    "title": "Combining Small Parquet Files, Resulting in Way Bigger Total Size Than The Original",
+    "score": 0,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "azure",
+      "apache-spark",
+      "pyspark",
+      "fabric"
+    ],
+    "link": "https://stackoverflow.com/questions/80014803/combining-small-parquet-files-resulting-in-way-bigger-total-size-than-the-origi"
+  },
+  {
+    "title": "how to achieve in plain css repeating nth-child ranges",
+    "score": 0,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "css",
+      "css-selectors",
+      "css-grid"
+    ],
+    "link": "https://stackoverflow.com/questions/80014800/how-to-achieve-in-plain-css-repeating-nth-child-ranges"
+  },
+  {
+    "title": "Yellow warning in terminal when I run scripts in VS Code",
+    "score": 1,
+    "views": 50,
+    "answers": 1,
+    "tags": [
+      "vs-code",
+      "warnings"
+    ],
+    "link": "https://stackoverflow.com/questions/80014761/yellow-warning-in-terminal-when-i-run-scripts-in-vs-code"
+  },
+  {
+    "title": "Policy for &quot;Send scan results to Log Analytics&quot; Microsoft Defender for Storage setting",
+    "score": -1,
+    "views": 34,
+    "answers": 0,
+    "tags": [
+      "azure-policy"
+    ],
+    "link": "https://stackoverflow.com/questions/80014794/policy-for-send-scan-results-to-log-analytics-microsoft-defender-for-storage-s"
+  },
+  {
+    "title": "How can I sum elements of a tensor based on a condition of one out of two values in its index pair into a new tensor using the pytorch package?",
+    "score": 3,
+    "views": 129,
+    "answers": 1,
+    "tags": [
+      "python",
+      "pytorch",
+      "physics-engine"
+    ],
+    "link": "https://stackoverflow.com/questions/80014777/how-can-i-sum-elements-of-a-tensor-based-on-a-condition-of-one-out-of-two-values"
+  },
+  {
+    "title": "Connect Claude server to QuickBooks through MCP server",
+    "score": 0,
+    "views": 44,
+    "answers": 1,
+    "tags": [
+      "quickbooks",
+      "claude",
+      "mcp-server"
+    ],
+    "link": "https://stackoverflow.com/questions/80014773/connect-claude-server-to-quickbooks-through-mcp-server"
+  },
+  {
+    "title": "Building a CSS image display modal",
+    "score": 0,
+    "views": 66,
+    "answers": 2,
+    "tags": [
+      "css",
+      "modal-dialog"
+    ],
+    "link": "https://stackoverflow.com/questions/80014759/building-a-css-image-display-modal"
+  },
+  {
+    "title": "Confirmit respondent data fetch erroring out in Forsta",
+    "score": 0,
+    "views": 63,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "jquery",
+      "asp.net",
+      ".net",
+      "jscript"
+    ],
+    "link": "https://stackoverflow.com/questions/80014785/confirmit-respondent-data-fetch-erroring-out-in-forsta"
+  },
+  {
+    "title": "How to use Ellipsis as function argument default",
+    "score": -2,
+    "views": 105,
+    "answers": 2,
+    "tags": [
+      "python",
+      "python-typing",
+      "pyright"
+    ],
+    "link": "https://stackoverflow.com/questions/80014764/how-to-use-ellipsis-as-function-argument-default"
+  },
+  {
+    "title": "Logged in users seeing someone else&#39;s cached content",
+    "score": -5,
+    "views": 87,
+    "answers": 0,
+    "tags": [
+      "wordpress",
+      "caching",
+      "litespeed"
+    ],
+    "link": "https://stackoverflow.com/questions/80014779/logged-in-users-seeing-someone-elses-cached-content"
+  },
+  {
+    "title": "Is there an equivalent to __import__ but for lazy imports?",
+    "score": 1,
+    "views": 63,
+    "answers": 1,
+    "tags": [
+      "python",
+      "python-import"
+    ],
+    "link": "https://stackoverflow.com/questions/80014774/is-there-an-equivalent-to-import-but-for-lazy-imports"
+  },
+  {
+    "title": "bug between v10.7 and v10.8 and later",
+    "score": 0,
+    "views": 46,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "openlayers"
+    ],
+    "link": "https://stackoverflow.com/questions/80014776/bug-between-v10-7-and-v10-8-and-later"
+  },
+  {
+    "title": "git clone over HTTPS hangs indefinitely",
+    "score": -1,
+    "views": 61,
+    "answers": 0,
+    "tags": [
+      "git",
+      "git-clone"
+    ],
+    "link": "https://stackoverflow.com/questions/80014775/git-clone-over-https-hangs-indefinitely"
+  },
+  {
+    "title": "SESV2Client from AWS SES - no super call in its instantiation",
+    "score": -2,
+    "views": 51,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "node.js",
+      "amazon-web-services"
+    ],
+    "link": "https://stackoverflow.com/questions/80014765/sesv2client-from-aws-ses-no-super-call-in-its-instantiation"
+  },
+  {
+    "title": "Uzbekistan central bank rates using Frankfurter API is not updating",
+    "score": -3,
+    "views": 43,
+    "answers": 0,
+    "tags": [
+      "rest"
+    ],
+    "link": "https://stackoverflow.com/questions/80014762/uzbekistan-central-bank-rates-using-frankfurter-api-is-not-updating"
+  },
+  {
+    "title": "Why does Java suggest List&lt;? extends Class&lt;?&gt;&gt; instead of List&lt;Class&lt;?&gt;&gt;?",
+    "score": 2,
+    "views": 108,
+    "answers": 2,
+    "tags": [
+      "java",
+      "generics",
+      "type-inference"
+    ],
+    "link": "https://stackoverflow.com/questions/80014672/why-does-java-suggest-list-extends-class-instead-of-listclass"
+  },
+  {
+    "title": "Try/except failing to catch exceptions",
+    "score": -3,
+    "views": 103,
+    "answers": 1,
+    "tags": [
+      "python",
+      "python-3.x",
+      "sqlalchemy"
+    ],
+    "link": "https://stackoverflow.com/questions/80014740/try-except-failing-to-catch-exceptions"
+  }
+]

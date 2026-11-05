@@ -1,0 +1,112 @@
+{
+  "indices": [
+    {
+      "symbol": "^FCHI",
+      "name": "CAC 40",
+      "market": "Europe",
+      "price": 8177.89,
+      "previous_close": 8177.89,
+      "change": 0,
+      "change_pct": 0
+    },
+    {
+      "symbol": "^AXJO",
+      "name": "ASX 200",
+      "market": "Asia",
+      "price": 9051.9,
+      "previous_close": 9051.9,
+      "change": 0,
+      "change_pct": 0
+    },
+    {
+      "symbol": "^GDAXI",
+      "name": "DAX",
+      "market": "Europe",
+      "price": 26437.67,
+      "previous_close": 26437.67,
+      "change": 0,
+      "change_pct": 0
+    },
+    {
+      "symbol": "^HSI",
+      "name": "Hang Seng",
+      "market": "Asia",
+      "price": 24659.03,
+      "previous_close": 24659.03,
+      "change": 0,
+      "change_pct": 0
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "NASDAQ",
+      "market": "US",
+      "price": 25736.514,
+      "previous_close": 25736.514,
+      "change": 0,
+      "change_pct": 0
+    },
+    {
+      "symbol": "^BSESN",
+      "name": "BSE Sensex",
+      "market": "Asia",
+      "price": 78835.46,
+      "previous_close": 78835.46,
+      "change": 0,
+      "change_pct": 0
+    },
+    {
+      "symbol": "^N225",
+      "name": "Nikkei 225",
+      "market": "Asia",
+      "price": 61248.47,
+      "previous_close": 61248.47,
+      "change": 0,
+      "change_pct": 0
+    },
+    {
+      "symbol": "^BVSP",
+      "name": "Bovespa",
+      "market": "Latin America",
+      "price": 167563.47,
+      "previous_close": 167563.47,
+      "change": 0,
+      "change_pct": 0
+    },
+    {
+      "symbol": "^MXX",
+      "name": "IPC Mexico",
+      "market": "Latin America",
+      "price": 70819.8,
+      "previous_close": 70819.8,
+      "change": 0,
+      "change_pct": 0
+    },
+    {
+      "symbol": "^DJI",
+      "name": "Dow Jones",
+      "market": "US",
+      "price": 53356.12,
+      "previous_close": 53356.12,
+      "change": 0,
+      "change_pct": 0
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "market": "US",
+      "price": 7688.62,
+      "previous_close": 7688.62,
+      "change": 0,
+      "change_pct": 0
+    },
+    {
+      "symbol": "^FTSE",
+      "name": "FTSE 100",
+      "market": "Europe",
+      "price": 10829.21,
+      "previous_close": 10829.21,
+      "change": 0,
+      "change_pct": 0
+    }
+  ]
+}
