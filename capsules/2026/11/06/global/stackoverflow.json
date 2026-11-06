@@ -1,0 +1,239 @@
+[
+  {
+    "title": "Examples in Clojure function documentation",
+    "score": -2,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "clojure",
+      "documentation",
+      "documentation-generation"
+    ],
+    "link": "https://stackoverflow.com/questions/80015040/examples-in-clojure-function-documentation"
+  },
+  {
+    "title": "Why is Java&#39;s IntStream&#39;s overridden Iterator () method missing in Javadoc from Java 10 onwards?",
+    "score": -2,
+    "views": 11,
+    "answers": 0,
+    "tags": [
+      "java",
+      "javadoc",
+      "java-10"
+    ],
+    "link": "https://stackoverflow.com/questions/80015041/why-is-javas-intstreams-overridden-iterator-method-missing-in-javadoc-from"
+  },
+  {
+    "title": "YouTube IFrame API: what are the security benefits of setting origin=mydomain.com in URL?",
+    "score": 0,
+    "views": 70,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "javascript",
+      "iframe",
+      "youtube-iframe-api",
+      "websecurity"
+    ],
+    "link": "https://stackoverflow.com/questions/80015029/youtube-iframe-api-what-are-the-security-benefits-of-setting-origin-mydomain-co"
+  },
+  {
+    "title": "Numba not speeding up python code looping over all pixels",
+    "score": 2,
+    "views": 42,
+    "answers": 1,
+    "tags": [
+      "python",
+      "performance",
+      "numba"
+    ],
+    "link": "https://stackoverflow.com/questions/80015028/numba-not-speeding-up-python-code-looping-over-all-pixels"
+  },
+  {
+    "title": "Online voting system",
+    "score": -2,
+    "views": 33,
+    "answers": 0,
+    "tags": [
+      "django"
+    ],
+    "link": "https://stackoverflow.com/questions/80015026/online-voting-system"
+  },
+  {
+    "title": "prevent Node.js Socket library from fragmenting large messages into 8192-byte chunks?",
+    "score": 0,
+    "views": 29,
+    "answers": 0,
+    "tags": [
+      "node.js",
+      "sockets",
+      "tcp"
+    ],
+    "link": "https://stackoverflow.com/questions/80015025/prevent-node-js-socket-library-from-fragmenting-large-messages-into-8192-byte-ch"
+  },
+  {
+    "title": "How can I check whether a lazy import has executed in Python 3.15 without triggering it?",
+    "score": 4,
+    "views": 75,
+    "answers": 1,
+    "tags": [
+      "python",
+      "python-import",
+      "lazy-loading"
+    ],
+    "link": "https://stackoverflow.com/questions/80015000/how-can-i-check-whether-a-lazy-import-has-executed-in-python-3-15-without-trigge"
+  },
+  {
+    "title": "Handling cache invalidation while a shared in-flight task is still running",
+    "score": 1,
+    "views": 47,
+    "answers": 2,
+    "tags": [
+      "python",
+      "caching",
+      "concurrency",
+      "python-asyncio"
+    ],
+    "link": "https://stackoverflow.com/questions/80014991/handling-cache-invalidation-while-a-shared-in-flight-task-is-still-running"
+  },
+  {
+    "title": "How do I prompt for a file without uploading it in HTML",
+    "score": 1,
+    "views": 99,
+    "answers": 3,
+    "tags": [
+      "python",
+      "html"
+    ],
+    "link": "https://stackoverflow.com/questions/80014992/how-do-i-prompt-for-a-file-without-uploading-it-in-html"
+  },
+  {
+    "title": "Select operating point from small training set",
+    "score": -1,
+    "views": 27,
+    "answers": 0,
+    "tags": [
+      "training-data",
+      "ml"
+    ],
+    "link": "https://stackoverflow.com/questions/80015021/select-operating-point-from-small-training-set"
+  },
+  {
+    "title": "Keycloak Setup Script - configure local dev w/o setup script",
+    "score": 0,
+    "views": 46,
+    "answers": 1,
+    "tags": [
+      "bash",
+      "docker",
+      "keycloak",
+      "openid-connect"
+    ],
+    "link": "https://stackoverflow.com/questions/80015005/keycloak-setup-script-configure-local-dev-w-o-setup-script"
+  },
+  {
+    "title": "ESP32C6 bare-metal MCPWM_CLK_CFG_REG prescale register not latching",
+    "score": 1,
+    "views": 45,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "c",
+      "esp32",
+      "bare-metal"
+    ],
+    "link": "https://stackoverflow.com/questions/80014990/esp32c6-bare-metal-mcpwm-clk-cfg-reg-prescale-register-not-latching"
+  },
+  {
+    "title": "How to stay informed about security advisories regardiny JFrog Arifactory?",
+    "score": -4,
+    "views": 52,
+    "answers": 0,
+    "tags": [
+      "artifactory"
+    ],
+    "link": "https://stackoverflow.com/questions/80015006/how-to-stay-informed-about-security-advisories-regardiny-jfrog-arifactory"
+  },
+  {
+    "title": "Cannot auto import Django classes in VS Code despite changing package index depth",
+    "score": 1,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "python",
+      "django",
+      "python-import"
+    ],
+    "link": "https://stackoverflow.com/questions/80015022/cannot-auto-import-django-classes-in-vs-code-despite-changing-package-index-dept"
+  },
+  {
+    "title": "Content Catalog API v2: PATCH on /collectionIds adds a “Type Catalog” badge, and the content can’t be loaded",
+    "score": -2,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "autodesk-forge",
+      "revit-api",
+      "json-patch"
+    ],
+    "link": "https://stackoverflow.com/questions/80015014/content-catalog-api-v2-patch-on-collectionids-adds-a-type-catalog-badge-and"
+  },
+  {
+    "title": "How to apply custom cursor on clickable items?",
+    "score": 4,
+    "views": 101,
+    "answers": 1,
+    "tags": [
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/80014981/how-to-apply-custom-cursor-on-clickable-items"
+  },
+  {
+    "title": "A local IMAP server to sync with a remote IMAP server, where the local machine doesn&#39;t host any of the remote user ID&#39;s",
+    "score": -6,
+    "views": 37,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "proxy",
+      "synchronization",
+      "imap"
+    ],
+    "link": "https://stackoverflow.com/questions/80014996/a-local-imap-server-to-sync-with-a-remote-imap-server-where-the-local-machine-d"
+  },
+  {
+    "title": "`UNION ALL of JOINs` vs `JOIN on UNION ALL` performance",
+    "score": 2,
+    "views": 165,
+    "answers": 2,
+    "tags": [
+      "postgresql",
+      "performance",
+      "join"
+    ],
+    "link": "https://stackoverflow.com/questions/80014937/union-all-of-joins-vs-join-on-union-all-performance"
+  },
+  {
+    "title": "How to narrow down an ast selection to only assignments with a name on the RHS",
+    "score": -2,
+    "views": 161,
+    "answers": 1,
+    "tags": [
+      "python",
+      "python-ast"
+    ],
+    "link": "https://stackoverflow.com/questions/80014888/how-to-narrow-down-an-ast-selection-to-only-assignments-with-a-name-on-the-rhs"
+  },
+  {
+    "title": "How to fix character falling through the floor and collider in Unity",
+    "score": -1,
+    "views": 67,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "unity-game-engine"
+    ],
+    "link": "https://stackoverflow.com/questions/80014966/how-to-fix-character-falling-through-the-floor-and-collider-in-unity"
+  }
+]

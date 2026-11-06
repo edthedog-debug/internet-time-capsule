@@ -1,0 +1,18 @@
+[
+  {
+    "home": "Phoenix Suns",
+    "away": "Orlando Magic",
+    "home_score": "117",
+    "away_score": "104",
+    "status": "STATUS_FINAL",
+    "date": "2026-11-06T02:00Z"
+  },
+  {
+    "home": "Golden State Warriors",
+    "away": "Miami Heat",
+    "home_score": "95",
+    "away_score": "81",
+    "status": "STATUS_IN_PROGRESS",
+    "date": "2026-11-06T03:00Z"
+  }
+]
