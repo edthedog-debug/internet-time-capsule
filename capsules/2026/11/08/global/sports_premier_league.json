@@ -1,0 +1,34 @@
+[
+  {
+    "home": "Leeds United",
+    "away": "Tottenham Hotspur",
+    "home_score": "1",
+    "away_score": "0",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-11-07T12:30Z"
+  },
+  {
+    "home": "Arsenal",
+    "away": "Hull City",
+    "home_score": "1",
+    "away_score": "0",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-11-07T15:00Z"
+  },
+  {
+    "home": "Fulham",
+    "away": "Newcastle United",
+    "home_score": "1",
+    "away_score": "1",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-11-07T15:00Z"
+  },
+  {
+    "home": "Nottingham Forest",
+    "away": "Manchester City",
+    "home_score": "3",
+    "away_score": "1",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-11-07T17:30Z"
+  }
+]
