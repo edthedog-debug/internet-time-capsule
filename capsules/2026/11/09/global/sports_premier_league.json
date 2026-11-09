@@ -1,0 +1,42 @@
+[
+  {
+    "home": "Brighton & Hove Albion",
+    "away": "Brentford",
+    "home_score": "2",
+    "away_score": "0",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-11-08T14:00Z"
+  },
+  {
+    "home": "Crystal Palace",
+    "away": "Liverpool",
+    "home_score": "1",
+    "away_score": "3",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-11-08T14:00Z"
+  },
+  {
+    "home": "Ipswich Town",
+    "away": "AFC Bournemouth",
+    "home_score": "1",
+    "away_score": "2",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-11-08T14:00Z"
+  },
+  {
+    "home": "Sunderland",
+    "away": "Chelsea",
+    "home_score": "1",
+    "away_score": "0",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-11-08T14:00Z"
+  },
+  {
+    "home": "Manchester United",
+    "away": "Aston Villa",
+    "home_score": "4",
+    "away_score": "4",
+    "status": "STATUS_FULL_TIME",
+    "date": "2026-11-08T16:30Z"
+  }
+]
