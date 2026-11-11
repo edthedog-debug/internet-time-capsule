@@ -1,0 +1,238 @@
+[
+  {
+    "title": "Basic guide about how to work with C++ modules, CMake, and external libraries from a package manager",
+    "score": 0,
+    "views": 34,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "cmake",
+      "package-managers",
+      "c++23",
+      "c++-modules"
+    ],
+    "link": "https://stackoverflow.com/questions/80015933/basic-guide-about-how-to-work-with-c-modules-cmake-and-external-libraries-fr"
+  },
+  {
+    "title": "Why is the original array still affected?",
+    "score": 0,
+    "views": 117,
+    "answers": 1,
+    "tags": [
+      "c"
+    ],
+    "link": "https://stackoverflow.com/questions/80015903/why-is-the-original-array-still-affected"
+  },
+  {
+    "title": "Quarto websites version navigation of the rendered website",
+    "score": -7,
+    "views": 57,
+    "answers": 0,
+    "tags": [
+      "quarto"
+    ],
+    "link": "https://stackoverflow.com/questions/80015934/quarto-websites-version-navigation-of-the-rendered-website"
+  },
+  {
+    "title": "Regarding eval with read-from-string",
+    "score": 1,
+    "views": 42,
+    "answers": 1,
+    "tags": [
+      "common-lisp",
+      "eval"
+    ],
+    "link": "https://stackoverflow.com/questions/80015928/regarding-eval-with-read-from-string"
+  },
+  {
+    "title": "How to get the lowest value from a tuple, contained within a list with other tuples as elements?",
+    "score": -4,
+    "views": 89,
+    "answers": 3,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80015895/how-to-get-the-lowest-value-from-a-tuple-contained-within-a-list-with-other-tup"
+  },
+  {
+    "title": "Where-object cmdlet does not seem to behave as expected and returns error",
+    "score": 0,
+    "views": 45,
+    "answers": 1,
+    "tags": [
+      "powershell",
+      "console",
+      "where-object"
+    ],
+    "link": "https://stackoverflow.com/questions/80015896/where-object-cmdlet-does-not-seem-to-behave-as-expected-and-returns-error"
+  },
+  {
+    "title": "Installing git in a OpenBSD jail",
+    "score": -4,
+    "views": 73,
+    "answers": 1,
+    "tags": [
+      "git",
+      "server",
+      "chroot",
+      "openbsd"
+    ],
+    "link": "https://stackoverflow.com/questions/80015917/installing-git-in-a-openbsd-jail"
+  },
+  {
+    "title": "Defining functions and then printing values",
+    "score": -6,
+    "views": 94,
+    "answers": 1,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80015898/defining-functions-and-then-printing-values"
+  },
+  {
+    "title": "pastclim::download_dataset eval(parse error",
+    "score": -1,
+    "views": 27,
+    "answers": 1,
+    "tags": [
+      "download",
+      "dataset",
+      "eval",
+      "sdmx"
+    ],
+    "link": "https://stackoverflow.com/questions/80015910/pastclimdownload-dataset-evalparse-error"
+  },
+  {
+    "title": "Why does MSVC compile a structured binding of `std::pair&lt;int, float&gt;` worse in `/std:c++20` than in `/std:c++latest`?",
+    "score": 4,
+    "views": 112,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "visual-c++",
+      "compiler-optimization",
+      "std-pair",
+      "structured-bindings"
+    ],
+    "link": "https://stackoverflow.com/questions/80015860/why-does-msvc-compile-a-structured-binding-of-stdpairint-float-worse-in"
+  },
+  {
+    "title": "In which condition RPI Pico DBGPAUSE flags stop the TIMER clocks?",
+    "score": 1,
+    "views": 20,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "raspberry-pi-pico",
+      "swd"
+    ],
+    "link": "https://stackoverflow.com/questions/80015901/in-which-condition-rpi-pico-dbgpause-flags-stop-the-timer-clocks"
+  },
+  {
+    "title": "How do I pull truly unique dictionaries from a list of dictionaries in Python?",
+    "score": -5,
+    "views": 63,
+    "answers": 0,
+    "tags": [
+      "python",
+      "dictionary"
+    ],
+    "link": "https://stackoverflow.com/questions/80015882/how-do-i-pull-truly-unique-dictionaries-from-a-list-of-dictionaries-in-python"
+  },
+  {
+    "title": "Does Sleep(0) lets the core to execute other core&#39;s thread that is ready to run?",
+    "score": -1,
+    "views": 48,
+    "answers": 0,
+    "tags": [
+      "multithreading",
+      "winapi",
+      "sleep",
+      "cpu-cores"
+    ],
+    "link": "https://stackoverflow.com/questions/80015891/does-sleep0-lets-the-core-to-execute-other-cores-thread-that-is-ready-to-run"
+  },
+  {
+    "title": "Spring Boot multi-service project: &quot;package org.springframework.boot does not exist&quot; in IntelliJ IDEA",
+    "score": -3,
+    "views": 97,
+    "answers": 1,
+    "tags": [
+      "java",
+      "spring-boot",
+      "maven",
+      "intellij-idea"
+    ],
+    "link": "https://stackoverflow.com/questions/80015825/spring-boot-multi-service-project-package-org-springframework-boot-does-not-ex"
+  },
+  {
+    "title": "What is the cheapest way to host a small web app with a database?",
+    "score": -10,
+    "views": 116,
+    "answers": 0,
+    "tags": [
+      "web-hosting"
+    ],
+    "link": "https://stackoverflow.com/questions/80015865/what-is-the-cheapest-way-to-host-a-small-web-app-with-a-database"
+  },
+  {
+    "title": "Use reference for the evaluated cell in Apple Numbers",
+    "score": 0,
+    "views": 31,
+    "answers": 0,
+    "tags": [
+      "apple-numbers",
+      "apple-numbers-formula"
+    ],
+    "link": "https://stackoverflow.com/questions/80015887/use-reference-for-the-evaluated-cell-in-apple-numbers"
+  },
+  {
+    "title": "How to compile a dual-purpose ELF binary (Executable &amp; Shared Library) that supports both dlopen and -l linking?",
+    "score": 1,
+    "views": 95,
+    "answers": 0,
+    "tags": [
+      "c",
+      "linux",
+      "gcc",
+      "shared-libraries",
+      "elf"
+    ],
+    "link": "https://stackoverflow.com/questions/80015869/how-to-compile-a-dual-purpose-elf-binary-executable-shared-library-that-supp"
+  },
+  {
+    "title": "How would you design and implement a local data infrastructure?",
+    "score": -7,
+    "views": 57,
+    "answers": 0,
+    "tags": [
+      "data-structures",
+      "local"
+    ],
+    "link": "https://stackoverflow.com/questions/80015859/how-would-you-design-and-implement-a-local-data-infrastructure"
+  },
+  {
+    "title": "Trigonometric computation using math library",
+    "score": -7,
+    "views": 130,
+    "answers": 1,
+    "tags": [
+      "python",
+      "math"
+    ],
+    "link": "https://stackoverflow.com/questions/80015841/trigonometric-computation-using-math-library"
+  },
+  {
+    "title": "Accessing a model&#39;s individual layer",
+    "score": -6,
+    "views": 85,
+    "answers": 0,
+    "tags": [
+      "python",
+      "pytorch",
+      "huggingface-transformers",
+      "large-language-model"
+    ],
+    "link": "https://stackoverflow.com/questions/80015880/accessing-a-models-individual-layer"
+  }
+]
