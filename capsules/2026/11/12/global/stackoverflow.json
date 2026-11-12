@@ -1,0 +1,241 @@
+[
+  {
+    "title": "Advice for repurposing a Zebra ET51CT POS system",
+    "score": 0,
+    "views": 11,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "android",
+      "point-of-sale"
+    ],
+    "link": "https://stackoverflow.com/questions/80016173/advice-for-repurposing-a-zebra-et51ct-pos-system"
+  },
+  {
+    "title": "count(distinct col) throws error: what&#39;s the correct syntax for distinct count?",
+    "score": 1,
+    "views": 115,
+    "answers": 1,
+    "tags": [
+      "sql",
+      "dolphindb"
+    ],
+    "link": "https://stackoverflow.com/questions/80016152/countdistinct-col-throws-error-whats-the-correct-syntax-for-distinct-count"
+  },
+  {
+    "title": "Why there is an error with list broadcasting",
+    "score": 4,
+    "views": 40,
+    "answers": 1,
+    "tags": [
+      "python",
+      "numpy",
+      "syntax"
+    ],
+    "link": "https://stackoverflow.com/questions/80016150/why-there-is-an-error-with-list-broadcasting"
+  },
+  {
+    "title": "How to delete all images in the subfolders of a root folder and bring the files in the subfolders of the subfolders a level up in Windows 11?",
+    "score": -5,
+    "views": 49,
+    "answers": 0,
+    "tags": [
+      "windows",
+      "powershell",
+      "cmd",
+      "command",
+      "filesystems"
+    ],
+    "link": "https://stackoverflow.com/questions/80016151/how-to-delete-all-images-in-the-subfolders-of-a-root-folder-and-bring-the-files"
+  },
+  {
+    "title": "Does sys.set_lazy_imports() accept &#39;none&#39;",
+    "score": 2,
+    "views": 40,
+    "answers": 2,
+    "tags": [
+      "python",
+      "python-import",
+      "lazy-loading"
+    ],
+    "link": "https://stackoverflow.com/questions/80016148/does-sys-set-lazy-imports-accept-none"
+  },
+  {
+    "title": "Looking for help improving my LoRA training and image generation pipeline",
+    "score": -2,
+    "views": 24,
+    "answers": 1,
+    "tags": [
+      "machine-learning",
+      "artificial-intelligence"
+    ],
+    "link": "https://stackoverflow.com/questions/80016143/looking-for-help-improving-my-lora-training-and-image-generation-pipeline"
+  },
+  {
+    "title": "Is pg_last_wal_replay_lsn() a sufficient read-after-write barrier on a PolarDB for PostgreSQL replica?",
+    "score": 2,
+    "views": 22,
+    "answers": 1,
+    "tags": [
+      "postgresql",
+      "wal",
+      "replay",
+      "polardb"
+    ],
+    "link": "https://stackoverflow.com/questions/80016144/is-pg-last-wal-replay-lsn-a-sufficient-read-after-write-barrier-on-a-polardb-f"
+  },
+  {
+    "title": "Why is my code not adding the last character when converting Roman numerals?",
+    "score": 0,
+    "views": 191,
+    "answers": 5,
+    "tags": [
+      "python",
+      "python-3.x",
+      "string",
+      "dictionary"
+    ],
+    "link": "https://stackoverflow.com/questions/80016100/why-is-my-code-not-adding-the-last-character-when-converting-roman-numerals"
+  },
+  {
+    "title": "Gradle in VS Code is not using repositories configured in settings.gradle pluginManagement",
+    "score": 0,
+    "views": 18,
+    "answers": 0,
+    "tags": [
+      "java",
+      "vs-code",
+      "gradle"
+    ],
+    "link": "https://stackoverflow.com/questions/80016147/gradle-in-vs-code-is-not-using-repositories-configured-in-settings-gradle-plugin"
+  },
+  {
+    "title": "How can I programmatically create an MDList with KivyMD?",
+    "score": 2,
+    "views": 88,
+    "answers": 1,
+    "tags": [
+      "python",
+      "kivymd"
+    ],
+    "link": "https://stackoverflow.com/questions/80016122/how-can-i-programmatically-create-an-mdlist-with-kivymd"
+  },
+  {
+    "title": "Color points by density when plotting continuous variable by categorical variable with modern {ggplot2}",
+    "score": 0,
+    "views": 65,
+    "answers": 0,
+    "tags": [
+      "r",
+      "ggplot2"
+    ],
+    "link": "https://stackoverflow.com/questions/80016135/color-points-by-density-when-plotting-continuous-variable-by-categorical-variabl"
+  },
+  {
+    "title": "Combine different variables with different geoms and scales",
+    "score": 3,
+    "views": 105,
+    "answers": 2,
+    "tags": [
+      "r",
+      "ggplot2",
+      "scale",
+      "geom"
+    ],
+    "link": "https://stackoverflow.com/questions/80016074/combine-different-variables-with-different-geoms-and-scales"
+  },
+  {
+    "title": "How to exit an APR thread with a specific error code",
+    "score": 2,
+    "views": 110,
+    "answers": 1,
+    "tags": [
+      "c",
+      "multithreading",
+      "apr"
+    ],
+    "link": "https://stackoverflow.com/questions/80016126/how-to-exit-an-apr-thread-with-a-specific-error-code"
+  },
+  {
+    "title": "How To Make A Car Turn In Godot",
+    "score": 0,
+    "views": 153,
+    "answers": 1,
+    "tags": [
+      "game-physics",
+      "godot",
+      "gdscript",
+      "godot4"
+    ],
+    "link": "https://stackoverflow.com/questions/80016091/how-to-make-a-car-turn-in-godot"
+  },
+  {
+    "title": "How to remove expanded image in Android alerts",
+    "score": 1,
+    "views": 58,
+    "answers": 0,
+    "tags": [
+      "android",
+      "flutter",
+      "firebase-cloud-messaging",
+      "flutter-local-notification"
+    ],
+    "link": "https://stackoverflow.com/questions/80016114/how-to-remove-expanded-image-in-android-alerts"
+  },
+  {
+    "title": "Why does this picture refuse to move under my other image?",
+    "score": 3,
+    "views": 132,
+    "answers": 3,
+    "tags": [
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/80016092/why-does-this-picture-refuse-to-move-under-my-other-image"
+  },
+  {
+    "title": "Advice on Implementing a JavaFX Google Earth / God&#39;s eye View like viewer with JDK 27",
+    "score": -3,
+    "views": 74,
+    "answers": 0,
+    "tags": [
+      "java",
+      "javafx",
+      "3d",
+      "gis"
+    ],
+    "link": "https://stackoverflow.com/questions/80016064/advice-on-implementing-a-javafx-google-earth-gods-eye-view-like-viewer-with-j"
+  },
+  {
+    "title": "Firebase Auth: saving any email template field fails with EMAIL_TEMPLATE_UPDATE_NOT_ALLOWED",
+    "score": -1,
+    "views": 68,
+    "answers": 0,
+    "tags": [
+      "firebase",
+      "firebase-authentication"
+    ],
+    "link": "https://stackoverflow.com/questions/80016115/firebase-auth-saving-any-email-template-field-fails-with-email-template-update"
+  },
+  {
+    "title": "Plot ranked data against two different rankings",
+    "score": 3,
+    "views": 120,
+    "answers": 3,
+    "tags": [
+      "r",
+      "ggplot2"
+    ],
+    "link": "https://stackoverflow.com/questions/80016041/plot-ranked-data-against-two-different-rankings"
+  },
+  {
+    "title": "How to fix bad version number in a melpa-hosted package",
+    "score": -2,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "melpa"
+    ],
+    "link": "https://stackoverflow.com/questions/80016113/how-to-fix-bad-version-number-in-a-melpa-hosted-package"
+  }
+]
