@@ -1,0 +1,235 @@
+[
+  {
+    "title": "Understanding the origins and identity of `data-XXX` attribute usage in websites",
+    "score": -3,
+    "views": 56,
+    "answers": 1,
+    "tags": [
+      "html",
+      "attributes",
+      "naming-conventions",
+      "custom-data-attribute"
+    ],
+    "link": "https://stackoverflow.com/questions/80016395/understanding-the-origins-and-identity-of-data-xxx-attribute-usage-in-websites"
+  },
+  {
+    "title": "Code lint tool needed for PowerShell v7.6 on Windows 10",
+    "score": 1,
+    "views": 35,
+    "answers": 2,
+    "tags": [
+      "tooling-recommendation",
+      "powershell",
+      "lint"
+    ],
+    "link": "https://stackoverflow.com/questions/80016396/code-lint-tool-needed-for-powershell-v7-6-on-windows-10"
+  },
+  {
+    "title": "How can I help CFFI on SBCL on Windows properly load libssl?",
+    "score": 0,
+    "views": 40,
+    "answers": 0,
+    "tags": [
+      "sbcl",
+      "libssl",
+      "cffi"
+    ],
+    "link": "https://stackoverflow.com/questions/80016397/how-can-i-help-cffi-on-sbcl-on-windows-properly-load-libssl"
+  },
+  {
+    "title": "Algorithmic analysis",
+    "score": -8,
+    "views": 137,
+    "answers": 2,
+    "tags": [
+      "sorting",
+      "time-complexity",
+      "big-o"
+    ],
+    "link": "https://stackoverflow.com/questions/80016373/algorithmic-analysis"
+  },
+  {
+    "title": "Windows Integrated Authentication fails in Visual Studio full stack api with vite proxy",
+    "score": 0,
+    "views": 31,
+    "answers": 0,
+    "tags": [
+      "asp.net-core",
+      "vite",
+      "kestrel"
+    ],
+    "link": "https://stackoverflow.com/questions/80016393/windows-integrated-authentication-fails-in-visual-studio-full-stack-api-with-vit"
+  },
+  {
+    "title": "Manually deserializing query params in Spring Boot",
+    "score": -4,
+    "views": 52,
+    "answers": 0,
+    "tags": [
+      "spring-boot",
+      "deserialization"
+    ],
+    "link": "https://stackoverflow.com/questions/80016385/manually-deserializing-query-params-in-spring-boot"
+  },
+  {
+    "title": "How can I check programmatically whether a Telegram t.me invite link is still valid?",
+    "score": -10,
+    "views": 53,
+    "answers": 0,
+    "tags": [
+      "telegram"
+    ],
+    "link": "https://stackoverflow.com/questions/80016389/how-can-i-check-programmatically-whether-a-telegram-t-me-invite-link-is-still-va"
+  },
+  {
+    "title": "Google Cloud IAP returns Error 9 after OAuth redirect on Cloud Run",
+    "score": -2,
+    "views": 29,
+    "answers": 0,
+    "tags": [
+      "oauth-2.0",
+      "google-cloud-run",
+      "google-iap"
+    ],
+    "link": "https://stackoverflow.com/questions/80016390/google-cloud-iap-returns-error-9-after-oauth-redirect-on-cloud-run"
+  },
+  {
+    "title": "Tell if `FETCH` called from `@arr` or `$arr[$idx]` or `@arr[@idx]`",
+    "score": 0,
+    "views": 63,
+    "answers": 1,
+    "tags": [
+      "perl",
+      "tie"
+    ],
+    "link": "https://stackoverflow.com/questions/80016359/tell-if-fetch-called-from-arr-or-arridx-or-arridx"
+  },
+  {
+    "title": "Resuming an existing PHP session twice makes the server send the session cookie",
+    "score": -1,
+    "views": 49,
+    "answers": 0,
+    "tags": [
+      "php",
+      "session-cookies"
+    ],
+    "link": "https://stackoverflow.com/questions/80016378/resuming-an-existing-php-session-twice-makes-the-server-send-the-session-cookie"
+  },
+  {
+    "title": "How to disable sound and visual flash alerts in macOS Terminal and Xcode for PTSD?",
+    "score": 2,
+    "views": 46,
+    "answers": 1,
+    "tags": [
+      "xcode",
+      "macos",
+      "terminal",
+      "accessibility"
+    ],
+    "link": "https://stackoverflow.com/questions/80016358/how-to-disable-sound-and-visual-flash-alerts-in-macos-terminal-and-xcode-for-pts"
+  },
+  {
+    "title": "&quot;unresolved symbols&quot; on nasm/macOS (x86-64)",
+    "score": 2,
+    "views": 126,
+    "answers": 1,
+    "tags": [
+      "macos",
+      "assembly",
+      "nasm",
+      "ld",
+      "cc"
+    ],
+    "link": "https://stackoverflow.com/questions/80016302/unresolved-symbols-on-nasm-macos-x86-64"
+  },
+  {
+    "title": "OpenAI structured outputs: model returns null or skips values that exist in the source text during email data extraction",
+    "score": 0,
+    "views": 70,
+    "answers": 0,
+    "tags": [
+      "jsonschema",
+      "openai-api",
+      "large-language-model",
+      "gpt-4o-mini"
+    ],
+    "link": "https://stackoverflow.com/questions/80016369/openai-structured-outputs-model-returns-null-or-skips-values-that-exist-in-the"
+  },
+  {
+    "title": "How do I iterate and count vowels in a string?",
+    "score": -6,
+    "views": 185,
+    "answers": 3,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80016348/how-do-i-iterate-and-count-vowels-in-a-string"
+  },
+  {
+    "title": "Why does PMA export VIRTUAL fields if row selected from Browse-Mode",
+    "score": 0,
+    "views": 54,
+    "answers": 1,
+    "tags": [
+      "phpmyadmin"
+    ],
+    "link": "https://stackoverflow.com/questions/80016365/why-does-pma-export-virtual-fields-if-row-selected-from-browse-mode"
+  },
+  {
+    "title": "How to get the cell value from a linked worksheet",
+    "score": 0,
+    "views": 150,
+    "answers": 2,
+    "tags": [
+      "excel",
+      "vba"
+    ],
+    "link": "https://stackoverflow.com/questions/80016274/how-to-get-the-cell-value-from-a-linked-worksheet"
+  },
+  {
+    "title": "How to make ball move in Swift?",
+    "score": -1,
+    "views": 209,
+    "answers": 1,
+    "tags": [
+      "swift",
+      "swiftui",
+      "pong"
+    ],
+    "link": "https://stackoverflow.com/questions/80016316/how-to-make-ball-move-in-swift"
+  },
+  {
+    "title": "Why is there a list broadcasting error when using &quot;+=&quot; but not when using &quot;__iadd__&quot;?",
+    "score": 11,
+    "views": 502,
+    "answers": 2,
+    "tags": [
+      "python",
+      "numpy",
+      "cpython"
+    ],
+    "link": "https://stackoverflow.com/questions/80016150/why-is-there-a-list-broadcasting-error-when-using-but-not-when-using-iad"
+  },
+  {
+    "title": "ML Kit old samples (before 2020)",
+    "score": -7,
+    "views": 43,
+    "answers": 0,
+    "tags": [
+      "google-mlkit"
+    ],
+    "link": "https://stackoverflow.com/questions/80016347/ml-kit-old-samples-before-2020"
+  },
+  {
+    "title": "i need help installing mongodb on mac i keep on getting the error Error: Formula `mongodb-community`",
+    "score": -5,
+    "views": 69,
+    "answers": 0,
+    "tags": [
+      "mongodb",
+      "macos",
+      "homebrew"
+    ],
+    "link": "https://stackoverflow.com/questions/80016363/i-need-help-installing-mongodb-on-mac-i-keep-on-getting-the-error-error-formula"
+  }
+]
