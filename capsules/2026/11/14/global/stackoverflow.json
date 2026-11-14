@@ -1,0 +1,241 @@
+[
+  {
+    "title": "Frame independent friction",
+    "score": -4,
+    "views": 68,
+    "answers": 0,
+    "tags": [
+      "game-development",
+      "gml",
+      "game-maker-studio-2",
+      "game-maker-language"
+    ],
+    "link": "https://stackoverflow.com/questions/80016589/frame-independent-friction"
+  },
+  {
+    "title": "ts-node typescript error: cannot find module or its corresponding type declarations",
+    "score": 1,
+    "views": 32,
+    "answers": 1,
+    "tags": [
+      "typescript",
+      "tsconfig",
+      "ts-node"
+    ],
+    "link": "https://stackoverflow.com/questions/80016580/ts-node-typescript-error-cannot-find-module-or-its-corresponding-type-declarati"
+  },
+  {
+    "title": "Why is there an error specifically on the true part?",
+    "score": -5,
+    "views": 131,
+    "answers": 2,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80016574/why-is-there-an-error-specifically-on-the-true-part"
+  },
+  {
+    "title": "Html page for populating a leaflet map page",
+    "score": -1,
+    "views": 80,
+    "answers": 1,
+    "tags": [
+      "html",
+      "leaflet",
+      "openstreetmap",
+      "osrm"
+    ],
+    "link": "https://stackoverflow.com/questions/80016561/html-page-for-populating-a-leaflet-map-page"
+  },
+  {
+    "title": "How can I update an archived partition in PolarDB for MySQL without restoring the entire partition?",
+    "score": 2,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "mysql",
+      "polardb"
+    ],
+    "link": "https://stackoverflow.com/questions/80016579/how-can-i-update-an-archived-partition-in-polardb-for-mysql-without-restoring-th"
+  },
+  {
+    "title": "Coursera assignment review",
+    "score": -5,
+    "views": 34,
+    "answers": 0,
+    "tags": [
+      "advice"
+    ],
+    "link": "https://stackoverflow.com/questions/80016582/coursera-assignment-review"
+  },
+  {
+    "title": "iOS home-screen PWA: one video plays frames and audio, but currentTime stays 0, native controls are inert, and pause() has no effect",
+    "score": -2,
+    "views": 63,
+    "answers": 0,
+    "tags": [
+      "ios",
+      "html5-video",
+      "avfoundation",
+      "progressive-web-apps",
+      "wkwebview"
+    ],
+    "link": "https://stackoverflow.com/questions/80016563/ios-home-screen-pwa-one-video-plays-frames-and-audio-but-currenttime-stays-0"
+  },
+  {
+    "title": "How to make a Genre/Format Filter for Portfolio Website",
+    "score": -3,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/80016569/how-to-make-a-genre-format-filter-for-portfolio-website"
+  },
+  {
+    "title": "XSLT transformation and Spring Boot: how to preserve namespace prefix in XML document after XSLT transormation",
+    "score": 2,
+    "views": 31,
+    "answers": 1,
+    "tags": [
+      "spring-boot",
+      "xslt",
+      "xml-namespaces"
+    ],
+    "link": "https://stackoverflow.com/questions/80016571/xslt-transformation-and-spring-boot-how-to-preserve-namespace-prefix-in-xml-doc"
+  },
+  {
+    "title": "Player Locked Out Of Parrying After a Miss",
+    "score": 1,
+    "views": 37,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "unity-game-engine",
+      "2d"
+    ],
+    "link": "https://stackoverflow.com/questions/80016573/player-locked-out-of-parrying-after-a-miss"
+  },
+  {
+    "title": "Keycloak Introspection Requests all return &quot;active: false&quot; for valid tokens",
+    "score": 1,
+    "views": 121,
+    "answers": 2,
+    "tags": [
+      "python",
+      "oauth-2.0",
+      "keycloak",
+      "introspection"
+    ],
+    "link": "https://stackoverflow.com/questions/80016548/keycloak-introspection-requests-all-return-active-false-for-valid-tokens"
+  },
+  {
+    "title": "How to prevent Admob Ad dismissal from redrawing my view",
+    "score": 1,
+    "views": 48,
+    "answers": 0,
+    "tags": [
+      "swift",
+      "swiftui",
+      "admob",
+      "interstitial"
+    ],
+    "link": "https://stackoverflow.com/questions/80016558/how-to-prevent-admob-ad-dismissal-from-redrawing-my-view"
+  },
+  {
+    "title": "In a Widget build method, which context is the right one to refer to?",
+    "score": 2,
+    "views": 68,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "flutter",
+      "dart"
+    ],
+    "link": "https://stackoverflow.com/questions/80016546/in-a-widget-build-method-which-context-is-the-right-one-to-refer-to"
+  },
+  {
+    "title": "How to navigate to a markdown tag in vanilla neovim/vim?",
+    "score": 1,
+    "views": 65,
+    "answers": 2,
+    "tags": [
+      "vim",
+      "markdown",
+      "neovim"
+    ],
+    "link": "https://stackoverflow.com/questions/80016514/how-to-navigate-to-a-markdown-tag-in-vanilla-neovim-vim"
+  },
+  {
+    "title": "What is the dotted underline suggestion in VS Code?",
+    "score": 1,
+    "views": 199,
+    "answers": 0,
+    "tags": [
+      "go",
+      "vs-code",
+      "intellisense"
+    ],
+    "link": "https://stackoverflow.com/questions/80016486/what-is-the-dotted-underline-suggestion-in-vs-code"
+  },
+  {
+    "title": "Filter out duplicate lines from a log that have the same end pattern",
+    "score": -1,
+    "views": 83,
+    "answers": 2,
+    "tags": [
+      "bash",
+      "filter",
+      "cygwin"
+    ],
+    "link": "https://stackoverflow.com/questions/80016531/filter-out-duplicate-lines-from-a-log-that-have-the-same-end-pattern"
+  },
+  {
+    "title": "How to pass file path to jsonschema compile validator macro?",
+    "score": 3,
+    "views": 62,
+    "answers": 1,
+    "tags": [
+      "rust",
+      "jsonschema",
+      "json-schema-validator"
+    ],
+    "link": "https://stackoverflow.com/questions/80016517/how-to-pass-file-path-to-jsonschema-compile-validator-macro"
+  },
+  {
+    "title": "Efficient way of adding borders with openpyxl",
+    "score": 1,
+    "views": 88,
+    "answers": 1,
+    "tags": [
+      "python",
+      "openpyxl"
+    ],
+    "link": "https://stackoverflow.com/questions/80016537/efficient-way-of-adding-borders-with-openpyxl"
+  },
+  {
+    "title": "How to call ShowModal on a Form but not show it to the user?",
+    "score": -2,
+    "views": 87,
+    "answers": 1,
+    "tags": [
+      "delphi",
+      "delphi-12-athens"
+    ],
+    "link": "https://stackoverflow.com/questions/80016484/how-to-call-showmodal-on-a-form-but-not-show-it-to-the-user"
+  },
+  {
+    "title": "How do I use the latest CsvHelper 34.0.0 inside Linqpad 8?",
+    "score": 2,
+    "views": 70,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "linqpad",
+      "csvhelper"
+    ],
+    "link": "https://stackoverflow.com/questions/80016506/how-do-i-use-the-latest-csvhelper-34-0-0-inside-linqpad-8"
+  }
+]

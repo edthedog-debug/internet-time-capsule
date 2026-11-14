@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Bitcoin",
+    "symbol": "btc",
+    "price": 67074,
+    "market_cap": 1348961315221,
+    "volume_24h": 38967794118,
+    "change_24h": -2.23713,
+    "market_cap_rank": 1
+  },
+  {
+    "name": "Ethereum",
+    "symbol": "eth",
+    "price": 1898.51,
+    "market_cap": 232033689491,
+    "volume_24h": 13603757614,
+    "change_24h": -1.40855,
+    "market_cap_rank": 2
+  },
+  {
+    "name": "Tether",
+    "symbol": "usdt",
+    "price": 0.999188,
+    "market_cap": 175255668791,
+    "volume_24h": 58221363205,
+    "change_24h": 0.00071,
+    "market_cap_rank": 3
+  },
+  {
+    "name": "BNB",
+    "symbol": "bnb",
+    "price": 617.25,
+    "market_cap": 81174313764,
+    "volume_24h": 957250324,
+    "change_24h": -2.32852,
+    "market_cap_rank": 4
+  },
+  {
+    "name": "USDC",
+    "symbol": "usdc",
+    "price": 0.999582,
+    "market_cap": 68987277396,
+    "volume_24h": 16428649095,
+    "change_24h": 0.00348,
+    "market_cap_rank": 5
+  },
+  {
+    "name": "XRP",
+    "symbol": "xrp",
+    "price": 0.995294,
+    "market_cap": 63217703195,
+    "volume_24h": 2095977122,
+    "change_24h": -0.89855,
+    "market_cap_rank": 6
+  },
+  {
+    "name": "Solana",
+    "symbol": "sol",
+    "price": 75.57,
+    "market_cap": 44705639870,
+    "volume_24h": 3416118475,
+    "change_24h": -3.62725,
+    "market_cap_rank": 7
+  },
+  {
+    "name": "TRON",
+    "symbol": "trx",
+    "price": 0.311603,
+    "market_cap": 29614282674,
+    "volume_24h": 282841107,
+    "change_24h": 0.27744,
+    "market_cap_rank": 8
+  },
+  {
+    "name": "Figure Heloc",
+    "symbol": "figr_heloc",
+    "price": 1.047,
+    "market_cap": 27862500335,
+    "volume_24h": 249844081,
+    "change_24h": 4.54283,
+    "market_cap_rank": 9
+  },
+  {
+    "name": "Hyperliquid",
+    "symbol": "hype",
+    "price": 68.98,
+    "market_cap": 16397728165,
+    "volume_24h": 1115211074,
+    "change_24h": -2.14252,
+    "market_cap_rank": 10
+  },
+  {
+    "name": "Zcash",
+    "symbol": "zec",
+    "price": 907.12,
+    "market_cap": 15456513493,
+    "volume_24h": 941362330,
+    "change_24h": 1.3878,
+    "market_cap_rank": 11
+  },
+  {
+    "name": "Dogecoin",
+    "symbol": "doge",
+    "price": 0.063096,
+    "market_cap": 9888928509,
+    "volume_24h": 526558627,
+    "change_24h": -0.31635,
+    "market_cap_rank": 12
+  },
+  {
+    "name": "Monero",
+    "symbol": "xmr",
+    "price": 521.9,
+    "market_cap": 9827774684,
+    "volume_24h": 125447789,
+    "change_24h": 2.57416,
+    "market_cap_rank": 13
+  },
+  {
+    "name": "LEO Token",
+    "symbol": "leo",
+    "price": 9.32,
+    "market_cap": 8571525628,
+    "volume_24h": 116388,
+    "change_24h": 0.4404,
+    "market_cap_rank": 14
+  },
+  {
+    "name": "USDS",
+    "symbol": "usds",
+    "price": 0.99988,
+    "market_cap": 8534678896,
+    "volume_24h": 309218233,
+    "change_24h": -0.00605,
+    "market_cap_rank": 15
+  },
+  {
+    "name": "WhiteBIT Coin",
+    "symbol": "wbt",
+    "price": 65.3,
+    "market_cap": 7748699309,
+    "volume_24h": 181346499,
+    "change_24h": -1.50574,
+    "market_cap_rank": 16
+  },
+  {
+    "name": "Chainlink",
+    "symbol": "link",
+    "price": 9.63,
+    "market_cap": 7387751531,
+    "volume_24h": 277602387,
+    "change_24h": -0.56608,
+    "market_cap_rank": 17
+  },
+  {
+    "name": "Cardano",
+    "symbol": "ada",
+    "price": 0.164375,
+    "market_cap": 6175064487,
+    "volume_24h": 245528012,
+    "change_24h": -1.87952,
+    "market_cap_rank": 18
+  },
+  {
+    "name": "Stellar",
+    "symbol": "xlm",
+    "price": 0.143712,
+    "market_cap": 5088479823,
+    "volume_24h": 219315679,
+    "change_24h": 0.87138,
+    "market_cap_rank": 19
+  },
+  {
+    "name": "Ethena USDe",
+    "symbol": "usde",
+    "price": 0.999161,
+    "market_cap": 4929823278,
+    "volume_24h": 42153728,
+    "change_24h": 0.00348,
+    "market_cap_rank": 20
+  },
+  {
+    "name": "Dai",
+    "symbol": "dai",
+    "price": 1.0,
+    "market_cap": 4452763777,
+    "volume_24h": 194227046,
+    "change_24h": 0.0063,
+    "market_cap_rank": 21
+  },
+  {
+    "name": "NEAR Protocol",
+    "symbol": "near",
+    "price": 3.35,
+    "market_cap": 4396363570,
+    "volume_24h": 582199879,
+    "change_24h": 2.02248,
+    "market_cap_rank": 22
+  },
+  {
+    "name": "Bitcoin Cash",
+    "symbol": "bch",
+    "price": 216.49,
+    "market_cap": 4355060037,
+    "volume_24h": 95778108,
+    "change_24h": 0.75151,
+    "market_cap_rank": 23
+  },
+  {
+    "name": "Litecoin",
+    "symbol": "ltc",
+    "price": 48.81,
+    "market_cap": 3798257753,
+    "volume_24h": 210620734,
+    "change_24h": 1.87958,
+    "market_cap_rank": 24
+  },
+  {
+    "name": "Avalanche",
+    "symbol": "avax",
+    "price": 8.12,
+    "market_cap": 3624091348,
+    "volume_24h": 251695997,
+    "change_24h": 0.72441,
+    "market_cap_rank": 25
+  },
+  {
+    "name": "Canton",
+    "symbol": "cc",
+    "price": 0.085279,
+    "market_cap": 3415511376,
+    "volume_24h": 11735689,
+    "change_24h": -1.11099,
+    "market_cap_rank": 26
+  },
+  {
+    "name": "Uniswap",
+    "symbol": "uni",
+    "price": 5.6,
+    "market_cap": 3404404917,
+    "volume_24h": 410881536,
+    "change_24h": -1.38632,
+    "market_cap_rank": 27
+  },
+  {
+    "name": "Sui",
+    "symbol": "sui",
+    "price": 0.777158,
+    "market_cap": 3216690045,
+    "volume_24h": 340445967,
+    "change_24h": 1.00857,
+    "market_cap_rank": 28
+  },
+  {
+    "name": "Tether Gold",
+    "symbol": "xaut",
+    "price": 3860.1,
+    "market_cap": 3122801399,
+    "volume_24h": 166906354,
+    "change_24h": -0.99281,
+    "market_cap_rank": 29
+  },
+  {
+    "name": "USD1",
+    "symbol": "usd1",
+    "price": 0.998159,
+    "market_cap": 3106000565,
+    "volume_24h": 1235055483,
+    "change_24h": -0.03257,
+    "market_cap_rank": 30
+  }
+]
