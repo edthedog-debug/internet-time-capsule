@@ -1,0 +1,245 @@
+[
+  {
+    "title": "Different behavior of Game Boy DMG game in debug and non-debug mode",
+    "score": 1,
+    "views": 34,
+    "answers": 0,
+    "tags": [
+      "assembly",
+      "game-development",
+      "gameboy"
+    ],
+    "link": "https://stackoverflow.com/questions/80016738/different-behavior-of-game-boy-dmg-game-in-debug-and-non-debug-mode"
+  },
+  {
+    "title": "How does the `Promise.resolve()` static method handle arguments of the Function type?",
+    "score": 1,
+    "views": 33,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "typescript",
+      "asynchronous"
+    ],
+    "link": "https://stackoverflow.com/questions/80016718/how-does-the-promise-resolve-static-method-handle-arguments-of-the-function"
+  },
+  {
+    "title": "What does &quot;vcpkg integrate install&quot; do on Linux?",
+    "score": 0,
+    "views": 60,
+    "answers": 2,
+    "tags": [
+      "installation",
+      "vcpkg"
+    ],
+    "link": "https://stackoverflow.com/questions/80016704/what-does-vcpkg-integrate-install-do-on-linux"
+  },
+  {
+    "title": "In React, how do I change a list item in an unordered list upon a button in that list item being pressed?",
+    "score": -2,
+    "views": 112,
+    "answers": 2,
+    "tags": [
+      "reactjs"
+    ],
+    "link": "https://stackoverflow.com/questions/80016706/in-react-how-do-i-change-a-list-item-in-an-unordered-list-upon-a-button-in-that"
+  },
+  {
+    "title": "Gemini Live API closes sessions at exactly 58 minutes with 1011 &quot;Deadline expired&quot; despite session resumption",
+    "score": -3,
+    "views": 64,
+    "answers": 1,
+    "tags": [
+      "python",
+      "websocket",
+      "google-gemini"
+    ],
+    "link": "https://stackoverflow.com/questions/80016693/gemini-live-api-closes-sessions-at-exactly-58-minutes-with-1011-deadline-expire"
+  },
+  {
+    "title": "vkbottle 4.11.0: WaiterMachine().wait() default argument is ignored/not triggering",
+    "score": 1,
+    "views": 47,
+    "answers": 0,
+    "tags": [
+      "python",
+      "python-asyncio",
+      "vk"
+    ],
+    "link": "https://stackoverflow.com/questions/80016697/vkbottle-4-11-0-waitermachine-wait-default-argument-is-ignored-not-triggeri"
+  },
+  {
+    "title": "SDL3 Camera API unable to Access Window shows Green Screen on Linux",
+    "score": 2,
+    "views": 64,
+    "answers": 0,
+    "tags": [
+      "c",
+      "linux-mint",
+      "webcam-capture",
+      "camera-api",
+      "sdl-3"
+    ],
+    "link": "https://stackoverflow.com/questions/80016665/sdl3-camera-api-unable-to-access-window-shows-green-screen-on-linux"
+  },
+  {
+    "title": "What is the standard workflow for analyzing an unknown binary file?",
+    "score": -12,
+    "views": 194,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "reverse-engineering"
+    ],
+    "link": "https://stackoverflow.com/questions/80016654/what-is-the-standard-workflow-for-analyzing-an-unknown-binary-file"
+  },
+  {
+    "title": "What is the solution for React SPA meta tags issue in 2026/2027?",
+    "score": -6,
+    "views": 103,
+    "answers": 0,
+    "tags": [
+      "reactjs",
+      "html-meta"
+    ],
+    "link": "https://stackoverflow.com/questions/80016675/what-is-the-solution-for-react-spa-meta-tags-issue-in-2026-2027"
+  },
+  {
+    "title": "How can I disable PHP from showing/executing in file (so that I can style my HTML freely)?",
+    "score": -3,
+    "views": 115,
+    "answers": 2,
+    "tags": [
+      "php"
+    ],
+    "link": "https://stackoverflow.com/questions/80016670/how-can-i-disable-php-from-showing-executing-in-file-so-that-i-can-style-my-htm"
+  },
+  {
+    "title": "Can&#39;t manage to make Google Search to index my website",
+    "score": -6,
+    "views": 108,
+    "answers": 0,
+    "tags": [
+      "google-search",
+      "google-search-console",
+      "google-search-platform"
+    ],
+    "link": "https://stackoverflow.com/questions/80016671/cant-manage-to-make-google-search-to-index-my-website"
+  },
+  {
+    "title": "Problem with decorators and how to measure the execution time a function",
+    "score": 2,
+    "views": 130,
+    "answers": 3,
+    "tags": [
+      "python",
+      "decorator",
+      "nameerror"
+    ],
+    "link": "https://stackoverflow.com/questions/80016637/problem-with-decorators-and-how-to-measure-the-execution-time-a-function"
+  },
+  {
+    "title": "How to start Windows Terminal in full screen from an X64 NASM Console mode Windows program",
+    "score": -4,
+    "views": 142,
+    "answers": 1,
+    "tags": [
+      "winapi",
+      "console-application",
+      "nasm",
+      "windows-terminal"
+    ],
+    "link": "https://stackoverflow.com/questions/80016608/how-to-start-windows-terminal-in-full-screen-from-an-x64-nasm-console-mode-windo"
+  },
+  {
+    "title": "Why letters &#39;d&#39; and &#39;t&#39; are highlighted in SQL using Snowsight?",
+    "score": 1,
+    "views": 110,
+    "answers": 1,
+    "tags": [
+      "snowflake-cloud-data-platform",
+      "syntax-highlighting"
+    ],
+    "link": "https://stackoverflow.com/questions/80016647/why-letters-d-and-t-are-highlighted-in-sql-using-snowsight"
+  },
+  {
+    "title": "How to optimize recursive Binary Exponentiation using tail recursion and handle negative exponents without loops in C++?",
+    "score": -2,
+    "views": 203,
+    "answers": 4,
+    "tags": [
+      "c++",
+      "algorithm",
+      "recursion",
+      "tail-recursion"
+    ],
+    "link": "https://stackoverflow.com/questions/80016604/how-to-optimize-recursive-binary-exponentiation-using-tail-recursion-and-handle"
+  },
+  {
+    "title": "Why Numba produces faster binary than ISPC for this simple function?",
+    "score": 5,
+    "views": 121,
+    "answers": 0,
+    "tags": [
+      "python",
+      "benchmarking",
+      "numba",
+      "avx2",
+      "ispc"
+    ],
+    "link": "https://stackoverflow.com/questions/80016606/why-numba-produces-faster-binary-than-ispc-for-this-simple-function"
+  },
+  {
+    "title": "Frame independent friction",
+    "score": -6,
+    "views": 132,
+    "answers": 1,
+    "tags": [
+      "game-development",
+      "gml",
+      "game-maker-studio-2",
+      "game-maker-language"
+    ],
+    "link": "https://stackoverflow.com/questions/80016589/frame-independent-friction"
+  },
+  {
+    "title": "Jekyll build always generates cached CSS",
+    "score": 3,
+    "views": 46,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "html",
+      "jekyll",
+      "templating",
+      "static-site-generation"
+    ],
+    "link": "https://stackoverflow.com/questions/80016633/jekyll-build-always-generates-cached-css"
+  },
+  {
+    "title": "How can I update the Shopify cart count dynamically using JavaScript without refreshing the page?",
+    "score": -3,
+    "views": 54,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "ajax",
+      "shopify",
+      "shopify-template"
+    ],
+    "link": "https://stackoverflow.com/questions/80016645/how-can-i-update-the-shopify-cart-count-dynamically-using-javascript-without-ref"
+  },
+  {
+    "title": "Godot 4 - Light quality",
+    "score": -6,
+    "views": 87,
+    "answers": 1,
+    "tags": [
+      "godot",
+      "shadow",
+      "godot4",
+      "directional-light"
+    ],
+    "link": "https://stackoverflow.com/questions/80016629/godot-4-light-quality"
+  }
+]
