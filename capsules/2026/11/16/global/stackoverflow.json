@@ -1,0 +1,244 @@
+[
+  {
+    "title": "How to know if my ASP.NET Core web application deployed is in Production environment",
+    "score": -2,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "asp.net-core",
+      "model-view-controller"
+    ],
+    "link": "https://stackoverflow.com/questions/80016906/how-to-know-if-my-asp-net-core-web-application-deployed-is-in-production-environ"
+  },
+  {
+    "title": "Is there a script to do that?",
+    "score": -4,
+    "views": 48,
+    "answers": 0,
+    "tags": [
+      "linux",
+      "unix",
+      "configure"
+    ],
+    "link": "https://stackoverflow.com/questions/80016894/is-there-a-script-to-do-that"
+  },
+  {
+    "title": "How to display a street map when using the Leaflet API",
+    "score": 0,
+    "views": 41,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "leaflet",
+      "openstreetmap",
+      "webview2",
+      "osrm"
+    ],
+    "link": "https://stackoverflow.com/questions/80016897/how-to-display-a-street-map-when-using-the-leaflet-api"
+  },
+  {
+    "title": "CSS - place image behind others",
+    "score": 1,
+    "views": 55,
+    "answers": 1,
+    "tags": [
+      "css",
+      "image",
+      "svg"
+    ],
+    "link": "https://stackoverflow.com/questions/80016890/css-place-image-behind-others"
+  },
+  {
+    "title": "How to efficiently find all files that match a given glob pattern in Java?",
+    "score": 1,
+    "views": 88,
+    "answers": 1,
+    "tags": [
+      "java",
+      "performance",
+      "glob"
+    ],
+    "link": "https://stackoverflow.com/questions/80016876/how-to-efficiently-find-all-files-that-match-a-given-glob-pattern-in-java"
+  },
+  {
+    "title": "Unity scene player input not working upon loading scene from main menu",
+    "score": -3,
+    "views": 77,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "unity-game-engine"
+    ],
+    "link": "https://stackoverflow.com/questions/80016866/unity-scene-player-input-not-working-upon-loading-scene-from-main-menu"
+  },
+  {
+    "title": "Set character amount for html input",
+    "score": -5,
+    "views": 140,
+    "answers": 0,
+    "tags": [
+      "html",
+      "forms",
+      "validation",
+      "input"
+    ],
+    "link": "https://stackoverflow.com/questions/80016877/set-character-amount-for-html-input"
+  },
+  {
+    "title": "IEEE 754 a bug?",
+    "score": -9,
+    "views": 167,
+    "answers": 4,
+    "tags": [
+      "floating-point",
+      "language-agnostic",
+      "ieee-754"
+    ],
+    "link": "https://stackoverflow.com/questions/80016828/ieee-754-a-bug"
+  },
+  {
+    "title": "How can I return a value from a function decorator and from the function itself?",
+    "score": -5,
+    "views": 147,
+    "answers": 2,
+    "tags": [
+      "python",
+      "function",
+      "return",
+      "decorator",
+      "timeit"
+    ],
+    "link": "https://stackoverflow.com/questions/80016825/how-can-i-return-a-value-from-a-function-decorator-and-from-the-function-itself"
+  },
+  {
+    "title": "NVCC emits gratuitous warning about an unused type",
+    "score": 2,
+    "views": 181,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "templates",
+      "compiler-warnings",
+      "enable-if",
+      "edg"
+    ],
+    "link": "https://stackoverflow.com/questions/80016856/nvcc-emits-gratuitous-warning-about-an-unused-type"
+  },
+  {
+    "title": "A scrollable text area in Java",
+    "score": -1,
+    "views": 133,
+    "answers": 1,
+    "tags": [
+      "java",
+      "swing",
+      "scroll",
+      "jframe",
+      "jtextarea"
+    ],
+    "link": "https://stackoverflow.com/questions/80016850/a-scrollable-text-area-in-java"
+  },
+  {
+    "title": "What&#39;s the best way to define a &quot;logical&quot; network between nodes?",
+    "score": -8,
+    "views": 90,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "go",
+      "network-programming",
+      "ipfs"
+    ],
+    "link": "https://stackoverflow.com/questions/80016848/whats-the-best-way-to-define-a-logical-network-between-nodes"
+  },
+  {
+    "title": "Intermittent NullReferenceException in iText 9.8.0 table layout on .NET 11",
+    "score": 6,
+    "views": 144,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "itext7",
+      ".net-11.0"
+    ],
+    "link": "https://stackoverflow.com/questions/80016807/intermittent-nullreferenceexception-in-itext-9-8-0-table-layout-on-net-11"
+  },
+  {
+    "title": "In CLion, can I set my CMAKE_CUDA_HOST_COMPILER to the CLion toolchain C++ compiler?",
+    "score": 0,
+    "views": 73,
+    "answers": 0,
+    "tags": [
+      "cmake",
+      "cuda",
+      "clion",
+      "build-automation"
+    ],
+    "link": "https://stackoverflow.com/questions/80016852/in-clion-can-i-set-my-cmake-cuda-host-compiler-to-the-clion-toolchain-c-compi"
+  },
+  {
+    "title": "How can I set a static lock screen wallpaper without resetting the OEM lock screen style (clock style, widgets, depth effect)?",
+    "score": 2,
+    "views": 73,
+    "answers": 0,
+    "tags": [
+      "android",
+      "kotlin",
+      "mobile",
+      "wallpapermanager"
+    ],
+    "link": "https://stackoverflow.com/questions/80016822/how-can-i-set-a-static-lock-screen-wallpaper-without-resetting-the-oem-lock-scre"
+  },
+  {
+    "title": "How do I import a CSV file into MySQL Workbench 26.10.0 on macOS?",
+    "score": -2,
+    "views": 95,
+    "answers": 1,
+    "tags": [
+      "csv",
+      "mysql-workbench"
+    ],
+    "link": "https://stackoverflow.com/questions/80016829/how-do-i-import-a-csv-file-into-mysql-workbench-26-10-0-on-macos"
+  },
+  {
+    "title": "gstreamer won&#39;t process mjpeg source",
+    "score": -3,
+    "views": 62,
+    "answers": 1,
+    "tags": [
+      "ffmpeg",
+      "gstreamer"
+    ],
+    "link": "https://stackoverflow.com/questions/80016819/gstreamer-wont-process-mjpeg-source"
+  },
+  {
+    "title": "Order of prints when deleting object references in Python",
+    "score": 0,
+    "views": 152,
+    "answers": 3,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80016745/order-of-prints-when-deleting-object-references-in-python"
+  },
+  {
+    "title": "How can I validate if a string is a real number in Python using string methods?",
+    "score": -9,
+    "views": 148,
+    "answers": 0,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80016839/how-can-i-validate-if-a-string-is-a-real-number-in-python-using-string-methods"
+  },
+  {
+    "title": "API quota reached, multiple applications affected",
+    "score": -10,
+    "views": 155,
+    "answers": 0,
+    "tags": [
+      "autodesk-forge"
+    ],
+    "link": "https://stackoverflow.com/questions/80016840/api-quota-reached-multiple-applications-affected"
+  }
+]
