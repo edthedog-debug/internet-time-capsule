@@ -1,0 +1,239 @@
+[
+  {
+    "title": "Finding the index of the closest element to a target in a sorted array using binary search in Java",
+    "score": 0,
+    "views": 20,
+    "answers": 0,
+    "tags": [
+      "java",
+      "algorithm",
+      "binary-search"
+    ],
+    "link": "https://stackoverflow.com/questions/80017114/finding-the-index-of-the-closest-element-to-a-target-in-a-sorted-array-using-bin"
+  },
+  {
+    "title": "Whats the future of SAP Ariba is it good for the freshers any one suggest please",
+    "score": -6,
+    "views": 35,
+    "answers": 0,
+    "tags": [
+      "advice"
+    ],
+    "link": "https://stackoverflow.com/questions/80017105/whats-the-future-of-sap-ariba-is-it-good-for-the-freshers-any-one-suggest-please"
+  },
+  {
+    "title": "Dynamic equivalent to the import statement in Python 3.15+",
+    "score": 1,
+    "views": 112,
+    "answers": 1,
+    "tags": [
+      "python",
+      "python-import",
+      "lazy-loading",
+      "python-importlib",
+      "python-3.15"
+    ],
+    "link": "https://stackoverflow.com/questions/80017098/dynamic-equivalent-to-the-import-statement-in-python-3-15"
+  },
+  {
+    "title": "Apple Metal C++ Bindings Memory Leak in Hello World Program",
+    "score": 2,
+    "views": 49,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "macos",
+      "memory-leaks",
+      "metal"
+    ],
+    "link": "https://stackoverflow.com/questions/80017096/apple-metal-c-bindings-memory-leak-in-hello-world-program"
+  },
+  {
+    "title": "How can I build a dynamic WHERE clause efficiently?",
+    "score": -1,
+    "views": 77,
+    "answers": 0,
+    "tags": [
+      "sql",
+      "dolphindb"
+    ],
+    "link": "https://stackoverflow.com/questions/80017097/how-can-i-build-a-dynamic-where-clause-efficiently"
+  },
+  {
+    "title": "What is the practical advantage of _BitInt(10) over int16_t when both have the same sizeof?",
+    "score": 5,
+    "views": 136,
+    "answers": 2,
+    "tags": [
+      "c",
+      "c23",
+      "bitint"
+    ],
+    "link": "https://stackoverflow.com/questions/80017070/what-is-the-practical-advantage-of-bitint10-over-int16-t-when-both-have-the-s"
+  },
+  {
+    "title": "Configure PLOTLY within Jupyterlab Notebook",
+    "score": 0,
+    "views": 22,
+    "answers": 0,
+    "tags": [
+      "jupyter-notebook",
+      "plotly"
+    ],
+    "link": "https://stackoverflow.com/questions/80017095/configure-plotly-within-jupyterlab-notebook"
+  },
+  {
+    "title": "Nayax Spark Remote Start: can Settlement be lower than the pre-authorised amount, and how long can an authorisation stay open?",
+    "score": -5,
+    "views": 74,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "apache-spark",
+      "reset",
+      "payment-processing",
+      "pre-authentication"
+    ],
+    "link": "https://stackoverflow.com/questions/80017090/nayax-spark-remote-start-can-settlement-be-lower-than-the-pre-authorised-amount"
+  },
+  {
+    "title": "How to export/dump a database from MySQL Workbench?2026",
+    "score": -10,
+    "views": 129,
+    "answers": 0,
+    "tags": [
+      "mysql-workbench"
+    ],
+    "link": "https://stackoverflow.com/questions/80017062/how-to-export-dump-a-database-from-mysql-workbench2026"
+  },
+  {
+    "title": "C++14&#39;s std::experimental::optional vs C++17&#39;s std::optional",
+    "score": 2,
+    "views": 115,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "c++17",
+      "c++14",
+      "compatibility",
+      "stdoptional"
+    ],
+    "link": "https://stackoverflow.com/questions/80017076/c14s-stdexperimentaloptional-vs-c17s-stdoptional"
+  },
+  {
+    "title": "How do I help pacman find my installed libraries when installing mingw-w64-webkitgtk?",
+    "score": 0,
+    "views": 68,
+    "answers": 0,
+    "tags": [
+      "mingw",
+      "mingw-w64",
+      "msys2",
+      "libsoup"
+    ],
+    "link": "https://stackoverflow.com/questions/80017085/how-do-i-help-pacman-find-my-installed-libraries-when-installing-mingw-w64-webki"
+  },
+  {
+    "title": "How do I remove PrimeNG v21 popover arrow in Angular v21?",
+    "score": 0,
+    "views": 71,
+    "answers": 2,
+    "tags": [
+      "javascript",
+      "css",
+      "angular",
+      "primeng"
+    ],
+    "link": "https://stackoverflow.com/questions/80017009/how-do-i-remove-primeng-v21-popover-arrow-in-angular-v21"
+  },
+  {
+    "title": "How do I get the guests.trips scope for the Uber Guest Rides API on an approved Uber for Business account?",
+    "score": -5,
+    "views": 71,
+    "answers": 0,
+    "tags": [
+      "oauth-2.0",
+      "uber-api"
+    ],
+    "link": "https://stackoverflow.com/questions/80017074/how-do-i-get-the-guests-trips-scope-for-the-uber-guest-rides-api-on-an-approved"
+  },
+  {
+    "title": "go channels syntax and timing",
+    "score": -3,
+    "views": 99,
+    "answers": 1,
+    "tags": [
+      "go",
+      "channel"
+    ],
+    "link": "https://stackoverflow.com/questions/80017051/go-channels-syntax-and-timing"
+  },
+  {
+    "title": "Confusing results creating a TFS branch in VS2019",
+    "score": 0,
+    "views": 50,
+    "answers": 0,
+    "tags": [
+      "visual-studio-2019",
+      "azure-devops-server"
+    ],
+    "link": "https://stackoverflow.com/questions/80017079/confusing-results-creating-a-tfs-branch-in-vs2019"
+  },
+  {
+    "title": "PowerShell and command line boolean operators",
+    "score": -1,
+    "views": 135,
+    "answers": 1,
+    "tags": [
+      "powershell"
+    ],
+    "link": "https://stackoverflow.com/questions/80017041/powershell-and-command-line-boolean-operators"
+  },
+  {
+    "title": "GDB TUI Resizing Problems",
+    "score": -5,
+    "views": 86,
+    "answers": 0,
+    "tags": [
+      "python",
+      "gdb",
+      "resize",
+      "tui"
+    ],
+    "link": "https://stackoverflow.com/questions/80017056/gdb-tui-resizing-problems"
+  },
+  {
+    "title": "How to write a wildcard .htaccess rule to 301 redirect url parameters to a static file?",
+    "score": -6,
+    "views": 132,
+    "answers": 1,
+    "tags": [
+      "apache",
+      ".htaccess"
+    ],
+    "link": "https://stackoverflow.com/questions/80017043/how-to-write-a-wildcard-htaccess-rule-to-301-redirect-url-parameters-to-a-stati"
+  },
+  {
+    "title": "Unexpected Output when i`m trying to solve a problem in codeforces",
+    "score": -5,
+    "views": 126,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "variables",
+      "local"
+    ],
+    "link": "https://stackoverflow.com/questions/80017028/unexpected-output-when-im-trying-to-solve-a-problem-in-codeforces"
+  },
+  {
+    "title": "Why does the same REVERSE expression work in table model but look for an unregistered UDF in tree model?",
+    "score": 1,
+    "views": 44,
+    "answers": 0,
+    "tags": [
+      "time-series",
+      "apache-iotdb"
+    ],
+    "link": "https://stackoverflow.com/questions/80017059/why-does-the-same-reverse-expression-work-in-table-model-but-look-for-an-unregis"
+  }
+]
