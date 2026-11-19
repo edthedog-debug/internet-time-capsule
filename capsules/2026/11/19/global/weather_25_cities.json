@@ -1,0 +1,166 @@
+{
+"Buenos_Aires": {"temp":0,"humidity":0,"wind":0,"code":0}
+,
+"Toronto": {"temp":0,"humidity":0,"wind":0,"code":0}
+,
+"Singapore": {
+  "temp": 30.3,
+  "humidity": 66,
+  "wind": 4.8,
+  "code": 3
+}
+,
+"New_York": {
+  "temp": 7.5,
+  "humidity": 54,
+  "wind": 5.1,
+  "code": 0
+}
+,
+"Cairo": {
+  "temp": 15.4,
+  "humidity": 65,
+  "wind": 0.7,
+  "code": 0
+}
+,
+"Paris": {
+  "temp": 11.1,
+  "humidity": 75,
+  "wind": 13.6,
+  "code": 2
+}
+,
+"Seoul": {
+  "temp": 4.2,
+  "humidity": 51,
+  "wind": 13.0,
+  "code": 0
+}
+,
+"Nairobi": {
+  "temp": 19.7,
+  "humidity": 74,
+  "wind": 10.6,
+  "code": 3
+}
+,
+"Berlin": {
+  "temp": 6.6,
+  "humidity": 82,
+  "wind": 6.6,
+  "code": 3
+}
+,
+"Lima": {
+  "temp": 23.9,
+  "humidity": 83,
+  "wind": 11.3,
+  "code": 0
+}
+,
+"Moscow": {
+  "temp": 1.8,
+  "humidity": 98,
+  "wind": 3.0,
+  "code": 3
+}
+,
+"Tokyo": {
+  "temp": 17.2,
+  "humidity": 38,
+  "wind": 9.7,
+  "code": 0
+}
+,
+"Istanbul": {
+  "temp": 17.2,
+  "humidity": 83,
+  "wind": 18.8,
+  "code": 3
+}
+,
+"Dubai": {
+  "temp": 27.2,
+  "humidity": 60,
+  "wind": 4.2,
+  "code": 0
+}
+,
+"Sao_Paulo": {
+  "temp": 19.2,
+  "humidity": 98,
+  "wind": 1.1,
+  "code": 2
+}
+,
+"London": {
+  "temp": 7.8,
+  "humidity": 93,
+  "wind": 6.8,
+  "code": 0
+}
+,
+"Lagos": {
+  "temp": 27.2,
+  "humidity": 93,
+  "wind": 3.2,
+  "code": 1
+}
+,
+"Rome": {
+  "temp": 16.1,
+  "humidity": 85,
+  "wind": 7.1,
+  "code": 61
+}
+,
+"Mumbai": {
+  "temp": 31.2,
+  "humidity": 29,
+  "wind": 3.3,
+  "code": 0
+}
+,
+"Cape_Town": {
+  "temp": 20.3,
+  "humidity": 76,
+  "wind": 8.8,
+  "code": 1
+}
+,
+"Mexico_City": {
+  "temp": 13.9,
+  "humidity": 77,
+  "wind": 6.4,
+  "code": 3
+}
+,
+"Shanghai": {
+  "temp": 11.3,
+  "humidity": 37,
+  "wind": 10.6,
+  "code": 0
+}
+,
+"Jakarta": {
+  "temp": 30.0,
+  "humidity": 75,
+  "wind": 4.4,
+  "code": 51
+}
+,
+"Sydney": {
+  "temp": 23.2,
+  "humidity": 66,
+  "wind": 22.8,
+  "code": 3
+}
+,
+"Bangkok": {
+  "temp": 34.4,
+  "humidity": 42,
+  "wind": 11.6,
+  "code": 1
+}
+}

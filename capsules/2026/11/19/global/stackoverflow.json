@@ -1,0 +1,240 @@
+[
+  {
+    "title": "Command failed with EACCES",
+    "score": -2,
+    "views": 17,
+    "answers": 1,
+    "tags": [
+      "reactjs",
+      "react-native",
+      "macos"
+    ],
+    "link": "https://stackoverflow.com/questions/80017554/command-failed-with-eacces"
+  },
+  {
+    "title": "Which is the reliable Backend for Node.js (plain javascript / javascript with typescript)?",
+    "score": -2,
+    "views": 11,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "javascript",
+      "node.js",
+      "typescript",
+      "server"
+    ],
+    "link": "https://stackoverflow.com/questions/80017557/which-is-the-reliable-backend-for-node-js-plain-javascript-javascript-with-ty"
+  },
+  {
+    "title": "Is there an official API to programmatically export a user&#39;s own WhatsApp chat history (including groups)?",
+    "score": -6,
+    "views": 48,
+    "answers": 0,
+    "tags": [
+      "whatsapp",
+      "whatsapp-cloud-api",
+      "model-context-protocol"
+    ],
+    "link": "https://stackoverflow.com/questions/80017545/is-there-an-official-api-to-programmatically-export-a-users-own-whatsapp-chat-h"
+  },
+  {
+    "title": "How to determine number of epochs and batch size for YOLOv11 training",
+    "score": -2,
+    "views": 35,
+    "answers": 0,
+    "tags": [
+      "computer-vision"
+    ],
+    "link": "https://stackoverflow.com/questions/80017542/how-to-determine-number-of-epochs-and-batch-size-for-yolov11-training"
+  },
+  {
+    "title": "Populating values outside the App() function with current location(latitude and longitude) values to use to output the temperatures at that location",
+    "score": -2,
+    "views": 36,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "reactjs"
+    ],
+    "link": "https://stackoverflow.com/questions/80017543/populating-values-outside-the-app-function-with-current-locationlatitude-and"
+  },
+  {
+    "title": "Generate matrix indexed by combinations",
+    "score": -3,
+    "views": 48,
+    "answers": 1,
+    "tags": [
+      "python",
+      "matrix",
+      "linear-algebra"
+    ],
+    "link": "https://stackoverflow.com/questions/80017539/generate-matrix-indexed-by-combinations"
+  },
+  {
+    "title": "Can&#39;t clone GitHub repository for unknown reason",
+    "score": -8,
+    "views": 75,
+    "answers": 0,
+    "tags": [
+      "python",
+      "git",
+      "github",
+      "raspberry-pi-os"
+    ],
+    "link": "https://stackoverflow.com/questions/80017533/cant-clone-github-repository-for-unknown-reason"
+  },
+  {
+    "title": "How do I format and align buttons in Excel 2007 VBA?",
+    "score": 0,
+    "views": 81,
+    "answers": 0,
+    "tags": [
+      "vba"
+    ],
+    "link": "https://stackoverflow.com/questions/80017518/how-do-i-format-and-align-buttons-in-excel-2007-vba"
+  },
+  {
+    "title": "Getting a map to work with the current google map API",
+    "score": 0,
+    "views": 39,
+    "answers": 0,
+    "tags": [
+      "google-maps"
+    ],
+    "link": "https://stackoverflow.com/questions/80017511/getting-a-map-to-work-with-the-current-google-map-api"
+  },
+  {
+    "title": "Set a prior for bernouilli GLM to restrain model&#39;s predicted occurrence for a specific value of a predictor",
+    "score": -4,
+    "views": 48,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "r",
+      "glm",
+      "stan",
+      "brms"
+    ],
+    "link": "https://stackoverflow.com/questions/80017513/set-a-prior-for-bernouilli-glm-to-restrain-models-predicted-occurrence-for-a-sp"
+  },
+  {
+    "title": "Is this type-inference trick using undocumented/unspecified Rust semantics or is it fine?",
+    "score": 4,
+    "views": 126,
+    "answers": 1,
+    "tags": [
+      "rust",
+      "type-inference"
+    ],
+    "link": "https://stackoverflow.com/questions/80017493/is-this-type-inference-trick-using-undocumented-unspecified-rust-semantics-or-is"
+  },
+  {
+    "title": "GCC accepts ambiguous overloaded call to empty initializer list while Clang and MSVC rejects",
+    "score": 2,
+    "views": 172,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "language-lawyer"
+    ],
+    "link": "https://stackoverflow.com/questions/80017425/gcc-accepts-ambiguous-overloaded-call-to-empty-initializer-list-while-clang-and"
+  },
+  {
+    "title": "Group-Object - enumerate only one property and not type or hash table",
+    "score": 2,
+    "views": 132,
+    "answers": 2,
+    "tags": [
+      "powershell",
+      "grouping",
+      "powershell-5.1"
+    ],
+    "link": "https://stackoverflow.com/questions/80017470/group-object-enumerate-only-one-property-and-not-type-or-hash-table"
+  },
+  {
+    "title": "How to create PBKDF2-HMAC-SHA1 hash of a string with OpenSSL?",
+    "score": -3,
+    "views": 157,
+    "answers": 0,
+    "tags": [
+      "linux",
+      "openssl",
+      "pbkdf2",
+      "hmacsha1"
+    ],
+    "link": "https://stackoverflow.com/questions/80017482/how-to-create-pbkdf2-hmac-sha1-hash-of-a-string-with-openssl"
+  },
+  {
+    "title": "g-ir-scanner ignores rpath in shared libraries a target depends on?",
+    "score": 0,
+    "views": 18,
+    "answers": 0,
+    "tags": [
+      "linker-errors",
+      "gnome",
+      "rpath",
+      "gobject-introspection"
+    ],
+    "link": "https://stackoverflow.com/questions/80017517/g-ir-scanner-ignores-rpath-in-shared-libraries-a-target-depends-on"
+  },
+  {
+    "title": "Azure Functions Flex Consumption (Linux, .NET 10): Net.IBM.Data.Db2-lnx throws SQL0902 / AESEncryptADONET in DB2Connection constructor",
+    "score": -3,
+    "views": 92,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      ".net",
+      "azure",
+      "azure-functions",
+      "db2"
+    ],
+    "link": "https://stackoverflow.com/questions/80017496/azure-functions-flex-consumption-linux-net-10-net-ibm-data-db2-lnx-throws-s"
+  },
+  {
+    "title": "How can I replace the spaces in the output of a bash command",
+    "score": -3,
+    "views": 204,
+    "answers": 1,
+    "tags": [
+      "bash"
+    ],
+    "link": "https://stackoverflow.com/questions/80017322/how-can-i-replace-the-spaces-in-the-output-of-a-bash-command"
+  },
+  {
+    "title": "Is dereferencing a null pointer undefined behavior in C++23?",
+    "score": -6,
+    "views": 346,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "language-lawyer",
+      "c++23"
+    ],
+    "link": "https://stackoverflow.com/questions/80017311/is-dereferencing-a-null-pointer-undefined-behavior-in-c23"
+  },
+  {
+    "title": "Why don&#39;t my POSTs work in Django in PythonAnywhere?",
+    "score": -5,
+    "views": 127,
+    "answers": 0,
+    "tags": [
+      "django",
+      "post",
+      "pythonanywhere"
+    ],
+    "link": "https://stackoverflow.com/questions/80017469/why-dont-my-posts-work-in-django-in-pythonanywhere"
+  },
+  {
+    "title": "Which VCS for Unity projects sharing a 100–300+ GB asset library?",
+    "score": -4,
+    "views": 131,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "version-control",
+      "web-hosting"
+    ],
+    "link": "https://stackoverflow.com/questions/80017458/which-vcs-for-unity-projects-sharing-a-100-300-gb-asset-library"
+  }
+]

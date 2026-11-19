@@ -1,0 +1,98 @@
+[
+  {
+    "home": "Cleveland Cavaliers",
+    "away": "Memphis Grizzlies",
+    "home_score": "121",
+    "away_score": "124",
+    "status": "STATUS_FINAL",
+    "date": "2026-11-19T00:00Z"
+  },
+  {
+    "home": "Indiana Pacers",
+    "away": "Houston Rockets",
+    "home_score": "104",
+    "away_score": "119",
+    "status": "STATUS_FINAL",
+    "date": "2026-11-19T00:00Z"
+  },
+  {
+    "home": "Miami Heat",
+    "away": "Milwaukee Bucks",
+    "home_score": "137",
+    "away_score": "130",
+    "status": "STATUS_FINAL",
+    "date": "2026-11-19T00:00Z"
+  },
+  {
+    "home": "Orlando Magic",
+    "away": "Philadelphia 76ers",
+    "home_score": "116",
+    "away_score": "121",
+    "status": "STATUS_FINAL",
+    "date": "2026-11-19T00:00Z"
+  },
+  {
+    "home": "Brooklyn Nets",
+    "away": "Chicago Bulls",
+    "home_score": "107",
+    "away_score": "137",
+    "status": "STATUS_FINAL",
+    "date": "2026-11-19T00:30Z"
+  },
+  {
+    "home": "Toronto Raptors",
+    "away": "Washington Wizards",
+    "home_score": "99",
+    "away_score": "103",
+    "status": "STATUS_FINAL",
+    "date": "2026-11-19T00:30Z"
+  },
+  {
+    "home": "New Orleans Pelicans",
+    "away": "Detroit Pistons",
+    "home_score": "109",
+    "away_score": "122",
+    "status": "STATUS_FINAL",
+    "date": "2026-11-19T01:00Z"
+  },
+  {
+    "home": "Oklahoma City Thunder",
+    "away": "Atlanta Hawks",
+    "home_score": "112",
+    "away_score": "117",
+    "status": "STATUS_FINAL",
+    "date": "2026-11-19T01:00Z"
+  },
+  {
+    "home": "Dallas Mavericks",
+    "away": "Golden State Warriors",
+    "home_score": "116",
+    "away_score": "94",
+    "status": "STATUS_FINAL",
+    "date": "2026-11-19T01:00Z"
+  },
+  {
+    "home": "Denver Nuggets",
+    "away": "Boston Celtics",
+    "home_score": "105",
+    "away_score": "101",
+    "status": "STATUS_FINAL",
+    "date": "2026-11-19T02:30Z"
+  },
+  {
+    "home": "Los Angeles Lakers",
+    "away": "Utah Jazz",
+    "home_score": "97",
+    "away_score": "109",
+    "status": "STATUS_FINAL",
+    "date": "2026-11-19T03:00Z"
+  },
+  {
+    "home": "Sacramento Kings",
+    "away": "Phoenix Suns",
+    "home_score": "107",
+    "away_score": "128",
+    "status": "STATUS_FINAL",
+    "date": "2026-11-19T03:00Z"
+  }
+]
