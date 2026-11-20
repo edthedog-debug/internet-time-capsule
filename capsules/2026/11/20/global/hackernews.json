@@ -1,0 +1,181 @@
+[
+{
+  "id": 50569226,
+  "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+  "url": "https://github.com/openssl/openssl/pull/33652",
+  "score": 94,
+  "by": "JacobHenner",
+  "comments": 50
+}
+,
+{
+  "id": 50569985,
+  "title": "GIMP now has UI tests",
+  "url": "https://www.gimp.org/news/2026/11/16/gimp-ui-tests/",
+  "score": 31,
+  "by": "qtqtqt",
+  "comments": 11
+}
+,
+{
+  "id": 50569516,
+  "title": "Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup",
+  "url": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
+  "score": 37,
+  "by": "craigkerstiens",
+  "comments": 4
+}
+,
+{
+  "id": 50568861,
+  "title": "Vint Cerf on why TCP/IP was never patented",
+  "url": "https://seremot.com/p/vint-cerf-on-why-tcpip-was-never",
+  "score": 69,
+  "by": "emot",
+  "comments": 13
+}
+,
+{
+  "id": 50563148,
+  "title": "Claude solves two open problems in the physics of black holes",
+  "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+  "score": 445,
+  "by": "cybermango",
+  "comments": 204
+}
+,
+{
+  "id": 50528119,
+  "title": "How to CAD Almost Anything",
+  "url": "https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024/",
+  "score": 197,
+  "by": "o4c",
+  "comments": 58
+}
+,
+{
+  "id": 50519231,
+  "title": "Garage Door Spam",
+  "url": "https://blog.harrison.page/garage-door-spam/",
+  "score": 805,
+  "by": "harrisonpage",
+  "comments": 336
+}
+,
+{
+  "id": 50562754,
+  "title": "Anthropic’s Nasdaq debut",
+  "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+  "score": 1024,
+  "by": "wslh",
+  "comments": 2020
+}
+,
+{
+  "id": 50564159,
+  "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
+  "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
+  "score": 242,
+  "by": "dev1one1",
+  "comments": 135
+}
+,
+{
+  "id": 50538977,
+  "title": "Weight-Space Programming builds neural networks like a 1990s researcher",
+  "url": "https://notesbylex.com/weight-space-programming-1990s",
+  "score": 45,
+  "by": "lexandstuff",
+  "comments": 2
+}
+,
+{
+  "id": 50562320,
+  "title": "Launch HN: Onlook (YC W25) – An open-source developer tool for designers",
+  "url": "https://github.com/onlook-dev/onlook/",
+  "score": 100,
+  "by": "D_R_Farrell",
+  "comments": 72
+}
+,
+{
+  "id": 50558906,
+  "title": "Someone reported java4shell bug in September 2026",
+  "url": "https://github.com/openjdk/jdk/pull/32781",
+  "score": 399,
+  "by": "notmine1337",
+  "comments": 110
+}
+,
+{
+  "id": 50537492,
+  "title": "Automatic Checking of Compiler Correctness with E-Graphs",
+  "url": "https://stng.substack.com/p/automatic-checking-of-compiler-correctness",
+  "score": 10,
+  "by": "g0xA52A2A",
+  "comments": 0
+}
+,
+{
+  "id": 50563066,
+  "title": "Pancreatic cancer halted by virus injection in three patients",
+  "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+  "score": 701,
+  "by": "cybermango",
+  "comments": 109
+}
+,
+{
+  "id": 50567374,
+  "title": "RegExr: Temporarily Offline",
+  "url": "https://regexr.com/",
+  "score": 68,
+  "by": "somebudyelse",
+  "comments": 36
+}
+,
+{
+  "id": 50561515,
+  "title": "Show HN: Cornhole News – A Hacker News inspired site for news across the Midwest",
+  "url": "https://cornholenews.news",
+  "score": 206,
+  "by": "cornholemedia",
+  "comments": 95
+}
+,
+{
+  "id": 50568548,
+  "title": "ChatGPT for SNES",
+  "url": "https://www.bxfoundry.com/chatgpt_snes/",
+  "score": 32,
+  "by": "evan_",
+  "comments": 7
+}
+,
+{
+  "id": 50569998,
+  "title": "FFmpeg 9.1 'Gauss'",
+  "url": "https://ffmpeg.org/download.html#release_9.1",
+  "score": 11,
+  "by": "gyan",
+  "comments": 4
+}
+,
+{
+  "id": 50564366,
+  "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+  "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+  "score": 92,
+  "by": "sandslash",
+  "comments": 180
+}
+,
+{
+  "id": 50570479,
+  "title": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
+  "url": "https://grapheneos.social/@GrapheneOS/117645038299496084",
+  "score": 13,
+  "by": "mraniki",
+  "comments": 1
+}
+]

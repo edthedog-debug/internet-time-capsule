@@ -1,0 +1,231 @@
+[
+  {
+    "title": "mediaPlayer no longer playing when started from android.intent.action.BOOT_COMPLETED",
+    "score": 0,
+    "views": 34,
+    "answers": 1,
+    "tags": [
+      "android",
+      "android-mediaplayer",
+      "bootcompleted"
+    ],
+    "link": "https://stackoverflow.com/questions/80017747/mediaplayer-no-longer-playing-when-started-from-android-intent-action-boot-compl"
+  },
+  {
+    "title": "Application which survives the factory reset",
+    "score": -5,
+    "views": 88,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation"
+    ],
+    "link": "https://stackoverflow.com/questions/80017739/application-which-survives-the-factory-reset"
+  },
+  {
+    "title": "I&#39;m having trouble creating an MSIX file from my maui app",
+    "score": 1,
+    "views": 34,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "xaml",
+      "msix"
+    ],
+    "link": "https://stackoverflow.com/questions/80017738/im-having-trouble-creating-an-msix-file-from-my-maui-app"
+  },
+  {
+    "title": "How to use conan 2.0 from a yocto CI build - touble integrating",
+    "score": 1,
+    "views": 28,
+    "answers": 0,
+    "tags": [
+      "gitlab-ci",
+      "yocto",
+      "bitbake",
+      "conan",
+      "yocto-dunfell"
+    ],
+    "link": "https://stackoverflow.com/questions/80017734/how-to-use-conan-2-0-from-a-yocto-ci-build-touble-integrating"
+  },
+  {
+    "title": "Email notification not sent for responses",
+    "score": -6,
+    "views": 60,
+    "answers": 0,
+    "tags": [
+      "response"
+    ],
+    "link": "https://stackoverflow.com/questions/80017725/email-notification-not-sent-for-responses"
+  },
+  {
+    "title": "Flutter and Android SDK errors",
+    "score": 0,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "android",
+      "flutter"
+    ],
+    "link": "https://stackoverflow.com/questions/80017723/flutter-and-android-sdk-errors"
+  },
+  {
+    "title": "Force SASS to use CSS function",
+    "score": 0,
+    "views": 43,
+    "answers": 0,
+    "tags": [
+      "css",
+      "sass"
+    ],
+    "link": "https://stackoverflow.com/questions/80017726/force-sass-to-use-css-function"
+  },
+  {
+    "title": "Zoom on hover with CSS",
+    "score": 1,
+    "views": 54,
+    "answers": 1,
+    "tags": [
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/80017706/zoom-on-hover-with-css"
+  },
+  {
+    "title": "Get reference to parents locals() from imported module",
+    "score": 1,
+    "views": 121,
+    "answers": 1,
+    "tags": [
+      "python",
+      "python-import"
+    ],
+    "link": "https://stackoverflow.com/questions/80017673/get-reference-to-parents-locals-from-imported-module"
+  },
+  {
+    "title": "fetch() returns index.html when URI contains %23 (#)",
+    "score": 0,
+    "views": 96,
+    "answers": 2,
+    "tags": [
+      "javascript",
+      "electron"
+    ],
+    "link": "https://stackoverflow.com/questions/80017720/fetch-returns-index-html-when-uri-contains-23"
+  },
+  {
+    "title": "mediaPlayer audio fades in when I set when AudioAttributes.USAGE_ALARM",
+    "score": 0,
+    "views": 60,
+    "answers": 0,
+    "tags": [
+      "android",
+      "android-mediaplayer"
+    ],
+    "link": "https://stackoverflow.com/questions/80017695/mediaplayer-audio-fades-in-when-i-set-when-audioattributes-usage-alarm"
+  },
+  {
+    "title": "Python iteration challenge, help needed",
+    "score": -9,
+    "views": 224,
+    "answers": 0,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80017680/python-iteration-challenge-help-needed"
+  },
+  {
+    "title": "Java regex to match 1 to 2 group excluding anything inside (and including) brackets and parentheses",
+    "score": -4,
+    "views": 62,
+    "answers": 0,
+    "tags": [
+      "java",
+      "regex"
+    ],
+    "link": "https://stackoverflow.com/questions/80017707/java-regex-to-match-1-to-2-group-excluding-anything-inside-and-including-brack"
+  },
+  {
+    "title": "Google Meet API: can an OPEN space run without the organizer joining, and can guests without a Google account join without knocking?",
+    "score": -5,
+    "views": 62,
+    "answers": 0,
+    "tags": [
+      "google-workspace",
+      "google-meet"
+    ],
+    "link": "https://stackoverflow.com/questions/80017717/google-meet-api-can-an-open-space-run-without-the-organizer-joining-and-can-gu"
+  },
+  {
+    "title": "Hide deliverymethod SHIPPING Shopify",
+    "score": -3,
+    "views": 43,
+    "answers": 0,
+    "tags": [
+      "shopify"
+    ],
+    "link": "https://stackoverflow.com/questions/80017705/hide-deliverymethod-shipping-shopify"
+  },
+  {
+    "title": "Should the database prevent changes to a value that may need correcting?",
+    "score": -4,
+    "views": 95,
+    "answers": 2,
+    "tags": [
+      "best-practices",
+      "database-design",
+      "immutability",
+      "data-integrity"
+    ],
+    "link": "https://stackoverflow.com/questions/80017694/should-the-database-prevent-changes-to-a-value-that-may-need-correcting"
+  },
+  {
+    "title": "R returns FALSE when comparing a value to its printed output (rounding?)",
+    "score": 2,
+    "views": 92,
+    "answers": 1,
+    "tags": [
+      "r",
+      "floating-point",
+      "precision"
+    ],
+    "link": "https://stackoverflow.com/questions/80017689/r-returns-false-when-comparing-a-value-to-its-printed-output-rounding"
+  },
+  {
+    "title": "Installing php 7.4 on Ubuntu Server 26.04 to run legacy software",
+    "score": -4,
+    "views": 79,
+    "answers": 0,
+    "tags": [
+      "php",
+      "ubuntu",
+      "php-7.4"
+    ],
+    "link": "https://stackoverflow.com/questions/80017662/installing-php-7-4-on-ubuntu-server-26-04-to-run-legacy-software"
+  },
+  {
+    "title": "How do I keep lesson content separate from student messages when calling the OpenAI chat API?",
+    "score": -4,
+    "views": 149,
+    "answers": 0,
+    "tags": [
+      "node.js",
+      "express",
+      "security",
+      "openai-api"
+    ],
+    "link": "https://stackoverflow.com/questions/80017676/how-do-i-keep-lesson-content-separate-from-student-messages-when-calling-the-ope"
+  },
+  {
+    "title": "explicitly deleted conversion operator causes different results from MSVC/GCC and Clang",
+    "score": 1,
+    "views": 164,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "overloading",
+      "compiler-bug",
+      "conversion-operator",
+      "deleted-functions"
+    ],
+    "link": "https://stackoverflow.com/questions/80017657/explicitly-deleted-conversion-operator-causes-different-results-from-msvc-gcc-an"
+  }
+]
