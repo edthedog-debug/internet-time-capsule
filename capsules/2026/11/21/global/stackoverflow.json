@@ -1,0 +1,242 @@
+[
+  {
+    "title": "what&#180;ll be the best way to learn in the odin project?",
+    "score": -4,
+    "views": 85,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "python",
+      "node.js"
+    ],
+    "link": "https://stackoverflow.com/questions/80017910/what%c2%b4ll-be-the-best-way-to-learn-in-the-odin-project"
+  },
+  {
+    "title": "How to reduce the image size without losing quality using PHP",
+    "score": -3,
+    "views": 39,
+    "answers": 1,
+    "tags": [
+      "php"
+    ],
+    "link": "https://stackoverflow.com/questions/80017909/how-to-reduce-the-image-size-without-losing-quality-using-php"
+  },
+  {
+    "title": "Spark RPC TLS (spark.ssl.rpc.enabled) loads entire disk-cached blocks into memory, causing executor OOMs",
+    "score": 2,
+    "views": 56,
+    "answers": 0,
+    "tags": [
+      "apache-spark",
+      "ssl",
+      "out-of-memory",
+      "netty"
+    ],
+    "link": "https://stackoverflow.com/questions/80017903/spark-rpc-tls-spark-ssl-rpc-enabled-loads-entire-disk-cached-blocks-into-memor"
+  },
+  {
+    "title": "Why does Google index my WordPress service pages but not rank them for local keywords?",
+    "score": -4,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "wordpress",
+      "google-search-console"
+    ],
+    "link": "https://stackoverflow.com/questions/80017901/why-does-google-index-my-wordpress-service-pages-but-not-rank-them-for-local-key"
+  },
+  {
+    "title": "Make/edit a network adapter with Python without using other apps?",
+    "score": -9,
+    "views": 136,
+    "answers": 0,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80017889/make-edit-a-network-adapter-with-python-without-using-other-apps"
+  },
+  {
+    "title": "le cerveau d&#39;une calculatrice",
+    "score": -6,
+    "views": 49,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "python",
+      "tkinter"
+    ],
+    "link": "https://stackoverflow.com/questions/80017900/le-cerveau-dune-calculatrice"
+  },
+  {
+    "title": "Is it possible to declare constexpr function in a module .cppm file and define it in a separate .cpp file?",
+    "score": 2,
+    "views": 77,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "templates",
+      "constexpr",
+      "c++23",
+      "c++-modules"
+    ],
+    "link": "https://stackoverflow.com/questions/80017881/is-it-possible-to-declare-constexpr-function-in-a-module-cppm-file-and-define-i"
+  },
+  {
+    "title": "Maven BUILD FAILURE error, The goal you specified requires a project to execute but there is no POM in this directory.Please verify you invoked",
+    "score": -2,
+    "views": 63,
+    "answers": 0,
+    "tags": [
+      "java",
+      "maven",
+      "web-applications",
+      "project",
+      "github-codespaces"
+    ],
+    "link": "https://stackoverflow.com/questions/80017896/maven-build-failure-error-the-goal-you-specified-requires-a-project-to-execute"
+  },
+  {
+    "title": "Do I need static for a constant in an interface and would I need a reference as an interface and instantiate it using a different class&#39; constructor?",
+    "score": -3,
+    "views": 166,
+    "answers": 3,
+    "tags": [
+      "advice",
+      "java",
+      "interface"
+    ],
+    "link": "https://stackoverflow.com/questions/80017864/do-i-need-static-for-a-constant-in-an-interface-and-would-i-need-a-reference-as"
+  },
+  {
+    "title": "How to use Azure Blob storage REST api &quot;Put Blob from Url&quot; with a File storage URL",
+    "score": 0,
+    "views": 97,
+    "answers": 1,
+    "tags": [
+      "azure",
+      "azure-blob-storage"
+    ],
+    "link": "https://stackoverflow.com/questions/80017854/how-to-use-azure-blob-storage-rest-api-put-blob-from-url-with-a-file-storage-u"
+  },
+  {
+    "title": "Unable to compile code for esp32 (works fine with Arduino)",
+    "score": -3,
+    "views": 68,
+    "answers": 0,
+    "tags": [
+      "compiler-errors",
+      "arduino",
+      "compilation",
+      "esp32",
+      "arduino-ide"
+    ],
+    "link": "https://stackoverflow.com/questions/80017846/unable-to-compile-code-for-esp32-works-fine-with-arduino"
+  },
+  {
+    "title": "Trying to blit an image onto rect in pygame",
+    "score": 1,
+    "views": 101,
+    "answers": 1,
+    "tags": [
+      "python",
+      "pygame"
+    ],
+    "link": "https://stackoverflow.com/questions/80017841/trying-to-blit-an-image-onto-rect-in-pygame"
+  },
+  {
+    "title": "How can I tell between a value set and a value if there&#39;s no identifier in ASN.1?",
+    "score": -2,
+    "views": 97,
+    "answers": 0,
+    "tags": [
+      "asn.1"
+    ],
+    "link": "https://stackoverflow.com/questions/80017893/how-can-i-tell-between-a-value-set-and-a-value-if-theres-no-identifier-in-asn-1"
+  },
+  {
+    "title": "How can you pin a thread to a single core on Apple M laptops?",
+    "score": -2,
+    "views": 98,
+    "answers": 1,
+    "tags": [
+      "macos",
+      "apple-silicon",
+      "affinity"
+    ],
+    "link": "https://stackoverflow.com/questions/80017847/how-can-you-pin-a-thread-to-a-single-core-on-apple-m-laptops"
+  },
+  {
+    "title": "Walmart I/O: uploading a PRODUCTION public key fails with “addPublicKey … status code 520” (sandbox works)",
+    "score": -1,
+    "views": 71,
+    "answers": 0,
+    "tags": [
+      "rest"
+    ],
+    "link": "https://stackoverflow.com/questions/80017882/walmart-i-o-uploading-a-production-public-key-fails-with-addpublickey-status"
+  },
+  {
+    "title": "Balanced Ternary Division Algorithm",
+    "score": -2,
+    "views": 152,
+    "answers": 1,
+    "tags": [
+      "advice",
+      "c",
+      "algorithm",
+      "ternary"
+    ],
+    "link": "https://stackoverflow.com/questions/80017844/balanced-ternary-division-algorithm"
+  },
+  {
+    "title": "Does the Hugging Face audio classifier modify an audio sample before classifying it?",
+    "score": -2,
+    "views": 109,
+    "answers": 0,
+    "tags": [
+      "python",
+      "pytorch",
+      "huggingface-transformers",
+      "audio-processing"
+    ],
+    "link": "https://stackoverflow.com/questions/80017867/does-the-hugging-face-audio-classifier-modify-an-audio-sample-before-classifying"
+  },
+  {
+    "title": "How to stop reprex from outputting curly quotes, em dashes, and other smart typography?",
+    "score": 0,
+    "views": 90,
+    "answers": 1,
+    "tags": [
+      "r",
+      "unicode",
+      "pandoc",
+      "reprex"
+    ],
+    "link": "https://stackoverflow.com/questions/80017861/how-to-stop-reprex-from-outputting-curly-quotes-em-dashes-and-other-smart-typo"
+  },
+  {
+    "title": "Is the height of the text same on different platform?",
+    "score": 1,
+    "views": 96,
+    "answers": 1,
+    "tags": [
+      "android",
+      "ios",
+      "windows",
+      "canvas",
+      "fonts"
+    ],
+    "link": "https://stackoverflow.com/questions/80017803/is-the-height-of-the-text-same-on-different-platform"
+  },
+  {
+    "title": "Translating an object relative to another",
+    "score": 0,
+    "views": 94,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "monogame"
+    ],
+    "link": "https://stackoverflow.com/questions/80017848/translating-an-object-relative-to-another"
+  }
+]
