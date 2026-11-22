@@ -1,0 +1,245 @@
+[
+  {
+    "title": "How can I strip EXIF metadata from user-uploaded selfies before showing them back in a browser-based web app?",
+    "score": -4,
+    "views": 13,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "metadata"
+    ],
+    "link": "https://stackoverflow.com/questions/80018057/how-can-i-strip-exif-metadata-from-user-uploaded-selfies-before-showing-them-bac"
+  },
+  {
+    "title": "How do I run a Python file from a Local HTML file",
+    "score": 1,
+    "views": 25,
+    "answers": 2,
+    "tags": [
+      "javascript",
+      "python",
+      "html",
+      "local",
+      "execution"
+    ],
+    "link": "https://stackoverflow.com/questions/80018046/how-do-i-run-a-python-file-from-a-local-html-file"
+  },
+  {
+    "title": "How to redirect url with unknown parameters to new url in .htaccess",
+    "score": 0,
+    "views": 13,
+    "answers": 0,
+    "tags": [
+      ".htaccess",
+      "mod-rewrite"
+    ],
+    "link": "https://stackoverflow.com/questions/80018048/how-to-redirect-url-with-unknown-parameters-to-new-url-in-htaccess"
+  },
+  {
+    "title": "transfering values using a php 5.1 list statement",
+    "score": -2,
+    "views": 41,
+    "answers": 0,
+    "tags": [
+      "php",
+      "list"
+    ],
+    "link": "https://stackoverflow.com/questions/80018042/transfering-values-using-a-php-5-1-list-statement"
+  },
+  {
+    "title": "Shuffle so item remains in same position, and also is different from previous shuffle",
+    "score": 0,
+    "views": 28,
+    "answers": 1,
+    "tags": [
+      "excel",
+      "vba"
+    ],
+    "link": "https://stackoverflow.com/questions/80018040/shuffle-so-item-remains-in-same-position-and-also-is-different-from-previous-sh"
+  },
+  {
+    "title": "Smart meter data has duplicated, shifted readings around dst change. How do you usually clean this before interpolating?",
+    "score": -2,
+    "views": 58,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "pyspark",
+      "time-series",
+      "interpolation",
+      "dst"
+    ],
+    "link": "https://stackoverflow.com/questions/80018028/smart-meter-data-has-duplicated-shifted-readings-around-dst-change-how-do-you"
+  },
+  {
+    "title": "VS code scale issue",
+    "score": -1,
+    "views": 50,
+    "answers": 1,
+    "tags": [
+      "linux",
+      "vs-code",
+      "settings",
+      "display",
+      "arch"
+    ],
+    "link": "https://stackoverflow.com/questions/80018032/vs-code-scale-issue"
+  },
+  {
+    "title": "How do I find direct and indirect callers of a Go function with falkordb-auryn?",
+    "score": -2,
+    "views": 47,
+    "answers": 0,
+    "tags": [
+      "graph-databases",
+      "falkordb"
+    ],
+    "link": "https://stackoverflow.com/questions/80018030/how-do-i-find-direct-and-indirect-callers-of-a-go-function-with-falkordb-auryn"
+  },
+  {
+    "title": "windows server 2025 failed update KB5122871 error 0x800f0982",
+    "score": -7,
+    "views": 55,
+    "answers": 0,
+    "tags": [
+      "failed-installation"
+    ],
+    "link": "https://stackoverflow.com/questions/80018035/windows-server-2025-failed-update-kb5122871-error-0x800f0982"
+  },
+  {
+    "title": "My Game Maker Y collision code&#39;s while loop is infinite and I can&#39;t tell why it&#39;s not stopping",
+    "score": 0,
+    "views": 41,
+    "answers": 0,
+    "tags": [
+      "while-loop",
+      "infinite-loop",
+      "collision",
+      "game-maker",
+      "game-maker-language"
+    ],
+    "link": "https://stackoverflow.com/questions/80018031/my-game-maker-y-collision-codes-while-loop-is-infinite-and-i-cant-tell-why-it"
+  },
+  {
+    "title": "How do I calculate $2^n$th roots of unity accurately?",
+    "score": 0,
+    "views": 96,
+    "answers": 0,
+    "tags": [
+      "floating-point",
+      "complex-numbers"
+    ],
+    "link": "https://stackoverflow.com/questions/80018007/how-do-i-calculate-2nth-roots-of-unity-accurately"
+  },
+  {
+    "title": "Trying to identify peaks with &gt;5 points using find_peaks or other methods in python",
+    "score": 1,
+    "views": 137,
+    "answers": 1,
+    "tags": [
+      "python",
+      "matplotlib",
+      "scipy"
+    ],
+    "link": "https://stackoverflow.com/questions/80017993/trying-to-identify-peaks-with-5-points-using-find-peaks-or-other-methods-in-pyt"
+  },
+  {
+    "title": "Is this the correct way to use and interpret principal component analysis?",
+    "score": -4,
+    "views": 95,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "r",
+      "machine-learning",
+      "pca"
+    ],
+    "link": "https://stackoverflow.com/questions/80017977/is-this-the-correct-way-to-use-and-interpret-principal-component-analysis"
+  },
+  {
+    "title": "How to add that &quot;gap&quot; in-between sub-elements?",
+    "score": -2,
+    "views": 39,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "node.js"
+    ],
+    "link": "https://stackoverflow.com/questions/80018027/how-to-add-that-gap-in-between-sub-elements"
+  },
+  {
+    "title": "Merging CSV time-series with fixed-value dataframe",
+    "score": 1,
+    "views": 84,
+    "answers": 1,
+    "tags": [
+      "pandas",
+      "csv",
+      "merge",
+      "plotly"
+    ],
+    "link": "https://stackoverflow.com/questions/80018016/merging-csv-time-series-with-fixed-value-dataframe"
+  },
+  {
+    "title": "Why can I not assign a delegate or lambda to a C# 15+ union type?",
+    "score": 4,
+    "views": 125,
+    "answers": 2,
+    "tags": [
+      "c#",
+      ".net",
+      "union-types",
+      ".net-11.0"
+    ],
+    "link": "https://stackoverflow.com/questions/80017970/why-can-i-not-assign-a-delegate-or-lambda-to-a-c-15-union-type"
+  },
+  {
+    "title": "Optimizing Rain Simulation",
+    "score": -4,
+    "views": 165,
+    "answers": 0,
+    "tags": [
+      "python",
+      "python-3.x",
+      "performance",
+      "pygame"
+    ],
+    "link": "https://stackoverflow.com/questions/80017983/optimizing-rain-simulation"
+  },
+  {
+    "title": "Python namespace packages: is it possible for the main package give information when importing a subpackage fails",
+    "score": 1,
+    "views": 143,
+    "answers": 0,
+    "tags": [
+      "python",
+      "python-import"
+    ],
+    "link": "https://stackoverflow.com/questions/80018009/python-namespace-packages-is-it-possible-for-the-main-package-give-information"
+  },
+  {
+    "title": "How to use autograd.grad() to implement gradient clipping in Pytorch?",
+    "score": 1,
+    "views": 109,
+    "answers": 0,
+    "tags": [
+      "python",
+      "deep-learning",
+      "pytorch",
+      "autograd"
+    ],
+    "link": "https://stackoverflow.com/questions/80018002/how-to-use-autograd-grad-to-implement-gradient-clipping-in-pytorch"
+  },
+  {
+    "title": "How to not make quoted column names using liquibase for multiword field names",
+    "score": 0,
+    "views": 50,
+    "answers": 0,
+    "tags": [
+      "spring",
+      "hibernate",
+      "liquibase"
+    ],
+    "link": "https://stackoverflow.com/questions/80017992/how-to-not-make-quoted-column-names-using-liquibase-for-multiword-field-names"
+  }
+]
