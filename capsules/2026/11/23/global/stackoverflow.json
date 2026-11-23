@@ -1,0 +1,248 @@
+[
+  {
+    "title": "Is Android Restore Credentials required for an app using Microsoft MSAL for .Net MAUI application?",
+    "score": 0,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "android",
+      "google-play",
+      "maui",
+      "restore",
+      "credential-manager"
+    ],
+    "link": "https://stackoverflow.com/questions/80018203/is-android-restore-credentials-required-for-an-app-using-microsoft-msal-for-net"
+  },
+  {
+    "title": "How can I optimize a Python function to find the longest palindrome in a string?",
+    "score": 3,
+    "views": 38,
+    "answers": 0,
+    "tags": [
+      "python",
+      "string",
+      "palindrome"
+    ],
+    "link": "https://stackoverflow.com/questions/80018196/how-can-i-optimize-a-python-function-to-find-the-longest-palindrome-in-a-string"
+  },
+  {
+    "title": "How can I capture and inspect all network requests from Android and iOS apps?",
+    "score": -2,
+    "views": 31,
+    "answers": 0,
+    "tags": [
+      "android",
+      "ios",
+      "network-programming",
+      "proxy",
+      "mitmproxy"
+    ],
+    "link": "https://stackoverflow.com/questions/80018200/how-can-i-capture-and-inspect-all-network-requests-from-android-and-ios-apps"
+  },
+  {
+    "title": "How to print randomly-selected strings?",
+    "score": 1,
+    "views": 63,
+    "answers": 5,
+    "tags": [
+      "python",
+      "variables"
+    ],
+    "link": "https://stackoverflow.com/questions/80018190/how-to-print-randomly-selected-strings"
+  },
+  {
+    "title": "Preventing memory fragmentation when streaming large WASM-allocated binary buffers via WebSockets in SharedArrayBuffers",
+    "score": 0,
+    "views": 28,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "websocket",
+      "memory-management",
+      "v8",
+      "webassembly"
+    ],
+    "link": "https://stackoverflow.com/questions/80018189/preventing-memory-fragmentation-when-streaming-large-wasm-allocated-binary-buffe"
+  },
+  {
+    "title": "E_OUTOFMEMORY error when allocating a default heap",
+    "score": 0,
+    "views": 49,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "directx",
+      "directx-12"
+    ],
+    "link": "https://stackoverflow.com/questions/80018182/e-outofmemory-error-when-allocating-a-default-heap"
+  },
+  {
+    "title": "How can I replace matrix values below a threshold with their row labels?",
+    "score": -2,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "matrix",
+      "vectorization",
+      "dolphindb"
+    ],
+    "link": "https://stackoverflow.com/questions/80018186/how-can-i-replace-matrix-values-below-a-threshold-with-their-row-labels"
+  },
+  {
+    "title": "Difficult GPU Installation",
+    "score": -4,
+    "views": 64,
+    "answers": 0,
+    "tags": [
+      "gpu",
+      "hardware"
+    ],
+    "link": "https://stackoverflow.com/questions/80018179/difficult-gpu-installation"
+  },
+  {
+    "title": "Is it possible to deadlock a cython.pymutex by taking the GIL?",
+    "score": 2,
+    "views": 42,
+    "answers": 0,
+    "tags": [
+      "python",
+      "multithreading",
+      "cython"
+    ],
+    "link": "https://stackoverflow.com/questions/80018178/is-it-possible-to-deadlock-a-cython-pymutex-by-taking-the-gil"
+  },
+  {
+    "title": "this function is supposed to remove specific numbers from an array, but its incomplete, it doesnt remove all numbers but rather only one",
+    "score": -5,
+    "views": 104,
+    "answers": 1,
+    "tags": [
+      "javascript"
+    ],
+    "link": "https://stackoverflow.com/questions/80018156/this-function-is-supposed-to-remove-specific-numbers-from-an-array-but-its-inco"
+  },
+  {
+    "title": "Is Khronos&#39; SPIR-V just a newer version of SPIR(-not-V)?",
+    "score": 0,
+    "views": 37,
+    "answers": 1,
+    "tags": [
+      "version",
+      "opencl",
+      "spir-v",
+      "spir"
+    ],
+    "link": "https://stackoverflow.com/questions/80018172/is-khronos-spir-v-just-a-newer-version-of-spir-not-v"
+  },
+  {
+    "title": "Expand a tuple to explicitly instantiate multiple function templates",
+    "score": 0,
+    "views": 84,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "function",
+      "templates",
+      "explicit-instantiation"
+    ],
+    "link": "https://stackoverflow.com/questions/80018162/expand-a-tuple-to-explicitly-instantiate-multiple-function-templates"
+  },
+  {
+    "title": "RBAC (role-based access control) in micro services",
+    "score": -4,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "asp.net-core-webapi"
+    ],
+    "link": "https://stackoverflow.com/questions/80018154/rbac-role-based-access-control-in-micro-services"
+  },
+  {
+    "title": "Checking email uniqueness in php",
+    "score": 1,
+    "views": 74,
+    "answers": 0,
+    "tags": [
+      "best-practices",
+      "php",
+      "mysql",
+      "session",
+      "post"
+    ],
+    "link": "https://stackoverflow.com/questions/80018174/checking-email-uniqueness-in-php"
+  },
+  {
+    "title": "Delphi 13 FireMonkey Android app crashes immediately on Huawei/Xiaomi devices but works on Samsung",
+    "score": -1,
+    "views": 34,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "android",
+      "delphi",
+      "crash",
+      "firemonkey"
+    ],
+    "link": "https://stackoverflow.com/questions/80018173/delphi-13-firemonkey-android-app-crashes-immediately-on-huawei-xiaomi-devices-bu"
+  },
+  {
+    "title": "variable access separation in c",
+    "score": 1,
+    "views": 153,
+    "answers": 2,
+    "tags": [
+      "c"
+    ],
+    "link": "https://stackoverflow.com/questions/80018118/variable-access-separation-in-c"
+  },
+  {
+    "title": "How to use an api in php look like open-meteo api",
+    "score": -6,
+    "views": 63,
+    "answers": 0,
+    "tags": [
+      "php"
+    ],
+    "link": "https://stackoverflow.com/questions/80018150/how-to-use-an-api-in-php-look-like-open-meteo-api"
+  },
+  {
+    "title": "Cloud Run built-in Cloud SQL connection drops all pooled connections at once every few hours, but Auth Proxy sidecar doesn&#39;t",
+    "score": 0,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "mysql",
+      "node.js",
+      "google-cloud-sql",
+      "google-cloud-run",
+      "mysql2"
+    ],
+    "link": "https://stackoverflow.com/questions/80018165/cloud-run-built-in-cloud-sql-connection-drops-all-pooled-connections-at-once-eve"
+  },
+  {
+    "title": "How to use pointer-to-member with a non-thread address space in Metal?",
+    "score": 1,
+    "views": 134,
+    "answers": 1,
+    "tags": [
+      "c++",
+      "swift",
+      "metal"
+    ],
+    "link": "https://stackoverflow.com/questions/80018100/how-to-use-pointer-to-member-with-a-non-thread-address-space-in-metal"
+  },
+  {
+    "title": "&quot;Cannot overload functions distinguished by return type alone&quot; when only one definition is present",
+    "score": -2,
+    "views": 74,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "constexpr",
+      "function-declaration",
+      "name-clash"
+    ],
+    "link": "https://stackoverflow.com/questions/80018161/cannot-overload-functions-distinguished-by-return-type-alone-when-only-one-def"
+  }
+]
