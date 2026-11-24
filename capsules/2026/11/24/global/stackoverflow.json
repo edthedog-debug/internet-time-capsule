@@ -1,0 +1,234 @@
+[
+  {
+    "title": "How to force overflow in CSS",
+    "score": 0,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "css",
+      "overflow"
+    ],
+    "link": "https://stackoverflow.com/questions/80018427/how-to-force-overflow-in-css"
+  },
+  {
+    "title": "Can a conforming implementation produce an execution that is different from the logical deduction according to the standard?",
+    "score": 0,
+    "views": 29,
+    "answers": 0,
+    "tags": [
+      "c++",
+      "language-lawyer",
+      "atomic"
+    ],
+    "link": "https://stackoverflow.com/questions/80018429/can-a-conforming-implementation-produce-an-execution-that-is-different-from-the"
+  },
+  {
+    "title": "Why is Webstorm/PhpStorm lagging like crazy when long HTML elements are on screen?",
+    "score": -1,
+    "views": 28,
+    "answers": 0,
+    "tags": [
+      "phpstorm",
+      "webstorm",
+      "jetbrains-ide"
+    ],
+    "link": "https://stackoverflow.com/questions/80018424/why-is-webstorm-phpstorm-lagging-like-crazy-when-long-html-elements-are-on-scree"
+  },
+  {
+    "title": "I think my burp browser keep redirecting to chrom",
+    "score": -3,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "burp"
+    ],
+    "link": "https://stackoverflow.com/questions/80018428/i-think-my-burp-browser-keep-redirecting-to-chrom"
+  },
+  {
+    "title": "TortoiseGit auto-update: installing language pack before main update makes it ineffective",
+    "score": -5,
+    "views": 56,
+    "answers": 0,
+    "tags": [
+      "tortoisegit"
+    ],
+    "link": "https://stackoverflow.com/questions/80018417/tortoisegit-auto-update-installing-language-pack-before-main-update-makes-it-in"
+  },
+  {
+    "title": "A typed NULL baseline fails in a prepared vibration export",
+    "score": 1,
+    "views": 58,
+    "answers": 0,
+    "tags": [
+      "java",
+      "jdbc",
+      "apache-iotdb",
+      "tablemodel"
+    ],
+    "link": "https://stackoverflow.com/questions/80018408/a-typed-null-baseline-fails-in-a-prepared-vibration-export"
+  },
+  {
+    "title": "What is `importlib.metadata.Distribution.at()` in Python?",
+    "score": 2,
+    "views": 87,
+    "answers": 1,
+    "tags": [
+      "python",
+      "python-importlib"
+    ],
+    "link": "https://stackoverflow.com/questions/80018394/what-is-importlib-metadata-distribution-at-in-python"
+  },
+  {
+    "title": "Why does Innodb_row_lock_current_waits stay above zero after blocked updates finish in PolarDB MySQL 5.7?",
+    "score": 2,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "polardb"
+    ],
+    "link": "https://stackoverflow.com/questions/80018405/why-does-innodb-row-lock-current-waits-stay-above-zero-after-blocked-updates-fin"
+  },
+  {
+    "title": "Physical storage implementation of Global Secondary Indexes (GSI) on partitioned tables in PolarDB-MySQL",
+    "score": 2,
+    "views": 26,
+    "answers": 0,
+    "tags": [
+      "polardb"
+    ],
+    "link": "https://stackoverflow.com/questions/80018399/physical-storage-implementation-of-global-secondary-indexes-gsi-on-partitioned"
+  },
+  {
+    "title": "Why this `attr` class adds `Any` to its attributes&#39; type annotations?",
+    "score": 2,
+    "views": 93,
+    "answers": 2,
+    "tags": [
+      "python",
+      "pyright",
+      "python-attrs"
+    ],
+    "link": "https://stackoverflow.com/questions/80018372/why-this-attr-class-adds-any-to-its-attributes-type-annotations"
+  },
+  {
+    "title": "Downloading public Google Docs files in C#",
+    "score": 3,
+    "views": 118,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "google-docs-api"
+    ],
+    "link": "https://stackoverflow.com/questions/80018366/downloading-public-google-docs-files-in-c"
+  },
+  {
+    "title": "How can I fix the DEX code optimization score of 0%?",
+    "score": -2,
+    "views": 44,
+    "answers": 0,
+    "tags": [
+      "android",
+      "react-native",
+      "expo"
+    ],
+    "link": "https://stackoverflow.com/questions/80018391/how-can-i-fix-the-dex-code-optimization-score-of-0"
+  },
+  {
+    "title": "Cannot connect to Apple Store Connect account from macOS 26",
+    "score": -5,
+    "views": 47,
+    "answers": 0,
+    "tags": [
+      "macos",
+      "app-store",
+      "macos-tahoe"
+    ],
+    "link": "https://stackoverflow.com/questions/80018385/cannot-connect-to-apple-store-connect-account-from-macos-26"
+  },
+  {
+    "title": "Put legend keys on top and bottom of colorbar",
+    "score": 4,
+    "views": 121,
+    "answers": 2,
+    "tags": [
+      "r",
+      "ggplot2",
+      "colorbar",
+      "legend-properties"
+    ],
+    "link": "https://stackoverflow.com/questions/80018338/put-legend-keys-on-top-and-bottom-of-colorbar"
+  },
+  {
+    "title": "How do I handle processing silent notifications on iOS?",
+    "score": 2,
+    "views": 60,
+    "answers": 0,
+    "tags": [
+      "ios",
+      "swift",
+      "push-notification",
+      "notifications",
+      "apple-push-notifications"
+    ],
+    "link": "https://stackoverflow.com/questions/80018336/how-do-i-handle-processing-silent-notifications-on-ios"
+  },
+  {
+    "title": "how do i run powershell alike commands using asyncio.create_subprocess_shell()?",
+    "score": -3,
+    "views": 73,
+    "answers": 1,
+    "tags": [
+      "python",
+      "powershell",
+      "subprocess",
+      "python-asyncio"
+    ],
+    "link": "https://stackoverflow.com/questions/80018373/how-do-i-run-powershell-alike-commands-using-asyncio-create-subprocess-shell"
+  },
+  {
+    "title": "Why don&#39;t triggering options and fill affect mavg and cumsum in streamEngineParser?",
+    "score": 1,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "time-series",
+      "streaming",
+      "dolphindb"
+    ],
+    "link": "https://stackoverflow.com/questions/80018388/why-dont-triggering-options-and-fill-affect-mavg-and-cumsum-in-streamenginepars"
+  },
+  {
+    "title": "Receipt OCR with a vision model: one structured-output call, or a two-pass extract-then-normalize pipeline?",
+    "score": -12,
+    "views": 72,
+    "answers": 0,
+    "tags": [
+      "python",
+      "ocr",
+      "openai-api"
+    ],
+    "link": "https://stackoverflow.com/questions/80018378/receipt-ocr-with-a-vision-model-one-structured-output-call-or-a-two-pass-extra"
+  },
+  {
+    "title": "what the best way is to encrypt json data in images",
+    "score": -9,
+    "views": 91,
+    "answers": 0,
+    "tags": [
+      "encryption",
+      "steganography"
+    ],
+    "link": "https://stackoverflow.com/questions/80018380/what-the-best-way-is-to-encrypt-json-data-in-images"
+  },
+  {
+    "title": "What is the mystery icon of a drive on fire is in Visual Studio 2026?",
+    "score": 2,
+    "views": 184,
+    "answers": 1,
+    "tags": [
+      "visual-studio",
+      "visual-studio-2026"
+    ],
+    "link": "https://stackoverflow.com/questions/80018286/what-is-the-mystery-icon-of-a-drive-on-fire-is-in-visual-studio-2026"
+  }
+]
