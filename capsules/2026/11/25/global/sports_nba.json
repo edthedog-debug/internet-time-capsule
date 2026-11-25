@@ -1,0 +1,26 @@
+[
+  {
+    "home": "Orlando Magic",
+    "away": "Detroit Pistons",
+    "home_score": "86",
+    "away_score": "104",
+    "status": "STATUS_FINAL",
+    "date": "2026-11-25T00:00Z"
+  },
+  {
+    "home": "Washington Wizards",
+    "away": "Boston Celtics",
+    "home_score": "116",
+    "away_score": "131",
+    "status": "STATUS_FINAL",
+    "date": "2026-11-25T01:00Z"
+  },
+  {
+    "home": "Denver Nuggets",
+    "away": "Dallas Mavericks",
+    "home_score": "101",
+    "away_score": "120",
+    "status": "STATUS_FINAL",
+    "date": "2026-11-25T03:00Z"
+  }
+]

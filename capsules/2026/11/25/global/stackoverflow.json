@@ -1,0 +1,241 @@
+[
+  {
+    "title": "Termius password issue",
+    "score": -2,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "server"
+    ],
+    "link": "https://stackoverflow.com/questions/80018586/termius-password-issue"
+  },
+  {
+    "title": "Why does array_length() reject greater-than comparisons in Milvus 2.3.3?",
+    "score": -1,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "python",
+      "arrays",
+      "filter",
+      "boolean-expression",
+      "milvus"
+    ],
+    "link": "https://stackoverflow.com/questions/80018588/why-does-array-length-reject-greater-than-comparisons-in-milvus-2-3-3"
+  },
+  {
+    "title": "Does Google Home expose the Digital Home Key provisioning UI only for Aliro-certified/registered VID/PIDs?",
+    "score": -2,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "nfc",
+      "google-smart-home",
+      "wallet"
+    ],
+    "link": "https://stackoverflow.com/questions/80018590/does-google-home-expose-the-digital-home-key-provisioning-ui-only-for-aliro-cert"
+  },
+  {
+    "title": "Is it a good practice to store user information (email, name, role, etc.) in JWT access tokens?",
+    "score": -2,
+    "views": 56,
+    "answers": 1,
+    "tags": [
+      "python-3.x",
+      "fastapi"
+    ],
+    "link": "https://stackoverflow.com/questions/80018574/is-it-a-good-practice-to-store-user-information-email-name-role-etc-in-jwt"
+  },
+  {
+    "title": "Why does == return True while is returns False?",
+    "score": -3,
+    "views": 25,
+    "answers": 0,
+    "tags": [
+      "python"
+    ],
+    "link": "https://stackoverflow.com/questions/80018579/why-does-return-true-while-is-returns-false"
+  },
+  {
+    "title": "In Samsung Internet 31.0 on Android, navigator.connection is null for some users",
+    "score": -2,
+    "views": 35,
+    "answers": 1,
+    "tags": [
+      "javascript"
+    ],
+    "link": "https://stackoverflow.com/questions/80018582/in-samsung-internet-31-0-on-android-navigator-connection-is-null-for-some-users"
+  },
+  {
+    "title": "Live Edit crashes with IllegalStateException &quot;Unable to find method lambda$12&quot; after editing a Text string, when used rememberInfiniteTransition",
+    "score": -1,
+    "views": 18,
+    "answers": 1,
+    "tags": [
+      "kotlin",
+      "android-studio",
+      "android-jetpack-compose",
+      "liveedit"
+    ],
+    "link": "https://stackoverflow.com/questions/80018572/live-edit-crashes-with-illegalstateexception-unable-to-find-method-lambda12-a"
+  },
+  {
+    "title": "Retrieval-Augmented Generation (RAG) and structured data",
+    "score": -3,
+    "views": 52,
+    "answers": 0,
+    "tags": [
+      "python",
+      "large-language-model",
+      "rag",
+      "document-processing"
+    ],
+    "link": "https://stackoverflow.com/questions/80018566/retrieval-augmented-generation-rag-and-structured-data"
+  },
+  {
+    "title": "TDengine`last_row()` returns empty columns on child table while`SELECT * ... ORDER BY ts DESC LIMIT 1` works correctly",
+    "score": -2,
+    "views": 23,
+    "answers": 0,
+    "tags": [
+      "tdengine"
+    ],
+    "link": "https://stackoverflow.com/questions/80018565/tdenginelast-row-returns-empty-columns-on-child-table-whileselect-ord"
+  },
+  {
+    "title": "Electron app under Wine on Debian: Chromium FATAL hwnd_util.cc(65) error 1400 while wine notepad opens windows fine",
+    "score": -4,
+    "views": 45,
+    "answers": 0,
+    "tags": [
+      "electron",
+      "wine"
+    ],
+    "link": "https://stackoverflow.com/questions/80018561/electron-app-under-wine-on-debian-chromium-fatal-hwnd-util-cc65-error-1400-wh"
+  },
+  {
+    "title": "When testing TPC-H Q10 on PolarDB , the execution plan is unstable and the query latency fluct varies. What could be the reason?",
+    "score": -1,
+    "views": 35,
+    "answers": 0,
+    "tags": [
+      "sql",
+      "query-optimization",
+      "polardb"
+    ],
+    "link": "https://stackoverflow.com/questions/80018562/when-testing-tpc-h-q10-on-polardb-the-execution-plan-is-unstable-and-the-query"
+  },
+  {
+    "title": "Improving EF Core SQLite queries and seeding (AnyAsync, AddRangeAsync) and understanding DbContext",
+    "score": 2,
+    "views": 90,
+    "answers": 1,
+    "tags": [
+      "best-practices",
+      "c#",
+      "database",
+      "sqlite",
+      "entity-framework-core"
+    ],
+    "link": "https://stackoverflow.com/questions/80018513/improving-ef-core-sqlite-queries-and-seeding-anyasync-addrangeasync-and-under"
+  },
+  {
+    "title": "Selecting all instances of an Anchor tag using a regular expression",
+    "score": -1,
+    "views": 108,
+    "answers": 2,
+    "tags": [
+      "html",
+      "regex",
+      "bash"
+    ],
+    "link": "https://stackoverflow.com/questions/80018502/selecting-all-instances-of-an-anchor-tag-using-a-regular-expression"
+  },
+  {
+    "title": "Java4Shell Vulnerability: Update Your JetBrains IDEs, ReSharper, .NET Tools, Toolbox App, and Gateway Now",
+    "score": -6,
+    "views": 59,
+    "answers": 0,
+    "tags": [
+      "advice",
+      "java",
+      "jetbrains-ide"
+    ],
+    "link": "https://stackoverflow.com/questions/80018558/java4shell-vulnerability-update-your-jetbrains-ides-resharper-net-tools-too"
+  },
+  {
+    "title": "How to remove duplicate records in Ab Initio using the Dedup component?",
+    "score": -6,
+    "views": 46,
+    "answers": 0,
+    "tags": [
+      "duplicates",
+      "etl",
+      "data-warehouse",
+      "data-integration",
+      "ab-initio"
+    ],
+    "link": "https://stackoverflow.com/questions/80018560/how-to-remove-duplicate-records-in-ab-initio-using-the-dedup-component"
+  },
+  {
+    "title": "Excel VBA: Consolidation of Duplicate Rows including Sum of Values",
+    "score": -3,
+    "views": 58,
+    "answers": 1,
+    "tags": [
+      "vba",
+      "duplicates",
+      "consolidation",
+      "drop-duplicates"
+    ],
+    "link": "https://stackoverflow.com/questions/80018537/excel-vba-consolidation-of-duplicate-rows-including-sum-of-values"
+  },
+  {
+    "title": "Robust K-means weighted clustering function for ~200,000 data points?",
+    "score": -2,
+    "views": 58,
+    "answers": 0,
+    "tags": [
+      "tooling-recommendation",
+      "r"
+    ],
+    "link": "https://stackoverflow.com/questions/80018551/robust-k-means-weighted-clustering-function-for-200-000-data-points"
+  },
+  {
+    "title": "Bubble does not sort the array in C",
+    "score": 0,
+    "views": 138,
+    "answers": 2,
+    "tags": [
+      "c",
+      "sorting",
+      "nested-loops",
+      "swap",
+      "bubble-sort"
+    ],
+    "link": "https://stackoverflow.com/questions/80018517/bubble-does-not-sort-the-array-in-c"
+  },
+  {
+    "title": "How can a buffer overflow allow for RCE?",
+    "score": -4,
+    "views": 83,
+    "answers": 0,
+    "tags": [
+      "linux-kernel",
+      "glibc"
+    ],
+    "link": "https://stackoverflow.com/questions/80018538/how-can-a-buffer-overflow-allow-for-rce"
+  },
+  {
+    "title": "R studio trying to install library tidyverse but &quot;Error in library(&quot;tidyverse&quot;) : there is no package called ‘tidyverse’ &quot;",
+    "score": 1,
+    "views": 69,
+    "answers": 0,
+    "tags": [
+      "r",
+      "linux",
+      "package"
+    ],
+    "link": "https://stackoverflow.com/questions/80018530/r-studio-trying-to-install-library-tidyverse-but-error-in-librarytidyverse"
+  }
+]
