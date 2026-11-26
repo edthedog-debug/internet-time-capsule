@@ -1,0 +1,246 @@
+[
+  {
+    "title": "Script to generate and fill a template does not populate",
+    "score": 1,
+    "views": 62,
+    "answers": 0,
+    "tags": [
+      "google-sheets",
+      "google-apps-script"
+    ],
+    "link": "https://stackoverflow.com/questions/80018752/script-to-generate-and-fill-a-template-does-not-populate"
+  },
+  {
+    "title": "I narrowed a segfault to 22 lines of code but I already accounted for null terminators in dynamic memory and variable limits, what else could it be?",
+    "score": 4,
+    "views": 112,
+    "answers": 1,
+    "tags": [
+      "c",
+      "struct",
+      "buffer-overflow"
+    ],
+    "link": "https://stackoverflow.com/questions/80018742/i-narrowed-a-segfault-to-22-lines-of-code-but-i-already-accounted-for-null-termi"
+  },
+  {
+    "title": "Why does Milvus 2.4.4 reject a scalar-only collection that worked in 2.4.1?",
+    "score": 0,
+    "views": 28,
+    "answers": 0,
+    "tags": [
+      "python",
+      "database",
+      "vector",
+      "database-schema",
+      "milvus"
+    ],
+    "link": "https://stackoverflow.com/questions/80018747/why-does-milvus-2-4-4-reject-a-scalar-only-collection-that-worked-in-2-4-1"
+  },
+  {
+    "title": "Integrate a partial that is dedicated to site responsivness through media queries",
+    "score": -1,
+    "views": 56,
+    "answers": 0,
+    "tags": [
+      "html",
+      "css",
+      "sass"
+    ],
+    "link": "https://stackoverflow.com/questions/80018733/integrate-a-partial-that-is-dedicated-to-site-responsivness-through-media-querie"
+  },
+  {
+    "title": "Mozert Slider (@mozert-studio/mozert-slider) dynamic pagination bullets not updating on responsive breakpoints",
+    "score": -1,
+    "views": 56,
+    "answers": 0,
+    "tags": [
+      "javascript",
+      "html",
+      "css",
+      "slider",
+      "carousel"
+    ],
+    "link": "https://stackoverflow.com/questions/80018738/mozert-slider-mozert-studio-mozert-slider-dynamic-pagination-bullets-not-upda"
+  },
+  {
+    "title": "Wanted help understanding if these diags are correct?",
+    "score": -7,
+    "views": 59,
+    "answers": 0,
+    "tags": [
+      "python",
+      "computer-vision",
+      "erd",
+      "dfd"
+    ],
+    "link": "https://stackoverflow.com/questions/80018737/wanted-help-understanding-if-these-diags-are-correct"
+  },
+  {
+    "title": "Why is reveal_type() recognised without import, but not assert_type() or assert_never()?",
+    "score": 0,
+    "views": 98,
+    "answers": 1,
+    "tags": [
+      "python",
+      "python-typing"
+    ],
+    "link": "https://stackoverflow.com/questions/80018710/why-is-reveal-type-recognised-without-import-but-not-assert-type-or-assert"
+  },
+  {
+    "title": "How to make Pyright obey my annotated type instead of narrowing it?",
+    "score": 0,
+    "views": 124,
+    "answers": 2,
+    "tags": [
+      "python",
+      "python-typing",
+      "pyright"
+    ],
+    "link": "https://stackoverflow.com/questions/80018711/how-to-make-pyright-obey-my-annotated-type-instead-of-narrowing-it"
+  },
+  {
+    "title": "How do I make a box extend farther down the page in HTML?",
+    "score": -2,
+    "views": 133,
+    "answers": 1,
+    "tags": [
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/80018703/how-do-i-make-a-box-extend-farther-down-the-page-in-html"
+  },
+  {
+    "title": "Delphi Custom Control - Name assignment error at design time",
+    "score": 1,
+    "views": 49,
+    "answers": 1,
+    "tags": [
+      "delphi",
+      "custom-controls",
+      "design-time"
+    ],
+    "link": "https://stackoverflow.com/questions/80018684/delphi-custom-control-name-assignment-error-at-design-time"
+  },
+  {
+    "title": "Copy text on image click",
+    "score": -2,
+    "views": 136,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/80018689/copy-text-on-image-click"
+  },
+  {
+    "title": "Safe pattern to process multiple files in Awk",
+    "score": 3,
+    "views": 118,
+    "answers": 3,
+    "tags": [
+      "bash",
+      "awk",
+      "posix"
+    ],
+    "link": "https://stackoverflow.com/questions/80018639/safe-pattern-to-process-multiple-files-in-awk"
+  },
+  {
+    "title": "ServletException during error page processing",
+    "score": 0,
+    "views": 37,
+    "answers": 0,
+    "tags": [
+      "jsf",
+      "payara",
+      "jacc"
+    ],
+    "link": "https://stackoverflow.com/questions/80018683/servletexception-during-error-page-processing"
+  },
+  {
+    "title": "Overflow: auto doesn&#39;t show top part of image",
+    "score": 1,
+    "views": 112,
+    "answers": 1,
+    "tags": [
+      "javascript",
+      "html",
+      "css"
+    ],
+    "link": "https://stackoverflow.com/questions/80018677/overflow-auto-doesnt-show-top-part-of-image"
+  },
+  {
+    "title": "Transforming batch of vector 4 float using simd",
+    "score": 1,
+    "views": 98,
+    "answers": 0,
+    "tags": [
+      "c",
+      "gcc",
+      "x86-64",
+      "simd",
+      "intrinsics"
+    ],
+    "link": "https://stackoverflow.com/questions/80018671/transforming-batch-of-vector-4-float-using-simd"
+  },
+  {
+    "title": "Why does the behaviour of the in operator/__contains__ method differ from manual equality checks?",
+    "score": 1,
+    "views": 141,
+    "answers": 1,
+    "tags": [
+      "python",
+      "list",
+      "numpy"
+    ],
+    "link": "https://stackoverflow.com/questions/80018665/why-does-the-behaviour-of-the-in-operator-contains-method-differ-from-manual"
+  },
+  {
+    "title": "Rust Glancer fails to initialize",
+    "score": 0,
+    "views": 72,
+    "answers": 0,
+    "tags": [
+      "vs-code",
+      "rust",
+      "vscode-extensions",
+      "vscodium"
+    ],
+    "link": "https://stackoverflow.com/questions/80018687/rust-glancer-fails-to-initialize"
+  },
+  {
+    "title": "Flutter AAB works with Internal App Sharing but crashes when installed from Google Play Closed Testing",
+    "score": 0,
+    "views": 58,
+    "answers": 0,
+    "tags": [
+      "android",
+      "flutter",
+      "google-play",
+      "google-play-console"
+    ],
+    "link": "https://stackoverflow.com/questions/80018680/flutter-aab-works-with-internal-app-sharing-but-crashes-when-installed-from-goog"
+  },
+  {
+    "title": "Maven distribution verification - should sha256 or sha 512 be used?",
+    "score": 0,
+    "views": 89,
+    "answers": 1,
+    "tags": [
+      "maven",
+      "maven-3"
+    ],
+    "link": "https://stackoverflow.com/questions/80018648/maven-distribution-verification-should-sha256-or-sha-512-be-used"
+  },
+  {
+    "title": "What is the point of reveal_type?",
+    "score": 1,
+    "views": 178,
+    "answers": 1,
+    "tags": [
+      "python",
+      "python-typing"
+    ],
+    "link": "https://stackoverflow.com/questions/80018643/what-is-the-point-of-reveal-type"
+  }
+]
