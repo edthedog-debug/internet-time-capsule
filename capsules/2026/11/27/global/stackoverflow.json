@@ -1,0 +1,233 @@
+[
+  {
+    "title": "Bigdump on Wampserver stuck on Connecting",
+    "score": -1,
+    "views": 30,
+    "answers": 0,
+    "tags": [
+      "php",
+      "mysql",
+      "windows",
+      "wamp"
+    ],
+    "link": "https://stackoverflow.com/questions/80018952/bigdump-on-wampserver-stuck-on-connecting"
+  },
+  {
+    "title": "How to filter orders with nested OR meta_query using wc_get_orders with HPOS enabled?",
+    "score": 0,
+    "views": 15,
+    "answers": 0,
+    "tags": [
+      "php",
+      "wordpress",
+      "woocommerce"
+    ],
+    "link": "https://stackoverflow.com/questions/80018948/how-to-filter-orders-with-nested-or-meta-query-using-wc-get-orders-with-hpos-ena"
+  },
+  {
+    "title": "Extracting the time-series displacement variable dataset from the rearranged Xarray net file sorted by reference variable and time",
+    "score": 0,
+    "views": 21,
+    "answers": 0,
+    "tags": [
+      "python-xarray",
+      "data-processing",
+      "satellite-image",
+      "disp"
+    ],
+    "link": "https://stackoverflow.com/questions/80018943/extracting-the-time-series-displacement-variable-dataset-from-the-rearranged-xar"
+  },
+  {
+    "title": "How to get release versions and dates from Pypi without downloading each release?",
+    "score": 3,
+    "views": 95,
+    "answers": 1,
+    "tags": [
+      "python",
+      "pypi",
+      "python-packaging"
+    ],
+    "link": "https://stackoverflow.com/questions/80018922/how-to-get-release-versions-and-dates-from-pypi-without-downloading-each-release"
+  },
+  {
+    "title": "Enemy spawning every round",
+    "score": -3,
+    "views": 65,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "unity-game-engine"
+    ],
+    "link": "https://stackoverflow.com/questions/80018913/enemy-spawning-every-round"
+  },
+  {
+    "title": "How to get CSS grid items to fill space vertically?",
+    "score": -2,
+    "views": 35,
+    "answers": 0,
+    "tags": [
+      "css",
+      "css-grid"
+    ],
+    "link": "https://stackoverflow.com/questions/80018929/how-to-get-css-grid-items-to-fill-space-vertically"
+  },
+  {
+    "title": "How do you handle DbUp migrations when a hotfix script conflicts with changes already applied on develop?",
+    "score": 1,
+    "views": 65,
+    "answers": 1,
+    "tags": [
+      "c#",
+      "sql-server",
+      "dbup"
+    ],
+    "link": "https://stackoverflow.com/questions/80018876/how-do-you-handle-dbup-migrations-when-a-hotfix-script-conflicts-with-changes-al"
+  },
+  {
+    "title": "About routing in react , i need explanation how it works",
+    "score": -5,
+    "views": 53,
+    "answers": 0,
+    "tags": [
+      "reactjs"
+    ],
+    "link": "https://stackoverflow.com/questions/80018927/about-routing-in-react-i-need-explanation-how-it-works"
+  },
+  {
+    "title": "while loop sometimes loops infinitely, but sometimes works fine",
+    "score": -1,
+    "views": 121,
+    "answers": 2,
+    "tags": [
+      "javascript",
+      "loops"
+    ],
+    "link": "https://stackoverflow.com/questions/80018915/while-loop-sometimes-loops-infinitely-but-sometimes-works-fine"
+  },
+  {
+    "title": "Confusion between text and number while reading Excel using xlrd",
+    "score": 0,
+    "views": 110,
+    "answers": 1,
+    "tags": [
+      "python",
+      "python-3.x",
+      "excel",
+      "xlrd"
+    ],
+    "link": "https://stackoverflow.com/questions/80018893/confusion-between-text-and-number-while-reading-excel-using-xlrd"
+  },
+  {
+    "title": "How do I implement a yield function for my game engine?",
+    "score": 2,
+    "views": 164,
+    "answers": 2,
+    "tags": [
+      "c",
+      "game-engine",
+      "coroutine"
+    ],
+    "link": "https://stackoverflow.com/questions/80018887/how-do-i-implement-a-yield-function-for-my-game-engine"
+  },
+  {
+    "title": "C++ seg fault when printing matrix in file",
+    "score": -3,
+    "views": 153,
+    "answers": 2,
+    "tags": [
+      "c++"
+    ],
+    "link": "https://stackoverflow.com/questions/80018840/c-seg-fault-when-printing-matrix-in-file"
+  },
+  {
+    "title": "Restricting permutations + PERMANOVA for community composition in RCBD",
+    "score": 1,
+    "views": 36,
+    "answers": 0,
+    "tags": [
+      "r",
+      "permutation",
+      "hierarchical-data",
+      "vegan",
+      "permute"
+    ],
+    "link": "https://stackoverflow.com/questions/80018920/restricting-permutations-permanova-for-community-composition-in-rcbd"
+  },
+  {
+    "title": "Is there a way to make Chat GPT edit files opened in Delphi?",
+    "score": -7,
+    "views": 121,
+    "answers": 0,
+    "tags": [
+      "delphi",
+      "openai-api"
+    ],
+    "link": "https://stackoverflow.com/questions/80018906/is-there-a-way-to-make-chat-gpt-edit-files-opened-in-delphi"
+  },
+  {
+    "title": "I narrowed a segfault to 22 lines of code but I already accounted for null terminators in dynamic memory and variable limits, what else could it be?",
+    "score": 9,
+    "views": 1011,
+    "answers": 2,
+    "tags": [
+      "c",
+      "struct",
+      "buffer-overflow"
+    ],
+    "link": "https://stackoverflow.com/questions/80018742/i-narrowed-a-segfault-to-22-lines-of-code-but-i-already-accounted-for-null-termi"
+  },
+  {
+    "title": "Does reassignment with the same variable name in Rust not allow for reclamation of the originally assigned variable?",
+    "score": 0,
+    "views": 80,
+    "answers": 1,
+    "tags": [
+      "rust"
+    ],
+    "link": "https://stackoverflow.com/questions/80018899/does-reassignment-with-the-same-variable-name-in-rust-not-allow-for-reclamation"
+  },
+  {
+    "title": "How do I capture Mouse/Keyboard input in my game when it&#39;s not the window/application in focus?",
+    "score": -2,
+    "views": 94,
+    "answers": 0,
+    "tags": [
+      "c#",
+      "unity-game-engine"
+    ],
+    "link": "https://stackoverflow.com/questions/80018900/how-do-i-capture-mouse-keyboard-input-in-my-game-when-its-not-the-window-applic"
+  },
+  {
+    "title": "shell script to back up files",
+    "score": -6,
+    "views": 65,
+    "answers": 0,
+    "tags": [
+      "linux",
+      "shell"
+    ],
+    "link": "https://stackoverflow.com/questions/80018874/shell-script-to-back-up-files"
+  },
+  {
+    "title": "Guthub custom image runners",
+    "score": -3,
+    "views": 42,
+    "answers": 0,
+    "tags": [
+      "image",
+      "github",
+      "image-management"
+    ],
+    "link": "https://stackoverflow.com/questions/80018898/guthub-custom-image-runners"
+  },
+  {
+    "title": "Win32 C++ Progress Bar Indefinite Marquee Animation does not work despite PBS_MARQUEE style and PBM_SETMARQUEE message",
+    "score": 0,
+    "views": 53,
+    "answers": 1,
+    "tags": [
+      "winapi"
+    ],
+    "link": "https://stackoverflow.com/questions/80018867/win32-c-progress-bar-indefinite-marquee-animation-does-not-work-despite-pbs-ma"
+  }
+]
